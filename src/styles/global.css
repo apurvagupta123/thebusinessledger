@@ -86,6 +86,8 @@ input  { outline: none; font-family: inherit; border: none; }
   height: 36px;
   background: #0d1420;
   border-bottom: 1px solid rgba(201,168,76,0.15);
+  display: flex;
+  align-items: center;
   overflow: hidden;
 }
 
