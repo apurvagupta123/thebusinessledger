@@ -45,6 +45,20 @@ const sorted = posts.sort((a: any, b: any) =>
           <button class="btn-outline" onclick="document.getElementById('news').scrollIntoView({behavior:'smooth'})">Latest News</button>
         </div>
       </div>
+
+      <!-- Company Spotlight in hero right -->
+      <div class="hero-right">
+        <div class="hero-spotlight">
+          <div class="hs-title">Company Spotlight</div>
+          <div class="spotlight-search">
+            <input id="slInput" type="text" class="sl-input" placeholder="Enter ticker (e.g. AAPL)" />
+            <button id="slBtn" class="sl-btn">Search</button>
+          </div>
+          <div id="slResult">
+            <p class="sl-hint">Enter a stock ticker to see live price &amp; chart.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -131,26 +145,6 @@ const sorted = posts.sort((a: any, b: any) =>
     </div>
   </section>
 
-  <!-- ── News + Spotlight ─────────────────────────────── -->
-  <div class="two-col">
-
-    <!-- Company Spotlight -->
-    <section class="content-section">
-      <div class="section-head">
-        <h2 class="section-title">Company Spotlight</h2>
-      </div>
-      <div class="spotlight-box">
-        <div class="spotlight-search">
-          <input id="slInput" type="text" class="sl-input" placeholder="Enter ticker symbol (e.g. AAPL)" />
-          <button id="slBtn" class="sl-btn">Search</button>
-        </div>
-        <div id="slResult">
-          <p class="sl-hint">Enter a stock ticker above to see company details, live price, and 3-month chart.</p>
-        </div>
-      </div>
-    </section>
-
-  </div>
 
   <!-- ── Blog Posts ───────────────────────────────────── -->
   {sorted.length > 0 && (
