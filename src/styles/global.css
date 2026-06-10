@@ -204,7 +204,7 @@ input  { outline: none; font-family: inherit; border: none; }
   border-bottom: 1px solid var(--border);
   background:
     linear-gradient(to right, rgba(13,17,23,0.82) 40%, rgba(13,17,23,0.45) 100%),
-    url('https://images.unsplash.com/photo-1486325212027-8081e485255e?q=85&w=2400&auto=format&fit=crop')
+    url('https://images.stockcake.com/public/4/5/a/45af89f0-f555-4d5e-ba08-a1a76f79d2d7_large/cityscape-network-overlay-stockcake.jpg')
     center center / cover no-repeat;
   min-height: 520px;
   display: flex;
