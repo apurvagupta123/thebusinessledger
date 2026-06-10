@@ -180,9 +180,17 @@ input  { outline: none; font-family: inherit; border: none; }
 
 /* ── Hero ─────────────────────────────────────────────────── */
 .hero {
-  background: linear-gradient(135deg, #0d1117 0%, #111827 50%, #0d1117 100%);
+  position: relative;
   padding: 72px 28px 56px;
   border-bottom: 1px solid var(--border);
+  background:
+    linear-gradient(to right, rgba(13,17,23,0.82) 40%, rgba(13,17,23,0.45) 100%),
+    url('https://images.unsplash.com/photo-1486325212027-8081e485255e?q=85&w=2400&auto=format&fit=crop')
+    center center / cover no-repeat;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-inner {
