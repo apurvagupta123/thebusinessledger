@@ -67,36 +67,36 @@ const STOCKS = [
 
 </BaseLayout>
 
-<script define:vars={{ stocks: ['JPM','BAC','WFC','GS','MS','C','BLK','V','MA','AXP','BRK-B','SCHW'] }}>
-  const P = 'https://api.allorigins.win/get?url=';
+<script define:vars={{ stocks: ['JPM','BAC','WFC','GS','MS','C','BLK','V','MA','AXP','BRK.B','SCHW'] }}>
+  const POLY_KEY = 'qczUHLpgL7HeJGazAePXSrcYsoAIULbC';
 
   async function loadSector() {
     try {
-      const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${stocks.join(',')}&fields=symbol,regularMarketPrice,regularMarketChange,regularMarketChangePercent`;
-      const r = await fetch(P + encodeURIComponent(url));
-      const w = await r.json();
-      const quotes = JSON.parse(w.contents)?.quoteResponse?.result || [];
+      const r = await fetch(`https://api.polygon.io/v2/snapshot/locale/us/markets/stocks/tickers?tickers=${stocks.join(',')}&apikey=${POLY_KEY}`);
+      const d = await r.json();
+      const quotes = d.tickers || [];
       let totalPct = 0;
 
       quotes.forEach(q => {
-        const chg = q.regularMarketChange ?? 0;
-        const pct = q.regularMarketChangePercent ?? 0;
-        const up  = chg >= 0;
+        const price = q.lastTrade?.p || q.day?.c || q.prevDay?.c || 0;
+        const chg   = q.todaysChange || 0;
+        const pct   = q.todaysChangePerc || 0;
+        const up    = pct >= 0;
         const color = up ? '#22c55e' : '#ef4444';
-        totalPct += pct;
+        totalPct   += pct;
 
-        const card = document.getElementById(`sc-${q.symbol}`);
+        const card = document.getElementById(`sc-${q.ticker}`);
         if (card) card.classList.add(up ? 'up' : 'dn');
-        const bEl = document.getElementById(`scb-${q.symbol}`);
+        const bEl = document.getElementById(`scb-${q.ticker}`);
         if (bEl) { bEl.textContent = `${up?'+':''}${pct.toFixed(2)}%`; bEl.classList.add(up?'badge-up':'badge-dn'); }
-        const pEl = document.getElementById(`scp-${q.symbol}`);
-        if (pEl) pEl.textContent = `$${q.regularMarketPrice?.toFixed(2)}`;
-        const cEl = document.getElementById(`scc-${q.symbol}`);
+        const pEl = document.getElementById(`scp-${q.ticker}`);
+        if (pEl) pEl.textContent = `$${price.toFixed(2)}`;
+        const cEl = document.getElementById(`scc-${q.ticker}`);
         if (cEl) { cEl.textContent = `${up?'▲':'▼'} $${Math.abs(chg).toFixed(2)}`; cEl.style.color = color; }
       });
 
-      const avg = totalPct / quotes.length;
-      const el = document.getElementById('sectorChg');
+      const avg = totalPct / (quotes.length || 1);
+      const el  = document.getElementById('sectorChg');
       if (el) { el.textContent = `${avg>=0?'+':''}${avg.toFixed(2)}%`; el.style.color = avg>=0?'#22c55e':'#ef4444'; }
     } catch {}
   }

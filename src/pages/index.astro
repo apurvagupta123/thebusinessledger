@@ -226,37 +226,43 @@ const sorted = posts.sort((a: any, b: any) =>
 </BaseLayout>
 
 <script>
-  const P = 'https://api.allorigins.win/get?url=';
+  const POLY_KEY = 'qczUHLpgL7HeJGazAePXSrcYsoAIULbC';
+  const FMP_KEY  = 'phURcaq2LTL75pvNfsEL2Lf0GUG8Az2B';
 
-  async function yf(syms: string, fields: string) {
-    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${syms}&fields=${fields}`;
-    const r = await fetch(P + encodeURIComponent(url));
-    const w = await r.json();
-    return JSON.parse(w.contents)?.quoteResponse?.result || [];
+  // ── Polygon batch snapshot ────────────────────────────────────────────
+  async function polySnap(syms: string[]) {
+    const r = await fetch(`https://api.polygon.io/v2/snapshot/locale/us/markets/stocks/tickers?tickers=${syms.join(',')}&apikey=${POLY_KEY}`);
+    const d = await r.json();
+    return (d.tickers || []).map((t: any) => ({
+      symbol:    t.ticker,
+      price:     t.lastTrade?.p || t.day?.c || t.prevDay?.c || 0,
+      change:    t.todaysChange || 0,
+      changePct: t.todaysChangePerc || 0,
+    }));
   }
 
-  async function yfChart(sym: string) {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?range=1mo&interval=1d`;
-    const r = await fetch(P + encodeURIComponent(url));
-    const w = await r.json();
-    return JSON.parse(w.contents)?.chart?.result?.[0] || null;
+  // ── Polygon 30-day aggregates (for sparklines) ────────────────────────
+  async function polyAggs(sym: string, days = 30) {
+    const to   = new Date().toISOString().split('T')[0];
+    const from = new Date(Date.now() - days * 86400000).toISOString().split('T')[0];
+    const r = await fetch(`https://api.polygon.io/v2/aggs/ticker/${sym}/range/1/day/${from}/${to}?adjusted=true&sort=asc&limit=60&apikey=${POLY_KEY}`);
+    const d = await r.json();
+    return (d.results || []).map((b: any) => b.c);
   }
 
   // ── Indices ───────────────────────────────────────────────────────────
   async function loadIndices() {
-    const map: Record<string, string> = { SPY: 'S&P 500', QQQ: 'NASDAQ', DIA: 'DOW JONES', IWM: 'RUSSELL 2000' };
     try {
-      const quotes = await yf(Object.keys(map).join(','), 'symbol,regularMarketPrice,regularMarketChange,regularMarketChangePercent');
+      const quotes = await polySnap(['SPY','QQQ','DIA','IWM']);
+      const nameMap: Record<string,string> = { SPY:'S&P 500', QQQ:'NASDAQ', DIA:'DOW JONES', IWM:'RUSSELL 2000' };
       quotes.forEach((q: any) => {
         const el = document.getElementById(`idx-${q.symbol}`);
         if (!el) return;
-        const chg = q.regularMarketChange ?? 0;
-        const pct = q.regularMarketChangePercent ?? 0;
-        const up  = chg >= 0;
+        const up = q.changePct >= 0;
         el.classList.remove('skeleton');
         el.classList.add(up ? 'up' : 'dn');
-        el.querySelector('.idx-price')!.textContent = `${q.regularMarketPrice?.toFixed(2)}`;
-        el.querySelector('.idx-chg')!.textContent   = `${up ? '▲' : '▼'} ${Math.abs(pct).toFixed(2)}%`;
+        el.querySelector('.idx-price')!.textContent = q.price.toFixed(2);
+        el.querySelector('.idx-chg')!.textContent   = `${up ? '▲' : '▼'} ${Math.abs(q.changePct).toFixed(2)}%`;
       });
     } catch {}
   }
@@ -265,85 +271,69 @@ const sorted = posts.sort((a: any, b: any) =>
   async function loadMarkets() {
     const syms = ['AAPL','MSFT','GOOGL','AMZN','TSLA','META','NVDA','JPM','GS','NFLX'];
     try {
-      const quotes = await yf(syms.join(','), 'symbol,shortName,regularMarketPrice,regularMarketChange,regularMarketChangePercent');
+      const quotes = await polySnap(syms);
       for (const q of quotes) {
-        const chg = q.regularMarketChange ?? 0;
-        const pct = q.regularMarketChangePercent ?? 0;
-        const up  = chg >= 0;
+        const up    = q.changePct >= 0;
         const color = up ? '#22c55e' : '#ef4444';
         const sign  = up ? '+' : '';
 
-        const nameEl  = document.getElementById(`mn-${q.symbol}`);
-        const badgeEl = document.getElementById(`mb-${q.symbol}`);
         const priceEl = document.getElementById(`mp-${q.symbol}`);
         const chgEl   = document.getElementById(`mch-${q.symbol}`);
+        const badgeEl = document.getElementById(`mb-${q.symbol}`);
         const card    = document.getElementById(`mc-${q.symbol}`);
 
-        if (nameEl)  nameEl.textContent  = q.shortName || '';
-        if (priceEl) priceEl.textContent = `$${q.regularMarketPrice?.toFixed(2)}`;
+        if (priceEl) priceEl.textContent = `$${q.price.toFixed(2)}`;
         if (chgEl) {
-          chgEl.textContent = `${up ? '▲' : '▼'} $${Math.abs(chg).toFixed(2)} ${sign}${pct.toFixed(2)}%`;
+          chgEl.textContent = `${up?'▲':'▼'} $${Math.abs(q.change).toFixed(2)} ${sign}${q.changePct.toFixed(2)}%`;
           (chgEl as HTMLElement).style.color = color;
         }
-        if (badgeEl) {
-          badgeEl.textContent = `${up ? '▲' : '▼'} ${Math.abs(pct).toFixed(2)}%`;
-          badgeEl.classList.add(up ? 'badge-up' : 'badge-dn');
-        }
+        if (badgeEl) { badgeEl.textContent = `${up?'▲':'▼'} ${Math.abs(q.changePct).toFixed(2)}%`; badgeEl.classList.add(up?'badge-up':'badge-dn'); }
         if (card) card.classList.add(up ? 'up' : 'dn');
 
-        // Sparkline
-        try {
-          const cd = await yfChart(q.symbol);
-          const closes = cd?.indicators?.quote?.[0]?.close?.filter(Boolean) || [];
-          if (closes.length > 1) {
-            const canvas = document.getElementById(`chart-${q.symbol}`) as HTMLCanvasElement;
-            new (window as any).Chart(canvas, {
-              type: 'line',
-              data: {
-                labels: closes.map((_: any, i: number) => i),
-                datasets: [{ data: closes, borderColor: color, borderWidth: 2, pointRadius: 0,
-                  fill: true, backgroundColor: up ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)' }]
-              },
-              options: { animation: false, responsive: true, maintainAspectRatio: false,
-                plugins: { legend: { display: false }, tooltip: { enabled: false } },
-                scales: { x: { display: false }, y: { display: false } } }
-            });
-          }
-        } catch {}
+        // Sparkline (non-blocking)
+        polyAggs(q.symbol, 30).then(closes => {
+          if (closes.length < 2) return;
+          const canvas = document.getElementById(`chart-${q.symbol}`) as HTMLCanvasElement;
+          if (!canvas) return;
+          new (window as any).Chart(canvas, {
+            type: 'line',
+            data: { labels: closes.map((_: any, i: number) => i),
+              datasets: [{ data: closes, borderColor: color, borderWidth: 2, pointRadius: 0,
+                fill: true, backgroundColor: up ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)' }] },
+            options: { animation: false, responsive: true, maintainAspectRatio: false,
+              plugins: { legend: { display: false }, tooltip: { enabled: false } },
+              scales: { x: { display: false }, y: { display: false } } }
+          });
+        }).catch(() => {});
       }
     } catch {}
   }
 
-  // ── News ──────────────────────────────────────────────────────────────
+  // ── News (FMP) ────────────────────────────────────────────────────────
   async function loadNews() {
     const list = document.getElementById('newsList');
     if (!list) return;
     try {
-      const rss = 'https://feeds.reuters.com/reuters/businessNews';
-      const r = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rss)}&count=8`);
-      const d = await r.json();
-      const items = d?.items || [];
-      if (!items.length) throw new Error('empty');
+      const r = await fetch(`https://financialmodelingprep.com/api/v3/stock_news?limit=8&apikey=${FMP_KEY}`);
+      const items = await r.json();
+      if (!Array.isArray(items) || !items.length) throw new Error('empty');
       list.innerHTML = items.map((item: any) => {
-        const date = new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        return `<a href="${item.link}" class="news-item" target="_blank" rel="noopener">
+        const date = new Date(item.publishedDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        return `<a href="${item.url}" class="news-item" target="_blank" rel="noopener">
           <div class="ni-title">${item.title}</div>
-          <div class="ni-meta">${item.author || 'Reuters'} · ${date}</div>
+          <div class="ni-meta">${item.site || 'Financial News'} · ${date}</div>
         </a>`;
       }).join('');
     } catch {
       const fallback = [
-        ['Fed holds rates as inflation nears 2% target', 'Reuters', '2h ago'],
-        ['S&P 500 hits record high on strong earnings season', 'Bloomberg', '4h ago'],
-        ['Apple unveils new AI features at WWDC', 'CNBC', '5h ago'],
-        ['Oil climbs on Middle East supply concerns', 'Reuters', '6h ago'],
-        ['Tesla beats delivery estimates, stock surges 8%', 'WSJ', '8h ago'],
-        ['Goldman Sachs raises S&P 500 year-end target', 'FT', '10h ago'],
+        ['Fed holds rates as inflation nears 2% target','Reuters','2h ago'],
+        ['S&P 500 hits record high on strong earnings season','Bloomberg','4h ago'],
+        ['Apple unveils new AI features at WWDC','CNBC','5h ago'],
+        ['Oil climbs on Middle East supply concerns','Reuters','6h ago'],
+        ['Tesla beats delivery estimates, stock surges 8%','WSJ','8h ago'],
+        ['Goldman Sachs raises S&P 500 year-end target','FT','10h ago'],
       ];
-      list.innerHTML = fallback.map(([t, s, d]) => `<div class="news-item">
-        <div class="ni-title">${t}</div>
-        <div class="ni-meta">${s} · ${d}</div>
-      </div>`).join('');
+      list.innerHTML = fallback.map(([t, s, d]) => `<div class="news-item"><div class="ni-title">${t}</div><div class="ni-meta">${s} · ${d}</div></div>`).join('');
     }
   }
 
@@ -354,47 +344,46 @@ const sorted = posts.sort((a: any, b: any) =>
     result.innerHTML = `<p class="sl-hint">Loading ${sym.toUpperCase()}…</p>`;
     try {
       const s = sym.toUpperCase().trim();
-      const [quotes, cd] = await Promise.all([
-        yf(s, 'symbol,shortName,longName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,marketCap,trailingPE,fiftyTwoWeekHigh,fiftyTwoWeekLow,averageVolume'),
-        yfChart(s)
+      const [snapArr, fmpArr] = await Promise.all([
+        polySnap([s]),
+        fetch(`https://financialmodelingprep.com/api/v3/quote/${s}?apikey=${FMP_KEY}`).then(r => r.json())
       ]);
-      const q = quotes[0];
-      if (!q) throw new Error('not found');
-      const chg   = q.regularMarketChange ?? 0;
-      const pct   = q.regularMarketChangePercent ?? 0;
+      const snap = snapArr[0];
+      const fq   = Array.isArray(fmpArr) ? fmpArr[0] : null;
+      if (!snap) throw new Error('not found');
+
+      const price = snap.price;
+      const chg   = snap.change;
+      const pct   = snap.changePct;
       const up    = chg >= 0;
       const color = up ? '#22c55e' : '#ef4444';
-      const sign  = up ? '+' : '';
-      const mcap  = q.marketCap ? (q.marketCap >= 1e12 ? `$${(q.marketCap/1e12).toFixed(2)}T` : `$${(q.marketCap/1e9).toFixed(1)}B`) : '—';
+      const mcap  = fq?.marketCap ? (fq.marketCap >= 1e12 ? `$${(fq.marketCap/1e12).toFixed(2)}T` : `$${(fq.marketCap/1e9).toFixed(1)}B`) : '—';
 
       result.innerHTML = `
-        <div class="sl-company">${q.longName || q.shortName || s}</div>
+        <div class="sl-company">${fq?.name || s}</div>
         <div class="sl-price-row">
-          <span class="sl-price" style="color:var(--gold)">$${q.regularMarketPrice?.toFixed(2)}</span>
-          <span class="sl-delta" style="color:${color}">${up ? '▲' : '▼'} $${Math.abs(chg).toFixed(2)} (${sign}${pct.toFixed(2)}%)</span>
+          <span class="sl-price" style="color:var(--gold)">$${price.toFixed(2)}</span>
+          <span class="sl-delta" style="color:${color}">${up?'▲':'▼'} $${Math.abs(chg).toFixed(2)} (${up?'+':''}${pct.toFixed(2)}%)</span>
         </div>
         <div class="sl-stats">
           <div class="sl-stat"><span>Market Cap</span><strong>${mcap}</strong></div>
-          <div class="sl-stat"><span>P/E Ratio</span><strong>${q.trailingPE?.toFixed(1) || '—'}</strong></div>
-          <div class="sl-stat"><span>52W High</span><strong>$${q.fiftyTwoWeekHigh?.toFixed(2) || '—'}</strong></div>
-          <div class="sl-stat"><span>52W Low</span><strong>$${q.fiftyTwoWeekLow?.toFixed(2) || '—'}</strong></div>
-          <div class="sl-stat"><span>Avg Volume</span><strong>${q.averageVolume ? (q.averageVolume/1e6).toFixed(1)+'M' : '—'}</strong></div>
+          <div class="sl-stat"><span>P/E Ratio</span><strong>${fq?.pe?.toFixed(1) || '—'}</strong></div>
+          <div class="sl-stat"><span>52W High</span><strong>$${fq?.yearHigh?.toFixed(2) || '—'}</strong></div>
+          <div class="sl-stat"><span>52W Low</span><strong>$${fq?.yearLow?.toFixed(2) || '—'}</strong></div>
+          <div class="sl-stat"><span>Avg Volume</span><strong>${fq?.avgVolume ? (fq.avgVolume/1e6).toFixed(1)+'M' : '—'}</strong></div>
         </div>
         <canvas id="slChart" style="height:130px;width:100%"></canvas>
       `;
-      const closes    = cd?.indicators?.quote?.[0]?.close?.filter(Boolean) || [];
-      const timestamps = cd?.timestamp || [];
+
+      const closes = await polyAggs(s, 30);
       if (closes.length > 1) {
         new (window as any).Chart(document.getElementById('slChart') as HTMLCanvasElement, {
           type: 'line',
-          data: {
-            labels: timestamps.map((t: number) => new Date(t*1000).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })),
+          data: { labels: closes.map((_: any, i: number) => i),
             datasets: [{ data: closes, borderColor: color, borderWidth: 2, pointRadius: 0,
-              fill: true, backgroundColor: up ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)' }]
-          },
+              fill: true, backgroundColor: up ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)' }] },
           options: { animation: false, responsive: true, maintainAspectRatio: false,
-            plugins: { legend: { display: false },
-              tooltip: { callbacks: { label: (ctx: any) => `$${ctx.parsed.y.toFixed(2)}` } } },
+            plugins: { legend: { display: false }, tooltip: { callbacks: { label: (ctx: any) => `$${ctx.parsed.y.toFixed(2)}` } } },
             scales: {
               x: { ticks: { color: '#8892a4', maxTicksLimit: 5 }, grid: { color: 'rgba(255,255,255,0.04)' } },
               y: { ticks: { color: '#8892a4', callback: (v: any) => `$${v}` }, grid: { color: 'rgba(255,255,255,0.04)' } }
@@ -436,7 +425,6 @@ const sorted = posts.sort((a: any, b: any) =>
       document.getElementById('fgLabel').textContent = label;
       document.getElementById('fgLabel').style.color = color;
 
-      // Rotate needle: -90deg = 0 (fear), 0deg = 50 (neutral), +90deg = 100 (greed)
       const angle = (val / 100) * 180 - 90;
       const needle = document.getElementById('fgNeedle');
       if (needle) needle.setAttribute('transform', `rotate(${angle} 100 100)`);
@@ -449,33 +437,24 @@ const sorted = posts.sort((a: any, b: any) =>
     } catch {}
   }
 
-  // ── Sector Heatmap ───────────────────────────────────────────
+  // ── Sector Heatmap (Polygon) ──────────────────────────────────
   async function loadHeatmap() {
     const sectors = ['XLK','XLF','XLE','XLV','XLY','XLP','XLI','XLU','XLB','XLRE'];
     try {
-      const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${sectors.join(',')}&fields=symbol,regularMarketChangePercent`;
-      const r = await fetch(P + encodeURIComponent(url));
-      const w = await r.json();
-      const quotes = JSON.parse(w.contents)?.quoteResponse?.result || [];
-
+      const quotes = await polySnap(sectors);
       quotes.forEach((q: any) => {
-        const pct  = q.regularMarketChangePercent ?? 0;
+        const pct  = q.changePct;
         const cell = document.getElementById(`hm-${q.symbol}`);
         const pEl  = document.getElementById(`hmp-${q.symbol}`);
         if (!cell || !pEl) return;
         cell.classList.remove('skeleton');
-
-        // Color intensity based on % change
         const intensity = Math.min(Math.abs(pct) / 3, 1);
-        const bg = pct >= 0
-          ? `rgba(34,197,94,${0.1 + intensity * 0.5})`
-          : `rgba(239,68,68,${0.1 + intensity * 0.5})`;
+        const bg    = pct >= 0 ? `rgba(34,197,94,${0.1 + intensity * 0.5})` : `rgba(239,68,68,${0.1 + intensity * 0.5})`;
         const color = pct >= 0 ? '#22c55e' : '#ef4444';
-
-        cell.style.background    = bg;
-        cell.style.borderColor   = color + '40';
-        pEl.textContent          = `${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%`;
-        pEl.style.color          = color;
+        cell.style.background  = bg;
+        cell.style.borderColor = color + '40';
+        pEl.textContent        = `${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%`;
+        pEl.style.color        = color;
       });
     } catch {}
   }

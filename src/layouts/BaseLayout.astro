@@ -91,25 +91,25 @@ const { title } = Astro.props;
 
     <script>
       // ── Ticker ────────────────────────────────────────────────────────
-      const TICKER_SYMS = ['NVDA','META','TSLA','JPM','AAPL','MSFT','GOOGL','AMZN','SPY','QQQ','GS','NFLX','AMD','INTC','BRK-B'];
+      const TICKER_SYMS = ['NVDA','META','TSLA','JPM','AAPL','MSFT','GOOGL','AMZN','SPY','QQQ','GS','NFLX','AMD','INTC','BRK.B'];
+      const POLY_KEY = 'qczUHLpgL7HeJGazAePXSrcYsoAIULbC';
 
       async function loadTicker() {
         const track = document.getElementById('tickerTrack');
         if (!track) return;
         try {
-          const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${TICKER_SYMS.join(',')}&fields=symbol,regularMarketPrice,regularMarketChange,regularMarketChangePercent`;
-          const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
-          const w = await res.json();
-          const quotes = JSON.parse(w.contents)?.quoteResponse?.result || [];
+          const r = await fetch(`https://api.polygon.io/v2/snapshot/locale/us/markets/stocks/tickers?tickers=${TICKER_SYMS.join(',')}&apikey=${POLY_KEY}`);
+          const d = await r.json();
+          const quotes = d.tickers || [];
           if (!quotes.length) throw new Error('empty');
 
           const html = quotes.map(q => {
-            const chg = q.regularMarketChange ?? 0;
-            const pct = q.regularMarketChangePercent ?? 0;
-            const up  = chg >= 0;
-            const arrow = up ? '▲' : '▼';
+            const price = q.lastTrade?.p || q.day?.c || q.prevDay?.c || 0;
+            const chg   = q.todaysChange || 0;
+            const pct   = q.todaysChangePerc || 0;
+            const up    = chg >= 0;
             const cls   = up ? 'up' : 'dn';
-            return `<span class="ti ${cls}"><strong>${q.symbol}</strong> $${q.regularMarketPrice?.toFixed(2)} <em>${arrow} ${Math.abs(pct).toFixed(2)}%</em></span>`;
+            return `<span class="ti ${cls}"><strong>${q.ticker}</strong> $${price.toFixed(2)} <em>${up?'▲':'▼'} ${Math.abs(pct).toFixed(2)}%</em></span>`;
           }).join('<span class="ti-sep">·</span>');
 
           track.innerHTML = html + '<span class="ti-sep" style="padding:0 20px"> </span>' + html;

@@ -39,11 +39,11 @@ export async function getStaticPaths() {
     <div class="cp-main">
       <div class="cp-chart-box">
         <div class="cp-chart-controls">
-          <button class="cpc-btn active" data-range="1mo" data-interval="1d">1M</button>
-          <button class="cpc-btn" data-range="3mo" data-interval="1d">3M</button>
-          <button class="cpc-btn" data-range="6mo" data-interval="1wk">6M</button>
-          <button class="cpc-btn" data-range="1y" data-interval="1wk">1Y</button>
-          <button class="cpc-btn" data-range="5y" data-interval="1mo">5Y</button>
+          <button class="cpc-btn active" data-days="30" data-span="day">1M</button>
+          <button class="cpc-btn" data-days="90" data-span="day">3M</button>
+          <button class="cpc-btn" data-days="180" data-span="day">6M</button>
+          <button class="cpc-btn" data-days="365" data-span="day">1Y</button>
+          <button class="cpc-btn" data-days="1825" data-span="week">5Y</button>
         </div>
         <div class="cp-chart-wrap">
           <canvas id="companyChart"></canvas>
@@ -94,112 +94,100 @@ export async function getStaticPaths() {
 </BaseLayout>
 
 <script define:vars={{ sym }}>
-  const P = 'https://api.allorigins.win/get?url=';
+  const POLY_KEY = 'qczUHLpgL7HeJGazAePXSrcYsoAIULbC';
+  const FMP_KEY  = 'phURcaq2LTL75pvNfsEL2Lf0GUG8Az2B';
   let chartInstance = null;
 
-  async function yf(fields) {
-    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${sym}&fields=${fields}`;
-    const r = await fetch(P + encodeURIComponent(url));
-    const w = await r.json();
-    return JSON.parse(w.contents)?.quoteResponse?.result?.[0] || null;
-  }
-
-  async function yfChart(range, interval) {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?range=${range}&interval=${interval}`;
-    const r = await fetch(P + encodeURIComponent(url));
-    const w = await r.json();
-    return JSON.parse(w.contents)?.chart?.result?.[0] || null;
-  }
-
-  // ── Load Quote ──────────────────────────────────────────────
+  // ── Load Quote + Profile (FMP) ──────────────────────────────
   async function loadQuote() {
-    const q = await yf('symbol,shortName,longName,regularMarketPrice,regularMarketChange,regularMarketChangePercent,marketCap,trailingPE,fiftyTwoWeekHigh,fiftyTwoWeekLow,averageVolume,dividendYield,longBusinessSummary,sector,industry,website,country,fullTimeEmployees');
-    if (!q) return;
+    try {
+      const [qArr, pArr] = await Promise.all([
+        fetch(`https://financialmodelingprep.com/api/v3/quote/${sym}?apikey=${FMP_KEY}`).then(r => r.json()),
+        fetch(`https://financialmodelingprep.com/api/v3/profile/${sym}?apikey=${FMP_KEY}`).then(r => r.json()),
+      ]);
+      const q = Array.isArray(qArr) ? qArr[0] : null;
+      const p = Array.isArray(pArr) ? pArr[0] : null;
+      if (!q) return;
 
-    const chg = q.regularMarketChange ?? 0;
-    const pct = q.regularMarketChangePercent ?? 0;
-    const up  = chg >= 0;
-    const color = up ? '#22c55e' : '#ef4444';
+      const chg   = q.change ?? 0;
+      const pct   = q.changesPercentage ?? 0;
+      const up    = chg >= 0;
+      const color = up ? '#22c55e' : '#ef4444';
 
-    // Hero
-    document.getElementById('cpHero').innerHTML = `
-      <div class="cp-sym">${sym}</div>
-      <div class="cp-name">${q.longName || q.shortName || sym}</div>
-      <div style="font-size:12px;color:var(--text-muted);margin-top:4px">${q.sector || ''} ${q.industry ? '· ' + q.industry : ''}</div>
-    `;
+      document.getElementById('cpHero').innerHTML = `
+        <div class="cp-sym">${sym}</div>
+        <div class="cp-name">${q.name || sym}</div>
+        <div style="font-size:12px;color:var(--text-muted);margin-top:4px">${p?.sector || ''} ${p?.industry ? '· ' + p.industry : ''}</div>
+      `;
 
-    // Price strip
-    const fmtMcap = q.marketCap >= 1e12 ? `$${(q.marketCap/1e12).toFixed(2)}T` : q.marketCap >= 1e9 ? `$${(q.marketCap/1e9).toFixed(1)}B` : '—';
-    const fmtVol  = q.averageVolume ? (q.averageVolume/1e6).toFixed(1)+'M' : '—';
+      const fmtMcap = q.marketCap >= 1e12 ? `$${(q.marketCap/1e12).toFixed(2)}T` : q.marketCap >= 1e9 ? `$${(q.marketCap/1e9).toFixed(1)}B` : '—';
+      const fmtVol  = q.avgVolume ? (q.avgVolume/1e6).toFixed(1)+'M' : '—';
 
-    document.getElementById('cpPrice').textContent  = `$${q.regularMarketPrice?.toFixed(2) || '—'}`;
-    document.getElementById('cpChange').innerHTML   = `<span style="color:${color}">${up?'+':''}${chg.toFixed(2)} (${up?'+':''}${pct.toFixed(2)}%)</span>`;
-    document.getElementById('cpMcap').textContent   = fmtMcap;
-    document.getElementById('cpPE').textContent     = q.trailingPE?.toFixed(1) || '—';
-    document.getElementById('cpHigh').textContent   = `$${q.fiftyTwoWeekHigh?.toFixed(2) || '—'}`;
-    document.getElementById('cpLow').textContent    = `$${q.fiftyTwoWeekLow?.toFixed(2) || '—'}`;
-    document.getElementById('cpVol').textContent    = fmtVol;
-    document.getElementById('cpDiv').textContent    = q.dividendYield ? `${(q.dividendYield*100).toFixed(2)}%` : 'N/A';
+      document.getElementById('cpPrice').textContent  = `$${q.price?.toFixed(2) || '—'}`;
+      document.getElementById('cpChange').innerHTML   = `<span style="color:${color}">${up?'+':''}${chg.toFixed(2)} (${up?'+':''}${pct.toFixed(2)}%)</span>`;
+      document.getElementById('cpMcap').textContent   = fmtMcap;
+      document.getElementById('cpPE').textContent     = q.pe?.toFixed(1) || '—';
+      document.getElementById('cpHigh').textContent   = `$${q.yearHigh?.toFixed(2) || '—'}`;
+      document.getElementById('cpLow').textContent    = `$${q.yearLow?.toFixed(2) || '—'}`;
+      document.getElementById('cpVol').textContent    = fmtVol;
+      const lastDiv = p?.lastDiv || 0;
+      document.getElementById('cpDiv').textContent    = lastDiv > 0 ? `${((lastDiv / q.price)*100).toFixed(2)}%` : 'N/A';
 
-    // About
-    document.getElementById('cpAbout').textContent = q.longBusinessSummary || 'No description available.';
-    if (q.website || q.country || q.fullTimeEmployees) {
-      document.getElementById('cpAboutMeta').innerHTML = [
-        q.website ? `<a href="${q.website}" target="_blank" class="cp-meta-link">${q.website.replace('https://','')}</a>` : '',
-        q.country ? `<span>${q.country}</span>` : '',
-        q.fullTimeEmployees ? `<span>${Number(q.fullTimeEmployees).toLocaleString()} employees</span>` : ''
-      ].filter(Boolean).join('<span class="cp-meta-sep">·</span>');
-    }
-  }
-
-  // ── Load Chart ──────────────────────────────────────────────
-  async function loadChart(range = '1mo', interval = '1d') {
-    const cd = await yfChart(range, interval);
-    const closes    = cd?.indicators?.quote?.[0]?.close?.filter(Boolean) || [];
-    const timestamps = cd?.timestamp || [];
-    if (!closes.length) return;
-
-    const first = closes[0], last = closes[closes.length-1];
-    const up    = last >= first;
-    const color = up ? '#22c55e' : '#ef4444';
-    const labels = timestamps.map(t => new Date(t*1000).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }));
-
-    if (chartInstance) chartInstance.destroy();
-    chartInstance = new Chart(document.getElementById('companyChart'), {
-      type: 'line',
-      data: {
-        labels,
-        datasets: [{
-          data: closes, borderColor: color, borderWidth: 2.5, pointRadius: 0,
-          fill: true, backgroundColor: up ? 'rgba(34,197,94,0.07)' : 'rgba(239,68,68,0.07)'
-        }]
-      },
-      options: {
-        animation: false, responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false },
-          tooltip: { callbacks: { label: ctx => `$${ctx.parsed.y.toFixed(2)}` } } },
-        scales: {
-          x: { ticks: { color: '#7a8899', maxTicksLimit: 8, font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.04)' } },
-          y: { ticks: { color: '#7a8899', callback: v => `$${v}`, font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.04)' } }
-        }
+      document.getElementById('cpAbout').textContent = p?.description || 'No description available.';
+      if (p?.website || p?.country || p?.fullTimeEmployees) {
+        document.getElementById('cpAboutMeta').innerHTML = [
+          p.website ? `<a href="${p.website}" target="_blank" class="cp-meta-link">${p.website.replace('https://','')}</a>` : '',
+          p.country ? `<span>${p.country}</span>` : '',
+          p.fullTimeEmployees ? `<span>${Number(p.fullTimeEmployees).toLocaleString()} employees</span>` : ''
+        ].filter(Boolean).join('<span class="cp-meta-sep">·</span>');
       }
-    });
+    } catch {}
   }
 
-  // ── Load News ───────────────────────────────────────────────
+  // ── Load Chart (Polygon aggregates) ────────────────────────
+  async function loadChart(days = 30, span = 'day') {
+    try {
+      const to   = new Date().toISOString().split('T')[0];
+      const from = new Date(Date.now() - days * 86400000).toISOString().split('T')[0];
+      const r = await fetch(`https://api.polygon.io/v2/aggs/ticker/${sym}/range/1/${span}/${from}/${to}?adjusted=true&sort=asc&limit=300&apikey=${POLY_KEY}`);
+      const d = await r.json();
+      const bars = d.results || [];
+      if (!bars.length) return;
+
+      const closes = bars.map(b => b.c);
+      const labels = bars.map(b => new Date(b.t).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }));
+      const up     = closes[closes.length-1] >= closes[0];
+      const color  = up ? '#22c55e' : '#ef4444';
+
+      if (chartInstance) chartInstance.destroy();
+      chartInstance = new Chart(document.getElementById('companyChart'), {
+        type: 'line',
+        data: { labels, datasets: [{ data: closes, borderColor: color, borderWidth: 2.5, pointRadius: 0,
+          fill: true, backgroundColor: up ? 'rgba(34,197,94,0.07)' : 'rgba(239,68,68,0.07)' }] },
+        options: {
+          animation: false, responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `$${ctx.parsed.y.toFixed(2)}` } } },
+          scales: {
+            x: { ticks: { color: '#7a8899', maxTicksLimit: 8, font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.04)' } },
+            y: { ticks: { color: '#7a8899', callback: v => `$${v}`, font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.04)' } }
+          }
+        }
+      });
+    } catch {}
+  }
+
+  // ── Load News (FMP) ─────────────────────────────────────────
   async function loadNews() {
     const list = document.getElementById('cpNewsList');
     try {
-      const rss = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${sym}&region=US&lang=en-US`;
-      const r = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rss)}&count=8`);
-      const d = await r.json();
-      const items = d?.items || [];
-      if (!items.length) throw new Error('empty');
+      const r = await fetch(`https://financialmodelingprep.com/api/v3/stock_news?tickers=${sym}&limit=8&apikey=${FMP_KEY}`);
+      const items = await r.json();
+      if (!Array.isArray(items) || !items.length) throw new Error('empty');
       list.innerHTML = items.map(item => {
-        const date = new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        return `<a href="${item.link}" class="news-item" target="_blank" rel="noopener">
+        const date = new Date(item.publishedDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        return `<a href="${item.url}" class="news-item" target="_blank" rel="noopener">
           <div class="ni-title">${item.title}</div>
-          <div class="ni-meta">${item.author || 'Yahoo Finance'} · ${date}</div>
+          <div class="ni-meta">${item.site || 'Financial News'} · ${date}</div>
         </a>`;
       }).join('');
     } catch {
@@ -207,23 +195,20 @@ export async function getStaticPaths() {
     }
   }
 
-  // ── Load Related Prices ─────────────────────────────────────
+  // ── Load Related Prices (Polygon) ───────────────────────────
   async function loadRelated() {
     const related = ['AAPL','MSFT','GOOGL','AMZN','TSLA'].filter(s => s !== sym).slice(0,4);
-    for (const s of related) {
-      try {
-        const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${s}&fields=regularMarketPrice,regularMarketChangePercent`;
-        const r   = await fetch(P + encodeURIComponent(url));
-        const w   = await r.json();
-        const q   = JSON.parse(w.contents)?.quoteResponse?.result?.[0];
-        if (q) {
-          const pct = q.regularMarketChangePercent ?? 0;
-          const up  = pct >= 0;
-          const el  = document.getElementById(`rel-${s}`);
-          if (el) el.innerHTML = `$${q.regularMarketPrice?.toFixed(2)} <span style="color:${up?'#22c55e':'#ef4444'};font-size:11px">${up?'+':''}${pct.toFixed(2)}%</span>`;
-        }
-      } catch {}
-    }
+    try {
+      const r = await fetch(`https://api.polygon.io/v2/snapshot/locale/us/markets/stocks/tickers?tickers=${related.join(',')}&apikey=${POLY_KEY}`);
+      const d = await r.json();
+      (d.tickers || []).forEach(t => {
+        const price = t.lastTrade?.p || t.day?.c || 0;
+        const pct   = t.todaysChangePerc || 0;
+        const up    = pct >= 0;
+        const el    = document.getElementById(`rel-${t.ticker}`);
+        if (el) el.innerHTML = `$${price.toFixed(2)} <span style="color:${up?'#22c55e':'#ef4444'};font-size:11px">${up?'+':''}${pct.toFixed(2)}%</span>`;
+      });
+    } catch {}
   }
 
   // ── Chart Range Buttons ─────────────────────────────────────
@@ -231,7 +216,7 @@ export async function getStaticPaths() {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.cpc-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      loadChart(btn.dataset.range, btn.dataset.interval);
+      loadChart(parseInt(btn.dataset.days), btn.dataset.span);
     });
   });
 

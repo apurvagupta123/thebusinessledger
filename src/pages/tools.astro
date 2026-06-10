@@ -104,7 +104,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <script>
-  const P = 'https://api.allorigins.win/get?url=';
+  const POLY_KEY = 'qczUHLpgL7HeJGazAePXSrcYsoAIULbC';
+  const FMP_KEY  = 'phURcaq2LTL75pvNfsEL2Lf0GUG8Az2B';
 
   // ── Currency Converter ──────────────────────────────────────
   let fxRates = {};
@@ -160,37 +161,36 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   loadFX('USD');
 
-  // ── 52-Week Tracker ─────────────────────────────────────────
+  // ── 52-Week Tracker (FMP) ───────────────────────────────────
   const WATCHSYMS = ['AAPL','MSFT','GOOGL','AMZN','TSLA','META','NVDA','JPM','GS','NFLX','AMD','V','MA','DIS','PYPL'];
 
   async function load52Week() {
     try {
-      const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${WATCHSYMS.join(',')}&fields=symbol,shortName,regularMarketPrice,fiftyTwoWeekHigh,fiftyTwoWeekLow,regularMarketChangePercent`;
-      const r = await fetch(P + encodeURIComponent(url));
-      const w = await r.json();
-      const quotes = JSON.parse(w.contents)?.quoteResponse?.result || [];
+      const r = await fetch(`https://financialmodelingprep.com/api/v3/quote/${WATCHSYMS.join(',')}?apikey=${FMP_KEY}`);
+      const quotes = await r.json();
+      if (!Array.isArray(quotes) || !quotes.length) throw new Error('empty');
 
       const highs = quotes
-        .filter(q => q.regularMarketPrice && q.fiftyTwoWeekHigh)
-        .map(q => ({ ...q, pctFrom52H: (q.regularMarketPrice / q.fiftyTwoWeekHigh - 1) * 100 }))
+        .filter(q => q.price && q.yearHigh)
+        .map(q => ({ ...q, pctFrom52H: (q.price / q.yearHigh - 1) * 100 }))
         .sort((a, b) => b.pctFrom52H - a.pctFrom52H)
         .filter(q => q.pctFrom52H > -10);
 
       const lows = quotes
-        .filter(q => q.regularMarketPrice && q.fiftyTwoWeekLow)
-        .map(q => ({ ...q, pctFrom52L: (q.regularMarketPrice / q.fiftyTwoWeekLow - 1) * 100 }))
+        .filter(q => q.price && q.yearLow)
+        .map(q => ({ ...q, pctFrom52L: (q.price / q.yearLow - 1) * 100 }))
         .sort((a, b) => a.pctFrom52L - b.pctFrom52L)
         .filter(q => q.pctFrom52L < 20);
 
       const render52 = (items, type) => items.slice(0,8).map(q => {
-        const pct  = type === 'high' ? q.pctFrom52H : q.pctFrom52L;
-        const ref  = type === 'high' ? q.fiftyTwoWeekHigh : q.fiftyTwoWeekLow;
-        const lbl  = type === 'high' ? 'From 52W High' : 'Above 52W Low';
+        const pct   = type === 'high' ? q.pctFrom52H : q.pctFrom52L;
+        const ref   = type === 'high' ? q.yearHigh : q.yearLow;
+        const lbl   = type === 'high' ? 'From 52W High' : 'Above 52W Low';
         const color = type === 'high' ? '#22c55e' : '#ef4444';
         const barW  = type === 'high' ? Math.max(0, 100+pct) : Math.min(100, pct);
         return `<div class="w52-item">
           <a href="/company/${q.symbol.toLowerCase()}" class="w52-sym">${q.symbol}</a>
-          <span class="w52-price">$${q.regularMarketPrice?.toFixed(2)}</span>
+          <span class="w52-price">$${q.price?.toFixed(2)}</span>
           <div class="w52-bar-wrap">
             <div class="w52-bar" style="width:${barW}%;background:${color}"></div>
           </div>
@@ -238,25 +238,24 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     empty.style.display = 'none';
 
     try {
-      const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${tickers.join(',')}&fields=symbol,shortName,regularMarketPrice,regularMarketChange,regularMarketChangePercent`;
-      const r = await fetch(P + encodeURIComponent(url));
-      const w = await r.json();
-      const quotes = JSON.parse(w.contents)?.quoteResponse?.result || [];
+      const r = await fetch(`https://api.polygon.io/v2/snapshot/locale/us/markets/stocks/tickers?tickers=${tickers.join(',')}&apikey=${POLY_KEY}`);
+      const d = await r.json();
+      const quotes = d.tickers || [];
 
       grid.innerHTML = quotes.map(q => {
-        const chg = q.regularMarketChange ?? 0;
-        const pct = q.regularMarketChangePercent ?? 0;
-        const up  = chg >= 0;
+        const price = q.lastTrade?.p || q.day?.c || q.prevDay?.c || 0;
+        const chg   = q.todaysChange || 0;
+        const pct   = q.todaysChangePerc || 0;
+        const up    = pct >= 0;
         const color = up ? '#22c55e' : '#ef4444';
         return `<div class="mkt-card ${up?'up':'dn'}">
           <div class="mkt-top">
             <div>
-              <a href="/company/${q.symbol.toLowerCase()}" class="mkt-sym">${q.symbol}</a>
-              <div class="mkt-name">${q.shortName||''}</div>
+              <a href="/company/${q.ticker.toLowerCase()}" class="mkt-sym">${q.ticker}</a>
             </div>
-            <button class="wl-remove" onclick="removeFromWatchlist('${q.symbol}')" title="Remove">✕</button>
+            <button class="wl-remove" onclick="removeFromWatchlist('${q.ticker}')" title="Remove">✕</button>
           </div>
-          <div class="mkt-price">$${q.regularMarketPrice?.toFixed(2)}</div>
+          <div class="mkt-price">$${price.toFixed(2)}</div>
           <div class="mkt-chg" style="color:${color}">${up?'▲':'▼'} $${Math.abs(chg).toFixed(2)} (${up?'+':''}${pct.toFixed(2)}%)</div>
         </div>`;
       }).join('');
