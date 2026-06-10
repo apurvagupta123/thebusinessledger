@@ -109,17 +109,13 @@ input  { outline: none; font-family: inherit; border: none; }
   display: flex;
   align-items: center;
   white-space: nowrap;
-  animation: newsTickerScroll 120s linear infinite;
+  animation: tickerScroll 80s linear infinite;
   font-size: 12px;
+  font-weight: 500;
   padding: 0 16px;
   gap: 0;
 }
 .news-ticker-track:hover { animation-play-state: paused; }
-
-@keyframes newsTickerScroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
 
 .nt-item {
   padding: 0 18px;
