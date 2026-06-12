@@ -27,7 +27,7 @@ const { title } = Astro.props;
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <link rel="stylesheet" href="/styles/global.css" />
-    <style>
+    <style is:global>
       /* Ticker positioning — inline to avoid CDN cache delay */
       .news-bar {
         top: 0 !important;
@@ -45,61 +45,6 @@ const { title } = Astro.props;
       body { background: #0d1117 !important; }
       body::before { display: none !important; }
       .hero { background: #0d1117 !important; }
-      /* Sector performance bar chart */
-      .sector-chart {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 6px !important;
-        padding: 4px 0 !important;
-      }
-      .sc-row {
-        display: grid !important;
-        grid-template-columns: 110px 1fr 58px !important;
-        align-items: center !important;
-        gap: 12px !important;
-        height: 26px !important;
-        opacity: 1 !important;
-        transition: opacity 0.3s !important;
-      }
-      .sc-row.skeleton { opacity: 0.4 !important; }
-      .sc-name {
-        font-size: 0.72rem !important;
-        color: var(--text-muted) !important;
-        font-weight: 500 !important;
-        text-align: right !important;
-        white-space: nowrap !important;
-        overflow: hidden !important;
-        text-overflow: ellipsis !important;
-      }
-      .sc-bar-track {
-        position: relative !important;
-        height: 16px !important;
-        background: rgba(255,255,255,0.04) !important;
-        border-radius: 3px !important;
-        overflow: hidden !important;
-      }
-      .sc-zero-line {
-        position: absolute !important;
-        left: 50% !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        width: 1px !important;
-        background: rgba(255,255,255,0.18) !important;
-        z-index: 2 !important;
-      }
-      .sc-bar {
-        position: absolute !important;
-        top: 2px !important;
-        bottom: 2px !important;
-        border-radius: 2px !important;
-        transition: width 0.7s cubic-bezier(0.4,0,0.2,1) !important;
-      }
-      .sc-pct {
-        font-size: 0.72rem !important;
-        font-weight: 700 !important;
-        font-family: 'Inter', monospace !important;
-        white-space: nowrap !important;
-      }
       /* News ticker text — gold to match site accent */
       .news-bar .ti { color: #c9a84c !important; }
       .news-bar .ti strong { color: #e8c97a !important; }
@@ -134,7 +79,7 @@ const { title } = Astro.props;
         </a>
         <div class="nav-links">
           <a href="/" class="nav-link active">Home</a>
-          <a href="/markets/tech" class="nav-link">Markets</a>
+          <a href="/markets" class="nav-link">Markets</a>
           <a href="/earnings-calendar" class="nav-link">Earnings</a>
           <a href="/economic-calendar" class="nav-link">Economy</a>
           <a href="/ipo-tracker" class="nav-link">IPOs</a>
@@ -175,66 +120,109 @@ const { title } = Astro.props;
     </footer>
 
     <script>
-const FH_KEY = 'd81lae1r01qrojfc2i2gd81lae1r01qrojfc2i30';
-const TICKER_SYMS = ['NVDA','META','TSLA','JPM','AAPL','MSFT','GOOGL','AMZN','GS','NFLX','AMD','INTC','SPY','QQQ'];
+      // ── Ticker ────────────────────────────────────────────────────────
+      const TICKER_SYMS = ['NVDA','META','TSLA','JPM','AAPL','MSFT','GOOGL','AMZN','SPY','QQQ','GS','NFLX','AMD','INTC','BRK-B'];
+      const FMP_KEY  = 'phURcaq2LTL75pvNfsEL2Lf0GUG8Az2B';
+      const FH_KEY   = 'd81lae1r01qrojfc2i2gd81lae1r01qrojfc2i30';
+      const PROXY    = 'https://corsproxy.io/?';
 
-async function loadTicker() {
-  const track = document.getElementById('tickerTrack');
-  if (!track) return;
-  try {
-    const quotes: any[] = await Promise.all(
-      TICKER_SYMS.map((s: string, i: number) =>
-        new Promise<void>(r => setTimeout(r, i * 100))
-          .then(() => fetch(`https://finnhub.io/api/v1/quote?symbol=${s}&token=${FH_KEY}`))
-          .then((r: any) => r.json())
-          .then((q: any) => ({ s, q: (q.error || !q.c) ? null : q }))
-          .catch(() => ({ s, q: null }))
-      )
-    );
-    const html = quotes.map(({ s, q }: any) => {
-      if (!q?.c) return `<span class="ti"><strong>${s}</strong> —</span>`;
-      const up = q.dp >= 0;
-      const cls = up ? 'up' : 'dn';
-      return `<span class="ti ${cls}"><strong>${s}</strong> $${q.c.toFixed(2)} <em>${up ? '▲' : '▼'} ${Math.abs(q.dp).toFixed(2)}%</em></span>`;
-    }).join('<span class="ti-sep">·</span>');
-    track.innerHTML = html + '<span class="ti-sep" style="padding:0 20px"> </span>' + html;
-  } catch {
-    track.innerHTML = TICKER_SYMS.map((s: string) => `<span class="ti"><strong>${s}</strong> —</span>`).join('');
-  }
-}
+      // Normalise any source's response into {symbol,price,change,pct}
+      function normFMP(d)  { return d.map(q => ({symbol:q.symbol, price:q.price, change:q.change??0, pct:q.changesPercentage??0})); }
+      function normFH(syms,res) { return syms.map((s,i) => ({symbol:s, price:res[i].c||0, change:res[i].d||0, pct:res[i].dp||0})); }
+      function normNQ(syms,res) {
+        return syms.map((s,i) => {
+          const pd = res[i]?.data?.primaryData || {};
+          return {symbol:s, price:parseFloat((pd.lastSalePrice||'').replace(/[^0-9.]/g,''))||0,
+                  change:parseFloat((pd.netChange||'').replace(/[^0-9.-]/g,''))||0,
+                  pct:parseFloat((pd.percentageChange||'').replace(/[^0-9.-]/g,''))||0};
+        });
+      }
+      function normYF(res)  { return (res?.quoteResponse?.result||[]).map(q=>({symbol:q.symbol,price:q.regularMarketPrice||0,change:q.regularMarketChange||0,pct:q.regularMarketChangePercent||0})); }
 
-// ── News Ticker ───────────────────────────────────────────────────────
-async function loadNewsTicker() {
-  const track = document.getElementById('newsTickerTrack');
-  if (!track) return;
-  const feeds = [
-    'https://feeds.reuters.com/reuters/businessNews',
-    'https://feeds.bbci.co.uk/news/business/rss.xml',
-  ];
-  for (const rss of feeds) {
-    try {
-      const r = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rss)}&count=12`);
-      const d: any = await r.json();
-      const items = (d?.items || []).filter((i: any) => i.title);
-      if (!items.length) continue;
-      const html = items.map((item: any) =>
-        `<a class="ti" style="text-decoration:none;cursor:pointer;color:#c9a84c;" href="${item.link}" target="_blank" rel="noopener noreferrer"><strong style="color:#e8c97a;">◆</strong> ${item.title}</a>`
-      ).join('<span class="ti-sep" style="color:rgba(201,168,76,0.35);">·</span>');
-      track.innerHTML = html + '<span class="ti-sep" style="padding:0 20px"> </span>' + html;
-      return;
-    } catch { continue; }
-  }
-  const fallback = [['Fed holds rates as inflation nears 2% target','https://www.reuters.com/business/'],['S&P 500 hits record high on strong earnings','https://www.bloomberg.com/markets'],['Apple unveils new AI features at WWDC','https://www.cnbc.com/finance/'],['Oil climbs on Middle East supply concerns','https://www.reuters.com/business/'],['Tesla beats delivery estimates, stock surges 8%','https://www.wsj.com/finance'],['Goldman Sachs raises S&P 500 year-end target','https://www.ft.com/markets']];
-  const html = fallback.map(([t,u]: any) =>
-    `<a class="ti" style="text-decoration:none;cursor:pointer;color:#c9a84c;" href="${u}" target="_blank" rel="noopener noreferrer"><strong style="color:#e8c97a;">◆</strong> ${t}</a>`
-  ).join('<span class="ti-sep" style="color:rgba(201,168,76,0.35);">·</span>');
-  track.innerHTML = html + '<span class="ti-sep" style="padding:0 20px"> </span>' + html;
-}
+      async function fetchQuotes(syms) {
+        // 1️⃣ FMP — batch, one request
+        try {
+          const r = await fetch(`https://financialmodelingprep.com/api/v3/quote/${syms.join(',')}?apikey=${FMP_KEY}`);
+          const d = await r.json();
+          if (Array.isArray(d) && d.some(q=>q.price>0)) return normFMP(d);
+          throw new Error('fmp empty');
+        } catch {}
+        // 2️⃣ Finnhub — parallel, official API
+        try {
+          const res = await Promise.all(syms.map(s=>fetch(`https://finnhub.io/api/v1/quote?symbol=${s}&token=${FH_KEY}`).then(r=>r.json())));
+          const q = normFH(syms, res);
+          if (q.some(x=>x.price>0)) return q;
+          throw new Error('fh empty');
+        } catch {}
+        // 3️⃣ NASDAQ — official exchange data
+        try {
+          const res = await Promise.all(syms.map(s=>fetch(PROXY+encodeURIComponent(`https://api.nasdaq.com/api/quote/${s}/info?assetclass=stocks`)).then(r=>r.json())));
+          const q = normNQ(syms, res);
+          if (q.some(x=>x.price>0)) return q;
+          throw new Error('nq empty');
+        } catch {}
+        // 4️⃣ Yahoo Finance — final fallback
+        const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${syms.join(',')}&fields=symbol,regularMarketPrice,regularMarketChange,regularMarketChangePercent`;
+        const r = await fetch(PROXY+encodeURIComponent(url));
+        return normYF(await r.json());
+      }
 
-setTimeout(loadTicker, 2000);
-loadNewsTicker();
-setInterval(loadTicker, 300000);
-setInterval(loadNewsTicker, 300000);
-</script>
+      async function loadTicker() {
+        const track = document.getElementById('tickerTrack');
+        if (!track) return;
+        try {
+          const quotes = await fetchQuotes(TICKER_SYMS);
+          if (!quotes.length) throw new Error('empty');
+          const html = quotes.map(q => {
+            const up = q.change >= 0;
+            return `<span class="ti ${up?'up':'dn'}"><strong>${q.symbol}</strong> $${q.price?.toFixed(2)} <em>${up?'▲':'▼'} ${Math.abs(q.pct).toFixed(2)}%</em></span>`;
+          }).join('<span class="ti-sep">·</span>');
+          track.innerHTML = html + '<span class="ti-sep" style="padding:0 20px"> </span>' + html;
+        } catch {
+          track.innerHTML = TICKER_SYMS.map(s => `<span class="ti"><strong>${s}</strong> —</span>`).join('');
+        }
+      }
+
+      loadTicker();
+      setInterval(loadTicker, 60000);
+
+      // ── News Ticker ───────────────────────────────────────────────────
+      async function loadNewsTicker() {
+        const track = document.getElementById('newsTickerTrack');
+        if (!track) return;
+        const feeds = [
+          'https://feeds.reuters.com/reuters/businessNews',
+          'https://feeds.bbci.co.uk/news/business/rss.xml',
+        ];
+        for (const rss of feeds) {
+          try {
+            const r = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rss)}&count=12`);
+            const d = await r.json();
+            const items = (d?.items || []).filter((i: any) => i.title);
+            if (!items.length) continue;
+            const html = items.map((item: any) =>
+              `<a class="ti" style="text-decoration:none;cursor:pointer;color:#c9a84c;" href="${item.link}" target="_blank" rel="noopener noreferrer"><strong style="color:#e8c97a;">◆</strong> ${item.title}</a>`
+            ).join('<span class="ti-sep" style="color:rgba(201,168,76,0.35);">·</span>');
+            track.innerHTML = html + '<span class="ti-sep" style="padding:0 20px"> </span>' + html;
+            return;
+          } catch { continue; }
+        }
+        const fallback = [
+          ['Fed holds rates as inflation nears 2% target','https://www.reuters.com/business/'],
+          ['S&P 500 hits record high on strong earnings','https://www.bloomberg.com/markets'],
+          ['Apple unveils new AI features at WWDC','https://www.cnbc.com/finance/'],
+          ['Oil climbs on Middle East supply concerns','https://www.reuters.com/business/'],
+          ['Tesla beats delivery estimates, stock surges 8%','https://www.wsj.com/finance'],
+          ['Goldman Sachs raises S&P 500 year-end target','https://www.ft.com/markets'],
+        ];
+        const html = fallback.map(([t,u]) =>
+          `<a class="ti" style="text-decoration:none;cursor:pointer;color:#c9a84c;" href="${u}" target="_blank" rel="noopener noreferrer"><strong style="color:#e8c97a;">◆</strong> ${t}</a>`
+        ).join('<span class="ti-sep" style="color:rgba(201,168,76,0.35);">·</span>');
+        track.innerHTML = html + '<span class="ti-sep" style="padding:0 20px"> </span>' + html;
+      }
+
+      loadNewsTicker();
+      setInterval(loadNewsTicker, 300000);
+    </script>
   </body>
 </html>
