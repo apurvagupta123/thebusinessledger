@@ -7,7 +7,7 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
     stocks: [
       { sym: 'AAPL',  name: 'Apple' },
       { sym: 'MSFT',  name: 'Microsoft' },
-      { sym: 'GOOGL', name: 'Alphabet' },
+      { sym: 'GOOGL', name: 'Alphabet (Google)' },
       { sym: 'NVDA',  name: 'NVIDIA' },
       { sym: 'META',  name: 'Meta Platforms' },
       { sym: 'AMZN',  name: 'Amazon' },
@@ -25,18 +25,18 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
   finance: {
     label: 'Finance', icon: '💰', desc: 'Banks, asset managers & payment networks',
     stocks: [
-      { sym: 'JPM',    name: 'JPMorgan Chase' },
-      { sym: 'BAC',    name: 'Bank of America' },
-      { sym: 'WFC',    name: 'Wells Fargo' },
-      { sym: 'GS',     name: 'Goldman Sachs' },
-      { sym: 'MS',     name: 'Morgan Stanley' },
-      { sym: 'C',      name: 'Citigroup' },
-      { sym: 'BLK',    name: 'BlackRock' },
-      { sym: 'V',      name: 'Visa' },
-      { sym: 'MA',     name: 'Mastercard' },
-      { sym: 'AXP',    name: 'American Express' },
-      { sym: 'BRK-B',  name: 'Berkshire Hathaway' },
-      { sym: 'SCHW',   name: 'Charles Schwab' },
+      { sym: 'JPM',   name: 'JPMorgan Chase' },
+      { sym: 'BAC',   name: 'Bank of America' },
+      { sym: 'WFC',   name: 'Wells Fargo' },
+      { sym: 'GS',    name: 'Goldman Sachs' },
+      { sym: 'MS',    name: 'Morgan Stanley' },
+      { sym: 'C',     name: 'Citigroup' },
+      { sym: 'BLK',   name: 'BlackRock' },
+      { sym: 'V',     name: 'Visa' },
+      { sym: 'MA',    name: 'Mastercard' },
+      { sym: 'AXP',   name: 'American Express' },
+      { sym: 'BRK-B', name: 'Berkshire Hathaway' },
+      { sym: 'SCHW',  name: 'Charles Schwab' },
     ],
   },
   energy: {
@@ -87,16 +87,16 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
   industrials: {
     label: 'Industrials', icon: '🏭', desc: 'Aerospace, defense, machinery & logistics',
     stocks: [
-      { sym: 'BA',   name: 'Boeing' },
-      { sym: 'CAT',  name: 'Caterpillar' },
-      { sym: 'GE',   name: 'GE Aerospace' },
-      { sym: 'UPS',  name: 'UPS' },
-      { sym: 'HON',  name: 'Honeywell' },
-      { sym: 'LMT',  name: 'Lockheed Martin' },
-      { sym: 'RTX',  name: 'RTX Corp' },
-      { sym: 'DE',   name: 'John Deere' },
-      { sym: 'NOC',  name: 'Northrop Grumman' },
-      { sym: 'FDX',  name: 'FedEx' },
+      { sym: 'BA',  name: 'Boeing' },
+      { sym: 'CAT', name: 'Caterpillar' },
+      { sym: 'GE',  name: 'GE Aerospace' },
+      { sym: 'UPS', name: 'UPS' },
+      { sym: 'HON', name: 'Honeywell' },
+      { sym: 'LMT', name: 'Lockheed Martin' },
+      { sym: 'RTX', name: 'RTX Corp' },
+      { sym: 'DE',  name: 'John Deere' },
+      { sym: 'NOC', name: 'Northrop Grumman' },
+      { sym: 'FDX', name: 'FedEx' },
     ],
   },
   india: {
@@ -117,14 +117,12 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
     ],
   },
 };
-
-const defaultSector = 'tech';
 ---
 <BaseLayout title="Markets — The Business Ledger">
 
   <section class="content-section" style="margin-top:48px">
 
-    <!-- Page header -->
+    <!-- Header row -->
     <div class="mkts-header">
       <div>
         <h1 class="mkts-title">Markets</h1>
@@ -133,37 +131,37 @@ const defaultSector = 'tech';
       <span class="section-live">LIVE</span>
     </div>
 
-    <!-- Sector selector pills -->
-    <div class="sector-selector" id="sectorSelector">
-      {Object.entries(SECTORS).map(([key, s]) => (
-        <button class={`ss-pill ${key === defaultSector ? 'active' : ''}`} data-sector={key}>
-          {s.icon} {s.label}
-        </button>
-      ))}
+    <!-- ── Sector controls: dropdown + pills ── -->
+    <div class="mkts-controls">
+
+      <!-- Dropdown (always visible) -->
+      <div class="mkts-dropdown-wrap">
+        <label class="mkts-dropdown-label" for="sectorDropdown">Browse by sector</label>
+        <select id="sectorDropdown" class="mkts-dropdown">
+          {Object.entries(SECTORS).map(([key, s]) => (
+            <option value={key}>{s.icon}  {s.label}</option>
+          ))}
+        </select>
+      </div>
+
+      <!-- Pills (desktop only) -->
+      <div class="mkts-pills" id="mktsPills">
+        {Object.entries(SECTORS).map(([key, s]) => (
+          <button class={`mkts-pill ${key === 'tech' ? 'active' : ''}`} data-sector={key}>
+            {s.icon} {s.label}
+          </button>
+        ))}
+      </div>
     </div>
 
     <!-- Sector description -->
-    <div class="sector-desc-bar" id="sectorDesc">
-      <span id="sectorDescText">{SECTORS[defaultSector].desc}</span>
+    <div class="mkts-desc-bar">
+      <span id="sectorDescText">{SECTORS['tech'].desc}</span>
       <span class="section-live" style="margin-left:10px">LIVE</span>
     </div>
 
-    <!-- Company grid (rendered client-side) -->
-    <div class="sector-grid" id="companyGrid">
-      {SECTORS[defaultSector].stocks.map(s => (
-        <a href={`/company/${s.sym.toLowerCase().replace('.','-')}`} class="mkt-card sector-card" id={`sc-${s.sym}`} data-sector="tech">
-          <div class="mkt-top">
-            <div>
-              <div class="mkt-sym">{s.sym.replace(/\.(NS|BO)$/,'')}</div>
-              <div class="mkt-name">{s.name}</div>
-            </div>
-            <div class="mkt-badge" id={`scb-${s.sym}`}>—</div>
-          </div>
-          <div class="mkt-price" id={`scp-${s.sym}`}>—</div>
-          <div class="mkt-chg"   id={`scc-${s.sym}`}>—</div>
-        </a>
-      ))}
-    </div>
+    <!-- Company grid -->
+    <div class="sector-grid" id="companyGrid"></div>
 
   </section>
 
@@ -174,21 +172,19 @@ const defaultSector = 'tech';
   let currentSector = 'tech';
   let _prices = {};
 
-  // ── fetch quotes via Yahoo Finance ─────────────────────
   async function fetchYF(syms) {
     const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${syms.join(',')}&fields=symbol,regularMarketPrice,regularMarketChange,regularMarketChangePercent`;
     const r = await fetch(PROXY + encodeURIComponent(url));
     return (await r.json())?.quoteResponse?.result || [];
   }
 
-  // ── render one card ────────────────────────────────────
   function renderCard(q) {
-    const chg  = q.regularMarketChange ?? 0;
-    const pct  = q.regularMarketChangePercent ?? 0;
-    const up   = chg >= 0;
+    const chg   = q.regularMarketChange ?? 0;
+    const pct   = q.regularMarketChangePercent ?? 0;
+    const up    = chg >= 0;
     const color = up ? '#22c55e' : '#ef4444';
-    const isIN = q.symbol.endsWith('.NS') || q.symbol.endsWith('.BO');
-    const curr = isIN ? '₹' : '$';
+    const isIN  = q.symbol.endsWith('.NS') || q.symbol.endsWith('.BO');
+    const curr  = isIN ? '₹' : '$';
 
     const card = document.getElementById(`sc-${q.symbol}`);
     if (card) card.classList.add(up ? 'up' : 'dn');
@@ -198,11 +194,9 @@ const defaultSector = 'tech';
     if (pEl) pEl.textContent = `${curr}${q.regularMarketPrice?.toLocaleString(undefined,{maximumFractionDigits:2})}`;
     const cEl = document.getElementById(`scc-${q.symbol}`);
     if (cEl) { cEl.textContent = `${up?'▲':'▼'} ${curr}${Math.abs(chg).toFixed(2)}`; cEl.style.color = color; }
-
     _prices[q.symbol] = q;
   }
 
-  // ── build & render the grid for a sector ──────────────
   function buildGrid(sectorKey) {
     const sector = SECTORS[sectorKey];
     const grid   = document.getElementById('companyGrid');
@@ -219,39 +213,41 @@ const defaultSector = 'tech';
         <div class="mkt-chg"   id="scc-${s.sym}">—</div>
       </a>
     `).join('');
-
-    // restore cached prices immediately if available
     sector.stocks.forEach(s => { if (_prices[s.sym]) renderCard(_prices[s.sym]); });
   }
 
   async function loadSector(sectorKey) {
-    const sector = SECTORS[sectorKey];
+    currentSector = sectorKey;
     buildGrid(sectorKey);
-    document.getElementById('sectorDescText').textContent = sector.desc;
+    document.getElementById('sectorDescText').textContent = SECTORS[sectorKey].desc;
 
-    const syms = sector.stocks.map(s => s.sym);
-    // fetch in batches of 10 to avoid URL length limits
+    // sync both controls
+    const dd = document.getElementById('sectorDropdown');
+    if (dd) dd.value = sectorKey;
+    document.querySelectorAll('.mkts-pill').forEach(b => {
+      b.classList.toggle('active', b.dataset.sector === sectorKey);
+    });
+
+    const syms = SECTORS[sectorKey].stocks.map(s => s.sym);
     for (let i = 0; i < syms.length; i += 10) {
-      const batch = syms.slice(i, i + 10);
       try {
-        const quotes = await fetchYF(batch);
+        const quotes = await fetchYF(syms.slice(i, i + 10));
         quotes.forEach(renderCard);
       } catch {}
     }
   }
 
-  // ── pill click handlers ────────────────────────────────
-  document.querySelectorAll('.ss-pill').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.ss-pill').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentSector = btn.dataset.sector;
-      loadSector(currentSector);
-    });
+  // dropdown change
+  document.getElementById('sectorDropdown').addEventListener('change', e => {
+    loadSector(e.target.value);
   });
 
-  // initial load
-  loadSector(currentSector);
+  // pill clicks
+  document.querySelectorAll('.mkts-pill').forEach(btn => {
+    btn.addEventListener('click', () => loadSector(btn.dataset.sector));
+  });
+
+  loadSector('tech');
   setInterval(() => loadSector(currentSector), 60000);
 </script>
 
@@ -260,46 +256,86 @@ const defaultSector = 'tech';
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
   }
   .mkts-title { font-size: 2rem; font-weight: 900; color: #fff; margin: 0; }
   .mkts-sub   { font-size: 13px; color: var(--text-muted); margin: 4px 0 0; }
 
-  .sector-selector {
+  /* Controls row */
+  .mkts-controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  /* Dropdown */
+  .mkts-dropdown-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .mkts-dropdown-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .mkts-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    background: var(--navy-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") no-repeat right 12px center;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 36px 10px 14px;
+    cursor: pointer;
+    min-width: 200px;
+    transition: border-color 0.15s;
+  }
+  .mkts-dropdown:focus { outline: none; border-color: var(--gold); }
+  .mkts-dropdown:hover { border-color: rgba(201,168,76,0.4); }
+  .mkts-dropdown option { background: #1a2235; color: #fff; }
+
+  /* Pills */
+  .mkts-pills {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 16px;
+    gap: 6px;
   }
-  .ss-pill {
-    padding: 7px 16px;
+  .mkts-pill {
+    padding: 7px 14px;
     border-radius: 20px;
     border: 1px solid var(--border);
     background: var(--navy-2);
     color: var(--text-muted);
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.15s;
-    letter-spacing: 0.3px;
   }
-  .ss-pill:hover  { border-color: rgba(201,168,76,0.4); color: var(--gold); }
-  .ss-pill.active { background: var(--gold); color: #0b0f1a; border-color: var(--gold); }
+  .mkts-pill:hover  { border-color: rgba(201,168,76,0.4); color: var(--gold); }
+  .mkts-pill.active { background: var(--gold); color: #0b0f1a; border-color: var(--gold); }
 
-  .sector-desc-bar {
+  /* Description bar */
+  .mkts-desc-bar {
     display: flex;
     align-items: center;
     font-size: 12px;
     color: var(--text-muted);
     margin-bottom: 20px;
-    padding: 10px 14px;
+    padding: 9px 14px;
     background: var(--navy-2);
     border-radius: 8px;
     border: 1px solid var(--border);
   }
 
-  @media (max-width: 600px) {
-    .sector-selector { gap: 6px; }
-    .ss-pill { font-size: 11px; padding: 6px 12px; }
+  @media (max-width: 700px) {
+    .mkts-pills { display: none; }
+    .mkts-dropdown { min-width: 160px; }
   }
 </style>
