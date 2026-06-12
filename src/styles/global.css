@@ -1176,6 +1176,79 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 }
 .wl-remove:hover { color: var(--red); border-color: rgba(239,68,68,0.3); }
 
+/* ── NSE Market Movers ──────────────────────────────── */
+.movers-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.mv-tab {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--navy-2);
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.3px;
+}
+.mv-tab:hover  { border-color: rgba(201,168,76,0.4); color: var(--gold); }
+.mv-tab.active { background: var(--gold); color: #0b0f1a; border-color: var(--gold); }
+
+.movers-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.movers-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.movers-table thead th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  background: rgba(255,255,255,0.02);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.movers-table tbody .mv-row td {
+  padding: 11px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.movers-table tbody .mv-row:last-child td { border-bottom: none; }
+.movers-table tbody .mv-row:hover { background: rgba(255,255,255,0.03); }
+.mv-sym-cell { display: flex; flex-direction: column; gap: 2px; }
+.mv-sym   { font-weight: 700; color: #fff; font-size: 13px; }
+.mv-series { font-size: 9px; color: var(--text-muted); letter-spacing: 0.5px; }
+.mv-close  { font-weight: 700; color: var(--gold); }
+.mv-prev   { color: var(--text-muted); }
+.mv-turn   { color: var(--text); font-weight: 600; }
+.mv-trades { color: var(--text-muted); font-size: 12px; }
+.ta-r { text-align: right; }
+
+/* Shimmer skeleton rows */
+.mv-shimmer-row td { padding: 12px 14px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.mv-shimmer {
+  height: 14px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0.04) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  width: 80px;
+}
+@keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+
 /* ── MCX Commodities ────────────────────────────────── */
 .comm-grid {
   display: grid;
