@@ -2,12 +2,25 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const { symbol } = Astro.params;
-const sym = symbol?.toUpperCase() || 'AAPL';
+// URL uses dashes for dots: reliance-ns → RELIANCE.NS
+const sym = (symbol?.toUpperCase() || 'AAPL').replace(/-NS$/, '.NS').replace(/-BO$/, '.BO');
+const isIndian = sym.endsWith('.NS') || sym.endsWith('.BO');
+const curr = isIndian ? '₹' : '$';
 
 export async function getStaticPaths() {
-  // Pre-build pages for major companies; any other symbol works via SSR fallback
-  const symbols = ['AAPL','MSFT','GOOGL','AMZN','TSLA','META','NVDA','JPM','GS','NFLX','AMD','INTC','BRK-B','V','MA'];
-  return symbols.map(s => ({ params: { symbol: s.toLowerCase() } }));
+  const symbols = [
+    'AAPL','MSFT','GOOGL','AMZN','TSLA','META','NVDA','JPM','GS','NFLX',
+    'AMD','INTC','BRK-B','V','MA','BAC','WFC','MS','C','BLK','AXP','SCHW',
+    'XOM','CVX','COP','SLB','EOG','MPC','VLO','OXY','HAL','PSX',
+    'JNJ','UNH','PFE','MRK','ABBV','TMO','ABT','LLY','BMY','AMGN',
+    'HD','MCD','NKE','SBUX','TGT','LOW','TJX','BKNG','CMG','F',
+    'BA','CAT','GE','UPS','HON','LMT','RTX','DE','NOC','FDX',
+    'CRM','ORCL','ADBE','QCOM','AVGO',
+    'RELIANCE.NS','TCS.NS','HDFCBANK.NS','INFY.NS','ICICIBANK.NS',
+    'WIPRO.NS','BAJFINANCE.NS','TATAMOTORS.NS','BHARTIARTL.NS','MARUTI.NS',
+    'SBIN.NS','LT.NS',
+  ];
+  return symbols.map(s => ({ params: { symbol: s.toLowerCase().replace(/\./g, '-') } }));
 }
 ---
 <BaseLayout title={`${sym} — Company Deep Dive`}>
@@ -93,7 +106,7 @@ export async function getStaticPaths() {
 
 </BaseLayout>
 
-<script define:vars={{ sym }}>
+<script define:vars={{ sym, curr, isIndian }}>
   const P = 'https://corsproxy.io/?';
   let chartInstance = null;
 
@@ -127,12 +140,12 @@ export async function getStaticPaths() {
       <div style="font-size:12px;color:var(--text-muted);margin-top:4px">${q.sector || ''} ${q.industry ? '· ' + q.industry : ''}</div>
     `;
     const fmtMcap = q.marketCap >= 1e12 ? `$${(q.marketCap/1e12).toFixed(2)}T` : q.marketCap >= 1e9 ? `$${(q.marketCap/1e9).toFixed(1)}B` : '—';
-    document.getElementById('cpPrice').textContent  = `$${q.regularMarketPrice?.toFixed(2) || '—'}`;
+    document.getElementById('cpPrice').textContent  = `${curr}${q.regularMarketPrice?.toLocaleString(undefined,{maximumFractionDigits:2}) || '—'}`;
     document.getElementById('cpChange').innerHTML   = `<span style="color:${color}">${up?'+':''}${chg.toFixed(2)} (${up?'+':''}${pct.toFixed(2)}%)</span>`;
     document.getElementById('cpMcap').textContent   = fmtMcap;
     document.getElementById('cpPE').textContent     = q.trailingPE?.toFixed(1) || '—';
-    document.getElementById('cpHigh').textContent   = `$${q.fiftyTwoWeekHigh?.toFixed(2) || '—'}`;
-    document.getElementById('cpLow').textContent    = `$${q.fiftyTwoWeekLow?.toFixed(2) || '—'}`;
+    document.getElementById('cpHigh').textContent   = `${curr}${q.fiftyTwoWeekHigh?.toFixed(2) || '—'}`;
+    document.getElementById('cpLow').textContent    = `${curr}${q.fiftyTwoWeekLow?.toFixed(2) || '—'}`;
     document.getElementById('cpVol').textContent    = q.averageVolume ? (q.averageVolume/1e6).toFixed(1)+'M' : '—';
     document.getElementById('cpDiv').textContent    = q.dividendYield ? `${(q.dividendYield*100).toFixed(2)}%` : 'N/A';
     document.getElementById('cpAbout').textContent  = q.longBusinessSummary || 'No description available.';
@@ -160,10 +173,10 @@ export async function getStaticPaths() {
       data: { labels, datasets: [{ data: closes, borderColor: color, borderWidth: 2.5, pointRadius: 0,
         fill: true, backgroundColor: up ? 'rgba(34,197,94,0.07)' : 'rgba(239,68,68,0.07)' }] },
       options: { animation: false, responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `$${ctx.parsed.y.toFixed(2)}` } } },
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `${curr}${ctx.parsed.y.toFixed(2)}` } } },
         scales: {
           x: { ticks: { color: '#7a8899', maxTicksLimit: 8, font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.04)' } },
-          y: { ticks: { color: '#7a8899', callback: v => `$${v}`, font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.04)' } }
+          y: { ticks: { color: '#7a8899', callback: v => `${curr}${v}`, font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.04)' } }
         } }
     });
   }
