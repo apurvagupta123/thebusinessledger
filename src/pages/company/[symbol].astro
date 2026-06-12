@@ -19,6 +19,9 @@ export async function getStaticPaths() {
     'RELIANCE.NS','TCS.NS','HDFCBANK.NS','INFY.NS','ICICIBANK.NS',
     'WIPRO.NS','BAJFINANCE.NS','TATAMOTORS.NS','BHARTIARTL.NS','MARUTI.NS',
     'SBIN.NS','LT.NS',
+    'JIOFSL.NS','NETWORK18.NS','TV18BRDCST.NS',
+    'TATASTEEL.NS','TATAPOWER.NS','TITAN.NS','TATACONSUM.NS',
+    'HDFCAMC.NS','HDFCLIFE.NS',
   ];
   return symbols.map(s => ({ params: { symbol: s.toLowerCase().replace(/\./g, '-') } }));
 }
@@ -99,6 +102,21 @@ export async function getStaticPaths() {
             <div class="mkt-price" id={`rel-${s}`}>—</div>
           </a>
         ))}
+      </div>
+    </div>
+
+    <!-- ── Conglomerate / Group Companies ───────────── -->
+    <div id="grpSection" style="display:none; margin-top:44px">
+      <div class="section-head" style="padding:0 0 4px">
+        <h2 class="section-title" id="grpTitle"></h2>
+      </div>
+      <p class="grp-subtitle" id="grpSubtitle"></p>
+      <div id="grpDivisions" class="grp-divisions"></div>
+      <div id="grpListedWrap" style="display:none; margin-top:28px">
+        <div class="section-head" style="padding:0 0 16px">
+          <h3 style="font-size:1rem;font-weight:700;color:#fff;margin:0;letter-spacing:.3px">Listed Group Entities</h3>
+        </div>
+        <div class="markets-grid" id="grpStocks"></div>
       </div>
     </div>
 
@@ -265,8 +283,228 @@ export async function getStaticPaths() {
     });
   });
 
+  // ── Conglomerate / Group Data ────────────────────────
+  const CONGLOMERATES = {
+    'RELIANCE.NS': {
+      groupName: 'Reliance Industries Group',
+      subtitle: 'India\'s largest conglomerate — energy, retail, telecom, media & finance under one umbrella.',
+      divisions: [
+        { name: 'Reliance Retail', icon: '🛒', tag: 'Consumer', stat: '18,800+ stores', desc: 'India\'s largest retailer. Operates Reliance Digital (electronics), Reliance Trends (fashion), Smart Bazaar, Reliance Fresh, and JioMart (e-commerce). Revenue ~₹3.3L Cr annually.' },
+        { name: 'Reliance Jio', icon: '📱', tag: 'Telecom', stat: '480M+ subscribers', desc: 'India\'s largest 5G telecom network. Also runs JioFiber broadband, JioAirFiber, and Jio Platforms — backed by Google, Meta, KKR and others. Dominant in every circle.' },
+        { name: 'O2C (Oil-to-Chemicals)', icon: '🏭', tag: 'Energy', stat: '~₹5.3L Cr revenue', desc: 'World\'s largest integrated refinery complex at Jamnagar, Gujarat. Produces fuels, petrochemicals, polyester, and specialty chemicals. Exports to 100+ countries.' },
+        { name: 'New Energy', icon: '☀️', tag: 'Green', stat: '₹75,000 Cr capex', desc: 'Major push into solar, green hydrogen, and battery storage. Building the Dhirubhai Ambani Green Energy Giga Complex in Jamnagar — one of the world\'s largest renewable energy parks.' },
+        { name: 'Media & Entertainment', icon: '📺', tag: 'Media', stat: 'Network18 + JioCinema', desc: 'Controls Network18, TV18, CNBC-TV18, CNN-News18. JioCinema streams IPL, FIFA World Cup, Hollywood & Bollywood. Merger with Disney Star India in progress.' },
+      ],
+      listed: [
+        { sym: 'JIOFSL.NS', name: 'Jio Financial Services' },
+        { sym: 'NETWORK18.NS', name: 'Network18 Media' },
+        { sym: 'TV18BRDCST.NS', name: 'TV18 Broadcast' },
+      ],
+    },
+    'TATAMOTORS.NS': {
+      groupName: 'Tata Group',
+      subtitle: 'India\'s oldest and most diversified conglomerate — operating in 100+ countries across 30+ industries.',
+      divisions: [
+        { name: 'Jaguar Land Rover', icon: '🚗', tag: 'Luxury Auto', stat: '£21B revenue', desc: 'UK-based premium automotive brand fully owned by Tata Motors. Produces Defender, Discovery, Range Rover, and Jaguar models. Strong recovery post-COVID with EV pivot.' },
+        { name: 'Tata EV', icon: '⚡', tag: 'Electric', stat: '#1 EV in India', desc: 'India\'s EV market leader. Nexon EV, Tiago EV, Punch EV, Harrier EV. Plans a dedicated gigafactory and 10 new EV models by 2026. Commands 50%+ of India\'s EV market.' },
+        { name: 'Air India', icon: '✈️', tag: 'Aviation', stat: 'Re-acquired 2022', desc: 'India\'s national carrier taken back by Tata Group in Jan 2022. Undergoing a $400M transformation — new livery, fleet expansion, Vistara merger, improved service.' },
+        { name: 'Tata Electronics', icon: '📱', tag: 'Manufacturing', stat: 'iPhone assembler', desc: 'Assembles iPhones for Apple in India — Wistron acquisition 2021. Also entering semiconductor manufacturing via a $11B Fab in Gujarat.' },
+      ],
+      listed: [
+        { sym: 'TCS.NS', name: 'Tata Consultancy Services' },
+        { sym: 'TATASTEEL.NS', name: 'Tata Steel' },
+        { sym: 'TATAPOWER.NS', name: 'Tata Power' },
+        { sym: 'TITAN.NS', name: 'Titan Company' },
+        { sym: 'TATACONSUM.NS', name: 'Tata Consumer Products' },
+      ],
+    },
+    'TCS.NS': {
+      groupName: 'Tata Group',
+      subtitle: 'TCS is the tech flagship of the Tata Group — one of India\'s most trusted and diversified conglomerates.',
+      divisions: [
+        { name: 'TCS BaNCS', icon: '🏦', tag: 'FinTech', stat: '450+ global clients', desc: 'World\'s leading banking & financial services software suite, deployed at 450+ financial institutions across 80+ countries. Processes trillions in transactions daily.' },
+        { name: 'Ignio (AI)', icon: '🤖', tag: 'AI/ML', stat: '200M events/day', desc: 'Cognitive automation platform powered by AI. Handles 200M+ events daily for enterprise IT. Competing with ServiceNow and BMC in the AIOps space.' },
+        { name: 'TCS iON', icon: '🎓', tag: 'EdTech', stat: '10M exam seats/yr', desc: 'Assessment & digital learning platform. Runs over 10 million exam seats annually for government bodies and large corporates.' },
+        { name: 'Quartz (Blockchain)', icon: '⛓️', tag: 'Blockchain', stat: 'Enterprise grade', desc: 'Enterprise blockchain-as-a-service platform for supply chain, trade finance, and digital identity across banking and government sectors.' },
+      ],
+      listed: [
+        { sym: 'TATAMOTORS.NS', name: 'Tata Motors' },
+        { sym: 'TATASTEEL.NS', name: 'Tata Steel' },
+        { sym: 'TATAPOWER.NS', name: 'Tata Power' },
+        { sym: 'TITAN.NS', name: 'Titan' },
+      ],
+    },
+    'HDFCBANK.NS': {
+      groupName: 'HDFC Group',
+      subtitle: 'India\'s largest private sector bank by assets, now merged with HDFC Ltd. A full-stack financial services powerhouse.',
+      divisions: [
+        { name: 'HDFC Securities', icon: '📈', tag: 'Broking', stat: '3.5M+ clients', desc: 'Full-service brokerage for equity, derivatives, currency, and mutual funds. One of India\'s largest retail broking platforms, integrated with HDFC Bank accounts.' },
+        { name: 'HDB Financial Services', icon: '💳', tag: 'NBFC', stat: 'IPO planned', desc: 'Non-banking financial company providing personal loans, business loans, and BPO services. AUM of ₹95,000+ Cr. Highly anticipated IPO in pipeline.' },
+        { name: 'HDFC Credila', icon: '🎓', tag: 'Education Finance', stat: 'India\'s largest', desc: 'India\'s largest education loan company. Finances students at IITs, IIMs, and 400+ universities abroad. Partially divested to BPEA EQT.' },
+        { name: 'HDFC Bank (Banking)', icon: '🏦', tag: 'Banking', stat: '₹25L Cr+ deposits', desc: 'Core banking arm with 8,700+ branches and 20,000+ ATMs. Largest by market cap among Indian private banks. Net NPA consistently below 0.4%.' },
+      ],
+      listed: [
+        { sym: 'HDFCAMC.NS', name: 'HDFC AMC' },
+        { sym: 'HDFCLIFE.NS', name: 'HDFC Life Insurance' },
+      ],
+    },
+    'INFY.NS': {
+      groupName: 'Infosys Ecosystem',
+      subtitle: 'Infosys is India\'s second-largest IT firm and a global leader in digital transformation, cloud, and AI services.',
+      divisions: [
+        { name: 'Infosys BPM', icon: '⚙️', tag: 'BPO', stat: '50,000+ employees', desc: 'Business process management arm handling back-office, finance, accounting, and customer service for global enterprises across 50+ countries.' },
+        { name: 'EdgeVerve (Finacle)', icon: '🏦', tag: 'Banking SaaS', stat: '1B+ bank customers', desc: 'Finacle is the world\'s top core banking platform, used by 1 billion+ retail customers globally at 100+ banks. EdgeVerve also builds AI assistants for enterprises.' },
+        { name: 'Infosys Cobalt', icon: '☁️', tag: 'Cloud', stat: '200+ cloud clients', desc: 'Cloud-first services suite covering migration, native development, and SaaS integration across AWS, Azure, and GCP for Fortune 500 companies.' },
+        { name: 'Topaz (AI)', icon: '🤖', tag: 'Generative AI', stat: '300+ use cases', desc: 'AI-first platform launched 2023. Offers 300+ AI use cases, LLM fine-tuning, and responsible AI frameworks. Competes with Accenture AI and IBM watsonx.' },
+      ],
+      listed: [],
+    },
+    'BHARTIARTL.NS': {
+      groupName: 'Bharti Enterprises Group',
+      subtitle: 'Sunil Mittal\'s Bharti Group spans telecom, agri, real estate, financial services, and defence manufacturing.',
+      divisions: [
+        { name: 'Airtel Africa', icon: '🌍', tag: 'Africa Telecom', stat: '150M+ subscribers', desc: 'Listed separately in London. Airtel Africa operates mobile and money services across 14 countries. One of the fastest growing telcos on the continent.' },
+        { name: 'Airtel Payments Bank', icon: '💸', tag: 'FinTech', stat: '500M+ transactions', desc: 'India\'s largest payments bank by transaction volume. Provides savings accounts, UPI, insurance, and credit products to rural and semi-urban India.' },
+        { name: 'Nxtra (Data Centers)', icon: '🖥️', tag: 'Data Centers', stat: '12 data centers', desc: 'Airtel\'s data center business, operating 12 hyperscale and edge facilities across India. Expanding rapidly to serve cloud computing and enterprise needs.' },
+        { name: 'Bharti Defence', icon: '🛡️', tag: 'Defence', stat: 'Make in India', desc: 'JV with Elbit Systems for defence electronics and avionics. Part of India\'s Make in India push for indigenous military technology manufacturing.' },
+      ],
+      listed: [],
+    },
+  };
+
+  async function loadGroupSection() {
+    const g = CONGLOMERATES[sym];
+    if (!g) return;
+
+    const section = document.getElementById('grpSection');
+    if (!section) return;
+    section.style.display = 'block';
+    document.getElementById('grpTitle').textContent = g.groupName;
+    document.getElementById('grpSubtitle').textContent = g.subtitle || '';
+
+    // Render business division cards
+    document.getElementById('grpDivisions').innerHTML = g.divisions.map(d => `
+      <div class="grp-div-card">
+        <div class="grp-div-top">
+          <span class="grp-div-icon">${d.icon}</span>
+          <div style="flex:1;min-width:0">
+            <div class="grp-div-name">${d.name}</div>
+            <span class="grp-div-tag">${d.tag}</span>
+          </div>
+          <div class="grp-div-stat">${d.stat || ''}</div>
+        </div>
+        <p class="grp-div-desc">${d.desc}</p>
+      </div>
+    `).join('');
+
+    // Render + fetch prices for listed group stocks
+    if (g.listed && g.listed.length) {
+      document.getElementById('grpListedWrap').style.display = 'block';
+      document.getElementById('grpStocks').innerHTML = g.listed.map(s => `
+        <a href="/company/${s.sym.toLowerCase().replace(/\./g,'-')}" class="mkt-card">
+          <div class="mkt-top">
+            <div>
+              <div class="mkt-sym">${s.sym.replace(/\.(NS|BO)$/,'')}</div>
+              <div class="mkt-name">${s.name}</div>
+            </div>
+            <div class="mkt-badge" id="grpb-${s.sym}">—</div>
+          </div>
+          <div class="mkt-price" id="grpp-${s.sym}">—</div>
+          <div class="mkt-chg"   id="grpc-${s.sym}">—</div>
+        </a>
+      `).join('');
+
+      try {
+        const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${g.listed.map(s=>s.sym).join(',')}&fields=symbol,regularMarketPrice,regularMarketChange,regularMarketChangePercent`;
+        const r = await fetch(P + encodeURIComponent(url));
+        const quotes = (await r.json())?.quoteResponse?.result || [];
+        quotes.forEach(q => {
+          const chg = q.regularMarketChange ?? 0;
+          const pct = q.regularMarketChangePercent ?? 0;
+          const up  = chg >= 0;
+          const color = up ? '#22c55e' : '#ef4444';
+          const c = (q.symbol.endsWith('.NS')||q.symbol.endsWith('.BO')) ? '₹' : '$';
+          const pEl = document.getElementById(`grpp-${q.symbol}`);
+          const bEl = document.getElementById(`grpb-${q.symbol}`);
+          const cEl = document.getElementById(`grpc-${q.symbol}`);
+          if (pEl) pEl.textContent = `${c}${q.regularMarketPrice?.toLocaleString(undefined,{maximumFractionDigits:2})}`;
+          if (bEl) { bEl.textContent = `${up?'+':''}${pct.toFixed(2)}%`; bEl.classList.add(up?'badge-up':'badge-dn'); }
+          if (cEl) { cEl.textContent = `${up?'▲':'▼'} ${c}${Math.abs(chg).toFixed(2)}`; cEl.style.color = color; }
+        });
+      } catch {}
+    }
+  }
+
   loadQuote();
   loadChart();
   loadNews();
   loadRelated();
+  loadGroupSection();
 </script>
+
+<style>
+  .grp-subtitle {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin: 0 0 24px;
+    line-height: 1.6;
+  }
+  .grp-divisions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 14px;
+  }
+  .grp-div-card {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 14px;
+    padding: 18px 20px;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .grp-div-card:hover {
+    border-color: rgba(201,168,76,0.3);
+    transform: translateY(-2px);
+  }
+  .grp-div-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .grp-div-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+  .grp-div-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  .grp-div-tag {
+    display: inline-block;
+    background: rgba(201,168,76,0.1);
+    color: #c9a84c;
+    border: 1px solid rgba(201,168,76,0.2);
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    letter-spacing: 0.4px;
+  }
+  .grp-div-stat {
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 700;
+    color: #c9a84c;
+    white-space: nowrap;
+    padding-left: 8px;
+    padding-top: 2px;
+  }
+  .grp-div-desc {
+    font-size: 12px;
+    color: #7a8899;
+    line-height: 1.65;
+    margin: 0;
+  }
+  @media (max-width: 600px) {
+    .grp-divisions { grid-template-columns: 1fr; }
+  }
+</style>
