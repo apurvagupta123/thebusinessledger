@@ -75,22 +75,36 @@ const sorted = posts.sort((a: any, b: any) =>
     </div>
   </section>
 
-  <!-- ── Fear & Greed + Sector Heatmap ───────────────── -->
-  <div class="fg-heatmap-row">
-
-
-    <!-- Sector Heatmap -->
-    <div class="content-section heatmap-section">
-      <div class="section-head">
-        <h2 class="section-title">Sector Performance</h2>
-        <span class="section-live">LIVE</span>
+  <!-- ── India Markets ──────────────────────────────── -->
+  <section class="content-section" style="margin-top:32px">
+    <div class="section-head">
+      <h2 class="section-title">🇮🇳 India Markets</h2>
+      <a href="/markets/india" class="section-more">View all →</a>
+      <span class="section-live">LIVE</span>
+    </div>
+    <div class="indices-grid" id="indiaBar">
+      <div class="idx-card skeleton" id="hidx-NSEI">
+        <span class="idx-name">NIFTY 50</span>
+        <span class="idx-price" id="hidx-NSEI-price">—</span>
+        <span class="idx-chg"   id="hidx-NSEI-chg">—</span>
       </div>
-      <div class="sector-chart-wrap">
-        <canvas id="sectorChart"></canvas>
+      <div class="idx-card skeleton" id="hidx-BSESN">
+        <span class="idx-name">SENSEX</span>
+        <span class="idx-price" id="hidx-BSESN-price">—</span>
+        <span class="idx-chg"   id="hidx-BSESN-chg">—</span>
+      </div>
+      <div class="idx-card skeleton" id="hidx-NSEBANK">
+        <span class="idx-name">NIFTY BANK</span>
+        <span class="idx-price" id="hidx-NSEBANK-price">—</span>
+        <span class="idx-chg"   id="hidx-NSEBANK-chg">—</span>
+      </div>
+      <div class="idx-card skeleton" id="hidx-MID">
+        <span class="idx-name">NIFTY MIDCAP</span>
+        <span class="idx-price" id="hidx-MID-price">—</span>
+        <span class="idx-chg"   id="hidx-MID-chg">—</span>
       </div>
     </div>
-
-  </div>
+  </section>
 
   <!-- ── Today's Markets ─────────────────────────────── -->
   <section class="content-section" id="markets">
@@ -409,82 +423,26 @@ const sorted = posts.sort((a: any, b: any) =>
     } catch {}
   }
 
-  // ── Sector Bar Chart (Yahoo Finance direct) ──────────────────
-  const SECTORS = [
-    {sym:'XLK', name:'Technology'},
-    {sym:'XLF', name:'Financials'},
-    {sym:'XLE', name:'Energy'},
-    {sym:'XLV', name:'Health Care'},
-    {sym:'XLY', name:'Cons. Disc.'},
-    {sym:'XLP', name:'Cons. Staples'},
-    {sym:'XLI', name:'Industrials'},
-    {sym:'XLU', name:'Utilities'},
-    {sym:'XLB', name:'Materials'},
-    {sym:'XLRE', name:'Real Estate'},
-  ];
-  async function loadHeatmap() {
+  // ── India Indices ─────────────────────────────────────────────
+  async function loadIndiaIndices() {
     try {
-      const syms = SECTORS.map(s => s.sym).join(',');
-      const url  = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${syms}&fields=symbol,regularMarketChangePercent`;
-      const res  = await fetch(PROXY + encodeURIComponent(url));
+      const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=%5ENSEI,%5EBSESN,%5ENSEBANK,%5ENIFTYMIDCAP150&fields=symbol,regularMarketPrice,regularMarketChange,regularMarketChangePercent`;
+      const res = await fetch(PROXY + encodeURIComponent(url));
       const quotes = (await res.json())?.quoteResponse?.result || [];
-      const data = SECTORS.map(s => {
-        const q = quotes.find((q:any) => q.symbol === s.sym);
-        return { name: s.name, pct: q?.regularMarketChangePercent ?? 0 };
-      }).sort((a,b) => b.pct - a.pct);
-
-      const labels = data.map(d => d.name);
-      const values = data.map(d => parseFloat(d.pct.toFixed(2)));
-      const colors = values.map(v => v >= 0 ? 'rgba(34,197,94,0.75)' : 'rgba(239,68,68,0.75)');
-      const borders = values.map(v => v >= 0 ? '#22c55e' : '#ef4444');
-
-      if ((window as any)._sectorChart) (window as any)._sectorChart.destroy();
-      const canvas = document.getElementById('sectorChart') as HTMLCanvasElement;
-      if (!canvas) return;
-      (window as any)._sectorChart = new (window as any).Chart(canvas, {
-        type: 'bar',
-        data: {
-          labels,
-          datasets: [{
-            data: values,
-            backgroundColor: colors,
-            borderColor: borders,
-            borderWidth: 1,
-            borderRadius: 4,
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: {
-            legend: { display: false },
-            tooltip: {
-              callbacks: {
-                label: (ctx:any) => ` ${ctx.raw >= 0 ? '+' : ''}${ctx.raw.toFixed(2)}%`
-              }
-            }
-          },
-          scales: {
-            x: {
-              grid: { display: false },
-              border: { color: 'rgba(255,255,255,0.1)' },
-              ticks: {
-                color: '#e2e8f0',
-                font: { size: 11, weight: '600' as const },
-                maxRotation: 0,
-                minRotation: 0,
-              }
-            },
-            y: {
-              grid: { color: 'rgba(255,255,255,0.06)' },
-              border: { color: 'rgba(255,255,255,0.1)' },
-              ticks: {
-                color: '#94a3b8',
-                callback: (v:any) => `${Number(v) >= 0 ? '+' : ''}${Number(v).toFixed(1)}%`
-              }
-            }
-          }
-        }
+      const idMap: Record<string,string> = {'^NSEI':'NSEI','^BSESN':'BSESN','^NSEBANK':'NSEBANK','^NIFTYMIDCAP150':'MID'};
+      quotes.forEach((q: any) => {
+        const key = idMap[q.symbol];
+        if (!key) return;
+        const chg = q.regularMarketChange ?? 0;
+        const pct = q.regularMarketChangePercent ?? 0;
+        const up  = chg >= 0;
+        const color = up ? '#22c55e' : '#ef4444';
+        const card = document.getElementById(`hidx-${key}`);
+        if (card) { card.classList.remove('skeleton'); card.classList.add(up ? 'up' : 'dn'); }
+        const pEl = document.getElementById(`hidx-${key}-price`);
+        if (pEl) pEl.textContent = q.regularMarketPrice?.toLocaleString('en-IN', {maximumFractionDigits:2});
+        const cEl = document.getElementById(`hidx-${key}-chg`);
+        if (cEl) { cEl.textContent = `${up?'▲':'▼'} ${Math.abs(pct).toFixed(2)}%`; (cEl as HTMLElement).style.color = color; }
       });
     } catch {}
   }
@@ -493,6 +451,6 @@ const sorted = posts.sort((a: any, b: any) =>
   loadMarkets();
   loadNews();
   loadFearGreed();
-  loadHeatmap();
-  setInterval(() => { loadIndices(); loadMarkets(); loadHeatmap(); }, 60000);
+  loadIndiaIndices();
+  setInterval(() => { loadIndices(); loadMarkets(); loadIndiaIndices(); }, 60000);
 </script>
