@@ -76,37 +76,31 @@ const sorted = posts.sort((a: any, b: any) =>
   </section>
 
   <!-- ── Fear & Greed + Sector Heatmap ───────────────── -->
-  <div class="fg-heatmap-row">
-
-
-    <!-- Sector Heatmap -->
-    <div class="content-section heatmap-section">
-      <div class="section-head">
-        <h2 class="section-title">Sector Performance</h2>
-        <span class="section-live">LIVE</span>
-      </div>
-      <div class="sector-pill-bar" id="heatmapGrid">
-        {[
-          {sym:'XLK',name:'Technology'},
-          {sym:'XLF',name:'Financials'},
-          {sym:'XLE',name:'Energy'},
-          {sym:'XLV',name:'Health Care'},
-          {sym:'XLY',name:'Cons. Disc.'},
-          {sym:'XLP',name:'Cons. Staples'},
-          {sym:'XLI',name:'Industrials'},
-          {sym:'XLU',name:'Utilities'},
-          {sym:'XLB',name:'Materials'},
-          {sym:'XLRE',name:'Real Estate'},
-        ].map(s => (
-          <div class="sector-pill" id={`hm-${s.sym}`}>
-            <span class="sp-name">{s.name}</span>
-            <span class="sp-pct" id={`hmp-${s.sym}`}>—</span>
-          </div>
-        ))}
-      </div>
+  <section class="content-section">
+    <div class="section-head">
+      <h2 class="section-title">Sector Performance</h2>
+      <span class="section-live">LIVE</span>
     </div>
-
-  </div>
+    <div class="sector-pill-bar" id="heatmapGrid">
+      {[
+        {sym:'XLK',name:'Technology'},
+        {sym:'XLF',name:'Financials'},
+        {sym:'XLE',name:'Energy'},
+        {sym:'XLV',name:'Health Care'},
+        {sym:'XLY',name:'Cons. Disc.'},
+        {sym:'XLP',name:'Cons. Staples'},
+        {sym:'XLI',name:'Industrials'},
+        {sym:'XLU',name:'Utilities'},
+        {sym:'XLB',name:'Materials'},
+        {sym:'XLRE',name:'Real Estate'},
+      ].map(s => (
+        <div class="sector-pill" id={`hm-${s.sym}`}>
+          <span class="sp-name">{s.name}</span>
+          <span class="sp-pct" id={`hmp-${s.sym}`}>—</span>
+        </div>
+      ))}
+    </div>
+  </section>
 
   <!-- ── Today's Markets ─────────────────────────────── -->
   <section class="content-section" id="markets">
