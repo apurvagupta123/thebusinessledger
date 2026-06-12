@@ -1,94 +1,43 @@
 export async function onRequest() {
+  const TD_KEY = 'c0f820df7be2436d88d2e2092d1066fc';
   const ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
-  const stocks = ['RELIANCE','TCS','HDFCBANK','INFY','WIPRO','ICICIBANK'];
-
   const cors = {
     'Content-Type': 'application/json',
     'Access-Control-Allow-Origin': '*',
     'Cache-Control': 'public, max-age=60'
   };
 
-  // ── Primary: NSE India public API ────────────────────────────────────
+  const results = [];
+
+  // 1. Twelve Data for NSE stocks (proven to work from Cloudflare Workers)
   try {
-    const homeResp = await fetch('https://www.nseindia.com/', {
-      headers: {
-        'User-Agent': ua,
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.5',
-        'Connection': 'keep-alive'
-      }
-    });
-
-    // Collect cookies
-    const cookieParts = [];
-    if (homeResp.headers.getSetCookie) {
-      homeResp.headers.getSetCookie().forEach(c => cookieParts.push(c.split(';')[0]));
-    } else {
-      const raw = homeResp.headers.get('set-cookie') || '';
-      raw.split(',').forEach(c => cookieParts.push(c.trim().split(';')[0]));
-    }
-    const cookie = cookieParts.join('; ');
-
-    const nseHdrs = {
-      'User-Agent': ua,
-      'Accept': 'application/json, text/plain, */*',
-      'Accept-Language': 'en-US,en;q=0.5',
-      'Referer': 'https://www.nseindia.com/',
-      'Cookie': cookie
-    };
-
-    const results = [];
-
-    // Indices
-    const idxResp = await fetch('https://www.nseindia.com/api/allIndices', { headers: nseHdrs });
-    const idxData = await idxResp.json();
-    const idxMap = [
-      ['NIFTY 50', '^NSEI'],
-      ['NIFTY BANK', '^NSEBANK'],
-      ['INDIA VIX', '^INDIAVIX']
-    ];
-    for (const [name, sym] of idxMap) {
-      const idx = idxData?.data?.find(i => i.indexSymbol === name);
-      if (idx) results.push({
-        symbol: sym,
-        regularMarketPrice: idx.last,
-        regularMarketChange: idx.variation,
-        regularMarketChangePercent: idx.percentChange
+    const symbols = 'RELIANCE:NSE,TCS:NSE,HDFCBANK:NSE,INFY:NSE,WIPRO:NSE,ICICIBANK:NSE';
+    const r = await fetch(`https://api.twelvedata.com/quote?symbol=${encodeURIComponent(symbols)}&apikey=${TD_KEY}`);
+    const data = await r.json();
+    for (const [key, d] of Object.entries(data)) {
+      if (!d || d.status === 'error' || !d.close) continue;
+      const baseSym = key.split(':')[0];
+      results.push({
+        symbol: baseSym + '.NS',
+        regularMarketPrice: parseFloat(d.close),
+        regularMarketChange: parseFloat(d.change) || 0,
+        regularMarketChangePercent: parseFloat(d.percent_change) || 0
       });
-    }
-
-    // Stocks in parallel
-    const stockResults = await Promise.all(stocks.map(async sym => {
-      const r = await fetch('https://www.nseindia.com/api/quote-equity?symbol=' + sym, { headers: nseHdrs });
-      const d = await r.json();
-      if (!d?.priceInfo?.lastPrice) return null;
-      return {
-        symbol: sym + '.NS',
-        regularMarketPrice: d.priceInfo.lastPrice,
-        regularMarketChange: d.priceInfo.change || 0,
-        regularMarketChangePercent: d.priceInfo.pChange || 0
-      };
-    }));
-    results.push(...stockResults.filter(Boolean));
-
-    if (results.length >= 3) {
-      return new Response(JSON.stringify({ quoteResponse: { result: results, error: null } }), { headers: cors });
     }
   } catch(e) {}
 
-  // ── Fallback: Stooq end-of-day data ──────────────────────────────────
-  const stooqMap = [
-    ['reliance.ns','RELIANCE.NS'],['tcs.ns','TCS.NS'],
-    ['hdfcbank.ns','HDFCBANK.NS'],['infy.ns','INFY.NS'],
-    ['wipro.ns','WIPRO.NS'],['icicibank.ns','ICICIBANK.NS'],
-    ['%5ensei','^NSEI'],['%5ebsesn','^BSESN']
+  // 2. Stooq for Indian indices (server-side fetch, no CORS restriction)
+  const stooqIndices = [
+    ['%5ensei', '^NSEI'],
+    ['%5ebsesn', '^BSESN'],
+    ['%5ensebank', '^NSEBANK']
   ];
 
-  const fallback = await Promise.all(stooqMap.map(async ([s, out]) => {
+  const idxResults = await Promise.allSettled(stooqIndices.map(async ([s, sym]) => {
     try {
-      const r = await fetch('https://stooq.com/q/d/l/?s=' + s + '&i=d', { headers: { 'User-Agent': ua } });
+      const r = await fetch(`https://stooq.com/q/d/l/?s=${s}&i=d`, { headers: { 'User-Agent': ua } });
       const text = await r.text();
-      const lines = text.trim().split('\n').slice(1);
+      const lines = text.trim().split('\n').filter(l => l && !l.startsWith('Date'));
       if (!lines.length) return null;
       const last = lines[lines.length - 1].split(',');
       const prev = lines.length > 1 ? lines[lines.length - 2].split(',') : last;
@@ -96,11 +45,35 @@ export async function onRequest() {
       const prevClose = parseFloat(prev[4]);
       if (!close || isNaN(close)) return null;
       const change = close - prevClose;
-      return { symbol: out, regularMarketPrice: close, regularMarketChange: change, regularMarketChangePercent: prevClose ? (change / prevClose) * 100 : 0 };
+      return { symbol: sym, regularMarketPrice: close, regularMarketChange: change, regularMarketChangePercent: prevClose ? (change / prevClose) * 100 : 0 };
     } catch(e) { return null; }
   }));
 
-  return new Response(JSON.stringify({ quoteResponse: { result: fallback.filter(Boolean), error: null } }), {
-    headers: { ...cors, 'Cache-Control': 'public, max-age=300' }
-  });
+  for (const r of idxResults) {
+    if (r.status === 'fulfilled' && r.value) results.push(r.value);
+  }
+
+  // 3. If Stooq indices failed, fall back to Twelve Data for NIFTY/SENSEX
+  const hasNifty = results.some(r => r.symbol === '^NSEI');
+  const hasSensex = results.some(r => r.symbol === '^BSESN');
+  if (!hasNifty || !hasSensex) {
+    try {
+      const idxSyms = [];
+      if (!hasNifty) idxSyms.push('NIFTY 50:NSE');
+      if (!hasSensex) idxSyms.push('SENSEX:BSE');
+      if (idxSyms.length) {
+        const r = await fetch(`https://api.twelvedata.com/quote?symbol=${encodeURIComponent(idxSyms.join(','))}&apikey=${TD_KEY}`);
+        const data = await r.json();
+        const tryAdd = (key, sym) => {
+          const d = data[key] || (data.symbol && data.symbol === key.split(':')[0] ? data : null);
+          if (!d || d.status === 'error' || !d.close) return;
+          results.push({ symbol: sym, regularMarketPrice: parseFloat(d.close), regularMarketChange: parseFloat(d.change) || 0, regularMarketChangePercent: parseFloat(d.percent_change) || 0 });
+        };
+        tryAdd('NIFTY 50:NSE', '^NSEI');
+        tryAdd('SENSEX:BSE', '^BSESN');
+      }
+    } catch(e) {}
+  }
+
+  return new Response(JSON.stringify({ quoteResponse: { result: results, error: null } }), { headers: cors });
 }
