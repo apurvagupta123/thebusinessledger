@@ -684,12 +684,6 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   border-right: 1px solid rgba(255,255,255,0.12);
   white-space: nowrap;
 }
-.post-content table thead th::after {
-  content: " ▼";
-  font-size: 0.65em;
-  opacity: 0.55;
-  vertical-align: middle;
-}
 .post-content table thead th:last-child { border-right: none; }
 .post-content table tbody tr:nth-child(odd)  { background: #d6eaf2; }
 .post-content table tbody tr:nth-child(even) { background: #eaf5f9; }
