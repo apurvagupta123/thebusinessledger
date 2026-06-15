@@ -1217,22 +1217,16 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 /* ── Hero background image ───────────────────────────── */
 .hero-bg {
   position: relative;
-  overflow: hidden;
-  /* Base dark navy */
+  /* NO overflow:hidden — would clip the animated rings */
   background: #080d18;
-  /* Layered: subtle grid + radial glow from the right (where circles live) */
   background-image:
-    /* Fine grid lines */
     linear-gradient(rgba(201,168,76,.04) 1px, transparent 1px),
     linear-gradient(90deg, rgba(201,168,76,.04) 1px, transparent 1px),
-    /* Coarse grid lines */
-    linear-gradient(rgba(255,255,255,.015) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.015) 1px, transparent 1px),
-    /* Radial glow — right side, matching circle position */
-    radial-gradient(ellipse 55% 70% at 78% 50%, rgba(34,197,94,.07) 0%, transparent 65%),
-    radial-gradient(ellipse 45% 60% at 78% 50%, rgba(201,168,76,.06) 0%, transparent 60%),
-    /* Deep left vignette so text pops */
-    radial-gradient(ellipse 60% 80% at 10% 50%, rgba(8,13,24,.95) 0%, transparent 70%);
+    linear-gradient(rgba(255,255,255,.012) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.012) 1px, transparent 1px),
+    radial-gradient(ellipse 55% 70% at 78% 50%, rgba(34,197,94,.08) 0%, transparent 65%),
+    radial-gradient(ellipse 45% 60% at 78% 50%, rgba(201,168,76,.07) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 10% 50%, rgba(8,13,24,.92) 0%, transparent 70%);
   background-size:
     40px 40px,
     40px 40px,
@@ -1242,34 +1236,34 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
     100% 100%,
     100% 100%;
 }
-/* Animated moving grid for depth */
+/* Animated grid — z-index 0, BELOW hero-inner */
 .hero-bg::before {
   content: '';
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(34,197,94,.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(34,197,94,.035) 1px, transparent 1px);
+    linear-gradient(rgba(34,197,94,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34,197,94,.03) 1px, transparent 1px);
   background-size: 80px 80px;
-  animation: grid-drift 20s linear infinite;
+  animation: grid-drift 22s linear infinite;
   pointer-events: none;
   z-index: 0;
 }
-/* Floating particles */
+/* Floating dot particles — z-index 0, BELOW hero-inner */
 .hero-bg::after {
   content: '';
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle 1.5px at 20% 30%, rgba(201,168,76,.5) 0%, transparent 100%),
-    radial-gradient(circle 1px   at 75% 20%, rgba(34,197,94,.6)  0%, transparent 100%),
-    radial-gradient(circle 1.5px at 85% 65%, rgba(201,168,76,.4) 0%, transparent 100%),
-    radial-gradient(circle 1px   at 35% 75%, rgba(34,197,94,.5)  0%, transparent 100%),
-    radial-gradient(circle 1px   at 60% 85%, rgba(201,168,76,.4) 0%, transparent 100%),
-    radial-gradient(circle 2px   at 90% 40%, rgba(34,197,94,.35) 0%, transparent 100%),
-    radial-gradient(circle 1px   at 15% 60%, rgba(201,168,76,.4) 0%, transparent 100%),
-    radial-gradient(circle 1.5px at 50% 15%, rgba(34,197,94,.4)  0%, transparent 100%);
-  animation: particles-drift 15s ease-in-out infinite alternate;
+    radial-gradient(circle 2px at 18% 28%, rgba(201,168,76,.55) 0%, transparent 100%),
+    radial-gradient(circle 1.5px at 72% 18%, rgba(34,197,94,.65) 0%, transparent 100%),
+    radial-gradient(circle 2px at 83% 63%, rgba(201,168,76,.45) 0%, transparent 100%),
+    radial-gradient(circle 1.5px at 33% 72%, rgba(34,197,94,.5) 0%, transparent 100%),
+    radial-gradient(circle 1.5px at 57% 82%, rgba(201,168,76,.4) 0%, transparent 100%),
+    radial-gradient(circle 2.5px at 88% 38%, rgba(34,197,94,.4) 0%, transparent 100%),
+    radial-gradient(circle 1.5px at 12% 58%, rgba(201,168,76,.45) 0%, transparent 100%),
+    radial-gradient(circle 2px at 48% 12%, rgba(34,197,94,.45) 0%, transparent 100%);
+  animation: particles-drift 16s ease-in-out infinite alternate;
   pointer-events: none;
   z-index: 0;
 }
@@ -1278,21 +1272,23 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   100% { transform: translateY(80px); }
 }
 @keyframes particles-drift {
-  0%   { transform: translate(0, 0) scale(1); opacity: .7; }
-  100% { transform: translate(10px, -15px) scale(1.05); opacity: 1; }
+  0%   { opacity: .7; transform: translate(0, 0); }
+  100% { opacity: 1;  transform: translate(8px, -12px); }
 }
+/* Overlay: only darkens left side for text legibility, z-index 1 */
 .hero-overlay {
   position: absolute;
   inset: 0;
-  /* Left-side text legibility fade */
   background: linear-gradient(
     105deg,
-    rgba(8,13,24,0.85) 0%,
-    rgba(8,13,24,0.50) 45%,
-    rgba(8,13,24,0.10) 100%
+    rgba(8,13,24,0.82) 0%,
+    rgba(8,13,24,0.45) 42%,
+    transparent 70%
   );
   z-index: 1;
+  pointer-events: none;
 }
+/* Hero content sits above everything — z-index 2 */
 .hero-bg .hero-inner {
   position: relative;
   z-index: 2;
