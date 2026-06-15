@@ -175,11 +175,7 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
         <h1 class="mkts-title">🇮🇳 Indian Markets</h1>
         <p class="mkts-sub">NSE & BSE live prices across all major Indian sectors</p>
       </div>
-      <div style="display:flex;align-items:center;gap:10px;">
-        <span class="section-live">LIVE</span>
-        <button id="refreshBtn" class="refresh-btn" title="Force refresh">↻</button>
-        <span id="lastUpdated" style="font-size:11px;color:var(--text-muted)"></span>
-      </div>
+      <span class="section-live">LIVE</span>
     </div>
 
     <!-- Sector controls -->
@@ -220,10 +216,9 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
 
 <script define:vars={{ SECTORS }}>
   const FH_KEY = 'd81lae1r01qrojfc2i2gd81lae1r01qrojfc2i30';
-  const CACHE_TTL = 90000; // 90 seconds cache — avoids rate limits on quick refreshes
   let currentSector = 'banking';
 
-  const SECTOR_GUIDES = {
+  const SECTOR_GUIDES: Record<string, string[]> = {
     banking:  ['NPA & GNPA ratios (lower = better)','Net Interest Margin (NIM) — target >3.5%','CASA ratio (higher = cheaper deposits)','Credit growth vs deposit growth','Return on Assets (RoA) >1% is healthy'],
     it:       ['Revenue growth in constant currency','EBIT margin (top IT: 22–26%)','Deal Total Contract Value (TCV)','Employee attrition rate (lower = stable)','US/Europe revenue mix & macro sensitivity'],
     finance:  ['AUM growth for AMCs/NBFCs','Net Interest Margin & credit cost','Gross NPA for NBFCs','Premium growth for insurers','Capital adequacy ratio (CAR)'],
@@ -236,159 +231,91 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
     telecom:  ['ARPU (Average Revenue Per User) trend','Subscriber additions/churn','5G rollout speed & coverage','Debt servicing for Vi','AGR dues & spectrum payments'],
   };
 
-  // ── Cache helpers (sessionStorage — persists across refreshes, cleared on tab close) ──
-  function cacheGet(sym) {
+  async function fetchIndianQuote(nsSym: string) {
+    const fhSym = 'NSE:' + nsSym.replace(/\.(NS|BO)$/, '');
     try {
-      const raw = sessionStorage.getItem('q_' + sym);
-      if (!raw) return null;
-      const { ts, data } = JSON.parse(raw);
-      if (Date.now() - ts > CACHE_TTL) { sessionStorage.removeItem('q_' + sym); return null; }
-      return data;
+      const r = await fetch(`https://finnhub.io/api/v1/quote?symbol=${fhSym}&token=${FH_KEY}`, { signal: AbortSignal.timeout(7000) });
+      const d = await r.json();
+      if (!d.c) return null;
+      return { symbol: nsSym, regularMarketPrice: d.c, regularMarketChange: d.d||0, regularMarketChangePercent: d.dp||0 };
     } catch { return null; }
   }
-  function cacheSet(sym, data) {
-    try { sessionStorage.setItem('q_' + sym, JSON.stringify({ ts: Date.now(), data })); } catch {}
-  }
 
-  // ── Fetch with Finnhub primary → Yahoo Finance fallback ──
-  async function fetchIndianQuote(nsSym) {
-    const cached = cacheGet(nsSym);
-    if (cached) return cached;
-
-    // Primary: Finnhub (fast, no proxy needed)
-    try {
-      const fhSym = 'NSE:' + nsSym.replace(/\.(NS|BO)$/, '');
-      const r = await fetch(`https://finnhub.io/api/v1/quote?symbol=${fhSym}&token=${FH_KEY}`, { signal: AbortSignal.timeout(5000) });
-      const d = await r.json();
-      if (d && d.c && d.c > 0) {
-        const result = { symbol: nsSym, regularMarketPrice: d.c, regularMarketChange: d.d || 0, regularMarketChangePercent: d.dp || 0 };
-        cacheSet(nsSym, result);
-        return result;
-      }
-    } catch {}
-
-    // Fallback: Yahoo Finance via proxy
-    try {
-      const yhSym = encodeURIComponent(nsSym);
-      const url = `https://query1.finance.yahoo.com/v8/finance/chart/${yhSym}?interval=1d&range=1d`;
-      const proxy = `https://corsproxy.io/?${encodeURIComponent(url)}`;
-      const r = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
-      const d = await r.json();
-      const meta = d?.chart?.result?.[0]?.meta;
-      if (meta && meta.regularMarketPrice) {
-        const price = meta.regularMarketPrice;
-        const prev  = meta.previousClose || meta.chartPreviousClose || price;
-        const chg   = price - prev;
-        const pct   = prev ? (chg / prev) * 100 : 0;
-        const result = { symbol: nsSym, regularMarketPrice: price, regularMarketChange: chg, regularMarketChangePercent: pct };
-        cacheSet(nsSym, result);
-        return result;
-      }
-    } catch {}
-
-    return null;
-  }
-
-  function renderCard(q) {
+  function renderCard(q: any, name: string) {
     const chg = q.regularMarketChange ?? 0;
     const pct = q.regularMarketChangePercent ?? 0;
     const up  = chg >= 0;
     const color = up ? '#22c55e' : '#ef4444';
-    const card = document.getElementById('sc-' + q.symbol);
-    if (card) { card.classList.remove('loading'); card.classList.add(up ? 'up' : 'dn'); }
-    const bEl = document.getElementById('scb-' + q.symbol);
-    if (bEl) { bEl.textContent = (up ? '+' : '') + pct.toFixed(2) + '%'; bEl.classList.remove('badge-up','badge-dn'); bEl.classList.add(up ? 'badge-up' : 'badge-dn'); }
-    const pEl = document.getElementById('scp-' + q.symbol);
-    if (pEl) pEl.textContent = '₹' + q.regularMarketPrice.toLocaleString('en-IN', { maximumFractionDigits: 2 });
-    const cEl = document.getElementById('scc-' + q.symbol);
-    if (cEl) { cEl.textContent = (up ? '▲' : '▼') + ' ₹' + Math.abs(chg).toFixed(2); cEl.style.color = color; }
+    const card = document.getElementById(`sc-${q.symbol}`);
+    if (card) card.classList.add(up ? 'up' : 'dn');
+    const bEl = document.getElementById(`scb-${q.symbol}`);
+    if (bEl) { bEl.textContent = `${up?'+':''}${pct.toFixed(2)}%`; bEl.classList.remove('badge-up','badge-dn'); bEl.classList.add(up?'badge-up':'badge-dn'); }
+    const pEl = document.getElementById(`scp-${q.symbol}`);
+    if (pEl) pEl.textContent = `₹${q.regularMarketPrice?.toLocaleString('en-IN',{maximumFractionDigits:2})}`;
+    const cEl = document.getElementById(`scc-${q.symbol}`);
+    if (cEl) { cEl.textContent = `${up?'▲':'▼'} ₹${Math.abs(chg).toFixed(2)}`; cEl.style.color = color; }
   }
 
-  function buildGrid(sectorKey) {
+  function buildGrid(sectorKey: string) {
     const sector = SECTORS[sectorKey];
     const grid   = document.getElementById('companyGrid');
     if (!grid) return;
-    grid.innerHTML = sector.stocks.map((s) => {
-      const cached = cacheGet(s.sym);
-      const priceHtml = cached
-        ? `₹${cached.regularMarketPrice.toLocaleString('en-IN', { maximumFractionDigits: 2 })}`
-        : '—';
-      const pct = cached ? cached.regularMarketChangePercent : null;
-      const badgeHtml = cached ? `${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%` : '—';
-      const badgeCls  = cached ? (pct >= 0 ? 'badge-up' : 'badge-dn') : '';
-      const cardCls   = cached ? (pct >= 0 ? 'up' : 'dn') : 'loading';
-      const chgHtml   = cached ? `${cached.regularMarketChange >= 0 ? '▲' : '▼'} ₹${Math.abs(cached.regularMarketChange).toFixed(2)}` : '—';
-      const chgColor  = cached ? (cached.regularMarketChange >= 0 ? '#22c55e' : '#ef4444') : 'var(--text-muted)';
-      return `<a href="/company/${s.sym.toLowerCase().replace(/\./g,'-')}" class="sector-card ${cardCls}" id="sc-${s.sym}">
+    grid.innerHTML = sector.stocks.map((s: any) => `
+      <a href="/company/${s.sym.toLowerCase().replace(/\./g,'-')}" class="mkt-card sector-card" id="sc-${s.sym}">
         <div class="mkt-top">
           <div>
-            <div class="mkt-sym">${s.sym.replace(/\.(NS|BO)$/, '')}</div>
+            <div class="mkt-sym">${s.sym.replace(/\.(NS|BO)$/,'')}</div>
             <div class="mkt-name">${s.name}</div>
           </div>
-          <div class="mkt-badge ${badgeCls}" id="scb-${s.sym}">${badgeHtml}</div>
+          <div class="mkt-badge" id="scb-${s.sym}">—</div>
         </div>
-        <div class="mkt-price" id="scp-${s.sym}">${priceHtml}</div>
-        <div class="mkt-chg" id="scc-${s.sym}" style="color:${chgColor}">${chgHtml}</div>
-      </a>`;
-    }).join('');
+        <div class="mkt-price" id="scp-${s.sym}">—</div>
+        <div class="mkt-chg"   id="scc-${s.sym}">—</div>
+      </a>
+    `).join('');
 
+    // Update sector guide
     const guideItems = document.getElementById('sectorGuideItems');
     if (guideItems) {
       const guides = SECTOR_GUIDES[sectorKey] || [];
-      guideItems.innerHTML = guides.map((g) => `<span class="sgb-item">📌 ${g}</span>`).join('');
+      guideItems.innerHTML = guides.map((g: string) => `<span class="sgb-item">📌 ${g}</span>`).join('');
     }
   }
 
-  async function loadSector(sectorKey, forceRefresh = false) {
+  async function loadSector(sectorKey: string) {
     currentSector = sectorKey;
-
-    // Update UI controls
+    buildGrid(sectorKey);
     const descEl = document.getElementById('sectorDescText');
     if (descEl) descEl.textContent = SECTORS[sectorKey].desc;
-    const dd = document.getElementById('sectorDropdown');
+    const dd = document.getElementById('sectorDropdown') as HTMLSelectElement;
     if (dd) dd.value = sectorKey;
     document.querySelectorAll('.mkts-pill').forEach(b => {
-      b.classList.toggle('active', b.dataset.sector === sectorKey);
+      b.classList.toggle('active', (b as HTMLElement).dataset.sector === sectorKey);
     });
-
-    // Build grid immediately (shows cached data instantly or skeleton)
-    buildGrid(sectorKey);
-
-    // Fetch all in parallel — no sequential batching
-    const syms = SECTORS[sectorKey].stocks.map((s) => s.sym);
-    if (forceRefresh) syms.forEach(s => { try { sessionStorage.removeItem('q_' + s); } catch {} });
-
-    const results = await Promise.allSettled(syms.map(fetchIndianQuote));
-    results.forEach((r) => {
-      if (r.status === 'fulfilled' && r.value) renderCard(r.value);
-    });
-
-    // Show last-updated time
-    const ts = document.getElementById('lastUpdated');
-    if (ts) ts.textContent = 'Updated ' + new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
+    const syms = SECTORS[sectorKey].stocks.map((s: any) => s.sym);
+    const nameMap: Record<string, string> = {};
+    SECTORS[sectorKey].stocks.forEach((s: any) => { nameMap[s.sym] = s.name; });
+    for (let i = 0; i < syms.length; i += 4) {
+      const chunk = syms.slice(i, i + 4);
+      const results = await Promise.allSettled(chunk.map(fetchIndianQuote));
+      results.forEach((r: any, idx: number) => {
+        if (r.status === 'fulfilled' && r.value) renderCard(r.value, nameMap[chunk[idx]]);
+      });
+    }
   }
 
-  // Wait for DOM to be ready (define:vars makes script inline, not deferred)
-  function init() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const initSector = urlParams.get('sector') || 'banking';
-    const validSector = SECTORS[initSector] ? initSector : 'banking';
+  // Check URL params for sector
+  const urlParams = new URLSearchParams(window.location.search);
+  const initSector = urlParams.get('sector') || 'banking';
+  const validSector = SECTORS[initSector] ? initSector : 'banking';
 
-    document.getElementById('sectorDropdown')?.addEventListener('change', (e) => loadSector(e.target.value));
-    document.querySelectorAll('.mkts-pill').forEach(btn => {
-      btn.addEventListener('click', () => loadSector(btn.dataset.sector || 'banking'));
-    });
-    document.getElementById('refreshBtn')?.addEventListener('click', () => loadSector(currentSector, true));
+  (document.getElementById('sectorDropdown') as HTMLSelectElement)?.addEventListener('change', (e: any) => loadSector(e.target.value));
+  document.querySelectorAll('.mkts-pill').forEach(btn => {
+    btn.addEventListener('click', () => loadSector((btn as HTMLElement).dataset.sector || 'banking'));
+  });
 
-    loadSector(validSector);
-    setInterval(() => loadSector(currentSector), 90000);
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  loadSector(validSector);
+  setInterval(() => loadSector(currentSector), 60000);
 </script>
 
 <style>
@@ -411,57 +338,4 @@ const SECTORS: Record<string, { label: string; icon: string; desc: string; stock
   .sgb-items { display:flex; flex-wrap:wrap; gap:6px; }
   .sgb-item { font-size:11px; color:var(--text-muted); background:rgba(255,255,255,.04); padding:4px 10px; border-radius:20px; border:1px solid var(--border); }
   @media (max-width:700px) { .mkts-pills{display:none;} .mkts-dropdown{min-width:160px;} }
-
-  /* Sector stock grid */
-  .sector-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 14px;
-    margin-top: 4px;
-  }
-  .sector-card {
-    background: var(--navy-2, #131d2e);
-    border: 1px solid var(--border, rgba(255,255,255,.08));
-    border-radius: 12px;
-    padding: 16px;
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    transition: border-color .15s, transform .15s;
-    cursor: pointer;
-  }
-  .sector-card:hover { border-color: rgba(201,168,76,.4); transform: translateY(-2px); }
-  .sector-card.up { border-left: 3px solid #22c55e; }
-  .sector-card.dn { border-left: 3px solid #ef4444; }
-  .sector-card .mkt-top { display:flex; justify-content:space-between; align-items:flex-start; }
-  .sector-card .mkt-sym { font-size:14px; font-weight:800; color:#fff; letter-spacing:.3px; }
-  .sector-card .mkt-name { font-size:11px; color:var(--text-muted,#94a3b8); margin-top:2px; }
-  .sector-card .mkt-badge { font-size:11px; font-weight:700; padding:3px 8px; border-radius:20px; white-space:nowrap; }
-  .sector-card .badge-up { background:rgba(34,197,94,.15); color:#22c55e; }
-  .sector-card .badge-dn { background:rgba(239,68,68,.15); color:#ef4444; }
-  .sector-card .mkt-price { font-size:20px; font-weight:800; color:#fff; }
-  .sector-card .mkt-chg { font-size:12px; font-weight:600; color:var(--text-muted,#94a3b8); }
-  @media (max-width:600px) { .sector-grid { grid-template-columns: repeat(2, 1fr); gap:10px; } }
-
-  /* Loading skeleton */
-  .sector-card.loading { opacity:.6; pointer-events:none; }
-  .sector-card.loading .mkt-price,
-  .sector-card.loading .mkt-chg,
-  .sector-card.loading .mkt-badge {
-    background: linear-gradient(90deg, rgba(255,255,255,.06) 25%, rgba(255,255,255,.12) 50%, rgba(255,255,255,.06) 75%);
-    background-size: 200% 100%;
-    animation: shimmer 1.4s infinite;
-    border-radius: 4px;
-    color: transparent !important;
-    min-width: 60px;
-    min-height: 14px;
-    display: inline-block;
-  }
-  @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
-
-  /* Refresh button */
-  .refresh-btn { background:none; border:1px solid var(--border); border-radius:6px; color:var(--text-muted); font-size:14px; padding:4px 8px; cursor:pointer; transition:all .15s; }
-  .refresh-btn:hover { border-color:var(--gold); color:var(--gold); }
 </style>

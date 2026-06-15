@@ -30,39 +30,92 @@ const SECTOR_TAGS: Record<string, string> = {
   <!-- ── Hero ────────────────────────────────────────── -->
   <section class="hero hero-bg">
     <div class="hero-overlay"></div>
-    <div class="hero-inner">
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        LIVE INDIAN MARKET DATA
-      </div>
-      <h1 class="hero-title">
-        Bull Signal.<br />
-        <span class="hero-accent">Sharper Moves.</span>
-      </h1>
-      <p class="hero-desc">
-        Live NSE & BSE data, Indian stock insights, and<br />
-        AI-powered investment analysis — all in one dashboard.
-      </p>
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <span class="hs-num">NSE/BSE</span>
-          <span class="hs-label">LIVE DATA</span>
+    <div class="hero-inner hero-split">
+
+      <!-- Left: Text Content -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          LIVE INDIAN MARKET DATA
         </div>
-        <div class="hs-divider"></div>
-        <div class="hero-stat">
-          <span class="hs-num">AI</span>
-          <span class="hs-label">STOCK INSIGHTS</span>
+        <h1 class="hero-title">
+          Bull Signal.<br />
+          <span class="hero-accent">Sharper Moves.</span>
+        </h1>
+        <p class="hero-desc">
+          Live NSE & BSE data, Indian stock insights, and<br />
+          AI-powered investment analysis — all in one dashboard.
+        </p>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hs-num">NSE/BSE</span>
+            <span class="hs-label">LIVE DATA</span>
+          </div>
+          <div class="hs-divider"></div>
+          <div class="hero-stat">
+            <span class="hs-num">AI</span>
+            <span class="hs-label">STOCK INSIGHTS</span>
+          </div>
+          <div class="hs-divider"></div>
+          <div class="hero-stat">
+            <span class="hs-num">Daily</span>
+            <span class="hs-label">MARKET BRIEFING</span>
+          </div>
         </div>
-        <div class="hs-divider"></div>
-        <div class="hero-stat">
-          <span class="hs-num">Daily</span>
-          <span class="hs-label">MARKET BRIEFING</span>
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="document.getElementById('markets').scrollIntoView({behavior:'smooth'})">Explore Markets →</button>
+          <button class="btn-outline" onclick="document.getElementById('market-pulse').scrollIntoView({behavior:'smooth'})">Market Pulse</button>
         </div>
       </div>
-      <div class="hero-actions">
-        <button class="btn-primary" onclick="document.getElementById('markets').scrollIntoView({behavior:'smooth'})">Explore Markets →</button>
-        <button class="btn-outline" onclick="document.getElementById('market-pulse').scrollIntoView({behavior:'smooth'})">Market Pulse</button>
+
+      <!-- Right: Animated Visual -->
+      <div class="hero-visual" aria-hidden="true">
+        <!-- Pulsing concentric rings -->
+        <div class="hv-rings">
+          <div class="hv-ring hv-r1"></div>
+          <div class="hv-ring hv-r2"></div>
+          <div class="hv-ring hv-r3"></div>
+          <div class="hv-ring hv-r4"></div>
+          <div class="hv-ring hv-r5"></div>
+          <div class="hv-inner-ring"></div>
+          <!-- Animated chart line inside -->
+          <svg class="hv-chart-svg" viewBox="0 0 200 80" preserveAspectRatio="none">
+            <polyline id="heroChartLine" points="" fill="none" stroke="url(#chartGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="chartGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#c9a84c" stop-opacity="0.3"/>
+                <stop offset="50%" stop-color="#22c55e" stop-opacity="1"/>
+                <stop offset="100%" stop-color="#c9a84c" stop-opacity="0.3"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <!-- Center glowing dot -->
+          <div class="hv-center-dot"></div>
+        </div>
+
+        <!-- Floating live ticker chips -->
+        <div class="hv-chip hv-chip-1" id="chip-nifty">
+          <span class="chip-label">NIFTY 50</span>
+          <span class="chip-val" id="chip-nifty-val">—</span>
+          <span class="chip-chg up" id="chip-nifty-chg">—</span>
+        </div>
+        <div class="hv-chip hv-chip-2" id="chip-sensex">
+          <span class="chip-label">SENSEX</span>
+          <span class="chip-val" id="chip-sensex-val">—</span>
+          <span class="chip-chg up" id="chip-sensex-chg">—</span>
+        </div>
+        <div class="hv-chip hv-chip-3" id="chip-reliance">
+          <span class="chip-label">RELIANCE</span>
+          <span class="chip-val" id="chip-rel-val">—</span>
+          <span class="chip-chg" id="chip-rel-chg">—</span>
+        </div>
+        <div class="hv-chip hv-chip-4" id="chip-tcs">
+          <span class="chip-label">TCS</span>
+          <span class="chip-val" id="chip-tcs-val">—</span>
+          <span class="chip-chg" id="chip-tcs-chg">—</span>
+        </div>
       </div>
+
     </div>
   </section>
 
@@ -268,6 +321,173 @@ const SECTOR_TAGS: Record<string, string> = {
 </BaseLayout>
 
 <style>
+/* ── Hero Split Layout ───────────────────────────────── */
+.hero-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.hero-content { flex: 1; min-width: 0; }
+.hero-visual {
+  flex: 0 0 420px;
+  position: relative;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 900px) { .hero-visual { display: none; } }
+
+/* ── Animated Concentric Rings ───────────────────────── */
+.hv-rings {
+  position: relative;
+  width: 340px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hv-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(201,168,76,.25);
+  animation: ring-pulse 4s ease-out infinite;
+}
+.hv-r1 { width: 80px;  height: 80px;  border-color: rgba(34,197,94,.5);  animation-delay: 0s; }
+.hv-r2 { width: 140px; height: 140px; border-color: rgba(201,168,76,.35); animation-delay: 0.6s; }
+.hv-r3 { width: 210px; height: 210px; border-color: rgba(201,168,76,.22); animation-delay: 1.2s; }
+.hv-r4 { width: 280px; height: 280px; border-color: rgba(201,168,76,.12); animation-delay: 1.8s; }
+.hv-r5 { width: 340px; height: 340px; border-color: rgba(201,168,76,.06); animation-delay: 2.4s; }
+@keyframes ring-pulse {
+  0%   { transform: scale(1);    opacity: 1; }
+  60%  { transform: scale(1.06); opacity: 0.7; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
+/* Separate outward-expanding ripple effect */
+.hv-r1::after, .hv-r2::after, .hv-r3::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 50%;
+  border: 1px solid inherit;
+  animation: ripple 3s ease-out infinite;
+}
+.hv-r1::after { border-color: rgba(34,197,94,.4);  animation-delay: 0.5s; }
+.hv-r2::after { border-color: rgba(201,168,76,.3); animation-delay: 1.5s; }
+.hv-r3::after { border-color: rgba(201,168,76,.2); animation-delay: 2.5s; }
+@keyframes ripple {
+  0%   { transform: scale(1);   opacity: 0.8; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+.hv-inner-ring {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(34,197,94,.08) 0%, rgba(201,168,76,.06) 60%, transparent 100%);
+  border: 1px solid rgba(34,197,94,.3);
+}
+
+/* SVG chart inside rings */
+.hv-chart-svg {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  z-index: 2;
+}
+
+/* Center glowing dot */
+.hv-center-dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 4px rgba(34,197,94,.2), 0 0 20px rgba(34,197,94,.6), 0 0 40px rgba(34,197,94,.3);
+  z-index: 3;
+  animation: dot-pulse 2s ease-in-out infinite;
+}
+@keyframes dot-pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(34,197,94,.2), 0 0 20px rgba(34,197,94,.6), 0 0 40px rgba(34,197,94,.3); }
+  50%       { box-shadow: 0 0 0 8px rgba(34,197,94,.1), 0 0 30px rgba(34,197,94,.8), 0 0 60px rgba(34,197,94,.4); }
+}
+
+/* ── Floating Ticker Chips ───────────────────────────── */
+.hv-chip {
+  position: absolute;
+  background: rgba(13,20,32,.92);
+  border: 1px solid rgba(201,168,76,.3);
+  border-radius: 10px;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  backdrop-filter: blur(8px);
+  z-index: 4;
+  min-width: 90px;
+  transition: transform .3s ease;
+}
+.chip-label { font-size: 9px; font-weight: 700; letter-spacing: .8px; color: var(--gold,#c9a84c); text-transform: uppercase; }
+.chip-val   { font-size: 13px; font-weight: 800; color: #fff; }
+.chip-chg   { font-size: 10px; font-weight: 700; color: var(--text-muted,#94a3b8); }
+.chip-chg.up { color: #22c55e; }
+.chip-chg.dn { color: #ef4444; }
+
+/* Chip positions + float animations */
+.hv-chip-1 { top: 10px;  left: 30px;  animation: float-a 5s ease-in-out infinite; }
+.hv-chip-2 { top: 10px;  right: 20px; animation: float-b 6s ease-in-out infinite; }
+.hv-chip-3 { bottom: 60px; left: 10px;  animation: float-c 5.5s ease-in-out infinite; }
+.hv-chip-4 { bottom: 60px; right: 15px; animation: float-d 4.8s ease-in-out infinite; }
+@keyframes float-a { 0%,100%{transform:translateY(0)}   50%{transform:translateY(-10px)} }
+@keyframes float-b { 0%,100%{transform:translateY(0)}   50%{transform:translateY(-14px)} }
+@keyframes float-c { 0%,100%{transform:translateY(0)}   50%{transform:translateY(-8px)}  }
+@keyframes float-d { 0%,100%{transform:translateY(0)}   50%{transform:translateY(-12px)} }
+
+/* Chip loading shimmer */
+.hv-chip .chip-val.loading,
+.hv-chip .chip-chg.loading {
+  background: linear-gradient(90deg,rgba(255,255,255,.06) 25%,rgba(255,255,255,.14) 50%,rgba(255,255,255,.06) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 3px;
+  color: transparent !important;
+  min-width: 50px;
+  min-height: 12px;
+  display: block;
+}
+
+/* ── Global Shimmer Skeleton ─────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position:  200% 0; }
+  100% { background-position: -200% 0; }
+}
+.idx-card.skeleton .idx-price,
+.idx-card.skeleton .idx-chg {
+  background: linear-gradient(90deg,rgba(255,255,255,.05) 25%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.05) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+  color: transparent !important;
+  min-width: 70px;
+  display: inline-block;
+}
+/* Market cards shimmer — before data loads (no .up or .dn class yet) */
+.mkt-card:not(.up):not(.dn) .mkt-price,
+.mkt-card:not(.up):not(.dn) .mkt-chg,
+.mkt-card:not(.up):not(.dn) .mkt-badge {
+  background: linear-gradient(90deg,rgba(255,255,255,.05) 25%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.05) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+  color: transparent !important;
+  min-width: 60px;
+  min-height: 14px;
+  display: inline-block;
+}
+
 .pulse-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -563,4 +783,71 @@ const SECTOR_TAGS: Record<string, string> = {
   loadNews();
   loadMarketPulse();
   setInterval(()=>{loadMarkets();loadIndiaIndices();loadMarketPulse();},60000);
+
+  // ── Hero chip loading shimmer ─────────────────────────
+  ['chip-nifty-val','chip-nifty-chg','chip-sensex-val','chip-sensex-chg','chip-rel-val','chip-rel-chg','chip-tcs-val','chip-tcs-chg'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.classList.add('loading');
+  });
+
+  // ── Hero animated chart (sine wave that looks like a stock chart) ──
+  function drawHeroChart() {
+    const line = document.getElementById('heroChartLine');
+    if (!line) return;
+    const pts = [];
+    const W = 200, H = 80, points = 40;
+    let y = 50;
+    for (let i = 0; i <= points; i++) {
+      const x = (i / points) * W;
+      y = y + (Math.random() - 0.46) * 8;
+      y = Math.max(10, Math.min(70, y));
+      pts.push(`${x},${y}`);
+    }
+    line.setAttribute('points', pts.join(' '));
+  }
+  drawHeroChart();
+  setInterval(drawHeroChart, 3000);
+
+  // ── Hero chips: update with real Nifty/Sensex/stock data ──
+  async function updateHeroChips() {
+    const FH = 'd81lae1r01qrojfc2i2gd81lae1r01qrojfc2i30';
+    const chips = [
+      { sym: '%5ENSEI',     valId: 'chip-nifty-val',   chgId: 'chip-nifty-chg',   label: 'NIFTY', proxy: true },
+      { sym: '%5EBSESN',    valId: 'chip-sensex-val',  chgId: 'chip-sensex-chg',  label: 'SENSEX', proxy: true },
+      { sym: 'NSE:RELIANCE',valId: 'chip-rel-val',     chgId: 'chip-rel-chg',     label: 'RELIANCE', proxy: false },
+      { sym: 'NSE:TCS',     valId: 'chip-tcs-val',     chgId: 'chip-tcs-chg',     label: 'TCS', proxy: false },
+    ];
+    for (const c of chips) {
+      try {
+        let price = 0, pct = 0;
+        if (c.proxy) {
+          const url = `https://query1.finance.yahoo.com/v8/finance/chart/${c.sym}?interval=1d&range=1d`;
+          const r = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(5000) });
+          const d = await r.json();
+          const meta = d?.chart?.result?.[0]?.meta;
+          if (meta?.regularMarketPrice) {
+            price = meta.regularMarketPrice;
+            const prev = meta.previousClose || price;
+            pct = prev ? ((price - prev) / prev) * 100 : 0;
+          }
+        } else {
+          const r = await fetch(`https://finnhub.io/api/v1/quote?symbol=${c.sym}&token=${FH}`, { signal: AbortSignal.timeout(5000) });
+          const d = await r.json();
+          if (d?.c) { price = d.c; pct = d.dp || 0; }
+        }
+        if (price > 0) {
+          const up = pct >= 0;
+          const valEl = document.getElementById(c.valId);
+          const chgEl = document.getElementById(c.chgId);
+          if (valEl) { valEl.classList.remove('loading'); valEl.textContent = price.toLocaleString('en-IN', { maximumFractionDigits: 0 }); }
+          if (chgEl) {
+            chgEl.classList.remove('loading');
+            chgEl.textContent = `${up ? '▲' : '▼'} ${Math.abs(pct).toFixed(2)}%`;
+            chgEl.className = `chip-chg ${up ? 'up' : 'dn'}`;
+          }
+        }
+      } catch {}
+    }
+  }
+  updateHeroChips();
 </script>
