@@ -198,6 +198,76 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
 
       loadNewsTicker();
       setInterval(loadNewsTicker, 300000);
+
+      // ── Nav Search ────────────────────────────────────────────────────────
+      (function() {
+        const input = document.querySelector('.nav-search-input');
+        if (!input) return;
+
+        // Build search index from sector + india-stocks JSON
+        let searchIndex = [];
+        async function buildIndex() {
+          try {
+            const [sRes, iRes] = await Promise.all([
+              fetch('/data/india-sectors.json'),
+              fetch('/data/india-stocks.json'),
+            ]);
+            const sData = await sRes.json();
+            const iData = await iRes.json();
+            const seen = new Set();
+            const add = (sym, name) => {
+              if (!sym || seen.has(sym)) return;
+              seen.add(sym);
+              const code = sym.replace(/\.(NS|BO)$/, '');
+              searchIndex.push({ sym, code, name: name || code, url: `/company/${sym.toLowerCase().replace(/\./g,'-')}` });
+            };
+            // From sectors
+            Object.entries(sData.quotes || {}).forEach(([sym, q]) => add(sym, q.shortName || q.longName || ''));
+            // From india-stocks
+            [...(iData.nse || []), ...(iData.bse || [])].forEach(q => add(q.symbol, q.name));
+          } catch {}
+        }
+        buildIndex();
+
+        // Dropdown
+        const wrap = input.closest('.nav-search');
+        const dropdown = document.createElement('div');
+        dropdown.className = 'nav-search-dd';
+        wrap.appendChild(dropdown);
+
+        function showResults(q) {
+          if (!q || q.length < 1) { dropdown.style.display = 'none'; return; }
+          const ql = q.toLowerCase();
+          const hits = searchIndex.filter(s =>
+            s.code.toLowerCase().startsWith(ql) ||
+            s.name.toLowerCase().includes(ql)
+          ).slice(0, 8);
+          if (!hits.length) { dropdown.style.display = 'none'; return; }
+          dropdown.innerHTML = hits.map(h =>
+            `<a class="nsd-item" href="${h.url}">
+              <span class="nsd-code">${h.code}</span>
+              <span class="nsd-name">${h.name}</span>
+            </a>`
+          ).join('');
+          dropdown.style.display = 'block';
+        }
+
+        input.addEventListener('input', (e) => showResults(e.target.value.trim()));
+        input.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            const first = dropdown.querySelector('.nsd-item');
+            if (first) window.location.href = first.getAttribute('href');
+            else {
+              const q = e.target.value.trim();
+              if (q) window.location.href = `/company/${q.toLowerCase().replace(/\./g,'-')}.ns`;
+            }
+          }
+          if (e.key === 'Escape') { dropdown.style.display = 'none'; input.blur(); }
+        });
+        document.addEventListener('click', (e) => {
+          if (!wrap.contains(e.target)) dropdown.style.display = 'none';
+        });
+      })();
     </script>
   </body>
 </html>
