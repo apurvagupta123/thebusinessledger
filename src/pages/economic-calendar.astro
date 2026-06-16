@@ -12,333 +12,323 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       Key India macro events — RBI policy, inflation data, GDP, F&O expiry, and more.
     </p>
 
-    <!-- Legend -->
-    <div class="econ-legend">
-      <span class="legend-item"><span class="legend-dot" style="background:#ef4444"></span>High Impact</span>
-      <span class="legend-item"><span class="legend-dot" style="background:#f59e0b"></span>Medium Impact</span>
-      <span class="legend-item"><span class="legend-dot" style="background:#22c55e"></span>Low Impact</span>
+    <!-- Controls row -->
+    <div class="ec-controls">
+      <div class="econ-filters">
+        <button class="econ-filter active" data-filter="all">All</button>
+        <button class="econ-filter" data-filter="high">🔴 High Impact</button>
+        <button class="econ-filter" data-filter="rbi">🏦 RBI Policy</button>
+        <button class="econ-filter" data-filter="inflation">📊 Inflation</button>
+        <button class="econ-filter" data-filter="market">📅 F&O</button>
+      </div>
       <label class="legend-toggle">
-        <input type="checkbox" id="showPast"> Show past events
+        <input type="checkbox" id="showPast"> Show past
       </label>
     </div>
 
-    <!-- Filters -->
-    <div class="econ-filters">
-      <button class="econ-filter active" data-filter="all">All</button>
-      <button class="econ-filter" data-filter="high">🔴 High Impact</button>
-      <button class="econ-filter" data-filter="rbi">🏦 RBI Policy</button>
-      <button class="econ-filter" data-filter="inflation">📊 Inflation</button>
-      <button class="econ-filter" data-filter="market">📅 F&O Expiry</button>
+    <!-- Table -->
+    <div class="ec-table-wrap">
+      <table class="ec-table">
+        <thead>
+          <tr>
+            <th style="width:100px">Date</th>
+            <th>Event</th>
+            <th style="width:110px">Category</th>
+            <th style="width:90px">Impact</th>
+            <th style="width:90px">When</th>
+          </tr>
+        </thead>
+        <tbody id="econTableBody"></tbody>
+      </table>
     </div>
 
-    <div id="econList"></div>
+    <!-- Expandable detail panel -->
+    <div id="econDetail" class="ec-detail-panel" style="display:none"></div>
+
+    <div id="econEmpty" style="display:none;text-align:center;padding:40px;color:var(--text-muted);font-size:13px">
+      No upcoming events match this filter. Try "All" or enable "Show past".
+    </div>
+
   </section>
 </BaseLayout>
 
 <script>
 const EVENTS = [
   // ── June 2026 ──
-  { date:'2026-06-12', event:'India CPI Inflation',  subtitle:'May 2026 data', category:'Inflation', impact:'high', tag:'inflation',
+  { date:'2026-06-12', event:'India CPI Inflation',    subtitle:'May 2026 data',      category:'Inflation',  impact:'high',   tag:'inflation',
     what:'Consumer Price Index — measures retail inflation across food, fuel, and core categories.',
-    why:'RBI\'s primary target is 4% CPI. Above 5% → RBI may delay rate cuts. Directly affects home loan EMIs, grocery bills, petrol costs.',
-    market:'CPI > 5% → Nifty dips, Bank Nifty falls, rate cuts delayed. CPI ~4% → rate cut hopes, banking stocks rally.' },
-  { date:'2026-06-14', event:'India WPI Inflation',  subtitle:'May 2026 data', category:'Inflation', impact:'medium', tag:'inflation',
-    what:'Wholesale Price Index — tracks inflation at the factory level, 2 months before it reaches consumers.',
-    why:'High WPI often precedes high CPI by 4–8 weeks. Key for manufacturing and commodity-linked sectors.',
-    market:'High WPI → margin squeeze for FMCG, cement, auto OEMs. Low WPI → relief for input-cost-sensitive sectors.' },
-  { date:'2026-06-25', event:'NSE F&O Monthly Expiry', subtitle:'June 2026', category:'F&O Market', impact:'medium', tag:'market',
+    why:'RBI\'s primary target is 4% CPI. Above 5% → may delay rate cuts. Directly affects home loan EMIs, grocery bills.',
+    market:'CPI > 5% → Nifty dips, Bank Nifty falls. CPI ~4% → rate cut hopes, banking stocks rally.' },
+  { date:'2026-06-14', event:'India WPI Inflation',    subtitle:'May 2026 data',      category:'Inflation',  impact:'medium', tag:'inflation',
+    what:'Wholesale Price Index — tracks inflation at the factory level, 2 months before consumers feel it.',
+    why:'High WPI feeds into CPI in 4–8 weeks. Key for manufacturing and commodity-linked sectors.',
+    market:'High WPI → margin squeeze for FMCG, cement, autos. Low WPI → relief for input-cost-sensitive sectors.' },
+  { date:'2026-06-25', event:'NSE F&O Monthly Expiry', subtitle:'June 2026',           category:'F&O Market', impact:'medium', tag:'market',
     what:'All June 2026 Futures & Options contracts expire. Expect heavy volumes in the last hour.',
-    why:'Traders square off or roll positions → sharp intraday volatility. Index moves of 0.5–1.5% near close are common.',
+    why:'Traders square off or roll positions — sharp intraday volatility. Index moves of 0.5–1.5% near close are common.',
     market:'Heavy put OI → support tested. Heavy call OI → resistance capping. Watch for short-covering rallies.' },
 
   // ── July 2026 ──
-  { date:'2026-07-10', event:'India IIP', subtitle:'May 2026 data', category:'Economy', impact:'medium', tag:'economy',
+  { date:'2026-07-10', event:'India IIP',              subtitle:'May 2026 data',      category:'Economy',    impact:'medium', tag:'economy',
     what:'Index of Industrial Production — measures output growth across mining, manufacturing, and electricity.',
     why:'Gauge of industrial health. Strong IIP means factories are busy, supporting employment and corporate earnings.',
-    market:'IIP > 5% → capital goods, auto, power stocks positive. IIP miss → infra and industrial stocks under pressure.' },
-  { date:'2026-07-14', event:'India CPI Inflation', subtitle:'June 2026 data', category:'Inflation', impact:'high', tag:'inflation',
+    market:'IIP > 5% → capital goods, auto, power stocks positive. Miss → infra stocks under pressure.' },
+  { date:'2026-07-14', event:'India CPI Inflation',    subtitle:'June 2026 data',     category:'Inflation',  impact:'high',   tag:'inflation',
     what:'Consumer Price Index for June 2026 — tracks retail price changes across urban and rural India.',
-    why:'The most watched India macro number. RBI\'s 4% target determines rate decisions → affects home, auto, and personal loan EMIs.',
+    why:'RBI\'s 4% target determines rate decisions → affects home, auto, and personal loan EMIs.',
     market:'CPI > 5% → rate cuts pushed out, Nifty dips. CPI < 4% → rate cut likely, broader market rally.' },
-  { date:'2026-07-14', event:'India WPI Inflation', subtitle:'June 2026 data', category:'Inflation', impact:'medium', tag:'inflation',
+  { date:'2026-07-14', event:'India WPI Inflation',    subtitle:'June 2026 data',     category:'Inflation',  impact:'medium', tag:'inflation',
     what:'Wholesale Price Index for June 2026 — factory-gate price inflation.',
-    why:'Persistently high WPI feeds into CPI 4–8 weeks later. Key for steel, cement, chemicals, FMCG sectors.',
-    market:'Rising WPI → margin pressure for consumer cos. Falling WPI → positive for auto OEMs, FMCG, packaging.' },
-  { date:'2026-07-30', event:'NSE F&O Monthly Expiry', subtitle:'July 2026', category:'F&O Market', impact:'medium', tag:'market',
+    why:'Persistently high WPI feeds into CPI 4–8 weeks later.',
+    market:'Rising WPI → margin pressure for consumer companies. Falling WPI → positive for auto, FMCG, packaging.' },
+  { date:'2026-07-30', event:'NSE F&O Monthly Expiry', subtitle:'July 2026',           category:'F&O Market', impact:'medium', tag:'market',
     what:'All July 2026 F&O contracts expire. High volatility expected in the final session.',
-    why:'Positions worth thousands of crores roll over or get squared off, creating price swings around key index levels.',
+    why:'Positions worth thousands of crores roll over or get squared off, creating price swings.',
     market:'Watch Bank Nifty and Nifty 50 open interest the week before for likely support/resistance.' },
 
   // ── August 2026 ──
-  { date:'2026-08-07', event:'RBI MPC Policy Decision', subtitle:'August 2026 meeting', category:'RBI Policy', impact:'high', tag:'rbi',
-    what:'RBI\'s Monetary Policy Committee announces the repo rate after a 3-day meeting. Repo rate = rate at which RBI lends to banks.',
-    why:'Single most important event for Indian financial markets. Rate cut = cheaper home, auto, business loans. Rate hike = tighter liquidity and higher EMIs for everyone.',
-    market:'Rate cut → Bank Nifty +1–3%, real estate surges, bond yields fall. Hold/hike → defensives outperform, NBFCs fall. RBI also releases GDP + inflation forecasts.' },
-  { date:'2026-08-12', event:'India CPI Inflation', subtitle:'July 2026 data', category:'Inflation', impact:'high', tag:'inflation',
+  { date:'2026-08-07', event:'RBI MPC Policy Decision',subtitle:'August 2026 meeting', category:'RBI Policy', impact:'high',   tag:'rbi',
+    what:'RBI\'s Monetary Policy Committee announces the repo rate after a 3-day meeting.',
+    why:'Single most important India market event. Rate cut = cheaper home, auto, business loans. Rate hike = tighter liquidity.',
+    market:'Rate cut → Bank Nifty +1–3%, real estate surges, bond yields fall. Hold → defensives outperform, NBFCs fall.' },
+  { date:'2026-08-12', event:'India CPI Inflation',    subtitle:'July 2026 data',     category:'Inflation',  impact:'high',   tag:'inflation',
     what:'July CPI — monsoon progress directly affects food prices (vegetables, pulses, cereals).',
-    why:'Good monsoon → vegetable prices low. Deficit monsoon → food inflation spikes. RBI watches this for October MPC stance.',
-    market:'Food CPI surprise → risk of RBI staying hawkish. Core CPI (ex food+fuel) = watch for "sticky inflation" signals.' },
-  { date:'2026-08-14', event:'India WPI Inflation', subtitle:'July 2026 data', category:'Inflation', impact:'medium', tag:'inflation',
-    what:'WPI for July — monsoon-sensitive food commodities + crude oil and global commodity price trends.',
-    why:'Reflects pass-through of monsoon into farm-gate prices. Energy component tracks Brent crude.',
-    market:'Rising WPI fuel → margin concerns for BPCL, IOC, HPCL, IndiGo. Low WPI → positive for input-cost-heavy sectors.' },
-  { date:'2026-08-27', event:'NSE F&O Monthly Expiry', subtitle:'August 2026', category:'F&O Market', impact:'medium', tag:'market',
+    why:'Good monsoon → vegetable prices low. Deficit monsoon → food inflation spikes. RBI watches for October MPC.',
+    market:'Food CPI surprise → RBI stays hawkish. Core CPI (ex food+fuel) = watch for "sticky inflation".' },
+  { date:'2026-08-14', event:'India WPI Inflation',    subtitle:'July 2026 data',     category:'Inflation',  impact:'medium', tag:'inflation',
+    what:'WPI for July — monsoon-sensitive commodities + crude oil price trends.',
+    why:'Energy component tracks Brent crude. Reflects pass-through of monsoon into farm-gate prices.',
+    market:'Rising WPI fuel → margin concerns for BPCL, IOC, HPCL, IndiGo.' },
+  { date:'2026-08-27', event:'NSE F&O Monthly Expiry', subtitle:'August 2026',         category:'F&O Market', impact:'medium', tag:'market',
     what:'August 2026 F&O expiry. August historically sees higher volatility — the "August effect".',
     why:'Monsoon uncertainty + global risk-off events tend to coincide. VIX often elevated.',
-    market:'VIX > 15 → elevated hedging. Watch Nifty options chain for large OI buildup 3–4 days before expiry.' },
-  { date:'2026-08-31', event:'India GDP Q1 FY27', subtitle:'April–June 2026', category:'GDP', impact:'high', tag:'gdp',
+    market:'VIX > 15 → elevated hedging. Watch Nifty options chain for large OI buildup 3–4 days before.' },
+  { date:'2026-08-31', event:'India GDP Q1 FY27',      subtitle:'April–June 2026',    category:'GDP',        impact:'high',   tag:'gdp',
     what:'India\'s Q1 GDP growth rate for FY2026–27 — announced by Ministry of Statistics.',
-    why:'Sets the tone for the entire fiscal year. India targeting 7%+ growth. Impacts FII sentiment and sovereign rating outlook.',
-    market:'GDP > 7% → FII inflows, Nifty bullish, rupee strengthens. < 6.5% → fiscal deficit fears, growth stocks correct.' },
+    why:'Sets the tone for the entire fiscal year. India targeting 7%+ growth. Impacts FII flows and sovereign outlook.',
+    market:'GDP > 7% → FII inflows, Nifty bullish, rupee strengthens. < 6.5% → growth stocks correct.' },
 
   // ── September 2026 ──
-  { date:'2026-09-12', event:'India IIP', subtitle:'July 2026 data', category:'Economy', impact:'medium', tag:'economy',
-    what:'Industrial Production for July — post-monsoon industrial rebound indicator.',
-    why:'Strong auto + capital goods IIP confirms economic recovery after seasonal monsoon slowdown.',
+  { date:'2026-09-12', event:'India IIP',              subtitle:'July 2026 data',     category:'Economy',    impact:'medium', tag:'economy',
+    what:'Industrial Production for July — post-monsoon industrial rebound.',
+    why:'Strong auto + capital goods IIP confirms recovery after seasonal monsoon slowdown.',
     market:'Strong print → positive for Nifty Auto, L&T, ABB, Siemens. Weak → infra stocks under pressure.' },
-  { date:'2026-09-14', event:'India CPI Inflation', subtitle:'August 2026 data', category:'Inflation', impact:'high', tag:'inflation',
+  { date:'2026-09-14', event:'India CPI Inflation',    subtitle:'August 2026 data',   category:'Inflation',  impact:'high',   tag:'inflation',
     what:'August CPI — kharif harvest season means vegetable prices usually start easing.',
-    why:'If food prices don\'t cool as expected, it\'s a red flag for RBI. This data influences December MPC stance.',
+    why:'If food prices don\'t cool as expected, it\'s a red flag for RBI heading into October MPC.',
     market:'Easing food inflation → December rate cut window opens. Sticky food CPI → rate cut delayed to Feb 2027.' },
-  { date:'2026-09-14', event:'India WPI Inflation', subtitle:'August 2026 data', category:'Inflation', impact:'medium', tag:'inflation',
+  { date:'2026-09-14', event:'India WPI Inflation',    subtitle:'August 2026 data',   category:'Inflation',  impact:'medium', tag:'inflation',
     what:'WPI for August — reflects post-monsoon commodity price trends.',
     why:'Fuel WPI tracks global crude with a lag. Manufactured goods reflect input cost trends.',
     market:'Crude > $90/bbl → WPI fuel elevated → OMCs, aviation under pressure.' },
-  { date:'2026-09-24', event:'NSE F&O Monthly Expiry', subtitle:'September 2026 (Quarter End)', category:'F&O Market', impact:'medium', tag:'market',
+  { date:'2026-09-24', event:'NSE F&O Monthly Expiry', subtitle:'September 2026 · Quarter End', category:'F&O Market', impact:'medium', tag:'market',
     what:'September F&O expiry — also end of Q2 FY27. Portfolio rebalancing by institutions.',
-    why:'Quarter-end: mutual funds and insurance companies rebalance, creating above-average volumes. FIIs may square off India positions.',
+    why:'Quarter-end: mutual funds and insurance companies rebalance, creating above-average volumes.',
     market:'Quarter-end flows can push large-caps up (window dressing). Small-caps may lag.' },
 
   // ── October 2026 ──
-  { date:'2026-10-10', event:'RBI MPC Policy Decision', subtitle:'October 2026 meeting', category:'RBI Policy', impact:'high', tag:'rbi',
-    what:'October MPC — one of the most anticipated meetings. RBI has full visibility: monsoon outcome, Q1 GDP, 6 months of inflation.',
-    why:'Rate cuts here take effect by Diwali — key for consumer sentiment. Most likely meeting for a cut if CPI cooperates.',
-    market:'Rate cut → Diwali rally amplified, auto + housing surge. Hold → markets react to MPC tone (growth vs. inflation balance).' },
-  { date:'2026-10-12', event:'India IIP', subtitle:'August 2026 data', category:'Economy', impact:'medium', tag:'economy',
+  { date:'2026-10-10', event:'RBI MPC Policy Decision',subtitle:'October 2026 meeting', category:'RBI Policy', impact:'high',  tag:'rbi',
+    what:'October MPC — RBI has full visibility: monsoon outcome, Q1 GDP, 6 months of inflation data.',
+    why:'Rate cuts here take effect by Diwali — key for consumer sentiment. Most likely meeting for a cut.',
+    market:'Rate cut → Diwali rally amplified, auto + housing surge. Hold → markets react to MPC tone.' },
+  { date:'2026-10-12', event:'India IIP',              subtitle:'August 2026 data',   category:'Economy',    impact:'medium', tag:'economy',
     what:'Industrial production for August — festive season advance stocking and consumer goods production.',
-    why:'Consumer durables sub-index is a proxy for Diwali demand outlook.',
+    why:'Consumer durables sub-index = proxy for Diwali demand outlook.',
     market:'Strong consumer durables IIP → positive for FMCG, white goods, auto stocks.' },
-  { date:'2026-10-13', event:'India CPI Inflation', subtitle:'September 2026 data — Pre-MPC', category:'Inflation', impact:'high', tag:'inflation',
-    what:'September CPI — published just before the October MPC meeting. Most critical data point RBI uses for October rate decision.',
-    why:'This single number can swing the rate decision. September CPI captures post-monsoon food prices and education fee hikes.',
-    market:'CPI < 4.5% before MPC → near-certain rate cut priced in. CPI > 5% → rate cut probability drops, bond yields spike.' },
-  { date:'2026-10-14', event:'India WPI Inflation', subtitle:'September 2026 data', category:'Inflation', impact:'medium', tag:'inflation',
+  { date:'2026-10-13', event:'India CPI Inflation',    subtitle:'September 2026 · Pre-MPC', category:'Inflation',  impact:'high',   tag:'inflation',
+    what:'September CPI — published just before October MPC. Most critical data point RBI uses for rate decision.',
+    why:'This single number can swing the rate decision. September CPI captures post-monsoon food prices.',
+    market:'CPI < 4.5% before MPC → near-certain rate cut. CPI > 5% → rate cut probability drops, bond yields spike.' },
+  { date:'2026-10-14', event:'India WPI Inflation',    subtitle:'September 2026 data', category:'Inflation',  impact:'medium', tag:'inflation',
     what:'WPI for September — captures full monsoon pass-through into farm-gate prices.',
-    why:'Fuel and manufactured products components track global commodity cycles.',
-    market:'Commodity prices in WPI affect input costs for auto, cement, steel, paints sectors.' },
-  { date:'2026-10-29', event:'NSE F&O Monthly Expiry', subtitle:'October 2026 (Diwali season)', category:'F&O Market', impact:'medium', tag:'market',
+    why:'Fuel and manufactured products track global commodity cycles.',
+    market:'Commodity prices in WPI affect input costs for auto, cement, steel, paints.' },
+  { date:'2026-10-29', event:'NSE F&O Monthly Expiry', subtitle:'October 2026 · Diwali Season', category:'F&O Market', impact:'medium', tag:'market',
     what:'October F&O expiry. Typically coincides with Diwali — historically India\'s most bullish month.',
-    why:'Festive sentiment + retail buying + Q2 result season + FII inflows can create a "Diwali rally".',
-    market:'Watch for "Muhurat trading" — a special 1-hour session on Diwali day itself. Bullish years see gap-up after expiry.' },
+    why:'Festive sentiment + retail buying + Q2 result season can create a "Diwali rally".',
+    market:'Watch for "Muhurat trading" — a special 1-hour session on Diwali day itself.' },
 
   // ── November 2026 ──
-  { date:'2026-11-12', event:'India IIP', subtitle:'September 2026 data', category:'Economy', impact:'medium', tag:'economy',
-    what:'Industrial Production for September — the Q2 close month and last data before Q2 GDP announcement.',
-    why:'Strong September IIP often confirms a Q2 GDP beat. Capital goods sub-index is the most market-moving component.',
+  { date:'2026-11-12', event:'India IIP',              subtitle:'September 2026 data', category:'Economy',    impact:'medium', tag:'economy',
+    what:'Industrial Production for September — last data before Q2 GDP announcement.',
+    why:'Strong September IIP often confirms Q2 GDP beat. Capital goods sub-index is key.',
     market:'Capital goods + consumer durables IIP → proxy for overall economic momentum.' },
-  { date:'2026-11-12', event:'India CPI Inflation', subtitle:'October 2026 data', category:'Inflation', impact:'high', tag:'inflation',
-    what:'October CPI — post-festive. Vegetable prices (onion, tomato) are highly seasonal in Oct-Nov.',
-    why:'October CPI often surprises on the upside due to vegetable spikes. RBI usually "looks through" seasonal food inflation.',
+  { date:'2026-11-12', event:'India CPI Inflation',    subtitle:'October 2026 data',  category:'Inflation',  impact:'high',   tag:'inflation',
+    what:'October CPI — post-festive. Vegetable prices are highly seasonal in Oct-Nov.',
+    why:'October CPI often surprises on upside due to vegetable spikes. RBI usually "looks through" seasonal food inflation.',
     market:'Core CPI (ex food + fuel) is the key watch metric for December MPC stance.' },
-  { date:'2026-11-16', event:'India WPI Inflation', subtitle:'October 2026 data', category:'Inflation', impact:'medium', tag:'inflation',
-    what:'WPI for October — post-monsoon commodities, crude oil, and manufactured goods inflation.',
-    why:'Crude oil above $85 → inflation pressure on India (net importer), rupee weakens, OMCs under pressure.',
-    market:'Fuel WPI is the most volatile component in Oct-Nov. Watch Brent crude trend.' },
-  { date:'2026-11-26', event:'NSE F&O Monthly Expiry', subtitle:'November 2026', category:'F&O Market', impact:'medium', tag:'market',
+  { date:'2026-11-16', event:'India WPI Inflation',    subtitle:'October 2026 data',  category:'Inflation',  impact:'medium', tag:'inflation',
+    what:'WPI for October — post-monsoon commodities, crude oil, manufactured goods inflation.',
+    why:'Crude oil above $85 → inflation pressure on India (net importer), rupee weakens.',
+    market:'Fuel WPI is the most volatile component. Watch Brent crude trend.' },
+  { date:'2026-11-26', event:'NSE F&O Monthly Expiry', subtitle:'November 2026',       category:'F&O Market', impact:'medium', tag:'market',
     what:'November F&O expiry. Q2 earnings season wraps up around this time.',
     why:'FII selling ahead of US year-end vs. DII buying creates large divergence and volatility.',
-    market:'Track FII/DII data daily in November. Net FII selling > ₹5,000 Cr/week = caution signal.' },
-  { date:'2026-11-30', event:'India GDP Q2 FY27', subtitle:'July–September 2026', category:'GDP', impact:'high', tag:'gdp',
-    what:'Q2 GDP for FY2026–27 — captures peak kharif harvest, festive demand, and post-monsoon industrial activity.',
-    why:'Strong Q2 (>7%) raises chances of full-year 7%+ growth — major positive for FII flows and market sentiment.',
-    market:'GDP beat → India macro narrative strengthens, sovereign upgrade hopes. GDP miss → govt capex expected to compensate.' },
+    market:'Net FII selling > ₹5,000 Cr/week in November = caution signal.' },
+  { date:'2026-11-30', event:'India GDP Q2 FY27',      subtitle:'July–September 2026', category:'GDP',        impact:'high',   tag:'gdp',
+    what:'Q2 GDP for FY2026–27 — captures peak kharif harvest, festive demand, post-monsoon activity.',
+    why:'Strong Q2 (>7%) raises chances of full-year 7%+ growth — major positive for FII flows.',
+    market:'GDP beat → India macro narrative strengthens. GDP miss → govt capex expected to compensate.' },
 
   // ── December 2026 ──
-  { date:'2026-12-05', event:'RBI MPC Policy Decision', subtitle:'December 2026 — Last MPC of 2026', category:'RBI Policy', impact:'high', tag:'rbi',
-    what:'December MPC — last policy meeting of calendar year 2026. Sets the rate environment for the new year.',
-    why:'With Q2 GDP and October CPI in hand, RBI has full visibility. A rate cut here typically triggers year-end FII inflows.',
-    market:'Dec rate cut → year-end rally, banking surges, real estate re-rates. Hold → markets look to Feb budget for fiscal stimulus.' },
-  { date:'2026-12-12', event:'India IIP', subtitle:'October 2026 data', category:'Economy', impact:'medium', tag:'economy',
+  { date:'2026-12-05', event:'RBI MPC Policy Decision',subtitle:'December 2026 · Last MPC of 2026', category:'RBI Policy', impact:'high', tag:'rbi',
+    what:'December MPC — last policy meeting of 2026. Sets rate environment for the new year.',
+    why:'With Q2 GDP and October CPI in hand, RBI has full visibility. Rate cut here triggers year-end FII inflows.',
+    market:'Dec rate cut → year-end rally, banking surges, real estate re-rates. Hold → markets look to Feb budget.' },
+  { date:'2026-12-12', event:'India IIP',              subtitle:'October 2026 data',  category:'Economy',    impact:'medium', tag:'economy',
     what:'Industrial Production for October — Diwali demand and production burst captured here.',
-    why:'High October IIP confirms festive season momentum: auto dispatches, electronics, steel for construction.',
+    why:'High October IIP confirms festive season momentum: auto dispatches, electronics, steel.',
     market:'Strong IIP → positive for auto, consumer durables, capital goods.' },
-  { date:'2026-12-14', event:'India CPI Inflation', subtitle:'November 2026 data', category:'Inflation', impact:'high', tag:'inflation',
+  { date:'2026-12-14', event:'India CPI Inflation',    subtitle:'November 2026 data', category:'Inflation',  impact:'high',   tag:'inflation',
     what:'November CPI — post-festive, pre-winter. Rabi sowing begins, food prices start stabilising.',
-    why:'The "vegetable spike" from October usually reverses. If core CPI is falling, RBI gets room for cuts in 2027.',
-    market:'Nov CPI < 4.5% → Feb 2027 rate cut near-certain. Markets may pre-price cuts into banking + real estate.' },
-  { date:'2026-12-14', event:'India WPI Inflation', subtitle:'November 2026 data', category:'Inflation', impact:'medium', tag:'inflation',
+    why:'If core CPI is falling, RBI gets room for cuts in 2027.',
+    market:'Nov CPI < 4.5% → Feb 2027 rate cut near-certain. Markets may pre-price cuts.' },
+  { date:'2026-12-14', event:'India WPI Inflation',    subtitle:'November 2026 data', category:'Inflation',  impact:'medium', tag:'inflation',
     what:'WPI for November — winter months usually see lower vegetable WPI.',
-    why:'Global crude trends dominate the fuel component — key for India\'s import bill and currency.',
-    market:'WPI fuel deflation → positive for OMCs and aviation. Low manufactured WPI → margin expansion for consumer cos.' },
-  { date:'2026-12-31', event:'NSE F&O Monthly Expiry', subtitle:'December 2026 — Year End', category:'F&O Market', impact:'high', tag:'market',
+    why:'Global crude trends dominate the fuel component — key for India\'s import bill.',
+    market:'WPI fuel deflation → positive for OMCs and aviation.' },
+  { date:'2026-12-31', event:'NSE F&O Monthly Expiry', subtitle:'December 2026 · Year End', category:'F&O Market', impact:'high', tag:'market',
     what:'December F&O expiry — last trading session of the year. Coincides with Nifty 50 annual review.',
-    why:'Year-end: (1) FII book closure, (2) mutual fund window dressing, (3) position squaring for FY26 portfolios. Historically most volatile expiry.',
-    market:'January effect: fresh money flows in the first week of Jan — small and mid-caps often lead.' },
+    why:'Year-end: FII book closure, mutual fund window dressing, position squaring. Most volatile expiry.',
+    market:'January effect: fresh money flows first week of Jan — small and mid-caps often lead.' },
 ];
 
 // ── State ─────────────────────────────────────────────────────────────────────
-let activeFilter = 'all';
-let expandedIdx  = null;
-let showPast     = false;
-const today      = new Date().toISOString().split('T')[0];
+let activeFilter  = 'all';
+let showPast      = false;
+let expandedDate  = null;
+const today       = new Date().toISOString().split('T')[0];
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
 function isPast(d)  { return d < today; }
 function isToday(d) { return d === today; }
 
-function daysUntil(dateStr) {
-  const diff = Math.round((new Date(dateStr) - new Date(today)) / 86400000);
-  return diff;
+function daysUntil(d) {
+  return Math.round((new Date(d) - new Date(today)) / 86400000);
 }
 
-function impactColor(impact) {
-  return impact === 'high' ? '#ef4444' : impact === 'medium' ? '#f59e0b' : '#22c55e';
+const IMPACT_COLOR = { high:'#ef4444', medium:'#f59e0b', low:'#22c55e' };
+const IMPACT_BG    = { high:'rgba(239,68,68,0.12)', medium:'rgba(245,158,11,0.12)', low:'rgba(34,197,94,0.12)' };
+const CAT_ICON     = { 'RBI Policy':'🏦', 'Inflation':'📊', 'GDP':'📈', 'F&O Market':'📅', 'Economy':'🏭' };
+
+function impactPill(impact) {
+  const c  = IMPACT_COLOR[impact] || '#7a8899';
+  const bg = IMPACT_BG[impact]    || 'rgba(122,136,153,0.1)';
+  return `<span style="background:${bg};color:${c};border:1px solid ${c}44;font-size:9px;font-weight:800;letter-spacing:0.6px;padding:3px 8px;border-radius:20px;white-space:nowrap">${impact.toUpperCase()}</span>`;
 }
 
-function categoryIcon(cat) {
-  const icons = { 'RBI Policy':'🏦', 'Inflation':'📊', 'GDP':'📈', 'F&O Market':'📅', 'Economy':'🏭' };
-  return icons[cat] || '📌';
+function whenBadge(dateStr) {
+  if (isToday(dateStr)) return `<span style="background:rgba(212,169,64,0.15);color:var(--gold);border:1px solid rgba(212,169,64,0.4);font-size:9px;font-weight:800;padding:3px 8px;border-radius:20px">TODAY</span>`;
+  if (isPast(dateStr))  return `<span style="color:var(--text-muted);font-size:11px">${Math.abs(daysUntil(dateStr))}d ago</span>`;
+  const d = daysUntil(dateStr);
+  if (d <= 7)  return `<span style="background:rgba(239,68,68,0.1);color:#ef4444;border:1px solid rgba(239,68,68,0.3);font-size:9px;font-weight:800;padding:3px 8px;border-radius:20px">In ${d}d</span>`;
+  if (d <= 30) return `<span style="background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.3);font-size:9px;font-weight:800;padding:3px 8px;border-radius:20px">In ${d}d</span>`;
+  return `<span style="color:var(--text-muted);font-size:11px">In ${d}d</span>`;
 }
 
-function groupByMonth(events) {
-  const map = {};
-  events.forEach(e => {
-    const d   = new Date(e.date + 'T00:00:00');
-    const key = d.toLocaleDateString('en-IN', { month:'long', year:'numeric' });
-    if (!map[key]) map[key] = [];
-    map[key].push(e);
-  });
-  return map;
-}
-
-// ── Render ────────────────────────────────────────────────────────────────────
 function render() {
   let filtered = activeFilter === 'all'
     ? EVENTS
     : EVENTS.filter(e => e.impact === activeFilter || e.tag === activeFilter);
 
-  if (!showPast) {
-    filtered = filtered.filter(e => !isPast(e.date) || isToday(e.date));
-  }
+  if (!showPast) filtered = filtered.filter(e => !isPast(e.date) || isToday(e.date));
 
-  const groups = groupByMonth(filtered);
-  const list   = document.getElementById('econList');
+  const tbody  = document.getElementById('econTableBody');
+  const empty  = document.getElementById('econEmpty');
+  const detail = document.getElementById('econDetail');
 
   if (!filtered.length) {
-    list.innerHTML = `<div style="text-align:center;padding:48px 20px;color:var(--text-muted)">
-      <div style="font-size:32px;margin-bottom:12px">📭</div>
-      <div style="font-size:14px">No upcoming events match this filter.</div>
-      <div style="font-size:12px;margin-top:8px">Try "All" or enable "Show past events".</div>
-    </div>`;
+    tbody.innerHTML = '';
+    empty.style.display  = 'block';
+    detail.style.display = 'none';
     return;
   }
+  empty.style.display = 'none';
 
-  list.innerHTML = Object.entries(groups).map(([month, evts]) => `
-    <div class="econ-month-group">
-      <div class="econ-month-label">
-        <span>${month}</span>
-        <span class="econ-month-count">${evts.length} event${evts.length > 1 ? 's' : ''}</span>
-      </div>
-      ${evts.map(e => {
-        const past      = isPast(e.date);
-        const todayEvt  = isToday(e.date);
-        const d         = new Date(e.date + 'T00:00:00');
-        const dayNum    = d.getDate();
-        const monStr    = d.toLocaleDateString('en-IN', { month:'short' });
-        const weekday   = d.toLocaleDateString('en-IN', { weekday:'short' });
-        const daysAway  = daysUntil(e.date);
-        const globalIdx = EVENTS.indexOf(e);
-        const expanded  = expandedIdx === globalIdx;
-        const color     = impactColor(e.impact);
-        const icon      = categoryIcon(e.category);
+  // Group by month for section rows
+  let lastMonth = '';
+  tbody.innerHTML = filtered.map(e => {
+    const d        = new Date(e.date + 'T00:00:00');
+    const month    = d.toLocaleDateString('en-IN', { month:'long', year:'numeric' });
+    const dayNum   = d.getDate();
+    const monShort = d.toLocaleDateString('en-IN', { month:'short' });
+    const wday     = d.toLocaleDateString('en-IN', { weekday:'short' });
+    const past     = isPast(e.date);
+    const todayEvt = isToday(e.date);
+    const isExp    = expandedDate === e.date + '::' + e.event;
+    const icon     = CAT_ICON[e.category] || '📌';
+    const borderColor = IMPACT_COLOR[e.impact] || '#7a8899';
 
-        let countdownBadge = '';
-        if (todayEvt) {
-          countdownBadge = `<span class="econ-badge" style="background:rgba(212,169,64,0.15);color:var(--gold);border:1px solid rgba(212,169,64,0.4)">TODAY</span>`;
-        } else if (!past && daysAway <= 7) {
-          countdownBadge = `<span class="econ-badge" style="background:rgba(239,68,68,0.1);color:#ef4444;border:1px solid rgba(239,68,68,0.3)">In ${daysAway}d</span>`;
-        } else if (!past && daysAway <= 30) {
-          countdownBadge = `<span class="econ-badge" style="background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.3)">In ${daysAway}d</span>`;
-        } else if (past) {
-          countdownBadge = `<span class="econ-badge" style="background:rgba(255,255,255,0.05);color:var(--text-muted);border:1px solid var(--border)">${Math.abs(daysAway)}d ago</span>`;
-        }
+    let monthRow = '';
+    if (month !== lastMonth) {
+      lastMonth = month;
+      monthRow = `<tr class="ec-month-row"><td colspan="5">${month}</td></tr>`;
+    }
 
-        return `
-          <div class="econ-card ${past ? 'past' : ''} ${todayEvt ? 'today' : ''}"
-               style="border-left:3px solid ${color}"
-               onclick="toggleExpand(${globalIdx})">
-            <div class="econ-card-main">
-
-              <!-- Date column -->
-              <div class="econ-date-col">
-                <div class="econ-date-num">${dayNum}</div>
-                <div class="econ-date-sub">${monStr}</div>
-                <div class="econ-date-day">${weekday}</div>
-              </div>
-
-              <!-- Content -->
-              <div class="econ-content">
-                <div class="econ-top-row">
-                  <span class="econ-cat-chip">${icon} ${e.category}</span>
-                  <span class="econ-impact-pill" style="background:${color}18;color:${color};border:1px solid ${color}40">
-                    ${e.impact.toUpperCase()}
-                  </span>
-                  ${countdownBadge}
-                </div>
-                <div class="econ-event-name">${e.event}</div>
-                <div class="econ-subtitle">${e.subtitle}</div>
-              </div>
-
-              <!-- Chevron -->
-              <div class="econ-chevron-col">
-                <span class="econ-chevron ${expanded ? 'open' : ''}">›</span>
-              </div>
+    return monthRow + `
+      <tr class="ec-row ${past ? 'ec-past' : ''} ${todayEvt ? 'ec-today' : ''} ${isExp ? 'ec-expanded' : ''}"
+          style="border-left:3px solid ${borderColor}"
+          onclick="toggleRow('${e.date}::${e.event.replace(/'/g,"\\'")}')">
+        <td class="ec-td-date">
+          <span class="ec-day">${dayNum}</span>
+          <span class="ec-mon">${monShort}</span>
+          <span class="ec-wday">${wday}</span>
+        </td>
+        <td class="ec-td-event">
+          <div class="ec-event-name">${e.event}</div>
+          <div class="ec-event-sub">${e.subtitle}</div>
+        </td>
+        <td class="ec-td-cat">
+          <span class="ec-cat-chip">${icon} ${e.category}</span>
+        </td>
+        <td class="ec-td-impact">${impactPill(e.impact)}</td>
+        <td class="ec-td-when">
+          ${whenBadge(e.date)}
+          <span class="ec-chevron ${isExp ? 'open' : ''}">›</span>
+        </td>
+      </tr>
+      ${isExp ? `
+      <tr class="ec-detail-row">
+        <td colspan="5">
+          <div class="ec-detail-inner">
+            <div class="ec-detail-block">
+              <div class="ec-detail-lbl">📌 What is it?</div>
+              <div class="ec-detail-txt">${e.what}</div>
             </div>
+            <div class="ec-detail-block">
+              <div class="ec-detail-lbl">💡 Why it matters</div>
+              <div class="ec-detail-txt">${e.why}</div>
+            </div>
+            <div class="ec-detail-block">
+              <div class="ec-detail-lbl">📈 Market impact</div>
+              <div class="ec-detail-txt">${e.market}</div>
+            </div>
+          </div>
+        </td>
+      </tr>` : ''}`;
+  }).join('');
 
-            <!-- Expandable detail -->
-            ${expanded ? `
-            <div class="econ-detail">
-              <div class="econ-detail-grid">
-                <div class="econ-detail-block">
-                  <div class="econ-detail-label">📌 What is it?</div>
-                  <div class="econ-detail-text">${e.what}</div>
-                </div>
-                <div class="econ-detail-block">
-                  <div class="econ-detail-label">💡 Why it matters</div>
-                  <div class="econ-detail-text">${e.why}</div>
-                </div>
-                <div class="econ-detail-block econ-detail-full">
-                  <div class="econ-detail-label">📈 Market impact</div>
-                  <div class="econ-detail-text">${e.market}</div>
-                </div>
-              </div>
-            </div>` : ''}
-          </div>`;
-      }).join('')}
-    </div>
-  `).join('');
+  // Hide the old standalone detail panel (not used anymore)
+  detail.style.display = 'none';
 }
 
-function toggleExpand(idx) {
-  expandedIdx = expandedIdx === idx ? null : idx;
+function toggleRow(key) {
+  expandedDate = expandedDate === key ? null : key;
   render();
 }
-window.toggleExpand = toggleExpand;
+window.toggleRow = toggleRow;
 
-// Filter buttons
 document.querySelectorAll('.econ-filter').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.econ-filter').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     activeFilter = btn.dataset.filter;
-    expandedIdx  = null;
+    expandedDate = null;
     render();
   });
 });
 
-// Show past toggle
 document.getElementById('showPast').addEventListener('change', e => {
-  showPast = e.target.checked;
+  showPast = (e.target as HTMLInputElement).checked;
   render();
 });
 
@@ -346,114 +336,109 @@ render();
 </script>
 
 <style>
-/* ── Filters ─────────────────────────────────────────────── */
-.econ-legend {
-  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
-  margin-bottom:16px; font-size:12px; color:var(--text-muted);
+/* Controls */
+.ec-controls {
+  display:flex; justify-content:space-between; align-items:center;
+  gap:12px; flex-wrap:wrap; margin-bottom:20px;
 }
-.legend-item { display:flex; align-items:center; gap:5px; }
-.legend-dot  { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
-.legend-toggle {
-  display:flex; align-items:center; gap:6px; cursor:pointer; margin-left:auto;
-  font-size:12px; color:var(--text-muted);
-}
-.legend-toggle input { cursor:pointer; accent-color:var(--gold); }
-
-.econ-filters { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:24px; }
+.econ-filters { display:flex; gap:6px; flex-wrap:wrap; }
 .econ-filter  {
-  padding:6px 14px; border-radius:20px; border:1px solid var(--border);
-  background:transparent; color:var(--text-muted); font-size:12px; font-weight:600;
+  padding:5px 13px; border-radius:20px; border:1px solid var(--border);
+  background:transparent; color:var(--text-muted); font-size:11px; font-weight:600;
   cursor:pointer; transition:all 0.2s; white-space:nowrap;
 }
 .econ-filter.active, .econ-filter:hover {
   background:var(--gold); color:#000; border-color:var(--gold);
 }
-
-/* ── Month group ─────────────────────────────────────────── */
-.econ-month-group { margin-bottom:28px; }
-.econ-month-label {
-  display:flex; justify-content:space-between; align-items:center;
-  font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase;
-  color:var(--gold); border-bottom:1px solid var(--border);
-  padding-bottom:8px; margin-bottom:10px;
+.legend-toggle {
+  display:flex; align-items:center; gap:6px; cursor:pointer;
+  font-size:12px; color:var(--text-muted); white-space:nowrap;
 }
-.econ-month-count {
-  font-size:10px; color:var(--text-muted); font-weight:400;
-  letter-spacing:0; text-transform:none;
-}
+.legend-toggle input { cursor:pointer; accent-color:var(--gold); }
 
-/* ── Event card ──────────────────────────────────────────── */
-.econ-card {
-  background:var(--navy-2); border:1px solid var(--border);
-  border-radius:10px; margin-bottom:8px; cursor:pointer;
-  transition:border-color 0.2s, background 0.2s; overflow:hidden;
-}
-.econ-card:hover  { border-color:rgba(212,169,64,0.3) !important; background:rgba(212,169,64,0.02); }
-.econ-card.past   { opacity:0.45; }
-.econ-card.today  { background:rgba(212,169,64,0.04); }
+/* Table */
+.ec-table-wrap { overflow-x:auto; border-radius:12px; border:1px solid var(--border); }
+.ec-table { width:100%; border-collapse:collapse; }
 
-.econ-card-main {
-  display:grid; grid-template-columns:56px 1fr 28px;
-  align-items:center; gap:14px; padding:14px 16px;
+/* Month header rows */
+.ec-month-row td {
+  background:rgba(212,169,64,0.06); color:var(--gold);
+  font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase;
+  padding:10px 16px; border-bottom:1px solid var(--border); border-top:1px solid var(--border);
 }
 
-/* Date column */
-.econ-date-col  { text-align:center; }
-.econ-date-num  { font-size:22px; font-weight:800; color:#fff; line-height:1; }
-.econ-date-sub  { font-size:10px; color:var(--gold); font-weight:700; margin-top:1px; text-transform:uppercase; }
-.econ-date-day  { font-size:9px; color:var(--text-muted); margin-top:2px; text-transform:uppercase; letter-spacing:0.5px; }
-
-/* Content */
-.econ-content { min-width:0; }
-.econ-top-row {
-  display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:6px;
+/* Table header */
+.ec-table thead th {
+  background:rgba(255,255,255,0.03); color:var(--text-muted);
+  font-size:10px; font-weight:700; letter-spacing:0.5px; text-transform:uppercase;
+  padding:10px 14px; text-align:left; border-bottom:1px solid var(--border);
 }
-.econ-cat-chip {
+
+/* Data rows */
+.ec-row {
+  cursor:pointer; border-bottom:1px solid rgba(255,255,255,0.04);
+  transition:background 0.15s;
+}
+.ec-row:hover    { background:rgba(212,169,64,0.04); }
+.ec-row.ec-past  { opacity:0.4; }
+.ec-row.ec-today { background:rgba(212,169,64,0.05); }
+.ec-row.ec-expanded { background:rgba(212,169,64,0.04); border-bottom:none; }
+
+/* Date cell */
+.ec-td-date {
+  padding:12px 14px; white-space:nowrap; vertical-align:middle;
+  border-left-width:3px; border-left-style:solid;
+}
+.ec-row td:first-child { border-left:inherit; }
+.ec-day   { font-size:16px; font-weight:800; color:#fff; display:block; line-height:1.1; }
+.ec-mon   { font-size:10px; color:var(--gold); font-weight:700; display:block; text-transform:uppercase; }
+.ec-wday  { font-size:9px; color:var(--text-muted); display:block; }
+
+/* Event cell */
+.ec-td-event    { padding:12px 14px; vertical-align:middle; }
+.ec-event-name  { font-size:13px; font-weight:700; color:#fff; margin-bottom:2px; }
+.ec-event-sub   { font-size:11px; color:var(--text-muted); }
+
+/* Category cell */
+.ec-td-cat { padding:12px 14px; vertical-align:middle; }
+.ec-cat-chip {
   font-size:10px; font-weight:600; color:var(--text-muted);
   background:rgba(255,255,255,0.05); border:1px solid var(--border);
-  padding:2px 8px; border-radius:20px; white-space:nowrap;
+  padding:3px 8px; border-radius:20px; white-space:nowrap;
 }
-.econ-impact-pill {
-  font-size:9px; font-weight:800; letter-spacing:0.8px;
-  padding:2px 7px; border-radius:20px; white-space:nowrap;
-}
-.econ-badge {
-  font-size:9px; font-weight:800; letter-spacing:0.5px;
-  padding:2px 7px; border-radius:20px; white-space:nowrap;
-}
-.econ-event-name {
-  font-size:14px; font-weight:700; color:#fff; line-height:1.3; margin-bottom:3px;
-}
-.econ-subtitle { font-size:11px; color:var(--text-muted); }
 
-/* Chevron */
-.econ-chevron-col { display:flex; justify-content:center; align-items:center; }
-.econ-chevron {
-  font-size:20px; color:var(--text-muted); transition:transform 0.2s; display:block;
-}
-.econ-chevron.open { transform:rotate(90deg); color:var(--gold); }
+/* Impact cell */
+.ec-td-impact { padding:12px 14px; vertical-align:middle; }
 
-/* ── Expanded detail ─────────────────────────────────────── */
-.econ-detail {
-  border-top:1px solid var(--border); padding:16px;
-  background:rgba(0,0,0,0.2);
+/* When cell */
+.ec-td-when {
+  padding:12px 14px; vertical-align:middle;
+  display:flex; align-items:center; gap:8px; white-space:nowrap;
 }
-.econ-detail-grid {
-  display:grid; grid-template-columns:1fr 1fr; gap:12px;
+.ec-chevron {
+  font-size:18px; color:var(--text-muted); transition:transform 0.2s; flex-shrink:0;
 }
-.econ-detail-full  { grid-column:1/-1; }
-.econ-detail-block {
-  background:rgba(212,169,64,0.04); border:1px solid rgba(212,169,64,0.1);
-  border-radius:8px; padding:12px 14px;
-}
-.econ-detail-label {
-  font-size:11px; font-weight:700; color:var(--gold); letter-spacing:0.5px; margin-bottom:6px;
-}
-.econ-detail-text { font-size:12px; color:var(--text-muted); line-height:1.75; }
+.ec-chevron.open { transform:rotate(90deg); color:var(--gold); }
 
-@media (max-width:600px) {
-  .econ-card-main { grid-template-columns:48px 1fr 24px; gap:10px; padding:12px; }
-  .econ-detail-grid { grid-template-columns:1fr; }
-  .econ-date-num { font-size:18px; }
+/* Detail row */
+.ec-detail-row td { padding:0 16px 16px 16px; border-bottom:1px solid var(--border); }
+.ec-detail-inner {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:12px;
+  padding:14px; background:rgba(0,0,0,0.2); border-radius:10px;
+  border:1px solid rgba(212,169,64,0.12);
+}
+.ec-detail-block { }
+.ec-detail-lbl {
+  font-size:10px; font-weight:800; color:var(--gold); letter-spacing:0.5px;
+  margin-bottom:6px; text-transform:uppercase;
+}
+.ec-detail-txt { font-size:12px; color:var(--text-muted); line-height:1.7; }
+
+/* Empty state */
+#econEmpty { font-size:13px; color:var(--text-muted); }
+
+@media (max-width:640px) {
+  .ec-td-cat, .ec-td-impact { display:none; }
+  .ec-detail-inner { grid-template-columns:1fr; }
 }
 </style>
