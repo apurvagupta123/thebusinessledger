@@ -252,11 +252,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       // Table header
       let html = `<div class="ns-stock-head">
         <span>Stock</span>
-        <span>Price</span>
-        <span>Change</span>
-        <span>%</span>
+        <span style="text-align:right">Price</span>
+        <span style="text-align:right">Change</span>
+        <span style="text-align:right">%</span>
       </div>`;
 
+      let rowsHtml = '';
       stocks.forEach(q => {
         const sym = (q.symbol || '').replace('.NS','').replace('.BO','');
         const price = Number(q.regularMarketPrice);
@@ -264,9 +265,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         const pct   = Number(q.regularMarketChangePercent ?? 0);
         const up    = chg >= 0;
         const color = up ? '#22c55e' : '#ef4444';
-        const bdrColor = up ? '#22c55e' : '#ef4444';
-        html += `<a class="ns-stock-row" href="/company/${(q.symbol||'').toLowerCase().replace(/\./g,'-')}"
-          style="border-left-color:${bdrColor}">
+        rowsHtml += `<a class="ns-stock-row" href="/company/${(q.symbol||'').toLowerCase().replace(/\./g,'-')}"
+          style="border-left-color:${color}">
           <div class="ns-stock-sym">
             <span class="ns-sym">${escHtml(sym)}</span>
             <span class="ns-name">${escHtml(q.shortName || q.longName || '')}</span>
@@ -279,7 +279,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </a>`;
       });
 
-      mainFeed.innerHTML = html;
+      mainFeed.innerHTML = html + `<div class="ns-stock-table">${rowsHtml}</div>`;
     } catch (e) {
       mainFeed.innerHTML = '<div class="news-empty">Failed to load stock data.</div>';
     }
@@ -634,20 +634,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 0.8px;
-    border-bottom: 1px solid var(--border);
   }
+  .ns-stock-table { display: flex; flex-direction: column; gap: 4px; padding: 0 8px; }
   .ns-stock-row {
     display: grid;
     grid-template-columns: 2fr 100px 130px 80px;
     gap: 0 12px;
     align-items: center;
-    padding: 11px 20px;
-    border-bottom: 1px solid rgba(255,255,255,.04);
+    padding: 11px 16px;
+    background: var(--navy-2);
+    border: 1px solid var(--border);
     border-left: 3px solid transparent;
+    border-radius: 8px;
     text-decoration: none;
-    transition: background .1s;
+    transition: background .1s, border-color .1s;
   }
-  .ns-stock-row:hover { background: var(--navy-2); }
+  .ns-stock-row:hover { background: var(--navy-3); border-color: rgba(201,168,76,.3); }
   .ns-stock-sym { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
   .ns-sym { font-size: 13px; font-weight: 800; color: #fff; flex-shrink: 0; }
   .ns-name { font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
