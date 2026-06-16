@@ -84,15 +84,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       ],
     },
     stocks: {
-      label: 'Stocks News',
-      news: [
-        { url: 'https://www.cnbc.com/id/10001147/device/rss/rss.html', source: 'CNBC',           color: '#00a3e0' },
-        { url: 'https://feeds.bbci.co.uk/news/business/rss.xml',       source: 'BBC Business',   color: '#bb1919' },
-        { url: 'https://feeds.foxbusiness.com/foxbusiness/latest',      source: 'Fox Business',   color: '#003366' },
-      ],
+      label: 'India Stocks',
+      isStocks: true,
+      news: [],
       blogs: [
         { url: 'https://realinvestmentadvice.com/feed/',     source: 'Real Inv. Advice',    color: '#22c55e' },
         { url: 'https://www.capitalspectator.com/feed/',     source: 'Capital Spectator',   color: '#f0c040' },
+        { url: 'https://feeds.bbci.co.uk/news/business/rss.xml', source: 'BBC Business',   color: '#bb1919' },
       ],
     },
     etf: {
@@ -230,6 +228,63 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  // ─── Render India Stock Rows ──────────────────────────────────────────────
+  async function renderStocksTab() {
+    const mainFeed = document.getElementById('newsMainFeed');
+    const mainMore = document.getElementById('loadMoreMain');
+    document.getElementById('mainColTitle').textContent = 'NSE Stocks';
+    document.getElementById('mainCount').textContent = '';
+    mainMore.style.display = 'none';
+    mainFeed.innerHTML = '<div class="news-skeleton-list">' + Array(8).fill('<div class="news-skeleton" style="height:52px"></div>').join('') + '</div>';
+
+    try {
+      const r = await fetch('/data/india-stocks.json');
+      const data = await r.json();
+      const stocks = [...(data.nse || []), ...(data.bse || [])].filter(q => q.regularMarketPrice);
+
+      if (!stocks.length) {
+        mainFeed.innerHTML = '<div class="news-empty">No stock data available.</div>';
+        return;
+      }
+
+      document.getElementById('mainCount').textContent = `${stocks.length} stocks`;
+
+      // Table header
+      let html = `<div class="ns-stock-head">
+        <span>Stock</span>
+        <span>Price</span>
+        <span>Change</span>
+        <span>%</span>
+      </div>`;
+
+      stocks.forEach(q => {
+        const sym = (q.symbol || '').replace('.NS','').replace('.BO','');
+        const price = Number(q.regularMarketPrice);
+        const chg   = Number(q.regularMarketChange ?? 0);
+        const pct   = Number(q.regularMarketChangePercent ?? 0);
+        const up    = chg >= 0;
+        const color = up ? '#22c55e' : '#ef4444';
+        const bdrColor = up ? '#22c55e' : '#ef4444';
+        html += `<a class="ns-stock-row" href="/company/${(q.symbol||'').toLowerCase().replace(/\./g,'-')}"
+          style="border-left-color:${bdrColor}">
+          <div class="ns-stock-sym">
+            <span class="ns-sym">${escHtml(sym)}</span>
+            <span class="ns-name">${escHtml(q.shortName || q.longName || '')}</span>
+          </div>
+          <div class="ns-price" style="color:#fff">₹${price.toFixed(2)}</div>
+          <div class="ns-chg" style="color:${color}">${up?'▲':'▼'} ₹${Math.abs(chg).toFixed(2)}</div>
+          <div class="ns-pct">
+            <span class="ns-badge" style="background:${color}20;color:${color}">${up?'+':''}${pct.toFixed(2)}%</span>
+          </div>
+        </a>`;
+      });
+
+      mainFeed.innerHTML = html;
+    } catch (e) {
+      mainFeed.innerHTML = '<div class="news-empty">Failed to load stock data.</div>';
+    }
+  }
+
   // ─── Render feeds into columns ────────────────────────────────────────────
   function renderColumns() {
     const mainFeed = document.getElementById('newsMainFeed');
@@ -267,6 +322,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     document.getElementById('newsLoading').style.display = 'block';
     document.getElementById('loadMoreMain').style.display = 'none';
     document.getElementById('loadMoreBlog').style.display = 'none';
+
+    if (tab.isStocks) {
+      // Special: show India stock price rows in main column
+      document.getElementById('newsLoading').style.display = 'none';
+      await renderStocksTab();
+      // Still load blogs column
+      const blogsData = await fetchColumn(tab.blogs);
+      blogItems = blogsData;
+      document.getElementById('blogCount').textContent = blogItems.length ? `${blogItems.length} articles` : '';
+      document.getElementById('newsBlogFeed').innerHTML = renderByTime(blogItems, blogShown);
+      return;
+    }
 
     // Fetch both columns in parallel
     const [newsItems, blogsData] = await Promise.all([
@@ -544,6 +611,39 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     text-align: center;
   }
   .news-load-more:hover { background: var(--navy-2); }
+
+  /* ── India Stock Rows (Stocks tab) ── */
+  .ns-stock-head {
+    display: grid;
+    grid-template-columns: 2fr 100px 130px 80px;
+    gap: 0 12px;
+    padding: 6px 20px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .ns-stock-row {
+    display: grid;
+    grid-template-columns: 2fr 100px 130px 80px;
+    gap: 0 12px;
+    align-items: center;
+    padding: 11px 20px;
+    border-bottom: 1px solid rgba(255,255,255,.04);
+    border-left: 3px solid transparent;
+    text-decoration: none;
+    transition: background .1s;
+  }
+  .ns-stock-row:hover { background: var(--navy-2); }
+  .ns-stock-sym { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
+  .ns-sym { font-size: 13px; font-weight: 800; color: #fff; flex-shrink: 0; }
+  .ns-name { font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ns-price { font-size: 13px; font-weight: 700; text-align: right; }
+  .ns-chg { font-size: 11px; font-weight: 600; text-align: right; }
+  .ns-pct { text-align: right; }
+  .ns-badge { font-size: 10px; font-weight: 700; padding: 3px 7px; border-radius: 5px; display: inline-block; }
 
   /* ── Responsive ── */
   @media (max-width: 860px) {

@@ -79,18 +79,24 @@ const BSE_STOCKS = [
       <h2 class="section-title">NSE Top Stocks</h2>
       <span class="section-live">NSE</span>
     </div>
-    <div class="sector-grid" id="nseGrid">
+    <div class="in-table-head">
+      <span>Stock</span>
+      <span style="text-align:right">Price</span>
+      <span style="text-align:right">Change</span>
+      <span style="text-align:right">% Change</span>
+    </div>
+    <div class="in-table" id="nseGrid">
       {NSE_STOCKS.map(s => (
-        <a href={`/company/${s.sym.toLowerCase().replace('.','_')}`} class="mkt-card sector-card" id={`sc-${s.sym}`}>
-          <div class="mkt-top">
-            <div>
-              <div class="mkt-sym">{s.sym.replace('.NS','')}</div>
-              <div class="mkt-name">{s.name}</div>
-            </div>
-            <div class="mkt-badge" id={`scb-${s.sym}`}>—</div>
+        <a class="in-row" id={`sc-${s.sym}`} href={`/company/${s.sym.toLowerCase().replace('.','_')}`}>
+          <div class="in-row-sym">
+            <span class="in-sym">{s.sym.replace('.NS','')}</span>
+            <span class="in-name">{s.name}</span>
           </div>
-          <div class="mkt-price" id={`scp-${s.sym}`}>—</div>
-          <div class="mkt-chg"   id={`scc-${s.sym}`}>—</div>
+          <div class="in-price" id={`scp-${s.sym}`}>—</div>
+          <div class="in-chg"   id={`scc-${s.sym}`}>—</div>
+          <div class="in-pct">
+            <span class="mkt-badge" id={`scb-${s.sym}`}>—</span>
+          </div>
         </a>
       ))}
     </div>
@@ -100,20 +106,26 @@ const BSE_STOCKS = [
   <section class="content-section" style="margin-top:32px">
     <div class="section-head">
       <h2 class="section-title">BSE Top Stocks</h2>
-      <span class="section-live">NSE</span>
+      <span class="section-live">BSE</span>
     </div>
-    <div class="sector-grid" id="bseGrid">
+    <div class="in-table-head">
+      <span>Stock</span>
+      <span style="text-align:right">Price</span>
+      <span style="text-align:right">Change</span>
+      <span style="text-align:right">% Change</span>
+    </div>
+    <div class="in-table" id="bseGrid">
       {BSE_STOCKS.map(s => (
-        <a href={`/company/${s.sym.toLowerCase().replace('.','_')}`} class="mkt-card sector-card" id={`sc-${s.sym}`}>
-          <div class="mkt-top">
-            <div>
-              <div class="mkt-sym">{s.sym.replace('.BO','')}</div>
-              <div class="mkt-name">{s.name}</div>
-            </div>
-            <div class="mkt-badge" id={`scb-${s.sym}`}>—</div>
+        <a class="in-row" id={`sc-${s.sym}`} href={`/company/${s.sym.toLowerCase().replace('.','_')}`}>
+          <div class="in-row-sym">
+            <span class="in-sym">{s.sym.replace('.BO','')}</span>
+            <span class="in-name">{s.name}</span>
           </div>
-          <div class="mkt-price" id={`scp-${s.sym}`}>—</div>
-          <div class="mkt-chg"   id={`scc-${s.sym}`}>—</div>
+          <div class="in-price" id={`scp-${s.sym}`}>—</div>
+          <div class="in-chg"   id={`scc-${s.sym}`}>—</div>
+          <div class="in-pct">
+            <span class="mkt-badge" id={`scb-${s.sym}`}>—</span>
+          </div>
         </a>
       ))}
     </div>
@@ -178,7 +190,7 @@ const BSE_STOCKS = [
         if (el) { el.textContent = `${up?'+':''}${pct.toFixed(2)}%`; el.style.color = up ? '#22c55e' : '#ef4444'; }
       }
 
-      // Render stock cards (NSE + BSE combined)
+      // Render stock rows (NSE + BSE combined)
       const allStocks = [...(stocks.nse || []), ...(stocks.bse || [])];
       allStocks.forEach(q => {
         if (!q.regularMarketPrice) return;
@@ -186,14 +198,14 @@ const BSE_STOCKS = [
         const pct = q.regularMarketChangePercent ?? 0;
         const up  = chg >= 0;
         const color = up ? '#22c55e' : '#ef4444';
-        const card = document.getElementById(`sc-${q.symbol}`);
-        if (card) card.classList.add(up ? 'up' : 'dn');
+        const row = document.getElementById(`sc-${q.symbol}`);
+        if (row) row.classList.add(up ? 'up' : 'dn');
         const bEl = document.getElementById(`scb-${q.symbol}`);
         if (bEl) { bEl.textContent = `${up?'+':''}${pct.toFixed(2)}%`; bEl.classList.add(up ? 'badge-up' : 'badge-dn'); }
         const pEl = document.getElementById(`scp-${q.symbol}`);
         if (pEl) pEl.textContent = `₹${q.regularMarketPrice.toFixed(2)}`;
         const cEl = document.getElementById(`scc-${q.symbol}`);
-        if (cEl) { cEl.textContent = `${up?'▲':'▼'} ₹${Math.abs(chg).toFixed(2)}`; cEl.style.color = color; }
+        if (cEl) { cEl.textContent = `${up?'▲':'▼'} ₹${Math.abs(chg).toFixed(2)}`; (cEl as HTMLElement).style.color = color; }
       });
 
     } catch (e) {
@@ -203,3 +215,71 @@ const BSE_STOCKS = [
 
   loadData();
 </script>
+
+<style is:global>
+/* ── India markets row table ──────────────────────────── */
+.in-table-head {
+  display: grid;
+  grid-template-columns: 2fr 110px 150px 80px;
+  gap: 0 16px;
+  padding: 6px 16px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.in-table {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.in-row {
+  display: grid;
+  grid-template-columns: 2fr 110px 150px 80px;
+  gap: 0 16px;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--navy-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.in-row:hover { background: var(--navy-3); border-color: rgba(201,168,76,0.3); }
+.in-row.up { border-left-color: #22c55e; }
+.in-row.dn { border-left-color: #ef4444; }
+.in-row-sym { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+.in-sym { font-size: 14px; font-weight: 800; color: #fff; flex-shrink: 0; letter-spacing: 0.3px; }
+.in-name { font-size: 12px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.in-price { font-size: 14px; font-weight: 700; color: #fff; text-align: right; }
+.in-chg { font-size: 12px; font-weight: 600; text-align: right; }
+.in-pct { text-align: right; }
+/* Shimmer while loading */
+.in-row:not(.up):not(.dn) .in-price,
+.in-row:not(.up):not(.dn) .in-chg,
+.in-row:not(.up):not(.dn) .mkt-badge {
+  background: linear-gradient(90deg,rgba(255,255,255,.05) 25%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.05) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+  color: transparent !important;
+  min-width: 50px;
+  min-height: 13px;
+  display: inline-block;
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.mkt-badge { font-size: 10px; font-weight: 700; padding: 3px 7px; border-radius: 5px; display: inline-block; }
+.badge-up { background: rgba(34,197,94,0.15); color: #22c55e; }
+.badge-dn { background: rgba(239,68,68,0.15); color: #ef4444; }
+@media (max-width: 700px) {
+  .in-table-head { grid-template-columns: 2fr 90px 90px; }
+  .in-table-head span:last-child { display: none; }
+  .in-row { grid-template-columns: 2fr 90px 90px; }
+  .in-pct { display: none; }
+}
+</style>
