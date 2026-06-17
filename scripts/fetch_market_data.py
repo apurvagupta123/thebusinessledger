@@ -520,28 +520,52 @@ def main():
     total_kb = sum(os.path.getsize(os.path.join(company_dir, f)) for f in os.listdir(company_dir)) / 1024
     print(f"  Saved {saved_count} company files ({total_kb:.0f} KB total) → public/data/company/")
 
-    # 7. FII / DII flow from NSE India
+    # 7. FII / DII flow — uses curl_cffi to bypass Cloudflare (works from GitHub Actions)
     print("\n[7/7] FII / DII Flow")
     try:
-        import urllib.request
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Referer': 'https://www.nseindia.com/',
-        }
-        req = urllib.request.Request('https://www.nseindia.com/api/fiidiiTradeReact', headers=headers)
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            import json as _json
-            raw = _json.loads(resp.read().decode())
+        try:
+            from curl_cffi import requests as cffi_requests
+            _resp = cffi_requests.get(
+                'https://www.nseindia.com/api/fiidiiTradeReact',
+                impersonate='chrome120',
+                headers={
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-US,en;q=0.9',
+                    'Referer': 'https://www.nseindia.com/market-data/fii-dii-data',
+                },
+                timeout=20,
+            )
+            raw = _resp.json()
+        except ImportError:
+            # Fallback: session cookie approach via urllib
+            import urllib.request, http.cookiejar, json as _json, time as _time
+            _cj = http.cookiejar.CookieJar()
+            _opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_cj))
+            _opener.addheaders = [('User-Agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36')]
+            try: _opener.open('https://www.nseindia.com/', timeout=12); _time.sleep(1.5)
+            except: pass
+            _req = urllib.request.Request('https://www.nseindia.com/api/fiidiiTradeReact',
+                headers={'User-Agent':'Mozilla/5.0','Accept':'application/json','Referer':'https://www.nseindia.com/'})
+            with _opener.open(_req, timeout=15) as resp:
+                raw = _json.loads(resp.read().decode())
+
         if raw and isinstance(raw, list) and len(raw) > 0:
-            rows = []
-            for row in raw[:10]:  # last 10 trading days
-                rows.append({
-                    'date':   row.get('date', ''),
-                    'fiiNet': float(row.get('fiiNet', row.get('fii_net', 0)) or 0),
-                    'diiNet': float(row.get('diiNet', row.get('dii_net', 0)) or 0),
-                })
+            by_date = {}
+            for row in raw:
+                date = row.get('date', '')
+                cat  = row.get('category', '').upper()
+                net  = float(row.get('netValue', row.get('fiiNet', row.get('fii_net', 0))) or 0)
+                if date not in by_date:
+                    by_date[date] = {'date': date, 'fiiNet': 0, 'diiNet': 0}
+                if cat.startswith('FII'):
+                    by_date[date]['fiiNet'] = net
+                elif cat == 'DII':
+                    by_date[date]['diiNet'] = net
+                elif not cat:
+                    by_date[date]['fiiNet'] = float(row.get('fiiNet', 0) or 0)
+                    by_date[date]['diiNet'] = float(row.get('diiNet', 0) or 0)
+            rows = sorted(by_date.values(), key=lambda x: x['date'], reverse=True)[:10]
+            if not rows: raise ValueError('no usable rows')
             save('fii-dii.json', {'lastUpdated': NOW, 'data': rows})
             print(f"  Saved fii-dii.json — latest: FII={rows[0]['fiiNet']:.0f}Cr DII={rows[0]['diiNet']:.0f}Cr")
         else:

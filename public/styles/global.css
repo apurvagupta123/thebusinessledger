@@ -4,11 +4,11 @@
 
 /* ── Tokens ───────────────────────────────────────────────── */
 :root {
-  --navy:       #07061a;
-  --navy-2:     #0d0b26;
-  --navy-3:     #141033;
-  --navy-4:     #1c1645;
-  --navy-5:     #251d56;
+  --navy:       #0a0904;
+  --navy-2:     #1a1509;
+  --navy-3:     #231c0d;
+  --navy-4:     #2e2410;
+  --navy-5:     #3a2e14;
   --gold:       #d4a940;
   --gold-light: #f0c040;
   --gold-bright: #ffe066;
@@ -390,8 +390,8 @@ input  { outline: none; font-family: inherit; border: none; }
 }
 
 .idx-card {
-  background: var(--navy-2);
-  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(212,169,64,0.13) 0%, rgba(184,134,11,0.07) 60%, rgba(212,169,64,0.05) 100%);
+  border: 1px solid rgba(212,169,64,0.28);
   border-radius: var(--r);
   padding: 18px 20px;
   transition: border-color 0.25s, box-shadow 0.25s, transform 0.2s;
@@ -404,7 +404,7 @@ input  { outline: none; font-family: inherit; border: none; }
   inset: 0;
   opacity: 0.4;
   transition: opacity 0.3s;
-  background: linear-gradient(135deg, rgba(212,169,64,0.07) 0%, transparent 60%);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, transparent 60%);
 }
 .idx-card:hover { border-color: rgba(212,169,64,0.55); box-shadow: 0 4px 28px rgba(0,0,0,0.3), 0 0 0 1px rgba(212,169,64,0.22), 0 0 20px rgba(212,169,64,0.12); transform: translateY(-2px); }
 .idx-card:hover::before { opacity: 1; }
@@ -473,8 +473,8 @@ input  { outline: none; font-family: inherit; border: none; }
 }
 
 .mkt-card {
-  background: var(--navy-2);
-  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(212,169,64,0.13) 0%, rgba(184,134,11,0.07) 60%, rgba(212,169,64,0.05) 100%);
+  border: 1px solid rgba(212,169,64,0.28);
   border-radius: var(--r);
   padding: 16px 18px;
   transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s;
@@ -536,12 +536,12 @@ input  { outline: none; font-family: inherit; border: none; }
 .news-item {
   display: block;
   padding: 13px 16px;
-  background: var(--navy-2);
-  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
+  border: 1px solid rgba(212,169,64,0.22);
   border-radius: 8px;
   transition: background 0.15s, border-color 0.15s;
 }
-a.news-item:hover { background: var(--navy-3); border-color: rgba(212,169,64,0.45); box-shadow: 0 0 16px rgba(212,169,64,0.08); }
+a.news-item:hover { background: linear-gradient(135deg, rgba(212,169,64,0.18) 0%, rgba(184,134,11,0.10) 100%); border-color: rgba(212,169,64,0.45); box-shadow: 0 0 16px rgba(212,169,64,0.08); }
 
 .ni-title { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.5; margin-bottom: 5px; }
 a.news-item:hover .ni-title { color: var(--gold-light); }
@@ -574,7 +574,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 
 /* ── Company Spotlight ────────────────────────────────────── */
 .spotlight-box {
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid rgba(212,169,64,0.15);
   border-radius: var(--r);
   padding: 20px;
@@ -640,8 +640,8 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 .post-card {
   display: flex;
   flex-direction: column;
-  background: var(--navy-2);
-  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(212,169,64,0.13) 0%, rgba(184,134,11,0.07) 60%, rgba(212,169,64,0.05) 100%);
+  border: 1px solid rgba(212,169,64,0.28);
   border-radius: var(--r);
   padding: 20px 22px;
   transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s;
@@ -791,7 +791,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   flex-wrap: wrap;
   gap: 2px;
   margin-bottom: 32px;
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: var(--r);
   overflow: hidden;
@@ -814,7 +814,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 }
 
 .cp-chart-box {
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: var(--r);
   padding: 20px;
@@ -842,7 +842,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 .cp-chart-wrap canvas { height: 100% !important; }
 
 .cp-about-box {
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: var(--r);
   padding: 20px;
@@ -863,7 +863,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   display: flex;
   gap: 4px;
   margin-bottom: 20px;
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 4px;
@@ -906,7 +906,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   vertical-align: middle;
 }
 .ipo-table tr:last-child td { border-bottom: none; }
-.ipo-table tr:hover td { background: var(--navy-3); }
+.ipo-table tr:hover td { background: rgba(212,169,64,0.10); }
 .ipo-company { font-weight: 600; color: #fff; }
 .ipo-sym     { font-weight: 700; color: var(--gold); }
 .ipo-link    { color: var(--gold); }
@@ -917,8 +917,8 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   display: flex;
   align-items: center;
   gap: 20px;
-  background: var(--navy-2);
-  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(212,169,64,0.13) 0%, rgba(184,134,11,0.07) 100%);
+  border: 1px solid rgba(212,169,64,0.28);
   border-radius: var(--r);
   padding: 28px 28px;
   flex-wrap: wrap;
@@ -944,7 +944,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 .sector-pills { display: flex; gap: 12px; flex-wrap: wrap; }
 .sector-pill {
   padding: 10px 20px;
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: 8px;
   font-size: 13px;
@@ -1024,7 +1024,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 10px 16px;
@@ -1074,7 +1074,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   font-weight: 600;
   border-radius: 6px;
   color: var(--text-muted);
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   transition: all 0.2s;
 }
@@ -1097,7 +1097,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
   align-items: center;
   gap: 14px;
   padding: 12px 16px;
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: 8px;
   margin-bottom: 4px;
@@ -1137,7 +1137,7 @@ a.news-item:hover .ni-title { color: var(--gold-light); }
 @media (max-width: 900px) { .tools-grid { grid-template-columns: 1fr; } }
 
 .tool-card {
-  background: var(--navy-2);
+  background: linear-gradient(135deg, rgba(212,169,64,0.10) 0%, rgba(184,134,11,0.05) 100%);
   border: 1px solid var(--border);
   border-radius: var(--r);
   padding: 24px;

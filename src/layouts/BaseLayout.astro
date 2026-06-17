@@ -167,19 +167,15 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
           <circle cx="98"  cy="198" r="3.5" fill="#d4a940" opacity="0.7"/>
           <circle cx="218" cy="212" r="3"   fill="#fde68a" opacity="0.6"/>
         </g>
-        <!-- Trending arrow — matches reference icon style -->
-        <g class="go-arrow">
-          <!-- Glow halo -->
-          <polyline points="132,183 148,167 159,175 178,150"
-            fill="none" stroke="rgba(253,230,138,0.25)" stroke-width="14"
-            stroke-linecap="square" stroke-linejoin="miter"/>
-          <!-- Main zigzag line -->
-          <polyline points="132,183 148,167 159,175 178,150"
-            fill="none" stroke="#fde68a" stroke-width="5.5"
-            stroke-linecap="square" stroke-linejoin="miter"/>
-          <!-- Arrowhead (upper-right pointing, like reference) -->
-          <polygon points="178,150 165,147 175,160" fill="#fde68a"/>
-        </g>
+        <!-- Golden bull image in centre -->
+        <image href="/bull-hero.jpg" x="124" y="124" width="72" height="72"
+          clip-path="url(#bullClip)" preserveAspectRatio="xMidYMid slice"
+          style="filter:drop-shadow(0 0 6px rgba(212,169,64,0.6))"/>
+        <defs>
+          <clipPath id="bullClip">
+            <circle cx="160" cy="160" r="34"/>
+          </clipPath>
+        </defs>
         <circle cx="160" cy="160" r="148" fill="none" stroke="rgba(212,169,64,0.07)" stroke-width="20" class="go-pulse-l"/>
         <circle cx="160" cy="160" r="36" fill="rgba(212,169,64,0.07)"/>
       </svg>
