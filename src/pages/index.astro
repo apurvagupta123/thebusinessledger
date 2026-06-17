@@ -742,31 +742,33 @@ const SECTOR_TAGS: Record<string, string> = {
 /* ── News Section ─────────────────────────────────── */
 .news-grid {
   display: grid;
-  grid-template-columns: 380px 230px;
+  grid-template-columns: 340px 210px;
   gap: 16px;
   align-items: start;
+  width: fit-content;
 }
 
-/* ── Featured article — vertical card: image top, meta, title */
+/* ── Featured article — vertical card */
 .news-featured {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: 340px;
   border-radius: 12px;
-  overflow: hidden;
   border: 1px solid rgba(212,169,64,0.2);
   background: #0d0d0d;
-  transition: border-color 0.2s;
   cursor: pointer;
-  width: 380px;
+  contain: content;
+  transition: border-color 0.2s;
 }
 .news-featured:hover { border-color: rgba(212,169,64,0.45); }
 .news-feat-img-wrap {
+  display: block;
   width: 100%;
-  height: 200px;
-  overflow: hidden;
-  flex-shrink: 0;
+  height: 185px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1a1a1a;
 }
-.news-feat-img { width: 100%; height: 200px; object-fit: cover; display: block; }
 .news-feat-meta {
   display: flex;
   align-items: center;
@@ -1802,7 +1804,7 @@ const SECTOR_TAGS: Record<string, string> = {
       const featTime = new Date(featured.publishedAt).toLocaleString('en-IN',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
       const featHtml = `
         <button class="news-featured news-card-btn" data-idx="0">
-          ${featured.image ? `<div class="news-feat-img-wrap"><img src="${featured.image}" alt="" class="news-feat-img" loading="lazy"/></div>` : ''}
+          ${featured.image ? `<div class="news-feat-img-wrap" style="background-image:url('${featured.image.replace(/'/g, "\\'")}')" aria-hidden="true"></div>` : ''}
           <div class="news-feat-meta">
             <span class="news-source-tag">${featured.source}</span>
             <span class="news-feat-time">${featTime}</span>
