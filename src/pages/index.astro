@@ -773,7 +773,15 @@ const SECTOR_TAGS: Record<string, string> = {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 14px 0;
+  padding: 10px 14px 14px;
+}
+.news-feat-body { padding: 12px 14px 8px; }
+.news-feat-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text);
+  margin: 0;
 }
 .news-source-tag {
   display: inline-block;
@@ -787,14 +795,6 @@ const SECTOR_TAGS: Record<string, string> = {
   padding: 2px 8px;
 }
 .news-feat-time { font-size: 11px; color: var(--muted); opacity: 0.65; }
-.news-feat-body { padding: 8px 14px 14px; }
-.news-feat-title {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 1.4;
-  color: var(--text);
-  margin: 0 0 6px;
-}
 .news-feat-excerpt {
   font-size: 12px;
   line-height: 1.5;
@@ -1797,21 +1797,22 @@ const SECTOR_TAGS: Record<string, string> = {
       const footer = document.getElementById('newsFooter')! as HTMLElement;
       if (!articles.length) { grid.innerHTML = '<div class="news-loading">No news available.</div>'; return; }
 
-      const featured = articles[0];
-      const sides = articles.slice(1, 13);
+      // Always use an article with an image as featured
+      const featured = articles.find(a => a.image) || articles[0];
+      const sides = articles.filter(a => a !== featured).slice(0, 10);
 
-      // Featured card — vertical: image top, source+time, title, excerpt
+      // Featured card — title first, then image, then meta (MoneyControl style)
       const featTime = new Date(featured.publishedAt).toLocaleString('en-IN',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+      const imgStyle = featured.image ? `style="background-image:url('${featured.image.replace(/'/g,"\\'")}');display:block"` : 'style="display:none"';
       const featHtml = `
         <button class="news-featured news-card-btn" data-idx="0">
-          ${featured.image ? `<div class="news-feat-img-wrap" style="background-image:url('${featured.image.replace(/'/g, "\\'")}')" aria-hidden="true"></div>` : ''}
+          <div class="news-feat-body">
+            <h3 class="news-feat-title">${featured.title}</h3>
+          </div>
+          <div class="news-feat-img-wrap" ${imgStyle} aria-hidden="true"></div>
           <div class="news-feat-meta">
             <span class="news-source-tag">${featured.source}</span>
             <span class="news-feat-time">${featTime}</span>
-          </div>
-          <div class="news-feat-body">
-            <h3 class="news-feat-title">${featured.title}</h3>
-            <p class="news-feat-excerpt">${(featured.excerpt||'').slice(0,120)}</p>
           </div>
         </button>`;
 
