@@ -163,31 +163,37 @@ const SECTOR_TAGS: Record<string, string> = {
   <!-- ── Today's Indian Markets ──────────────────────── -->
   <section class="content-section reveal" id="markets">
     <div class="section-head">
-      <h2 class="section-title">Indian Markets — Top Stocks</h2>
+      <h2 class="section-title">Top 5 Stocks</h2>
       <a href="/markets" class="section-more">View all sectors →</a>
     </div>
-    <!-- Table header -->
-    <div class="mkt-table-head">
-      <span>Company</span>
-      <span style="text-align:right">Price</span>
-      <span style="text-align:right">Change</span>
-      <span class="mkt-th-pct" style="text-align:right">% Change</span>
-    </div>
-    <div class="mkt-table" id="marketsGrid">
-      {['RELIANCE.NS','TCS.NS','HDFCBANK.NS','INFY.NS','ICICIBANK.NS','BAJFINANCE.NS','TMCV.NS','BHARTIARTL.NS','MARUTI.NS','SBIN.NS','LT.NS','WIPRO.NS','HCLTECH.NS','KOTAKBANK.NS','TITAN.NS','ASIANPAINT.NS'].map((sym) => (
-        <a class="mkt-row" id={`mc-${sym}`} href={`/company/${sym.toLowerCase().replace(/\./g,'-')}`}>
-          <div class="mkt-row-sym">
-            {SECTOR_TAGS[sym] && <span class="mkt-row-sector">{SECTOR_TAGS[sym]}</span>}
-            <span class="mkt-sym">{sym.replace('.NS','')}</span>
-            <span class="mkt-name" id={`mn-${sym}`}>—</span>
-          </div>
-          <div class="mkt-row-price" id={`mp-${sym}`}>—</div>
-          <div class="mkt-row-chg"  id={`mch-${sym}`}>—</div>
-          <div class="mkt-row-pct">
-            <span class="mkt-badge" id={`mb-${sym}`}>—</span>
-          </div>
-        </a>
-      ))}
+    <div class="pie-layout">
+      <!-- Donut chart -->
+      <div class="pie-chart-wrap">
+        <canvas id="stockPieChart" width="260" height="260"></canvas>
+        <div class="pie-center" id="pieCenter">
+          <span class="pie-center-sym" id="pieSym">NSE</span>
+          <span class="pie-center-price" id="piePrice">—</span>
+          <span class="pie-center-chg" id="pieChg">—</span>
+        </div>
+      </div>
+      <!-- Legend / clickable list -->
+      <div class="pie-legend" id="pieLegend">
+        {['RELIANCE.NS','TCS.NS','HDFCBANK.NS','INFY.NS','ICICIBANK.NS'].map((sym, i) => (
+          <a class="pie-leg-item" id={`pl-${sym}`}
+             href={`/company/${sym.toLowerCase().replace(/\./g,'-')}`}
+             data-sym={sym} data-idx={i}>
+            <span class="pie-leg-dot" id={`pld-${i}`}></span>
+            <div class="pie-leg-body">
+              <span class="pie-leg-sym">{sym.replace('.NS','')}</span>
+              <span class="pie-leg-name" id={`pln-${sym}`}>Loading…</span>
+            </div>
+            <div class="pie-leg-right">
+              <span class="pie-leg-price" id={`plp-${sym}`}>—</span>
+              <span class="pie-leg-chg"  id={`plc-${sym}`}>—</span>
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -1025,115 +1031,118 @@ const SECTOR_TAGS: Record<string, string> = {
   display: inline-block;
 }
 
-/* ── Stocks Table ────────────────────────────────────── */
-.mkt-table-head {
+/* ── Top 5 Stocks Pie Chart ──────────────────────────── */
+.pie-layout {
   display: grid;
-  grid-template-columns: 2fr 110px 150px 80px;
-  gap: 0 16px;
-  padding: 8px 16px;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 6px;
-}
-.mkt-th-pct { text-align: right; }
-
-.mkt-table {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.mkt-row {
-  display: grid;
-  grid-template-columns: 2fr 110px 150px 80px;
-  gap: 0 16px;
+  grid-template-columns: 280px 1fr;
+  gap: 28px;
   align-items: center;
-  padding: 12px 16px;
-  background: var(--navy-2);
-  border: 1px solid var(--border);
-  border-left: 3px solid transparent;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background 0.15s, border-color 0.15s;
 }
-.mkt-row:hover { background: var(--navy-3); border-color: rgba(212,169,64,0.3); }
-.mkt-row.up { border-left-color: #22c55e; }
-.mkt-row.dn { border-left-color: #ef4444; }
-
-.mkt-row-sym {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  min-width: 0;
-}
-.mkt-row-sector {
-  font-size: 10px;
-  color: var(--text-muted);
-  white-space: nowrap;
+.pie-chart-wrap {
+  position: relative;
+  width: 260px;
+  height: 260px;
   flex-shrink: 0;
-  display: none;
 }
-.mkt-sym {
-  font-size: 14px;
+#stockPieChart { display: block; cursor: pointer; }
+.pie-center {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+.pie-center-sym {
+  display: block;
+  font-size: 15px;
   font-weight: 800;
   color: #fff;
+  letter-spacing: 0.5px;
+}
+.pie-center-price {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 2px 0;
+}
+.pie-center-chg {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+}
+.pie-center-chg.up { color: #22c55e; }
+.pie-center-chg.dn { color: #ef4444; }
+
+/* Legend */
+.pie-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.pie-leg-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, rgba(212,169,64,0.08), rgba(184,134,11,0.04));
+  border: 1px solid rgba(212,169,64,0.18);
+  border-radius: 9px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.pie-leg-item:hover, .pie-leg-item.active {
+  background: rgba(212,169,64,0.15);
+  border-color: rgba(212,169,64,0.4);
+  transform: translateX(3px);
+}
+.pie-leg-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
   flex-shrink: 0;
+}
+.pie-leg-body { flex: 1; min-width: 0; }
+.pie-leg-sym {
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  color: #fff;
   letter-spacing: 0.3px;
 }
-.mkt-name {
-  font-size: 12px;
-  color: var(--text-muted);
+.pie-leg-name {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.mkt-row-price {
-  font-size: 14px;
+.pie-leg-right { text-align: right; flex-shrink: 0; }
+.pie-leg-price {
+  display: block;
+  font-size: 13px;
   font-weight: 700;
   color: #fff;
-  text-align: right;
 }
-.mkt-row-chg {
-  font-size: 12px;
+.pie-leg-chg {
+  display: block;
+  font-size: 11px;
   font-weight: 600;
-  text-align: right;
 }
-.mkt-row-pct { text-align: right; }
-
-.mkt-badge {
-  font-size: 10px;
-  font-weight: 700;
-  padding: 3px 7px;
-  border-radius: 5px;
-  display: inline-block;
-}
-.badge-up { background: rgba(34,197,94,0.15); color: #22c55e; }
-.badge-dn { background: rgba(239,68,68,0.15);  color: #ef4444; }
-
-/* Row shimmer before data */
-.mkt-row:not(.up):not(.dn) .mkt-row-price,
-.mkt-row:not(.up):not(.dn) .mkt-row-chg,
-.mkt-row:not(.up):not(.dn) .mkt-badge {
-  background: linear-gradient(90deg,rgba(255,255,255,.05) 25%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.05) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s infinite;
-  border-radius: 4px;
-  color: transparent !important;
-  min-width: 50px;
-  min-height: 13px;
-  display: inline-block;
-}
+.pie-leg-chg.up { color: #22c55e; }
+.pie-leg-chg.dn { color: #ef4444; }
 
 @media (max-width: 700px) {
-  .mkt-table-head { grid-template-columns: 2fr 90px 90px; }
-  .mkt-table-head .mkt-th-pct,
-  .mkt-row .mkt-row-pct { display: none; }
-  .mkt-row { grid-template-columns: 2fr 90px 90px; }
+  .pie-layout { grid-template-columns: 1fr; justify-items: center; }
+  .pie-chart-wrap { width: 220px; height: 220px; }
 }
+
+/* keep badge styles for other pages */
+.mkt-badge { font-size: 10px; font-weight: 700; padding: 3px 7px; border-radius: 5px; display: inline-block; }
+.badge-up { background: rgba(34,197,94,0.15); color: #22c55e; }
+.badge-dn { background: rgba(239,68,68,0.15); color: #ef4444; }
 @media (max-width: 700px) {
   .idx-strip { grid-template-columns: repeat(2, 1fr); }
 }
@@ -1171,22 +1180,116 @@ const SECTOR_TAGS: Record<string, string> = {
     } catch(e) { console.error('indices load failed', e); }
   }
 
-  function renderMarketCard(q: any) {
-    const chg=q.regularMarketChange??0, pct=q.regularMarketChangePercent??0, up=chg>=0;
-    const color=up?'#22c55e':'#ef4444';
-    const nameEl=document.getElementById(`mn-${q.symbol}`),badgeEl=document.getElementById(`mb-${q.symbol}`),priceEl=document.getElementById(`mp-${q.symbol}`),chgEl=document.getElementById(`mch-${q.symbol}`),card=document.getElementById(`mc-${q.symbol}`);
-    if(nameEl) nameEl.textContent=q.name||q.symbol.replace('.NS','');
-    if(priceEl) priceEl.textContent=`₹${q.regularMarketPrice?.toLocaleString('en-IN',{maximumFractionDigits:2})}`;
-    if(chgEl){chgEl.textContent=`${up?'▲':'▼'} ₹${Math.abs(chg).toFixed(2)}`;(chgEl as HTMLElement).style.color=color;}
-    if(badgeEl){badgeEl.textContent=`${up?'+':''}${pct.toFixed(2)}%`;badgeEl.classList.add(up?'badge-up':'badge-dn');}
-    if(card) card.classList.add(up?'up':'dn');
+  // ── Pie chart for Top 5 stocks ──────────────────────────
+  const PIE_SYMS = ['RELIANCE.NS','TCS.NS','HDFCBANK.NS','INFY.NS','ICICIBANK.NS'];
+  const PIE_COLORS = ['#D4A940','#22c55e','#3b82f6','#a855f7','#f97316'];
+  let _pieChart: any = null;
+  let _pieStocks: any[] = [];
+  let _pieActive = 0;
+
+  function initPieChart(stocks: any[]) {
+    _pieStocks = stocks;
+    const canvas = document.getElementById('stockPieChart') as HTMLCanvasElement;
+    if (!canvas || !(window as any).Chart) return;
+
+    // Colour legend dots
+    PIE_SYMS.forEach((sym, i) => {
+      const dot = document.getElementById(`pld-${i}`);
+      if (dot) (dot as HTMLElement).style.background = PIE_COLORS[i];
+    });
+
+    const prices = stocks.map(s => s.regularMarketPrice || 1);
+    const total  = prices.reduce((a,b)=>a+b,0);
+
+    _pieChart = new (window as any).Chart(canvas, {
+      type: 'doughnut',
+      data: {
+        labels: PIE_SYMS.map(s => s.replace('.NS','')),
+        datasets: [{
+          data: prices.map(p => +((p/total*100).toFixed(2))),
+          backgroundColor: PIE_COLORS,
+          borderColor: '#0a0904',
+          borderWidth: 3,
+          hoverBorderWidth: 0,
+          hoverOffset: 8,
+        }]
+      },
+      options: {
+        cutout: '68%',
+        plugins: { legend: { display: false }, tooltip: { enabled: false } },
+        animation: { animateRotate: true, duration: 900 },
+        onClick(_e: any, els: any[]) {
+          if (els.length) updatePieCenter(els[0].index);
+        },
+        onHover(_e: any, els: any[]) {
+          (canvas as HTMLElement).style.cursor = els.length ? 'pointer' : 'default';
+        }
+      }
+    });
+
+    updatePieCenter(0);
+  }
+
+  function updatePieCenter(idx: number) {
+    _pieActive = idx;
+    const q = _pieStocks[idx];
+    if (!q) return;
+    const chg = q.regularMarketChange ?? 0;
+    const pct = q.regularMarketChangePercent ?? 0;
+    const up  = chg >= 0;
+
+    const symEl   = document.getElementById('pieSym');
+    const priceEl = document.getElementById('piePrice');
+    const chgEl   = document.getElementById('pieChg');
+    if (symEl) symEl.textContent = q.symbol.replace('.NS','');
+    if (priceEl) priceEl.textContent = `₹${(q.regularMarketPrice||0).toLocaleString('en-IN',{maximumFractionDigits:2})}`;
+    if (chgEl) {
+      chgEl.textContent = `${up?'▲':'▼'} ${Math.abs(pct).toFixed(2)}%`;
+      chgEl.className = `pie-center-chg ${up?'up':'dn'}`;
+    }
+
+    // Highlight legend row
+    PIE_SYMS.forEach((sym, i) => {
+      document.getElementById(`pl-${sym}`)?.classList.toggle('active', i === idx);
+    });
+  }
+
+  function renderPieLegend(q: any) {
+    const idx = PIE_SYMS.indexOf(q.symbol);
+    if (idx < 0) return;
+    const chg = q.regularMarketChange ?? 0;
+    const pct = q.regularMarketChangePercent ?? 0;
+    const up  = chg >= 0;
+
+    const nameEl  = document.getElementById(`pln-${q.symbol}`);
+    const priceEl = document.getElementById(`plp-${q.symbol}`);
+    const chgEl   = document.getElementById(`plc-${q.symbol}`);
+    if (nameEl) nameEl.textContent = q.name || q.symbol.replace('.NS','');
+    if (priceEl) priceEl.textContent = `₹${(q.regularMarketPrice||0).toLocaleString('en-IN',{maximumFractionDigits:2})}`;
+    if (chgEl) {
+      chgEl.textContent = `${up?'+':''}${pct.toFixed(2)}%`;
+      chgEl.className = `pie-leg-chg ${up?'up':'dn'}`;
+    }
   }
 
   async function loadMarkets() {
     try {
       const res = await fetch('/data/india-stocks.json');
       const data = await res.json();
-      data.nse.forEach(renderMarketCard);
+      const top5 = PIE_SYMS.map(sym => data.nse.find((s:any) => s.symbol === sym)).filter(Boolean);
+      top5.forEach(renderPieLegend);
+      initPieChart(top5);
+
+      // Legend click → highlight segment
+      PIE_SYMS.forEach((sym, i) => {
+        document.getElementById(`pl-${sym}`)?.addEventListener('click', (e) => {
+          e.preventDefault();
+          updatePieCenter(i);
+          // Navigate after short delay so user sees highlight
+          setTimeout(() => window.location.href =
+            `/company/${sym.toLowerCase().replace(/\./g,'-')}`, 300);
+        });
+      });
     } catch(e) { console.error('stocks load failed', e); }
   }
 
