@@ -81,9 +81,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
           <a href="/markets" class={`nav-link${path.startsWith('/markets') ? ' active' : ''}`}>Markets</a>
           <a href="/news" class={`nav-link${path.startsWith('/news') ? ' active' : ''}`}>News</a>
           <a href="/comparison" class={`nav-link${path.startsWith('/comparison') ? ' active' : ''}`}>Compare</a>
-          <a href="/earnings-calendar" class={`nav-link${path.startsWith('/earnings') ? ' active' : ''}`}>Earnings</a>
           <a href="/economic-calendar" class={`nav-link${path.startsWith('/economic') ? ' active' : ''}`}>Economy</a>
-          <a href="/ipo-tracker" class={`nav-link${path.startsWith('/ipo') ? ' active' : ''}`}>IPOs</a>
           <a href="/tools" class={`nav-link${path.startsWith('/tools') ? ' active' : ''}`}>Tools</a>
           <a href="/about" class={`nav-link${path.startsWith('/about') ? ' active' : ''}`}>About</a>
         </div>
