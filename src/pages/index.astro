@@ -756,116 +756,246 @@ const SECTOR_TAGS: Record<string, string> = {
   font-size: 15px !important;
 }
 
-/* Outer box — matches Company Spotlight */
-.nr-box {
-  background: linear-gradient(135deg, rgba(212,169,64,0.08) 0%, rgba(184,134,11,0.04) 100%);
+/* ── News Card Carousel ──────────────────────────────── */
+
+/* Wrapper with room for arrows on sides */
+.nc-outer {
+  position: relative;
+  padding: 0 48px;
+}
+
+/* Clipping viewport */
+.nc-track-wrap {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Scrolling flex row */
+.nc-track {
+  display: flex;
+  gap: 16px;
+  transition: transform 0.42s cubic-bezier(0.25,0.46,0.45,0.94);
+  will-change: transform;
+  align-items: stretch;
+}
+
+/* Individual card — 3 per page desktop */
+.nc-card {
+  flex: 0 0 calc((100% - 32px) / 3);
+  background: #111009;
   border: 1px solid rgba(212,169,64,0.18);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 0 40px rgba(212,169,64,0.04);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s ease, border-color .2s, box-shadow .2s;
+}
+.nc-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(212,169,64,0.5);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5), 0 0 24px rgba(212,169,64,0.12);
 }
 
-/* Each news row */
-.nr-row {
-  all: unset;
+/* Image area */
+.nc-img-wrap {
+  width: 100%;
+  height: 165px;
+  position: relative;
+  overflow: hidden;
+  background: #1a1509;
+  flex-shrink: 0;
+}
+.nc-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .4s ease;
+}
+.nc-card:hover .nc-img { transform: scale(1.05); }
+.nc-img-fallback {
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 11px 18px;
-  background: rgba(212,169,64,0.055);
-  border-bottom: 1px solid rgba(212,169,64,0.10);
-  cursor: pointer;
-  width: 100%;
-  box-sizing: border-box;
-  transition: background .15s;
+  justify-content: center;
+  font-size: 36px;
+  opacity: .25;
+  background: linear-gradient(135deg, rgba(212,169,64,0.1), rgba(184,134,11,0.05));
 }
-.nr-row:last-child { border-bottom: none; }
-.nr-row:hover { background: rgba(212,169,64,0.13); }
 
-/* Row number */
-.nr-num {
-  font-size: 10px;
+/* Category badge overlay on image */
+.nc-cat-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 8px;
   font-weight: 800;
-  color: rgba(212,169,64,0.4);
-  min-width: 20px;
-  flex-shrink: 0;
-  font-variant-numeric: tabular-nums;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: #0a0904;
+  background: #d4a940;
+  border-radius: 4px;
+  padding: 3px 8px;
+  z-index: 1;
 }
 
-/* Category badge */
-.nr-cat {
+/* Card body */
+.nc-body {
+  padding: 14px 15px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 9px;
+}
+
+/* Source + time row */
+.nc-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nc-source {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.nc-sep { font-size: 9px; color: rgba(255,255,255,.2); }
+.nc-time { font-size: 10px; color: rgba(255,255,255,.35); }
+
+/* Headline — 2 line clamp */
+.nc-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.42;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0;
+  transition: color .15s;
+}
+.nc-card:hover .nc-title { color: var(--gold-light); }
+
+/* AI summary block */
+.nc-ai {
+  background: rgba(212,169,64,0.07);
+  border-left: 2px solid rgba(212,169,64,0.45);
+  border-radius: 0 6px 6px 0;
+  padding: 8px 11px;
+  flex: 1;
+}
+.nc-ai-label {
   font-size: 8.5px;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: .7px;
-  color: #c9a84c;
-  background: rgba(212,169,64,0.15);
-  border-radius: 4px;
-  padding: 2px 7px;
-  flex-shrink: 0;
-  white-space: nowrap;
-  border: 1px solid rgba(212,169,64,0.22);
+  letter-spacing: .9px;
+  color: var(--gold);
+  margin-bottom: 5px;
 }
-
-/* Article title — single line, truncated */
-.nr-title {
-  flex: 1;
-  font-size: 13px;
-  font-weight: 600;
-  color: #ddd5c4;
-  line-height: 1.35;
-  white-space: nowrap;
+.nc-ai-text {
+  font-size: 11.5px;
+  color: rgba(255,255,255,.6);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
-  min-width: 0;
-  transition: color .15s;
+  margin: 0;
 }
-.nr-row:hover .nr-title { color: #fff; }
 
-/* Source + time */
-.nr-meta {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 2px;
-  flex-shrink: 0;
-}
-.nr-source {
-  font-size: 10px;
+/* Read button */
+.nc-read-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
   font-weight: 700;
-  color: #c9a84c;
-  white-space: nowrap;
+  color: #0a0904;
+  background: linear-gradient(135deg, #d4a940 0%, #b8860b 100%);
+  border-radius: 7px;
+  padding: 7px 14px;
+  text-decoration: none;
+  margin-top: auto;
+  align-self: flex-start;
+  transition: opacity .15s, transform .15s;
+  box-shadow: 0 2px 12px rgba(212,169,64,0.3);
 }
-.nr-time {
-  font-size: 9px;
-  color: rgba(255,255,255,0.3);
-  white-space: nowrap;
-}
+.nc-read-btn:hover { opacity: .85; transform: translateY(-1px); }
 
-/* Chevron */
-.nr-arrow {
-  font-size: 13px;
-  color: rgba(212,169,64,0.35);
-  flex-shrink: 0;
-  transition: color .15s, transform .15s;
+/* Arrow buttons */
+.nc-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(212,169,64,0.12);
+  border: 1px solid rgba(212,169,64,0.32);
+  color: var(--gold);
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3;
+  transition: background .15s, border-color .15s, transform .15s;
 }
-.nr-row:hover .nr-arrow { color: var(--gold); transform: translateX(2px); }
+.nc-btn:hover:not(:disabled) {
+  background: rgba(212,169,64,0.28);
+  border-color: rgba(212,169,64,0.6);
+}
+.nc-btn:disabled { opacity: .22; cursor: default; }
+.nc-btn-prev { left: 0; }
+.nc-btn-next { right: 0; }
+
+/* Dot navigation */
+.nc-dots {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 16px;
+}
+.nc-dot {
+  all: unset;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(212,169,64,0.2);
+  cursor: pointer;
+  transition: background .2s, transform .2s;
+}
+.nc-dot.active { background: var(--gold); transform: scale(1.35); }
 
 /* Footer */
 .mn-footer {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 7px 0 2px; border-top: 1px solid rgba(212,169,64,0.08); margin-top: 8px;
+  padding: 7px 0 2px; border-top: 1px solid rgba(212,169,64,0.08); margin-top: 12px;
 }
 .mn-updated { font-size: 9.5px; color: var(--text-muted); opacity: .45; }
 .mn-more { font-size: 11px; font-weight: 600; color: var(--gold); text-decoration: none; }
 .mn-more:hover { opacity: .75; }
 
-/* Mobile: hide meta, tighten padding */
+/* ── Carousel responsive ── */
+@media (max-width: 900px) {
+  .nc-card { flex: 0 0 calc((100% - 16px) / 2); }
+  .nc-outer { padding: 0 42px; }
+}
 @media (max-width: 600px) {
-  .nr-row   { padding: 10px 14px; gap: 8px; }
-  .nr-meta  { display: none; }
-  .nr-title { font-size: 12px; }
-  .nr-cat   { display: none; }
+  .nc-card  { flex: 0 0 100%; }
+  .nc-outer { padding: 0 0 48px; }
+  .nc-btn   { top: auto; transform: none; bottom: 0; }
+  .nc-btn-prev { left: calc(50% - 48px); }
+  .nc-btn-next { right: calc(50% - 48px); left: auto; }
+  .nc-img-wrap { height: 180px; }
 }
 
 /* ── News Modal ─────────────────────────────────────────── */
@@ -1245,8 +1375,7 @@ const SECTOR_TAGS: Record<string, string> = {
   .hero-split  { flex-direction: column; align-items: flex-start; gap: 0; }
   .hero-content { width: 100%; }
 
-  /* News rows on tablet */
-  .nr-row { padding: 10px 16px; }
+  /* carousel: 2-col handled in nc-card @media above */
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -1262,7 +1391,7 @@ const SECTOR_TAGS: Record<string, string> = {
   .mood-donut  { width: 86px; height: 86px; }
   .fii-val     { font-size: 10px; width: 60px; }
 
-  /* News rows on mobile — already handled in nr-row @media above */
+  /* news carousel: 1-col handled in nc-card @media above */
 
   /* News modal — full-screen friendly */
   .nmodal-box {
@@ -1854,7 +1983,7 @@ const SECTOR_TAGS: Record<string, string> = {
     overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-    // ── render: row-list layout ──────────────────────────
+    // ── helpers ──────────────────────────────────────────
     function timeAgo(iso: string): string {
       if (!iso) return '';
       const mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
@@ -1864,35 +1993,118 @@ const SECTOR_TAGS: Record<string, string> = {
       if (hrs < 24)  return `${hrs}h ago`;
       return `${Math.floor(hrs / 24)}d ago`;
     }
+    function esc(s: string) { return (s||'').replace(/[<>"'&]/g, c => ({'<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','&':'&amp;'}[c]||c)); }
 
+    // ── render: card carousel ─────────────────────────────
     function renderNews(articles: any[]) {
       const grid   = document.getElementById('newsGrid')!;
       const footer = document.getElementById('newsFooter')! as HTMLElement;
       if (!articles.length) { grid.innerHTML = '<div class="mn-loading">No news available.</div>'; return; }
 
       _articles = articles;
+      const list = articles.slice(0, 15);
 
-      const rows = articles.slice(0, 14).map((a: any, i: number) => {
-        const cat  = (a.category || 'News').replace(/[<>]/g, '');
-        const src  = (a.source   || '').replace(/[<>]/g, '');
-        const age  = timeAgo(a.publishedAt || '');
-        const title = (a.title  || '').replace(/[<>]/g, '');
-        return `<button class="nr-row" data-idx="${i}">
-          <span class="nr-num">${String(i + 1).padStart(2, '0')}</span>
-          <span class="nr-cat">${cat}</span>
-          <span class="nr-title">${title}</span>
-          <span class="nr-meta">
-            <span class="nr-source">${src}</span>
-            <span class="nr-time">${age}</span>
-          </span>
-          <span class="nr-arrow">›</span>
-        </button>`;
+      const cards = list.map((a: any, i: number) => {
+        const imgHtml = a.image
+          ? `<img class="nc-img" src="${esc(a.image)}" alt="" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+             <div class="nc-img-fallback" style="display:none">📰</div>`
+          : `<div class="nc-img-fallback">📰</div>`;
+        return `
+        <div class="nc-card" data-idx="${i}">
+          <div class="nc-img-wrap">
+            ${imgHtml}
+            <span class="nc-cat-badge">${esc(a.category||'News')}</span>
+          </div>
+          <div class="nc-body">
+            <div class="nc-meta">
+              <span class="nc-source">${esc(a.source||'')}</span>
+              <span class="nc-sep">·</span>
+              <span class="nc-time">${timeAgo(a.publishedAt||'')}</span>
+            </div>
+            <h3 class="nc-title">${esc(a.title||'')}</h3>
+            ${(a.summary||a.excerpt) ? `
+            <div class="nc-ai">
+              <div class="nc-ai-label">✦ AI Summary</div>
+              <p class="nc-ai-text">${esc(a.summary||a.excerpt||'')}</p>
+            </div>` : ''}
+            <a class="nc-read-btn" href="${esc(a.url||'#')}" target="_blank" rel="noopener" data-read="${i}">
+              Read full article →
+            </a>
+          </div>
+        </div>`;
       }).join('');
 
-      grid.innerHTML = `<div class="nr-box">${rows}</div>`;
-      grid.querySelectorAll<HTMLButtonElement>('[data-idx]').forEach(btn =>
-        btn.addEventListener('click', () => openModal(parseInt(btn.dataset.idx || '0', 10)))
+      grid.innerHTML = `
+        <div class="nc-outer">
+          <button class="nc-btn nc-btn-prev" id="ncPrev" aria-label="Previous">‹</button>
+          <div class="nc-track-wrap">
+            <div class="nc-track" id="ncTrack">${cards}</div>
+          </div>
+          <button class="nc-btn nc-btn-next" id="ncNext" aria-label="Next">›</button>
+          <div class="nc-dots" id="ncDots"></div>
+        </div>`;
+
+      // ── read buttons: open URL, don't trigger card modal ──
+      grid.querySelectorAll<HTMLAnchorElement>('[data-read]').forEach(a =>
+        a.addEventListener('click', e => e.stopPropagation())
       );
+
+      // ── card click → modal ──
+      grid.querySelectorAll<HTMLElement>('.nc-card').forEach(card =>
+        card.addEventListener('click', () => openModal(parseInt(card.dataset.idx||'0', 10)))
+      );
+
+      // ── carousel logic ──────────────────────────────────
+      const track   = document.getElementById('ncTrack')!;
+      const prevBtn = document.getElementById('ncPrev')! as HTMLButtonElement;
+      const nextBtn = document.getElementById('ncNext')! as HTMLButtonElement;
+      const dotsEl  = document.getElementById('ncDots')!;
+      let page = 0;
+
+      const perPage = () => window.innerWidth <= 600 ? 1 : window.innerWidth <= 900 ? 2 : 3;
+      const pages   = () => Math.ceil(list.length / perPage());
+
+      function buildDots() {
+        dotsEl.innerHTML = Array.from({length: pages()}, (_,i) =>
+          `<button class="nc-dot${i===page?' active':''}" data-p="${i}" aria-label="Page ${i+1}"></button>`
+        ).join('');
+        dotsEl.querySelectorAll<HTMLButtonElement>('.nc-dot').forEach(d =>
+          d.addEventListener('click', () => go(parseInt(d.dataset.p||'0', 10)))
+        );
+      }
+
+      function go(p: number) {
+        page = Math.max(0, Math.min(p, pages() - 1));
+        const firstCard = track.querySelector<HTMLElement>('.nc-card');
+        if (!firstCard) return;
+        const cw  = firstCard.getBoundingClientRect().width;
+        const gap = 16;
+        track.style.transform = `translateX(-${page * perPage() * (cw + gap)}px)`;
+        prevBtn.disabled = page === 0;
+        nextBtn.disabled = page >= pages() - 1;
+        dotsEl.querySelectorAll<HTMLElement>('.nc-dot').forEach((d,i) =>
+          d.classList.toggle('active', i === page)
+        );
+      }
+
+      prevBtn.addEventListener('click', () => go(page - 1));
+      nextBtn.addEventListener('click', () => go(page + 1));
+
+      // ── touch/swipe support ──
+      let touchX = 0;
+      track.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, {passive:true});
+      track.addEventListener('touchend',   e => {
+        const dx = e.changedTouches[0].clientX - touchX;
+        if (Math.abs(dx) > 50) go(dx < 0 ? page + 1 : page - 1);
+      }, {passive:true});
+
+      buildDots();
+      go(0);
+
+      // rebuild on resize (per-page count changes)
+      window.addEventListener('resize', () => { buildDots(); go(0); }, {passive:true});
+
       footer.style.display = '';
     }
 
