@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-06-18T19:26:51+05:30",
+  "lastUpdated": "2026-06-18T19:42:45+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Inside SpaceX's historic $75 billion IPO: The elite law firms that shared $25.5 million legal fee windfall",
+      "excerpt": "The regulatory filing did not identify a General Counsel for SpaceX and disclosed only the aggregate legal costs related to the offering, without specifying the amounts paid to individual law firms involved in the transa",
+      "url": "https://www.livemint.com/market/ipo/inside-spacexs-historic-75-billion-ipo-the-elite-law-firms-that-shared-25-5-million-legal-fee-windfall-11781787642664.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/18/1600x900/logo/SPACEX-IPO-SOUTH-KOREA-MIRAE-0_1781787712157_1781787736416_daff8ecc-8af4-4338-bba6-8bbbb93dcb9d.JPG",
+      "publishedAt": "2026-06-18T19:38:11+05:30",
+      "category": "Markets",
+      "summary": "The regulatory filing did not identify a General Counsel for SpaceX and disclosed only the aggregate legal costs related to the offering, without specifying the amounts paid to individual law firms involved in the transa"
+    },
     {
       "title": "GTA 6 Finally Gets Official Pre-Order Date, Reveals Cover Art And Platform Launch; Check Details",
       "excerpt": "GTA VI's official comic book panel style poster, a hallmark of the series' visual identity since its inception, was revealed on the game's official website.",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-06-18T17:34:25+05:30",
       "category": "Markets",
       "summary": "Many legacy automakers continue to generate healthy profits, particularly from premium SUVs and pickup trucks that command strong margins."
-    },
-    {
-      "title": "Bank Of England Holds Rates In 7-2 Vote As Oil Outlook Improves",
-      "excerpt": "The BOE is trying to strike a balance between taming inflation, which at 2.8% is above the bank's 2% target, and supporting growth.",
-      "url": "https://www.ndtvprofit.com/world/bank-of-england-holds-rates-in-7-2-vote-as-oil-outlook-improves-11654689#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/7r7olpuc_bank-of-england_625x300_18_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-18T17:33:00+05:30",
-      "category": "Markets",
-      "summary": "The BOE is trying to strike a balance between taming inflation, which at 2.8% is above the bank's 2% target, and supporting growth."
     }
   ]
 }
