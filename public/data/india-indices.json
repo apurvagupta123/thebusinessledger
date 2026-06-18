@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T14:10:02Z",
+  "lastUpdated": "2026-06-18T14:09:15Z",
   "indices": [
     {
       "symbol": "^NSEI",
@@ -38,9 +38,9 @@
     },
     {
       "symbol": "^CNXSC",
-      "regularMarketPrice": 18623.2,
-      "regularMarketChange": 0.0,
-      "regularMarketChangePercent": 0.0,
+      "regularMarketPrice": 18705.6,
+      "regularMarketChange": 79.6,
+      "regularMarketChangePercent": 0.43,
       "name": "NIFTY SMALLCAP"
     },
     {
@@ -73,9 +73,9 @@
     },
     {
       "symbol": "^INDIAVIX",
-      "regularMarketPrice": 13.19,
-      "regularMarketChange": -0.17,
-      "regularMarketChangePercent": -1.29,
+      "regularMarketPrice": 12.67,
+      "regularMarketChange": -0.53,
+      "regularMarketChangePercent": -4.01,
       "name": "INDIA VIX"
     }
   ]
