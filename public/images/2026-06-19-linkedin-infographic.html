@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>India IT Bloodbath vs US Chip Rally — June 19, 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #090e1a;
+    color: #e8edf5;
+    font-family: -apple-system, 'Segoe UI', 'Inter', Arial, sans-serif;
+    min-height: 100vh;
+    padding: 32px 20px;
+  }
+  .container { max-width: 820px; margin: 0 auto; }
+
+  /* HEADER */
+  .header {
+    text-align: center;
+    padding: 40px 32px 32px;
+    border: 1px solid rgba(255,255,255,0.07);
+    border-top: 2px solid #ff3b3b;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(255,59,59,0.06) 0%, rgba(9,14,26,0) 50%, rgba(0,200,83,0.06) 100%);
+    margin-bottom: 24px;
+    animation: fadeInDown 0.7s ease-out;
+  }
+  .date-badge {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    border: 1px solid rgba(255,59,59,0.3);
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+  .header h1 .red { color: #ff4444; }
+  .header h1 .green { color: #00d46a; }
+  .header p {
+    font-size: 15px;
+    color: #8896b0;
+    max-width: 480px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* TOGGLE TABS */
+  .tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    animation: fadeIn 0.8s ease-out 0.2s both;
+  }
+  .tab {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.04);
+    color: #8896b0;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.5px;
+    transition: all 0.25s;
+  }
+  .tab:hover { border-color: rgba(255,255,255,0.2); color: #fff; }
+  .tab.active-red { background: rgba(255,59,59,0.15); border-color: rgba(255,59,59,0.5); color: #ff6b6b; }
+  .tab.active-green { background: rgba(0,200,83,0.15); border-color: rgba(0,200,83,0.5); color: #00d46a; }
+  .tab.active-flow { background: rgba(99,102,241,0.15); border-color: rgba(99,102,241,0.5); color: #a5b4fc; }
+
+  .panel { display: none; animation: fadeIn 0.4s ease-out; }
+  .panel.active { display: block; }
+
+  /* STOCK CARDS */
+  .stocks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stock-card {
+    border-radius: 10px;
+    padding: 18px 20px;
+    border: 1px solid;
+    cursor: grab;
+    transition: transform 0.15s, box-shadow 0.15s;
+    user-select: none;
+  }
+  .stock-card:active { cursor: grabbing; }
+  .stock-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+  .stock-card.red-card { background: rgba(255,59,59,0.08); border-color: rgba(255,59,59,0.25); }
+  .stock-card.green-card { background: rgba(0,200,83,0.08); border-color: rgba(0,200,83,0.25); }
+  .stock-label { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px; }
+  .red-card .stock-label { color: #ff8888; }
+  .green-card .stock-label { color: #66ffaa; }
+  .stock-price { font-size: 28px; font-weight: 800; line-height: 1; margin-bottom: 4px; }
+  .red-card .stock-price { color: #ff3b3b; }
+  .green-card .stock-price { color: #00d46a; }
+  .stock-name { font-size: 12px; color: #6b7a96; }
+
+  /* BAR CHART */
+  .bar-section { margin-bottom: 20px; }
+  .bar-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    animation: slideIn 0.5s ease-out both;
+  }
+  .bar-label { width: 120px; font-size: 12px; color: #8896b0; text-align: right; flex-shrink: 0; }
+  .bar-track { flex: 1; height: 28px; background: rgba(255,255,255,0.04); border-radius: 6px; overflow: hidden; }
+  .bar-fill {
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    transition: width 1s cubic-bezier(0.4,0,0.2,1);
+  }
+  .bar-fill.red { background: linear-gradient(90deg, #c0392b, #ff4444); }
+  .bar-fill.green { background: linear-gradient(90deg, #00a84f, #00d46a); }
+
+  /* FLOW SECTION */
+  .flow-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .flow-card {
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+    border: 1px solid;
+  }
+  .flow-card.fii { background: rgba(255,59,59,0.08); border-color: rgba(255,59,59,0.25); }
+  .flow-card.dii { background: rgba(0,200,83,0.08); border-color: rgba(0,200,83,0.25); }
+  .flow-type { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+  .fii .flow-type { color: #ff8888; }
+  .dii .flow-type { color: #66ffaa; }
+  .flow-amount { font-size: 36px; font-weight: 900; line-height: 1; margin-bottom: 6px; }
+  .fii .flow-amount { color: #ff3b3b; }
+  .dii .flow-amount { color: #00d46a; }
+  .flow-desc { font-size: 12px; color: #6b7a96; }
+
+  .vix-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(99,102,241,0.3);
+    background: rgba(99,102,241,0.08);
+    margin-bottom: 20px;
+  }
+  .vix-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #a5b4fc; flex-shrink: 0; }
+  .vix-value { font-size: 28px; font-weight: 800; color: #c7d2fe; }
+  .vix-change { font-size: 13px; color: #ff8888; font-weight: 600; }
+  .vix-desc { font-size: 12px; color: #6b7a96; margin-left: auto; max-width: 240px; text-align: right; }
+
+  /* NARRATIVE */
+  .narrative {
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.07);
+    border-left: 2px solid #ff3b3b;
+    background: rgba(255,255,255,0.02);
+    margin-bottom: 20px;
+    animation: fadeIn 0.6s ease-out 0.4s both;
+  }
+  .narrative h3 { font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: #ff6b6b; margin-bottom: 12px; }
+  .narrative p { font-size: 14px; line-height: 1.7; color: #a0aec0; }
+  .narrative strong { color: #e8edf5; }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-size: 11px;
+    color: #3d4a60;
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+    animation: fadeIn 0.6s ease-out 0.6s both;
+  }
+
+  /* DRAG HINT */
+  .drag-hint {
+    text-align: center;
+    font-size: 11px;
+    color: #3d4a60;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(-12px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="date-badge">June 19, 2026 · Market Close</div>
+    <h1><span class="red">India IT Bloodbath</span><br>vs <span class="green">US Chip Rally</span></h1>
+    <p>Same industry. Completely opposite directions. Here's what the numbers say — and what the market is quietly pricing in.</p>
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <div class="tab active-red" onclick="showPanel('india')">🇮🇳 India IT</div>
+    <div class="tab" onclick="showPanel('us')">🇺🇸 US Tech</div>
+    <div class="tab" onclick="showPanel('flow')">💸 Money Flow</div>
+  </div>
+
+  <!-- INDIA PANEL -->
+  <div class="panel active" id="panel-india">
+    <p class="drag-hint">↔ drag the cards around</p>
+    <div class="stocks-grid" id="india-grid">
+      <div class="stock-card red-card" draggable="true"><div class="stock-label">NIFTY IT Index</div><div class="stock-price">−5.72%</div><div class="stock-name">Worst session of 2026</div></div>
+      <div class="stock-card red-card" draggable="true"><div class="stock-label">Infosys · INFY</div><div class="stock-price">−8.14%</div><div class="stock-name">₹1,035.70</div></div>
+      <div class="stock-card red-card" draggable="true"><div class="stock-label">TCS</div><div class="stock-price">−6.03%</div><div class="stock-name">₹2,070.50</div></div>
+      <div class="stock-card red-card" draggable="true"><div class="stock-label">Mphasis</div><div class="stock-price">−6.06%</div><div class="stock-name">₹2,195.10</div></div>
+      <div class="stock-card red-card" draggable="true"><div class="stock-label">HCL Technologies</div><div class="stock-price">−5.04%</div><div class="stock-name">₹1,103.20</div></div>
+      <div class="stock-card red-card" draggable="true"><div class="stock-label">Wipro</div><div class="stock-price">−3.66%</div><div class="stock-name">₹176.15</div></div>
+    </div>
+
+    <div class="bar-section">
+      <div class="bar-row" style="animation-delay:0.1s"><div class="bar-label">Infosys</div><div class="bar-track"><div class="bar-fill red" style="width:81.4%">−8.14%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.2s"><div class="bar-label">Mphasis</div><div class="bar-track"><div class="bar-fill red" style="width:60.6%">−6.06%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.3s"><div class="bar-label">TCS</div><div class="bar-track"><div class="bar-fill red" style="width:60.3%">−6.03%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.4s"><div class="bar-label">HCL Tech</div><div class="bar-track"><div class="bar-fill red" style="width:50.4%">−5.04%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.5s"><div class="bar-label">NIFTY IT</div><div class="bar-track"><div class="bar-fill red" style="width:57.2%">−5.72%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.6s"><div class="bar-label">Wipro</div><div class="bar-track"><div class="bar-fill red" style="width:36.6%">−3.66%</div></div></div>
+    </div>
+  </div>
+
+  <!-- US PANEL -->
+  <div class="panel" id="panel-us">
+    <p class="drag-hint">↔ drag the cards around</p>
+    <div class="stocks-grid" id="us-grid">
+      <div class="stock-card green-card" draggable="true"><div class="stock-label">NASDAQ</div><div class="stock-price">+1.91%</div><div class="stock-name">26,517.93</div></div>
+      <div class="stock-card green-card" draggable="true"><div class="stock-label">Intel · INTC</div><div class="stock-price">+10.64%</div><div class="stock-name">$133.99</div></div>
+      <div class="stock-card green-card" draggable="true"><div class="stock-label">Qualcomm · QCOM</div><div class="stock-price">+6.17%</div><div class="stock-name">$226.11</div></div>
+      <div class="stock-card green-card" draggable="true"><div class="stock-label">AMD</div><div class="stock-price">+4.86%</div><div class="stock-name">$537.37</div></div>
+      <div class="stock-card green-card" draggable="true"><div class="stock-label">NVIDIA</div><div class="stock-price">+2.95%</div><div class="stock-name">$210.69</div></div>
+      <div class="stock-card green-card" draggable="true"><div class="stock-label">S&P 500</div><div class="stock-price">+1.08%</div><div class="stock-name">7,500.58</div></div>
+    </div>
+
+    <div class="bar-section">
+      <div class="bar-row" style="animation-delay:0.1s"><div class="bar-label">Intel</div><div class="bar-track"><div class="bar-fill green" style="width:100%">+10.64%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.2s"><div class="bar-label">Qualcomm</div><div class="bar-track"><div class="bar-fill green" style="width:58%">+6.17%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.3s"><div class="bar-label">AMD</div><div class="bar-track"><div class="bar-fill green" style="width:46%">+4.86%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.4s"><div class="bar-label">NVIDIA</div><div class="bar-track"><div class="bar-fill green" style="width:28%">+2.95%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.5s"><div class="bar-label">NASDAQ</div><div class="bar-track"><div class="bar-fill green" style="width:18%">+1.91%</div></div></div>
+      <div class="bar-row" style="animation-delay:0.6s"><div class="bar-label">S&P 500</div><div class="bar-track"><div class="bar-fill green" style="width:10%">+1.08%</div></div></div>
+    </div>
+  </div>
+
+  <!-- FLOW PANEL -->
+  <div class="panel" id="panel-flow">
+    <div class="flow-cards">
+      <div class="flow-card fii">
+        <div class="flow-type">FII (Foreign)</div>
+        <div class="flow-amount">−₹1,025 Cr</div>
+        <div class="flow-desc">Net sellers — foreign money exiting</div>
+      </div>
+      <div class="flow-card dii">
+        <div class="flow-type">DII (Domestic)</div>
+        <div class="flow-amount">+₹3,517 Cr</div>
+        <div class="flow-desc">Net buyers — domestic money stepping in</div>
+      </div>
+    </div>
+
+    <div class="vix-row">
+      <div class="vix-label">India VIX</div>
+      <div class="vix-value">13.30</div>
+      <div class="vix-change">▲ +4.99%</div>
+      <div class="vix-desc">Fear gauge rising — market bracing for more volatility</div>
+    </div>
+
+    <div class="narrative">
+      <h3>What the money flow tells us</h3>
+      <p>Foreign institutional investors <strong>sold ₹1,025 Cr</strong> — repricing Indian IT against an AI-disrupted landscape. But domestic institutions <strong>bought ₹3,517 Cr</strong>, absorbing the sell-off and preventing a broader crash. DIIs see value; FIIs see risk. The real question: <strong>if AI reduces outsourcing demand, does the old India IT story still hold?</strong></p>
+    </div>
+  </div>
+
+  <!-- NARRATIVE (always visible) -->
+  <div class="narrative">
+    <h3>The Divergence Explained</h3>
+    <p>US tech is <strong>hardware & AI infrastructure</strong> — chips, compute, data centres. India IT is <strong>services & outsourcing</strong> — writing code for US and European clients. If AI can write code faster and cheaper, the market is asking: how much outsourcing survives? Today's session was the market's first loud answer.</p>
+  </div>
+
+  <div class="footer">BullSignal · thebusinessledger · Data: NSE, BSE, Yahoo Finance · June 19, 2026</div>
+</div>
+
+<script>
+  // Tab switching
+  function showPanel(name) {
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => { t.className = 'tab'; });
+    document.getElementById('panel-' + name).classList.add('active');
+    const tabs = document.querySelectorAll('.tab');
+    const map = { india: [0, 'active-red'], us: [1, 'active-green'], flow: [2, 'active-flow'] };
+    if (map[name]) tabs[map[name][0]].classList.add(map[name][1]);
+  }
+  showPanel('india');
+
+  // Drag cards
+  function makeDraggable(grid) {
+    let dragging = null, offsetX = 0, offsetY = 0;
+    grid.querySelectorAll('.stock-card').forEach(card => {
+      card.addEventListener('mousedown', e => {
+        dragging = card;
+        const r = card.getBoundingClientRect();
+        offsetX = e.clientX - r.left;
+        offsetY = e.clientY - r.top;
+        card.style.position = 'fixed';
+        card.style.zIndex = 1000;
+        card.style.width = r.width + 'px';
+        card.style.left = (e.clientX - offsetX) + 'px';
+        card.style.top = (e.clientY - offsetY) + 'px';
+        card.style.cursor = 'grabbing';
+        e.preventDefault();
+      });
+    });
+    document.addEventListener('mousemove', e => {
+      if (!dragging) return;
+      dragging.style.left = (e.clientX - offsetX) + 'px';
+      dragging.style.top = (e.clientY - offsetY) + 'px';
+    });
+    document.addEventListener('mouseup', () => {
+      if (!dragging) return;
+      dragging.style.position = '';
+      dragging.style.zIndex = '';
+      dragging.style.width = '';
+      dragging.style.left = '';
+      dragging.style.top = '';
+      dragging.style.cursor = 'grab';
+      dragging = null;
+    });
+  }
+  makeDraggable(document.getElementById('india-grid'));
+  makeDraggable(document.getElementById('us-grid'));
+</script>
+</body>
+</html>
