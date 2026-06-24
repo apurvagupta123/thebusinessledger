@@ -1172,15 +1172,20 @@ const SECTOR_TAGS: Record<string, string> = {
       const s = document.getElementById('vixSub'); if(s) s.textContent = 'Data updates after market close';
     }
 
-    // ── Nifty P/E (static estimate — NSE doesn't expose via free API) ──
-    const PE_VAL = 22.4;
-    const peEl  = document.getElementById('niftyPE');
-    const peIns = document.getElementById('niftyPEInsight');
-    const peMkr = document.getElementById('peMarker') as HTMLElement|null;
-    if (peEl) peEl.textContent = `${PE_VAL}x`;
-    if (peIns) peIns.textContent = PE_VAL < 18 ? '🟢 Undervalued — good entry zone' : PE_VAL < 24 ? '🟡 Fair value — normal range' : PE_VAL < 28 ? '🟠 Slightly pricey' : '🔴 Overvalued — caution';
-    // Marker: PE scale 10–32, map to 0–100%
-    if (peMkr) peMkr.style.left = `${Math.min(Math.max((PE_VAL - 10) / 22 * 100, 2), 98)}%`;
+    // ── Nifty P/E — read from india-indices.json (updated twice daily by pipeline) ──
+    try {
+      const peRes  = await fetch('/data/india-indices.json');
+      const peData = await peRes.json();
+      const PE_VAL = peData.niftyPE ?? null;
+      const peEl  = document.getElementById('niftyPE');
+      const peIns = document.getElementById('niftyPEInsight');
+      const peMkr = document.getElementById('peMarker') as HTMLElement|null;
+      if (PE_VAL && peEl) {
+        peEl.textContent = `${PE_VAL}x`;
+        if (peIns) peIns.textContent = PE_VAL < 18 ? '🟢 Undervalued — good entry zone' : PE_VAL < 24 ? '🟡 Fair value — normal range' : PE_VAL < 28 ? '🟠 Slightly pricey' : '🔴 Overvalued — caution';
+        if (peMkr) peMkr.style.left = `${Math.min(Math.max((PE_VAL - 10) / 22 * 100, 2), 98)}%`;
+      }
+    } catch(e) { /* P/E unavailable — keep placeholder */ }
 
     // ── FII / DII — local JSON first, NSE API fallback ──
     const setFiiBar = (posId:string, negId:string, valId:string, net:number, maxAbs:number) => {
