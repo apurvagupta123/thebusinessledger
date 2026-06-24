@@ -1,499 +1,256 @@
 {
-<<<<<<< HEAD
-  "lastUpdated": "2026-06-21T16:23:18+05:30",
+  "lastUpdated": "2026-06-24T10:46:47+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "US-Iran War News Live Updates: Vance Arrives In Switzerland For Key Talks With Iran, Trump Says No Hormuz Tolls For 60 Days",
-      "excerpt": "IRGC has announced closure of the Strait of Hormuz, but the US military says the waterway is open to all vessels.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-war-news-live-updates-jd-vance-heads-for-key-talks-with-iran-trump-claims-no-strait-of-hormuz-tolls-for-60-days-us-iran-conflict-news-gulf-new-11665675#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/92rnajgo_usiran_625x300_29_May_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:11:52+05:30",
-      "category": "Markets",
-      "summary": "IRGC has announced closure of the Strait of Hormuz, but the US military says the waterway is open to all vessels."
-    },
-    {
-      "title": "Three Indian-Flagged Crude Oil Tankers Secure Safe Passage Through Hormuz, Says Port Minister",
-      "excerpt": "This development comes after the closure of the Strait of Hormuz instituted by Iran after the country suspended talks with the US to reach a peace deal after Israel launched strikes at Lebanon.",
-      "url": "https://www.ndtvprofit.com/india/three-indian-flagged-crude-oil-tankers-secure-safe-passage-through-hormuz-says-port-minister-11664506#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/vvmlnusg_straits_625x300_10_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:02:38+05:30",
-      "category": "Markets",
-      "summary": "This development comes after the closure of the Strait of Hormuz instituted by Iran after the country suspended talks with the US to reach a peace deal after Israel launched strikes at Lebanon."
-    },
-    {
-      "title": "Jyothy Labs to Expand Exo After Henkel Brands Exit Portfolio",
-      "excerpt": "Jyothy said Henkel has communicated its decision not to renew licence agreements related to the Pril and Fa brands beyond May 31, 2026.",
-      "url": "https://www.ndtvprofit.com/business/jyothy-labs-to-expand-exo-into-broader-dishwash-franchise-after-henkel-brands-exit-portfolio-11666740#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://i.ndtvimg.com/i/2016-03/jyothy-laboratories_625x300_81457626425.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:01:56+05:30",
-      "category": "Markets",
-      "summary": "Jyothy said Henkel has communicated its decision not to renew licence agreements related to the Pril and Fa brands beyond May 31, 2026."
-    },
-    {
-      "title": "Prestige Group to Launch Two Housing Projects in Delhi-NCR in FY26-27; Targets Rs 7,000 Crore Revenue",
-      "excerpt": "Prestige Estates achieved a record sales bookings of Rs 30,024 crore during the 2025-26 fiscal, up 76% from the preceding year.",
-      "url": "https://www.ndtvprofit.com/business/prestige-group-to-launch-two-housing-projects-in-delhi-ncr-in-fy26-27-targets-rs-7-000-crore-revenue-11666533#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/oso25f1o_prestige-estates-delhi-ncr_625x300_21_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T15:49:38+05:30",
-      "category": "Markets",
-      "summary": "Prestige Estates achieved a record sales bookings of Rs 30,024 crore during the 2025-26 fiscal, up 76% from the preceding year."
-    },
-    {
-      "title": "Upgrade Product Standards to Take Full Advantage of FTA With UK: Experts to Exporters",
-      "excerpt": "The projected gains from the Indian-UK FTA are significant and go beyond just trade facilitation to integrating the supply chains of the country in the longer run.",
-      "url": "https://www.ndtvprofit.com/economy/upgrade-product-standards-to-take-full-advantage-of-fta-with-uk-experts-to-exporters-11666434#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/uuj2vf94_jawaharlal-nehru-port-authority-jnpa-in-navi-mumbai_625x300_21_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T15:25:21+05:30",
-      "category": "Markets",
-      "summary": "The projected gains from the Indian-UK FTA are significant and go beyond just trade facilitation to integrating the supply chains of the country in the longer run."
-    },
-    {
-      "title": "India-EU Trade Pact To Be Signed By December; Implemented From Feb",
-      "excerpt": "Under the India-EU FTA, about 93% of Indian shipments will enjoy duty-free access to the 27-nation bloc, while imports of luxury cars and wines from the EU will become less expensive.",
-      "url": "https://www.ndtvprofit.com/economy/india-eu-trade-pact-to-be-signed-by-dec-implemented-from-feb-mar-next-year-goyal-11666398#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/n4cmlhh4_piyush-goyal-pti_625x300_21_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T15:14:28+05:30",
-      "category": "Markets",
-      "summary": "Under the India-EU FTA, about 93% of Indian shipments will enjoy duty-free access to the 27-nation bloc, while imports of luxury cars and wines from the EU will become less expensive."
-    },
-    {
-      "title": "US-Iran Peace Deal, Fed's Decision, PM Modi",
-      "excerpt": "The Week That Was: In the third week of June, several high-stakes developments including US-Iran peace deal, Federal Reserve's decision kept the week buzzing for the economy and domestic market.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-peace-deal-feds-decision-pm-modi-trump-meeting-hdfc-interim-chairmans-re-appointment-and-more-the-week-that-was-11666664#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/ohc50et8_us-iran-deal_625x300_14_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:56:57+05:30",
-      "category": "Markets",
-      "summary": "The Week That Was: In the third week of June, several high-stakes developments including US-Iran peace deal, Federal Reserve's decision kept the week buzzing for the economy and domestic market."
-    },
-    {
-      "title": "US-Iran Talks: Pakistan PM Sharif, Army Chief Munir Reach Switzerland",
-      "excerpt": "The technical-level talks are scheduled to be held in the Burgenstock Alpine ridges on Sunday, the Prime Minister's Office said.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-talks-pakistan-pm-shehbaz-sharif-army-chief-asim-munir-reach-switzerland-11666619#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/4ndb74q4_shahbaz-sharif-pak-pm_625x300_21_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:55:28+05:30",
-      "category": "Markets",
-      "summary": "The technical-level talks are scheduled to be held in the Burgenstock Alpine ridges on Sunday, the Prime Minister's Office said."
-    },
-    {
-      "title": "US-Iran peace deal: How are falling crude oil prices likely to impact petrol, diesel prices?",
-      "excerpt": "US-Iran peace deal: Brent crude prices edged higher on Friday but remained on track for a weekly decline of nearly 8%, as a ceasefire agreement between Israel and Hezbollah eased some geopolitical concerns",
-      "url": "https://www.livemint.com/market/stock-market-news/usiran-peace-deal-how-falling-crude-oil-prices-likely-to-impact-petrol-diesel-prices-11782028543360.html",
+      "title": "Liotech Industries share price extends losses after listing at a 20% discount to the IPO price",
+      "excerpt": "Liotech Industries share price opened at ₹257 apiece on BSE SME. The listing of Liotech Industries IPO was below the market expectations.",
+      "url": "https://www.livemint.com/market/stock-market-news/liotech-industries-share-price-falls-5-after-weak-market-debut-11782276080590.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/21/1600x900/logo/Petrol_diesel_1782033128284_1782033128411_c9e03ebc-7aec-4942-af48-91811b81e960.jpg",
-      "publishedAt": "2026-06-21T14:48:46+05:30",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/stock_1782276754582_1782276754707_0b92304e-e337-4b7e-af83-f0597d7b6fc6.jpg",
+      "publishedAt": "2026-06-24T10:33:06+05:30",
       "category": "Markets",
-      "summary": "US-Iran peace deal: Brent crude prices edged higher on Friday but remained on track for a weekly decline of nearly 8%, as a ceasefire agreement between Israel and Hezbollah eased some geopolitical concerns"
+      "summary": "Liotech Industries share price opened at ₹257 apiece on BSE SME. The listing of Liotech Industries IPO was below the market expectations."
     },
     {
-      "title": "Virat Kohli Named in India ODI Squad for England Tour, Subject To Fitness Clearance",
-      "excerpt": "The selection committee picked a 15-member squad for the ODI series, to be led by Shubman Gill, with Rohit Sharma also included.",
-      "url": "https://www.ndtvprofit.com/sports/virat-kohli-named-in-india-odi-squad-for-england-tour-subject-to-fitness-clearance-11666550#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/h6ghdfto_virat-kohli_625x300_21_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:33:24+05:30",
-      "category": "Markets",
-      "summary": "The selection committee picked a 15-member squad for the ODI series, to be led by Shubman Gill, with Rohit Sharma also included."
-    },
-    {
-      "title": "Exports Rise 15% From April Till June 14 Despite Global Uncertainties: Goyal",
-      "excerpt": "Goyal said that despite 50% tariffs imposed by the US, India's exports in 2025-26 recorded healthy growth.",
-      "url": "https://www.ndtvprofit.com/economy/exports-rise-15-pc-in-apr-jun-14-despite-global-uncertainties-goyal-11666375#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/6gk6hfrc_piyush-goyal_625x300_20_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:10:31+05:30",
-      "category": "Markets",
-      "summary": "Goyal said that despite 50% tariffs imposed by the US, India's exports in 2025-26 recorded healthy growth."
-    },
-    {
-      "title": "Mountain Bookings Up 76% In June As Urban Indians Flock to Hills: Report",
-      "excerpt": "Overall mountain bookings across the Zostel network rose between \"seven and nine per cent\" year-on-year, with nearly \"48 per cent\" of travellers making their bookings within three days of departure.",
-      "url": "https://www.ndtvprofit.com/india/mountain-bookings-up-76-per-cent-in-june-as-urban-indians-flock-to-hills-report-11666363#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/rocvmu2k_mountain_625x300_21_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:00:11+05:30",
-      "category": "Markets",
-      "summary": "Overall mountain bookings across the Zostel network rose between \"seven and nine per cent\" year-on-year, with nearly \"48 per cent\" of travellers making their bookings within three days of departure."
-    },
-    {
-      "title": "Air India Express Opens Bookings For Navi Mumbai",
-      "excerpt": "The launch of the direct air services between the Navi Mumbai International Airport and Abu Dhabi will make Air India Express the first airline to operate international flights from Maharashtra's greenfield airport.",
-      "url": "https://www.ndtvprofit.com/business/air-india-express-opens-bookings-for-navi-mumbai-abu-dhabi-flights-11666350#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/4grbqia_air-india-express-photo-air-india-expressx_625x300_16_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:54:55+05:30",
-      "category": "Markets",
-      "summary": "The launch of the direct air services between the Navi Mumbai International Airport and Abu Dhabi will make Air India Express the first airline to operate international flights from Maharashtra's greenfield airport."
-    },
-    {
-      "title": "M-Cap Of Nine Of Top-10 Most Valued Firms Jump Rs 2.15 Lakh Crore; Airtel Biggest Winner",
-      "excerpt": "The market valuation of Bharti Airtel surged by Rs 52,432.67 crore to Rs 11,62,963.30 crore, the most among the top-10 firms.",
-      "url": "https://www.ndtvprofit.com/markets/mcap-of-nine-of-top-10-most-valued-firms-jumps-rs-2-15-lakh-cr-airtel-biggest-winner-11666286#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/obrpg41g_airtel_625x300_20_May_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:50:29+05:30",
-      "category": "Markets",
-      "summary": "The market valuation of Bharti Airtel surged by Rs 52,432.67 crore to Rs 11,62,963.30 crore, the most among the top-10 firms."
-    },
-    {
-      "title": "Market cap of 9 of top 10 most-valued firms jumps  ₹2.15 lakh crore; Airtel, LIC biggest gainers",
-      "excerpt": "Among the top-10 firms, Bharti Airtel led the gains, with its market valuation rising by ₹52,432.67 crore to ₹11.63 lakh crore.&nbsp;",
-      "url": "https://www.livemint.com/market/stock-market-news/market-cap-of-9-of-top-10-most-valued-firms-jumps-2-15-lakh-crore-airtel-lic-biggest-gainers-11782029067211.html",
+      "title": "Diksha Polymers share price hits 5% upper circuit after decent listing on BSE SME",
+      "excerpt": "Diksha Polymers shares were listed at ₹114.50 apiece on the BSE SME, a premium of 2.23% to the issue price of ₹112.00 per share. The SME stock touched a high of ₹120.20 apiece, rising 5% from listing price and 7.32% from",
+      "url": "https://www.livemint.com/market/stock-market-news/diksha-polymers-share-price-hits-5-upper-circuit-after-decent-listing-on-bse-sme-11782276327900.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/21/1600x900/logo/Mcap_1782029697441_1782029697598_65a204b9-b1bf-44b3-b1ec-1d3bbcdf3898.jpg",
-      "publishedAt": "2026-06-21T13:48:42+05:30",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/g69a97b0a64ab44e2a_1782276487826_1782276487993_093361e8-67cd-4ce2-b955-b9fb84c7cdbb.jpg",
+      "publishedAt": "2026-06-24T10:22:11+05:30",
       "category": "Markets",
-      "summary": "Among the top-10 firms, Bharti Airtel led the gains, with its market valuation rising by ₹52,432.67 crore to ₹11.63 lakh crore.&nbsp;"
+      "summary": "Diksha Polymers shares were listed at ₹114.50 apiece on the BSE SME, a premium of 2.23% to the issue price of ₹112.00 per share. The SME stock touched a high of ₹120.20 apiece, rising 5% from listing price and 7.32% from"
     },
     {
-      "title": "India’s economy at crossroads: A bright yesterday, but a clouded tomorrow",
-      "excerpt": "India’s economy at crossroads: A bright yesterday, but a clouded tomorrow The Hans India",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjlabHFiQkpjcF9BLWFxS0tSbnJoUzJVQ0F4UTdhQmloMF9kbXhrc2VHWDFFSmRhUjkyZEdkT3VWNTdqX3hpUU9vWjNjSGt0MmZrVWlMMm9LbVdwaFRpMVdwODJJODlYQVowQlF4RmVTSjhjYmR3V3U0MWFPbS1NXzdxWS1IUFZEbWVCZzEtNzlGcnh5RjIxS1BNdkZXSTNDcm9FS3EtZ3RESUVsWUpzMEhhajJpNVVEMWhjY9IBvAFBVV95cUxNZjlabHFiQkpjcF9BLWFxS0tSbnJoUzJVQ0F4UTdhQmloMF9kbXhrc2VHWDFFSmRhUjkyZEdkT3VWNTdqX3hpUU9vWjNjSGt0MmZrVWlMMm9LbVdwaFRpMVdwODJJODlYQVowQlF4RmVTSjhjYmR3V3U0MWFPbS1NXzdxWS1IUFZEbWVCZzEtNzlGcnh5RjIxS1BNdkZXSTNDcm9FS3EtZ3RESUVsWUpzMEhhajJpNVVEMWhjYw?oc=5",
-=======
-  "lastUpdated": "2026-06-21T18:00:12+05:30",
-  "count": 25,
-  "articles": [
-    {
-      "title": "India, US To Hold Ministerial",
-      "excerpt": "Commerce Secretary Rajesh Agrawal has recently stated that the discussions between the two ministers are expected to be centred around giving final touches to the framework deal.",
-      "url": "https://www.ndtvprofit.com/economy/india-us-to-hold-ministerial-level-trade-pact-talks-this-week-11666820#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/94lhkulk_new-delhi-union-commerce-and-industry-minister-piyush-goyal-with-commerce-secretary-rajesh-agarwal-during-a-press-conference_625x300_21_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T17:02:38+05:30",
+      "title": "Stock Markets Rebound In Early Trade On Softening Crude Oil Prices",
+      "excerpt": "Stock Markets Rebound In Early Trade On Softening Crude Oil Prices ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdG9IWVVaTEE4WlpUQlFuLS1vZGhBX0NaZHpJbV9QeW5ib0U1bUxrbXdGTEJuMXFNQW8wYk5xNGI4aEMtZWlSbmRwRVBYbVhudDE0UUdwSUR3b1Q1WUZScmw5eUxDa0Uwc2xlOXdpZUlTaS0wY2tmdFlBbWREblczeHIwUHZmUjBJZl9UOTJiNjF2bW14QmExNDVoa0dIM3NMM2dEblMtdjJkUXdOWG1LalF0UmYwZ2VMZDV3ODJfTnJBX2dt0gHKAUFVX3lxTFAtQlloaHJKU0w3ZDVnT0plbUY1SFRXalY2a0JTVl9xNV9SY0dlX2thYnltWWd4NHM3Y0lTTkFOLV9DNEk2Q1FGVTdrejJQNmtDeENhTzJCQkt1Rm5QbVJsOXltWGhUZ1pDbzJkVGw4SDkweWZQUmtNWXF0c3FDaUozRzFZaE9JWEwtREtmMTE1MUVUV3BLVU5PUGZveUFoZklIbEl1TEw2SjBYY3NRVGtCMDBUcVdjTzh5RlR4OVdLdU5KOGZFZDZDM1E?oc=5",
+      "source": "ETV Bharat",
+      "image": null,
+      "publishedAt": "2026-06-24T10:10:32+05:30",
       "category": "Markets",
-      "summary": "Commerce Secretary Rajesh Agrawal has recently stated that the discussions between the two ministers are expected to be centred around giving final touches to the framework deal."
+      "summary": "Stock Markets Rebound In Early Trade On Softening Crude Oil Prices ETV Bharat"
     },
     {
-      "title": "Tata Motors Secures Over 3,400 Orders For Electric Commercial Vehicles Across Segments",
-      "excerpt": "Orders spanning trucks, buses and small commercial vehicles signal accelerating adoption of electric mobility in India's commercial transport sector.",
-      "url": "https://www.ndtvprofit.com/business/tata-motors-secures-over-3-400-orders-for-electric-commercial-vehicles-across-segments-11666977#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/jmcqbu7s_tata-motors_625x300_21_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:52:35+05:30",
-      "category": "Markets",
-      "summary": "Orders spanning trucks, buses and small commercial vehicles signal accelerating adoption of electric mobility in India's commercial transport sector."
-    },
-    {
-      "title": "Young Punjab kids ‘rich for 4 yrs after selling their lands… then broke’: World Bank's Ajay Banga on urban agri economy",
-      "excerpt": "World Bank President Ajay Banga pointed out challenges in urban and agricultural economies, particularly in Punjab, where youth selling farmland quickly spend their earnings, leading to financial instability.",
-      "url": "https://www.livemint.com/economy/young-punjab-kids-rich-for-4-yrs-after-selling-their-lands-then-broke-world-banks-ajay-banga-on-urban-agri-economy-11782037840121.html",
+      "title": "Clay Craft India IPO listing: SME stock lists at a 4% premium over issue price, hits upper price band",
+      "excerpt": "Clay Craft India IPO listing: Clay Craft India shares listed at ₹211 on the NSE SME against their issue price of ₹203. The SME stock hit its upper price band of ₹221.55, jumping over 9% with respect to the issue price.",
+      "url": "https://www.livemint.com/market/ipo/clay-craft-india-ipo-listing-sme-stock-lists-at-a-4-premium-over-issue-price-hits-upper-price-band-11782274856629.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/21/1600x900/logo/IMF-WORLDBANK-FRANCE-BANGA-0_1683129076050_1782038040649_e7cd2ba2-1f1c-4627-97ee-4439cc2f81c9.JPG",
-      "publishedAt": "2026-06-21T16:50:26+05:30",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/pexels-photo-6801647_1759976624214_1759976636647_1782275224215_8371f937-4601-48c1-b77c-85b187e900ac.jpeg",
+      "publishedAt": "2026-06-24T10:01:26+05:30",
+      "category": "Markets",
+      "summary": "Clay Craft India IPO listing: Clay Craft India shares listed at ₹211 on the NSE SME against their issue price of ₹203. The SME stock hit its upper price band of ₹221.55, jumping over 9% with respect to the issue price."
+    },
+    {
+      "title": "IRFC share price falls 5% as OFS opens for non-retail investors today. Check details here",
+      "excerpt": "IRFC share price opened at ₹94 per share today, as compared to previous close of ₹98.67 on Tuesday.",
+      "url": "https://www.livemint.com/market/stock-market-news/irfc-share-price-falls-5-as-ofs-opens-for-non-retail-investors-today-check-details-here-11782273951559.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/IRFC_1782275051267_1782275051429_cfbdb3b0-4abe-4861-bdfe-e2a6f83e933c.jpg",
+      "publishedAt": "2026-06-24T09:56:47+05:30",
+      "category": "Markets",
+      "summary": "IRFC share price opened at ₹94 per share today, as compared to previous close of ₹98.67 on Tuesday."
+    },
+    {
+      "title": "Vedanta Aluminium share price gains as brokerages remain bullish; CLSA sees 18% upside",
+      "excerpt": "CLSA assigned an ‘Outperform’ rating on Vedanta Aluminium Metal shares, with a target price of ₹540 apiece, based on 6x FY28CL EV/Ebitda. The target price implies an upside potential of 18% from Tuesday’s closing price.",
+      "url": "https://www.livemint.com/market/stock-market-news/vedanta-aluminium-share-price-gains-as-brokerages-remain-bullish-clsa-sees-18-upside-11782274350953.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/vedanta_aluminium_1782274756947_17c1249b-ff76-428a-846f-7d4dd7cd3f49.jpg",
+      "publishedAt": "2026-06-24T09:52:12+05:30",
+      "category": "Markets",
+      "summary": "CLSA assigned an ‘Outperform’ rating on Vedanta Aluminium Metal shares, with a target price of ₹540 apiece, based on 6x FY28CL EV/Ebitda. The target price implies an upside potential of 18% from Tuesday’s closing price."
+    },
+    {
+      "title": "Knack Packaging IPO: Price band set at  ₹161-170 per share; check key dates, issue details",
+      "excerpt": "Knack Packaging's IPO ranges from ₹161 to ₹170, open for subscription from July 1-3. The lot size is 88 shares, with a distribution among QIBs, NIIs, and retail investors. Listing on BSE and NSE anticipated on July 8.",
+      "url": "https://www.livemint.com/market/ipo/knack-packaging-ipo-price-band-set-at-rs-161-170-per-share-check-key-dates-issue-details-11782274113236.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/Knack_Packaging_IPO_1782274570695_1782274575070_7ebc1161-f927-49b9-a54d-0727044cbdeb.png",
+      "publishedAt": "2026-06-24T09:47:37+05:30",
+      "category": "Markets",
+      "summary": "Knack Packaging's IPO ranges from ₹161 to ₹170, open for subscription from July 1-3. The lot size is 88 shares, with a distribution among QIBs, NIIs, and retail investors. Listing on BSE and NSE anticipated on July 8."
+    },
+    {
+      "title": "India’s Unconvincing Economic Facade - American Enterprise Institute - AEI",
+      "excerpt": "India’s Unconvincing Economic Facade American Enterprise Institute - AEI",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPam5hN2xQYVdPMFhoR0FPRXNBZFlTRTEyY2VfNW9BZElNb01EU1N3Q0h0SDFLN3N2Nmt2Q0N4RXZIMEJ3NjJVYkV5eFZhcU95bEY5X1RDWGtxUGVVSmo2ODhCNFhMVXN0VGE2bHBtcTEyR2o2NXRieW5RcUM0S3VlRjFTQXg5d2V3?oc=5",
+      "source": "American Enterprise Institute - AEI",
+      "image": null,
+      "publishedAt": "2026-06-24T09:40:57+05:30",
       "category": "Economy",
-      "summary": "World Bank President Ajay Banga pointed out challenges in urban and agricultural economies, particularly in Punjab, where youth selling farmland quickly spend their earnings, leading to financial instability."
+      "summary": "India’s Unconvincing Economic Facade American Enterprise Institute - AEI"
     },
     {
-      "title": "Gold Outlook: US-Iran Talks, Crude Oil Prices, Macro Data To Dictate Bullion This Week",
-      "excerpt": "Apart from geopolitical developments, investors will track the People's Bank of China's policy decision on Monday, flash manufacturing and services PMI data from major economies, US housing numbers, PCE inflation data an",
-      "url": "https://www.ndtvprofit.com/business/us-iran-talks-crude-oil-movement-macro-data-to-dictate-bullion-trend-next-week-analysts-11666875#publisher=newsstand",
+      "title": "Indian Green Card Holders Brace For Higher Costs As US Plans Citizenship Fee Hike",
+      "excerpt": "US DHS proposes raising citizenship fee from $760 to $1,330 and removing waivers. Indians, a major applicant group, may be heavily impacted. Plan is still draft and open for public consultation before final approval.",
+      "url": "https://www.ndtvprofit.com/world/indian-green-card-holders-brace-for-higher-costs-as-us-plans-citizenship-fee-hike-what-we-know-11679141#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/2e77ovgs_gold-price-prediction-with-expert-_625x300_21_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:49:40+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/5sl30ug_america-citizens-_625x300_24_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:32:42+05:30",
       "category": "Markets",
-      "summary": "Apart from geopolitical developments, investors will track the People's Bank of China's policy decision on Monday, flash manufacturing and services PMI data from major economies, US housing numbers, PCE inflation data an"
+      "summary": "US DHS proposes raising citizenship fee from $760 to $1,330 and removing waivers. Indians, a major applicant group, may be heavily impacted. Plan is still draft and open for public consultation before final approval."
     },
     {
-      "title": "Bidadi Township Row Heats Up As Shivakumar, Kumaraswamy Clash Over Land Acquisition",
-      "excerpt": "Karnataka CM said the Bidadi project was initiated under Kumaraswamy and later continued by BJP governments; Union minister argued fertile farmland should not be sacrificed for development.",
-      "url": "https://www.ndtvprofit.com/india/bidadi-township-row-heats-up-as-shivakumar-kumaraswamy-clash-over-land-acquisition-11666851#publisher=newsstand",
+      "title": "Meta Building Prediction Market App That Wouldn't Wager Money",
+      "excerpt": "Meta CEO Mark Zuckerberg has tasked a team to develop Arena, a prediction market app with a points-based system, allowing users to engage in live event predictions without real money stakes.",
+      "url": "https://www.ndtvprofit.com/world/meta-building-prediction-market-app-that-wouldnt-wager-money-11679262#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2023-10/od84pht8_kumaraswamy-shivakumar-kumaraswamy_625x300_25_October_23.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:32:35+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/1glbhqis_the-standalone-product-known-internally-as-arena-would-complement-metas-other-social-media-_625x300_24_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:31:39+05:30",
       "category": "Markets",
-      "summary": "Karnataka CM said the Bidadi project was initiated under Kumaraswamy and later continued by BJP governments; Union minister argued fertile farmland should not be sacrificed for development."
+      "summary": "Meta CEO Mark Zuckerberg has tasked a team to develop Arena, a prediction market app with a points-based system, allowing users to engage in live event predictions without real money stakes."
     },
     {
-      "title": "Starmer Ally Says UK PM Mulling Realities' as Pressure Builds",
-      "excerpt": "Starmer has been weighed down by a series of policy positions that were unpopular within Labour, as well as costly U-turns and record low ratings.",
-      "url": "https://www.ndtvprofit.com/world/starmer-ally-peter-kyle-says-uk-pm-mulling-realities-as-pressure-builds-11666947#publisher=newsstand",
+      "title": "Gold Price Today: MCX Gold Falls Over 1% To Rs 1.43 Lakh Amid US Dollar Pressure",
+      "excerpt": "MCX gold July futures contract slipped 1.1% to Rs 1,43,070 per 10 grams, while the MCX silver July futures dropped 0.58% to Rs 2,24,532 per kg.",
+      "url": "https://www.ndtvprofit.com/markets/gold-price-today-mcx-gold-falls-over-1-percent-to-rs-1-43-lakh-amid-us-dollar-pressure-11679243#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/urq2dauo_peter-kyle-bbg_625x300_21_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:26:58+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/2b779fsc_gold_625x300_20_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:29:25+05:30",
       "category": "Markets",
-      "summary": "Starmer has been weighed down by a series of policy positions that were unpopular within Labour, as well as costly U-turns and record low ratings."
+      "summary": "MCX gold July futures contract slipped 1.1% to Rs 1,43,070 per 10 grams, while the MCX silver July futures dropped 0.58% to Rs 2,24,532 per kg."
     },
     {
-      "title": "US-Iran War News Live Updates: Iran Says Israeli Presence In Lebanon Would Nullify US Deal; JD Vance Heads For Key Talks With Iran",
-      "excerpt": "IRGC has announced closure of the Strait of Hormuz, but the US military says the waterway is open to all vessels.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-war-news-live-updates-jd-vance-heads-for-key-talks-with-iran-trump-claims-no-strait-of-hormuz-tolls-for-60-days-us-iran-conflict-news-gulf-new-11665675#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/92rnajgo_usiran_625x300_29_May_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:18:19+05:30",
-      "category": "Markets",
-      "summary": "IRGC has announced closure of the Strait of Hormuz, but the US military says the waterway is open to all vessels."
-    },
-    {
-      "title": "Three Indian Tankers Reemerge, Pointing to Hormuz Traffic Uptick",
-      "excerpt": "The Desh Vibhor, Desh Vaibhav and Sanmar Herald were observed in the Gulf of Oman and the Arabian Sea on Sunday, after having been last seen signaling their attempt to cross the Strait of Hormuz late Friday, ship-trackin",
-      "url": "https://www.ndtvprofit.com/world/three-indian-tankers-reemerge-pointing-to-hormuz-traffic-uptick-11666898#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/eblmn2jg_strait-of-hormuz_625x300_19_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:14:58+05:30",
-      "category": "Markets",
-      "summary": "The Desh Vibhor, Desh Vaibhav and Sanmar Herald were observed in the Gulf of Oman and the Arabian Sea on Sunday, after having been last seen signaling their attempt to cross the Strait of Hormuz late Friday, ship-trackin"
-    },
-    {
-      "title": "Three Indian-Flagged Crude Oil Tankers Secure Safe Passage Through Hormuz, Says Port Minister",
-      "excerpt": "This development comes after the closure of the Strait of Hormuz instituted by Iran after the country suspended talks with the US to reach a peace deal after Israel launched strikes at Lebanon.",
-      "url": "https://www.ndtvprofit.com/india/three-indian-flagged-crude-oil-tankers-secure-safe-passage-through-hormuz-says-port-minister-11664506#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/vvmlnusg_straits_625x300_10_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:02:38+05:30",
-      "category": "Markets",
-      "summary": "This development comes after the closure of the Strait of Hormuz instituted by Iran after the country suspended talks with the US to reach a peace deal after Israel launched strikes at Lebanon."
-    },
-    {
-      "title": "Jyothy Labs to Expand Exo After Henkel Brands Exit Portfolio",
-      "excerpt": "Jyothy said Henkel has communicated its decision not to renew licence agreements related to the Pril and Fa brands beyond May 31, 2026.",
-      "url": "https://www.ndtvprofit.com/business/jyothy-labs-to-expand-exo-into-broader-dishwash-franchise-after-henkel-brands-exit-portfolio-11666740#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://i.ndtvimg.com/i/2016-03/jyothy-laboratories_625x300_81457626425.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T16:01:56+05:30",
-      "category": "Markets",
-      "summary": "Jyothy said Henkel has communicated its decision not to renew licence agreements related to the Pril and Fa brands beyond May 31, 2026."
-    },
-    {
-      "title": "Prestige Group to Launch Two Housing Projects in Delhi-NCR in FY26-27; Targets Rs 7,000 Crore Revenue",
-      "excerpt": "Prestige Estates achieved a record sales bookings of Rs 30,024 crore during the 2025-26 fiscal, up 76% from the preceding year.",
-      "url": "https://www.ndtvprofit.com/business/prestige-group-to-launch-two-housing-projects-in-delhi-ncr-in-fy26-27-targets-rs-7-000-crore-revenue-11666533#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/oso25f1o_prestige-estates-delhi-ncr_625x300_21_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T15:49:38+05:30",
-      "category": "Markets",
-      "summary": "Prestige Estates achieved a record sales bookings of Rs 30,024 crore during the 2025-26 fiscal, up 76% from the preceding year."
-    },
-    {
-      "title": "Upgrade Product Standards to Take Full Advantage of FTA With UK: Experts to Exporters",
-      "excerpt": "The projected gains from the Indian-UK FTA are significant and go beyond just trade facilitation to integrating the supply chains of the country in the longer run.",
-      "url": "https://www.ndtvprofit.com/economy/upgrade-product-standards-to-take-full-advantage-of-fta-with-uk-experts-to-exporters-11666434#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/uuj2vf94_jawaharlal-nehru-port-authority-jnpa-in-navi-mumbai_625x300_21_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T15:25:21+05:30",
-      "category": "Markets",
-      "summary": "The projected gains from the Indian-UK FTA are significant and go beyond just trade facilitation to integrating the supply chains of the country in the longer run."
-    },
-    {
-      "title": "India-EU Trade Pact To Be Signed By December; Implemented From Feb",
-      "excerpt": "Under the India-EU FTA, about 93% of Indian shipments will enjoy duty-free access to the 27-nation bloc, while imports of luxury cars and wines from the EU will become less expensive.",
-      "url": "https://www.ndtvprofit.com/economy/india-eu-trade-pact-to-be-signed-by-dec-implemented-from-feb-mar-next-year-goyal-11666398#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/n4cmlhh4_piyush-goyal-pti_625x300_21_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T15:14:28+05:30",
-      "category": "Markets",
-      "summary": "Under the India-EU FTA, about 93% of Indian shipments will enjoy duty-free access to the 27-nation bloc, while imports of luxury cars and wines from the EU will become less expensive."
-    },
-    {
-      "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
-      "excerpt": "Indian equities ended lower on Friday, snapping a five-session winning streak as heavy IT selling and weak global cues weighed on sentiment. Sensex fell 607 points and Nifty dropped below recent highs. Analysts remained ",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/131888752.cms",
+      "title": "TCS, Infosys, 8 other IT stocks plunge up to 38% in 2026. How many do you own?",
+      "excerpt": "Indian IT stocks are facing a significant downturn in 2026, with major players like TCS and Infosys experiencing substantial drops of up to 38%. Foreign investors have divested heavily from the sector, pulling billions f",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-8-other-it-stocks-plunge-up-to-38-in-2026-how-many-do-you-own/slideshow/131954451.cms",
       "source": "Economic Times",
       "image": null,
-      "publishedAt": "2026-06-21T15:13:17+05:30",
+      "publishedAt": "2026-06-24T09:28:37+05:30",
       "category": "Markets",
-      "summary": "Indian equities ended lower on Friday, snapping a five-session winning streak as heavy IT selling and weak global cues weighed on sentiment. Sensex fell 607 points and Nifty dropped below recent highs. Analysts remained "
+      "summary": "Indian IT stocks are facing a significant downturn in 2026, with major players like TCS and Infosys experiencing substantial drops of up to 38%. Foreign investors have divested heavily from the sector, pulling billions f"
     },
     {
-      "title": "US-Iran Peace Deal, Fed's Decision, PM Modi",
-      "excerpt": "The Week That Was: In the third week of June, several high-stakes developments including US-Iran peace deal, Federal Reserve's decision kept the week buzzing for the economy and domestic market.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-peace-deal-feds-decision-pm-modi-trump-meeting-hdfc-interim-chairmans-re-appointment-and-more-the-week-that-was-11666664#publisher=newsstand",
+      "title": "Stock Market News Today Live Updates: Nifty, Sensex Fluctuate; IRFC Falls Over 5%",
+      "excerpt": "Nifty IT rose 1.03%, while Nifty Pharma gained 0.89%, leading gains among sectoral indices, according to NSE data. Nifty Auto fell 0.42%, while Nifty Media, Metal, Consumption and Rural traded lower.",
+      "url": "https://www.ndtvprofit.com/markets/stock-market-crash-news-today-live-updates-share-market-sensex-nifty-gift-nifty-iran-war-us-attack-oil-impact-fno-futures-options-11678868#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/ohc50et8_us-iran-deal_625x300_14_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:56:57+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/67pc25s4_market-blog_625x300_22_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:28:30+05:30",
       "category": "Markets",
-      "summary": "The Week That Was: In the third week of June, several high-stakes developments including US-Iran peace deal, Federal Reserve's decision kept the week buzzing for the economy and domestic market."
+      "summary": "Nifty IT rose 1.03%, while Nifty Pharma gained 0.89%, leading gains among sectoral indices, according to NSE data. Nifty Auto fell 0.42%, while Nifty Media, Metal, Consumption and Rural traded lower."
     },
     {
-      "title": "US-Iran Talks: Pakistan PM Sharif, Army Chief Munir Reach Switzerland",
-      "excerpt": "The technical-level talks are scheduled to be held in the Burgenstock Alpine ridges on Sunday, the Prime Minister's Office said.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-talks-pakistan-pm-shehbaz-sharif-army-chief-asim-munir-reach-switzerland-11666619#publisher=newsstand",
+      "title": "Turtlemint Fintech IPO Allotment: Check Status, GMP And Listing Date",
+      "excerpt": "The Turtlemint Fintech Solutions IPO investors can check the allotment status on the websites of BSE, NSE and KFin Technologies.",
+      "url": "https://www.ndtvprofit.com/markets/turtlemint-ipo-allotment-check-date-step-by-step-guide-to-verify-status-online-and-listing-date-11679111#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/4ndb74q4_shahbaz-sharif-pak-pm_625x300_21_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:55:28+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/hn6dhgh8_turtle_625x300_24_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:15:29+05:30",
       "category": "Markets",
-      "summary": "The technical-level talks are scheduled to be held in the Burgenstock Alpine ridges on Sunday, the Prime Minister's Office said."
+      "summary": "The Turtlemint Fintech Solutions IPO investors can check the allotment status on the websites of BSE, NSE and KFin Technologies."
     },
     {
-      "title": "US-Iran peace deal: How are falling crude oil prices likely to impact petrol, diesel prices?",
-      "excerpt": "US-Iran peace deal: Brent crude prices edged higher on Friday but remained on track for a weekly decline of nearly 8%, as a ceasefire agreement between Israel and Hezbollah eased some geopolitical concerns",
-      "url": "https://www.livemint.com/market/stock-market-news/usiran-peace-deal-how-falling-crude-oil-prices-likely-to-impact-petrol-diesel-prices-11782028543360.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/21/1600x900/logo/Petrol_diesel_1782033128284_1782033128411_c9e03ebc-7aec-4942-af48-91811b81e960.jpg",
-      "publishedAt": "2026-06-21T14:48:46+05:30",
-      "category": "Markets",
-      "summary": "US-Iran peace deal: Brent crude prices edged higher on Friday but remained on track for a weekly decline of nearly 8%, as a ceasefire agreement between Israel and Hezbollah eased some geopolitical concerns"
-    },
-    {
-      "title": "Virat Kohli Named in India ODI Squad for England Tour, Subject To Fitness Clearance",
-      "excerpt": "The selection committee picked a 15-member squad for the ODI series, to be led by Shubman Gill, with Rohit Sharma also included.",
-      "url": "https://www.ndtvprofit.com/sports/virat-kohli-named-in-india-odi-squad-for-england-tour-subject-to-fitness-clearance-11666550#publisher=newsstand",
+      "title": "Tech Mahindra a Bottom-Up Turnaround Story, Says Motilal Oswal; Maintains 'Buy' — Check Target Price",
+      "excerpt": "The brokerage said it remains constructive and bullish on Tech Mahindra's transformation under new leadership, with early signs of recovery already visible across key business segments.",
+      "url": "https://www.ndtvprofit.com/markets/tech-mahindra-shares-in-focus-as-motilal-oswal-remains-bullish-11679162#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/h6ghdfto_virat-kohli_625x300_21_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:33:24+05:30",
+      "image": "https://c.ndtvimg.com/2026-04/2g4t4s2g_tech-mahindra-pralhad-shinde-ndtv-profit_625x300_23_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:14:00+05:30",
       "category": "Markets",
-      "summary": "The selection committee picked a 15-member squad for the ODI series, to be led by Shubman Gill, with Rohit Sharma also included."
+      "summary": "The brokerage said it remains constructive and bullish on Tech Mahindra's transformation under new leadership, with early signs of recovery already visible across key business segments."
     },
     {
-      "title": "Exports Rise 15% From April Till June 14 Despite Global Uncertainties: Goyal",
-      "excerpt": "Goyal said that despite 50% tariffs imposed by the US, India's exports in 2025-26 recorded healthy growth.",
-      "url": "https://www.ndtvprofit.com/economy/exports-rise-15-pc-in-apr-jun-14-despite-global-uncertainties-goyal-11666375#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/6gk6hfrc_piyush-goyal_625x300_20_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:10:31+05:30",
-      "category": "Markets",
-      "summary": "Goyal said that despite 50% tariffs imposed by the US, India's exports in 2025-26 recorded healthy growth."
-    },
-    {
-      "title": "Mountain Bookings Up 76% In June As Urban Indians Flock to Hills: Report",
-      "excerpt": "Overall mountain bookings across the Zostel network rose between \"seven and nine per cent\" year-on-year, with nearly \"48 per cent\" of travellers making their bookings within three days of departure.",
-      "url": "https://www.ndtvprofit.com/india/mountain-bookings-up-76-per-cent-in-june-as-urban-indians-flock-to-hills-report-11666363#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/rocvmu2k_mountain_625x300_21_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T14:00:11+05:30",
-      "category": "Markets",
-      "summary": "Overall mountain bookings across the Zostel network rose between \"seven and nine per cent\" year-on-year, with nearly \"48 per cent\" of travellers making their bookings within three days of departure."
-    },
-    {
-      "title": "Air India Express Opens Bookings For Navi Mumbai",
-      "excerpt": "The launch of the direct air services between the Navi Mumbai International Airport and Abu Dhabi will make Air India Express the first airline to operate international flights from Maharashtra's greenfield airport.",
-      "url": "https://www.ndtvprofit.com/business/air-india-express-opens-bookings-for-navi-mumbai-abu-dhabi-flights-11666350#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/4grbqia_air-india-express-photo-air-india-expressx_625x300_16_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:54:55+05:30",
-      "category": "Markets",
-      "summary": "The launch of the direct air services between the Navi Mumbai International Airport and Abu Dhabi will make Air India Express the first airline to operate international flights from Maharashtra's greenfield airport."
-    },
-    {
-      "title": "M-Cap Of Nine Of Top-10 Most Valued Firms Jump Rs 2.15 Lakh Crore; Airtel Biggest Winner",
-      "excerpt": "The market valuation of Bharti Airtel surged by Rs 52,432.67 crore to Rs 11,62,963.30 crore, the most among the top-10 firms.",
-      "url": "https://www.ndtvprofit.com/markets/mcap-of-nine-of-top-10-most-valued-firms-jumps-rs-2-15-lakh-cr-airtel-biggest-winner-11666286#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/obrpg41g_airtel_625x300_20_May_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:50:29+05:30",
-      "category": "Markets",
-      "summary": "The market valuation of Bharti Airtel surged by Rs 52,432.67 crore to Rs 11,62,963.30 crore, the most among the top-10 firms."
-    },
-    {
-      "title": "Market cap of 9 of top 10 most-valued firms jumps  ₹2.15 lakh crore; Airtel, LIC biggest gainers",
-      "excerpt": "Among the top-10 firms, Bharti Airtel led the gains, with its market valuation rising by ₹52,432.67 crore to ₹11.63 lakh crore.&nbsp;",
-      "url": "https://www.livemint.com/market/stock-market-news/market-cap-of-9-of-top-10-most-valued-firms-jumps-2-15-lakh-crore-airtel-lic-biggest-gainers-11782029067211.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/21/1600x900/logo/Mcap_1782029697441_1782029697598_65a204b9-b1bf-44b3-b1ec-1d3bbcdf3898.jpg",
-      "publishedAt": "2026-06-21T13:48:42+05:30",
-      "category": "Markets",
-      "summary": "Among the top-10 firms, Bharti Airtel led the gains, with its market valuation rising by ₹52,432.67 crore to ₹11.63 lakh crore.&nbsp;"
-    },
-    {
-      "title": "India’s economy at crossroads: A bright yesterday, but a clouded tomorrow",
-      "excerpt": "India’s economy at crossroads: A bright yesterday, but a clouded tomorrow The Hans India",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOERrT2Z5TlB3MC1NekZWQW0tWEkxMFozTDYwcmZHTUZOY00wTEExc3NKSjVpS0dyVFFrZU90Y1ZiVUpObmQ4UjlxTE04RHUtbzVHNVdZZjlsM28weHVNQkZsY2JQQXNJQTdkbUNkeThNakJGdFNDdXp5MlZKWEZnV0hoRkJWRmQwdGpJQ3o3U3dYWWFkVkJFWG1NQXJOOUNrVTVoYWZwamZJWC1yc1kxbXBOMkJYa2fSAbwBQVVfeXFMTWY5WmxxYkJKY3BfQS1hcUtLUm5yaFMyVUNBeFE3YUJpaDBfZG14a3NlR1gxRUpkYVI5MmRHZE91VjU3al94aVFPb1ozY0hrdDJma1VpTDJvS21XcGhUaTFXcDgySTg5WEFaMEJReEZlU0o4Y2Jkd1d1NDFhT20tTV83cVktSFBWRG1lQmcxLTc5RnJ4eUYyMUtQTXZGV0kzQ3JvRUtxLWd0RElFbFlKczBIYWoyaTVVRDFoY2M?oc=5",
->>>>>>> 2eb684cbff094f7ef487d20d87133bb2eac169b6
-      "source": "The Hans India",
-      "image": null,
-      "publishedAt": "2026-06-21T13:35:33+05:30",
-      "category": "Economy",
-      "summary": "India’s economy at crossroads: A bright yesterday, but a clouded tomorrow The Hans India"
-    },
-    {
-      "title": "Mcap of nine of top-10 most valued firms jumps Rs 2.15 lakh cr; Airtel biggest winner",
-      "excerpt": "Indian equity markets saw a significant boost last week, with the top ten firms gaining Rs 2.15 lakh crore. Bharti Airtel led the surge, adding over Rs 52,000 crore to its valuation. This rally was fueled by easing geopo",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-nine-of-top-10-most-valued-firms-jumps-rs-2-15-lakh-cr-airtel-biggest-winner/articleshow/131887702.cms",
+      "title": "Vedanta Aluminium shares rise nearly 2% as CLSA initiates Outperform call, sees 18% upside potential. Here's why",
+      "excerpt": "Vedanta Aluminium Metal shares surged nearly 2% after CLSA initiated coverage with an 'Outperform' rating and a Rs 540 target price, citing a strong aluminium cycle and operational strengths. The brokerage anticipates ba",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/vedanta-aluminium-shares-in-focus-as-clsa-initiates-outperform-call-sees-18-upside-potential-heres-why/articleshow/131954140.cms",
       "source": "Economic Times",
       "image": null,
-      "publishedAt": "2026-06-21T13:25:29+05:30",
+      "publishedAt": "2026-06-24T09:09:44+05:30",
       "category": "Markets",
-      "summary": "Indian equity markets saw a significant boost last week, with the top ten firms gaining Rs 2.15 lakh crore. Bharti Airtel led the surge, adding over Rs 52,000 crore to its valuation. This rally was fueled by easing geopo"
-<<<<<<< HEAD
+      "summary": "Vedanta Aluminium Metal shares surged nearly 2% after CLSA initiated coverage with an 'Outperform' rating and a Rs 540 target price, citing a strong aluminium cycle and operational strengths. The brokerage anticipates ba"
     },
     {
-      "title": "Upcoming IPOs: Waterways Leisure IPO, Advit Jewels IPO among new issues to open next week; check list here",
-      "excerpt": "Upcoming IPOs: Among the mainboard offerings lined up for next week are the Waterways Leisure IPO and the Advit Jewels IPO. In the SME segment, five public issues are slated to open, including the Jivial Industries IPO a",
-      "url": "https://www.livemint.com/market/ipo/upcoming-ipos-waterways-leisure-ipo-advit-jewels-ipo-among-new-issues-to-open-next-week-check-list-here-11782023902343.html",
+      "title": "Waaree, Premier Energies In Focus: China's WTO Complaint Against India's Solar Push Puts Stocks In Spotlight",
+      "excerpt": "Shares of solar manufacturers including Waaree Energies, Premier Energies, Vikram Solar, Emmvee and Adani Solar will be in focus after the World Trade Organization (WTO) agreed to set up a dispute panel to examine China'",
+      "url": "https://www.ndtvprofit.com/markets/waaree-premier-energies-in-focus-chinas-wto-complaint-against-indias-solar-push-puts-solar-stocks-in-spotlight-11679180#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/p2rnu7rc_waaree-energies-q3_625x300_20_January_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:09:00+05:30",
+      "category": "Markets",
+      "summary": "Shares of solar manufacturers including Waaree Energies, Premier Energies, Vikram Solar, Emmvee and Adani Solar will be in focus after the World Trade Organization (WTO) agreed to set up a dispute panel to examine China'"
+    },
+    {
+      "title": "Waaree Energies Shares in Focus: Motilal Oswal Retains Buy on Sector Tailwinds — Check Target Price",
+      "excerpt": "According to the brokerage Waaree Energies remains well-positioned to benefit from the structural transformation that is underway in India's solar ecosystem, supported by strong demand visibility.",
+      "url": "https://www.ndtvprofit.com/markets/waaree-energies-shares-motilal-oswal-retains-buy-on-sector-tailwinds-check-target-price-11679116#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/fufcqa0o_waaree-energies_625x300_24_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:08:29+05:30",
+      "category": "Markets",
+      "summary": "According to the brokerage Waaree Energies remains well-positioned to benefit from the structural transformation that is underway in India's solar ecosystem, supported by strong demand visibility."
+    },
+    {
+      "title": "'Made My Job More Difficult': Trump Attacks Senate Over Iran Vote, Says He Had Country On The Ropes",
+      "excerpt": "The Senate voted 50-48 on Tuesday to pass the resolution calling on Trump to halt military action against Iran or seek congressional approval before any further strikes, after it had already cleared the House earlier in ",
+      "url": "https://www.ndtvprofit.com/world/made-my-job-more-difficult-trump-attacks-senate-over-iran-vote-says-he-had-iran-on-the-ropes-11679115#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/k72m6jh8_donald-trump_625x300_24_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:05:50+05:30",
+      "category": "Markets",
+      "summary": "The Senate voted 50-48 on Tuesday to pass the resolution calling on Trump to halt military action against Iran or seek congressional approval before any further strikes, after it had already cleared the House earlier in "
+    },
+    {
+      "title": "Rupee falls 16 paise to open at 94.90 against US dollar",
+      "excerpt": "The rupee fell 16 paise to 94.90 against the US dollar as expectations of a Federal Reserve rate hike rise. Despite easing crude oil prices, the currency struggles, influenced by importer demand and the Fed's hawkish sta",
+      "url": "https://www.livemint.com/market/rupee-falls-16-paise-to-open-at-94-90-against-us-dollar-11782272003453.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/21/1600x900/logo/ipo_1782027239186_1782027239325_663a3151-c9e1-45c5-bb7d-51f3fa376b7c.jpeg",
-      "publishedAt": "2026-06-21T13:04:43+05:30",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/8th_pay_commission_faq_money_da_salary_hikes_17523_1782272049577_1782272049723_eb2eac46-8089-4b5a-8906-c10f871c054b.jpg",
+      "publishedAt": "2026-06-24T09:04:59+05:30",
       "category": "Markets",
-      "summary": "Upcoming IPOs: Among the mainboard offerings lined up for next week are the Waterways Leisure IPO and the Advit Jewels IPO. In the SME segment, five public issues are slated to open, including the Jivial Industries IPO a"
+      "summary": "The rupee fell 16 paise to 94.90 against the US dollar as expectations of a Federal Reserve rate hike rise. Despite easing crude oil prices, the currency struggles, influenced by importer demand and the Fed's hawkish sta"
     },
     {
-      "title": "Amid Global Uncertainties, Par Panel To Study Evolving Economic Conditions In India",
-      "excerpt": "According to a Lok Sabha bulletin, the Standing Committee on Finance has chosen 'Evolving Economic Conditions in the Country' as an additional subject for detailed examination during the year 2025-26.",
-      "url": "https://www.ndtvprofit.com/economy/amid-global-uncertainties-par-panel-to-study-evolving-economic-conditions-in-india-11665864#publisher=newsstand",
+      "title": "Gold rate crashes over 1% on MCX as US dollar index hits over 1-year high; experts highlight key levels to watch",
+      "excerpt": "Gold rate crashed by over 1% on MCX as the US dollar index jumped to a 1-year high. MCX gold August futures were 1.21% down at ₹1,44,759 per 10 grams, while MCX silver July futures were 0.71% down at ₹2,24,227 per kg aro",
+      "url": "https://www.livemint.com/market/commodities/gold-price-today-rate-crashes-over-1-on-mcx-as-us-dollar-index-hits-1-year-high-experts-highlight-key-levels-to-watch-11782270128968.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/pexels-photo-366551_1781584700648_1781584717486_24fbc898-a60f-4425-976f-6e3190d233ee_1782270719664_6556431b-9226-4b58-995a-f7ac63a14a68.jpeg",
+      "publishedAt": "2026-06-24T09:04:58+05:30",
+      "category": "Markets",
+      "summary": "Gold rate crashed by over 1% on MCX as the US dollar index jumped to a 1-year high. MCX gold August futures were 1.21% down at ₹1,44,759 per 10 grams, while MCX silver July futures were 0.71% down at ₹2,24,227 per kg aro"
+    },
+    {
+      "title": "BSE to Marico - Jay Thakkar suggests 3 stocks to buy or sell for short-term in F&O segment",
+      "excerpt": "The Indian stock market may open flat amid mixed global cues and a significant selloff in tech stocks. The Nifty 50 closed below 24,000, marking a sideways to negative trend unless it regains this level. BSE, Marico, and",
+      "url": "https://www.livemint.com/market/stock-market-news/bse-to-marico-jay-thakkar-suggests-3-stocks-to-buy-or-sell-for-short-term-in-f-o-segment-11782271027931.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/DSC02469_1737528551670_1782271736498_006fed40-27e0-4121-af4b-a332de648fea.jpg",
+      "publishedAt": "2026-06-24T09:01:54+05:30",
+      "category": "Markets",
+      "summary": "The Indian stock market may open flat amid mixed global cues and a significant selloff in tech stocks. The Nifty 50 closed below 24,000, marking a sideways to negative trend unless it regains this level. BSE, Marico, and"
+    },
+    {
+      "title": "HDFC Bank Q1FY27 Results: Date, Dividend, Share Price History, Earnings Call Schedule And More",
+      "excerpt": "HDFC Bank's earnings for Q1FY27 will be declared on Saturday, July 18, 2026",
+      "url": "https://www.ndtvprofit.com/markets/hdfc-bank-q1-date-dividend-share-price-history-earnings-call-schedule-and-more-11679151#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/tpmq6tk4_india-economy-rank_625x300_17_April_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:02:16+05:30",
+      "image": "https://c.ndtvimg.com/2026-05/gq56oig_hdfc-bank_625x300_07_May_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:01:12+05:30",
       "category": "Markets",
-      "summary": "According to a Lok Sabha bulletin, the Standing Committee on Finance has chosen 'Evolving Economic Conditions in the Country' as an additional subject for detailed examination during the year 2025-26."
+      "summary": "HDFC Bank's earnings for Q1FY27 will be declared on Saturday, July 18, 2026"
     },
     {
-      "title": "Indian Passenger Vehicle Makers Eye Opportunity In UK's EV Market Via FTA",
-      "excerpt": "The free trade agreement (FTA) between the two countries, which is expected to help double two-way commerce to USD 100 billion by 2030, will come into force on July 15.",
-      "url": "https://www.ndtvprofit.com/business/indian-passenger-vehicle-makers-eye-opportunity-in-uks-ev-market-via-fta-11665901#publisher=newsstand",
+      "title": "Why the NSE IPO may not create wealth like BSE’s did",
+      "excerpt": "The NSE IPO arrives after a decade-long boom in Indian markets that enriched existing shareholders. While the exchange remains dominant and highly profitable, matching the stellar returns delivered by BSE since 2017 may ",
+      "url": "https://www.livemint.com/market/nse-ipo-national-stock-exchange-bse-stock-exchange-ipo-derivatives-trading-equity-options-indian-stock-market-11782224092900.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/24/1600x900/logo/COFORGE-STOCKS--0_1782267645199_1782267658686_6eb1c1fe-b7b1-4b52-9c2a-4f0f3acef9cb.JPG",
+      "publishedAt": "2026-06-24T09:00:56+05:30",
+      "category": "Markets",
+      "summary": "The NSE IPO arrives after a decade-long boom in Indian markets that enriched existing shareholders. While the exchange remains dominant and highly profitable, matching the stellar returns delivered by BSE since 2017 may "
+    },
+    {
+      "title": "Mumbai Rains Live Updates: City Records Over 300 mm Of Rainfall In 24 Hrs; Waterlogging On Railway Tracks",
+      "excerpt": "IMD Mumbai issues red nowcast warning for thunderstorms, lightning, and heavy rain in Mumbai, Palghar, and Thane over next three hours.",
+      "url": "https://www.ndtvprofit.com/india/mumbai-rains-live-updates-waterlogging-imd-issues-red-alert-waterlogging-mumbai-local-trains-delay-news-11678876#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/tuf6dt8k_vehicles_625x300_21_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:02:01+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/bulhv3us_mumbai-rains-photo-pti_625x300_24_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-24T09:00:41+05:30",
       "category": "Markets",
-      "summary": "The free trade agreement (FTA) between the two countries, which is expected to help double two-way commerce to USD 100 billion by 2030, will come into force on July 15."
-    },
-    {
-      "title": "India Boosts Russian, UAE Oil Purchases In June Ahead Of Full Hormuz Recovery",
-      "excerpt": "India imported an average of 2.66 million barrels per day of crude oil from Russia in June, through June 19, compared to 1.91 million bpd in May, data from maritime and commodity intelligence firm Kpler showed, cementing",
-      "url": "https://www.ndtvprofit.com/world/india-boosts-russian-uae-oil-purchases-in-jun-ahead-of-full-hormuz-recovery-11666051#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/qd1eg80c_india-russia-oil_625x300_03_March_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:01:45+05:30",
-      "category": "Markets",
-      "summary": "India imported an average of 2.66 million barrels per day of crude oil from Russia in June, through June 19, compared to 1.91 million bpd in May, data from maritime and commodity intelligence firm Kpler showed, cementing"
-    },
-    {
-      "title": "Dalmia Bharat Plans To Raise Rs 4,000 Crore; Targets 110-130 MTPA Cement Capacity By FY31",
-      "excerpt": "Dalmia Bharat remains optimistic about the cement industry's growth prospects and expects cement demand to expand at a compound annual growth rate (CAGR) of 6-7 per cent over the next few years, driven by government-led ",
-      "url": "https://www.ndtvprofit.com/business/dalmia-bharat-plans-to-raise-rs-4-000-cr-targets-110-130-mtpa-cement-capacity-by-fy31-11665978#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/fsoci77k_dalmia-bharat_625x300_28_April_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:01:26+05:30",
-      "category": "Markets",
-      "summary": "Dalmia Bharat remains optimistic about the cement industry's growth prospects and expects cement demand to expand at a compound annual growth rate (CAGR) of 6-7 per cent over the next few years, driven by government-led "
-    },
-    {
-      "title": "ONGC Is Now A 'Gas-And-Oil' Company As Output Shift Accelerates Toward Natural Gas",
-      "excerpt": "While oil production is likely to remain flat, gas output will rise as newer fields are put into production.",
-      "url": "https://www.ndtvprofit.com/business/ongc-is-now-a-gas-and-oil-company-as-output-shift-accelerates-toward-natural-gas-11666175#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/h3hcbnfo_ongc_625x300_17_March_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T13:01:03+05:30",
-      "category": "Markets",
-      "summary": "While oil production is likely to remain flat, gas output will rise as newer fields are put into production."
-    },
-    {
-      "title": "Vaibhav Sooryavanshi Smashes 29-Ball 94 Against Sri Lanka A, Sets Fastest List A Fifty Record",
-      "excerpt": "The India A opener bounced back from a lean run and a recent on-field altercation to blast 10 fours and eight sixes in the tri-series final in Dambulla.",
-      "url": "https://www.ndtvprofit.com/sports/vaibhav-sooryavanshi-slams-29-ball-94-in-tri-series-final-vs-sri-lanka-a-11665991#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/6ujrbp94_vaibhav-sooryavanshi-vs-sri-lanka-a-in-the-one-day-tri-series_625x300_21_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-21T12:52:55+05:30",
-      "category": "Markets",
-      "summary": "The India A opener bounced back from a lean run and a recent on-field altercation to blast 10 fours and eight sixes in the tri-series final in Dambulla."
-    },
-    {
-      "title": "9 Sensex stocks with up to 40% upside potential. Are these in your portfolio?",
-      "excerpt": "Analyst target prices suggest several Sensex heavyweights could offer strong upside over the next 12 months. Based on Trendlyne consensus estimates, stocks including TCS, Infosys, HIL, Eternal and Reliance Industries sho",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/9-sensex-stocks-with-up-to-40-upside-potential-are-these-in-your-portfolio/slideshow/131887481.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-06-21T12:35:30+05:30",
-      "category": "Markets",
-      "summary": "Analyst target prices suggest several Sensex heavyweights could offer strong upside over the next 12 months. Based on Trendlyne consensus estimates, stocks including TCS, Infosys, HIL, Eternal and Reliance Industries sho"
-=======
->>>>>>> 2eb684cbff094f7ef487d20d87133bb2eac169b6
+      "summary": "IMD Mumbai issues red nowcast warning for thunderstorms, lightning, and heavy rain in Mumbai, Palghar, and Thane over next three hours."
     }
   ]
 }
