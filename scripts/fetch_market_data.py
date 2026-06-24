@@ -444,8 +444,23 @@ def main():
     # 1. India indices
     print("\n[1/5] India Indices")
     idx_q = fetch_batch(INDIA_INDICES)
+
+    # Fetch Nifty 50 P/E dynamically (yfinance Ticker.info)
+    nifty_pe = None
+    try:
+        nsei_info = yf.Ticker('^NSEI').info
+        nifty_pe = nsei_info.get('trailingPE') or nsei_info.get('forwardPE')
+        if nifty_pe:
+            nifty_pe = round(float(nifty_pe), 2)
+            print(f"  Nifty 50 P/E fetched: {nifty_pe}x")
+        else:
+            print("  Nifty 50 P/E not available from yfinance")
+    except Exception as e:
+        print(f"  Nifty 50 P/E fetch failed: {e}")
+
     save('india-indices.json', {
         'lastUpdated': NOW,
+        'niftyPE': nifty_pe,
         'indices': [
             {**idx_q.get(s, _empty(s)), 'name': INDEX_NAMES.get(s, s)}
             for s in INDIA_INDICES
