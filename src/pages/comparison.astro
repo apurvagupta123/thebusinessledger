@@ -9,7 +9,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <span class="section-live">NSE</span>
   </div>
   <p style="color:var(--text-muted);font-size:13px;margin-bottom:8px">
-    Compare today's stock prices with the previous data snapshot. Refreshes twice daily — 4 PM & 2 AM IST.
+    Track how NSE stocks moved between sessions — spot gainers, losers, and stocks that flipped direction. Data refreshes twice daily at 4 PM &amp; 2 AM IST.
   </p>
   <div id="cmpDates" style="font-size:12px;color:var(--gold);margin-bottom:20px"></div>
 
@@ -106,10 +106,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <div id="cmpNoArchive" style="display:none">
     <div style="background:var(--navy-2);border:1px solid var(--border);border-radius:12px;padding:32px;text-align:center;max-width:540px;margin:0 auto">
       <div style="font-size:36px;margin-bottom:12px">📅</div>
-      <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:8px">No previous snapshot yet</div>
+      <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:8px">Building your first snapshot</div>
       <div style="font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px">
-        The comparison archive builds automatically each time GitHub Actions runs the data fetch.<br>
-        Today's data is being shown below as the baseline — comparison will be available from tomorrow.
+        No archived data found yet. The archive builds automatically each time the data pipeline runs.<br>
+        Today's session is shown below — comparisons will appear once an archive is available.
       </div>
       <div style="font-size:12px;color:var(--gold)">Next snapshot: today at 2 AM IST (21:30 UTC)</div>
     </div>
@@ -372,21 +372,27 @@ async function load() {
     const todayStocks: any[] = todayData.nse || [];
     const todayDate = todayData.lastUpdated?.split('T')[0] || 'today';
 
-    // 2. Try yesterday's archive
-    const yest = new Date();
-    yest.setDate(yest.getDate() - 1);
-    const yestStr = yest.toISOString().split('T')[0];
+    // 2. Try recent archives — look back up to 7 days to handle weekends/holidays
     let prevStocks: any[] = [];
     let prevDate = '';
 
-    try {
-      const prevR    = await fetch(`/data/archive/${yestStr}/india-stocks.json`);
-      if (prevR.ok) {
-        const prevData = await prevR.json();
-        prevStocks = prevData.nse || [];
-        prevDate   = prevData.lastUpdated?.split('T')[0] || yestStr;
-      }
-    } catch {}
+    for (let daysBack = 1; daysBack <= 7; daysBack++) {
+      const d = new Date();
+      d.setDate(d.getDate() - daysBack);
+      const dateStr = d.toISOString().split('T')[0];
+      try {
+        const prevR = await fetch(`/data/archive/${dateStr}/india-stocks.json`);
+        if (prevR.ok) {
+          const prevData = await prevR.json();
+          const stocks = prevData.nse || [];
+          if (stocks.length) {
+            prevStocks = stocks;
+            prevDate   = prevData.lastUpdated?.split('T')[0] || dateStr;
+            break;
+          }
+        }
+      } catch {}
+    }
 
     // 3. No archive — show single day
     if (!prevStocks.length) {
