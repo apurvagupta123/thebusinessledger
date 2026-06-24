@@ -300,19 +300,30 @@ function renderFlips() {
   const toGreen = flips.filter(d => d.todayPct > 0);
   const toRed   = flips.filter(d => d.todayPct <= 0);
 
-  function flipCard(d: any) {
-    const sym = d.symbol.replace('.NS','').replace('.BO','');
-    const wasUp = d.prevPct >= 0;
-    const arrow = wasUp ? '🔻' : '🔺';
-    return `<div class="flip-card">
-      <div class="flip-sym">${sym}</div>
-      <div class="flip-name">${d.name}</div>
-      <div class="flip-change">
-        <span style="color:${color(d.prevPct)}">${sign(d.prevPct)}${fmt(d.prevPct)}%</span>
-        <span style="font-size:18px;color:var(--gold)"> → </span>
-        <span style="color:${color(d.todayPct)}">${sign(d.todayPct)}${fmt(d.todayPct)}%</span>
+  function flipRow(d: any) {
+    const sym      = d.symbol.replace('.NS','').replace('.BO','');
+    const pctColor = color(d.todayPct);
+    const arrow    = d.todayPct >= 0 ? '▲' : '▼';
+    const priceDiff = d.prevPrice !== null ? d.todayPrice - d.prevPrice : null;
+    const diffStr  = priceDiff !== null
+      ? `${arrow} ₹${fmt(Math.abs(priceDiff))}`
+      : arrow;
+    return `<div class="flip-row">
+      <div class="flip-row-left">
+        <span class="flip-row-sym">${sym}</span>
+        <span class="flip-row-name">${d.name}</span>
       </div>
-      <div class="flip-price">₹${fmt(d.prevPrice)} → ₹${fmt(d.todayPrice)}</div>
+      <div class="flip-row-right">
+        <span class="flip-row-prev" title="Previous session">
+          <span style="color:${color(d.prevPct)}">${sign(d.prevPct)}${fmt(d.prevPct)}%</span>
+          <span class="flip-row-arrow">→</span>
+        </span>
+        <span class="flip-row-price">₹${fmt(d.todayPrice)}</span>
+        <span class="flip-row-diff" style="color:${pctColor}">${diffStr}</span>
+        <span class="flip-row-badge" style="background:${pctColor}1a;color:${pctColor};border-color:${pctColor}33">
+          ${sign(d.todayPct)}${fmt(d.todayPct)}%
+        </span>
+      </div>
     </div>`;
   }
 
@@ -320,12 +331,12 @@ function renderFlips() {
     ${toRed.length ? `
       <div class="flip-section">
         <div class="flip-section-title" style="color:#ef4444">🔻 Turned Negative (${toRed.length})</div>
-        <div class="flip-grid">${toRed.map(flipCard).join('')}</div>
+        <div class="flip-list">${toRed.map(flipRow).join('')}</div>
       </div>` : ''}
     ${toGreen.length ? `
       <div class="flip-section" style="margin-top:20px">
         <div class="flip-section-title" style="color:#22c55e">🔺 Turned Positive (${toGreen.length})</div>
-        <div class="flip-grid">${toGreen.map(flipCard).join('')}</div>
+        <div class="flip-list">${toGreen.map(flipRow).join('')}</div>
       </div>` : ''}
   `;
 }
@@ -524,18 +535,35 @@ load();
 .cmp-sym     { color:var(--gold); font-weight:700; font-size:11px; padding:10px 12px; display:block; }
 
 /* Flips */
-.flip-section-title { font-size:13px; font-weight:700; margin-bottom:12px; }
-.flip-grid {
-  display:grid; grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); gap:10px;
+.flip-section-title { font-size:13px; font-weight:700; margin-bottom:10px; }
+.flip-list { display:flex; flex-direction:column; gap:0; }
+.flip-row {
+  display:flex; align-items:center; justify-content:space-between;
+  background:var(--navy-2); border:1px solid var(--border);
+  border-radius:0; padding:12px 16px; gap:12px;
+  transition:background 0.15s;
 }
-.flip-card {
-  background:var(--navy-2); border:1px solid var(--border); border-radius:10px;
-  padding:14px; text-align:center;
+.flip-row:first-child { border-radius:10px 10px 0 0; }
+.flip-row:last-child  { border-radius:0 0 10px 10px; }
+.flip-row:only-child  { border-radius:10px; }
+.flip-row + .flip-row { border-top:none; }
+.flip-row:hover { background:rgba(255,255,255,0.03); }
+.flip-row-left  { display:flex; align-items:baseline; gap:8px; min-width:0; flex:1; }
+.flip-row-sym   { font-size:13px; font-weight:800; color:var(--gold); white-space:nowrap; }
+.flip-row-name  { font-size:11px; color:var(--text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.flip-row-right { display:flex; align-items:center; gap:12px; flex-shrink:0; }
+.flip-row-prev  { font-size:11px; color:var(--text-muted); display:flex; align-items:center; gap:4px; }
+.flip-row-arrow { color:var(--gold); font-size:10px; }
+.flip-row-price { font-size:13px; font-weight:700; color:#fff; min-width:72px; text-align:right; }
+.flip-row-diff  { font-size:12px; font-weight:600; min-width:72px; text-align:right; }
+.flip-row-badge {
+  font-size:11px; font-weight:700; padding:3px 8px;
+  border-radius:6px; border:1px solid; white-space:nowrap;
 }
-.flip-sym    { font-size:14px; font-weight:800; color:var(--gold); margin-bottom:2px; }
-.flip-name   { font-size:10px; color:var(--text-muted); margin-bottom:8px; }
-.flip-change { font-size:13px; font-weight:700; margin-bottom:4px; }
-.flip-price  { font-size:10px; color:var(--text-muted); }
+@media (max-width:640px) {
+  .flip-row-prev { display:none; }
+  .flip-row-diff { display:none; }
+}
 
 @media (max-width:640px) {
   .cmp-summary { grid-template-columns:1fr 1fr; }
