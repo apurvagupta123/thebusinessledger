@@ -41,5 +41,10 @@ jobs:
 
       - name: Push
         run: |
-          git pull --rebase origin main
+          # Rebase, resolving any news.json conflict by keeping our fresh fetch
+          git pull --rebase -X ours origin main || (
+            git checkout --ours public/data/news.json &&
+            git add public/data/news.json &&
+            git rebase --continue
+          )
           git push origin main
