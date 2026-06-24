@@ -301,42 +301,47 @@ function renderFlips() {
   const toRed   = flips.filter(d => d.todayPct <= 0);
 
   function flipRow(d: any) {
-    const sym      = d.symbol.replace('.NS','').replace('.BO','');
-    const pctColor = color(d.todayPct);
-    const arrow    = d.todayPct >= 0 ? '▲' : '▼';
-    const priceDiff = d.prevPrice !== null ? d.todayPrice - d.prevPrice : null;
-    const diffStr  = priceDiff !== null
-      ? `${arrow} ₹${fmt(Math.abs(priceDiff))}`
-      : arrow;
-    return `<div class="flip-row">
-      <div class="flip-row-left">
-        <span class="flip-row-sym">${sym}</span>
-        <span class="flip-row-name">${d.name}</span>
+    const sym       = d.symbol.replace('.NS','').replace('.BO','');
+    const isUp      = d.todayPct >= 0;
+    const arrow     = isUp ? '▲' : '▼';
+    const chgColor  = isUp ? '#22c55e' : '#ef4444';
+    const priceDiff = d.prevPrice !== null ? Math.abs(d.todayPrice - d.prevPrice) : null;
+    const diffStr   = priceDiff !== null ? `${arrow} ₹${fmt(priceDiff)}` : arrow;
+    const badgeCls  = isUp ? 'fr-badge-up' : 'fr-badge-dn';
+    const rowCls    = isUp ? 'fr-row fr-up' : 'fr-row fr-dn';
+    const prevColor = color(d.prevPct);
+    return `<div class="${rowCls}">
+      <div class="fr-sym-col">
+        <span class="fr-sym">${sym}</span>
+        <span class="fr-name">${d.name}</span>
       </div>
-      <div class="flip-row-right">
-        <span class="flip-row-prev" title="Previous session">
-          <span style="color:${color(d.prevPct)}">${sign(d.prevPct)}${fmt(d.prevPct)}%</span>
-          <span class="flip-row-arrow">→</span>
-        </span>
-        <span class="flip-row-price">₹${fmt(d.todayPrice)}</span>
-        <span class="flip-row-diff" style="color:${pctColor}">${diffStr}</span>
-        <span class="flip-row-badge" style="background:${pctColor}1a;color:${pctColor};border-color:${pctColor}33">
-          ${sign(d.todayPct)}${fmt(d.todayPct)}%
-        </span>
-      </div>
+      <div class="fr-prev" style="color:${prevColor}">${sign(d.prevPct)}${fmt(d.prevPct)}%</div>
+      <div class="fr-price">₹${fmt(d.todayPrice)}</div>
+      <div class="fr-chg" style="color:${chgColor}">${diffStr}</div>
+      <div class="fr-pct"><span class="fr-badge ${badgeCls}">${sign(d.todayPct)}${fmt(d.todayPct)}%</span></div>
     </div>`;
   }
+
+  const colHeader = `<div class="fr-head">
+    <span>Stock</span>
+    <span>Prev %</span>
+    <span>Price</span>
+    <span>Change</span>
+    <span>% Change</span>
+  </div>`;
 
   el.innerHTML = `
     ${toRed.length ? `
       <div class="flip-section">
         <div class="flip-section-title" style="color:#ef4444">🔻 Turned Negative (${toRed.length})</div>
-        <div class="flip-list">${toRed.map(flipRow).join('')}</div>
+        ${colHeader}
+        <div class="fr-list">${toRed.map(flipRow).join('')}</div>
       </div>` : ''}
     ${toGreen.length ? `
-      <div class="flip-section" style="margin-top:20px">
+      <div class="flip-section" style="margin-top:24px">
         <div class="flip-section-title" style="color:#22c55e">🔺 Turned Positive (${toGreen.length})</div>
-        <div class="flip-list">${toGreen.map(flipRow).join('')}</div>
+        ${colHeader}
+        <div class="fr-list">${toGreen.map(flipRow).join('')}</div>
       </div>` : ''}
   `;
 }
@@ -534,35 +539,43 @@ load();
 .cmp-td-num  { padding:10px 12px; white-space:nowrap; }
 .cmp-sym     { color:var(--gold); font-weight:700; font-size:11px; padding:10px 12px; display:block; }
 
-/* Flips */
-.flip-section-title { font-size:13px; font-weight:700; margin-bottom:10px; }
-.flip-list { display:flex; flex-direction:column; gap:0; }
-.flip-row {
-  display:flex; align-items:center; justify-content:space-between;
+/* Sentiment Flips — mirrors markets page .in-row grid */
+.flip-section-title { font-size:13px; font-weight:700; margin-bottom:8px; }
+.fr-head {
+  display:grid; grid-template-columns: 2fr 70px 110px 100px 80px;
+  gap:0 16px; padding:6px 16px;
+  font-size:10px; font-weight:700; color:var(--gold);
+  letter-spacing:0.5px; text-transform:uppercase;
+  border-bottom:1px solid var(--border); margin-bottom:4px;
+}
+.fr-head span:not(:first-child) { text-align:right; }
+.fr-list { display:flex; flex-direction:column; gap:4px; }
+.fr-row {
+  display:grid; grid-template-columns: 2fr 70px 110px 100px 80px;
+  gap:0 16px; align-items:center;
+  padding:12px 16px;
   background:var(--navy-2); border:1px solid var(--border);
-  border-radius:0; padding:12px 16px; gap:12px;
-  transition:background 0.15s;
+  border-left:3px solid transparent; border-radius:8px;
+  transition:background 0.15s, border-color 0.15s;
 }
-.flip-row:first-child { border-radius:10px 10px 0 0; }
-.flip-row:last-child  { border-radius:0 0 10px 10px; }
-.flip-row:only-child  { border-radius:10px; }
-.flip-row + .flip-row { border-top:none; }
-.flip-row:hover { background:rgba(255,255,255,0.03); }
-.flip-row-left  { display:flex; align-items:baseline; gap:8px; min-width:0; flex:1; }
-.flip-row-sym   { font-size:13px; font-weight:800; color:var(--gold); white-space:nowrap; }
-.flip-row-name  { font-size:11px; color:var(--text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.flip-row-right { display:flex; align-items:center; gap:12px; flex-shrink:0; }
-.flip-row-prev  { font-size:11px; color:var(--text-muted); display:flex; align-items:center; gap:4px; }
-.flip-row-arrow { color:var(--gold); font-size:10px; }
-.flip-row-price { font-size:13px; font-weight:700; color:#fff; min-width:72px; text-align:right; }
-.flip-row-diff  { font-size:12px; font-weight:600; min-width:72px; text-align:right; }
-.flip-row-badge {
-  font-size:11px; font-weight:700; padding:3px 8px;
-  border-radius:6px; border:1px solid; white-space:nowrap;
-}
-@media (max-width:640px) {
-  .flip-row-prev { display:none; }
-  .flip-row-diff { display:none; }
+.fr-row:hover { background:var(--navy-3); border-color:rgba(201,168,76,0.3); }
+.fr-up { border-left-color:#22c55e; }
+.fr-dn { border-left-color:#ef4444; }
+.fr-sym-col { display:flex; align-items:baseline; gap:10px; min-width:0; }
+.fr-sym  { font-size:14px; font-weight:800; color:#fff; flex-shrink:0; letter-spacing:0.3px; }
+.fr-name { font-size:12px; color:var(--text-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.fr-prev  { font-size:12px; font-weight:600; text-align:right; }
+.fr-price { font-size:14px; font-weight:700; color:#fff; text-align:right; }
+.fr-chg   { font-size:12px; font-weight:600; text-align:right; }
+.fr-pct   { text-align:right; }
+.fr-badge { font-size:10px; font-weight:700; padding:3px 7px; border-radius:5px; display:inline-block; }
+.fr-badge-up { background:rgba(34,197,94,0.15);  color:#22c55e; }
+.fr-badge-dn { background:rgba(239,68,68,0.15); color:#ef4444; }
+@media (max-width:700px) {
+  .fr-head  { grid-template-columns: 2fr 90px 90px; }
+  .fr-head span:nth-child(2), .fr-head span:nth-child(4) { display:none; }
+  .fr-row   { grid-template-columns: 2fr 90px 90px; }
+  .fr-prev, .fr-chg { display:none; }
 }
 
 @media (max-width:640px) {
