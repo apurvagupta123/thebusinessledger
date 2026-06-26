@@ -1,16 +1,26 @@
 {
-  "lastUpdated": "2026-06-27T01:48:53+05:30",
+  "lastUpdated": "2026-06-27T03:18:41+05:30",
   "count": 25,
   "articles": [
     {
       "title": "FIFA World Cup 2026: Ousmane Dembele Sets French Record With Hat",
-      "excerpt": "The France forward scored three times inside the opening 32 minutes against Norway to set a new national World Cup record.",
+      "excerpt": "The reigning Men's Ballon d'Or winner scored three times inside the opening 32 minutes against Norway, setting a new French record for fastest World Cup hat-trick.",
       "url": "https://www.ndtvprofit.com/sports/fifa-world-cup-2026-ousmane-dembele-sets-french-record-with-hat-trick-against-norway-11693117#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-06/eb6521nk_dembele_625x300_27_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-27T01:14:34+05:30",
+      "publishedAt": "2026-06-27T01:53:03+05:30",
       "category": "Markets",
       "summary": "The France forward scored three times inside the opening 32 minutes against Norway to set a new national World Cup record."
+    },
+    {
+      "title": "US stocks: US market ends lower as tech stocks weigh on sentiment",
+      "excerpt": "Wall Street ended lower on Friday, with AI chip stocks experiencing a significant downturn while Moderna and other healthcare companies surged. Investors are weighing the long-term potential of AI against concerns about ",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-lower-chips-tumble-and-moderna-rallies/articleshow/132024472.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-06-27T01:33:35+05:30",
+      "category": "Markets",
+      "summary": "Wall Street ended lower on Friday, with AI chip stocks experiencing a significant downturn while Moderna and other healthcare companies surged. Investors are weighing the long-term potential of AI against concerns about "
     },
     {
       "title": "ET Graphics: From budget to premium, gadget Prices Rise",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-06-26T20:27:03+05:30",
       "category": "Markets",
       "summary": "A potential delay in OpenAI's IPO has triggered selling in global technology stocks, impacting major players like SoftBank. As concerns over AI investment returns grow, investors are increasingly selective in their stock"
-    },
-    {
-      "title": "SBI Card leads May credit card additions as industry adds nearly 1 mn cards",
-      "excerpt": "SBI Card leads May credit card additions as industry adds nearly 1 mn cards Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYmR6WFlFZTBzWWxOUUxnUnVjdk1mOGlnUTZjOWpQR01iaFM0bldaaTRISkRLdGhTZFNOOUdwbW1QaGtCQzhKOHZjczJwT1kyT0tMRlViSFo4dTZkSDZQbE5OOVM4UnJtbkJtS1BlNmNVekJ5RzE4aFdQd3NldS1NaW96V1JHVXNCS214aGE3Ulk1a2ZFWVpYUXdNVTItbjJVZVhuaVJrRl9mTVY0OUhQQ3NBcmhEaGJDbWtVM3ctcEpZMmNXRmQ2eW5NQTdoWXdQMU5EQklUWG8tQdIB3wFBVV95cUxPUmk3aURlMDFtY1FTWWdQVTVCemdLVHJqdXFhcDFmNUhrTi1uZjZ3T2poaGFzS1BJcFpjcU5OUDJNTVc2MEdwRWRwWUFSV0FGWXg2N2hxXzcwSVFfZHh5RkE4X3NJTzdKWWpqbjRGN3NGSlhva2poZWVPZjNDWHdTNzNtUG4xd3hHZWtZUlItYkFYWDA0RTdGTjUyMlQxc3E0ZGp1b1l1Qm5kTlA2OTgxQ2xvclhneXNhSm5RODZUOC1IczZEWUFKVjdoWEJpNkFLY3l3NE1Qd2JOaWpRVGRz?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-06-26T19:40:01+05:30",
-      "category": "Economy",
-      "summary": "SBI Card leads May credit card additions as industry adds nearly 1 mn cards Business Standard"
     }
   ]
 }
