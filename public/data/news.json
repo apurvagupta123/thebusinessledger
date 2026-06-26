@@ -1,7 +1,57 @@
 {
-  "lastUpdated": "2026-06-26T16:55:21+05:30",
+  "lastUpdated": "2026-06-26T19:01:46+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Goldman sees big tech stocks turning attractive amid chip volatility, 'you want to diversify toward hyperscalers'",
+      "excerpt": "Big tech stocks could turn more attractive in the artificial intelligence trade as chipmakers show continued volatility, according to Goldman Sachs Group Inc. strategist Christian Mueller-Glissmann.",
+      "url": "https://www.livemint.com/market/goldman-sees-big-tech-stocks-turning-attractive-amid-chip-volatility-you-want-to-diversify-toward-hyperscalers-11782477441260.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/26/1600x900/logo/GOLDMAN-SACHS-PROMOTIONS--0_1764605951603_1764605968775_1782477935269_db979198-d86c-42de-8bcf-51baeec5e7bf.JPG",
+      "publishedAt": "2026-06-26T18:18:00+05:30",
+      "category": "Markets",
+      "summary": "Big tech stocks could turn more attractive in the artificial intelligence trade as chipmakers show continued volatility, according to Goldman Sachs Group Inc. strategist Christian Mueller-Glissmann."
+    },
+    {
+      "title": "US stock market today: S&P 500, Nasdaq futures slide up to 1% as global tech sell-off resumes",
+      "excerpt": "US stock futures declined on 26 June due to a renewed global technology sell-off. Nasdaq futures dropped 1.1%, amid concerns over high valuations, production cuts, and rising market volatility, which are affecting invest",
+      "url": "https://www.livemint.com/market/us-stock-market-today-s-p-500-nasdaq-futures-slide-up-to-1-as-global-tech-sell-off-resumes-11782472705947.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/26/1600x900/logo/US-MARKETS-OPEN-AFTER-DOW-LOSES-NEARLY-900-POINTS-_1742189741876_1782472699474_47d2752b-983f-4743-9d84-da31f0c61fd4.jpg",
+      "publishedAt": "2026-06-26T17:57:11+05:30",
+      "category": "Markets",
+      "summary": "US stock futures declined on 26 June due to a renewed global technology sell-off. Nasdaq futures dropped 1.1%, amid concerns over high valuations, production cuts, and rising market volatility, which are affecting invest"
+    },
+    {
+      "title": "IMD Warns Of Heavy Rain In Northeast; Heatwave To Continue In East UP",
+      "excerpt": "The IMD has cautioned that these intense spells could trigger local flooding, waterlogging, landslides in hilly terrain and disruption to road and rail traffic, and has urged state authorities to stay on alert.",
+      "url": "https://www.ndtvprofit.com/india/weather-imd-warns-of-heavy-rain-in-northeast-heatwave-to-continue-in-east-uttar-pradesh-11690499#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/eehhq7ko_rain_625x300_26_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-26T17:26:37+05:30",
+      "category": "Markets",
+      "summary": "The IMD has cautioned that these intense spells could trigger local flooding, waterlogging, landslides in hilly terrain and disruption to road and rail traffic, and has urged state authorities to stay on alert."
+    },
+    {
+      "title": "China's Frontier Industries Trigger Investment Frenzy, Lift Bubble Risk",
+      "excerpt": "China's drive to narrow the technology gap with the US is unleashing a fresh wave of venture funding across frontier industries.",
+      "url": "https://www.ndtvprofit.com/world/business-china-frontier-industries-market-trigger-investment-frenzy-lift-valuation-startup-bubble-risk-11690863#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/8o02hs48_china_625x300_26_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-26T17:10:59+05:30",
+      "category": "Markets",
+      "summary": "China's drive to narrow the technology gap with the US is unleashing a fresh wave of venture funding across frontier industries."
+    },
+    {
+      "title": "Baahubali: The Return? Prabhas, Rana Daggubati Viral Documentary Moment Fuels Part 3 Buzz",
+      "excerpt": "The story of Baahubali did not end with its films. Animated projects such as Baahubali: The Lost Legends and Baahubali: Crown of Blood have kept the universe alive.",
+      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-cinema-movie-baahubali-the-return-prabhas-rana-daggubati-viral-documentary-moment-fuels-part-3-buzz-11690719#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/8189qccc_baahubali_625x300_26_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-26T16:43:21+05:30",
+      "category": "Markets",
+      "summary": "The story of Baahubali did not end with its films. Animated projects such as Baahubali: The Lost Legends and Baahubali: Crown of Blood have kept the universe alive."
+    },
     {
       "title": "Volkswagen May Cut Up To 1 Lakh Jobs; Close Four Plants In Major Revamp",
       "excerpt": "The company's works council and IG Metall union vowed to strongly oppose any attempt to close plants or implement deeper job cuts.",
@@ -11,16 +61,6 @@
       "publishedAt": "2026-06-26T16:28:04+05:30",
       "category": "Markets",
       "summary": "The company's works council and IG Metall union vowed to strongly oppose any attempt to close plants or implement deeper job cuts."
-    },
-    {
-      "title": "Will former RBI governor Shaktikanta Das replace Nirmala Sitharaman as finance minister? Cabinet rejig buzz intensifies - theweek.in",
-      "excerpt": "Will former RBI governor Shaktikanta Das replace Nirmala Sitharaman as finance minister? Cabinet rejig buzz intensifies theweek.in",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNklXcFJhaVdydDNqMGpBX2Juc2ViZTdBdEszbE5CTUlOQUFBanZGemxUZHVEOHdNZG5LdHNWZTFpQ2pxUEJ5TE9hWlI0VkNwS2xobjBzSk1Ic3Q5cW8wNjYxQ2NkdFdxWkI4cmJZdkZVcWh4SWxoTVRvNXV1QldMWmRfbmg5VXA3bnltQWpYZm55Yko4SVpscGItdVJRaG9Od3dqSTJiUnVzRHZjTVM0WkVwS0Q5QkdxVU1Gbk9MWk5rXzg5d09qWnhLaVBkVUdhRnZmeklPX19JYTB0WERucEc3QjNXUWc2c3VObDE3d3lENE4xNWN0VURmVFjSAYICQVVfeXFMT2g4OWVPQjF5aDJKXzM2ZkFUNnhSTFRONUxIWE43d0cxQXR1RnNSS0N4b2hLRF9YRUVaVnJLRzdhNkFBNHh1TmtnaEZIeDd4SmxlUjVpaVlXMzFrUHZ6R0FjSUJiZ0FLMlhwQXAwWjJRd3d4b09udnVRQzdTM2ZQZ2hOM25iZHRtUWwtS2FYTWdGXzVjRlNMd0hta2NPNmZNMjZad09qYk1Fc0Z1WEtQWEd1RG51bjNXaUoxX2lma1NXM05Ob1lZQ0hocEZuUHViVTFpaTRDdzNuSi03eTFNZ1BqcGdCQkFjZlp3d002NWhweklnY3RidUxhS1lZTHZqa0NB?oc=5",
-      "source": "theweek.in",
-      "image": null,
-      "publishedAt": "2026-06-26T16:30:16+05:30",
-      "category": "Economy",
-      "summary": "Will former RBI governor Shaktikanta Das replace Nirmala Sitharaman as finance minister? Cabinet rejig buzz intensifies theweek.in"
     },
     {
       "title": "Godrej, Blue Star See Premium Push After Voltas' 1-Million",
@@ -93,6 +133,16 @@
       "summary": "HDFC AMC's board will meet on July 15, 2026, to review financial results for June 2026. The trading window for shares closes from July 1-17, 2026. The firm launched a new sustainable investment strategy, HDFC Growth for "
     },
     {
+      "title": "India Inc profit hit from West Asia tensions to halve if truce holds, Crisil says",
+      "excerpt": "India Inc profit hit from West Asia tensions to halve if truce holds, Crisil says The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNzRHNnJwVndaUVd2SHBVMjBIQWdxUlhCSVdZbENxdjJ3N2VXSUszMV9LRUVtSDFScEViUnBXNHlPT1JFcUtmOFBoSF9zZXItMFFiOFozLWFEZERLcXowYm9GeFNPcFFXQkltM2RTNVBVYjJYWHNqQTFHbzVFdVVocXNsRjYteExrdThFLWY4Mi1NV0d6SUhRcGlrTVptT0UxOHRqWWxQdXdHbFY3dDZvekVIdUdjZHR0MTY2U01FWGVMQjJsalRIaHVHNVI0dURjMW9UbG4yM3JYUDZ1ZGRQQjBpdjg5QTBCUS1FNVFCbmw1OUtLX2fSAfYBQVVfeXFMTzc0RzZycFZ3WlFXdkhwVTIwSEFncVJYQklXWWxDcXYydzdlV0lLMzFfS0VFbUgxUnBFYlJwVzR5T09SRXFLZjhQaEhfc2VyLTBRYjhaMy1hRGRES3F6MGJvRnhTT3BRV0JJbTNkUzVQVWIyWFhzakExR281RXVVaHFzbEY2LXhMa3U4RS1mODItTVdHeklIUXBpa01abU9FMTh0allsUHV3R2xWN3Q2b3pFSHVHY2R0dDE2NlNNRVhlTEIybGpUSGh1RzVSNHVEYzFvVGxuMjNyWFA2dWRkUEIwaXY4OUEwQlEtRTVRQm5sNTlLS19n?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-06-26T15:22:00+05:30",
+      "category": "Economy",
+      "summary": "India Inc profit hit from West Asia tensions to halve if truce holds, Crisil says The Economic Times"
+    },
+    {
       "title": "Chart Beat: Q1FY27 growth seen steady for consumer staples—but it’s still a pricing story.",
       "excerpt": "Nomura analysts expect aggregate revenue growth of 10.4% year-on-year for consumer staples companies under their coverage in Q1FY27.",
       "url": "https://www.livemint.com/market/mark-to-market/q1fy27-consumer-staples-growth-price-hikes-demand-steady-11782461522560.html",
@@ -121,16 +171,6 @@
       "publishedAt": "2026-06-26T14:46:40+05:30",
       "category": "Markets",
       "summary": "Harshal Dasani, Business Head at INVAsset PMS argued that while the peak price view may have some merit, the stock is no longer being rewarded simply for growth."
-    },
-    {
-      "title": "Goldman Sachs Lifts India GDP Forecast to 6.8% as Oil Shock Fades",
-      "excerpt": "Goldman Sachs Lifts India GDP Forecast to 6.8% as Oil Shock Fades NiftyTrader",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95bVhTdlMydXVuVWQ1V3FvY0Ewa2VvZkRSVDY3bTN4Y3hieU5HdnNLa2RoTml6aEw4TFhXeW5JY21JM1hNOEVCWjZ6SFJxZ3JLQTJVSjVkTTZjSU1xVmZEZ3ZMRi1OWUwydW1DLWhma1hvTXhPd000RmJjd3I?oc=5",
-      "source": "NiftyTrader",
-      "image": null,
-      "publishedAt": "2026-06-26T14:40:03+05:30",
-      "category": "Economy",
-      "summary": "Goldman Sachs Lifts India GDP Forecast to 6.8% as Oil Shock Fades NiftyTrader"
     },
     {
       "title": "Why Multi-Cap funds could be the smartest diversification bet right now? All you need to know about them",
@@ -211,46 +251,6 @@
       "publishedAt": "2026-06-26T13:59:01+05:30",
       "category": "Markets",
       "summary": "Foreign investors pulled money from India-focused funds in the March quarter as capital shifted toward AI-linked markets such as Korea and Taiwan, even as some investors see early signs of macro stabilization in India."
-    },
-    {
-      "title": "Cocktail 2 Box Office Collection Day 7: Shahid Kapoor's Film Records Expected Weekday Drop, Mints This Amount",
-      "excerpt": "Despite the expected weekday slowdown, Cocktail 2 has managed to post a respectable opening-week total in India and overseas.",
-      "url": "https://www.ndtvprofit.com/lifestyle/cocktail-2-box-office-collection-day-7-shahid-kapoors-film-records-expected-weekday-drop-mints-this-amount-11690297#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/5gfvm5dg_cocktail-2_625x300_26_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-26T13:58:24+05:30",
-      "category": "Markets",
-      "summary": "Despite the expected weekday slowdown, Cocktail 2 has managed to post a respectable opening-week total in India and overseas."
-    },
-    {
-      "title": "HDFC Bank, ICICI Bank remain top bets as valuations stay attractive, says Kotak",
-      "excerpt": "Kotak Institutional Equities supports leading private banks like HDFC and ICICI, believing they will benefit from improved loan yields and lower funding costs. They remain cautious on loan demand but expect strong asset ",
-      "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-icici-bank-remain-top-bets-as-valuations-stay-attractive-says-kotak-11782460138914.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/26/1600x900/logo/2-0-731964598-icici-hdfc-0_1680335541146_1782460779614_d7055129-b059-4517-9ebf-c6786cf5741c.jpg",
-      "publishedAt": "2026-06-26T13:35:49+05:30",
-      "category": "Markets",
-      "summary": "Kotak Institutional Equities supports leading private banks like HDFC and ICICI, believing they will benefit from improved loan yields and lower funding costs. They remain cautious on loan demand but expect strong asset "
-    },
-    {
-      "title": "Welcome To The Jungle X Review: 'Leave Logic At The Door,' Say Early Viewers; Akshay Kumar Impresses",
-      "excerpt": "Directed by Ahmed Khan, 'Welcome To The Jungle' serves as the third chapter in the Welcome franchise after Welcome (2007) and Welcome Back (2015).",
-      "url": "https://www.ndtvprofit.com/lifestyle/welcome-to-the-jungle-x-review-leave-logic-at-the-door-say-early-viewers-akshay-kumar-impresses-11690198#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/ufes932c_welcome-to-the-jungle_625x300_26_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-26T13:33:54+05:30",
-      "category": "Markets",
-      "summary": "Directed by Ahmed Khan, 'Welcome To The Jungle' serves as the third chapter in the Welcome franchise after Welcome (2007) and Welcome Back (2015)."
-    },
-    {
-      "title": "Centre Reveals Names Of Six Soldiers Killed During Operation Sindoor For The First Time",
-      "excerpt": "Their names have been included in the Roll of Honour on the National War Memorial website and engraved on Wall 3D of the National War Memorial in the 2025 section in New Delhi.",
-      "url": "https://www.ndtvprofit.com/india/centre-reveals-names-of-six-soldiers-killed-during-operation-sindoor-for-the-first-time-11690141#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/30bmnp8k_army-pexel_625x300_26_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-26T13:28:45+05:30",
-      "category": "Markets",
-      "summary": "Their names have been included in the Roll of Honour on the National War Memorial website and engraved on Wall 3D of the National War Memorial in the 2025 section in New Delhi."
     }
   ]
 }
