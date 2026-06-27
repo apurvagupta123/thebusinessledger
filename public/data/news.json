@@ -1,16 +1,96 @@
 {
-  "lastUpdated": "2026-06-27T11:03:11+05:30",
+  "lastUpdated": "2026-06-27T14:13:02+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "US stock markets: Dow Jones hits record high, Nasdaq sinks 4.6%",
-      "excerpt": "For the week ended June 26, the Dow Jones Industrial Average outperformed its peers, gaining about 0.6% to close at a record high. The broader S&amp;P 500, however, declined 2.0%, while the tech-heavy Nasdaq Composite tu",
-      "url": "https://www.livemint.com/market/stock-market-news/us-stock-markets-dow-jones-hits-record-high-nasdaq-sinks-4-6-what-shook-wall-street-this-week-11782534509448.html",
+      "title": "Vijay Kedia explains why every bull market ends the same way—and where the next opportunity could be",
+      "excerpt": "Vijay Kedia shares insights on market cycles, explaining that investment opportunities rotate through phases of optimism, euphoria, and correction. He encourages investors to recognize patterns in asset classes and advis",
+      "url": "https://www.livemint.com/market/stock-market-news/vijay-kedia-explains-why-every-bull-market-ends-the-same-way-and-where-the-next-opportunity-could-be-11782543928152.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/27/1600x900/logo/US_stock_markets_this_week_1782535773331_1782535773510_47bba757-30a4-4d52-94ea-b75a3d6ac3f7.jpg",
-      "publishedAt": "2026-06-27T10:29:59+05:30",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/27/1600x900/logo/Vijay_Kedia_1746090687461_1782544111120_57637039-456f-4c53-9b05-654fbb855dc2.jpg",
+      "publishedAt": "2026-06-27T12:48:37+05:30",
       "category": "Markets",
-      "summary": "For the week ended June 26, the Dow Jones Industrial Average outperformed its peers, gaining about 0.6% to close at a record high. The broader S&amp;P 500, however, declined 2.0%, while the tech-heavy Nasdaq Composite tu"
+      "summary": "Vijay Kedia shares insights on market cycles, explaining that investment opportunities rotate through phases of optimism, euphoria, and correction. He encourages investors to recognize patterns in asset classes and advis"
+    },
+    {
+      "title": "Explained: Israel-Lebanon Agreement And Why Hezbollah Is Warning Of A 'Civil War'",
+      "excerpt": "Reacting to the development, Israeli Prime Minister Benjamin Netanyahu also praised the agreement, saying that it marked a victory against Iran.",
+      "url": "https://www.ndtvprofit.com/world/explained-israel-lebanon-agreement-and-why-hezbollah-is-warning-of-a-civil-war-11694181#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/u0b3o1e4_m_625x300_27_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T12:30:36+05:30",
+      "category": "Markets",
+      "summary": "Reacting to the development, Israeli Prime Minister Benjamin Netanyahu also praised the agreement, saying that it marked a victory against Iran."
+    },
+    {
+      "title": "Veteran Tamil Filmmaker K Bhagyaraj, Master Of Middle",
+      "excerpt": "He was highly praised for his remarkable narrative skills, screenplay composition, and input into middle-class family films. Further information regarding his final ceremonies is still under wraps",
+      "url": "https://www.ndtvprofit.com/lifestyle/veteran-tamil-filmmaker-k-bhagyaraj-master-of-middle-class-family-dramas-passes-away-at-73-11694222#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2018-11/kp9mi2mg_bhagyaraj_625x300_02_November_18.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T12:20:25+05:30",
+      "category": "Markets",
+      "summary": "He was highly praised for his remarkable narrative skills, screenplay composition, and input into middle-class family films. Further information regarding his final ceremonies is still under wraps"
+    },
+    {
+      "title": "'India's Growth Story Is Intact': Seth Freeman Is Backing These Sectors Despite War And AI Uncertainty",
+      "excerpt": "Beyond geopolitics, he believes artificial intelligence remains another major theme shaping global capital flows. Massive investments are currently being made in AI infrastructure, data centres and semiconductor manufact",
+      "url": "https://www.ndtvprofit.com/markets/seth-freeman-is-backing-these-sectors-auto-healthcare-despite-war-and-ai-uncertainty-11694286#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/nmg2oddo_markets_625x300_17_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T12:14:00+05:30",
+      "category": "Markets",
+      "summary": "Beyond geopolitics, he believes artificial intelligence remains another major theme shaping global capital flows. Massive investments are currently being made in AI infrastructure, data centres and semiconductor manufact"
+    },
+    {
+      "title": "After months of pain, Dalal Street is ready for a comeback? ICICI Securities explains why",
+      "excerpt": "ICICI Securities reports that Indian equities are starting to improve due to better macroeconomic conditions, more attractive valuations, and reduced foreign selling. Despite previous market challenges, the outlook for e",
+      "url": "https://www.livemint.com/market/stock-market-news/after-months-of-pain-dalal-street-is-ready-for-a-comeback-icici-securities-explains-why-indian-stock-markets-nifty-50-11782541477744.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/27/1600x900/logo/indian_stock_market_1782541632832_1782541632933_1cabc7a3-85c7-40f8-9830-57eabac24872.jpg",
+      "publishedAt": "2026-06-27T12:03:39+05:30",
+      "category": "Markets",
+      "summary": "ICICI Securities reports that Indian equities are starting to improve due to better macroeconomic conditions, more attractive valuations, and reduced foreign selling. Despite previous market challenges, the outlook for e"
+    },
+    {
+      "title": "ISRO Fires Up Next",
+      "excerpt": "The successful trial followed earlier tests at 47% and 60% thrust, ISRO said, adding the latest achievement will provide \"sufficient confidence\" to proceed with a full-thrust demonstration at 200 tons.",
+      "url": "https://www.ndtvprofit.com/business/isro-fires-up-next-gen-rocket-engine-in-tamil-nadu-11694240#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/5c5ads2s_isrospacecraftlvm3m6_625x300_22_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T11:59:11+05:30",
+      "category": "Markets",
+      "summary": "The successful trial followed earlier tests at 47% and 60% thrust, ISRO said, adding the latest achievement will provide \"sufficient confidence\" to proceed with a full-thrust demonstration at 200 tons."
+    },
+    {
+      "title": "Meet Prabhjeet Singh, OpenAI's New Managing Director For India",
+      "excerpt": "Prabhjeet Singh started his career in 2005 with Lehman Brothers. He has also worked in Uber and McKinsey.",
+      "url": "https://www.ndtvprofit.com/business/who-is-prabhjeet-singh-openai-s-new-managing-director-and-most-senior-leader-in-india-11694000#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/5fd3c2rc_prabhjeet-singh_625x300_27_June_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T11:01:24+05:30",
+      "category": "Markets",
+      "summary": "Prabhjeet Singh started his career in 2005 with Lehman Brothers. He has also worked in Uber and McKinsey."
+    },
+    {
+      "title": "Explained: Why 35 Degree Celsius In Britain Can Feel Hotter Than 45 Degree Celsius In India",
+      "excerpt": "In countries like India, people, buildings and daily routines have evolved around recurring periods of extreme heat. Britain, on the other hand, is a country whose homes, infrastructure and public services were largely d",
+      "url": "https://www.ndtvprofit.com/world/explained-why-35-degree-celsius-in-britain-can-feel-hotter-than-45-degree-celsius-in-india-11693924#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/1ben0b3k_europe-heatwave_625x300_22_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T10:49:51+05:30",
+      "category": "Markets",
+      "summary": "In countries like India, people, buildings and daily routines have evolved around recurring periods of extreme heat. Britain, on the other hand, is a country whose homes, infrastructure and public services were largely d"
+    },
+    {
+      "title": "Mumbai Lake Levels Hit Critical Lows At 7.3% Capacity; Water Crisis Deepens Despite Monsoon Onset",
+      "excerpt": "These lakes - Upper Vaitarna, Middle Vaitarna, Bhatsa, Tansa, Tulsi, Modak Sagar and Vihar - are heavily dependent on southwest monsoon for their replenishment.",
+      "url": "https://www.ndtvprofit.com/india/mumbai-lake-levels-plummet-to-7-3-capacity-water-crisis-deepens-despite-monsoon-onset-11693976#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/ab19582d_waterlevel.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T10:46:25+05:30",
+      "category": "Markets",
+      "summary": "These lakes - Upper Vaitarna, Middle Vaitarna, Bhatsa, Tansa, Tulsi, Modak Sagar and Vihar - are heavily dependent on southwest monsoon for their replenishment."
     },
     {
       "title": "How RBI’s 2026 TReDS directions advance the MSME financing reform",
@@ -21,6 +101,26 @@
       "publishedAt": "2026-06-27T10:44:47+05:30",
       "category": "Economy",
       "summary": "How RBI’s 2026 TReDS directions advance the MSME financing reform The Economic Times"
+    },
+    {
+      "title": "'Violence Will Be Met With Violence': JD Vance's Warning As US Strikes Iran Again",
+      "excerpt": "In a post on his social media account, Vance wrote that Iran had signed a ceasefire and that the US had \"honoured it\".",
+      "url": "https://www.ndtvprofit.com/world/jd-vance-on-iran-violence-will-be-met-with-violence-11693971#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/0k586vjg_jd-vance-photo-pti_625x300_19_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-27T10:38:52+05:30",
+      "category": "Markets",
+      "summary": "In a post on his social media account, Vance wrote that Iran had signed a ceasefire and that the US had \"honoured it\"."
+    },
+    {
+      "title": "US stock markets: Dow Jones hits record high, Nasdaq sinks 4.6%",
+      "excerpt": "For the week ended June 26, the Dow Jones Industrial Average outperformed its peers, gaining about 0.6% to close at a record high. The broader S&amp;P 500, however, declined 2.0%, while the tech-heavy Nasdaq Composite tu",
+      "url": "https://www.livemint.com/market/stock-market-news/us-stock-markets-dow-jones-hits-record-high-nasdaq-sinks-4-6-what-shook-wall-street-this-week-11782534509448.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/06/27/1600x900/logo/US_stock_markets_this_week_1782535773331_1782535773510_47bba757-30a4-4d52-94ea-b75a3d6ac3f7.jpg",
+      "publishedAt": "2026-06-27T10:29:59+05:30",
+      "category": "Markets",
+      "summary": "For the week ended June 26, the Dow Jones Industrial Average outperformed its peers, gaining about 0.6% to close at a record high. The broader S&amp;P 500, however, declined 2.0%, while the tech-heavy Nasdaq Composite tu"
     },
     {
       "title": "Cabo Verde vs Saudi Arabia Highlights: Blue Sharks Script History, Reach Round Of 32 At FIFA World Cup 2026",
@@ -41,16 +141,6 @@
       "publishedAt": "2026-06-27T10:04:18+05:30",
       "category": "Markets",
       "summary": "She purportedly told police that eliminating Ketan and passing it off as an accident at the fort seemed like an \"easier\" option than confronting her parents and calling off the marriage."
-    },
-    {
-      "title": "Explained: Why 35 Degree Celsius In Britain Can Feel Hotter Than 45 Degree Celsius In India",
-      "excerpt": "In countries like India, people, buildings and daily routines have evolved around recurring periods of extreme heat. Britain, on the other hand, is a country whose homes, infrastructure and public services were largely d",
-      "url": "https://www.ndtvprofit.com/world/explained-why-35-degree-celsius-in-britain-can-feel-hotter-than-45-degree-celsius-in-india-11693924#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/1ben0b3k_europe-heatwave_625x300_22_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-27T10:03:43+05:30",
-      "category": "Markets",
-      "summary": "In countries like India, people, buildings and daily routines have evolved around recurring periods of extreme heat. Britain, on the other hand, is a country whose homes, infrastructure and public services were largely d"
     },
     {
       "title": "Hyderabad Names Road After Trump; US President Thanks India For 'Unprecedented Honour'",
@@ -161,96 +251,6 @@
       "publishedAt": "2026-06-27T05:00:01+05:30",
       "category": "Markets",
       "summary": "The Belgium national team vs the New Zealand national team match will get underway at 8.30 AM IST on Saturday and can be watched on the Unite8 Sports television channels, and ZEE5 app and website."
-    },
-    {
-      "title": "Uruguay vs Spain Live Streaming: Starting XI, Team News; Where To Watch FIFA World Cup Match?",
-      "excerpt": "The Spain national team vs Uruguay national team FIFA World Cup 2026 match will get underway at 5:30 a.m. IST on Saturday and can be watched on the Unite8 Sports television channels, and ZEE5 app and website.",
-      "url": "https://www.ndtvprofit.com/sports/football-fifa-world-cup-2026-uruguay-vs-spain-live-streaming-telecast-time-where-to-watch-match-tv-online-india-zee5-unite8-uru-vs-esp-lamine-yamal-11691267#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/pic4jcu_laime-yamal_625x300_27_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-27T04:20:58+05:30",
-      "category": "Markets",
-      "summary": "The Spain national team vs Uruguay national team FIFA World Cup 2026 match will get underway at 5:30 a.m. IST on Saturday and can be watched on the Unite8 Sports television channels, and ZEE5 app and website."
-    },
-    {
-      "title": "France vs Norway Highlights: Ousmane Dembele's Hat-Trick Helps Les Bleus Finish Top Of Group I At FIFA World Cup 2026",
-      "excerpt": "France completed a perfect group-stage campaign with a 4-1 win over Norway, while Senegal kept their knockout hopes alive with a 5-0 victory over Iraq.",
-      "url": "https://www.ndtvprofit.com/sports/football-fifa-world-cup-2026-france-vs-norway-group-i-match-score-highlights-result-standings-senegal-vs-iraq-ousmane-dembele-11693278#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/jktmpr14_dembele_625x300_27_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-27T03:55:56+05:30",
-      "category": "Markets",
-      "summary": "France completed a perfect group-stage campaign with a 4-1 win over Norway, while Senegal kept their knockout hopes alive with a 5-0 victory over Iraq."
-    },
-    {
-      "title": "FIFA World Cup 2026: Ousmane Dembele Sets French Record With Hat",
-      "excerpt": "The reigning Men's Ballon d'Or winner scored three times inside the opening 32 minutes against Norway, setting a new French record for fastest World Cup hat-trick.",
-      "url": "https://www.ndtvprofit.com/sports/fifa-world-cup-2026-ousmane-dembele-sets-french-record-with-hat-trick-against-norway-11693117#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/eb6521nk_dembele_625x300_27_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-27T01:53:03+05:30",
-      "category": "Markets",
-      "summary": "The reigning Men's Ballon d'Or winner scored three times inside the opening 32 minutes against Norway, setting a new French record for fastest World Cup hat-trick."
-    },
-    {
-      "title": "US stocks: US market ends lower as tech stocks weigh on sentiment",
-      "excerpt": "Wall Street ended lower on Friday, with AI chip stocks experiencing a significant downturn while Moderna and other healthcare companies surged. Investors are weighing the long-term potential of AI against concerns about ",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-lower-chips-tumble-and-moderna-rallies/articleshow/132024472.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-06-27T01:33:35+05:30",
-      "category": "Markets",
-      "summary": "Wall Street ended lower on Friday, with AI chip stocks experiencing a significant downturn while Moderna and other healthcare companies surged. Investors are weighing the long-term potential of AI against concerns about "
-    },
-    {
-      "title": "ET Graphics: From budget to premium, gadget Prices Rise",
-      "excerpt": "ET Graphics: From budget to premium, gadget Prices Rise The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU2kzOVVTOVZSaktBTkw5cUF3UkFKR0dYOHRfeDMwamhWM0dVS09DQ0pzdjUxcmxackJqVzcxRFgwd0U1Qm1fczMxLTFwMzA1NnpzRW9pYUxZTERNUGg0VkU0a2FaeU02LVA3cExvWFBCZDNnZkpuejFLeVBtblRnV1M5ZTFOeDI2akpGbXhtX1hrdFlsajI5ZkkxVWM5dW5vQUtOTUcwbFRnclRWd0RxYTl1YURWR1FrOXdNMUxmQTlzNE5qYmk5VHJFM0xQa3lXZVM3WFM2NzBMT0JJZV800gHfAUFVX3lxTE1TaTM5VVM5VlJqS0FOTDlxQXdSQUpHR1g4dF94MzBqaFYzR1VLT0NDSnN2NTFybFpyQmpXNzFEWDB3RTVCbV9zMzEtMXAzMDU2enNFb2lhTFlMRE1QaDRWRTRrYVp5TTYtUDdwTG9YUEJkM2dmSm56MUt5UG1uVGdXUzllMU54MjZqSkZteG1fWGt0WWxqMjlmSTFVYzl1bm9BS05NRzBsVGdyVFZ3RHFhOXVhRFZHUWs5d00xTGZBOXM0TmpiaTlUckUzTFBreVdlUzdYUzY3MExPQkllXzQ?oc=5",
-      "source": "The Economic Times",
-      "image": null,
-      "publishedAt": "2026-06-27T01:07:00+05:30",
-      "category": "Economy",
-      "summary": "ET Graphics: From budget to premium, gadget Prices Rise The Economic Times"
-    },
-    {
-      "title": "Norway vs France Live Streaming: Lineups; How To Watch Mbappe, Haaland In Action In World Cup Match?",
-      "excerpt": "The Norway national football team vs France national football team match will get underway at 12:30 a.m. IST on Saturday and can be watched on the Unite8 Sports television channels, and ZEE5 app and website.",
-      "url": "https://www.ndtvprofit.com/sports/football-fifa-world-cup-2026-norway-vs-france-live-streaming-telecast-time-where-to-watch-match-tv-online-india-nor-fra-kylian-mbappe-erling-haaland-11685845#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/5bnj168c_kylian-mbappe-and-erling-haaland_625x300_25_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-27T00:09:07+05:30",
-      "category": "Markets",
-      "summary": "The Norway national football team vs France national football team match will get underway at 12:30 a.m. IST on Saturday and can be watched on the Unite8 Sports television channels, and ZEE5 app and website."
-    },
-    {
-      "title": "HDFC Bank Says Legal Review Finds No Basis For Ex",
-      "excerpt": "Three-month review of board records and interviews found no evidence supporting the allegations.",
-      "url": "https://www.ndtvprofit.com/business/hdfc-bank-says-legal-review-finds-no-basis-for-ex-directors-claims-11692794#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/gq56oig_hdfc-bank_625x300_07_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-26T23:07:59+05:30",
-      "category": "Markets",
-      "summary": "Three-month review of board records and interviews found no evidence supporting the allegations."
-    },
-    {
-      "title": "Gold, silver rates today: Comex gold extends rebound above $4,100; silver gains for second day as dollar weakens",
-      "excerpt": "Gold and silver prices increased for the second day, aided by a weaker US dollar. Gold rose to $4,111, despite continuing a decline, while silver reached $59.53. Both metals are on track for significant weekly losses as ",
-      "url": "https://www.livemint.com/market/gold-silver-rates-today-comex-gold-extends-rebound-above-4-100-silver-gains-for-second-day-as-dollar-weakens-11782485641916.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/26/1600x900/logo/im-02090361_1769421972201_1782489208380_059b23da-511d-480e-99be-5cf382affb8c.jpg",
-      "publishedAt": "2026-06-26T23:02:59+05:30",
-      "category": "Markets",
-      "summary": "Gold and silver prices increased for the second day, aided by a weaker US dollar. Gold rose to $4,111, despite continuing a decline, while silver reached $59.53. Both metals are on track for significant weekly losses as "
-    },
-    {
-      "title": "Uber India's Outgoing Chief Prabhjeet Singh To Join OpenAI As India MD: Report",
-      "excerpt": "Additionally, he will concentrate on building partnerships across India's AI ecosystem while helping consumers, businesses, institutions and government bodies adopt artificial intelligence.",
-      "url": "https://www.ndtvprofit.com/business/uber-indias-outgoing-chief-prabhjeet-singh-to-join-openai-as-india-md-report-11692752#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/83jhun4k_g_625x300_26_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-26T22:55:01+05:30",
-      "category": "Markets",
-      "summary": "Additionally, he will concentrate on building partnerships across India's AI ecosystem while helping consumers, businesses, institutions and government bodies adopt artificial intelligence."
     }
   ]
 }
