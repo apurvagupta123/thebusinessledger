@@ -1,7 +1,57 @@
 {
-  "lastUpdated": "2026-06-28T17:19:10+05:30",
+  "lastUpdated": "2026-06-28T19:29:53+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Deadly Skydiving Crash In Northeastern France Claims 11 Lives",
+      "excerpt": "Plane carrying a group of skydivers crashes in Tomblaine, sparking investigation into cause",
+      "url": "https://www.ndtvprofit.com/world/deadly-skydiving-crash-in-northeastern-france-claims-11-lives-11698822#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/4p4uhlm8_chart_625x300_28_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T18:18:27+05:30",
+      "category": "Markets",
+      "summary": "Plane carrying a group of skydivers crashes in Tomblaine, sparking investigation into cause"
+    },
+    {
+      "title": "Saudi Aramco Helicopter Crash In Ras Tanura Kills All 14 On Board",
+      "excerpt": "Ras Tanura is home to the Middle East's largest oil refinery, which is run by Aramco.",
+      "url": "https://www.ndtvprofit.com/world/saudi-aramco-helicopter-crash-in-ras-tanura-kills-all-14-on-board-11698778#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/mjg928b_aramco_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T18:13:40+05:30",
+      "category": "Markets",
+      "summary": "Ras Tanura is home to the Middle East's largest oil refinery, which is run by Aramco."
+    },
+    {
+      "title": "'Least Contributors Cannot Bear Greatest Burden': Modi's Climate Message From Seychelles",
+      "excerpt": "The prime minister stressed that climate action must be guided by fairness, responsibility and collective efforts.",
+      "url": "https://www.ndtvprofit.com/world/least-contributors-cannot-bear-greatest-burden-modi-s-climate-message-from-seychelles-11698645#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/etmeshtg_modi_625x300_28_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T17:57:57+05:30",
+      "category": "Markets",
+      "summary": "The prime minister stressed that climate action must be guided by fairness, responsibility and collective efforts."
+    },
+    {
+      "title": "SpiceJet To Refund Fare, Pay Rs 52,000 Compensation To Srinagar Couple Denied Boarding After Hajj",
+      "excerpt": "The consumer commission bench said SpiceJet is 'held liable not only for being deficient in service but also for adopting unfair trade practice towards the complainant'.",
+      "url": "https://www.ndtvprofit.com/business/spicejet-to-refund-fare-pay-rs-52-000-compensation-to-srinagar-couple-denied-boarding-after-hajj-11698476#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/2j840utk_spicejet_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T17:41:10+05:30",
+      "category": "Markets",
+      "summary": "The consumer commission bench said SpiceJet is 'held liable not only for being deficient in service but also for adopting unfair trade practice towards the complainant'."
+    },
+    {
+      "title": "Trade Setup For June 29: Nifty Bulls Eye 24,200 Breakout To Maintain Positive Momentum",
+      "excerpt": "The Bank Nifty index is also expected to continue its upmove as the broader trend remains constructive after the index recently gave a consolidation breakout.",
+      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-june-29-nifty-bulls-eye-24-200-breakout-to-maintain-positive-momentum-11691454#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/4n3vrsc8_j_625x300_26_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T17:31:34+05:30",
+      "category": "Markets",
+      "summary": "The Bank Nifty index is also expected to continue its upmove as the broader trend remains constructive after the index recently gave a consolidation breakout."
+    },
     {
       "title": "Modi spotlights shift to public transport, natural fertilizers amid Gulf crisis",
       "excerpt": "Addressing the nation in his monthly radio broadcast ‘Mann Ki Baat’, Modi said that following his appeal to avoid foreign travel and cut gold purchases, many people have postponed overseas holidays and chosen not to buy ",
@@ -11,6 +61,16 @@
       "publishedAt": "2026-06-28T17:16:42+05:30",
       "category": "Economy",
       "summary": "Addressing the nation in his monthly radio broadcast ‘Mann Ki Baat’, Modi said that following his appeal to avoid foreign travel and cut gold purchases, many people have postponed overseas holidays and chosen not to buy "
+    },
+    {
+      "title": "Elon Musk Unveils Grok 4.5 Private Beta, Claims AI Rivals Claude Opus",
+      "excerpt": "Musk said xAI plans to release 'completely-trained-from-scratch' new models through SpaceX every month for the rest of the year.",
+      "url": "https://www.ndtvprofit.com/business/musk-unveils-grok-4-5-private-beta-claims-ai-rivals-claude-opus-11698558#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/ujmse3vo_elon-musk_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T17:07:00+05:30",
+      "category": "Markets",
+      "summary": "Musk said xAI plans to release 'completely-trained-from-scratch' new models through SpaceX every month for the rest of the year."
     },
     {
       "title": "Aditya Infotech: investors need to focus on far range clarity as valuation looks stretched for now",
@@ -23,14 +83,114 @@
       "summary": "Aditya Infotech's stock has rallied 427% since its IPO in July last year, pushing its valuation to a stretched 47x EV/Ebitda even as questions emerge over its reported market-share gains.&nbsp;"
     },
     {
+      "title": "IND vs AUS Women's T20 World Cup: Live Streaming, Probable XI & Head-to",
+      "excerpt": "India and Australia will go head to head as Harmanpreet Kaur and Co. fight to keep their semi-final hopes alive.",
+      "url": "https://www.ndtvprofit.com/sports/india-vs-australia-womens-t20-world-cup-live-telecast-11694322#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/1aodjlqs_india_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T17:00:21+05:30",
+      "category": "Markets",
+      "summary": "India and Australia will go head to head as Harmanpreet Kaur and Co. fight to keep their semi-final hopes alive."
+    },
+    {
+      "title": "India Deepens Indian Ocean Outreach With 19 New Agreements In Seychelles",
+      "excerpt": "Strategic partnership grows through defence support, economic links and capacity-building initiatives.",
+      "url": "https://www.ndtvprofit.com/world/india-deepens-indian-ocean-outreach-with-19-new-agreements-in-seychelles-11698477#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/m42cju08_modi_625x300_28_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:56:13+05:30",
+      "category": "Markets",
+      "summary": "Strategic partnership grows through defence support, economic links and capacity-building initiatives."
+    },
+    {
+      "title": "Israel Eyes US Listing For Arrow, Iron Dome Makers IAI, Rafael Advanced Defense Systems: Report",
+      "excerpt": "American regulators are widely seen as more willing than their Israeli counterparts to grant disclosure exemptions on national security grounds.",
+      "url": "https://www.ndtvprofit.com/markets/israel-eyes-us-listing-for-arrow-iron-dome-makers-iai-and-rafael-report-11698358#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/2jh7pvr_israel_625x300_28_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:47:11+05:30",
+      "category": "Markets",
+      "summary": "American regulators are widely seen as more willing than their Israeli counterparts to grant disclosure exemptions on national security grounds."
+    },
+    {
+      "title": "Iran Declares 30-Day Oversight Of Strait of Hormuz; Warns Against External Intervention",
+      "excerpt": "Foreign Minister Abbas Araghchi says Tehran will manage the strategic waterway until obstacles are removed and normal operations resume",
+      "url": "https://www.ndtvprofit.com/world/iran-declares-30-day-oversight-of-strait-of-hormuz-warns-against-external-intervention-11698403#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/eblmn2jg_strait-of-hormuz_625x300_19_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:32:52+05:30",
+      "category": "Markets",
+      "summary": "Foreign Minister Abbas Araghchi says Tehran will manage the strategic waterway until obstacles are removed and normal operations resume"
+    },
+    {
+      "title": "Google Puts Brakes On Meta's Gemini AI Usage Over Capacity Shortfall",
+      "excerpt": "The reported restrictions come as tech companies race to secure computing power to fuel growing artificial intelligence ambitions.",
+      "url": "https://www.ndtvprofit.com/business/google-puts-brakes-on-meta-s-gemini-ai-usage-over-capacity-shortfall-11698297#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/6sjbuugk_google_625x300_28_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:16:05+05:30",
+      "category": "Markets",
+      "summary": "The reported restrictions come as tech companies race to secure computing power to fuel growing artificial intelligence ambitions."
+    },
+    {
       "title": "Tata Motors EV Arm Eyes 30% Penetration By FY31 With Ten Refreshes",
       "excerpt": "The company is preparing for the next phase of growth in its electric vehicles segment.",
       "url": "https://www.ndtvprofit.com/business/tata-motors-passenger-vehicles-to-accelerate-ev-push-with-4-new-models-10-refreshes-by-fy31-11697614#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-01/baafa20c_Signage-of-Tata-Motors-Ltd.-on-truck-Photo-Vijay-Sartape-Source-NDTV-Profit-280725.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T15:46:55+05:30",
+      "publishedAt": "2026-06-28T16:06:38+05:30",
       "category": "Markets",
       "summary": "The company is preparing for the next phase of growth in its electric vehicles segment."
+    },
+    {
+      "title": "GST Turns 10, Focus Shifts To AI-Led Compliance, Quicker Refunds, Simpler Tax Processes",
+      "excerpt": "Finance Minister Nirmala Sitharaman said the next-gen GST will leave more cash in the hands of people.",
+      "url": "https://www.ndtvprofit.com/business/as-gst-turns-10-focus-shifts-to-ai-led-compliance-faster-refunds-simpler-tax-processes-11697653#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/854561f2_rupixen_com_KzUiI7ENbws_unsplash.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:04:40+05:30",
+      "category": "Markets",
+      "summary": "Finance Minister Nirmala Sitharaman said the next-gen GST will leave more cash in the hands of people."
+    },
+    {
+      "title": "Dividend Stocks To Watch Next Week: Bajaj Finance, M&M, Tech Mahindra, Welspun Corp, Biocon — Check Amount, Record Date",
+      "excerpt": "Bajaj Finance, Mahindra & Mahindra, Tech Mahindra, Shriram Finance, Bajaj Finserv and several other companies will trade ex-dividend next week. Here's the complete list of record dates and dividend amounts.",
+      "url": "https://www.ndtvprofit.com/markets/dividend-stocks-to-watch-next-week-bajaj-finance-m-m-tech-mahindra-welspun-corp-biocon-check-amount-record-date-11698422#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/m6r1ihvs_dividend-stocks-this-week_625x300_19_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:04:34+05:30",
+      "category": "Markets",
+      "summary": "Bajaj Finance, Mahindra & Mahindra, Tech Mahindra, Shriram Finance, Bajaj Finserv and several other companies will trade ex-dividend next week. Here's the complete list of record dates and dividend amounts."
+    },
+    {
+      "title": "UP RERA Identifies 76 Projects With Promoters Who Failed To Upload Annual Audit Reports",
+      "excerpt": "Promoters who fail to file the annual audit report will have to pay a late fee of Rs 25,000 for the relevant financial year.",
+      "url": "https://www.ndtvprofit.com/business/up-rera-issues-show-cause-notices-to-76-realty-promoters-for-failing-to-upload-annual-audit-reports-11697721#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/7b160021_hardik-joshi-niUei6OnuiA-unsplash-1.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:03:37+05:30",
+      "category": "Markets",
+      "summary": "Promoters who fail to file the annual audit report will have to pay a late fee of Rs 25,000 for the relevant financial year."
+    },
+    {
+      "title": "Corporate Actions This Week: Bajaj Finance, Biocon, Bharat Forge, M&M To Trade Ex",
+      "excerpt": "Jyothy Labs Ltd will go ex-dividend on Monday for a final dividend of Rs 3.5 per share.",
+      "url": "https://www.ndtvprofit.com/markets/corporate-actions-this-week-bajaj-finance-biocon-bharat-forge-m-m-tech-mahindra-welspun-enterprises-to-trade-ex-dividend-full-list-11698361#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-03/sfc6rdus_corporate-actions_625x300_08_March_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:03:37+05:30",
+      "category": "Markets",
+      "summary": "Jyothy Labs Ltd will go ex-dividend on Monday for a final dividend of Rs 3.5 per share."
+    },
+    {
+      "title": "Telangana Government, SBI Reach Amicable Solution Over Land Row",
+      "excerpt": "SBI officials said further action would be taken after obtaining the approval of their board.",
+      "url": "https://www.ndtvprofit.com/business/telangana-govt-sbi-reach-amicable-solution-to-land-row-11696697#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/b7beb56b_State-Bank-of-India-BKC-branch.-Photo-Vijay-Sartape-Source-NDTV-Profit-29112024.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-06-28T16:01:48+05:30",
+      "category": "Markets",
+      "summary": "SBI officials said further action would be taken after obtaining the approval of their board."
     },
     {
       "title": "US-Iran Tensions, Crude Oil Prices To Drive Stock Market Mood This Week",
@@ -63,26 +223,6 @@
       "summary": "He is of Syrian descent, with both of his parents having emigrated from Syria before his birth. As someone of Syrian heritage, Zayn has enjoyed a unique relationship with WWE's growing fanbase in Saudi Arabia."
     },
     {
-      "title": "FIFA World Cup Round of 32 Fixtures: Full Schedule, Dates, Kick",
-      "excerpt": "Brazil vs Japan, Netherlands vs Morocco, Argentina vs Cabo Verde, Portugal vs Croatia and Belgium vs Senegal will be some of the big matches in the first knockout round.",
-      "url": "https://www.ndtvprofit.com/sports/football-fifa-world-cup-2026-round-of-32-fixtures-full-schedule-matches-dates-ist-time-format-brazil-argentina-portugal-germany-england-spain-france-11693951#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/bsohslus_fifa_625x300_28_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T14:53:34+05:30",
-      "category": "Markets",
-      "summary": "Brazil vs Japan, Netherlands vs Morocco, Argentina vs Cabo Verde, Portugal vs Croatia and Belgium vs Senegal will be some of the big matches in the first knockout round."
-    },
-    {
-      "title": "India vs Ireland 2nd T20I Live Streaming, Broadcast & Match Time Details: IND vs IRE T20I Series",
-      "excerpt": "All eyes are on Shreyas Iyer as he aims to bounce back after a tough captaincy debut defeat against Ireland. Here's all you need to know about the 2nd T20I between Ireland and India.",
-      "url": "https://www.ndtvprofit.com/sports/india-vs-ireland-2nd-t20i-live-streaming-broadcast-11694978#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/m4jdvjas_shreyas_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T14:37:13+05:30",
-      "category": "Markets",
-      "summary": "All eyes are on Shreyas Iyer as he aims to bounce back after a tough captaincy debut defeat against Ireland. Here's all you need to know about the 2nd T20I between Ireland and India."
-    },
-    {
       "title": "Expert view: How rising global bond yields impact the Indian stock market?",
       "excerpt": "Foreign investors have not only stayed away from Indian equities but have also shown caution towards the domestic debt market.",
       "url": "https://www.livemint.com/market/stock-market-news/expert-view-how-rising-in-global-bond-yields-impact-indian-stock-market-11782636070309.html",
@@ -91,16 +231,6 @@
       "publishedAt": "2026-06-28T14:32:24+05:30",
       "category": "Markets",
       "summary": "Foreign investors have not only stayed away from Indian equities but have also shown caution towards the domestic debt market."
-    },
-    {
-      "title": "US-Iran News Live: Iran's FM Araghchi Says Discussed US Accord During Iraq Trip",
-      "excerpt": "Tensions between the US and Iran escalated after the former hit targets of the latter country on the second day of attacks.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-news-live-ceasefire-under-pressure-as-us-strikes-10-targets-on-second-day-of-attacks-11697135#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/4puo3kic_trump-khamenei-iran_625x300_01_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T14:09:34+05:30",
-      "category": "Markets",
-      "summary": "Tensions between the US and Iran escalated after the former hit targets of the latter country on the second day of attacks."
     },
     {
       "title": "Mukul Agrawal-owned multibagger stock will remain in focus tomorrow. Do you own?",
@@ -113,26 +243,6 @@
       "summary": "Multibagger stock PTC Industries has remained volatile in the near-term. PTC Industries share price has slipped 5% in a week and year-to-date (YTD) basis."
     },
     {
-      "title": "Forget Traffic. This Startup Wants Drones To Deliver Packages In Five Minutes",
-      "excerpt": "Through several significant efforts, the firm is expanding its infrastructure and implementing delivery ecosystems.",
-      "url": "https://www.ndtvprofit.com/technology/bengaluru-based-drone-delivery-startup-targets-large-scale-11697966#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/su45lamo_drone_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T14:03:32+05:30",
-      "category": "Markets",
-      "summary": "Through several significant efforts, the firm is expanding its infrastructure and implementing delivery ecosystems."
-    },
-    {
-      "title": "Air India May Restore Some International Flights as Gulf Tensions Ease, Fuel Prices Fall",
-      "excerpt": "The airline is reviewing overseas schedules after calmer conditions in the Middle East opened more airspace and reduced jet fuel costs, CEO Campbell Wilson said.",
-      "url": "https://www.ndtvprofit.com/india/air-india-may-restore-some-international-flights-as-gulf-tensions-ease-fuel-prices-fall-11697496#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/rrodftbk_air-india_625x300_27_May_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T13:57:00+05:30",
-      "category": "Markets",
-      "summary": "The airline is reviewing overseas schedules after calmer conditions in the Middle East opened more airspace and reduced jet fuel costs, CEO Campbell Wilson said."
-    },
-    {
       "title": "Mcap of 6 of top-10 most valued firms surges by  ₹88,678 crore; ICICI Bank biggest gainer",
       "excerpt": "During the week, the BSE Sensex advanced 297.57 points, or 0.38%, while the NSE Nifty rose 42.9 points, or 0.17%.",
       "url": "https://www.livemint.com/market/stock-market-news/mcap-of-6-of-top-10-most-valued-firms-surges-by-88-678-crore-icici-bank-biggest-gainer-11782630290683.html",
@@ -141,116 +251,6 @@
       "publishedAt": "2026-06-28T12:57:46+05:30",
       "category": "Markets",
       "summary": "During the week, the BSE Sensex advanced 297.57 points, or 0.38%, while the NSE Nifty rose 42.9 points, or 0.17%."
-    },
-    {
-      "title": "Mcap of 6 of top-10 most valued firms climbs Rs 88,678 cr; ICICI Bank biggest winner",
-      "excerpt": "Mcap of 6 of top-10 most valued firms climbs Rs 88,678 cr; ICICI Bank biggest winner The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM2szYnZhUzRPa3YtN2V0SGEwMFd1ZWNfQ2JqRDlMOXpDUzl5QXRmM1FCZ2VLU0h4SF9wbmpfb0xpeWk2ZDZyeVhTeWVGZWxQd1lRRTRXY19iS2xTQjhfXzhSbW56M0pkaE83Z09NMl9XdExVMXlibGdMemowVXZxbUJ3S2Qwd1hDVHBCUVNmbUswWlNyZHZwYTN5TThtcU5WekFPTTFYNW95QUt0cmRCdmtqUktqY0VMVGVlRHg5X3dScURLRTMwcnJjd2p4b3dJZC1xOWdtVXF1OFZpdTVBcjV1VkpTd0xQbm0tV9IB8gFBVV95cUxNQWE5d0RaMEZmRFY3X1BvaUpoSlJURzFIZmVIdTRib1pLcHl5Z1Zpa20td0lmMFZVclBZLTBPY18xSnhXSGNoZnRlY3E3VkxCdHBMZnJGaFJGMHFTb1EzUWRVWHFUWTM5MzkwR3lOa1FzeWs2cmNhSmJPTmhvT3RocXVPcG9vQWpoYm05YkZtMWR0bE02eFJuZW5sQ3JzWWFaXzduVll3RnRlaENVYmx4bV9GUFQ5MnFpREZRM3RKSmRDeXc0WDBzSi1SMDg1NWlJMGVuSzZDN3NPMXlkcWhYVTFST2FFOERRaTNnNWpJU2pLdw?oc=5",
-      "source": "The Economic Times",
-      "image": null,
-      "publishedAt": "2026-06-28T12:34:27+05:30",
-      "category": "Markets",
-      "summary": "Mcap of 6 of top-10 most valued firms climbs Rs 88,678 cr; ICICI Bank biggest winner The Economic Times"
-    },
-    {
-      "title": "Upcoming IPOs: Aastha Spinex IPO, Knack Packaging IPO among new issues scheduled for next week; check list here",
-      "excerpt": "Upcoming IPOs: Of the 11 IPOs slated for next week, two mainboard issues—Aastha Spinex IPO and Knack Packaging IPO—will open for subscription. In the SME segment, around nine public issues will hit the primary market.",
-      "url": "https://www.livemint.com/market/ipo/upcoming-ipos-aastha-spinex-ipo-knack-packaging-ipo-among-new-issues-scheduled-for-next-week-check-list-11782627353968.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/28/1600x900/logo/IPO_1739798199865_1782629964419_fb23dc46-c45b-4b49-b8f4-49344b94fdd9.png",
-      "publishedAt": "2026-06-28T12:32:05+05:30",
-      "category": "Markets",
-      "summary": "Upcoming IPOs: Of the 11 IPOs slated for next week, two mainboard issues—Aastha Spinex IPO and Knack Packaging IPO—will open for subscription. In the SME segment, around nine public issues will hit the primary market."
-    },
-    {
-      "title": "Kabini Reservoir Water Levels Fall As Karnataka Grapples With Rainfall Deficit",
-      "excerpt": "Karnataka has recorded a 42% rainfall deficit so far this monsoon, raising concerns over water availability across the state.",
-      "url": "https://www.ndtvprofit.com/india/kabini-reservoir-water-levels-fall-as-karnataka-grapples-with-rainfall-deficit-11697825#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/8j4forng_kabini-reservoir_625x300_28_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T12:28:09+05:30",
-      "category": "Markets",
-      "summary": "Karnataka has recorded a 42% rainfall deficit so far this monsoon, raising concerns over water availability across the state."
-    },
-    {
-      "title": "Tamil Nadu Establishes Duty-Free Retail Shop At Nagapattinam International Port Amid India",
-      "excerpt": "The proposed duty-free outlets will allow eligible international travelers to purchase specified goods exempt from certain customs duties and taxes.",
-      "url": "https://www.ndtvprofit.com/india/tamil-nadu-establishes-duty-free-retail-shop-at-nagapattinam-international-port-amid-india-sri-lanka-ferry-traffic-rise-11697790#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/8imrmju_nagapattinam-port_625x300_28_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T12:16:28+05:30",
-      "category": "Markets",
-      "summary": "The proposed duty-free outlets will allow eligible international travelers to purchase specified goods exempt from certain customs duties and taxes."
-    },
-    {
-      "title": "South Korea, Japan Reaffirm Korean Peninsula Denuclearisation, Resume Search-And",
-      "excerpt": "In the sixth round of negotiations, South Korean Defence Minister Ahn Gyu-back and his Japanese counterpart Shinjiro Koizumi met in Seoul and decided to work on regional stability both bilaterally and through their allia",
-      "url": "https://www.ndtvprofit.com/world/japan-and-south-korea-reiterate-their-goal-of-denuclearization-11697754#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/rg2d5ejo_s-korea_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T11:58:56+05:30",
-      "category": "Markets",
-      "summary": "In the sixth round of negotiations, South Korean Defence Minister Ahn Gyu-back and his Japanese counterpart Shinjiro Koizumi met in Seoul and decided to work on regional stability both bilaterally and through their allia"
-    },
-    {
-      "title": "Mumbai Rains: Will It Rain Today? Check Latest IMD Updates",
-      "excerpt": "By night, the probability of precipation will be around 100%.",
-      "url": "https://www.ndtvprofit.com/india/mumbai-rains-will-it-rain-today-check-latest-imd-updates-11697715#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/075ji0u8_a-woman-makes-her-way-amid-rainfall-in-mumbai_625x300_23_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T11:57:48+05:30",
-      "category": "Markets",
-      "summary": "By night, the probability of precipation will be around 100%."
-    },
-    {
-      "title": "US Kicks Off 250th Anniversary State Fair On National Mall Ahead Of July 4 Celebrations",
-      "excerpt": "The 16-day event features a Ferris wheel, state fair attractions and exhibitions as debate continues over the political tone of the celebrations.",
-      "url": "https://www.ndtvprofit.com/world/us-kicks-off-250th-anniversary-state-fair-on-national-mall-ahead-of-july-4-celebrations-11697642#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/6otb10p8_250_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T11:55:28+05:30",
-      "category": "Markets",
-      "summary": "The 16-day event features a Ferris wheel, state fair attractions and exhibitions as debate continues over the political tone of the celebrations."
-    },
-    {
-      "title": "Venezuela Earthquakes May Have Affected Nearly Seven Million People: Report",
-      "excerpt": "UN says satellite analysis points to widespread damage as relief efforts expand following twin earthquakes.",
-      "url": "https://www.ndtvprofit.com/world/venezuel-earthuakes-likely-impacted-7-million-people-says-un-11697626#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/aqljv7q4_venezuela_625x300_26_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T11:51:03+05:30",
-      "category": "Markets",
-      "summary": "UN says satellite analysis points to widespread damage as relief efforts expand following twin earthquakes."
-    },
-    {
-      "title": "US Launches Fresh Strikes on 10 Iran Military Sites as Ceasefire Comes Under Pressure",
-      "excerpt": "US says it targeted 10 military sites in and around the Strait of Hormuz after Iran allegedly attacked an oil tanker, raising concerns over the stability of the ceasefire.",
-      "url": "https://www.ndtvprofit.com/world/us-launches-fresh-strikes-in-iran-as-fragile-ceasefire-11697233#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/autcgmbg_us_625x300_28_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-06-28T11:41:52+05:30",
-      "category": "Markets",
-      "summary": "US says it targeted 10 military sites in and around the Strait of Hormuz after Iran allegedly attacked an oil tanker, raising concerns over the stability of the ceasefire."
-    },
-    {
-      "title": "11 penny stocks plunge up to 55% in a month. Should investors worry?",
-      "excerpt": "Over the past 1 month, 13 penny stocks have recorded sharp declines, falling between 20% and 55%. These underperformers were identified through a targeted screening approach focused on stocks with a market cap below Rs 1",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/11-penny-stocks-plunge-up-to-55-in-a-month-should-investors-worry/rough-ride/slideshow/132046234.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-06-28T11:24:39+05:30",
-      "category": "Markets",
-      "summary": "Over the past 1 month, 13 penny stocks have recorded sharp declines, falling between 20% and 55%. These underperformers were identified through a targeted screening approach focused on stocks with a market cap below Rs 1"
-    },
-    {
-      "title": "Indian stock market: How are Sensex and Nifty 50 likely to perform next week amid US",
-      "excerpt": "Indian stock market: On Friday, Nifty reclaimed and sustained levels above the crucial 24,000 mark, highlighting the market's resilience.",
-      "url": "https://www.livemint.com/market/stock-market-news/indian-stock-market-how-are-sensex-and-nifty-50-likely-to-perform-next-week-amid-us-iran-war-11782621997610.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/06/28/1600x900/logo/stock_1782625491948_1782625492063_8c93e226-3b56-406a-81e9-e06d9cf070af.jpg",
-      "publishedAt": "2026-06-28T11:23:00+05:30",
-      "category": "Markets",
-      "summary": "Indian stock market: On Friday, Nifty reclaimed and sustained levels above the crucial 24,000 mark, highlighting the market's resilience."
     }
   ]
 }
