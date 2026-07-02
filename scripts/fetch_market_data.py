@@ -583,6 +583,36 @@ def main():
     total_kb = sum(os.path.getsize(os.path.join(company_dir, f)) for f in os.listdir(company_dir)) / 1024
     print(f"  Saved {saved_count} company files ({total_kb:.0f} KB total) → public/data/company/")
 
+    # 6b. Quotes JSON for screener page (symbol, name, price, changePercent, 52W high/low)
+    print("\n[6b] Screener Quotes JSON")
+    quotes_list = []
+    for sym in COMPANY_SYMBOLS:
+        info  = info_map.get(sym, {})
+        sq    = sector_q.get(sym, {})
+        price = sq.get('regularMarketPrice') or info.get('regularMarketPrice') or 0
+        pct   = sq.get('regularMarketChangePercent') or info.get('regularMarketChangePercent') or 0
+        w52h  = info.get('fiftyTwoWeekHigh')
+        w52l  = info.get('fiftyTwoWeekLow')
+        if not w52h:
+            hist   = history_map.get(sym, [])
+            prices = [d['close'] for d in hist if d.get('close')]
+            w52h   = max(prices) if prices else 0
+            w52l   = min(prices) if prices else 0
+        name = info.get('longName') or sym.replace('.NS', '').replace('.BO', '')
+        quotes_list.append({
+            'symbol':        sym,
+            'name':          name,
+            'price':         round(float(price), 2) if price else 0,
+            'changePercent': round(float(pct),   2) if pct   else 0,
+            'week52Low':     round(float(w52l),  2) if w52l  else 0,
+            'week52High':    round(float(w52h),  2) if w52h  else 0,
+        })
+    save('quotes.json', {
+        'lastUpdated': NOW,
+        'quotes': sorted(quotes_list, key=lambda x: x['name']),
+    })
+    print(f"  Saved quotes.json — {len(quotes_list)} stocks with 52W data")
+
     # 7. FII / DII flow — uses curl_cffi to bypass Cloudflare (works from GitHub Actions)
     print("\n[7/7] FII / DII Flow")
     try:
