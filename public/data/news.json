@@ -1,7 +1,217 @@
 {
-  "lastUpdated": "2026-07-06T22:09:12+05:30",
+  "lastUpdated": "2026-07-07T00:29:01+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "UK Regulator Urged To Curb ChatGPT, Claude, Gemini Influence On Personal Finance Decisions",
+      "excerpt": "A review found that more than a quarter of UK consumers trust AI tools for financial guidance, prompting calls for the FCA to consider expanding its regulatory scope.",
+      "url": "https://www.ndtvprofit.com/technology/uk-regulator-urged-to-curb-chatgpt-claude-gemini-influence-on-personal-finance-decisions-11735744#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-02/20021v3k_artificial-intelligence_625x300_22_February_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T23:35:52+05:30",
+      "category": "Markets",
+      "summary": "A review found that more than a quarter of UK consumers trust AI tools for financial guidance, prompting calls for the FCA to consider expanding its regulatory scope."
+    },
+    {
+      "title": "Mumbai Rain News Highlights: Mumbai City's Schools, Colleges To Remain Closed On Tuesday",
+      "excerpt": "All government, private and municipal schools and colleges across Mumbai to remain closed on Monday, July 6 due to heavy rainfall forecast.",
+      "url": "https://www.ndtvprofit.com/india/mumbai-rain-news-live-updates-heavy-rainfall-expected-as-imd-issues-orange-alert-in-mumbai-thane-schools-colleges-to-be-closed-on-monday-mumbai-monsoo-11731540#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/65k3d94_bb_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T23:28:37+05:30",
+      "category": "Markets",
+      "summary": "All government, private and municipal schools and colleges across Mumbai to remain closed on Monday, July 6 due to heavy rainfall forecast."
+    },
+    {
+      "title": "Portugal Vs Spain, Live Streaming: Starting XI, How To Watch Cristiano Ronaldo And Lamine Yamal In Action In World Cup Match?",
+      "excerpt": "The Portugal national team will take on Spain's national team in a crucial Round of 16 tie of FIFA World Cup 2026. The highly anticipated game can be watched on the Unite8 Sports television channels, and ZEE5 app and web",
+      "url": "https://www.ndtvprofit.com/sports/portugal-vs-spain-live-streaming-likely-lineups-how-to-watch-cristiano-ronaldo-and-lamine-yamal-in-action-in-fifa-world-cup-2026-match-11725887#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/f0r8u3nc_cristiano-ronaldo-and-lamine-yamal_625x300_04_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T23:22:59+05:30",
+      "category": "Markets",
+      "summary": "The Portugal national team will take on Spain's national team in a crucial Round of 16 tie of FIFA World Cup 2026. The highly anticipated game can be watched on the Unite8 Sports television channels, and ZEE5 app and web"
+    },
+    {
+      "title": "Trump Friend Urges National Emergency To Expand Federal Control Over US Midterms: Report",
+      "excerpt": "The White House, however, said Peter Ticktin overstates his relationship with Trump after reports of a draft executive order seeking emergency powers over US elections",
+      "url": "https://www.ndtvprofit.com/world/trump-friend-urges-national-emergency-to-expand-federal-control-over-us-midterms-report-11735397#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/d48735bg_peter-ticktin_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T23:13:44+05:30",
+      "category": "Markets",
+      "summary": "The White House, however, said Peter Ticktin overstates his relationship with Trump after reports of a draft executive order seeking emergency powers over US elections"
+    },
+    {
+      "title": "US Judge Rejects Elon Musk's Attempt To Overturn Twitter Fraud Verdict",
+      "excerpt": "On March 20, Musk was held accountable for attempting to lower Twitter's stock price in order to renegotiate or withdraw his $44 billion acquisition of the social media firm in 2022.",
+      "url": "https://www.ndtvprofit.com/business/elon-musks-attempt-to-overturn-twitter-fraud-verdict-denied-by-us-judge-11735659#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/459d6595_Elon-Musk-and-X.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T23:10:30+05:30",
+      "category": "Markets",
+      "summary": "On March 20, Musk was held accountable for attempting to lower Twitter's stock price in order to renegotiate or withdraw his $44 billion acquisition of the social media firm in 2022."
+    },
+    {
+      "title": "Mumbai School Holiday: BMC Says All Educational Institutes To Stay Shut On Tuesday Amid Rain Alert",
+      "excerpt": "IMD issues orange alert for Mumbai on July 7; BMC announces holiday for all schools and colleges as a precaution.",
+      "url": "https://www.ndtvprofit.com/india/mumbai-school-holiday-bmc-says-all-educational-institutes-to-stay-shut-on-tuesday-amid-rain-alert-11735544#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/b8lg8a98_mumbai-adviosry_625x300_06_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T23:00:34+05:30",
+      "category": "Markets",
+      "summary": "IMD issues orange alert for Mumbai on July 7; BMC announces holiday for all schools and colleges as a precaution."
+    },
+    {
+      "title": "Buy, Sell Or Hold: ITC, LIC, BEL, Coal India, Uno Minda And Vedanta Power — Ask Profit",
+      "excerpt": "Market experts shared their insights on fundamentals and technical levels for key stocks, including ITC, LIC, BEL, Coal India, Uno Minda and Vedanta Power.",
+      "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-itc-lic-bel-coal-india-uno-minda-and-vedanta-power-ask-profit-11735655#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/vo1rg65_ask-profit-july-7-2026_625x300_06_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:58:25+05:30",
+      "category": "Markets",
+      "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks, including ITC, LIC, BEL, Coal India, Uno Minda and Vedanta Power."
+    },
+    {
+      "title": "IIM Education In Hindi Will Widen Access, Says Piyush Goyal; Lauds Tech",
+      "excerpt": "Commerce minister says IIM Udaipur's online Hindi-English programme will expand access to quality education and bridge the rural-urban divide.",
+      "url": "https://www.ndtvprofit.com/business/iim-education-in-hindi-will-widen-access-says-piyush-goyal-lauds-tech-driven-bilingual-courses-11735605#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/k95mnrj_piyush-goyal_625x300_13_May_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:57:28+05:30",
+      "category": "Markets",
+      "summary": "Commerce minister says IIM Udaipur's online Hindi-English programme will expand access to quality education and bridge the rural-urban divide."
+    },
+    {
+      "title": "Kharif Sowing Season Still One",
+      "excerpt": "Oilseeds have seen the biggest shortfall, with acreage falling to 66.31 lakh hectares, significantly less than 109.27 lakh hectares the previous year and less than the typical size of 83.46 lakh hectares.",
+      "url": "https://www.ndtvprofit.com/economy/kharif-sowing-season-still-one-fifth-below-last-year-as-sluggish-monsoon-weighs-11735278#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/na85ht8k_kharif_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:50:10+05:30",
+      "category": "Markets",
+      "summary": "Oilseeds have seen the biggest shortfall, with acreage falling to 66.31 lakh hectares, significantly less than 109.27 lakh hectares the previous year and less than the typical size of 83.46 lakh hectares."
+    },
+    {
+      "title": "Gold, silver prices today: Comex gold tops $4,200, silver nears $64 as recovery rally extends; Fed minutes in focus",
+      "excerpt": "Gold and silver prices saw mild gains on 6 July, supported by easing concerns over a US Federal Reserve rate hike and a weakened US dollar. Gold futures rose to $4,215, and silver to $63.73, marking a recovery from prior",
+      "url": "https://www.livemint.com/market/stock-market-news/gold-silver-prices-today-comex-gold-tops-4-200-silver-approaches-64-in-recovery-rally-fed-minutes-in-focus-11783353576517.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/06/1600x900/logo/2-0-504080435-Gold-0_1681041140631_1783353624493_e0792cd0-ab18-40eb-a02e-c18b86cc14b3.JPG",
+      "publishedAt": "2026-07-06T22:45:34+05:30",
+      "category": "Markets",
+      "summary": "Gold and silver prices saw mild gains on 6 July, supported by easing concerns over a US Federal Reserve rate hike and a weakened US dollar. Gold futures rose to $4,215, and silver to $63.73, marking a recovery from prior"
+    },
+    {
+      "title": "Trump Owns FIFA Intervention Amid US Red Card Furore",
+      "excerpt": "Donald Trump said he asked FIFA to review Folarin Balogun's red-card suspension before the governing body lifted the one-match ban ahead of the USA's Round of 16 clash against Belgium.",
+      "url": "https://www.ndtvprofit.com/sports/world-cup-2026-trump-owns-fifa-intervention-amid-us-red-card-furore-11735515#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/kvo9mbd4_trump-infantino_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:38:48+05:30",
+      "category": "Markets",
+      "summary": "Donald Trump said he asked FIFA to review Folarin Balogun's red-card suspension before the governing body lifted the one-match ban ahead of the USA's Round of 16 clash against Belgium."
+    },
+    {
+      "title": "Jubilant Foodworks Q1 Update: Revenue Climbs 14%; Domino's Pizza Outlet Count Jumps By 58",
+      "excerpt": "On the demand front, Domino's India reported like-for-like (LFL) sales growth of 2.5 % year-on-year in the June quarter.",
+      "url": "https://www.ndtvprofit.com/business/jubilant-foodworks-q1-update-revenue-climbs-14-dominos-pizza-outlet-count-jumps-by-58-11735401#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/00cfd2b0_Domino_s_Outlet_Operated_by_Jubilant_FoodWorks_Ltd__Exterior__Photographer__Vijay_Sartape___Source__.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:29:53+05:30",
+      "category": "Markets",
+      "summary": "On the demand front, Domino's India reported like-for-like (LFL) sales growth of 2.5 % year-on-year in the June quarter."
+    },
+    {
+      "title": "Building Resilience In The Age Of Export",
+      "excerpt": "The Anthropic restriction highlights AI concentration risks as RBI-regulated banks and NBFCs increasingly depend on US-based LLMs for critical operations.",
+      "url": "https://www.ndtvprofit.com/technology/opinion-building-resilience-in-the-age-of-export-controlled-ai-11735447#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/59gfen38_ai_625x300_06_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:25:21+05:30",
+      "category": "Markets",
+      "summary": "The Anthropic restriction highlights AI concentration risks as RBI-regulated banks and NBFCs increasingly depend on US-based LLMs for critical operations."
+    },
+    {
+      "title": "AI No Bubble? AMD Spikes 10% On Bullish Forecast; Micron, Nvidia Among Chip Stocks Rallying",
+      "excerpt": "Semiconductor companies have bounced back from their previous session's rout with Micron rising as high as 4% and intel climbing 5%.",
+      "url": "https://www.ndtvprofit.com/markets/ai-no-bubble-amd-spikes-10-on-bullish-forecast-micron-nvidia-among-chip-stocks-rallying-11735383#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/5ve1gqpo_ai-boom_625x300_27_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:20:58+05:30",
+      "category": "Markets",
+      "summary": "Semiconductor companies have bounced back from their previous session's rout with Micron rising as high as 4% and intel climbing 5%."
+    },
+    {
+      "title": "Rain Alert: Holiday Declared In School, Colleges In Mumbai, Thane, Palghar, Navi Mumbai On Tuesday?",
+      "excerpt": "Authorities have not announced a holiday yet, despite widespread rain-related disruption across the Mumbai Metropolitan Region.",
+      "url": "https://www.ndtvprofit.com/india/rain-alert-holiday-declared-in-school-colleges-in-mumbai-thane-palghar-navi-mumbai-on-tuesday-11734322#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/70va0rlc_red-alert-issued-in-mumbai-amidst-heavy-rains_625x300_04_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:17:24+05:30",
+      "category": "Markets",
+      "summary": "Authorities have not announced a holiday yet, despite widespread rain-related disruption across the Mumbai Metropolitan Region."
+    },
+    {
+      "title": "India-EU FTA: Legal Scrubbing To Conclude In 15-20 Days, Says Piyush Goyal",
+      "excerpt": "Commerce minister says the agreement is entering its final legal review, while urging the leather industry to leverage India's expanding network of free trade agreements.",
+      "url": "https://www.ndtvprofit.com/economy/india-eu-fta-legal-scrubbing-to-conclude-in-15-20-days-says-piyush-goyal-11735452#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/aigii5gk_modi_625x300_17_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:11:32+05:30",
+      "category": "Markets",
+      "summary": "Commerce minister says the agreement is entering its final legal review, while urging the leather industry to leverage India's expanding network of free trade agreements."
+    },
+    {
+      "title": "Trent Q1 Update: Revenue Growth Misses Estimates, Stays Below 20% For Fifth Straight Quarter",
+      "excerpt": "During the April-June quarter, Trent recorded a net addition of 20 stores, comprising 19 Zudio outlets and one Westside store.",
+      "url": "https://www.ndtvprofit.com/business/trent-q1-update-tata-firm-delivers-19-revenue-growth-amid-aggressive-store-rollout-11734531#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-04/9t8267i8_trent_625x300_23_April_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T22:00:37+05:30",
+      "category": "Markets",
+      "summary": "During the April-June quarter, Trent recorded a net addition of 20 stores, comprising 19 Zudio outlets and one Westside store."
+    },
+    {
+      "title": "Micron Shares Zoom On Long",
+      "excerpt": "Micron's stock traded 3.5% higher at $1,009.32 as of 12:16 p.m.",
+      "url": "https://www.ndtvprofit.com/markets/micron-shares-zoom-on-long-term-memory-supply-pact-with-ford-11734181#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/kgg7qf84_b_625x300_25_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T21:48:38+05:30",
+      "category": "Markets",
+      "summary": "Micron's stock traded 3.5% higher at $1,009.32 as of 12:16 p.m."
+    },
+    {
+      "title": "Pushpa 2 Stampede Case: Allu Arjun Appears Virtually Before Court; Hearing Adjourned To July 29",
+      "excerpt": "Following the tragedy, Allu Arjun announced financial assistance for Revathi's family. His father, producer Allu Aravind, also pledged Rs 2 crore to support the bereaved family.",
+      "url": "https://www.ndtvprofit.com/india/pushpa-2-stampede-case-allu-arjun-appears-virtually-before-court-hearing-adjourned-to-july-29-11734676#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/bgf0ccm_allu-arjun_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T21:47:43+05:30",
+      "category": "Markets",
+      "summary": "Following the tragedy, Allu Arjun announced financial assistance for Revathi's family. His father, producer Allu Aravind, also pledged Rs 2 crore to support the bereaved family."
+    },
+    {
+      "title": "Monsoon Mayhem: All Gardens, Forts, Tourist Spots In Mumbai, Thane To Stay Shut On Tuesday",
+      "excerpt": "Heavy rain alert prompts authorities to shut tourist spots, forts and waterfalls across Thane until further orders.",
+      "url": "https://www.ndtvprofit.com/india/monsoon-mayhem-all-gardens-forts-tourist-spots-in-mumbai-thane-to-stay-shut-on-tuesday-11735239#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/proen/2025-07-04/6pdyb407/WhatsApp-Image-2025-07-04-at-8.07.59-PM-2.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T21:37:57+05:30",
+      "category": "Markets",
+      "summary": "Heavy rain alert prompts authorities to shut tourist spots, forts and waterfalls across Thane until further orders."
+    },
+    {
+      "title": "Mumbai Rain Alert: Schools In Thane, Navi Mumbai, Palghar To Stay Closed; No Holiday Declared By BMC Yet",
+      "excerpt": "Heavy rain forces closures across MMR as Mumbai civic body withholds school holiday order.",
+      "url": "https://www.ndtvprofit.com/india/mumbai-rain-alert-schools-in-thane-navi-mumbai-palghar-to-stay-closed-no-holiday-declared-by-bmc-yet-11735247#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/65k3d94_bb_625x300_06_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-06T21:37:08+05:30",
+      "category": "Markets",
+      "summary": "Heavy rain forces closures across MMR as Mumbai civic body withholds school holiday order."
+    },
     {
       "title": "Trent Q1 business update: Revenue grows 19%, store network expands",
       "excerpt": "Tata Group's Trent reported a 19% YoY revenue growth to ₹5,666 crore for the June quarter. The company expanded its retail presence, with a total of 1,312 outlets. Trent's share rebounded strongly after a significant dec",
@@ -11,126 +221,6 @@
       "publishedAt": "2026-07-06T21:18:36+05:30",
       "category": "Markets",
       "summary": "Tata Group's Trent reported a 19% YoY revenue growth to ₹5,666 crore for the June quarter. The company expanded its retail presence, with a total of 1,312 outlets. Trent's share rebounded strongly after a significant dec"
-    },
-    {
-      "title": "No Malacca Bottleneck: Singapore, Indonesia Reaffirm Free Passage Even As Iran Moves To Impose Hormuz Fee",
-      "excerpt": "Singapore and Indonesia reaffirmed their commitment to keeping the Strait of Malacca open and secure, highlighting the waterway's critical role in global trade.",
-      "url": "https://www.ndtvprofit.com/world/no-malacca-blockade-singapore-indonesia-reaffirm-free-passage-even-as-iran-moves-to-impose-hormuz-fee-11734236#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/qsg0giv8_ship-in-hormuz-strait_625x300_14_April_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T21:11:11+05:30",
-      "category": "Markets",
-      "summary": "Singapore and Indonesia reaffirmed their commitment to keeping the Strait of Malacca open and secure, highlighting the waterway's critical role in global trade."
-    },
-    {
-      "title": "Microsoft Layoffs: 4,800 Jobs Slashed Across Sales And Xbox, Says Report",
-      "excerpt": "Half the layoffs are due to the tech giant's overhaul of their Xbox console gaming division, as per the report.",
-      "url": "https://www.ndtvprofit.com/business/microsoft-layoffs-4-800-jobs-slashed-across-sales-and-xbox-says-report-11734515#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/p05vmglc_microsoft_625x300_21_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T21:09:05+05:30",
-      "category": "Markets",
-      "summary": "Half the layoffs are due to the tech giant's overhaul of their Xbox console gaming division, as per the report."
-    },
-    {
-      "title": "Mumbai Rain News Live Updates: Thane And Palgarh's Schools And Colleges To Remain Closed On Tuesday",
-      "excerpt": "All government, private and municipal schools and colleges across Mumbai to remain closed on Monday, July 6 due to heavy rainfall forecast.",
-      "url": "https://www.ndtvprofit.com/india/mumbai-rain-news-live-updates-heavy-rainfall-expected-as-imd-issues-orange-alert-in-mumbai-thane-schools-colleges-to-be-closed-on-monday-mumbai-monsoo-11731540#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/65k3d94_bb_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T21:07:13+05:30",
-      "category": "Markets",
-      "summary": "All government, private and municipal schools and colleges across Mumbai to remain closed on Monday, July 6 due to heavy rainfall forecast."
-    },
-    {
-      "title": "Annurag Batra Receives Special Award For Contribution To Media By Union Tourism Minister",
-      "excerpt": "Batra founded the exchange4media Group more than 26 years ago.",
-      "url": "https://www.ndtvprofit.com/business/annurag-batra-receives-special-award-for-contribution-to-media-by-union-tourism-minister-11735146#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/3vj3u818_annurag-batra_625x300_06_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T21:05:01+05:30",
-      "category": "Markets",
-      "summary": "Batra founded the exchange4media Group more than 26 years ago."
-    },
-    {
-      "title": "CBI Searches 26 Locations Across 11 States In BRO Funds Misappropriation Probe",
-      "excerpt": "The CBI probe stems from Ministry of Defence complaints over alleged fake labour payments and financial irregularities in Border Roads Organisation projects in Ladakh.",
-      "url": "https://www.ndtvprofit.com/india/cbi-searches-26-locations-across-11-states-in-bro-funds-misappropriation-probe-11734374#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/85o9m3g_cbi_625x300_01_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T21:02:30+05:30",
-      "category": "Markets",
-      "summary": "The CBI probe stems from Ministry of Defence complaints over alleged fake labour payments and financial irregularities in Border Roads Organisation projects in Ladakh."
-    },
-    {
-      "title": "Manipal Hospitals IPO Gets SEBI Clearance | Profit Newsbreak Confirmed",
-      "excerpt": "NDTV Profit had first reported the approval; Temasek-backed hospital chain targets July-end market debut.",
-      "url": "https://www.ndtvprofit.com/markets/manipal-hospitals-ipo-gets-sebi-clearance-profit-newsbreak-confirmed-11735101#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/kj6ln5co_manipal-hospitals_625x300_03_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:56:03+05:30",
-      "category": "Markets",
-      "summary": "NDTV Profit had first reported the approval; Temasek-backed hospital chain targets July-end market debut."
-    },
-    {
-      "title": "Mumbai Rains: Supriya Sule Demands WFH For IT Sector Amid Traffic Woes; Writes To Maharashtra Govt",
-      "excerpt": "Baramati MP urges the Maharashtra government to permit remote work for IT employees as heavy rain, waterlogging and traffic disruptions cripple normal life across the state",
-      "url": "https://www.ndtvprofit.com/india/mumbai-rains-supriya-sule-demands-wfh-for-it-sector-amid-traffic-woes-writes-to-maharashtra-govt-11735052#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/2hdkr1jo_mumbai-rains_625x300_06_July_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:56:00+05:30",
-      "category": "Markets",
-      "summary": "Baramati MP urges the Maharashtra government to permit remote work for IT employees as heavy rain, waterlogging and traffic disruptions cripple normal life across the state"
-    },
-    {
-      "title": "Catastrophic Floods: China's Nanning Declares Maximum Alert As Typhoon Maysak Strikes",
-      "excerpt": "The gusts of over 50 miles per hour (80.5 kph) that battered Vietnam and China's southern island province of Hainan over the weekend are no longer present in Maysak, which is now a slower-moving tropical storm.",
-      "url": "https://www.ndtvprofit.com/world/catastrophic-floods-chinas-nanning-declares-maximum-alert-as-typhoon-maysak-strikes-11734187#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/o8e5r024_china-floods_625x300_06_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:51:59+05:30",
-      "category": "Markets",
-      "summary": "The gusts of over 50 miles per hour (80.5 kph) that battered Vietnam and China's southern island province of Hainan over the weekend are no longer present in Maysak, which is now a slower-moving tropical storm."
-    },
-    {
-      "title": "TCS Nashik Case: Accused Nida Khan Granted Bail Amid Allegations Of Forced Religious Conversion",
-      "excerpt": "The allegation surfaced earlier this year after some female employees at a BPO unit in Nashik affiliated with TCS accused coworkers and managers of sexual harassment, sexual assault, and coercion related to religious con",
-      "url": "https://www.ndtvprofit.com/business/tcs-nashik-case-accused-nida-khan-granted-bail-amid-allegations-of-forced-religious-conversion-11734866#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/mdc1t464_nida_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:51:03+05:30",
-      "category": "Markets",
-      "summary": "The allegation surfaced earlier this year after some female employees at a BPO unit in Nashik affiliated with TCS accused coworkers and managers of sexual harassment, sexual assault, and coercion related to religious con"
-    },
-    {
-      "title": "Saudis Slash Main Oil Price To Rare Discount As Market Dives",
-      "excerpt": "Saudi Arabia has long been the custodian of the global oil market, boosting or reducing output when it has seen the need to do so.",
-      "url": "https://www.ndtvprofit.com/economy/saudis-slash-main-oil-price-to-rare-discount-as-market-dives-11735063#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/bv4325i_f_625x300_06_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:48:08+05:30",
-      "category": "Markets",
-      "summary": "Saudi Arabia has long been the custodian of the global oil market, boosting or reducing output when it has seen the need to do so."
-    },
-    {
-      "title": "Gold Loans Emerge As Largest Securitised Asset Class In April",
-      "excerpt": "The report said more than 98% of the issuances during the quarter were originated by non-banking financial companies (NBFCs).",
-      "url": "https://www.ndtvprofit.com/economy/gold-loans-emerge-as-largest-securitised-asset-class-in-april-june-quarter-of-fy26-11735059#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/dno8qq6_gold_625x300_09_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:48:03+05:30",
-      "category": "Markets",
-      "summary": "The report said more than 98% of the issuances during the quarter were originated by non-banking financial companies (NBFCs)."
-    },
-    {
-      "title": "Novak Djokovic Makes Wimbledon History, Passes Roger Federer With Record 106th Win — Check List",
-      "excerpt": "The Serbian overtook Roger Federer's tally of 105 Wimbledon match wins after beating Roman Safiullin to become the most successful men's singles player in the tournament's history.",
-      "url": "https://www.ndtvprofit.com/sports/novak-djokovic-makes-wimbledon-history-passes-roger-federer-with-record-106th-win-check-list-11734618#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/dt3l5aqk_novak-djokovic_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:36:03+05:30",
-      "category": "Markets",
-      "summary": "The Serbian overtook Roger Federer's tally of 105 Wimbledon match wins after beating Roman Safiullin to become the most successful men's singles player in the tournament's history."
     },
     {
       "title": "Govt to sell up to 5.04% stake in Cochin Shipyard through OFS. Check details",
@@ -153,26 +243,6 @@
       "summary": "Titan's consumer sector experienced a remarkable forty-one percent surge in the first quarter, driven by robust festival demand that significantly elevated sales in its jewellery division. The company also launched seven"
     },
     {
-      "title": "Cochin Shipyard OFS: Govt To Sell Up To 5.04% Stake In Defence PSU; Floor Price At Rs 1,400/Share",
-      "excerpt": "The issue consists of a base offer wherein the government will offload 2.52% stake.",
-      "url": "https://www.ndtvprofit.com/business/cochin-shipyard-ofs-govt-to-sell-up-to-5-04-stake-in-defence-psu-floor-price-at-rs-1-400-share-11734859#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/pfnkmgs4_cochin-shipyard_625x300_14_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:23:51+05:30",
-      "category": "Markets",
-      "summary": "The issue consists of a base offer wherein the government will offload 2.52% stake."
-    },
-    {
-      "title": "Portugal Vs Spain, Live Streaming: Likely Lineups, How To Watch Cristiano Ronaldo And Lamine Yamal In Action In World Cup Match?",
-      "excerpt": "The Portugal national team will take on Spain's national team in a crucial Round of 16 tie of FIFA World Cup 2026. The highly anticipated game can be watched on the Unite8 Sports television channels, and ZEE5 app and web",
-      "url": "https://www.ndtvprofit.com/sports/portugal-vs-spain-live-streaming-likely-lineups-how-to-watch-cristiano-ronaldo-and-lamine-yamal-in-action-in-fifa-world-cup-2026-match-11725887#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/f0r8u3nc_cristiano-ronaldo-and-lamine-yamal_625x300_04_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:14:08+05:30",
-      "category": "Markets",
-      "summary": "The Portugal national team will take on Spain's national team in a crucial Round of 16 tie of FIFA World Cup 2026. The highly anticipated game can be watched on the Unite8 Sports television channels, and ZEE5 app and web"
-    },
-    {
       "title": "Rentomojo gets SEBI nod for raising funds through IPO launch. Details here",
       "excerpt": "Furniture rental startup Rentomojo has received SEBI observations for its IPO, primarily an offer for sale by existing shareholders. The IPO aims to raise up to ₹150 crore for expansion and debt repayment. Rentomojo hold",
       "url": "https://www.livemint.com/market/rentomojo-gets-sebi-nod-for-raising-funds-through-ipo-launch-details-here-11783348145301.html",
@@ -181,76 +251,6 @@
       "publishedAt": "2026-07-06T20:11:08+05:30",
       "category": "Markets",
       "summary": "Furniture rental startup Rentomojo has received SEBI observations for its IPO, primarily an offer for sale by existing shareholders. The IPO aims to raise up to ₹150 crore for expansion and debt repayment. Rentomojo hold"
-    },
-    {
-      "title": "A Comparison of Budget Allocation in Maharashtra, Gujarat, and Punjab - myind.net",
-      "excerpt": "A Comparison of Budget Allocation in Maharashtra, Gujarat, and Punjab myind.net",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOVBtdldIYUlPYUdMLVZUSmZEcnRLd0h0STc1YTZjcGhDcGZ0b2ROTWdXNnNTV2VZMEZJbGxyWVdLeEwtNWZBS29FU1ZfVGdPVjQ0bl9zYVpNTDhzOHJkclJ1SDNmbExyQ3MtTThlZzFBU1FlaU53eEoxQ203aVhsLWViTXdXRGo5NUk0M2RnZTduNmxmUEVCNmE1UEtSNER1U3Fzcw?oc=5",
-      "source": "myind.net",
-      "image": null,
-      "publishedAt": "2026-07-06T20:04:36+05:30",
-      "category": "Economy",
-      "summary": "A Comparison of Budget Allocation in Maharashtra, Gujarat, and Punjab myind.net"
-    },
-    {
-      "title": "Titan Q1 Update: Domestic Business Up 37% As Tata Firm Adds 77 Stores; Jewellery Arm Grows 39%",
-      "excerpt": "Retail network expands to 3,806 stores as watches, eyewear and emerging businesses maintain healthy momentum.",
-      "url": "https://www.ndtvprofit.com/business/titan-q1-update-domestic-business-up-37-as-tata-firm-adds-77-stores-jewellery-arm-grows-39-11734692#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/q1sgnhls_titan-company_625x300_05_June_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T20:02:10+05:30",
-      "category": "Markets",
-      "summary": "Retail network expands to 3,806 stores as watches, eyewear and emerging businesses maintain healthy momentum."
-    },
-    {
-      "title": "US Stock Market Today: Nasdaq Rises 1%, Dow Hits Record High As AI Chip Stocks Accelerate; Micron Up 3%",
-      "excerpt": "Major chipmakers like Micron Technology Inc. and Advanced Micro Devices Inc. surged within minutes of the opening bell.",
-      "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-nasdaq-rises-1-dow-hits-record-high-as-ai-chip-stocks-accelerate-micron-up-3-11734532#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/v60i3a3o_us-market_625x300_04_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T19:58:15+05:30",
-      "category": "Markets",
-      "summary": "Major chipmakers like Micron Technology Inc. and Advanced Micro Devices Inc. surged within minutes of the opening bell."
-    },
-    {
-      "title": "Q1FY27 IT earnings preview: Brokerages see mixed quarter as AI, macro headwinds weigh on growth",
-      "excerpt": "The June-quarter earnings season begins amid muted expectations for tech companies due to macroeconomic uncertainty and AI disruptions. Analysts foresee weaker Q1 FY27 growth, with a focus on guidance and demand outlook ",
-      "url": "https://www.livemint.com/market/stock-market-news/q1fy27-it-earnings-preview-brokerages-see-mixed-quarter-as-ai-macro-headwinds-weigh-on-growth-11783340273440.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/06/1600x900/logo/worst_financial_decision_Perplexity_FTX_Aravind_Sr_1739073979919_1783343466093_12927343-60a0-4e92-b981-6c35769a882f.jpg",
-      "publishedAt": "2026-07-06T19:57:40+05:30",
-      "category": "Markets",
-      "summary": "The June-quarter earnings season begins amid muted expectations for tech companies due to macroeconomic uncertainty and AI disruptions. Analysts foresee weaker Q1 FY27 growth, with a focus on guidance and demand outlook "
-    },
-    {
-      "title": "China Unveils Brain Chip Claimed To Be Up To 478x Faster Than Nvidia A100 For Brain Modelling",
-      "excerpt": "Developed by researchers at Peking University and the Chinese Academy of Sciences, the brain chip uses memristors to enable faster brain modelling for medical applications.",
-      "url": "https://www.ndtvprofit.com/technology/china-unveils-brain-chip-claimed-to-be-up-to-478x-faster-than-nvidia-a100-for-brain-modelling-11734269#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/icenu9ck_ai_625x300_29_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T19:45:13+05:30",
-      "category": "Markets",
-      "summary": "Developed by researchers at Peking University and the Chinese Academy of Sciences, the brain chip uses memristors to enable faster brain modelling for medical applications."
-    },
-    {
-      "title": "UAE Travel Rush Returns As War Jitters Fade, Sharjah Airport To Handle 3 Million Summer Visitors",
-      "excerpt": "To avoid the crowds and check-in lines, the airport has encouraged its visitors to arrive at least three hours prior to the planned departure.",
-      "url": "https://www.ndtvprofit.com/world/uae-travel-rush-returns-as-war-jitters-fade-sharjah-airport-to-handle-3-million-summer-visitors-11734603#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/8gr1gq0c_sharja_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-06T19:42:06+05:30",
-      "category": "Markets",
-      "summary": "To avoid the crowds and check-in lines, the airport has encouraged its visitors to arrive at least three hours prior to the planned departure."
-    },
-    {
-      "title": "Wall Street: S&P 500, Nasdaq surge as chip stocks rebound, Broadcom jumps 5.7%, Micron adds 2.8%",
-      "excerpt": "At 10:18 a.m. ET, the Dow Jones Industrial Average fell 0.28%, the S&amp;P 500 gained 0.52%, the Nasdaq Composite gained 1.10%",
-      "url": "https://www.livemint.com/market/stock-market-news/wall-street-edges-higher-as-chip-stocks-rebound-11783345550088.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/06/1600x900/USA-STOCKS-ECONOMY-INVESTORS-1_1783345966689_1783346001581_2621057c-1822-4fde-a137-36eab6f15853.JPG",
-      "publishedAt": "2026-07-06T19:32:22+05:30",
-      "category": "Markets",
-      "summary": "At 10:18 a.m. ET, the Dow Jones Industrial Average fell 0.28%, the S&amp;P 500 gained 0.52%, the Nasdaq Composite gained 1.10%"
     }
   ]
 }
