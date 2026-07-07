@@ -534,7 +534,7 @@ def main():
     history_map = fetch_company_history_batch(COMPANY_SYMBOLS)
 
     # Fundamentals in parallel (uses Ticker.info — one call per symbol, parallelised)
-    info_map = fetch_all_info_parallel(COMPANY_SYMBOLS, workers=12)
+    info_map = fetch_all_info_parallel(COMPANY_SYMBOLS, workers=30)
 
     # Merge price/change from already-fetched sector data where available
     # (sector_q already has today's price+change from the earlier batch)
@@ -742,7 +742,7 @@ def main():
             pass
         return None
 
-    with ThreadPoolExecutor(max_workers=10) as ex:
+    with ThreadPoolExecutor(max_workers=20) as ex:
         futures = {ex.submit(fetch_earnings_date, sym): sym for sym in EARNINGS_STOCKS}
         for future in as_completed(futures):
             result = future.result()
