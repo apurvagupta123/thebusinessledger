@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-07-10T21:28:38+05:30",
+  "lastUpdated": "2026-07-10T23:25:22+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Fino Payments Bank June update: Deposits rise 11%, loan referrals surge 3.5x",
+      "excerpt": "Fino Payments Bank reported an 11% year-on-year growth in deposits to ₹2,755 crore, with 3.1 lakh new accounts opened. Its loan referral business saw a 3.5x increase to ₹240 crore, but transaction throughput declined 35%",
+      "url": "https://www.livemint.com/market/stock-market-news/fino-payments-bank-june-update-deposits-rise-11-loan-referrals-surge-35x-11783703589983.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/10/1600x900/logo/g8dd72e3146aad560f7d70b1e7bd66369e70c38b6ba38378b0_1783703785631_1783703785807_2395f25c-56fc-4164-bedb-461b370b0fca.jpg",
+      "publishedAt": "2026-07-10T22:58:50+05:30",
+      "category": "Markets",
+      "summary": "Fino Payments Bank reported an 11% year-on-year growth in deposits to ₹2,755 crore, with 3.1 lakh new accounts opened. Its loan referral business saw a 3.5x increase to ₹240 crore, but transaction throughput declined 35%"
+    },
+    {
+      "title": "Gold, silver prices today: Comex extends weekly losses amid renewed Middle East tensions",
+      "excerpt": "Precious metals saw volatility on July 10, with COMEX gold and silver futures declining due to renewed Middle East tensions and concerns over rising interest rates. Gold fell to an intraday low of $4,081, while silver dr",
+      "url": "https://www.livemint.com/market/commodities/gold-silver-prices-today-comex-extends-weekly-losses-amid-renewed-middle-east-tensions-11783700259415.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/10/1600x900/logo/pexels-photo-33539240_1783684937717_1783684949916_6673ee5f-e165-4e78-bf7f-ca74a793d8ee_1783701006381_bdc30ad2-f89c-45b1-8d89-9cf05fd19891.jpeg",
+      "publishedAt": "2026-07-10T22:37:13+05:30",
+      "category": "Markets",
+      "summary": "Precious metals saw volatility on July 10, with COMEX gold and silver futures declining due to renewed Middle East tensions and concerns over rising interest rates. Gold fell to an intraday low of $4,081, while silver dr"
+    },
+    {
+      "title": "SK Hynix's shares surge 14% in blockbuster US market debut amid AI frenzy",
+      "excerpt": "SK Hynix's shares surged 14% in their Nasdaq debut after a $26.5 billion sale, reflecting investor enthusiasm for semiconductor stocks amid an AI boom.&nbsp;",
+      "url": "https://www.livemint.com/market/stock-market-news/sk-hynixs-shares-surge-14-in-blockbuster-us-market-debut-amid-ai-frenzy-11783698713620.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/10/1600x900/logo/USA-CHIPS-SK-HYNIX-0_1735201509856_1783698969398_3aeade79-c7f0-40ac-957f-ed0e2d1fcb5a.JPG",
+      "publishedAt": "2026-07-10T21:26:26+05:30",
+      "category": "Markets",
+      "summary": "SK Hynix's shares surged 14% in their Nasdaq debut after a $26.5 billion sale, reflecting investor enthusiasm for semiconductor stocks amid an AI boom.&nbsp;"
+    },
+    {
+      "title": "Global Markets: Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public",
+      "excerpt": "Fast-fashion titan Shein has gained approval for its Hong Kong IPO after previous attempts were blocked. Although the company has faced strict regulatory examination and backlash in the US and UK markets, it seeks to reb",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-shein-finally-wins-chinas-approval-for-hong-kong-ipo-in-third-attempt-to-go-public/articleshow/132315636.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-10T21:09:53+05:30",
+      "category": "Markets",
+      "summary": "Fast-fashion titan Shein has gained approval for its Hong Kong IPO after previous attempts were blocked. Although the company has faced strict regulatory examination and backlash in the US and UK markets, it seeks to reb"
+    },
     {
       "title": "14 Million Bpd Cut Off: IEA Warns Of Oil Scare As US, Iran Inch Towards Full",
       "excerpt": "The warning comes as investors and policymakers closely monitor developments between the US and Iran, with energy markets remaining sensitive to any signs of further escalation.",
@@ -31,6 +71,16 @@
       "publishedAt": "2026-07-10T20:53:27+05:30",
       "category": "Markets",
       "summary": "Passengers who cannot produce the ticket on their registered device, or establish their identity, may be treated as travelling without a valid ticket and could face penalties under railway rules."
+    },
+    {
+      "title": "South Korean billionaire's risky bet pays off, as SK Hynix debuts in New York",
+      "excerpt": "South Korean billionaire Chey Tae-won's bold acquisition of SK Hynix has paid off significantly. The company is now a leading producer of high-bandwidth memory chips for AI. This strategic investment has positioned SK Hy",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-billionaires-risky-bet-pays-off-as-sk-hynix-debuts-in-new-york/articleshow/132315233.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-10T20:51:29+05:30",
+      "category": "Markets",
+      "summary": "South Korean billionaire Chey Tae-won's bold acquisition of SK Hynix has paid off significantly. The company is now a leading producer of high-bandwidth memory chips for AI. This strategic investment has positioned SK Hy"
     },
     {
       "title": "Snabbit Leads June Order Growth In Instant Home Services Market",
@@ -173,6 +223,16 @@
       "summary": "The kitty had expanded to an all-time high of $728.494 billion during the week ended Feb. 27 this year before the onset of the Middle East conflict."
     },
     {
+      "title": "FM Nirmala Sitharaman to meets heads of PSU banks on Mon, review foreign currency deposit mobilisation",
+      "excerpt": "FM Nirmala Sitharaman to meets heads of PSU banks on Mon, review foreign currency deposit mobilisation The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPUWNUenJiSnE5dURGdkpYVlBYLVF5Y09maXhBbzVnZTdPcHE2NHNRZTNMZHZrV2xhRDJXT0dtYUdSell4R0pOcU12bjFPV3RMM3NiVmkwNG9aLWtIRHpYX08yaWIxS1lZLTJqR1VpU1VYREQ5NU1TemFpbnM1RFA5VlpzX3VMb2QyM2x2YUdXRWlFcFJLZ2s1QUtLQ3pzYmRqckxNeXB6VUNIbjRsUkVydWV5WlBFN1V3UENwWmNGY19nSTFJSmhvdlB0WHlqcnlxQ28wVU1qVVZQMEh5VVhJeFl4VzNkQWNUU0dvMWJfS2tJUlZ4SUtZRXRMb3V4dkRoV29mWDU5ZjkwYlJyY19CS2FBc1FZZnA4blZ1btIBnAJBVV95cUxPUWNUenJiSnE5dURGdkpYVlBYLVF5Y09maXhBbzVnZTdPcHE2NHNRZTNMZHZrV2xhRDJXT0dtYUdSell4R0pOcU12bjFPV3RMM3NiVmkwNG9aLWtIRHpYX08yaWIxS1lZLTJqR1VpU1VYREQ5NU1TemFpbnM1RFA5VlpzX3VMb2QyM2x2YUdXRWlFcFJLZ2s1QUtLQ3pzYmRqckxNeXB6VUNIbjRsUkVydWV5WlBFN1V3UENwWmNGY19nSTFJSmhvdlB0WHlqcnlxQ28wVU1qVVZQMEh5VVhJeFl4VzNkQWNUU0dvMWJfS2tJUlZ4SUtZRXRMb3V4dkRoV29mWDU5ZjkwYlJyY19CS2FBc1FZZnA4blZ1bg?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-10T19:51:00+05:30",
+      "category": "Economy",
+      "summary": "FM Nirmala Sitharaman to meets heads of PSU banks on Mon, review foreign currency deposit mobilisation The Economic Times"
+    },
+    {
       "title": "Ryanair Mid-Air Scare: Passenger Left Hanging Headfirst Out Of Shattered Window At 16,000 Ft",
       "excerpt": "The incident has drawn comparisons to a 2018 Southwest Airlines flight in the US, where a passenger died after engine debris shattered a window and she was partially pulled outside the aircraft.",
       "url": "https://www.ndtvprofit.com/world/ryanair-mid-air-scare-passenger-left-hanging-headfirst-out-of-shattered-window-at-16-000-ft-11754471#publisher=newsstand",
@@ -191,66 +251,6 @@
       "publishedAt": "2026-07-10T19:47:11+05:30",
       "category": "Markets",
       "summary": "From July 1, commercial users such as transport companies and industries will once again be able to buy petrol and diesel from retail outlets without any quantity limits."
-    },
-    {
-      "title": "Sitharaman To Meet Heads Of PSU Banks On Monday, Review Foreign Currency Deposit Mobilisation",
-      "excerpt": "State-owned enterprises, particularly central public sector enterprises (CPSEs), typically raise around USD 1012 billion annually through ECBs.",
-      "url": "https://www.ndtvprofit.com/economy/finance-minister-nirmala-sitharaman-to-meet-heads-of-psu-banks-on-monday-review-foreign-currency-deposit-mobilisation-11754776#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/5l30kdrg_nirmala-sitharaman_625x300_09_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-10T19:42:43+05:30",
-      "category": "Markets",
-      "summary": "State-owned enterprises, particularly central public sector enterprises (CPSEs), typically raise around USD 1012 billion annually through ECBs."
-    },
-    {
-      "title": "Zetwerk, Tonbo Imaging secure Sebi nod for IPOs",
-      "excerpt": "Zetwerk has an 18-month window to go public, while Tonbo Imaging must list within the next 12 months.",
-      "url": "https://www.livemint.com/market/ipo/zetwerk-tonbo-imaging-sebi-ipo-approval-public-offering-11783687337647.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/10/1600x900/logo/IPO_1783692038606_1783692038771_5e8221ac-4299-4443-b24f-253d415e36dc.png",
-      "publishedAt": "2026-07-10T19:37:20+05:30",
-      "category": "Markets",
-      "summary": "Zetwerk has an 18-month window to go public, while Tonbo Imaging must list within the next 12 months."
-    },
-    {
-      "title": "Mahadev App Probe: ED Seizes Rs 940 Crore In Properties, Shares Of Businessman Vikas Garg",
-      "excerpt": "The Enforcement Directorate said the attachment is part of its money laundering probe into the alleged Mahadev Online Book and Skyexchange betting networks.",
-      "url": "https://www.ndtvprofit.com/business/mahadev-app-probe-ed-seizes-rs-940-crore-in-properties-shares-of-businessman-vikas-garg-11754363#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/6oit8974_unsplash_625x300_10_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-10T19:36:24+05:30",
-      "category": "Markets",
-      "summary": "The Enforcement Directorate said the attachment is part of its money laundering probe into the alleged Mahadev Online Book and Skyexchange betting networks."
-    },
-    {
-      "title": "Wall Street muted ahead of SK Hynix debut on Nasdaq; AI stocks and crypto shares gain",
-      "excerpt": "At 09:50 a.m. ET, the Dow Jones Industrial Average rose 0.07%, the S&amp;P 500 gained 0.15%, the Nasdaq Composite gained 0.05%",
-      "url": "https://www.livemint.com/market/stock-market-news/wall-street-mixed-ahead-of-sk-hynix-debut-on-nasdaq-11783691173065.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/10/1600x900/nyse_1783691361429_1783691361571_627d8385-d27f-400e-b510-6dc6e5e7409f.jpg",
-      "publishedAt": "2026-07-10T19:28:12+05:30",
-      "category": "Markets",
-      "summary": "At 09:50 a.m. ET, the Dow Jones Industrial Average rose 0.07%, the S&amp;P 500 gained 0.15%, the Nasdaq Composite gained 0.05%"
-    },
-    {
-      "title": "US Stock Market Today: Dow Jones, Nasdaq Flat As SK Hynix Debuts; S&P 500 Heads For Winning Week",
-      "excerpt": "The Dow Jones Industrial Average rose over 120 points or 0.23% and S&P 500 gained over 0.13%.",
-      "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-dow-jones-nasdaq-flat-as-sk-hynix-debuts-s-p-500-heads-for-winning-week-11754583#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/9asflnt4_x_625x300_29_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-10T19:26:56+05:30",
-      "category": "Markets",
-      "summary": "The Dow Jones Industrial Average rose over 120 points or 0.23% and S&P 500 gained over 0.13%."
-    },
-    {
-      "title": "Memory Makers Crack On Nasdaq As SK Hynix Debuts: SanDisk, Micron, Microchip Slide Up To 5%",
-      "excerpt": "Inspite of its HBM dominance, SK Hynix trades at around 5.8 times forward earnings versus Micron at around 7 times, as per LSEG data.",
-      "url": "https://www.ndtvprofit.com/markets/memory-makers-crack-ahead-of-sk-hynix-listing-sandisk-micron-microchip-slide-up-to-3-percent-11754158#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/e266j12_g_625x300_10_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-10T19:21:28+05:30",
-      "category": "Markets",
-      "summary": "Inspite of its HBM dominance, SK Hynix trades at around 5.8 times forward earnings versus Micron at around 7 times, as per LSEG data."
     }
   ]
 }
