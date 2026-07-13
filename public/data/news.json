@@ -1,16 +1,226 @@
 {
-  "lastUpdated": "2026-07-13T20:53:04+05:30",
+  "lastUpdated": "2026-07-13T23:00:48+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "US To Get Reimbursed At 20% Of All Cargo Shipped After Hormuz Takeover, Trump Says",
-      "excerpt": "Trump said that the US would henceforth be known as 'The Guardian Of The Hormuz Strait'.",
-      "url": "https://www.ndtvprofit.com/world/us-to-get-reimbursed-at-20-of-all-cargo-shipped-after-hormuz-takeover-trump-says-11766032#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/h6eluqug_strait-of-hormuz-reopening_625x300_17_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T20:10:06+05:30",
+      "title": "SpaceX extends losses, hovers near IPO price after 39% plunge from peak",
+      "excerpt": "SpaceX shares have dropped 5.3% to $137.68, just above its IPO price, following a month of volatility. Despite strong fundamentals, the stock's recent decline is attributed to profit-taking and a market reassessment of t",
+      "url": "https://www.livemint.com/market/stock-market-news/spacex-extends-losses-hovers-near-ipo-price-after-39-plunge-from-peak-11783959405363.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/13/1600x900/logo/GLOBAL-MARKETS-H1-0_1783944902758_1783944931190_9414d1dc-8ed5-4326-8189-d01bcbcffca5_1783959396887_8533cb53-3223-4d18-8e78-13f94e5c8c24.JPG",
+      "publishedAt": "2026-07-13T22:48:27+05:30",
       "category": "Markets",
-      "summary": "Trump said that the US would henceforth be known as 'The Guardian Of The Hormuz Strait'."
+      "summary": "SpaceX shares have dropped 5.3% to $137.68, just above its IPO price, following a month of volatility. Despite strong fundamentals, the stock's recent decline is attributed to profit-taking and a market reassessment of t"
+    },
+    {
+      "title": "HCLTech's AI Pitch Goes Deeper Than Chatbots As It Targets Enterprise AI Infrastructure",
+      "excerpt": "IT major broadens AI strategy beyond GenAI services, betting on infrastructure, sovereign AI and data centres as its next growth engine.",
+      "url": "https://www.ndtvprofit.com/technology/hcltechs-ai-pitch-goes-deeper-than-chatbots-as-it-targets-enterprise-ai-infrastructure-11766786#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/81sc4084_hcl-tech_625x300_13_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:31:35+05:30",
+      "category": "Markets",
+      "summary": "IT major broadens AI strategy beyond GenAI services, betting on infrastructure, sovereign AI and data centres as its next growth engine."
+    },
+    {
+      "title": "SC Upholds SEBI's Rs 2.1 Crore Penalty On Kotak AMC In Essel Debt Case",
+      "excerpt": "SEBI alleged Kotak AMC failed to conduct adequate due diligence on Essel group entities and delayed redemptions after restructuring debt backed by Zee shares",
+      "url": "https://www.ndtvprofit.com/markets/supreme-court-upholds-sebis-rs-2-1-crore-penalty-on-kotak-amc-in-essel-debt-case-11766776#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/h1enj6pc_sebi_625x300_13_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:30:15+05:30",
+      "category": "Markets",
+      "summary": "SEBI alleged Kotak AMC failed to conduct adequate due diligence on Essel group entities and delayed redemptions after restructuring debt backed by Zee shares"
+    },
+    {
+      "title": "Kangana Ranaut Supports UP Governor Anandiben Patel's Cooking Remark, Social Media Divided Over Her Views",
+      "excerpt": "Kangana Ranaut supported Uttar Pradesh Governor Anandiben Patel's remarks urging women to learn cooking, triggering a heated debate online as social media remained divided over her views.",
+      "url": "https://www.ndtvprofit.com/lifestyle/kangana-ranaut-backs-up-governor-anandiben-patels-women-should-learn-cooking-remark-sparks-online-debate-11766679#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/k2fhgoq4_kanganaranautsupportsanandibenpatelcookingremarkwebp_625x300_13_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:25:44+05:30",
+      "category": "Markets",
+      "summary": "Kangana Ranaut supported Uttar Pradesh Governor Anandiben Patel's remarks urging women to learn cooking, triggering a heated debate online as social media remained divided over her views."
+    },
+    {
+      "title": "'Fake News Alert': US Envoy Dismisses Report Of Indian Trade Deal Hitting Roadblock",
+      "excerpt": "Reuters had claimed that India rejected a quick, restricted interim trade deal that Washington had proposed, and was holding on for a better pact.",
+      "url": "https://www.ndtvprofit.com/economy/fake-news-alert-us-envoy-dismisses-report-of-indian-trade-deal-hitting-roadblock-11766658#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/7b7e38d7_PTI10112025000455B.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:19:54+05:30",
+      "category": "Markets",
+      "summary": "Reuters had claimed that India rejected a quick, restricted interim trade deal that Washington had proposed, and was holding on for a better pact."
+    },
+    {
+      "title": "Australia Women's Cricket Hit By Controversy After Allegation Against Ashleigh Gardner | What We Know",
+      "excerpt": "Unverified allegations involving Australia's vice-captain and teammate Georgia Voll have drawn widespread attention across the cricketing world.",
+      "url": "https://www.ndtvprofit.com/sports/australia-womens-cricket-hit-by-controversy-after-allegation-against-ashleigh-gardner-what-we-know-11764932#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/oajglp38_cs_625x300_13_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:19:52+05:30",
+      "category": "Markets",
+      "summary": "Unverified allegations involving Australia's vice-captain and teammate Georgia Voll have drawn widespread attention across the cricketing world."
+    },
+    {
+      "title": "FII Flows Will 'Gradually Return', Nifty To Climb 10% To 26,500 Points By June 2027: Goldman Sachs Report",
+      "excerpt": "India has been used as a funding market in the first half of 2026, leading to record outflows of $30 billion in a short span of over three months.",
+      "url": "https://www.ndtvprofit.com/markets/fii-flows-will-gradually-return-nifty-to-climb-10-to-26-500-points-by-june-2027-goldman-sachs-report-11766718#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/t7d31auc_nse_625x300_16_January_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:18:50+05:30",
+      "category": "Markets",
+      "summary": "India has been used as a funding market in the first half of 2026, leading to record outflows of $30 billion in a short span of over three months."
+    },
+    {
+      "title": "Paramount's $110M Deal For Warner Bros Faces Hurdle As 12 US States File Lawsuit To Block Merger",
+      "excerpt": "States argue the blockbuster merger would curb competition in film distribution and cable television.",
+      "url": "https://www.ndtvprofit.com/business/paramounts-110m-deal-for-warner-bros-faces-hurdle-as-12-states-file-lawsuit-to-block-merger-11766599#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/ikf0aji_paramount-warner-bros_625x300_30_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:07:03+05:30",
+      "category": "Markets",
+      "summary": "States argue the blockbuster merger would curb competition in film distribution and cable television."
+    },
+    {
+      "title": "SpiceJet Lessors Ask DGCA For Deregisteration Of Four Boeing 737-8 MAX Planes To Eliminate Rental Costs",
+      "excerpt": "Facing financial and legal headwinds, SpiceJet is already operating a reduced fleet.",
+      "url": "https://www.ndtvprofit.com/business/spicejet-lessors-ask-dgca-for-derigestiration-of-four-boeing-737-8-max-planes-to-eliminate-rental-costs-11766648#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/dd34f7f6_A_Spicejet_aircraft_on_the_tarmac_at_the_airport___Photographer___Vijay_Sartape___Source__BQ_Prime__.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:06:43+05:30",
+      "category": "Markets",
+      "summary": "Facing financial and legal headwinds, SpiceJet is already operating a reduced fleet."
+    },
+    {
+      "title": "Jio Platforms Replaces CEO Ahead Of Rs 37,700",
+      "excerpt": "Jio Platforms has replaced Kiran Thomas as chief executive officer with Pankaj Pawar, according to its draft IPO papers, as the company seeks to raise about USD 4 billion at a valuation of around USD 137 billion.",
+      "url": "https://www.ndtvprofit.com/markets/jio-platforms-replaces-ceo-ahead-of-rs-37-700-crore-ipo-11766384#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/amnjv508_reliance-agm-2026-jio-ipo_625x300_19_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T22:01:48+05:30",
+      "category": "Markets",
+      "summary": "Jio Platforms has replaced Kiran Thomas as chief executive officer with Pankaj Pawar, according to its draft IPO papers, as the company seeks to raise about USD 4 billion at a valuation of around USD 137 billion."
+    },
+    {
+      "title": "Buy, Sell Or Hold: HCLTech, CDSL, MCX, GAIL, IDBI Bank And Sula Vineyards — Ask Profit",
+      "excerpt": "Market experts shared their insights on fundamentals and technical levels for key stocks, HCL Technologies, CDSL, MCX, GAIL, IDBI Bank And Sula Vineyards.",
+      "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-hcltech-cdsl-mcx-gail-idbi-bank-and-sula-vineyards-ask-profit-11766568#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/ut4aqg9s_ask-profit_625x300_13_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:48:55+05:30",
+      "category": "Markets",
+      "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks, HCL Technologies, CDSL, MCX, GAIL, IDBI Bank And Sula Vineyards."
+    },
+    {
+      "title": "Chip Stocks Lose Spark: Micron, SanDisk, Intel Plunge Up To 8% On SK Hynix Jitters",
+      "excerpt": "Memory-chip names led losses on Wall Street as investors reassessed AI demand, while SK Hynix ADRs bucked the broader selloff.",
+      "url": "https://www.ndtvprofit.com/markets/chip-stocks-lose-spark-micron-sandisk-intel-plunge-up-to-8-on-sk-hynix-jitters-11766567#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/5hoo2erk_chip-stock_625x300_13_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:46:56+05:30",
+      "category": "Markets",
+      "summary": "Memory-chip names led losses on Wall Street as investors reassessed AI demand, while SK Hynix ADRs bucked the broader selloff."
+    },
+    {
+      "title": "India Thrash England By 270 Runs In First",
+      "excerpt": "With the massive win, India also maintained their superior record against England in the longest format. In the 16 Tests both teams have played, India have won four games, England one while the remaining 11 matches were ",
+      "url": "https://www.ndtvprofit.com/sports/india-thrash-england-by-270-runs-in-first-ever-womens-test-at-lords-cricket-ground-11766546#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/7h7n9ojc_harmanpreet-kaur_625x300_13_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:41:39+05:30",
+      "category": "Markets",
+      "summary": "With the massive win, India also maintained their superior record against England in the longest format. In the 16 Tests both teams have played, India have won four games, England one while the remaining 11 matches were "
+    },
+    {
+      "title": "West Indies Vs New Zealand 2nd ODI Live Streaming: Check Date, Time And How To Watch WI Vs NZ Match",
+      "excerpt": "West Indies began the ODI series on a winning note after Keacy Carty and Shai Hope combined to seal a convincing seven-wicket victory against New Zealand in Guyana.",
+      "url": "https://www.ndtvprofit.com/sports/west-indies-vs-new-zealand-2nd-odi-live-streaming-check-date-time-and-how-to-watch-wi-vs-nz-match-11763741#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/kmta7hfs_wi_625x300_13_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:30:47+05:30",
+      "category": "Markets",
+      "summary": "West Indies began the ODI series on a winning note after Keacy Carty and Shai Hope combined to seal a convincing seven-wicket victory against New Zealand in Guyana."
+    },
+    {
+      "title": "48 To 64 Teams! Infantino Says FIFA Exploring Options To Expand Ahead Of 2030 World Cup",
+      "excerpt": "FIFA president says football's governing body will examine a further expansion after the ongoing 2026 World Cup concludes.",
+      "url": "https://www.ndtvprofit.com/sports/48-to-64-teams-gianni-infantino-says-fifa-exploring-options-to-expand-ahead-of-2030-world-cup-11764720#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/bikntv1k_gianni-infantino_625x300_13_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:28:48+05:30",
+      "category": "Markets",
+      "summary": "FIFA president says football's governing body will examine a further expansion after the ongoing 2026 World Cup concludes."
+    },
+    {
+      "title": "Emcure Takes 100% Control Of Biopharma Arm Gennova, Buys Minority Stake Held By Dr Sanjay Singh, Others",
+      "excerpt": "Gennova Biopharmaceuticals becomes a fully owned subsidiary of Emcure as a result of this strategic acquisition, centralising the group's biopharmaceutical, complex biologics, and biosimilar operations.",
+      "url": "https://www.ndtvprofit.com/business/emcure-takes-100-control-of-biopharma-arm-gennova-buys-minority-stake-held-by-dr-sanjay-singh-others-11766409#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/3f4f2715_blue-capsules-and-pills-background-2024-10-15-05-18-54-utc-1.JPG?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:27:11+05:30",
+      "category": "Markets",
+      "summary": "Gennova Biopharmaceuticals becomes a fully owned subsidiary of Emcure as a result of this strategic acquisition, centralising the group's biopharmaceutical, complex biologics, and biosimilar operations."
+    },
+    {
+      "title": "OTT Releases This Week: Wuthering Heights, Teesri Begum, Heartstopper Forever And More — Here's What To Watch",
+      "excerpt": "Netflix, Prime Video, JioHotstar and other streaming platforms are bringing a fresh lineup of movies and series this week. Here's the listicle.",
+      "url": "https://www.ndtvprofit.com/lifestyle/ott-releases-this-week-wuthering-heights-teesri-begum-heartstopper-forever-and-more-heres-what-to-watch-11764257#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/oso06nn4_ott-releases_625x300_13_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:15:24+05:30",
+      "category": "Markets",
+      "summary": "Netflix, Prime Video, JioHotstar and other streaming platforms are bringing a fresh lineup of movies and series this week. Here's the listicle."
+    },
+    {
+      "title": "How Much Did Jannik Sinner Earn For Winning Wimbledon 2026? Prize Money Breakdown",
+      "excerpt": "According to Wimbledon, the total prize fund for the gentlemen's singles event this year was 23,632,000 Pounds, up 22% from the 2025 edition.",
+      "url": "https://www.ndtvprofit.com/sports/how-much-did-jannik-sinner-earn-for-winning-wimbledon-2026-prize-money-breakdown-11763566#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/us0jrt9_jannik-sinner_625x300_13_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:08:46+05:30",
+      "category": "Markets",
+      "summary": "According to Wimbledon, the total prize fund for the gentlemen's singles event this year was 23,632,000 Pounds, up 22% from the 2025 edition."
+    },
+    {
+      "title": "8th Pay Commission: Level 1 HRA May Rise Up To Rs 13,880 If Last Fitment Factor Retained",
+      "excerpt": "Level-1 employees will see HRA rise significantly across X, Y and Z cities if the 8th Pay Commission adopts a 2.57 fitment factor.",
+      "url": "https://www.ndtvprofit.com/personal-finance/8th-pay-commission-level-1-hra-may-rise-up-to-rs-13-880-if-last-fitment-factor-retained-11766297#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/amlbuuto_8th-pay-commission_625x300_23_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T21:07:34+05:30",
+      "category": "Markets",
+      "summary": "Level-1 employees will see HRA rise significantly across X, Y and Z cities if the 8th Pay Commission adopts a 2.57 fitment factor."
+    },
+    {
+      "title": "Gold, silver prices today: Comex gold, silver extend losses as Middle East tensions lift Fed rate hike fears",
+      "excerpt": "Gold and silver prices continued to fall amid Middle East tensions, inflation concerns, and a stronger US dollar. Gold futures dropped to $4,009 and silver to $57.82. Crude oil prices surged over 4%, raising inflation fe",
+      "url": "https://www.livemint.com/market/commodities/gold-silver-prices-today-comex-gold-silver-extend-losses-as-middle-east-tensions-lift-fed-rate-hike-fears-11783952274681.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/13/1600x900/logo/s_1782288538863_1782288543389_42eb1049-ce04-4fa4-a82e-b3b75d863f72_1783953252521_b42eb66e-85e9-426b-a010-45883704b5e6.jpg",
+      "publishedAt": "2026-07-13T21:04:36+05:30",
+      "category": "Markets",
+      "summary": "Gold and silver prices continued to fall amid Middle East tensions, inflation concerns, and a stronger US dollar. Gold futures dropped to $4,009 and silver to $57.82. Crude oil prices surged over 4%, raising inflation fe"
+    },
+    {
+      "title": "'Earn Rs 25,000 A Month': Uber Rider's Tech Job Reveal Ignites Debate On X",
+      "excerpt": "The rider claimed he earns Rs 25,000 a month as a full-stack developer and drives for Uber during evenings and weekends to supplement his income.",
+      "url": "https://www.ndtvprofit.com/trending/earn-rs-25-000-a-month-uber-riders-tech-job-reveal-ignites-debate-on-x-11765954#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/5vg1bkgc_uber-rider_625x300_13_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T20:56:51+05:30",
+      "category": "Markets",
+      "summary": "The rider claimed he earns Rs 25,000 a month as a full-stack developer and drives for Uber during evenings and weekends to supplement his income."
+    },
+    {
+      "title": "Re-NEET UG 2026 OMR Sheet & Recorded Responses OUT: Check Direct Link And Steps To Download",
+      "excerpt": "The National Testing Agency released the Re-NEET 2026 OMR sheets and recorded responses on its official website on July 13. Candidates can download them using application number and password.",
+      "url": "https://www.ndtvprofit.com/trending/re-neet-ug-2026-omr-sheet-recorded-responses-out-check-direct-link-and-steps-to-download-11766303#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/8p0l6f6k_nta_625x300_13_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-13T20:51:59+05:30",
+      "category": "Markets",
+      "summary": "The National Testing Agency released the Re-NEET 2026 OMR sheets and recorded responses on its official website on July 13. Candidates can download them using application number and password."
     },
     {
       "title": "SK Hynix US-listed shares slip nearly 8% as Nasdaq debut euphoria cools",
@@ -23,74 +233,14 @@
       "summary": "SK Hynix’s US-listed shares fell nearly 8% after a strong Nasdaq debut, as investors booked profits in AI-linked chip stocks. The decline triggered broader weakness across global semiconductor stocks, with sharp losses i"
     },
     {
-      "title": "Stephen Fleming Steps Down As CSK Coach: A Look At His 18",
-      "excerpt": "The former New Zealand captain has also stepped down from his role of head coach of Joburg Super Kings and Texas Super Kings, CSK's two major franchises.",
-      "url": "https://www.ndtvprofit.com/sports/stephen-fleming-steps-down-as-csk-coach-a-look-at-his-18-year-ipl-legacy-11763954#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/58l6iefo_stephen-fleming-_625x300_13_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T20:07:22+05:30",
-      "category": "Markets",
-      "summary": "The former New Zealand captain has also stepped down from his role of head coach of Joburg Super Kings and Texas Super Kings, CSK's two major franchises."
-    },
-    {
-      "title": "Shell Sells India Renewables Arm Sprng Energy To Aditya Birla Group For 17,200 crore",
-      "excerpt": "The Rs 17,200-crore deal marks one of India's biggest renewable energy acquisitions and significantly boosts the group's green energy ambitions.",
-      "url": "https://www.ndtvprofit.com/business/shell-sells-india-renewables-arm-sprng-energy-to-aditya-birla-group-for-17-200-crore-11766014#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/q584i9ak_aditya-birla-green_625x300_13_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T20:02:18+05:30",
-      "category": "Markets",
-      "summary": "The Rs 17,200-crore deal marks one of India's biggest renewable energy acquisitions and significantly boosts the group's green energy ambitions."
-    },
-    {
-      "title": "Crypto Hypocrisy? Trump and Sons Hyped Crypto, But Put Their Own Gains In Safe Harbors: Report",
-      "excerpt": "Reuters analysis of Donald Trump's financial disclosures shows crypto windfall coincided with a sharp rise in his stock and bond holdings, even as his family publicly championed digital assets.",
-      "url": "https://www.ndtvprofit.com/world/crypto-hypocrisy-trump-and-sons-hyped-crypto-but-put-their-own-gains-in-safe-harbors-report-11766017#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/duiqiqr_donald-trump_625x300_11_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:56:40+05:30",
-      "category": "Markets",
-      "summary": "Reuters analysis of Donald Trump's financial disclosures shows crypto windfall coincided with a sharp rise in his stock and bond holdings, even as his family publicly championed digital assets."
-    },
-    {
-      "title": "US Stock Market Today: S&P 500, Nasdaq In Red As Chipmakers Slump; Micron Falls 7%",
-      "excerpt": "Technology stocks weighed on Wall Street, with semiconductor shares leading losses in early trade.",
-      "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-s-p-500-nasdaq-in-red-as-chipmakers-slump-micron-falls-7-11765795#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/proen/2025-04-07/ppina7k3/Wall-Street.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:56:22+05:30",
-      "category": "Markets",
-      "summary": "Technology stocks weighed on Wall Street, with semiconductor shares leading losses in early trade."
-    },
-    {
-      "title": "'False And Misleading': Piyush Goyal Rejects Reports Of India",
-      "excerpt": "Goyal reacted to a report published by the news agency Reuters, which stated that India was waiting for a better deal and had rejected a speedy trade pact with the US in recent negotiations.",
-      "url": "https://www.ndtvprofit.com/economy/false-and-misleading-piyush-goyal-rejects-reports-of-india-us-trade-deadlock-11765934#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/geuk5nfc_piyush-goyal_625x300_13_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:51:53+05:30",
-      "category": "Markets",
-      "summary": "Goyal reacted to a report published by the news agency Reuters, which stated that India was waiting for a better deal and had rejected a speedy trade pact with the US in recent negotiations."
-    },
-    {
-      "title": "US-Iran War News Live Updates: Trump Says US To Take Over Hormuz, To Get Reimbursed By 20%",
-      "excerpt": "US President Donald Trump claimed that the Strait of Hormuz is open, while criticising the Iran again.",
-      "url": "https://www.ndtvprofit.com/world/us-iran-war-news-live-updates-us-pounds-iran-again-amid-hormuz-deadlock-trump-claims-strait-is-open-middle-east-conflict-gulf-news-middle-east-flights-11762955#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/h3sp5mmc_us-iran_625x300_06_June_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:51:09+05:30",
-      "category": "Markets",
-      "summary": "US President Donald Trump claimed that the Strait of Hormuz is open, while criticising the Iran again."
-    },
-    {
-      "title": "Infosys, Wipro ADRs Surge Up To 4% As HCLTech's 'Highest",
-      "excerpt": "HCLTech CEO C Vijayakumar said the company witnessed robust client bookings during the April-June quarter.",
-      "url": "https://www.ndtvprofit.com/markets/infosys-wipro-adrs-surge-up-to-4-as-hcltechs-highest-ever-deal-win-brings-indian-it-in-focus-11765841#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/90bf0a1b_thumbnail01.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:47:39+05:30",
-      "category": "Markets",
-      "summary": "HCLTech CEO C Vijayakumar said the company witnessed robust client bookings during the April-June quarter."
+      "title": "Rupee hits 1-month low as West Asia tensions, oil prices weigh on sentiment",
+      "excerpt": "Rupee hits 1-month low as West Asia tensions, oil prices weigh on sentiment Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVWtRZFE1T3lRM1lxSnZvaEczWE9KUjY0TzNuVHBDdDNCamFDTElwSV9EUndGOWdnSTQtVF9wU0FYWnRnZGkzWk00NWtmaW9RTl9LcHlpUURrX3pMTzY2TEN5UXFtTVhPV25WRmpNWHpuRkZsZ0ZiVFhrZDFEY1NsRXlnYVNXZEVYbGROaEdCd1YtcXR2a2F2cDBjT3hSN2pLbWFSaHhDSkZ2ZXJ6d2hjSVJYQWc5aExOV2ZjNGk5VGdpTHhCd2NsTTJYOGJZSXlMdGM4cGo5UXk0ckplemfSAd4BQVVfeXFMTlVrUWRRNU95UTNZcUp2b2hHM1hPSlI2NE8zblRwQ3QzQmphQ0xJcElfRFJ3RjlnZ0k0LVRfcFNBWFp0Z2RpM1pNNDVrZmlvUU5fS3B5aVFEa196TE82NkxDeVFxbU1YT1duVkZqTVh6bkZGbGdGYlRYa2QxRGNTbEV5Z2FTV2RFWGxkTmhHQndWLXF0dmthdnAwY094UjdqS21hUmh4Q0pGdmVyendoY0lSWEFnOWhMTldmYzRpOVRnaUx4QndjbE0yWDhiWUl5THRjOHBqOVF5NHJKZXpn?oc=5",
+      "source": "Business Standard",
+      "image": null,
+      "publishedAt": "2026-07-13T20:10:36+05:30",
+      "category": "Economy",
+      "summary": "Rupee hits 1-month low as West Asia tensions, oil prices weigh on sentiment Business Standard"
     },
     {
       "title": "Small-cap stock under  ₹50 hits upper circuit after this AI update",
@@ -101,156 +251,6 @@
       "publishedAt": "2026-07-13T19:46:35+05:30",
       "category": "Markets",
       "summary": "Blue Cloud Softech Solutions shares closed 5% higher at ₹21.70 after signing a five-year Master Services Agreement with SpaceX International.&nbsp;"
-    },
-    {
-      "title": "Ranbir Kapoor Buys 25",
-      "excerpt": "The deal includes four adjoining land parcels in Pimpri village and marks another major addition to the actor's growing real estate portfolio.",
-      "url": "https://www.ndtvprofit.com/business/ranbir-kapoor-buys-25-acre-land-parcel-in-punes-mulshi-for-rs-16-42-crore-11764883#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/l2vpc2l8_ranbir-kapoor_625x300_14_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:42:56+05:30",
-      "category": "Markets",
-      "summary": "The deal includes four adjoining land parcels in Pimpri village and marks another major addition to the actor's growing real estate portfolio."
-    },
-    {
-      "title": "Laser Power & Infra IPO: Issue booked 41 times on Day 03; NII, QIB portions see strong demand",
-      "excerpt": "Laser Power &amp; Infra Ltd.'s IPO was oversubscribed 41 times, with institutional investors leading. The issue raised ₹742 crore, priced at ₹203-214 per share. The grey market premium suggests potential listing above th",
-      "url": "https://www.livemint.com/market/stock-market-news/laser-power-infra-ipo-issue-booked-41-times-on-day-03-nii-qib-portions-see-strong-demand-11783950960114.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/13/1600x900/logo/SME_IPO_1756099341077_1756099345044_1783950956390_18d07cb9-27b4-4fba-9ca2-b567c0cc29cc.png",
-      "publishedAt": "2026-07-13T19:41:55+05:30",
-      "category": "Markets",
-      "summary": "Laser Power &amp; Infra Ltd.'s IPO was oversubscribed 41 times, with institutional investors leading. The issue raised ₹742 crore, priced at ₹203-214 per share. The grey market premium suggests potential listing above th"
-    },
-    {
-      "title": "Premium | India’s June inflation surprise: The key signals for RBI, bond yields and markets",
-      "excerpt": "Premium | India’s June inflation surprise: The key signals for RBI, bond yields and markets Business Upturn",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVDFhWmlmT1FONUE2X05VNks2eTNIVU14SVVTSkFpa3cyN0pua1BMTW1LdHVWc01JdlpKOWcyLUlCUGUxNjBLVkY1TVVYaE9hdi1UNzBNRENhZktEUXA5LXdLX2daR2F0ak5lV0k1Sk9JVkg3RTlkZkc2dlYzeGp1RjcxTTVGd2RMSDI5UE80akc3Z3A3R21FZENJdkE3bTdIUG5BcDJnZ21aVGNCVWs5SmtOT2R5TExpUnBRZi0tUWZCQmhsaXFMbWxoX2hwUnJO?oc=5",
-      "source": "Business Upturn",
-      "image": null,
-      "publishedAt": "2026-07-13T19:38:22+05:30",
-      "category": "Economy",
-      "summary": "Premium | India’s June inflation surprise: The key signals for RBI, bond yields and markets Business Upturn"
-    },
-    {
-      "title": "India Needs 14% GDP Growth To Clear Unemployment Backlog, Says Morgan Stanley Economist",
-      "excerpt": "A 9-10% GDP growth would be required to absorb the new entrants in the workforce, according to Morgan Stanley's Chetan Ahya.",
-      "url": "https://www.ndtvprofit.com/economy/india-needs-14-gdp-growth-to-clear-unemployment-backlog-says-morgan-stanley-economist-11764785#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/ruktdvac_bb_625x300_13_July_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:36:11+05:30",
-      "category": "Markets",
-      "summary": "A 9-10% GDP growth would be required to absorb the new entrants in the workforce, according to Morgan Stanley's Chetan Ahya."
-    },
-    {
-      "title": "ICICI Prudential AMC Q1 Results: Profit Jumps 26%; Total Income Exceeds Rs 1,700 Crore",
-      "excerpt": "Asset manager posts strong first-quarter earnings as profit and income register double-digit growth.",
-      "url": "https://www.ndtvprofit.com/markets/icici-prudential-amc-q1-results-profit-jumps-26-total-income-exceeds-rs-1-700-crore-11764986#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/gaq0ovpg_g_625x300_13_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:35:34+05:30",
-      "category": "Markets",
-      "summary": "Asset manager posts strong first-quarter earnings as profit and income register double-digit growth."
-    },
-    {
-      "title": "Dhamaal 4 Box Office Collection Day 4: Ajay Devgn Starrer Maintains Momentum — Check Earnings",
-      "excerpt": "Dhamaal 4's total India net has reached Rs 66.89 crore, while the India gross stands at Rs 80.23 crore as first Monday collections come in.",
-      "url": "https://www.ndtvprofit.com/business/dhamaal-4-box-office-collection-day-4-ajay-devgn-starrer-maintains-momentum-check-earnings-11764700#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/9h2e2v3o_dhamaal4boxofficecollectionday4jpg_625x300_13_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:34:14+05:30",
-      "category": "Markets",
-      "summary": "Dhamaal 4's total India net has reached Rs 66.89 crore, while the India gross stands at Rs 80.23 crore as first Monday collections come in."
-    },
-    {
-      "title": "Ex-Microsoft Employee Calls Quitting Rs 1.9 Crore Job 'Dumbest Decision', Has No Regrets",
-      "excerpt": "Former Microsoft employee Christian Harms left a 200,000 Swiss franc salary to become a content creator, sharing the setbacks and lessons from his career change.",
-      "url": "https://www.ndtvprofit.com/trending/ex-microsoft-employee-calls-quitting-rs-1-9-crore-job-dumbest-decision-has-no-regrets-11764587#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/etnjj0nk_microsft-ex_625x300_13_July_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:24:42+05:30",
-      "category": "Markets",
-      "summary": "Former Microsoft employee Christian Harms left a 200,000 Swiss franc salary to become a content creator, sharing the setbacks and lessons from his career change."
-    },
-    {
-      "title": "Who Is Anil Menon? NASA's Indian",
-      "excerpt": "Physician-astronaut Anil Menon will lift off aboard Soyuz MS-29 on July 14 for his first mission to the International Space Station, where he will spend about eight months conducting cutting-edge scientific research.",
-      "url": "https://www.ndtvprofit.com/science/who-is-anil-menon-nasas-indian-origin-astronaut-to-embark-on-maiden-iss-mission-11764555#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/bh4k7dbo_anil-menon_625x300_13_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:18:43+05:30",
-      "category": "Markets",
-      "summary": "Physician-astronaut Anil Menon will lift off aboard Soyuz MS-29 on July 14 for his first mission to the International Space Station, where he will spend about eight months conducting cutting-edge scientific research."
-    },
-    {
-      "title": "Biocon Block Deal: Mylan To Fully Exit Via Rs 3,500",
-      "excerpt": "Mylan to sell entire 5.64% stake at an 8% discount through a Rs 3,500-crore block deal.",
-      "url": "https://www.ndtvprofit.com/markets/biocon-block-deal-mylan-to-fully-exit-via-rs-3-500-crore-stake-sale-11765779#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/6go05thc_biocon_625x300_08_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:11:21+05:30",
-      "category": "Markets",
-      "summary": "Mylan to sell entire 5.64% stake at an 8% discount through a Rs 3,500-crore block deal."
-    },
-    {
-      "title": "Alpha Box Office Collection Day 11: Alia Bhatt Film Faces Second",
-      "excerpt": "Alpha's total India net has reached Rs 53.72 crore, while the India gross stands at Rs 64.05 crore as Monday collections witnessed a slowdown.",
-      "url": "https://www.ndtvprofit.com/business/alpha-box-office-collection-day-11-alia-bhatt-film-faces-second-week-slowdown-mints-this-amount-11764545#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/3a8db8ko_alpha_625x300_03_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:10:48+05:30",
-      "category": "Markets",
-      "summary": "Alpha's total India net has reached Rs 53.72 crore, while the India gross stands at Rs 64.05 crore as Monday collections witnessed a slowdown."
-    },
-    {
-      "title": "HDFC Bank Sees Reduction Of 3,343 Employees In FY26",
-      "excerpt": "The bank's total balance sheet size increased 11.6% to Rs 43,64,886 crore from Rs 39,10,199 crore on March 31, 2025.",
-      "url": "https://www.ndtvprofit.com/business/hdfc-bank-sees-reduction-of-3-343-employees-in-fy26-11765787#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/204e04c7_HDFC_Bank.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:08:56+05:30",
-      "category": "Markets",
-      "summary": "The bank's total balance sheet size increased 11.6% to Rs 43,64,886 crore from Rs 39,10,199 crore on March 31, 2025."
-    },
-    {
-      "title": "FM asks banks to step up NRI outreach as RBI forex swap schemes gain pace",
-      "excerpt": "FM asks banks to step up NRI outreach as RBI forex swap schemes gain pace Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOE1vcF9pUEdUQm81V2d1Ymt3S183VkgwbVpuZzFldGV0bi1LbWduVFhiWkVXQTA1Ukh4akpLb0FkOGdMV3JpQmpUWHFJeXlHNGpCTkpYOWRITDIzcUJmT05sLU5IOXU5UnBoRlZnOFFOVG9VWlRBQndtczFiVHRxQXpEUE9zMEM4R1NPNTZHbUE1WVdYNkhHeHF1N3gwal9HaWJWbFhHbkhSc0hOeV9Da1l0N2k0dXQ2WVpBVl9iNG1kc3RKeDFWZTRsTEd1Uk5VZHJRRHFVWWtLandx0gHcAUFVX3lxTE04TW9wX2lQR1RCbzVXZ3Via3dLXzdWSDBtWm5nMWV0ZXRuLUttZ25UWGJaRVdBMDVSSHhqSktvQWQ4Z0xXcmlCalRYcUl5eUc0akJOSlg5ZEhMMjNxQmZPTmwtTkg5dTlScGhGVmc4UU5Ub1VaVEFCd21zMWJUdHFBekRQT3MwQzhHU081NkdtQTVZV1g2SEd4cXU3eDBqX0dpYlZsWEduSFJzSE55X0NrWXQ3aTR1dDZZWkFWX2I0bWRzdEp4MVZlNGxMR3VSTlVkclFEcVVZa0tqd3E?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-07-13T19:03:39+05:30",
-      "category": "Economy",
-      "summary": "FM asks banks to step up NRI outreach as RBI forex swap schemes gain pace Business Standard"
-    },
-    {
-      "title": "SpiceJet Commits To Rs 50 Crore Deposit In 45 Days Amid KAL Airways Dispute",
-      "excerpt": "SpiceJet and its promoter Ajay Singh told the Delhi High Court on Monday that they would pay Rs 50 crore towards a court-mandated deposit within 45 days.",
-      "url": "https://www.ndtvprofit.com/business/spicejet-commits-to-rs-50-crore-deposit-in-45-days-amid-kal-airways-dispute-11765694#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/dd34f7f6_A_Spicejet_aircraft_on_the_tarmac_at_the_airport___Photographer___Vijay_Sartape___Source__BQ_Prime__.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:02:53+05:30",
-      "category": "Markets",
-      "summary": "SpiceJet and its promoter Ajay Singh told the Delhi High Court on Monday that they would pay Rs 50 crore towards a court-mandated deposit within 45 days."
-    },
-    {
-      "title": "Anupam Kher Pays Emotional Tribute To Sam Neill, Recalls Meeting 'Wonderful Gentleman' In Sydney",
-      "excerpt": "Anupam Kher paid a heartfelt tribute to legendary actor Sam Neill after the Jurassic Park star passed away at 78.",
-      "url": "https://www.ndtvprofit.com/lifestyle/anupam-kher-pays-emotional-tribute-to-jurassic-park-actor-sam-neill-after-hollywood-legends-passing-11764383#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/qp5u2dds_anupamkherpaystributetosamneilljpg_625x300_13_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T19:01:21+05:30",
-      "category": "Markets",
-      "summary": "Anupam Kher paid a heartfelt tribute to legendary actor Sam Neill after the Jurassic Park star passed away at 78."
-    },
-    {
-      "title": "BSNL Posts 10% Jump In Revenue From Operations For Q1 FY27, ARPU Increases To Rs 102.7 From Rs 100",
-      "excerpt": "BSNL's average revenue per user has provisionally increased from Rs 100 to Rs 102.7.",
-      "url": "https://www.ndtvprofit.com/markets/bsnl-posts-10-jump-in-revenue-from-operations-for-q1-fy27-arpu-increases-to-rs-102-7-from-rs-100-11765728#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/ngp6fvtg_telecom_625x300_26_January_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-13T18:56:43+05:30",
-      "category": "Markets",
-      "summary": "BSNL's average revenue per user has provisionally increased from Rs 100 to Rs 102.7."
     }
   ]
 }
