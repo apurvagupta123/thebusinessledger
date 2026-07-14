@@ -1,207 +1,7 @@
 {
-  "lastUpdated": "2026-07-14T14:37:59+05:30",
+  "lastUpdated": "2026-07-14T12:45:27+05:30",
   "count": 25,
   "articles": [
-    {
-      "title": "Wholesale inflation nears double digits in June as food and fuel costs rise",
-      "excerpt": "Producer price inflation climbed to 9.87% in June, driven by food and petroleum-linked costs.",
-      "url": "https://www.livemint.com/economy/wholesale-inflation-nears-double-digits-in-june-as-food-and-fuel-costs-rise-11784016563708.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/g783a9f966b1be1096d4389127df371210a0ecae5c7c993f533a789d6e323ae3e6cc25764561ccb92f107f526bad2624faf96a9faaf437a8386fe8e5815e38d6b_1280_1767873605256_1767873619502_1784019506681_cd3a0b77-3599-4ffd-9705-0b895d015120.jpg",
-      "publishedAt": "2026-07-14T14:32:01+05:30",
-      "category": "Economy",
-      "summary": "Producer price inflation climbed to 9.87% in June, driven by food and petroleum-linked costs."
-    },
-    {
-      "title": "World's best-performing market Kospi index enters bear market: Can South Korea's selloff hit Indian stock markets?",
-      "excerpt": "The KOSPI's decline poses a sentiment risk for India, primarily due to FII selling amid global cautiousness. However, rising oil prices present a greater threat by increasing import costs and inflation. Indian markets ex",
-      "url": "https://www.livemint.com/market/stock-market-news/worlds-best-performing-market-kospi-index-enters-bear-market-can-south-koreas-selloff-hit-indian-stock-markets-11784015390898.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/Kospi_index_1784018178284_1784018178458_d6a77cd2-f9eb-411c-843a-75c41974c928.png",
-      "publishedAt": "2026-07-14T14:12:32+05:30",
-      "category": "Markets",
-      "summary": "The KOSPI's decline poses a sentiment risk for India, primarily due to FII selling amid global cautiousness. However, rising oil prices present a greater threat by increasing import costs and inflation. Indian markets ex"
-    },
-    {
-      "title": "MEA's First Reaction As UAE Vessels Carrying 30 Indian Seafarers Hit By Iranian Cruise Strikes: ' Strongly Condemn...'",
-      "excerpt": "India condemned attacks on vessels MT Al Bahiyah and MT Mombasa in the Strait of Hormuz, resulting in one Indian seafarer killed and ten injured, including two seriously.",
-      "url": "https://www.ndtvprofit.com/world/meas-first-reaction-as-uae-vessels-carrying-30-indian-seafarers-hit-by-iranian-cruise-strikes-strongly-condemn-11768994#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/hca2dpqg_picture-used-for-representational-purposes-only_625x300_14_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T14:08:54+05:30",
-      "category": "Markets",
-      "summary": "India condemned attacks on vessels MT Al Bahiyah and MT Mombasa in the Strait of Hormuz, resulting in one Indian seafarer killed and ten injured, including two seriously."
-    },
-    {
-      "title": "Pune Bizman Murder: Allegations To Proof — What Will It Take To Prove Siya Goyal's Alleged Involvement?",
-      "excerpt": "With no eyewitnesses to the killing, the case hinges on police piecing together mobile records, CCTV footage, location data and forensic reports into an unbroken chain of evidence.",
-      "url": "https://www.ndtvprofit.com/india/pune-bizman-murder-allegations-to-proof-what-will-it-take-to-prove-siya-goyal-s-alleged-involvement-11768783#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/qiga071g_pune-bizman-murder_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T14:05:58+05:30",
-      "category": "Markets",
-      "summary": "With no eyewitnesses to the killing, the case hinges on police piecing together mobile records, CCTV footage, location data and forensic reports into an unbroken chain of evidence."
-    },
-    {
-      "title": "HCL Tech: Despite strong deal wins, risk-reward remains unfavourable",
-      "excerpt": "So far in 2026, HCL shares are down 27%. It trades at FY28 PE multiple of 15 – a premium to larger peers TCS and Infosys, shows Bloomberg data. HCL’s narrowing growth differential, coupled with data-centre investment ris",
-      "url": "https://www.livemint.com/market/mark-to-market/hcltech-retains-fy27-guidance-despite-strong-deals-11784014383150.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/HCL_Tech_1760348819841_1760348827430_1784017645031_c8f84afe-b379-451b-9ab9-eb737c9b97ea.jpg",
-      "publishedAt": "2026-07-14T14:01:55+05:30",
-      "category": "Markets",
-      "summary": "So far in 2026, HCL shares are down 27%. It trades at FY28 PE multiple of 15 – a premium to larger peers TCS and Infosys, shows Bloomberg data. HCL’s narrowing growth differential, coupled with data-centre investment ris"
-    },
-    {
-      "title": "India seeks diaspora dollars to strengthen forex reserves amid rupee weakness: Report",
-      "excerpt": "India seeks diaspora dollars to strengthen forex reserves amid rupee weakness: Report Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZzNQWTJxTTNmci1tckt5eXNScjVYUWRsZ211RUVrSnpMZ3VHR2NieldoZkN3eVViWG5xTTB2RXlMRHFlSmxJekNQYlVHcmJfb1RXM3hUaUxUNFdUeTdLZmw4bExoM3JwbmdRUFVfTmFHVkxkbzEyQlFxZW16RVphSkV2UHlBNnNlN2oyc2IxbUNQX0Rxbi1PdTNjUFVrZ3NHdWFXNHdOSXBCT1l4M1Zz0gGvAUFVX3lxTE5nM1BZMnFNM2ZyLW1yS3l5c1JyNVhRZGxnbXVFRWtKekxndUdHY2J6V2hmQ3d5VWJYbnFNMHZFeUxEcWVKbEl6Q1BiVUdyYl9vVFczeFRpTFQ0V1R5N0tmbDhsTGgzcnBuZ1FQVV9OYUdWTGRvMTJCUXFlbXpFWmFKRXZQeUE2c2U3ajJzYjFtQ1BfRHFuLU91M2NQVWtnc0d1YVc0d05JcEJPWXgzVnM?oc=5",
-      "source": "Firstpost",
-      "image": null,
-      "publishedAt": "2026-07-14T14:01:26+05:30",
-      "category": "Economy",
-      "summary": "India seeks diaspora dollars to strengthen forex reserves amid rupee weakness: Report Firstpost"
-    },
-    {
-      "title": "Eternal, Adani Energy, And Astral: Stocks To Watch Ahead Of MSCI's August Review — Check Axis Capital's List",
-      "excerpt": "The brokerage expects Adani Energy Solutions and Laurus Labs to be included in the MSCI India Standard Index, while Eternal is seen receiving a higher index weight, potentially attracting the largest passive inflows amon",
-      "url": "https://www.ndtvprofit.com/markets/eternal-adani-energy-astral-laurus-labs-sbi-cards-stocks-to-watch-ahead-of-mscis-august-review-check-axis-capitals-list-11768964#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/uouagfag_c_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:56:31+05:30",
-      "category": "Markets",
-      "summary": "The brokerage expects Adani Energy Solutions and Laurus Labs to be included in the MSCI India Standard Index, while Eternal is seen receiving a higher index weight, potentially attracting the largest passive inflows amon"
-    },
-    {
-      "title": "Income Tax Filing 2026: Why You Must Declare Every Active Bank Account While Filing ITR",
-      "excerpt": "The Income Tax Department requires taxpayers to declare every active account, including savings, current and overdraft accounts.",
-      "url": "https://www.ndtvprofit.com/personal-finance/itr-filing-rule-you-cant-ignore-every-active-bank-account-must-be-declared-11768211#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/f3fn83mk_tax-pexels_625x300_06_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:54:11+05:30",
-      "category": "Markets",
-      "summary": "The Income Tax Department requires taxpayers to declare every active account, including savings, current and overdraft accounts."
-    },
-    {
-      "title": "Stock Market Crash News Live Updates: Nifty Falls Near 24,050, Sensex Slides Over 500 Points; Nuvoco Vistas Surges After Q1 Results",
-      "excerpt": "Nifty Defence was the biggest loser, down 1.06%, while Financial Services fell 0.97% and Auto declined 0.93%.",
-      "url": "https://www.ndtvprofit.com/markets/stock-market-crash-news-today-live-updates-share-market-sensex-nifty-gift-nifty-iran-war-us-attack-oil-market-impact-q1-results-fno-expiry-futures-11767665#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/ni1q8i9_market-blog-fo-expiry_625x300_19_May_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:48:32+05:30",
-      "category": "Markets",
-      "summary": "Nifty Defence was the biggest loser, down 1.06%, while Financial Services fell 0.97% and Auto declined 0.93%."
-    },
-    {
-      "title": "Lava Announces Rs 25 Lakh Assistance To Families Of Staff Killed In Vietnam Boat Tragedy",
-      "excerpt": "The company said that the financial assistance is being extended as a humanitarian gesture and will be disbursed directly to the affected families after the required verification and documentation process is completed.",
-      "url": "https://www.ndtvprofit.com/world/lava-announces-rs-25-lakh-assistance-to-families-of-staff-died-in-vietnam-boat-tragedy-11768363#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/npo8btj8_vietnam-boat-tragedy_625x300_14_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:43:38+05:30",
-      "category": "Markets",
-      "summary": "The company said that the financial assistance is being extended as a humanitarian gesture and will be disbursed directly to the affected families after the required verification and documentation process is completed."
-    },
-    {
-      "title": "JBM Auto To Supply 500 E-Buses To Driven In Up To Rs 1,000",
-      "excerpt": "Under the arrangement, JBM Auto will sell the buses outright to Driven, which will lease them onward to fleet operators across several Indian cities, easing the upfront capital outlay that typically weighs on electric bu",
-      "url": "https://www.ndtvprofit.com/business/jbm-auto-to-supply-500-e-buses-to-driven-in-up-to-rs-1-000-crore-deal-managing-director-nishant-arya-11768392#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/ssvmhudc_e-bus_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:39:18+05:30",
-      "category": "Markets",
-      "summary": "Under the arrangement, JBM Auto will sell the buses outright to Driven, which will lease them onward to fleet operators across several Indian cities, easing the upfront capital outlay that typically weighs on electric bu"
-    },
-    {
-      "title": "Maharashtra SSC, HSC Supplementary Results 2026 OUT: Check Direct Link To Download 10th & 12th Result",
-      "excerpt": "Candidates who appeared for the supplementary exams in June and July can visit the official website at mahresult.nic.in or mahahsscboard.in and download their marksheets.",
-      "url": "https://www.ndtvprofit.com/india/maharashtra-ssc-hsc-supplementary-results-2026-to-be-out-soon-check-direct-link-to-download-10th-11768439#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/c6fj3tlk_mh_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:22:20+05:30",
-      "category": "Markets",
-      "summary": "Candidates who appeared for the supplementary exams in June and July can visit the official website at mahresult.nic.in or mahahsscboard.in and download their marksheets."
-    },
-    {
-      "title": "Maharashtra SSC, HSC Supplementary Results 2026 DECLARED; Check Direct Link And Steps To Download Scorecard",
-      "excerpt": "MSBSHSE announced the 2026 SSC and HSC supplementary results on July 14. Students can check their results online at mahahsscboard.in using required credentials.",
-      "url": "https://www.ndtvprofit.com/trending/maharashtra-ssc-hsc-supplementary-results-to-be-out-at-1-pm-on-mahahsscboard-in-11768566#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/1l7e9rbs_ssc_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:20:47+05:30",
-      "category": "Markets",
-      "summary": "MSBSHSE announced the 2026 SSC and HSC supplementary results on July 14. Students can check their results online at mahahsscboard.in using required credentials."
-    },
-    {
-      "title": "SBI Funds Management IPO vs Alpine Texworld IPO: Which issue should you subscribe? Check what latest GMP signals",
-      "excerpt": "Two IPOs, SBI Funds Management and Alpine Texworld, opened for subscription on July 14. SBI Funds Management aims to raise ₹11,692.91 crore, with a potential listing gain of 17.42%. Alpine Texworld seeks ₹126.25 crore, t",
-      "url": "https://www.livemint.com/market/ipo/sbi-funds-management-ipo-vs-alpine-texworld-ipo-which-issue-should-you-subscribe-check-what-latest-ipo-gmp-signals-11784014546840.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/SBI_Funds_Management_IPO_vs_Alpine_Texworld_IPO_1784015006431_1784015006859_a9805045-e664-4e6a-b822-b0fb18f55dc8.jpg",
-      "publishedAt": "2026-07-14T13:19:00+05:30",
-      "category": "Markets",
-      "summary": "Two IPOs, SBI Funds Management and Alpine Texworld, opened for subscription on July 14. SBI Funds Management aims to raise ₹11,692.91 crore, with a potential listing gain of 17.42%. Alpine Texworld seeks ₹126.25 crore, t"
-    },
-    {
-      "title": "Kusumgar IPO listing date tomorrow. Here’s what GMP signals about share debut on Dalal Street",
-      "excerpt": "Kusumgar IPO listing date is tomorrow, 15 July 2026. Ahead of the share debut, Kusumgar IPO GMP today signals a strong listing of shares in the Indian stock market.",
-      "url": "https://www.livemint.com/market/stock-market-news/kusumgar-ipo-listing-date-tomorrow-here-s-what-gmp-signals-about-share-debut-on-dalal-street-11784012697686.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/Kusumgar_IPO_1783655571646_1783655574778_5ab77972-b70e-42d6-83e7-96c95e00572d_1784013111967_e6e6685d-911b-46bd-b19d-594b93ebb5b2.png",
-      "publishedAt": "2026-07-14T13:11:02+05:30",
-      "category": "Markets",
-      "summary": "Kusumgar IPO listing date is tomorrow, 15 July 2026. Ahead of the share debut, Kusumgar IPO GMP today signals a strong listing of shares in the Indian stock market."
-    },
-    {
-      "title": "Gurugram Horror: Two Young Engineers Found Dead 60 Km Apart, Linked To Chilling Crime",
-      "excerpt": "The incident came to light on Sunday and the police are investigating the circumstances surrounding both deaths.",
-      "url": "https://www.ndtvprofit.com/india/gurgaon-horror-two-young-engineers-found-dead-60-km-apart-linked-to-chilling-crime-11768522#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/r1j70uas_engineer-murders-colleague-_625x300_14_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:10:31+05:30",
-      "category": "Markets",
-      "summary": "The incident came to light on Sunday and the police are investigating the circumstances surrounding both deaths."
-    },
-    {
-      "title": "Adani Power Shares Surge 6% In Trade — What's Driving The Rally?",
-      "excerpt": "Trading activity remained robust during the session. On the BSE, around 42.41 lakh shares worth Rs 94.59 crore changed hands, while over 4.02 crore shares valued at Rs 898.92 crore were traded on the NSE.",
-      "url": "https://www.ndtvprofit.com/markets/heres-why-adani-power-shares-rallied-6-percent-in-trade-today-key-details-inside-11768705#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/7e24guu4_adani-power_650x400_29_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T13:05:22+05:30",
-      "category": "Markets",
-      "summary": "Trading activity remained robust during the session. On the BSE, around 42.41 lakh shares worth Rs 94.59 crore changed hands, while over 4.02 crore shares valued at Rs 898.92 crore were traded on the NSE."
-    },
-    {
-      "title": "Devson Catalyst IPO allotment to be finalised today. Here's GMP, how to check status",
-      "excerpt": "According to websites tracking the grey market, shares of the Devson Catalyst IPO are trading at a robust premium in the unlisted market.&nbsp;",
-      "url": "https://www.livemint.com/market/ipo/devson-catalyst-ipo-allotment-to-be-finalised-today-heres-gmp-how-to-check-status-11784010450168.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/SME_IPO_1784014103356_1784014103478_f5395d91-8f8a-4b15-9781-1e26cd36f2e2.png",
-      "publishedAt": "2026-07-14T13:05:13+05:30",
-      "category": "Markets",
-      "summary": "According to websites tracking the grey market, shares of the Devson Catalyst IPO are trading at a robust premium in the unlisted market.&nbsp;"
-    },
-    {
-      "title": "Anand Rathi Wealth delivers growth, but valuations leave no room for error",
-      "excerpt": "Anand Rathi Wealth's client retention and AUM growth remain robust despite margin pressure. But with TER compression ahead and the stock up 35% this year, valuations appear demanding.",
-      "url": "https://www.livemint.com/market/mark-to-market/anand-rathi-wealth-arwl-q1fy27-wealth-management-aum-growth-client-retention-ebitda-margin-11784011282038.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/g9159eda7cc116f0ec3e1b67d8259f853c2fdfe6ebaacd3eeb_1784013247167_1784013247293_b2836994-2e94-4514-89da-2686ce33ce68.jpg",
-      "publishedAt": "2026-07-14T13:03:13+05:30",
-      "category": "Markets",
-      "summary": "Anand Rathi Wealth's client retention and AUM growth remain robust despite margin pressure. But with TER compression ahead and the stock up 35% this year, valuations appear demanding."
-    },
-    {
-      "title": "Adani Ports, DLF, NTPC: Matt Orton's Top Stock Picks As FII Inflows Remain Uncertain",
-      "excerpt": "Among sectors, Orton continues to favour financials on market weakness and sees opportunities in real assets. His preferred stock ideas include Adani Ports & Special Economic Zone, DLF and NTPC.",
-      "url": "https://www.ndtvprofit.com/markets/adani-ports-dlf-ntpc-matt-ortons-top-stock-picks-as-fii-inflows-remain-uncertain-11768672#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/kh71i8so_n_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-14T12:50:26+05:30",
-      "category": "Markets",
-      "summary": "Among sectors, Orton continues to favour financials on market weakness and sees opportunities in real assets. His preferred stock ideas include Adani Ports & Special Economic Zone, DLF and NTPC."
-    },
     {
       "title": "'I Don't Want Phunsukh Wangdu To Die': 3 Idiots' Omi Vaidya Backs Sonam Wangchuk's Hunger Strike | Watch",
       "excerpt": "\"Don't ask me to end my fast. Ask the government why they won't even have a dialogue,\" says Sonam Wangchuk, who is on an indefinite hunger strike at Delhi's Jantar Mantar.",
@@ -211,16 +11,6 @@
       "publishedAt": "2026-07-14T12:43:57+05:30",
       "category": "Markets",
       "summary": "\"Don't ask me to end my fast. Ask the government why they won't even have a dialogue,\" says Sonam Wangchuk, who is on an indefinite hunger strike at Delhi's Jantar Mantar."
-    },
-    {
-      "title": "Laser Power & Infra IPO allotment in focus today; latest GMP, 6 steps to check status",
-      "excerpt": "The Laser Power &amp; Infra IPO share allotment will be finalized today. Investors can check their allotment status on MUFG Intime's portal. Refunds for those not allotted will begin on 15 July, while shares for successf",
-      "url": "https://www.livemint.com/market/ipo/laser-power-ipo-gmp-laser-power-ipo-allotment-date-laser-power-infra-ipo-allotment-date-laser-power-infra-11784010765466.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/laser_IPO_1784012989106_1784012993710_7c195004-47d1-43d3-8bcf-8c9e72b18a2e.png",
-      "publishedAt": "2026-07-14T12:41:51+05:30",
-      "category": "Markets",
-      "summary": "The Laser Power &amp; Infra IPO share allotment will be finalized today. Investors can check their allotment status on MUFG Intime's portal. Refunds for those not allotted will begin on 15 July, while shares for successf"
     },
     {
       "title": "SBI Funds Management IPO GMP Signals 16% Listing Gains; All You Need To Know",
@@ -251,6 +41,216 @@
       "publishedAt": "2026-07-14T12:33:04+05:30",
       "category": "Markets",
       "summary": "Laser Power & Infra IPO allotment is expected today, July 14, 2026. Subscribed 41.05x, the latest GMP of ₹40.5 suggests a listing gain of around 18%."
+    },
+    {
+      "title": "Kirloskar Ferrous Loses Supreme Court Battle Over Iron Ore Royalty Formula",
+      "excerpt": "The dispute centered on the calculation of the Average Sale Price (ASP), a benchmark used to determine royalty payments and mining lease premiums. Miners, led by Kirloskar Ferrous, argued that including royalty, DMF and ",
+      "url": "https://www.ndtvprofit.com/india/kirloskar-ferrous-loses-supreme-court-battle-over-iron-ore-royalty-formula-11768580#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/dk2uglns_n_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:32:02+05:30",
+      "category": "Markets",
+      "summary": "The dispute centered on the calculation of the Average Sale Price (ASP), a benchmark used to determine royalty payments and mining lease premiums. Miners, led by Kirloskar Ferrous, argued that including royalty, DMF and "
+    },
+    {
+      "title": "Biocon's Shaw Pitches DNA",
+      "excerpt": "In an exclusive interview to NDTV Profit, Kiran Mazumdar-Shaw says biology, not silicon, could solve the data centre crunch.",
+      "url": "https://www.ndtvprofit.com/science/kiran-mazumdar-shaw-exclusive-biocon-founder-pitches-dna-based-data-centres-11768567#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/e4slp1n_ai-and-dna_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:31:58+05:30",
+      "category": "Markets",
+      "summary": "In an exclusive interview to NDTV Profit, Kiran Mazumdar-Shaw says biology, not silicon, could solve the data centre crunch."
+    },
+    {
+      "title": "England vs India 1st ODI Live Streaming: How To Watch IND vs ENG Match On TV And Online",
+      "excerpt": "Shubman Gill leads the side, while the inclusion of Rohit Sharma, Virat Kohli and Jasprit Bumrah brings invaluable experience after a youthful outfit found the going tough in English conditions.",
+      "url": "https://www.ndtvprofit.com/sports/england-vs-india-1st-odi-live-streaming-how-to-watch-ind-vs-eng-match-on-tv-and-online-11768196#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/dkcv7q_india_625x300_14_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:30:39+05:30",
+      "category": "Markets",
+      "summary": "Shubman Gill leads the side, while the inclusion of Rohit Sharma, Virat Kohli and Jasprit Bumrah brings invaluable experience after a youthful outfit found the going tough in English conditions."
+    },
+    {
+      "title": "Who Was Nand Kishore Goenka? Essel Group Chairman Subhash Chandra's Father Dies At 96",
+      "excerpt": "Nand Kishore Goenka, social worker and father of Essel Group Chairman Subhash Chandra, passed away at 96. He was noted for community welfare and humility.",
+      "url": "https://www.ndtvprofit.com/india/nand-kishore-goenka-father-of-essel-group-chairman-subhash-chandra-dies-at-96-11768573#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/romt5nn_nand-kishore-goenka_625x300_14_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:30:21+05:30",
+      "category": "Markets",
+      "summary": "Nand Kishore Goenka, social worker and father of Essel Group Chairman Subhash Chandra, passed away at 96. He was noted for community welfare and humility."
+    },
+    {
+      "title": "Broader Markets, Consumption Recovery To Drive Next Leg Of Equity Bull Run: Gautam Shah",
+      "excerpt": "Speaking to NDTV Profit, Shah said the market's recent reaction appears disconnected from global developments, highlighting the strength of domestic participation.",
+      "url": "https://www.ndtvprofit.com/markets/broader-markets-consumption-recovery-to-drive-next-leg-of-equity-bull-run-gautam-shah-11768324#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/1vqm0tb4_gautam_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:30:00+05:30",
+      "category": "Markets",
+      "summary": "Speaking to NDTV Profit, Shah said the market's recent reaction appears disconnected from global developments, highlighting the strength of domestic participation."
+    },
+    {
+      "title": "Nifty 50 Trading Strategy: Analysts recommend Bull Call Spread options strategy for 21 July expiry",
+      "excerpt": "Nifty 50 Trading Strategy: Axis Securities has recommended a Bull Call Spread strategy for Nifty options contracts expiring on 21 July 2026, expecting a moderately bullish view.",
+      "url": "https://www.livemint.com/market/stock-market-news/nifty-50-trading-strategy-analysts-recommend-bull-call-spread-options-strategy-for-21-july-expiry-11784011569302.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/g68c90b3c5ec9347bbeea52_1784012214474_1784012214849_e1747deb-2b64-421b-a3d4-8c9075a69d22.jpg",
+      "publishedAt": "2026-07-14T12:27:24+05:30",
+      "category": "Markets",
+      "summary": "Nifty 50 Trading Strategy: Axis Securities has recommended a Bull Call Spread strategy for Nifty options contracts expiring on 21 July 2026, expecting a moderately bullish view."
+    },
+    {
+      "title": "Maharashtra SSC, HSC Supplementary Results 2026 To Be OUT Soon: Check Direct Link To Download 10th & 12th Result",
+      "excerpt": "Candidates who appeared for the supplementary exams in June and July can visit the official website at mahresult.nic.in or mahahsscboard.in and download their marksheets.",
+      "url": "https://www.ndtvprofit.com/india/maharashtra-ssc-hsc-supplementary-results-2026-to-be-out-soon-check-direct-link-to-download-10th-11768439#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/c6fj3tlk_mh_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:11:18+05:30",
+      "category": "Markets",
+      "summary": "Candidates who appeared for the supplementary exams in June and July can visit the official website at mahresult.nic.in or mahahsscboard.in and download their marksheets."
+    },
+    {
+      "title": "TCS Enters In Pact With JFK Airport For Digital Solutions For Its New Terminal One",
+      "excerpt": "Tata Consultancy Services partners with JFK Airport's New Terminal One to deliver intelligent, digitally-enabled guest experiences and cost efficiencies for airlines.",
+      "url": "https://www.ndtvprofit.com/business/tcs-enters-in-pact-with-jfk-airport-for-digital-solutions-for-its-new-terminal-one-11768492#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/1d118qeg_tcs_625x300_20_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:08:53+05:30",
+      "category": "Markets",
+      "summary": "Tata Consultancy Services partners with JFK Airport's New Terminal One to deliver intelligent, digitally-enabled guest experiences and cost efficiencies for airlines."
+    },
+    {
+      "title": "PC Jeweller share price in focus after the multibagger stock announces board meeting to consider QIP; check date",
+      "excerpt": "PC Jeweller's Board will meet on July 16, 2026, to discuss a QIP proposal aimed at funding business growth and strategic initiatives, while completing debt repayments. The meeting will also cover the appointment of neces",
+      "url": "https://www.livemint.com/market/stock-market-news/pc-jeweller-share-price-in-focus-after-the-multibagger-stock-announces-board-meeting-to-consider-qip-check-date-11784010090380.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/pc_jeweller_share_price_1784010404650_1784010404814_118ff76f-5386-42d9-adb3-b8d8b4ae7738.jpg",
+      "publishedAt": "2026-07-14T12:06:30+05:30",
+      "category": "Markets",
+      "summary": "PC Jeweller's Board will meet on July 16, 2026, to discuss a QIP proposal aimed at funding business growth and strategic initiatives, while completing debt repayments. The meeting will also cover the appointment of neces"
+    },
+    {
+      "title": "Q1 Results Live Updates: L&T Technology Services, Tata Elxsi Among Others To Declare Earnings Today",
+      "excerpt": "Q1 Results Today Live Updates: Tata Elxsi and L&T Tech lead a busy roster of 18 firms set to declare Q1 earnings today, with investors tracking IT margins and deal wins",
+      "url": "https://www.ndtvprofit.com/markets/q1-results-today-live-updates-l-t-technology-services-tata-elxsi-and-more-to-report-earnings-today-july-14-11768402#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/vd1qaha4_dd_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:05:41+05:30",
+      "category": "Markets",
+      "summary": "Q1 Results Today Live Updates: Tata Elxsi and L&T Tech lead a busy roster of 18 firms set to declare Q1 earnings today, with investors tracking IT margins and deal wins"
+    },
+    {
+      "title": "SBI Funds Management IPO Day 1: Issue Subscribed 29% So Far By Retail Investors — Should You Apply?",
+      "excerpt": "SBI Funds Management's Rs 9,795 crore IPO opens July 14-16 with a price band of Rs 545-574 per share, offering up to 17.09 crore equity shares via offer for sale by SBI and Amundi.",
+      "url": "https://www.ndtvprofit.com/markets/sbi-funds-management-ipo-day-1-check-subscription-status-key-details-gmp-and-more-11768118#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/70a2l3oo_sbi-funds-ipo_625x300_13_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:00:51+05:30",
+      "category": "Markets",
+      "summary": "SBI Funds Management's Rs 9,795 crore IPO opens July 14-16 with a price band of Rs 545-574 per share, offering up to 17.09 crore equity shares via offer for sale by SBI and Amundi."
+    },
+    {
+      "title": "COMEDK 2026 Mock Seat Allotment To Be OUT Soon; Check Direct Link, Next Steps And Key Dates",
+      "excerpt": "Candidates who completed the mock choice filling before the deadline will be able to check their provisional allotment by logging in to the official counselling portal.",
+      "url": "https://www.ndtvprofit.com/trending/comedk-2026-mock-seat-allotment-to-be-out-soon-check-direct-link-next-steps-and-key-dates-11768334#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/43bah4j4_comedk_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T12:00:46+05:30",
+      "category": "Markets",
+      "summary": "Candidates who completed the mock choice filling before the deadline will be able to check their provisional allotment by logging in to the official counselling portal."
+    },
+    {
+      "title": "Stocks to buy for short term: Sumitomo Chemical, Coforge among 5 shares experts recommend for next 1-2 weeks",
+      "excerpt": "Analysts identify five stocks poised for short-term growth. From Coforge to Sumitomo Chemical, these companies demonstrate strong bullish trends, appealing to traders seeking opportunities in the next 1-2 weeks.&nbsp;",
+      "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-for-short-term-sumitomo-chemical-coforge-among-5-shares-experts-recommend-for-next-1-2-weeks-11784008935743.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/pexels-photo-7567554_1759455013117_1759455022975_1784009193950_2839cfa7-8e59-4dfb-a9ef-a5a1c04ed77e.jpeg",
+      "publishedAt": "2026-07-14T12:00:37+05:30",
+      "category": "Markets",
+      "summary": "Analysts identify five stocks poised for short-term growth. From Coforge to Sumitomo Chemical, these companies demonstrate strong bullish trends, appealing to traders seeking opportunities in the next 1-2 weeks.&nbsp;"
+    },
+    {
+      "title": "Vijay Kedia’s new smallcap bet revealed; FIIs raise stake, stock up 15% in one month",
+      "excerpt": "Kedia Securities, backed by ace investor Vijay Kedia, acquired a fresh 1.45% stake in smallcap engineering firm Eimco Elecon during the June 2026 quarter. The stock has gained nearly 15% in the past month, while improvin",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/vijay-kedias-new-smallcap-bet-revealed-fiis-raise-stake-stock-up-15-in-one-month/articleshow/132382896.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-14T11:57:22+05:30",
+      "category": "Markets",
+      "summary": "Kedia Securities, backed by ace investor Vijay Kedia, acquired a fresh 1.45% stake in smallcap engineering firm Eimco Elecon during the June 2026 quarter. The stock has gained nearly 15% in the past month, while improvin"
+    },
+    {
+      "title": "New Delhi Summons Iran's Deputy Chief Of Mission After Indian Killed In Strikes On Ship In Hormuz",
+      "excerpt": "Iran's attack on UAE tanker killed one Indian crew member aboard the Mombasa and injured eight others.",
+      "url": "https://www.ndtvprofit.com/india/new-delhi-summons-irans-deputy-chief-of-mission-after-indian-killed-in-strikes-on-ship-in-hormuz-11768367#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/sfv0ta5o_hormuz_625x300_14_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T11:54:26+05:30",
+      "category": "Markets",
+      "summary": "Iran's attack on UAE tanker killed one Indian crew member aboard the Mombasa and injured eight others."
+    },
+    {
+      "title": "Caliber Mining & Logistics IPO: Price band set at  ₹402-424 per share; check key dates, issue details",
+      "excerpt": "Caliber Mining &amp; Logistics IPO is set with a price band of ₹402 to ₹424 per share. The subscription opens on July 17 and closes on July 21, with a lot size of 35 shares and allocations reserved for various investor c",
+      "url": "https://www.livemint.com/market/ipo/caliber-mining-logistics-ipo-price-band-set-at-rs-402-424-per-share-check-key-dates-issue-details-11784007365285.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/3-0-109501714-iStock-510565657-0_1679846147174_1784009674575_5ed03cf7-c296-45f6-be3f-66f5b42d1473.jpg",
+      "publishedAt": "2026-07-14T11:54:08+05:30",
+      "category": "Markets",
+      "summary": "Caliber Mining &amp; Logistics IPO is set with a price band of ₹402 to ₹424 per share. The subscription opens on July 17 and closes on July 21, with a lot size of 35 shares and allocations reserved for various investor c"
+    },
+    {
+      "title": "Who Is Jordan Brown? What We Know About The US National Arrested At India",
+      "excerpt": "The official said Brown traveled from Goa to Bengaluru and from there to the Sonauli border, intending to enter Nepal.",
+      "url": "https://www.ndtvprofit.com/trending/who-is-jordan-brown-what-we-know-about-the-us-national-arrested-at-india-nepal-border-11768185#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/39f5bl8s_jordan-brown_625x300_14_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T11:53:20+05:30",
+      "category": "Markets",
+      "summary": "The official said Brown traveled from Goa to Bengaluru and from there to the Sonauli border, intending to enter Nepal."
+    },
+    {
+      "title": "Stocks to buy: Choice Broking sees 20% upside in this healthcare stock. Should you buy?",
+      "excerpt": "Choice's forecast indicates significant earnings growth for Park Medi World, expecting revenue to rise from ₹16.8 billion in FY26 to ₹39.4 billion by FY29, with stable EBITDA margins of 26.5%. The brokerage maintains a '",
+      "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-choice-broking-sees-20-upside-in-the-healthcare-stock-park-medi-world-share-price-should-you-buy-11784008104650.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/Park_medi_world_share_price_1784008328571_1784008328704_4ee5c3fa-4e90-4cc4-8f33-6abafbfefe50.webp",
+      "publishedAt": "2026-07-14T11:46:39+05:30",
+      "category": "Markets",
+      "summary": "Choice's forecast indicates significant earnings growth for Park Medi World, expecting revenue to rise from ₹16.8 billion in FY26 to ₹39.4 billion by FY29, with stable EBITDA margins of 26.5%. The brokerage maintains a '"
+    },
+    {
+      "title": "This Smallcap Payment Card Maker Is Up 70% In Three Months; Wins 'Buy' Call On Multiple Growth Drivers",
+      "excerpt": "Investec initiated coverage on Seshaasai Technologies with a Buy rating and Rs 430 target, citing its dominant payment card business and fast-growing IoT segment.",
+      "url": "https://www.ndtvprofit.com/markets/investec-initiates-buy-call-on-seshaasai-technologies-payment-card-maker-iot-growth-check-target-price-outlook-11768389#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/o2n3529g_hj_625x300_14_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T11:44:39+05:30",
+      "category": "Markets",
+      "summary": "Investec initiated coverage on Seshaasai Technologies with a Buy rating and Rs 430 target, citing its dominant payment card business and fast-growing IoT segment."
+    },
+    {
+      "title": "Who Controls The Strait Of Hormuz? Iran Tables New Bill As Trump Claims US Is Its 'Guardian'",
+      "excerpt": "The move comes after Trump said the US would restart its naval blockade of Iran and take on a permanent role guarding the strait.",
+      "url": "https://www.ndtvprofit.com/world/who-controls-strait-iran-introduces-hormuz-bill-in-parliament-amid-trumps-guardian-claim-11768262#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/ibmvs8cc_hormuz_625x300_14_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-14T11:44:32+05:30",
+      "category": "Markets",
+      "summary": "The move comes after Trump said the US would restart its naval blockade of Iran and take on a permanent role guarding the strait."
+    },
+    {
+      "title": "Sensex Today: BSE Sensex Falls Over 300 Points Amid US-Iran Tensions and Rising Oil Prices – Check Key Drivers, Top Gainers-Losers, What Should Investors Know",
+      "excerpt": "Sensex Today: BSE Sensex Falls Over 300 Points Amid US-Iran Tensions and Rising Oil Prices – Check Key Drivers, Top Gainers-Losers, What Should Investors Know The Sunday Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQNnhtUVFJeTBJd3FQd2NBRWh0M2t2VmhuZXpFVjdiSnZqZS1DaUtKWTQwbHpwNTZ5TEw4eWxYMERxSjVFUGVLS19BbzB3QnlJQkt1VVFQdnU1dU1kQzQ2Y21RYXRuMzJ6OUlzQS10UlRUT241UWJsb3hhZUwwakQ5YWR6SUU0QWdNUXR0SEhLM3FzOU40T1haREdxVnc2b2pCYzRiNmJ0N2RTY196cWNYSWlNYTNqM25BM0ViYXZZVko2Y2dHc1QtVnVTNkltRHlpSGtwVjVtQmQyZWFnVUxmN0J6akNNUkNjT1Qwbk0wbXlpNVEzeVU3bDAzdDdueUFmamxZNUtWZkxKUksxSFBkVURoMzE5aTQ0Z0NmVVNVcFFFZXJVaEMtNw?oc=5",
+      "source": "The Sunday Guardian",
+      "image": null,
+      "publishedAt": "2026-07-14T11:41:47+05:30",
+      "category": "Markets",
+      "summary": "Sensex Today: BSE Sensex Falls Over 300 Points Amid US-Iran Tensions and Rising Oil Prices – Check Key Drivers, Top Gainers-Losers, What Should Investors Know The Sunday Guardian"
     }
   ]
 }
