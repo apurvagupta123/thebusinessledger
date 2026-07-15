@@ -1,7 +1,247 @@
 {
-  "lastUpdated": "2026-07-15T18:22:56+05:30",
+  "lastUpdated": "2026-07-15T20:26:49+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Wall Street surges on soft producer inflation, robust earnings; PayPal climbs 13.58%, BlackRock soars 7.6%",
+      "excerpt": "The Dow Jones Industrial Average rose 0.18%, the S&amp;P 500 gained 0.37%, the Nasdaq Composite advanced 0.59%",
+      "url": "https://www.livemint.com/market/stock-market-news/wall-street-surges-on-softer-than-expected-producer-inflation-paypal-climbs-1358-11784122704074.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/15/1600x900/US-STOCKS-35_1784122846763_1784122879963_5d23384a-5eba-469f-992c-07bd62157638.jpg",
+      "publishedAt": "2026-07-15T19:25:32+05:30",
+      "category": "Markets",
+      "summary": "The Dow Jones Industrial Average rose 0.18%, the S&amp;P 500 gained 0.37%, the Nasdaq Composite advanced 0.59%"
+    },
+    {
+      "title": "Rs 62,500 Crore Boost: What Govt's New Mobile Phone Manufacturing Scheme Entails",
+      "excerpt": "Vaishnaw said the aim of the scheme is to launch an Indian brand that can serve the global market.",
+      "url": "https://www.ndtvprofit.com/technology/rs-62-500-crore-boost-what-govts-new-mobile-phone-manufacturing-scheme-entails-11775563#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/0e7deb6d_close-up-hands-holding-smartphones.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:52:15+05:30",
+      "category": "Markets",
+      "summary": "Vaishnaw said the aim of the scheme is to launch an Indian brand that can serve the global market."
+    },
+    {
+      "title": "Govt Invites Global Bids For 10 GWh ACC Battery Giga",
+      "excerpt": "Move aims to strengthen domestic battery manufacturing and support India's fast-growing renewable energy storage needs.",
+      "url": "https://www.ndtvprofit.com/economy/govt-invites-global-bids-for-10-gwh-acc-battery-giga-factories-under-pli-scheme-11775294#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/5b0qjo24_battery_625x300_15_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:52:02+05:30",
+      "category": "Markets",
+      "summary": "Move aims to strengthen domestic battery manufacturing and support India's fast-growing renewable energy storage needs."
+    },
+    {
+      "title": "Q1 Results Live Updates: ICICI Lombard Profit Falls 46%; HDB Financial Profit Surges 38%",
+      "excerpt": "Q1 Results Today Live: Track all the latest Q1 earnings announcements, management commentary, dividend declarations, margin trends, guidance, analyst reactions and share price moves from companies reporting June quarter ",
+      "url": "https://www.ndtvprofit.com/markets/q1-results-live-updates-groww-angel-one-hdfc-life-icici-lombard-among-companies-to-share-earnings-on-july-15-11773458#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/r1rni27s_x_625x300_15_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:48:01+05:30",
+      "category": "Markets",
+      "summary": "Q1 Results Today Live: Track all the latest Q1 earnings announcements, management commentary, dividend declarations, margin trends, guidance, analyst reactions and share price moves from companies reporting June quarter "
+    },
+    {
+      "title": "Union Bank Q1 Results: Profit rises over 27% to Rs 5,641 crore",
+      "excerpt": "Union Bank of India achieved a remarkable 27.5% surge in its net profit for the June quarter. The bank experienced a subtle rise in net interest income, alongside a slight enhancement in margins. Additionally, the bank a",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/union-bank-q1-results-profit-rises-over-27-to-rs-5641-crore/articleshow/132417165.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-15T18:46:50+05:30",
+      "category": "Markets",
+      "summary": "Union Bank of India achieved a remarkable 27.5% surge in its net profit for the June quarter. The bank experienced a subtle rise in net interest income, alongside a slight enhancement in margins. Additionally, the bank a"
+    },
+    {
+      "title": "Nifty Target At 27,000 Even As West Asia Crisis, El Nino Risks Weigh On Market, Says PL Capital",
+      "excerpt": "However, PL Capital cautioned that markets are entering a phase of heightened uncertainty and are likely to remain volatile.",
+      "url": "https://www.ndtvprofit.com/markets/nifty-target-at-27-000-even-as-west-asia-crisis-el-nino-risks-weigh-on-market-says-pl-capital-11775534#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/pjcldvg4_stock-market-hero_625x300_29_January_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:46:14+05:30",
+      "category": "Markets",
+      "summary": "However, PL Capital cautioned that markets are entering a phase of heightened uncertainty and are likely to remain volatile."
+    },
+    {
+      "title": "RBI approves appointment of Rajiv Kumar as part-time chairman of HDFC Bank",
+      "excerpt": "RBI approves appointment of Rajiv Kumar as part-time chairman of HDFC Bank Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLTZMT3kzc0hlQmo4d3otZk1HZHpFNXViT1FTUkl2SXN3UXowZVJVeFBGM2FpTzNhNFBnZEZHbDZHR0ZWdmc5bUYtc0twTHRnc3RXbDNHdzZCZHQzQ2c2bjZUSkk0dWgyWWxMM1IwMjNBZ25qSEZpNjQxd0JMLXNnS0l2LVRJTG5xU2dFdE1ERlBKeERuSzhMelRRUmJWdjJqLWZZVlJaYmNpbmNhZVpEUjUyMVRyaFdXTlotQWU0NmtxM2VnOFhyejIyN21oZjVqOHRzcE41VDVUZlNYWGJvSjU5Z9IB4wFBVV95cUxNLTZMT3kzc0hlQmo4d3otZk1HZHpFNXViT1FTUkl2SXN3UXowZVJVeFBGM2FpTzNhNFBnZEZHbDZHR0ZWdmc5bUYtc0twTHRnc3RXbDNHdzZCZHQzQ2c2bjZUSkk0dWgyWWxMM1IwMjNBZ25qSEZpNjQxd0JMLXNnS0l2LVRJTG5xU2dFdE1ERlBKeERuSzhMelRRUmJWdjJqLWZZVlJaYmNpbmNhZVpEUjUyMVRyaFdXTlotQWU0NmtxM2VnOFhyejIyN21oZjVqOHRzcE41VDVUZlNYWGJvSjU5Zw?oc=5",
+      "source": "Business Standard",
+      "image": null,
+      "publishedAt": "2026-07-15T18:45:53+05:30",
+      "category": "Economy",
+      "summary": "RBI approves appointment of Rajiv Kumar as part-time chairman of HDFC Bank Business Standard"
+    },
+    {
+      "title": "Dhamaal 4 Box Office Collection Day 6: Ajay Devgn Film Stays Strong During First Week",
+      "excerpt": "Dhamaal 4 has collected Rs 84.79 crore net at the Indian box office. Here's a look at its Day 6 earnings, occupancy, city-wise performance and cast.",
+      "url": "https://www.ndtvprofit.com/business/entertainment-cinema-bollywood-movie-dhamaal-4-box-office-collection-day-6-ajay-devgn-film-wednesday-earnings-11774668#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/687oe54c_dhamaal4boxofficeday6jpg_625x300_15_July_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:44:30+05:30",
+      "category": "Markets",
+      "summary": "Dhamaal 4 has collected Rs 84.79 crore net at the Indian box office. Here's a look at its Day 6 earnings, occupancy, city-wise performance and cast."
+    },
+    {
+      "title": "Angel One Q1 Results: Profit Dives 28% As Margins Narrow; Dividend Declared — Check Record Date",
+      "excerpt": "The company posted a consolidated bottom-line of Rs 231 crore, down from Rs 320 crore in the preceding quarter.",
+      "url": "https://www.ndtvprofit.com/markets/angel-one-q1-results-profit-dives-28-percent-as-margins-narrow-dividend-declared-11775372#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/5g9urac_angel-one_625x300_13_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:34:00+05:30",
+      "category": "Markets",
+      "summary": "The company posted a consolidated bottom-line of Rs 231 crore, down from Rs 320 crore in the preceding quarter."
+    },
+    {
+      "title": "Indian Green Energy Stocks Deliver Mixed Performance As Sensex And NIFTY End Higher On July 15, 2026",
+      "excerpt": "Indian Green Energy Stocks Deliver Mixed Performance As Sensex And NIFTY End Higher On July 15, 2026 SolarQuarter",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQS1hODQ2VDA3UER1S0tMbTJDTktjYnJLaURDdEZZWmlpV3F1SVRxR0VyWXF1RkFXblBYTmhwaXRqWlJxLVY0MGhkRkFtLTRrOUpzcTJJM1NwMVFUYW4wdzFUcjdobGJfTk1ESVF3QTJVZGIwSkFFeTFWVjFSS2NCN2dmdk9LSHBYblpkRTBOOGpaTTg5aWl1ME5fa0NiTlhTaE5wcEd3YlRtYnVzcV8yQUFJcTJ0Y0g0LVZpQ29yVjhoRHRkSVhvX0hxSDNKWTJldnc?oc=5",
+      "source": "SolarQuarter",
+      "image": null,
+      "publishedAt": "2026-07-15T18:30:35+05:30",
+      "category": "Markets",
+      "summary": "Indian Green Energy Stocks Deliver Mixed Performance As Sensex And NIFTY End Higher On July 15, 2026 SolarQuarter"
+    },
+    {
+      "title": "The Odyssey Release: IMAX Ticket Prices Skyrocket In India — Check Cost In Metro Cities",
+      "excerpt": "Christopher Nolan has been using IMAX cameras for many years in films like The Dark Knight, Dunkirk, Tenet and Oppenheimer. But The Odyssey is the first time he has shot an entire film using IMAX cameras.",
+      "url": "https://www.ndtvprofit.com/business/entertainment-cinema-hollywood-movie-the-odyssey-release-imax-ticket-prices-rise-india-check-cost-rate-metro-cities-11774592#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/kh3ll5jo_odyssey_625x300_15_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:28:53+05:30",
+      "category": "Markets",
+      "summary": "Christopher Nolan has been using IMAX cameras for many years in films like The Dark Knight, Dunkirk, Tenet and Oppenheimer. But The Odyssey is the first time he has shot an entire film using IMAX cameras."
+    },
+    {
+      "title": "Gautam Adani Denies Any Deal Linked To Dismissal Of US Criminal Case In Sworn Affidavit",
+      "excerpt": "Adani said he was not aware of \"anything promised, offered, sought, received, agreed to, or accepted\" by anyone in connection with the dismissal, and denied knowledge of any agreement involving an exchange of anything of",
+      "url": "https://www.ndtvprofit.com/business/gautam-adani-denies-any-deal-linked-to-dismissal-of-us-criminal-case-in-sworn-affidavit-11775422#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/proen/2024-07/05a9b8d5-36c9-4805-bbe6-65b5ba758436/Gautam%20Adani%20Chairman%20and%20founder%20of%20Adani%20Group.%20(Source_%20Company)%2029_12_23%20(1).jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:26:07+05:30",
+      "category": "Markets",
+      "summary": "Adani said he was not aware of \"anything promised, offered, sought, received, agreed to, or accepted\" by anyone in connection with the dismissal, and denied knowledge of any agreement involving an exchange of anything of"
+    },
+    {
+      "title": "ICC Men's World Cup Format Changes Explained: What's New In ODI And T20I Tournaments?",
+      "excerpt": "The ICC has approved new formats for the 2027 ODI World Cup and the 2028 T20 World Cup to make tournaments more competitive and reduce dead rubbers.",
+      "url": "https://www.ndtvprofit.com/sports/icc-mens-world-cup-format-changes-explained-whats-new-in-odi-and-t20i-tournaments-11775297#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-03/ul0o8jg4_india_625x300_09_March_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:24:19+05:30",
+      "category": "Markets",
+      "summary": "The ICC has approved new formats for the 2027 ODI World Cup and the 2028 T20 World Cup to make tournaments more competitive and reduce dead rubbers."
+    },
+    {
+      "title": "Iran War News Live Updates: Iran Says Hormuz To Remain Closed, Fires Two Warning Shots At Vessels",
+      "excerpt": "Iran's Revolutionary Guard threatened to halt all Middle East energy exports in response to the US naval blockade, warning that oil and gas exports will be for everyone or no one.",
+      "url": "https://www.ndtvprofit.com/world/iran-war-news-live-updates-us-military-completes-fresh-strikes-on-iranian-ports-iran-threatens-to-shut-strait-of-hormuz-11772851#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/evp6cucg_us-iran-war_625x300_14_June_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:20:54+05:30",
+      "category": "Markets",
+      "summary": "Iran's Revolutionary Guard threatened to halt all Middle East energy exports in response to the US naval blockade, warning that oil and gas exports will be for everyone or no one."
+    },
+    {
+      "title": "RBI releases Guidance on Regulatory Expectations for Data Governance",
+      "excerpt": "RBI releases Guidance on Regulatory Expectations for Data Governance Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZUxxakpnTVp0QTdtdXFYSW9nWFdEMG14bXRIMXZHUnBXdlFHSFlrY3hrZ0hWeC1DNFRGT1J5VHVIZkktck4xbmZUOWJnejgyVDN4RXVmRkx6TmRwVHJoTlhPQXI3WUFPY1RNREh6Q25hYi1sSWtqejBtMUhtVFFTelZGT0V3NXR1TXhMdmtTN2l4bm5ZWFpFWWtvekFQNGlpSFZQUUQ3YWk0YzhiTkdnaUpxMnlxS1Rrc2t5VTNibGJQUVB4QWpETjFxaWVtNmZyaDhfa2k2U1hNSXMtaFZWU3JMOXo3Sm9uMEHSAeoBQVVfeXFMTWVMcWpKZ01adEE3bXVxWElvZ1hXRDBteG10SDF2R1JwV3ZRR0hZa2N4a2dIVngtQzRURk9SeVR1SGZJLXJOMW5mVDliZ3o4MlQzeEV1ZkZMek5kcFRyaE5YT0FyN1lBT2NUTURIekNuYWItbElranowbTFIbVRRU3pWRk9FdzV0dU14THZrUzdpeG5uWVhaRVlrb3pBUDRpaUhWUFFEN2FpNGM4Yk5HZ2lKcTJ5cUtUa3NreVUzYmxiUFFQeEFqRE4xcWllbTZmcmg4X2tpNlNYTUlzLWhWVlNyTDl6N0pvbjBB?oc=5",
+      "source": "Business Standard",
+      "image": null,
+      "publishedAt": "2026-07-15T18:16:34+05:30",
+      "category": "Economy",
+      "summary": "RBI releases Guidance on Regulatory Expectations for Data Governance Business Standard"
+    },
+    {
+      "title": "Noida Fire: Two Killed As Charging E-Scooter Blaze Spreads To Parked Vehicles, Smoke Enters Apartments",
+      "excerpt": "The police have registered a case against the building's leaseholder and operator under relevant legal provisions, alleging negligence in connection with the incident.",
+      "url": "https://www.ndtvprofit.com/india/noida-fire-two-killed-as-charging-e-scooter-blaze-spreads-to-parked-vehicles-smoke-enters-apartments-11774506#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/rje068eg_fire_625x300_15_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:09:37+05:30",
+      "category": "Markets",
+      "summary": "The police have registered a case against the building's leaseholder and operator under relevant legal provisions, alleging negligence in connection with the incident."
+    },
+    {
+      "title": "Rich Nation, Poor Pitch? Argentina Faces England—And Its Own Superstitions—In FIFA WC Semis",
+      "excerpt": "As Argentina prepares to face England in the FIFA World Cup 2026 semi-final, a curious pattern has resurfaced: its greatest football triumphs have often coincided with economic turmoil, not recovery.",
+      "url": "https://www.ndtvprofit.com/sports/rich-nation-poor-pitch-argentina-faces-england-and-its-own-superstitions-in-fifa-wc-semis-11775317#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/dbceipoc_eng-vs-argentina_625x300_15_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:06:07+05:30",
+      "category": "Markets",
+      "summary": "As Argentina prepares to face England in the FIFA World Cup 2026 semi-final, a curious pattern has resurfaced: its greatest football triumphs have often coincided with economic turmoil, not recovery."
+    },
+    {
+      "title": "Didier Deschamps' France Legacy: Titles, Wins And Records After 14 Years In Charge",
+      "excerpt": "The World Cup-winning coach will end his 14-year spell with France after the third-place play-off, leaving behind an era defined by trophies, consistency and record-breaking success.",
+      "url": "https://www.ndtvprofit.com/sports/didier-deschamps-france-legacy-titles-wins-and-records-after-14-years-in-charge-11774869#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/pd6qt3_didier-deschamps_625x300_15_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T18:05:53+05:30",
+      "category": "Markets",
+      "summary": "The World Cup-winning coach will end his 14-year spell with France after the third-place play-off, leaving behind an era defined by trophies, consistency and record-breaking success."
+    },
+    {
+      "title": "ITC Hotels Q1 Results Preview: Healthy Revenue Likely Despite West Asia Tensions; Brokerages Flag Soft Margin",
+      "excerpt": "The hotel operator is expected to report a 22% growth in net profit at Rs 162.6 crore in first quarter of current fiscal against Rs 133.1 crore in the year-ago period.",
+      "url": "https://www.ndtvprofit.com/business/itc-hotels-q1-preview-healthy-revenue-expected-despite-middle-east-tensions-brokerages-flag-soft-margins-11775048#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/83e4qtnc_bb_625x300_15_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T17:58:13+05:30",
+      "category": "Markets",
+      "summary": "The hotel operator is expected to report a 22% growth in net profit at Rs 162.6 crore in first quarter of current fiscal against Rs 133.1 crore in the year-ago period."
+    },
+    {
+      "title": "Eternal Q1 Results: Date, Time, Dividend News, Earnings Call Schedule And More",
+      "excerpt": "Those interested in tuning in to Eternal's earnings call are required to sign in using a pre-registration link included in the exchange filing.",
+      "url": "https://www.ndtvprofit.com/markets/eternal-q1-results-date-time-dividend-news-earnings-call-schedule-and-more-11775244#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/proen/2025-03-28/sf1x48oj/Zomato.%20(Source%20Usha%20Kunji%20BQ%20Prime).jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T17:56:37+05:30",
+      "category": "Markets",
+      "summary": "Those interested in tuning in to Eternal's earnings call are required to sign in using a pre-registration link included in the exchange filing."
+    },
+    {
+      "title": "IBM Jitters Fade: Infosys, Wipro ADRs Recover; Accenture, Cognizant See Uptick In Pre",
+      "excerpt": "Futures tied to IBM's stock rose over 1.7% to $220.7, after cratering over 26% in Tuesday's session on weak Q2 earnings and outlook.",
+      "url": "https://www.ndtvprofit.com/markets/ibm-jitters-fade-infosys-wipro-adrs-recover-accenture-cognizant-see-uptick-in-pre-market-trade-11775255#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/61f4mo78_g_625x300_15_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T17:54:52+05:30",
+      "category": "Markets",
+      "summary": "Futures tied to IBM's stock rose over 1.7% to $220.7, after cratering over 26% in Tuesday's session on weak Q2 earnings and outlook."
+    },
+    {
+      "title": "Warburg Pincus Completes Rs 1,200-Crore Acquisition of Integrace Health; Temasek, True North Exit",
+      "excerpt": "The transaction marks the full exit of existing shareholders True North and Singapore state investor Temasek",
+      "url": "https://www.ndtvprofit.com/business/warburg-pincus-completes-1-200-crore-acquisition-of-integrace-health-temasek-true-north-exit-11775253#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/aje4am1_warburg-pincus-_625x300_15_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T17:54:37+05:30",
+      "category": "Markets",
+      "summary": "The transaction marks the full exit of existing shareholders True North and Singapore state investor Temasek"
+    },
+    {
+      "title": "NCDEX to roll out Guar Korma futures from July 24",
+      "excerpt": "NCDEX will launch Guar Korma futures on July 24, giving exporters, processors and feed manufacturers a SEBI-regulated platform to hedge price risks. The contract completes the exchange-traded guar derivatives ecosystem, ",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ncdex-to-roll-out-guar-korma-futures-from-july-24/articleshow/132416023.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-15T17:53:05+05:30",
+      "category": "Markets",
+      "summary": "NCDEX will launch Guar Korma futures on July 24, giving exporters, processors and feed manufacturers a SEBI-regulated platform to hedge price risks. The contract completes the exchange-traded guar derivatives ecosystem, "
+    },
+    {
+      "title": "Wipro Q1 Results Tomorrow: Should You Buy, Sell Or Hold Shares Amid Weak",
+      "excerpt": "Wipro shares have declined 32.15% over the last 12 months, fallen 34.67% so far in 2026 and lost 10.87% during the June quarter.",
+      "url": "https://www.ndtvprofit.com/markets/wipro-q1-results-tomorrow-should-you-buy-sell-or-hold-shares-amid-weak-quarter-preview-11775220#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/d60096f2_Wipro_logo_180119__2__jpeg.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-15T17:47:49+05:30",
+      "category": "Markets",
+      "summary": "Wipro shares have declined 32.15% over the last 12 months, fallen 34.67% so far in 2026 and lost 10.87% during the June quarter."
+    },
     {
       "title": "Tech Mahindra Q1 Preview: Profit Expected To Rise 17%, Margins Seen Improving",
       "excerpt": "Tech Mahindra is projected to report higher Q1FY27 revenue at Rs 15,458 crore and a 5% rise in EBIT to Rs 2,189 crore, with margins expanding to 14.16%.",
@@ -11,246 +251,6 @@
       "publishedAt": "2026-07-15T17:41:57+05:30",
       "category": "Markets",
       "summary": "Tech Mahindra is projected to report higher Q1FY27 revenue at Rs 15,458 crore and a 5% rise in EBIT to Rs 2,189 crore, with margins expanding to 14.16%."
-    },
-    {
-      "title": "Aamir Khan Responds To Fatwa, 'Love",
-      "excerpt": "Clarifying the nature of his marriages, Aamir said that Reena Dutta, Kiran Rao, and Gauri Spratt did not convert to Islam because all three marriages were solemnised as civil marriages.",
-      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-bollywood-aamir-khan-responds-to-fatwa-love-jihad-allegations-after-marrying-gauri-spratt-11774487#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/0b98obs4_aamir_625x300_15_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:40:40+05:30",
-      "category": "Markets",
-      "summary": "Clarifying the nature of his marriages, Aamir said that Reena Dutta, Kiran Rao, and Gauri Spratt did not convert to Islam because all three marriages were solemnised as civil marriages."
-    },
-    {
-      "title": "Tamil Nadu Citizens Can Now Use WhatsApp To Report Bribe Demands",
-      "excerpt": "The new WhatsApp helpline allows citizens to report bribe demands, alongside existing email and telephone complaint channels.",
-      "url": "https://www.ndtvprofit.com/india/tamil-nadu-citizens-can-now-use-whatsapp-to-report-bribe-demands-11774360#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/s0mbaong_bribe_625x300_15_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:26:10+05:30",
-      "category": "Markets",
-      "summary": "The new WhatsApp helpline allows citizens to report bribe demands, alongside existing email and telephone complaint channels."
-    },
-    {
-      "title": "'Usurping Pirates', 'Invaders': Argentina Vice-President Blasts England Ahead Of FIFA WC Semifinal Clash",
-      "excerpt": "Victoria Villarruel links the World Cup semifinal to the Falklands dispute, while coach Lionel Scaloni urges fans to keep politics out of football.",
-      "url": "https://www.ndtvprofit.com/world/usurping-pirates-invaders-argentina-vice-president-blasts-england-ahead-of-fifa-wc-semifinal-clash-11774965#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/igps0h3g_fifa-world-cup-2026_625x300_14_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:25:19+05:30",
-      "category": "Markets",
-      "summary": "Victoria Villarruel links the World Cup semifinal to the Falklands dispute, while coach Lionel Scaloni urges fans to keep politics out of football."
-    },
-    {
-      "title": "Another Setback To Mamata Banerjee, Close Aide Madan Mitra Joins Rebel Camp",
-      "excerpt": "Mitra's switch comes just days after he was appointed as one of TMC's general secretaries by Mamata Banerjee as a part of a party reshuffle.",
-      "url": "https://www.ndtvprofit.com/india/another-setback-to-mamata-banerjee-close-aide-madan-mitra-joins-rebel-camp-11774334#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/77t444kc_madan-mitra_625x300_15_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:17:55+05:30",
-      "category": "Markets",
-      "summary": "Mitra's switch comes just days after he was appointed as one of TMC's general secretaries by Mamata Banerjee as a part of a party reshuffle."
-    },
-    {
-      "title": "HDB Financial Q1 Results: Profit Jumps 38%, Revenue Nears Rs 5,000",
-      "excerpt": "HDB Financial's revenue climbed 10.6% to Rs 4,938 crore, as against Rs 4,465 crore in the year-ago period.",
-      "url": "https://www.ndtvprofit.com/business/hdb-financial-q1-results-profit-jumps-38-revenue-nears-rs-5-000-crore-mark-11774787#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/bru5qlhs_hdbfs_625x300_14_April_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:16:58+05:30",
-      "category": "Markets",
-      "summary": "HDB Financial's revenue climbed 10.6% to Rs 4,938 crore, as against Rs 4,465 crore in the year-ago period."
-    },
-    {
-      "title": "HDFC Life Insurance Company Q1 results: Profit rises 12% YoY to  ₹611 crore; VNB up 9%",
-      "excerpt": "HDFC Life Insurance Company reported a 12% YoY rise in its standalone profit to ₹611.42 crore for Q1FY27. Value of new business (VNB) for the quarter rose by 9% YoY to ₹879 crore.",
-      "url": "https://www.livemint.com/market/stock-market-news/hdfc-life-insurance-company-q1-results-profit-rises-12-yoy-to-611-crore-vnb-up-9-11784114501728.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/15/1600x900/logo/Stock_market_1767410262228_1767410269728_1784114686800_428a8032-d766-40d6-84c9-14522cf28a5b.png",
-      "publishedAt": "2026-07-15T17:16:11+05:30",
-      "category": "Markets",
-      "summary": "HDFC Life Insurance Company reported a 12% YoY rise in its standalone profit to ₹611.42 crore for Q1FY27. Value of new business (VNB) for the quarter rose by 9% YoY to ₹879 crore."
-    },
-    {
-      "title": "What Is The Bundibugyo Ebola Strain? DR Congo Outbreak Explained",
-      "excerpt": "Health officials have warned that the outbreak, which is being driven by the uncommon Bundibugyo strain, is expanding at the quickest rate ever.",
-      "url": "https://www.ndtvprofit.com/science/what-is-the-bundibugyo-ebola-strain-dr-congo-outbreak-explained-11774397#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/hoavimsk_who-ebola_625x300_22_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:13:51+05:30",
-      "category": "Markets",
-      "summary": "Health officials have warned that the outbreak, which is being driven by the uncommon Bundibugyo strain, is expanding at the quickest rate ever."
-    },
-    {
-      "title": "RBI Clears Rajiv Kumar For Three-Year Term As HDFC Bank Part",
-      "excerpt": "The approval comes after HDFC Bank appointed Kumar as the new part-time chairman on June 29, 2026.",
-      "url": "https://www.ndtvprofit.com/business/rbi-clears-rajiv-kumar-for-three-year-term-as-hdfc-bank-part-time-chairman-11775003#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/s98ajjco_h_625x300_29_June_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:13:41+05:30",
-      "category": "Markets",
-      "summary": "The approval comes after HDFC Bank appointed Kumar as the new part-time chairman on June 29, 2026."
-    },
-    {
-      "title": "Akasa Air, BPCL Sign Pact For Sustainable Aviation Fuel As Ethanol Push Expands To Skies",
-      "excerpt": "BPCL and Akasa Air will also look into implementing a phased increase of SAF blending.",
-      "url": "https://www.ndtvprofit.com/business/akasa-air-bpcl-sign-pact-for-sustainable-aviation-fuel-as-ethanol-push-expands-to-skies-11774862#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/1f8ahfd4_a_625x300_19_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:04:47+05:30",
-      "category": "Markets",
-      "summary": "BPCL and Akasa Air will also look into implementing a phased increase of SAF blending."
-    },
-    {
-      "title": "The Odyssey Release: Cast, Plot, Budget, Formats — All You Need To Know About Christopher Nolan Film",
-      "excerpt": "Christopher Nolan's Odyssey is set to release in 2,500 screens across India in English, Hindi, Tamil and Telugu on July 17, 2026.",
-      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-cinema-hollywood-movie-the-odyssey-release-cast-plot-budget-production-details-runtime-formats-screens-christopher-nolan-film-11773524#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/f52isgg4_odyssey_625x300_15_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T17:00:01+05:30",
-      "category": "Markets",
-      "summary": "Christopher Nolan's Odyssey is set to release in 2,500 screens across India in English, Hindi, Tamil and Telugu on July 17, 2026."
-    },
-    {
-      "title": "Swiggy Instamart Partners With HPCL To Launch India's First Quick",
-      "excerpt": "Swiggy Instamart and HPCL have launched India's first on-demand LPG cylinder delivery service on a quick-commerce platform.",
-      "url": "https://www.ndtvprofit.com/business/swiggy-instamart-partners-with-hpcl-to-launch-indias-first-quick-commerce-lpg-cylinder-delivery-11774304#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/v22hd9qo_instamart_625x300_15_July_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:55:46+05:30",
-      "category": "Markets",
-      "summary": "Swiggy Instamart and HPCL have launched India's first on-demand LPG cylinder delivery service on a quick-commerce platform."
-    },
-    {
-      "title": "Thalapathy Vijay's Jana Nayagan To Release On July 23? Here's What We Know",
-      "excerpt": "After months of delays and uncertainty, Vijay's much-awaited Jana Nayagan is finally set to release in theatres on July 23.",
-      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-cinema-tamil-movie-thalapathy-vijay-jana-nayagan-final-film-to-release-on-july-23-here-is-what-we-know-11774262#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/6p4vuflk_image_625x300_15_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:51:21+05:30",
-      "category": "Markets",
-      "summary": "After months of delays and uncertainty, Vijay's much-awaited Jana Nayagan is finally set to release in theatres on July 23."
-    },
-    {
-      "title": "Jana SFB Q1 Results: Profit Zooms Over 50% As Provisions Slip, Asset Quality Improves",
-      "excerpt": "Higher net interest income, lower provisions and improved asset quality helped Jana Small Finance Bank post a sharp jump in June-quarter profit, while the lender reiterated its growth guidance.",
-      "url": "https://www.ndtvprofit.com/business/jana-sfb-q1-results-profit-zooms-over-50-as-provisions-slip-asset-quality-improves-11774770#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/849aac9b_Jana-Small-Finance-Bank-listing-at-National-Stock-Exchange-on-14022024.-Photographer-Vivek-Amare-Source-NDTV-Profit-14022024.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:50:04+05:30",
-      "category": "Markets",
-      "summary": "Higher net interest income, lower provisions and improved asset quality helped Jana Small Finance Bank post a sharp jump in June-quarter profit, while the lender reiterated its growth guidance."
-    },
-    {
-      "title": "HDFC Life Q1 Results: Profit Exceeds Rs 600 Crore As Net Premium Income Grows 15%",
-      "excerpt": "The company posted a consolidated bottom-line of Rs 611 crore, compared to Rs 548 crore in the year-ago period.",
-      "url": "https://www.ndtvprofit.com/markets/hdfc-life-q1-results-profit-exceeds-rs-600-crore-as-net-premium-income-grows-15-percent-11774762#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/42e6c7d0_IMG20250330183806935HDR.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:49:33+05:30",
-      "category": "Markets",
-      "summary": "The company posted a consolidated bottom-line of Rs 611 crore, compared to Rs 548 crore in the year-ago period."
-    },
-    {
-      "title": "Iran War News Live Updates: US Launches Fresh Wave Of Strikes On Iran To Further 'Degrade' Military Capability",
-      "excerpt": "Iran's Revolutionary Guard threatened to halt all Middle East energy exports in response to the US naval blockade, warning that oil and gas exports will be for everyone or no one.",
-      "url": "https://www.ndtvprofit.com/world/iran-war-news-live-updates-us-military-completes-fresh-strikes-on-iranian-ports-iran-threatens-to-shut-strait-of-hormuz-11772851#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/evp6cucg_us-iran-war_625x300_14_June_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:46:31+05:30",
-      "category": "Markets",
-      "summary": "Iran's Revolutionary Guard threatened to halt all Middle East energy exports in response to the US naval blockade, warning that oil and gas exports will be for everyone or no one."
-    },
-    {
-      "title": "Expert view: Nifty may touch 27,000 by the year end or early next year, says Rohit Srivastava of Indiacharts",
-      "excerpt": "Market strategist Rohit Srivastava predicts the Nifty 50 index could reach 27,000 by the end of this year or early next year. He advises investors to buy dips and focus on growth stocks despite geopolitical uncertainties",
-      "url": "https://www.livemint.com/market/stock-market-news/expert-view-nifty-may-touch-27-000-by-the-year-end-or-early-next-year-says-rohit-srivastava-of-indiacharts-11784113512404.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/15/1600x900/logo/Rohit_1739413409577_1784113660628_c89caf5b-6051-4c0f-963c-64778c208335.jpg",
-      "publishedAt": "2026-07-15T16:43:06+05:30",
-      "category": "Markets",
-      "summary": "Market strategist Rohit Srivastava predicts the Nifty 50 index could reach 27,000 by the end of this year or early next year. He advises investors to buy dips and focus on growth stocks despite geopolitical uncertainties"
-    },
-    {
-      "title": "'Got To Do Something': Jamie Dimon Opens Up On Life After Stepping Down As JPMorgan CEO",
-      "excerpt": "Investors are keeping a close eye on JPMorgan's succession strategy, with Dimon having served as CEO for more than 20 years.",
-      "url": "https://www.ndtvprofit.com/world/got-to-do-something-jamie-dimon-opens-up-on-life-after-stepping-down-as-jpmorgan-ceo-11774743#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/5ajsna9c_jamie-dimon-_625x300_06_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:42:27+05:30",
-      "category": "Markets",
-      "summary": "Investors are keeping a close eye on JPMorgan's succession strategy, with Dimon having served as CEO for more than 20 years."
-    },
-    {
-      "title": "Telco Listing Rush: Airtel Africa Preps $10B London Spinoff Amid Jio Plan For Record India IPO",
-      "excerpt": "Airtel Africa could be London's largest new listing since Wise debuted with a valuation of nearly £9 billion in July 2021.",
-      "url": "https://www.ndtvprofit.com/markets/telco-listing-rush-airtel-africa-preps-10b-london-spinoff-amid-jio-plan-for-record-india-ipo-11774847#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/m87egu3s_airtel-africa-and-jio-ipo_625x300_15_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:40:39+05:30",
-      "category": "Markets",
-      "summary": "Airtel Africa could be London's largest new listing since Wise debuted with a valuation of nearly £9 billion in July 2021."
-    },
-    {
-      "title": "HDFC AMC Q1 Result: Net Profit Rises 12% As Revenue Grows",
-      "excerpt": "HDFC AMC settled 2.61% higher at Rs 2,729.20 apiece on the NSE. This compared to a 0.11% advance in the benchmark Nifty index.",
-      "url": "https://www.ndtvprofit.com/markets/hdfc-amc-q1-result-net-profit-rises-12-percent-as-revenue-grows-11774451#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/k7hlr3g8_hdfc-mutual-fund-hdfc-amc-ndtv-profit_625x300_16_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:33:02+05:30",
-      "category": "Markets",
-      "summary": "HDFC AMC settled 2.61% higher at Rs 2,729.20 apiece on the NSE. This compared to a 0.11% advance in the benchmark Nifty index."
-    },
-    {
-      "title": "Kerala High Says Aadhaar Need Not Be Mandatory For Digi Yatra Registration If...",
-      "excerpt": "The petition has also sought interim directions restraining airport operators and associated entities from sharing or commercially exploiting passengers' personal data without proper authorisation.",
-      "url": "https://www.ndtvprofit.com/india/kerala-high-says-aadhaar-need-not-be-mandatory-for-digi-yatra-registration-if-11774018#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/9g5hvccc_digi-yatra_625x300_15_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:33:02+05:30",
-      "category": "Markets",
-      "summary": "The petition has also sought interim directions restraining airport operators and associated entities from sharing or commercially exploiting passengers' personal data without proper authorisation."
-    },
-    {
-      "title": "Q1 Results Live Updates: HDB Financial Profit Surges 38%, Groww Revenue Rises 66%",
-      "excerpt": "Q1 Results Today Live: Track all the latest Q1 earnings announcements, management commentary, dividend declarations, margin trends, guidance, analyst reactions and share price moves from companies reporting June quarter ",
-      "url": "https://www.ndtvprofit.com/markets/q1-results-live-updates-groww-angel-one-hdfc-life-icici-lombard-among-companies-to-share-earnings-on-july-15-11773458#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/r1rni27s_x_625x300_15_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-15T16:24:25+05:30",
-      "category": "Markets",
-      "summary": "Q1 Results Today Live: Track all the latest Q1 earnings announcements, management commentary, dividend declarations, margin trends, guidance, analyst reactions and share price moves from companies reporting June quarter "
-    },
-    {
-      "title": "Small-cap FMCG stock Spice Lounge Food Works hits upper circuit after this business update",
-      "excerpt": "Small-cap FMCG stock Spice Lounge Food Works hit its upper circuit on the BSE on Wednesday, 15 July, a day after the company announced it had opened its first Wing Zone Outlet in Bengaluru.",
-      "url": "https://www.livemint.com/market/stock-market-news/smallcap-fmcg-stock-spice-lounge-food-works-hits-upper-circuit-after-this-business-update-11784110584032.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/15/1600x900/logo/pexels-photo-35638668_1783684069135_1783684117032_f0ec1850-7399-43b5-a888-79e26eda3eeb_1784110819379_884f09a3-9ed5-4003-bb74-4177cd3cfa9a.jpeg",
-      "publishedAt": "2026-07-15T16:07:22+05:30",
-      "category": "Markets",
-      "summary": "Small-cap FMCG stock Spice Lounge Food Works hit its upper circuit on the BSE on Wednesday, 15 July, a day after the company announced it had opened its first Wing Zone Outlet in Bengaluru."
-    },
-    {
-      "title": "Nifty 50 above 27,000? PL Capital raises target, sees more upside in Indian stock markets but flags key risks",
-      "excerpt": "PL Capital has raised its one-year Nifty 50 target to 27,019, citing improved macroeconomic conditions, resilient demand, and easing oil prices, while cautioning about risks from geopolitical tensions and potential El Ni",
-      "url": "https://www.livemint.com/market/stock-market-news/nifty-50-prediction-pl-capital-ups-nifty-target-to-27-000-sees-more-upside-in-indian-stock-markets-but-flags-key-risks-11784107475075.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/15/1600x900/logo/Nifty_50_target_1784107700492_1784107700648_4a89cd6c-4004-4f15-ac9b-b260786ee89a.png",
-      "publishedAt": "2026-07-15T16:00:00+05:30",
-      "category": "Markets",
-      "summary": "PL Capital has raised its one-year Nifty 50 target to 27,019, citing improved macroeconomic conditions, resilient demand, and easing oil prices, while cautioning about risks from geopolitical tensions and potential El Ni"
-    },
-    {
-      "title": "India, UAE central banks meet to discuss foreign-currency deposit issues",
-      "excerpt": "India, UAE central banks meet to discuss foreign-currency deposit issues Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRUFYQ0N1YnR1dnVzVF9fYjk5NXZYcllSdlRfajJDcUFwUTFWSzIyUFA2RjNaYkdpalR4THpfQWJzcmR3Q0RlN1lyQTU2VGw0RG1RcDYzMTRkY0pYOEVaWnRNZmFPZWRzbDVHLTFHS3BnTVk5V3A5UlNiRU1BX2ZBbDlIZHJkMzB6LTdTWHdILXI2M0daY0NiWGRRM2F2MXZzdnBHOFF3UEVhdXdKRS1CYktlaUVyZTJxZzFmcWZBdWRscVhRVTlOOUlZcUtsRjRHMmxYcNIB2gFBVV95cUxPSy1fVW02UlVFTEQ4Q01tVGQ4OTl0VnRhaE85SXo4Q3dpblBPVElhTDBoUFNXbFBEVlpXX3M0S09jYzVOaHQxR3lQTHp6LURwMFppMGdMNXF6TjQ5SVBkdDB5SHctSzRVa08tM295a2tJcVJjbnZwLWl1MXp2WnV0bi14Z2VsYXhjdEFIeUF3SjlpZWlrV2JaNnpkdzJibDdLLUt1UllJbEJzektqZVpnbnFGV0dMaEtKYmpFcWNGdGhRUXZrZmROUmE3WWlBUXpWZXE5U0FlUm9Edw?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-07-15T15:59:40+05:30",
-      "category": "Economy",
-      "summary": "India, UAE central banks meet to discuss foreign-currency deposit issues Business Standard"
     }
   ]
 }
