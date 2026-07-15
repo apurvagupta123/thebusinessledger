@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T01:16:06+05:30",
+  "lastUpdated": "2026-07-16T02:34:32+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,26 @@
       "publishedAt": "2026-07-15T23:35:35+05:30",
       "category": "Markets",
       "summary": "Emergent became India's latest unicorn after raising $130 million in a Series C funding round led by Creaegis, taking its valuation to $1.5 billion. The AI coding startup's valuation has increased five-fold in just six m"
+    },
+    {
+      "title": "US stocks today: US stocks end higher on cool inflation data, strong earnings",
+      "excerpt": "Wall Street closed higher as softer US producer inflation and strong early Q2 earnings boosted sentiment. PayPal surged on a reported buyout offer, while BlackRock and Morgan Stanley beat estimates. Despite weak semicond",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-higher-on-cool-inflation-data-strong-earnings/articleshow/132424759.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-16T01:33:22+05:30",
+      "category": "Markets",
+      "summary": "Wall Street closed higher as softer US producer inflation and strong early Q2 earnings boosted sentiment. PayPal surged on a reported buyout offer, while BlackRock and Morgan Stanley beat estimates. Despite weak semicond"
+    },
+    {
+      "title": "India raises windfall tax on diesel, ATF exports; cuts levy on petrol exports",
+      "excerpt": "India raises windfall tax on diesel, ATF exports; cuts levy on petrol exports The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSHVCbDhtaXR1RVd4RlpiR3Y4QnVIX1g1VnpoZTVCajIzMlJVSi1sUTh0bEFVUjQ0WlllSzlOUXdudzFYM1pFc1dLRXlNWl9rQlFxM0c2eUoyR0pJbko2UHRkSFNuWi1neUg3QU8yVzF6QTVfdzE5NlViM1ZxMjMyVnBVUjJaWGdpLUh3WVJEdVBxWTZwclotNzNEN1FMZDE1WGFvXzlPUUdEX1NtOEFWVXVDUF9KTFlvYVVIMVZpbllmbDdwVlF3SEtYWmRlR0NZZU43aEVkbGM4ei1xRmdpRVBQMVl1TjZlMjdHUmhR0gHuAUFVX3lxTE1IdUJsOG1pdHVFV3hGWmJHdjhCdUhfWDVWemhlNUJqMjMyUlVKLWxROHRsQVVSNDRaWWVLOU5Rd253MVgzWkVzV0tFeU1aX2tCUXEzRzZ5SjJHSkluSjZQdGRIU25aLWd5SDdBTzJXMXpBNV93MTk2VWIzVnEyMzJWcFVSMlpYZ2ktSHdZUkR1UHFZNnByWi03M0Q3UUxkMTVYYW9fOU9RR0RfU204QVZVdUNQX0pMWW9hVUgxVmluWWZsN3BWUXdIS1haZGVHQ1llTjdoRWRsYzh6LXFGZ2lFUFAxWXVONmUyN0dSaFE?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-16T00:09:00+05:30",
+      "category": "Economy",
+      "summary": "India raises windfall tax on diesel, ATF exports; cuts levy on petrol exports The Economic Times"
     },
     {
       "title": "'One Nation, One Election': EC Says Ready To Hold Simultaneous Polls With Six",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-07-15T21:25:18+05:30",
       "category": "Markets",
       "summary": "Tata Capital successfully raised $400 million by selling dollar bonds abroad. Asian and European asset managers dominated demand for these instruments. The bonds mature in 42 months and were priced tightly. This marks Ta"
-    },
-    {
-      "title": "Sebi tightens conflict safeguards with recusal framework",
-      "excerpt": "In a significant move, SEBI has established a formal framework for recusal among its senior officials. This code mandates that officials withdraw from matters where conflicts may arise, including personal, professional, ",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-tightens-conflict-safeguards-with-recusal-framework/articleshow/132419435.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-07-15T21:01:28+05:30",
-      "category": "Markets",
-      "summary": "In a significant move, SEBI has established a formal framework for recusal among its senior officials. This code mandates that officials withdraw from matters where conflicts may arise, including personal, professional, "
-    },
-    {
-      "title": "SBI appoints Sunil Agrawal as chief financial officer",
-      "excerpt": "SBI appoints Sunil Agrawal as chief financial officer The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPR18xSjZ4Y29ldkNuZGhzcWJGeWNLeTBmZ2UxNU95NDdCMndKMjlMRnZkMm5YS0VXa2czWnlaVFZIQlRQLU5wTmdCdVc4Zm8wVXQzR2ZuQjBDNF8xYVlLODJ6Qlg2T2tYbWVIZVJra1pkNmRlbEhOdlE0Z2N3Q0YyV1hWU0tEbDM3Ul83ejIwS2ZSWHg4YzNWbnJqYy1yR09obUJ0WE9yWGlBUjJWcWJBUm1MZ281MlNOb1NORnRJOGZ5V1g0b0tpc3prTl9oRFk5ZWo2bDZhZDhpTG850gHcAUFVX3lxTE9HXzFKNnhjb2V2Q25kaHNxYkZ5Y0t5MGZnZTE1T3k0N0Iyd0oyOUxGdmQyblhLRVdrZzNaeVpUVkhCVFAtTnBOZ0J1VzhmbzBVdDNHZm5CMEM0XzFhWUs4MnpCWDZPa1htZUhlUmtrWmQ2ZGVsSE52UTRnY3dDRjJXWFZTS0RsMzdSXzd6MjBLZlJYeDhjM1ZucmpjLXJHT2htQnRYT3JYaUFSMlZxYkFSbUxnbzUyU05vU05GdEk4ZnlXWDRvS2lzemtOX2hEWTllajZsNmFkOGlMbzk?oc=5",
-      "source": "The Economic Times",
-      "image": null,
-      "publishedAt": "2026-07-15T20:56:00+05:30",
-      "category": "Economy",
-      "summary": "SBI appoints Sunil Agrawal as chief financial officer The Economic Times"
     }
   ]
 }
