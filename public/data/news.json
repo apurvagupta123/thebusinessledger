@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T01:37:27+05:30",
+  "lastUpdated": "2026-07-21T03:14:47+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,16 @@
       "publishedAt": "2026-07-20T23:38:53+05:30",
       "category": "Markets",
       "summary": "India decided to put the Indus Waters Treaty in abeyance as part of a series of punitive diplomatic and economic measures."
+    },
+    {
+      "title": "US stocks today: S&P 500 edges down with Iran and earnings season in focus",
+      "excerpt": "U.S. stocks closed slightly lower as investors balanced Middle East tensions with optimism around upcoming tech earnings. Markets remained cautious amid US-Iran developments and oil supply concerns, while attention shift",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-sp-500-edges-down-with-iran-and-earnings-season-in-focus/articleshow/132523900.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-21T01:34:34+05:30",
+      "category": "Markets",
+      "summary": "U.S. stocks closed slightly lower as investors balanced Middle East tensions with optimism around upcoming tech earnings. Markets remained cautious amid US-Iran developments and oil supply concerns, while attention shift"
     },
     {
       "title": "Shifting shape when economy goes K-shaped",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-07-20T22:15:18+05:30",
       "category": "Economy",
       "summary": "The RBI's concessional swap facility has attracted $20.7 billion in foreign exchange inflows by July 17. The facility encourages foreign currency deposits and aims to support the rupee. Details here."
-    },
-    {
-      "title": "BlueStone Jewellery shares to be in focus on Tuesday as company turns profitable in Q1, revenue jumps 49%",
-      "excerpt": "BlueStone Jewellery reported a strong Q1FY27, with a 49% YoY increase in retail sales to ₹733 crore. The company also saw a 39% growth in same-store sales despite higher gold customs duties, and an improved EBITDA margin",
-      "url": "https://www.livemint.com/market/stock-market-news/bluestone-jewellery-shares-to-be-in-focus-on-tuesday-as-company-turns-profitable-in-q1-revenue-jumps-49-11784562764043.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/20/1600x900/logo/bl_1707995750311_1784562873807_537a3769-8cbd-43d9-bd4f-4421cec0930d.jpg",
-      "publishedAt": "2026-07-20T21:34:27+05:30",
-      "category": "Markets",
-      "summary": "BlueStone Jewellery reported a strong Q1FY27, with a 49% YoY increase in retail sales to ₹733 crore. The company also saw a 39% growth in same-store sales despite higher gold customs duties, and an improved EBITDA margin"
     }
   ]
 }
