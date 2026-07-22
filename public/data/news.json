@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-07-23T01:23:57+05:30",
+  "lastUpdated": "2026-07-23T02:44:14+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Yen Rebound Ebbs After Brief Rally on Outlook for BOJ Rate Hikes",
+      "excerpt": "The yen slid beyond 163 per dollar for the first time since 1986 before recovering some ground in choppy trading on the prospect of faster interest-rate hikes from the Bank of Japan.",
+      "url": "https://www.livemint.com/market/yen-rebound-ebbs-after-brief-rally-on-outlook-for-boj-rate-hikes-11784754197557.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-07-23T02:33:17+05:30",
+      "category": "Markets",
+      "summary": "The yen slid beyond 163 per dollar for the first time since 1986 before recovering some ground in choppy trading on the prospect of faster interest-rate hikes from the Bank of Japan."
+    },
+    {
+      "title": "US stocks today: S&P 500, Nasdaq close lower amid mixed show by tech stocks ahead of earnings",
+      "excerpt": "U.S. markets ended mixed with Nasdaq under pressure as software stocks dragged while chip stocks gained. Investors remained cautious ahead of key earnings from Alphabet and Tesla Inc.. Rising oil prices and geopolitical ",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-sp-500-nasdaq-close-lower-as-investors-await-technology-earnings/articleshow/132567590.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-23T01:34:42+05:30",
+      "category": "Markets",
+      "summary": "U.S. markets ended mixed with Nasdaq under pressure as software stocks dragged while chip stocks gained. Investors remained cautious ahead of key earnings from Alphabet and Tesla Inc.. Rising oil prices and geopolitical "
+    },
     {
       "title": "Two-year yields hit 17-month high on oil surge, Fed fears",
       "excerpt": "USA-BONDS/ (UPDATE 2):TREASURIES-Two-year yields hit 17-month high on oil surge, Fed fears",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-07-22T22:13:57+05:30",
       "category": "Markets",
       "summary": "Avengers: Doomsday has posted huge advance ticket sales ahead of its release, while Christopher Nolan's The Odyssey turned strong pre-release bookings into an impressive box office run in India."
-    },
-    {
-      "title": "Outward LRS remittances rise 3.6% to $2.39 billion in May 2026: RBI",
-      "excerpt": "Outward LRS remittances rise 3.6% to $2.39 billion in May 2026: RBI Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOW1DczQ2UVpiNm9tSEotcktmbXNVRk0zUURsMFItSFVlZ2M0bDIxbXRJVTBRdmtBOVpGRGhPWThBOUxwN05ORzA2eDFkdXJ1ZjVCUk15dFBTTndtNzJzbzE1cUNSWFBFUi1YRXlGRkluX0hsLVdrNDBtQ0tjQ1JiRU8wa24ycGR2bWJVSjFsb0lqSFlSd2cwVHhCclktY2Y3RGtBUktOQ3EzY2lobkgzVVcycUVEVnViWExfWGR1eFBRRmd5NlZ0ZUl4WGxmWU91VFhxVUpn0gHWAUFVX3lxTE85bUNzNDZRWmI2b21ISi1yS2Ztc1VGTTNRRGwwUi1IVWVnYzRsMjFtdElVMFF2a0E5WkZEaE9ZOEE5THA3Tk5HMDZ4MWR1cnVmNUJSTXl0UFNOd203MnNvMTVxQ1JYUEVSLVhFeUZGSW5fSGwtV2s0MG1DS2NDUmJFTzBrbjJwZHZtYlVKMWxvSWpIWVJ3ZzBUeEJyWS1jZjdEa0FSS05DcTNjaWhuSDNVVzJxRURWdWJYTF9YZHV4UFFGZ3k2VnRlSXhYbGZZT3VUWHFVSmc?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-07-22T22:08:31+05:30",
-      "category": "Economy",
-      "summary": "Outward LRS remittances rise 3.6% to $2.39 billion in May 2026: RBI Business Standard"
-    },
-    {
-      "title": "Adani Defence, DRDO Ink Deal For IAF's Next",
-      "excerpt": "Adani Defence and DRDO will jointly develop, manufactureand integrate the airborne mission systems on six modified Airbus A321aircraftfor the IAF.",
-      "url": "https://www.ndtvprofit.com/business/adani-defence-drdo-ink-deal-for-iafs-next-gen-airborne-surveillance-programme-11807804#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/proen/2024-08/e567831c-9dba-489a-a38d-05f2e395e950/adani%20group.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-22T21:59:53+05:30",
-      "category": "Markets",
-      "summary": "Adani Defence and DRDO will jointly develop, manufactureand integrate the airborne mission systems on six modified Airbus A321aircraftfor the IAF."
     }
   ]
 }
