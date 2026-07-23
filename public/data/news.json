@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T01:46:49+05:30",
+  "lastUpdated": "2026-07-24T03:06:38+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,36 @@
       "publishedAt": "2026-07-24T06:00:44+05:30",
       "category": "Markets",
       "summary": "India will look to build on a promising opening day as athletes compete across lawn bowls, artistic gymnastics, boxing, swimming and para powerlifting on the first full day of competition."
+    },
+    {
+      "title": "Heat Worries US Wheat Farmers Just as Crop Prices Surge",
+      "excerpt": "For farmers in North Dakota surveying their wheat as harvest closes in, scorching heat is threatening yields just as crop prices rise to a three-year high.",
+      "url": "https://www.livemint.com/market/heat-worries-us-wheat-farmers-just-as-crop-prices-surge-11784841971254.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-07-24T02:56:10+05:30",
+      "category": "Markets",
+      "summary": "For farmers in North Dakota surveying their wheat as harvest closes in, scorching heat is threatening yields just as crop prices rise to a three-year high."
+    },
+    {
+      "title": "Dollar Rises as Intensifying Iran War Lifts Rate Hike Bets",
+      "excerpt": "The dollar jumped Thursday as intensifying conflict in the Middle East sparked concerns over energy supply disruptions, fueling expectations that interest rates will stay higher for longer.",
+      "url": "https://www.livemint.com/market/dollar-rises-as-intensifying-iran-war-lifts-rate-hike-bets-11784841425131.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-07-24T02:47:04+05:30",
+      "category": "Markets",
+      "summary": "The dollar jumped Thursday as intensifying conflict in the Middle East sparked concerns over energy supply disruptions, fueling expectations that interest rates will stay higher for longer."
+    },
+    {
+      "title": "US stocks today: Nasdaq plunges 2% as tech earnings spark AI spending worries",
+      "excerpt": "Wall Street closed sharply lower with Nasdaq down over 2% as weak Big Tech earnings and rising AI spending concerns hit sentiment. Surging oil prices above $100, driven by Middle East tensions, reignited inflation fears ",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-fall-as-tech-earnings-spark-ai-spending-worries-and-oil-hits-100/articleshow/132591456.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-24T01:33:25+05:30",
+      "category": "Markets",
+      "summary": "Wall Street closed sharply lower with Nasdaq down over 2% as weak Big Tech earnings and rising AI spending concerns hit sentiment. Surging oil prices above $100, driven by Middle East tensions, reignited inflation fears "
     },
     {
       "title": "Yen’s Slump Extends Beyond Dollar and Stokes Inflation Fears",
@@ -221,36 +251,6 @@
       "publishedAt": "2026-07-23T22:37:08+05:30",
       "category": "Markets",
       "summary": "Lord's, which hosted the previous World Test Championship final, currently has one ICC demerit point following an \"unsatisfactory\" pitch rating."
-    },
-    {
-      "title": "Trade Setup For July 24: Can Nifty Slip Below 23,800? Here's What Analysts Expect",
-      "excerpt": "Nifty 50 remains at a crucial technical juncture, with the 23,750-23,800 zone emerging as immediate support.",
-      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-july-24-could-nifty-slip-below-23-800-heres-what-analysts-expect-11813191#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/cos7jjjc_f_625x300_16_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-23T22:36:36+05:30",
-      "category": "Markets",
-      "summary": "Nifty 50 remains at a crucial technical juncture, with the 23,750-23,800 zone emerging as immediate support."
-    },
-    {
-      "title": "IATA Appoints Saadia Zahidi As First Woman DG; To Succeed IndiGo CEO Designate Willie Walsh",
-      "excerpt": "The current Director General of IATA, Willie Walsh, will step down on July 31, 2026.",
-      "url": "https://www.ndtvprofit.com/business/iata-appoints-saadia-zahidi-as-first-woman-dg-to-succeed-indigo-ceo-designate-willie-walsh-11813147#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/52886l0s_iata_625x300_23_July_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-23T22:35:29+05:30",
-      "category": "Markets",
-      "summary": "The current Director General of IATA, Willie Walsh, will step down on July 31, 2026."
-    },
-    {
-      "title": "Tesla falls 15%, Alphabet drops 8% as AI spending concerns mount",
-      "excerpt": "Tesla shares fell to around $319 following disappointing quarterly earnings, marking their lowest since August 2025. Alphabet also declined despite higher revenue, with concerns about rising AI investment overshadowing p",
-      "url": "https://www.livemint.com/market/stock-market-news/tesla-falls-15-alphabet-drops-8-as-ai-spending-concerns-mount-11784819582476.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/23/1600x900/logo/US-STOCKS-10_1748507813617_1784822497896_306b6d03-4a9a-4d51-b5c0-87179cbefc65.jpg",
-      "publishedAt": "2026-07-23T21:50:44+05:30",
-      "category": "Markets",
-      "summary": "Tesla shares fell to around $319 following disappointing quarterly earnings, marking their lowest since August 2025. Alphabet also declined despite higher revenue, with concerns about rising AI investment overshadowing p"
     }
   ]
 }
