@@ -1,36 +1,246 @@
 {
-  "lastUpdated": "2026-07-24T21:04:30+05:30",
+  "lastUpdated": "2026-07-24T23:11:36+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "American Express shares tumble despite robust earnings, higher revenue outlook as rising costs weigh on sentiment",
+      "excerpt": "Total card spending, or billed business, climbed 9% year over year to $455.8 billion on a foreign exchange-adjusted basis. Quarterly revenue also rose 10% to $19.6 billion, reflecting healthy consumer activity",
+      "url": "https://www.livemint.com/market/stock-market-news/american-express-shares-tumble-despite-robust-earnings-higher-revenue-outlook-as-rising-costs-weigh-on-sentiment-11784911236359.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/AMERICAN-EXPRESS-RESULTS--0_1784911216278_1784911233069_73b7b1a6-0391-478b-bd98-c3d40464b9e8.JPG",
+      "publishedAt": "2026-07-24T23:02:31+05:30",
+      "category": "Markets",
+      "summary": "Total card spending, or billed business, climbed 9% year over year to $455.8 billion on a foreign exchange-adjusted basis. Quarterly revenue also rose 10% to $19.6 billion, reflecting healthy consumer activity"
+    },
+    {
+      "title": "Small-cap Orient Technologies shares to be in focus on Monday after  ₹76 crore NPCI order",
+      "excerpt": "Orient Technologies is set to gain attention after receiving a ₹76.2 crore order from NPCI for server supply, scheduled over 18 weeks. This contract strengthens its capabilities in enterprise infrastructure amid a volati",
+      "url": "https://www.livemint.com/market/stock-market-news/smallcap-orient-technologies-shares-to-be-in-focus-on-monday-after-rs-76-crore-npci-order-11784912944950.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/logo/Q4_results_earning_today_April_21_Tata_Indraprasta_1745202511548_1784912993845_796b540b-b312-48a5-a039-483ce838be0e.jpg",
+      "publishedAt": "2026-07-24T22:49:15+05:30",
+      "category": "Markets",
+      "summary": "Orient Technologies is set to gain attention after receiving a ₹76.2 crore order from NPCI for server supply, scheduled over 18 weeks. This contract strengthens its capabilities in enterprise infrastructure amid a volati"
+    },
+    {
+      "title": "Eli Lilly-backed Scribe Therapeutics climbs 67% after raising $128.7 million in an upsized IPO",
+      "excerpt": "Scribe Therapeutics, a developer of gene therapies for heart diseases, rose 67% after raising $128.7 million in its IPO.",
+      "url": "https://www.livemint.com/market/eli-lilly-backed-scribe-therapeutics-climbs-67-after-raising-128-7-million-in-an-upsized-ipo-11784911559532.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/logo/Q4_results_earning_today_April_21_Tata_Indraprasta_1745202511548_1784911790712_82e1d741-5fe7-469b-a195-7bc12a18f92c.jpg",
+      "publishedAt": "2026-07-24T22:21:57+05:30",
+      "category": "Markets",
+      "summary": "Scribe Therapeutics, a developer of gene therapies for heart diseases, rose 67% after raising $128.7 million in its IPO."
+    },
+    {
+      "title": "Kimi Effect? Why Musk, Nadella, Huang, Other Tech Titans Are Rallying Behind Open",
+      "excerpt": "A week after Moonshot AI's Kimi K3 shook the AI race, Nvidia, Microsoft, Meta and others are urging US policymakers to back open-weight AI, arguing it is critical to preserving America's technological edge.",
+      "url": "https://www.ndtvprofit.com/technology/kimi-effect-why-musk-nadella-huang-other-tech-titans-are-rallying-behind-open-weight-ai-models-11817938#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/iqdmrhjc_ai-gen_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:56:07+05:30",
+      "category": "Markets",
+      "summary": "A week after Moonshot AI's Kimi K3 shook the AI race, Nvidia, Microsoft, Meta and others are urging US policymakers to back open-weight AI, arguing it is critical to preserving America's technological edge."
+    },
+    {
+      "title": "Gold, silver prices today: Comex gold rebounds above $4,070; silver at $59 as investors assess Middle East tensions",
+      "excerpt": "The prices of precious metals gold and silver increased on 24 July, driven by the Middle Eastern conflict and anticipation of US rate hikes. Gold prices reached an intraday high of $4,073, while silver rose to $58.98, wi",
+      "url": "https://www.livemint.com/market/commodities/gold-silver-prices-today-comex-gold-rebounds-above-4-070-silver-at-59-as-investors-assess-middle-east-tensions-11784905494690.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/logo/FILES-KUWAIT-COMMODITIES-MARKETS-GOLD-SILVER_17688_1784906248600_1784906248780_ba55094b-566e-462c-babc-b2f3fddc9b3d.jpg",
+      "publishedAt": "2026-07-24T21:47:28+05:30",
+      "category": "Markets",
+      "summary": "The prices of precious metals gold and silver increased on 24 July, driven by the Middle Eastern conflict and anticipation of US rate hikes. Gold prices reached an intraday high of $4,073, while silver rose to $58.98, wi"
+    },
+    {
+      "title": "Robinhood CEO's X Account Hacked To Promote Fake Vladhood Memecoin As Token Briefly Hits $10 Million",
+      "excerpt": "Rather than breaching crypto exchanges themselves, attackers increasingly exploit trusted public profiles to create credibility for newly issued tokens, triggering rapid buying before early holders cash out.",
+      "url": "https://www.ndtvprofit.com/business/robinhood-ceos-x-account-hacked-to-promote-fake-vladhood-memecoin-as-token-briefly-hits-10-million-11817873#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/dffrbg38_fake-vladhood-memecoin-surges-to-10-million-after-hackers-compromise-robinhood-ceos-x-account_625x300_24_July_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:47:12+05:30",
+      "category": "Markets",
+      "summary": "Rather than breaching crypto exchanges themselves, attackers increasingly exploit trusted public profiles to create credibility for newly issued tokens, triggering rapid buying before early holders cash out."
+    },
+    {
+      "title": "Amazon Prime To Take Fans Behind The Scenes Of Spain's FIFA World Cup Triumph In New Docuseries",
+      "excerpt": "Prime Video and the Royal Spanish Football Federation have partnered on a four-part documentary series that will chronicle Spain's victorious 2026 FIFA World Cup campaign with exclusive behind-the-scenes access.",
+      "url": "https://www.ndtvprofit.com/sports/amazon-prime-to-take-fans-behind-the-scenes-of-spains-fifa-world-cup-triumph-in-new-docuseries-11817925#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/4m2a7m28_spain_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:37:43+05:30",
+      "category": "Markets",
+      "summary": "Prime Video and the Royal Spanish Football Federation have partnered on a four-part documentary series that will chronicle Spain's victorious 2026 FIFA World Cup campaign with exclusive behind-the-scenes access."
+    },
+    {
+      "title": "Union Minister Ravneet Bittu Resigns, Triggering Buzz Over BJP's Plan For Punjab Elections",
+      "excerpt": "The Minister had left the Indian National congress to join the Bharatiya Janata Party (BJP) in March 2024, ahead of the general elections.",
+      "url": "https://www.ndtvprofit.com/india/union-minister-ravneet-bittu-resigns-triggering-buzz-over-bjps-plan-for-punjab-elections-11817781#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/t1d2s8rc_d_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:30:45+05:30",
+      "category": "Markets",
+      "summary": "The Minister had left the Indian National congress to join the Bharatiya Janata Party (BJP) in March 2024, ahead of the general elections."
+    },
+    {
+      "title": "Maruti Suzuki Launches Brezza Facelift At Rs 7.4 Lakh: Check Specs, Features",
+      "excerpt": "Updated Brezza takes on rivals with enhanced technology, safety and performance.",
+      "url": "https://www.ndtvprofit.com/business/maruti-suzuki-launches-brezza-facelift-at-rs-7-4-lakh-check-whats-new-11817769#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/ah1uvo54_maruti-suzuki-brezza_625x300_24_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:28:15+05:30",
+      "category": "Markets",
+      "summary": "Updated Brezza takes on rivals with enhanced technology, safety and performance."
+    },
+    {
+      "title": "Former Bayern Munich Star Mark van Bommel Named Belgium Head Coach",
+      "excerpt": "The former Bayern Munich midfielder has signed a two-year deal through Euro 2028, with Boudewijn Zenden joining his coaching staff.",
+      "url": "https://www.ndtvprofit.com/sports/former-bayern-munich-star-mark-van-bommel-named-belgium-head-coach-11817830#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/are6i4hs_instagram_625x300_24_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:27:06+05:30",
+      "category": "Markets",
+      "summary": "The former Bayern Munich midfielder has signed a two-year deal through Euro 2028, with Boudewijn Zenden joining his coaching staff."
+    },
+    {
+      "title": "Minimum Pension Scheme For All Indians In Works? Govt Clears The Air In Parliament",
+      "excerpt": "The government says the establishment of a Social Security Fund to fund welfare programs for qualified employees is mandated by the Code on Social Security, 2020.",
+      "url": "https://www.ndtvprofit.com/india/minimum-pension-scheme-for-all-indians-in-works-govt-clears-the-air-in-parliament-11817621#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/3fm4m164_rupee_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:21:31+05:30",
+      "category": "Markets",
+      "summary": "The government says the establishment of a Social Security Fund to fund welfare programs for qualified employees is mandated by the Code on Social Security, 2020."
+    },
+    {
+      "title": "Pakistan Mulls Fresh Attempt To Strike US",
+      "excerpt": "Iran's Interior Minister Eskandar Momeni visited Islamabad this week for the second time in 10 days, and during his visit, exploratory talks took place, a report said.",
+      "url": "https://www.ndtvprofit.com/world/pakistan-mulls-fresh-attempt-to-strike-us-iran-truce-after-china-nudge-11817762#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/kkqo2jb8_pakistans-interior-minister-mohsin-naqvi-met-with-fm-abbas-araghchi_625x300_07_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:19:08+05:30",
+      "category": "Markets",
+      "summary": "Iran's Interior Minister Eskandar Momeni visited Islamabad this week for the second time in 10 days, and during his visit, exploratory talks took place, a report said."
+    },
+    {
+      "title": "Free OTT Platforms In India: Stream These Movies, Web Series Without Subscription",
+      "excerpt": "From Amazon MX Player and TVF Play to Airtel Xstream and Tubi TV, explore free OTT platforms offering movies, web series, documentaries, and regional content without a subscription.",
+      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-free-ott-platforms-in-india-stream-these-movies-films-shows-web-series-without-subscription-11817412#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/1itt6on4_ott_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:15:54+05:30",
+      "category": "Markets",
+      "summary": "From Amazon MX Player and TVF Play to Airtel Xstream and Tubi TV, explore free OTT platforms offering movies, web series, documentaries, and regional content without a subscription."
+    },
+    {
+      "title": "'Available 24 Hours': CJI Surya Kant Explains Context Behind 'Don't Waste Our Time' Remark",
+      "excerpt": "Earlier on Friday, a bench comprising the CJI and Justices Joymalya Bagchi and V Mohana agreed to hear two petitions on Monday,alleging police excesses against students protesting over the NEET paper leak and other exami",
+      "url": "https://www.ndtvprofit.com/india/available-24-hours-cji-surya-kant-explains-context-behind-dont-waste-our-time-remark-11817614#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/5roi8uvk_kant_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:09:19+05:30",
+      "category": "Markets",
+      "summary": "Earlier on Friday, a bench comprising the CJI and Justices Joymalya Bagchi and V Mohana agreed to hear two petitions on Monday,alleging police excesses against students protesting over the NEET paper leak and other exami"
+    },
+    {
+      "title": "NEET Paper Leak Fallout: Govt Preps For Radical NTA Overhaul; 47 To Be Expelled",
+      "excerpt": "The revamp will strengthen security, reform outsourcing, create a leak-proof examination system and remove 47 officials as part of the restructuring.",
+      "url": "https://www.ndtvprofit.com/india/neet-paper-leak-fallout-govt-preps-for-radical-nta-overhaul-47-to-be-expelled-11817548#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/7kf3hi1g_neet-row_625x300_23_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:07:26+05:30",
+      "category": "Markets",
+      "summary": "The revamp will strengthen security, reform outsourcing, create a leak-proof examination system and remove 47 officials as part of the restructuring."
+    },
+    {
+      "title": "Bangladesh President Mohammed Shahabuddin, Seen As Long",
+      "excerpt": "Shahabuddin's resignation comes months before Sheikh Hasina's planned return to Bangladesh.",
+      "url": "https://www.ndtvprofit.com/world/bangladesh-president-mohammed-shahabuddin-seen-as-long-time-sheikh-hasina-ally-resigns-11817439#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/3uhujnok_wikimedia-commons_625x300_24_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T21:03:22+05:30",
+      "category": "Markets",
+      "summary": "Shahabuddin's resignation comes months before Sheikh Hasina's planned return to Bangladesh."
+    },
+    {
+      "title": "Jana Nayagan Box Office Collection Day 2: Thalapathy Vijay's Film Stays Strong In India",
+      "excerpt": "Thalapathy Vijay's Jana Nayagan continued its theatrical run on Friday and achieved a major box office milestone by crossing the Rs 50-crore-net mark in India.",
+      "url": "https://www.ndtvprofit.com/business/entertainment-cinema-kollywood-tamil-movie-jana-nayagan-box-office-collection-day-2-thalapathy-vijay-film-india-friday-earnings-11817639#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/erd8phc4_jana-nayagan_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T20:57:08+05:30",
+      "category": "Markets",
+      "summary": "Thalapathy Vijay's Jana Nayagan continued its theatrical run on Friday and achieved a major box office milestone by crossing the Rs 50-crore-net mark in India."
+    },
+    {
+      "title": "India's Forex Reserves Jump $1.08 billion to $676.237 billion",
+      "excerpt": "In the previous reporting week, the overall forex kitty had jumped by $964 million to $675.157 billion.",
+      "url": "https://www.ndtvprofit.com/economy/indias-forex-reserves-jump-usd-1-08-billion-to-usd-676-237-billion-11817692#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/3d0b687b_billie-dollar-with-business-chart.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T20:53:05+05:30",
+      "category": "Markets",
+      "summary": "In the previous reporting week, the overall forex kitty had jumped by $964 million to $675.157 billion."
+    },
+    {
+      "title": "World's First Monthly Oral HIV Pill Moves Closer With Aspen Deal",
+      "excerpt": "The deal would make South Africa a key manufacturing base for one of the most promising new HIV-prevention technologies.",
+      "url": "https://www.ndtvprofit.com/business/worlds-first-monthly-oral-hiv-pill-moves-closer-with-aspen-deal-11817658#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/7l3hsj2s_s_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T20:47:18+05:30",
+      "category": "Markets",
+      "summary": "The deal would make South Africa a key manufacturing base for one of the most promising new HIV-prevention technologies."
+    },
+    {
+      "title": "WI Vs PAK: Babar Azam Returns As Captain For Historic Maiden Test At Brian Lara Stadium",
+      "excerpt": "Brian Lara Stadium becomes Trinidad's second Test venue as West Indies host Pakistan in the opening match of the two-Test series.",
+      "url": "https://www.ndtvprofit.com/sports/wi-vs-pak-babar-azam-returns-as-captain-for-historic-maiden-test-at-brian-lara-stadium-11817158#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/h43b83a8_windies_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T20:45:47+05:30",
+      "category": "Markets",
+      "summary": "Brian Lara Stadium becomes Trinidad's second Test venue as West Indies host Pakistan in the opening match of the two-Test series."
+    },
+    {
+      "title": "Meta, Microsoft Face Renewed Unease Over AI Spending: US Earnings Week Ahead",
+      "excerpt": "Next week's earnings calls will no doubt be dominated by discussion on whether surging AI investment will generate sufficient returns against a still unsettled geopolitical backdrop.",
+      "url": "https://www.ndtvprofit.com/markets/meta-microsoft-face-renewed-unease-over-ai-spending-us-earnings-week-ahead-11817638#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/shhlp27g_x_625x300_24_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T20:44:04+05:30",
+      "category": "Markets",
+      "summary": "Next week's earnings calls will no doubt be dominated by discussion on whether surging AI investment will generate sufficient returns against a still unsettled geopolitical backdrop."
+    },
     {
       "title": "Microsoft, Nvidia, Other US Tech Giants Champion Open Weight AI Models In Joint Letter To US Govt",
       "excerpt": "Microsoft, Nvidia, Meta, IBM and other technology companies have urged the US government to back open weight AI models, arguing they are critical to innovation, competition and America's leadership in artificial intellig",
       "url": "https://www.ndtvprofit.com/technology/microsoft-nvidia-other-us-tech-giants-champion-open-weight-ai-models-in-joint-letter-to-us-govt-11817359#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-07/gdkn0bd_ibm_625x300_24_July_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:57:03+05:30",
+      "publishedAt": "2026-07-24T20:37:31+05:30",
       "category": "Markets",
       "summary": "Microsoft, Nvidia, Meta, IBM and other technology companies have urged the US government to back open weight AI models, arguing they are critical to innovation, competition and America's leadership in artificial intellig"
     },
     {
-      "title": "Umargam's Record Rainfall: Where Gujarat's Deluge Stands Among Global Weather Extremes",
-      "excerpt": "Umargam received one of the highest 24-hour rainfall totals recorded anywhere in the world this week. Here's how the Gujarat town compares with historic global cloudbursts and all-time rainfall records.",
-      "url": "https://www.ndtvprofit.com/india/umargam-s-24-hour-rainfall-how-does-it-compare-to-global-weather-extremes-11816912#publisher=newsstand",
+      "title": "Tamil, Telugu, Kannada OTT Releases: Con City To Andharan — What To Watch This Weekend",
+      "excerpt": "From Con City and Nagabandham to My Laanji and Case of Kondana, here's a look at the biggest Tamil, Telugu, and Kannada films arriving on Netflix, Prime Video, Simply South, Aha Video, and ETV Win this Weekend.",
+      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-tamil-telugu-kannada-ott-releases-con-city-to-andharan-movies-films-web-series-show-to-watch-this-weekend-11817142#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/9dr2vq6k_umar_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:56:28+05:30",
+      "image": "https://c.ndtvimg.com/2026-07/somfukls_tamiltelugukannadaottreleasesthisweekjuly2026jpg_625x300_24_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T20:36:00+05:30",
       "category": "Markets",
-      "summary": "Umargam received one of the highest 24-hour rainfall totals recorded anywhere in the world this week. Here's how the Gujarat town compares with historic global cloudbursts and all-time rainfall records."
+      "summary": "From Con City and Nagabandham to My Laanji and Case of Kondana, here's a look at the biggest Tamil, Telugu, and Kannada films arriving on Netflix, Prime Video, Simply South, Aha Video, and ETV Win this Weekend."
     },
     {
-      "title": "Q1 Results Live Updates: NTPC Profit Rises 12%, Margin Beats Estimates; SAIL Margin Expands Amid Profit Decline",
-      "excerpt": "Track Q1 FY27 earnings live as Bank of Baroda, Tata Consumer Products, SBI Cards, NTPC, REC, SAIL and 70+ firms announce June quarter results, guidance and key updates.",
-      "url": "https://www.ndtvprofit.com/markets/q1-results-live-updates-bank-of-baroda-tata-consumer-products-sbi-cards-ntpc-rec-sail-among-firms-to-announce-earnings-on-july-24-11814745#publisher=newsstand",
+      "title": "Chip Selloff Deepens: Micron, AMD, Intel, Sandisk Crack Up To 10%; Nasdaq Heads For Weekly Loss",
+      "excerpt": "Micron whiplashed after closing with gains in the previous session to plunge as low as 7% to $919.54.",
+      "url": "https://www.ndtvprofit.com/markets/chip-selloff-deepens-micron-amd-intel-sandisk-crack-up-to-10-percent-nasdaq-heads-for-weekly-loss-11817541#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/5995uhco_n_625x300_24_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:51:19+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/rakuer74_k_625x300_26_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-24T20:31:18+05:30",
       "category": "Markets",
-      "summary": "Track Q1 FY27 earnings live as Bank of Baroda, Tata Consumer Products, SBI Cards, NTPC, REC, SAIL and 70+ firms announce June quarter results, guidance and key updates."
+      "summary": "Micron whiplashed after closing with gains in the previous session to plunge as low as 7% to $919.54."
     },
     {
       "title": "SAIL Q1 Results: Net profit jumps 138% YoY to  ₹1,636 crore; revenue remains flat",
@@ -41,216 +251,6 @@
       "publishedAt": "2026-07-24T19:47:08+05:30",
       "category": "Markets",
       "summary": "SAIL reported a 138% YoY increase in net profit to ₹1,636 crore for Q1 FY27, despite lower production. EBITDA rose 49% YoY to ₹4,356 crore. The company moderated production due to geopolitical issues but aims for improve"
-    },
-    {
-      "title": "Pulse of the Street: Oil spike knocks markets to sharpest weekly fall since mid-May",
-      "excerpt": "Benchmark Nifty 50 and the Sensex fell 0.4% each on Friday to close at 23,767.45 and 76,059.75, respectively. For the week, the Nifty lost 2.3% while Sensex declined 2.6%, their steepest fall since the week ended 15 May,",
-      "url": "https://www.livemint.com/market/stock-market-news/pulse-of-the-street-crude-oil-spike-equities-sensex-nifty-11784895654005.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/logo/Sensex_rise_1758016085667_1758016091787_1784902379573_05ba92e8-5706-4f34-9c15-fe422d9450ba.png",
-      "publishedAt": "2026-07-24T19:44:55+05:30",
-      "category": "Markets",
-      "summary": "Benchmark Nifty 50 and the Sensex fell 0.4% each on Friday to close at 23,767.45 and 76,059.75, respectively. For the week, the Nifty lost 2.3% while Sensex declined 2.6%, their steepest fall since the week ended 15 May,"
-    },
-    {
-      "title": "Rs 5 Lakh Crore Tax Backlog: Sitharaman Pushes CBDT To Step Up Appeal Disposals",
-      "excerpt": "According to the Finance Minister, reducing the backlog of tax litigation should remain one of the department's key priorities.",
-      "url": "https://www.ndtvprofit.com/economy/rs-5-lakh-crore-tax-backlog-sitharaman-pushes-cbdt-to-step-up-appeal-disposals-11817321#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/eng0f5c8_nirmala-sitharaman_625x300_05_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:38:56+05:30",
-      "category": "Markets",
-      "summary": "According to the Finance Minister, reducing the backlog of tax litigation should remain one of the department's key priorities."
-    },
-    {
-      "title": "US stocks mixed as oil retreats below $100, fresh tariffs and earnings keep investors on edge",
-      "excerpt": "As of 9:53 a.m. Eastern Time, the S&amp;P 500 fell 0.1%, the Dow Jones Industrial Average rose 0.2%, and the Nasdaq fell 0.6%",
-      "url": "https://www.livemint.com/market/stock-market-news/us-stocks-mixed-as-investors-digest-fresh-earnings-trump-tariffs-in-focus-11784900781196.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/nyse_1784900983117_1784900983260_2eeb8961-71f0-4fbc-b368-a867b3008659.jpg",
-      "publishedAt": "2026-07-24T19:31:08+05:30",
-      "category": "Markets",
-      "summary": "As of 9:53 a.m. Eastern Time, the S&amp;P 500 fell 0.1%, the Dow Jones Industrial Average rose 0.2%, and the Nasdaq fell 0.6%"
-    },
-    {
-      "title": "US Stock Market Today: Wall Street Split After Tech Rout; S&P, Dow Edge Higher As Nasdaq Slips",
-      "excerpt": "Intel's strong earnings and easing oil prices support sentiment, but Trump's Iran remarks, tariff concerns and Big Tech spending worries keep investors cautious.",
-      "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-wall-street-split-after-tech-rout-s-p-dow-edge-higher-as-nasdaq-slips-11817161#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/efn28r4g_us-stock-futures_625x300_23_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:31:05+05:30",
-      "category": "Markets",
-      "summary": "Intel's strong earnings and easing oil prices support sentiment, but Trump's Iran remarks, tariff concerns and Big Tech spending worries keep investors cautious."
-    },
-    {
-      "title": "Lodha Developers Q1 Results: Net Profit Doubles, Revenue Soars To Nearly Rs 5,000 Crore",
-      "excerpt": "Strong execution and higher real estate sales lift earnings in the June quarter.",
-      "url": "https://www.ndtvprofit.com/markets/lodha-developers-q1-results-net-profit-doubles-revenue-soars-to-nearly-rs-5-000-crore-11817210#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/1oa1970s_a_625x300_24_April_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:29:35+05:30",
-      "category": "Markets",
-      "summary": "Strong execution and higher real estate sales lift earnings in the June quarter."
-    },
-    {
-      "title": "'Technically Untenable': MEA Rubbishes Pakistan's Claims Of Deliberate Flooding",
-      "excerpt": "The statement said suggestions that India deliberately withheld flood-related information were 'without factual basis' and not supported by hydrological data or Pakistan's own official flood assessments.",
-      "url": "https://www.ndtvprofit.com/india/technically-untenable-mea-rubbishes-pakistans-claims-of-deliberate-flooding-11817054#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/4bpc5n7c_pakistan_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:18:01+05:30",
-      "category": "Markets",
-      "summary": "The statement said suggestions that India deliberately withheld flood-related information were 'without factual basis' and not supported by hydrological data or Pakistan's own official flood assessments."
-    },
-    {
-      "title": "SAIL Q1 Results: Net Profit Slips 10%, Revenue Drops Even As Margin Expands",
-      "excerpt": "The PSU posted a consolidated bottom-line of Rs 1,644 crore, as against Rs 1,835 crore in the preceding quarter.",
-      "url": "https://www.ndtvprofit.com/markets/sail-q1-results-net-profit-slips-10-percent-revenue-drops-even-as-margin-expands-11817199#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/cbc3a6dc_SAIL_website.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:17:26+05:30",
-      "category": "Markets",
-      "summary": "The PSU posted a consolidated bottom-line of Rs 1,644 crore, as against Rs 1,835 crore in the preceding quarter."
-    },
-    {
-      "title": "AP ECET 2026 Round 1 Seat Allotment Result Delayed: Check Revised Date And Time",
-      "excerpt": "The AP ECET 2026 Round 1 seat allotment results have been delayed and will be released online on July 27 after 6 pm for candidates seeking engineering admissions in Andhra Pradesh.",
-      "url": "https://www.ndtvprofit.com/india/ap-ecet-2026-round-1-seat-allotment-result-to-be-out-today-check-direct-link-and-eligibility-criteria-11815014#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/lh5jf5vk_apecet_625x300_24_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:02:34+05:30",
-      "category": "Markets",
-      "summary": "The AP ECET 2026 Round 1 seat allotment results have been delayed and will be released online on July 27 after 6 pm for candidates seeking engineering admissions in Andhra Pradesh."
-    },
-    {
-      "title": "Malayalam OTT Releases To Watch On Weekend: Pallichattambi, Secret of Kalinga, Anomie & More",
-      "excerpt": "Here's a complete rundown of what's releasing and where, so you don't miss a single premiere this week.",
-      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-malayalam-ott-releases-to-watch-on-weekend-pallichattambi-secret-of-kalinga-anomie-films-movies-web-series-shows-11816914#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/p8jii0vg_alayalamottreleasesthisweekpallichattambianomiejpg_625x300_24_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T19:02:18+05:30",
-      "category": "Markets",
-      "summary": "Here's a complete rundown of what's releasing and where, so you don't miss a single premiere this week."
-    },
-    {
-      "title": "Axis MF Front-Running: SEBI Slaps 7-Year Ban, Rs 3",
-      "excerpt": "The order also highlighted the use of communication platforms such as FaceTime and BOTIM, along with remote trading terminals, to facilitate the sharing of confidential information and execution of trades.",
-      "url": "https://www.ndtvprofit.com/markets/axis-mf-front-running-sebi-slaps-7-year-ban-rs-3-crore-fine-on-viresh-joshi-11817107#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/7a00a6bd_Exterior_view_of_New_SEBI_signage__logo_at_office_building_in_BKC__Bandra_Kurla_Complex___Source_Vij.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:58:22+05:30",
-      "category": "Markets",
-      "summary": "The order also highlighted the use of communication platforms such as FaceTime and BOTIM, along with remote trading terminals, to facilitate the sharing of confidential information and execution of trades."
-    },
-    {
-      "title": "CWG 2026 Live Streaming And Telecast: When And Where To Watch Commonwealth Games 2026 In India For Free?",
-      "excerpt": "Watch Commonwealth Games 2026 live in India on Sony Sports, Sony LIV and DD Sports. Get telecast details and the complete IST schedule.",
-      "url": "https://www.ndtvprofit.com/sports/cwg-2026-live-streaming-and-telecast-when-and-where-to-watch-commonwealth-games-2026-in-india-for-free-11817095#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/mbmdevh8_cw_625x300_24_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:55:13+05:30",
-      "category": "Markets",
-      "summary": "Watch Commonwealth Games 2026 live in India on Sony Sports, Sony LIV and DD Sports. Get telecast details and the complete IST schedule."
-    },
-    {
-      "title": "Oil falls 3% to below $100/barrel but eyes weekly rise amid Trump's threats to Iran — Latest updates",
-      "excerpt": "Oil futures fell over 3% due to disruptions in the Red Sea and heightened U.S.-Israeli-Iran tensions. Brent dropped to $97.10, but is on course for a 10% weekly gain, while WTI is set for an 8% increase amidst fears of f",
-      "url": "https://www.livemint.com/market/commodities/oil-falls-3-pc-to-below-100-barrel-weekly-rise-us-war-donald-trump-threat-big-attack-iran-houthi-red-sea-latest-updates-11784898171541.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/logo/YEMEN-SHIPPING-ADEN-1_1784899055795_1784899064701_990df3b1-daf9-4fff-bb9f-c4b0eca0b8c4.JPG",
-      "publishedAt": "2026-07-24T18:53:52+05:30",
-      "category": "Markets",
-      "summary": "Oil futures fell over 3% due to disruptions in the Red Sea and heightened U.S.-Israeli-Iran tensions. Brent dropped to $97.10, but is on course for a 10% weekly gain, while WTI is set for an 8% increase amidst fears of f"
-    },
-    {
-      "title": "Jindal Steel Q1 Results: Net Profit, Revenue Slide; Margin Contracts",
-      "excerpt": "The steel major posted a consolidated bottom-line of Rs 845 crore, as against Rs 1,045 crore in the preceding quarter.",
-      "url": "https://www.ndtvprofit.com/markets/jindal-steel-q1-results-net-profit-revenue-slide-margin-contracts-11817062#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/420b0bf2_JSPL_plant_in_Raipur___Source_Company_website_.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:50:35+05:30",
-      "category": "Markets",
-      "summary": "The steel major posted a consolidated bottom-line of Rs 845 crore, as against Rs 1,045 crore in the preceding quarter."
-    },
-    {
-      "title": "Concor Q1 Results: Profit, Revenue Stay Flat; Dividend Declared — Check Record Date, Payout Details",
-      "excerpt": "State-run logistics firm posts largely steady June-quarter earnings as margin improves; board approves interim dividend of Rs 1.60 per share.",
-      "url": "https://www.ndtvprofit.com/business/earnings-container-corporation-of-india-q1-fy27-results-net-profit-revenue-ebitda-margin-june-first-quarter-11816851#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/2p3mnkf4_concor_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:48:00+05:30",
-      "category": "Markets",
-      "summary": "State-run logistics firm posts largely steady June-quarter earnings as margin improves; board approves interim dividend of Rs 1.60 per share."
-    },
-    {
-      "title": "Bombay HC Sets Up Fast-Track Courts in Aurangabad, Nagpur For NEET Paper Leak Cases",
-      "excerpt": "The decision followed widespread protests by various student groups across the country, particularly at Delhi's Jantar Mantar.",
-      "url": "https://www.ndtvprofit.com/india/bombay-hc-sets-up-fast-track-courts-in-aurangabad-nagpur-for-neet-paper-leak-cases-11816857#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/1vhv96os_neet_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:46:11+05:30",
-      "category": "Markets",
-      "summary": "The decision followed widespread protests by various student groups across the country, particularly at Delhi's Jantar Mantar."
-    },
-    {
-      "title": "'At Least 500 Metres': Iran Warns Locals In Gulf Neighbours To Get Away From US Bases",
-      "excerpt": "Iranian state television aired the warning as tensions with the US deepened and the conflict showed no signs of easing.",
-      "url": "https://www.ndtvprofit.com/world/at-least-500-metres-iran-warns-locals-in-gulf-neighbours-to-get-away-from-us-bases-11816849#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/ek823rjs_ap_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:39:40+05:30",
-      "category": "Markets",
-      "summary": "Iranian state television aired the warning as tensions with the US deepened and the conflict showed no signs of easing."
-    },
-    {
-      "title": "US stock market today: S&P 500, Nasdaq futures edge higher as oil retreats; Intel jumps 4%",
-      "excerpt": "US stock futures showed modest gains as crude oil prices fell. Dow futures rose 222 points, while concerns lingered from the Middle East conflict and tech investments. Investors are cautious ahead of upcoming earnings re",
-      "url": "https://www.livemint.com/market/stock-market-news/us-stock-market-today-s-p-500-nasdaq-futures-edge-higher-as-oil-retreats-intel-jumps-4-11784894223255.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/logo/US-ECONOMY-MARKETS-NYSE-4_1750940643064_1784894388054_5e686f83-6255-44e5-8e68-419384cf4ee9.jpg",
-      "publishedAt": "2026-07-24T18:32:37+05:30",
-      "category": "Markets",
-      "summary": "US stock futures showed modest gains as crude oil prices fell. Dow futures rose 222 points, while concerns lingered from the Middle East conflict and tech investments. Investors are cautious ahead of upcoming earnings re"
-    },
-    {
-      "title": "10% Tariff: US Levies Will Raise Costs Of Indian Products, But Exporters Retain Edge, Says FIEO",
-      "excerpt": "The Federation of Indian Export Organisations said the fresh 10% US tariff on Indian goods will raise landed costs but should be assessed against the tariffs faced by competing exporting nations rather than in isolation.",
-      "url": "https://www.ndtvprofit.com/economy/10-tariff-us-levies-will-raise-costs-of-indian-products-but-exporters-retain-edge-says-fieo-11816833#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/5defb150_1000037721.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:30:35+05:30",
-      "category": "Markets",
-      "summary": "The Federation of Indian Export Organisations said the fresh 10% US tariff on Indian goods will raise landed costs but should be assessed against the tariffs faced by competing exporting nations rather than in isolation."
-    },
-    {
-      "title": "'Intolerable And Unacceptable': Luis De La Fuente Slams Argentina's Behaviour After World Cup Final",
-      "excerpt": "Spain's head coach condemned the post-match clashes that erupted after his side defeated Argentina 1-0 after extra time to win the 2026 FIFA World Cup.",
-      "url": "https://www.ndtvprofit.com/sports/intolerable-and-unacceptable-luis-de-la-fuente-slams-argentinas-behaviour-after-fifa-world-cup-2026-final-11816925#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/bv867tt8_luis-de-la-fuente_625x300_24_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:24:22+05:30",
-      "category": "Markets",
-      "summary": "Spain's head coach condemned the post-match clashes that erupted after his side defeated Argentina 1-0 after extra time to win the 2026 FIFA World Cup."
-    },
-    {
-      "title": "Bank of Baroda Q1 Results: Profit Slumps 72% On One",
-      "excerpt": "Interest income rose 6.8% year-on-year to Rs 33,211 crore from Rs 31,091 crore.",
-      "url": "https://www.ndtvprofit.com/markets/bank-of-baroda-q1-results-profit-slumps-72-on-one-time-loss-nii-rises-10-11816545#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/9b577bdf_Bank_of_Baroda_Nerul_branch_exterior_with_namesign__2___Photo_BloombergQuint__Vijay_Sartape_070221.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-24T18:19:21+05:30",
-      "category": "Markets",
-      "summary": "Interest income rose 6.8% year-on-year to Rs 33,211 crore from Rs 31,091 crore."
-    },
-    {
-      "title": "Sebi fines former Axis MF chief dealer, aides in  ₹30.56 crore front-running case",
-      "excerpt": "The final order follows an investigation into trades between September 2021 and March 2022 after Sebi's surveillance system flagged suspicious trading patterns linked to Axis Mutual Fund's market transactions.",
-      "url": "https://www.livemint.com/market/stock-market-news/sebi-axis-mf-chief-dealer-viresh-joshi-front-running-case-markets-india-11784894325483.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/24/1600x900/logo/Sebi_2-reuters_1765779552828_1765779562101_1784896907839_28369e08-c791-4078-b9b4-ed895cc891e7.jpg",
-      "publishedAt": "2026-07-24T18:15:46+05:30",
-      "category": "Markets",
-      "summary": "The final order follows an investigation into trades between September 2021 and March 2022 after Sebi's surveillance system flagged suspicious trading patterns linked to Axis Mutual Fund's market transactions."
     }
   ]
 }
