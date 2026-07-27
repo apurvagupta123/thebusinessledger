@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T02:07:57+05:30",
+  "lastUpdated": "2026-07-28T03:41:15+05:30",
   "count": 25,
   "articles": [
     {
@@ -21,6 +21,16 @@
       "publishedAt": "2026-07-28T06:00:12+05:30",
       "category": "Markets",
       "summary": "With just four days left before the Income Tax Return (ITR) filing deadline, many taxpayers are rushing to submit their returns."
+    },
+    {
+      "title": "Treasuries Rise as Elevated Yields Attract Buyers Before Fed",
+      "excerpt": "US Treasuries rose as the US paused strikes on Iran and oil prices fell, with an auction of the shortest-dated notes attracting buyers ahead of this week’s Federal Reserve meeting.",
+      "url": "https://www.livemint.com/market/treasuries-rise-as-elevated-yields-attract-buyers-before-fed-11785185425092.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-07-28T02:20:24+05:30",
+      "category": "Markets",
+      "summary": "US Treasuries rose as the US paused strikes on Iran and oil prices fell, with an auction of the shortest-dated notes attracting buyers ahead of this week’s Federal Reserve meeting."
     },
     {
       "title": "Wall Street ends mixed as investors focus on tech earnings",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-07-27T21:53:50+05:30",
       "category": "Markets",
       "summary": "Indo-MIM IPO closed today with GMP at Rs 190, indicating a 40% listing gain. The issue was subscribed over 72 times."
-    },
-    {
-      "title": "IndiGo Picks Kiran Thadimarri As New CFO; Shifts Gaurav Negi As Advisor To MD",
-      "excerpt": "The airline's board appointed Deputy CFO Kiran Thadimarri as chief financial officer from July 28, while incumbent Gaurav Negi transitions to the role of advisor to the managing director.",
-      "url": "https://www.ndtvprofit.com/business/indigo-picks-kiran-thadimarri-as-new-cfo-shifts-gaurav-negi-as-advisor-to-md-11829303#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/edjo67ug_indigo_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-27T21:43:25+05:30",
-      "category": "Markets",
-      "summary": "The airline's board appointed Deputy CFO Kiran Thadimarri as chief financial officer from July 28, while incumbent Gaurav Negi transitions to the role of advisor to the managing director."
     }
   ]
 }
