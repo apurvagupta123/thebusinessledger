@@ -1,16 +1,236 @@
 {
-  "lastUpdated": "2026-07-29T20:22:00+05:30",
+  "lastUpdated": "2026-07-29T21:55:00+05:30",
   "count": 25,
   "articles": [
     {
+      "title": "India's growth to be supported by domestic demand despite global risks, says finance ministry",
+      "excerpt": "The finance ministry's July economic review says resilient demand underpins growth outlook even as West Asia tensions, commodity volatility and food inflation cloud the outlook.",
+      "url": "https://www.livemint.com/economy/indias-growth-to-be-supported-by-domestic-demand-despite-global-risks-says-finance-ministry-11785328975978.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/29/1600x900/logo/2-0-468544524-financeministry-0_1680767058454_1785339829251_e681f264-ab38-4214-b79f-44ecc53b68dd.jpg",
+      "publishedAt": "2026-07-29T21:21:49+05:30",
+      "category": "Economy",
+      "summary": "The finance ministry's July economic review says resilient demand underpins growth outlook even as West Asia tensions, commodity volatility and food inflation cloud the outlook."
+    },
+    {
+      "title": "'I May Be Killed, Jailed': Sheikh Hasina Vows Bangladesh Return By December",
+      "excerpt": "Ousted Bangladesh PM says she is prepared to face arrest, prison or death as she vows to return from exile in India amid legal proceedings.",
+      "url": "https://www.ndtvprofit.com/world/i-may-be-killed-jailed-sheikh-hasina-vows-bangladesh-return-by-december-11837989#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/acvq32bk_sheikh-hasina_625x300_10_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T21:04:09+05:30",
+      "category": "Markets",
+      "summary": "Ousted Bangladesh PM says she is prepared to face arrest, prison or death as she vows to return from exile in India amid legal proceedings."
+    },
+    {
+      "title": "Piramal Pharma Q1 Results: Net Loss Narrows As Margin Expands; Revenue Up 17%",
+      "excerpt": "Strong growth in CDMO and hospital generics businesses lifts revenue, while operating profitability improves sharply despite a quarterly loss.",
+      "url": "https://www.ndtvprofit.com/business/piramal-pharma-q1-results-net-loss-narrows-as-margin-expands-revenue-up-17-11839586#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/50a61b1b_Piramal_Pharma_website.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T21:03:39+05:30",
+      "category": "Markets",
+      "summary": "Strong growth in CDMO and hospital generics businesses lifts revenue, while operating profitability improves sharply despite a quarterly loss."
+    },
+    {
+      "title": "NCDEX's New 'Nidhi' Platform Could Bring Millions Of Rural Indians Into Mutual Funds",
+      "excerpt": "NCDEX has launched the Nidhi mutual fund platform with six AMCs to expand SIP investments and improve mutual fund access across rural and semi-urban India.",
+      "url": "https://www.ndtvprofit.com/personal-finance/ncdex-s-new-nidhi-platform-could-bring-millions-of-rural-indians-into-mutual-funds-11839398#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/8bc0oovc_with-indias-mutual-fund-assets-exceeding-75-lakh-crore-ncdex-has-launched-nidhi-to-improve-rural-participation-mutual-funds_625x300_29_July_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T21:00:58+05:30",
+      "category": "Markets",
+      "summary": "NCDEX has launched the Nidhi mutual fund platform with six AMCs to expand SIP investments and improve mutual fund access across rural and semi-urban India."
+    },
+    {
+      "title": "Oil prices surge 6% amid fresh escalation in West Asia",
+      "excerpt": "Rising crude prices are a concern for India, which imports nearly 90% of its oil requirements. A sustained $1 per barrel increase in crude prices over a year could add ₹18,000 crore to India's import bill.",
+      "url": "https://www.livemint.com/market/commodities/oil-prices-surge-6-amid-fresh-escalation-in-west-asia-us-bill-to-impose-penalty-on-russian-oil-buyers-11785330945312.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/29/1600x900/logo/JAPAN-OIL-4_1785334990304_1785334997800_bba7fee4-fc59-45fa-ac9b-0ffcfe5cf43e.jpg",
+      "publishedAt": "2026-07-29T21:00:50+05:30",
+      "category": "Markets",
+      "summary": "Rising crude prices are a concern for India, which imports nearly 90% of its oil requirements. A sustained $1 per barrel increase in crude prices over a year could add ₹18,000 crore to India's import bill."
+    },
+    {
+      "title": "Virat Kohli, Anushka Sharma Add Rs 18",
+      "excerpt": "Over the years, Kohli and Sharma have built an impressive portfolio of premium properties across Mumbai, Gurugram and Alibaug.",
+      "url": "https://www.ndtvprofit.com/lifestyle/virat-kohli-anushka-sharma-add-rs-18-crore-versova-luxury-home-in-real-estate-portfolio-11839395#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/tekucr2_virat-kohli-and-anushka-sharma_625x300_29_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:58:26+05:30",
+      "category": "Markets",
+      "summary": "Over the years, Kohli and Sharma have built an impressive portfolio of premium properties across Mumbai, Gurugram and Alibaug."
+    },
+    {
+      "title": "Modal Labs Customer Identified As Second Target Of Rogue OpenAI Agent: Report",
+      "excerpt": "Modal Labs said the OpenAI AI agent exploited a customer's unsecured endpoint, while maintaining its own platform and isolation safeguards were not breached.",
+      "url": "https://www.ndtvprofit.com/technology/modal-labs-customer-identified-as-second-target-of-rogue-openai-agent-report-11839514#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/ul0ukvrg_open-ai_625x300_22_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:58:26+05:30",
+      "category": "Markets",
+      "summary": "Modal Labs said the OpenAI AI agent exploited a customer's unsecured endpoint, while maintaining its own platform and isolation safeguards were not breached."
+    },
+    {
+      "title": "Q1 Results Live: Piramal Pharma Loss Narrows; Eicher Motors Profit Jumps Over 21%; Waaree Energies Revenue Soars 79%",
+      "excerpt": "Track Q1 FY27 earnings live as Adani Enterprises, Bajaj Housing Finance, Asian Paints, Eicher Motors, KPIT Tech and 100+ firms announce June quarter results, guidance and key updates.",
+      "url": "https://www.ndtvprofit.com/markets/q1-results-live-updates-adani-enterprises-bajaj-housing-finance-asian-paints-eicher-motors-among-firms-to-announce-earnings-today-july-29-11836298#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/jm5fgens_sd_625x300_29_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:53:09+05:30",
+      "category": "Markets",
+      "summary": "Track Q1 FY27 earnings live as Adani Enterprises, Bajaj Housing Finance, Asian Paints, Eicher Motors, KPIT Tech and 100+ firms announce June quarter results, guidance and key updates."
+    },
+    {
+      "title": "US Stock Market Today: Dow Falls 800 Points, S&P 500, Nasdaq In Red As Oil Climbs Ahead Of Fed Decision",
+      "excerpt": "Wall Street opens lower as investors await the Federal Reserve's policy verdict, while rising oil prices and earnings from Meta and Microsoft remain in focus.",
+      "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-dow-falls-400-points-s-p-500-nasdaq-in-red-as-oil-climbs-ahead-of-fed-decision-11839004#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/pi02u704_us-market_625x300_29_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:51:00+05:30",
+      "category": "Markets",
+      "summary": "Wall Street opens lower as investors await the Federal Reserve's policy verdict, while rising oil prices and earnings from Meta and Microsoft remain in focus."
+    },
+    {
+      "title": "Salman Khan Sells Bandra West Apartment For Rs 3.5 Crore; Deal Officially Completed",
+      "excerpt": "The Bandra West apartment in Shiv-Asthan Heights spans 758 sq ft with two parking spaces and was originally purchased by Salman Khan in 2015.",
+      "url": "https://www.ndtvprofit.com/lifestyle/salman-khan-sells-bandra-west-apartment-for-rs-3-5-crore-deal-officially-completed-11839413#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/39e5lqbk_salmankhanbandraapartmentsalers350crorejpg_625x300_29_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:46:40+05:30",
+      "category": "Markets",
+      "summary": "The Bandra West apartment in Shiv-Asthan Heights spans 758 sq ft with two parking spaces and was originally purchased by Salman Khan in 2015."
+    },
+    {
+      "title": "Oil Price Rebound Can Renew Threat To Fiscal Health, Finance Ministry Warns",
+      "excerpt": "The ministry noted that continued tensions in the Gulf region and potential disruptions to shipping through the Strait of Hormuz have already contributed to higher energy prices.",
+      "url": "https://www.ndtvprofit.com/economy/oil-price-rebound-can-renew-threat-to-fiscal-health-finance-ministry-warns-11839255#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/nuf79c04_ott_625x300_29_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:46:04+05:30",
+      "category": "Markets",
+      "summary": "The ministry noted that continued tensions in the Gulf region and potential disruptions to shipping through the Strait of Hormuz have already contributed to higher energy prices."
+    },
+    {
+      "title": "The Thomas Crown Affair Teaser Trailer: Michael B Jordan Returns In New Heist Thriller — Check Release Date",
+      "excerpt": "The Thomas Crown Affair arrives in theatres on March 5 and the project is expected to be one of Amazon MGM's major cinematic releases of 2027.",
+      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-cinema-hollywood-movie-the-thomas-crown-affair-film-official-trailer-michael-b-jordan-new-heist-thriller-check-release-date-11839133#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/sjkbtbmc_thethomascrownaffairmichaelbjordantrailerjpg_625x300_29_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:39:29+05:30",
+      "category": "Markets",
+      "summary": "The Thomas Crown Affair arrives in theatres on March 5 and the project is expected to be one of Amazon MGM's major cinematic releases of 2027."
+    },
+    {
+      "title": "Eicher Motors Q1 Results: Royal Enfield-Maker Posts 21% Jump In Profit; Revenue Meets Estimates",
+      "excerpt": "Eicher Motors' revenue saw a 31.5% increase to Rs 6,632 crore, compared to Rs 5,042 crore in the preceding financial year.",
+      "url": "https://www.ndtvprofit.com/markets/eicher-motors-q1-results-royal-enfield-maker-posts-21-jump-in-profit-revenue-meets-estimates-11838830#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/umfb0g1k_royal-enfield_625x300_22_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:39:11+05:30",
+      "category": "Markets",
+      "summary": "Eicher Motors' revenue saw a 31.5% increase to Rs 6,632 crore, compared to Rs 5,042 crore in the preceding financial year."
+    },
+    {
+      "title": "'I Made History': Neymar Announces International Retirement, Signs Off As Brazil's Record Goalscorer",
+      "excerpt": "Neymar's international retirement brings the curtain down on a Brazil career highlighted by 80 goals, Olympic gold and a record that surpassed Pele.",
+      "url": "https://www.ndtvprofit.com/sports/i-made-history-neymar-announces-international-retirement-signs-off-as-brazils-record-goalscorer-11839169#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/bndkrit4_neymar_625x300_29_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:30:34+05:30",
+      "category": "Markets",
+      "summary": "Neymar's international retirement brings the curtain down on a Brazil career highlighted by 80 goals, Olympic gold and a record that surpassed Pele."
+    },
+    {
+      "title": "India's 5G Reach Equals Europe's Population; 100 Crore Users By 2030: Scindia",
+      "excerpt": "Jyotiraditya Scinida stated that there has been 97% drop in mobile internet rates in the last 10 years.",
+      "url": "https://www.ndtvprofit.com/india/indias-5g-reach-equals-europes-population-100-crore-users-by-2030-scindia-11839334#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/8c9970d3_telecommunication-equipment-for-5g-radio-network-2023-11-27-05-22-12-utc.JPG?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:27:57+05:30",
+      "category": "Markets",
+      "summary": "Jyotiraditya Scinida stated that there has been 97% drop in mobile internet rates in the last 10 years."
+    },
+    {
+      "title": "SanDisk Craters 56% From Peak As Chip Stock Selloff At Wall Street Stays Unabated",
+      "excerpt": "More recently, China's breakthrough in mass producing deep ultraviolet (DUV) lithography machines, has put pressure on all the Wall Street chipmakers, including ADRs of Korean Giant SK Hynix.",
+      "url": "https://www.ndtvprofit.com/markets/sandisk-down-56-percent-from-peak-as-chip-stock-selloff-at-wall-street-stays-unabated-11839409#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/6m4lvad8_f_625x300_29_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:27:42+05:30",
+      "category": "Markets",
+      "summary": "More recently, China's breakthrough in mass producing deep ultraviolet (DUV) lithography machines, has put pressure on all the Wall Street chipmakers, including ADRs of Korean Giant SK Hynix."
+    },
+    {
+      "title": "Heart Beat Season 3 Release: Recap, Plot, Cast, When, Where To Watch — All You Need To Know",
+      "excerpt": "Heart Beat Season 3 premieres on July 30, 2026, on JioHotstar app and website, bringing back RK Multispeciality Hospital's doctors with new characters, medical drama and emotional twists.",
+      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-ott-heart-beat-season-3-release-date-time-recap-plot-episodes-cast-where-to-watch-web-series-tamil-show-jiohotstar-11838930#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/71gddg5k_heart-beat_625x300_29_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:25:48+05:30",
+      "category": "Markets",
+      "summary": "Heart Beat Season 3 premieres on July 30, 2026, on JioHotstar app and website, bringing back RK Multispeciality Hospital's doctors with new characters, medical drama and emotional twists."
+    },
+    {
       "title": "Nvidia’s $750 billion circular financing loop: How it became banker, supplier and investor — and how big is the risk?",
-      "excerpt": "NVIDIA is pursuing AI deals worth more than $750 billion, raising concerns about circular financing that could artificially inflate chip demand.&nbsp;",
+      "excerpt": "Nvidia is pursuing AI deals worth more than $750 billion, raising concerns about circular financing that could artificially inflate chip demand.&nbsp;",
       "url": "https://www.livemint.com/market/stock-market-news/nvidias-750-billion-circular-financing-loop-how-it-became-banker-supplier-and-investor-and-how-big-is-the-risk-11785243777113.html",
       "source": "Mint",
       "image": "https://www.livemint.com/lm-img/img/2026/07/29/1600x900/logo/Nvidia_1785336084177_1785336084568_bb8dffc2-005f-4408-a8a4-20a8446d18fe.JPG",
       "publishedAt": "2026-07-29T20:15:17+05:30",
       "category": "Markets",
       "summary": "NVIDIA is pursuing AI deals worth more than $750 billion, raising concerns about circular financing that could artificially inflate chip demand.&nbsp;"
+    },
+    {
+      "title": "Oil Rebounds: Brent Jumps 7% To $90 As Trump Vows 'Hard Hit' On Iran To Avenge Jordan Strikes",
+      "excerpt": "Oil prices extended gains after Trump's warning of a strong military response, as investors weighed the risk of prolonged disruptions to crude exports from the Gulf region.",
+      "url": "https://www.ndtvprofit.com/world/oil-jumps-5-nears-89-as-trump-vows-hard-hit-on-iran-to-avenge-jordan-strikes-11838669#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/t4e0d784_trump-truth_625x300_03_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:12:25+05:30",
+      "category": "Markets",
+      "summary": "Oil prices extended gains after Trump's warning of a strong military response, as investors weighed the risk of prolonged disruptions to crude exports from the Gulf region."
+    },
+    {
+      "title": "Grant Thornton Bets Big On Growth With $5 Billion CBIZ Purchase, Creates 5th",
+      "excerpt": "The acquisition will significantly expand Grant Thornton's presence in the US accounting market, where the industry is dominated by the Big Four firms: Deloitte, EY, KPMG and PwC.",
+      "url": "https://www.ndtvprofit.com/business/grant-thornton-bets-big-on-growth-with-5-billion-purchase-of-cbiz-creating-fifth-largest-u-s-accounting-provider-11838976#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/smtaab88_5-billion-cbiz-acquisition-to-transform-grant-thornton-into-one-of-the-leading-us-accounting-firm_625x300_29_July_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T20:01:55+05:30",
+      "category": "Markets",
+      "summary": "The acquisition will significantly expand Grant Thornton's presence in the US accounting market, where the industry is dominated by the Big Four firms: Deloitte, EY, KPMG and PwC."
+    },
+    {
+      "title": "US Fed Meeting 2026 Live: US Stocks Wobble Ahead Of Warsh Decision; Rate Hike Not Ruled Out",
+      "excerpt": "Follow live updates from the US Federal Reserve meeting, including the Fed's interest rate decision, latest from Kevin Warsh, market reaction and more.",
+      "url": "https://www.ndtvprofit.com/world/us-fed-meeting-2026-live-interest-rate-decision-kevin-warsh-speech-when-and-where-to-watch-11838777#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/4oo4p6v8_fed_625x300_29_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T19:57:26+05:30",
+      "category": "Markets",
+      "summary": "Follow live updates from the US Federal Reserve meeting, including the Fed's interest rate decision, latest from Kevin Warsh, market reaction and more."
+    },
+    {
+      "title": "SBI Card, Google Pay Partner To Launch Fully Digital 'Flex SBI Card'; Offer Rs 1,000 Welcome Benefits",
+      "excerpt": "SBI Cards and Google Pay have launched the Google Pay Flex SBI Card, a digital credit card offering UPI payments, Rs 1,000 welcome benefits, up to 18,000 annual Stars rewards and annual fee reversal on spending Rs. 1 lak",
+      "url": "https://www.ndtvprofit.com/business/new-google-pay-flex-sbi-card-offers-rs-1-000-welcome-benefit-upi-access-and-up-to-18-000-annual-rewards-11838652#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/rp54u7t8_sbi-cards-and-google-pay-launch-flex-sbi-card-with-upi-integration-1000-welcome-benefit-499-fee-and-up-to-18000-annual-stars_625x300_29_July_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T19:53:59+05:30",
+      "category": "Markets",
+      "summary": "SBI Cards and Google Pay have launched the Google Pay Flex SBI Card, a digital credit card offering UPI payments, Rs 1,000 welcome benefits, up to 18,000 annual Stars rewards and annual fee reversal on spending Rs. 1 lak"
+    },
+    {
+      "title": "'Think Before You Speak': Sonu Sood Hits Out At Kangana Ranaut For GenZ 'Gutter' Remarks",
+      "excerpt": "After a reporter told him that Ranaut had referred to Gen Z as 'Generation Gutter', Sood called the remark inappropriate and says that 'if she has said that, then I think it is very shameful'.",
+      "url": "https://www.ndtvprofit.com/india/think-before-you-speak-sonu-sood-hits-out-at-kangana-ranaut-for-genz-gutter-remarks-11838845#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/b11qvv88_kangana-ranaut-vs-sonu-sood_625x300_29_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-29T19:50:51+05:30",
+      "category": "Markets",
+      "summary": "After a reporter told him that Ranaut had referred to Gen Z as 'Generation Gutter', Sood called the remark inappropriate and says that 'if she has said that, then I think it is very shameful'."
     },
     {
       "title": "Indo-MIM IPO vs Xtranet Technologies IPO vs Lohia Corp IPO: What GMP signals about the listing gain?",
@@ -23,16 +243,6 @@
       "summary": "The IPOs of Xtranet Technologies, Indo-MIM, and Lohia Corp saw strong investor demand. Indo-MIM's grey market premium at ₹180 per share suggests a potential 37% listing gain, while Xtranet and Lohia indicate lower premiu"
     },
     {
-      "title": "Google Launches 'Ask Google Pay' Chatbot To Keep Track Of All Your UPI Payments",
-      "excerpt": "Google Pay's Gemini-powered Ask Google Pay chatbot analyses spending, explains financial terms in 10 Indian languages and debuts alongside a new SBI Card on RuPay.",
-      "url": "https://www.ndtvprofit.com/technology/google-launches-ask-google-pay-chatbot-to-keep-track-of-all-your-upi-payments-11838988#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/i5l8rfuk_google-pay_625x300_29_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:46:16+05:30",
-      "category": "Markets",
-      "summary": "Google Pay's Gemini-powered Ask Google Pay chatbot analyses spending, explains financial terms in 10 Indian languages and debuts alongside a new SBI Card on RuPay."
-    },
-    {
       "title": "Rupee gains for fourth session, hits nearly 3-week high amid RBI support",
       "excerpt": "Rupee gains for fourth session, hits nearly 3-week high amid RBI support Business Standard",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeXJMYkdIQVhWZ0RIZVZ1UDFLd3V6RFFuMVVXenFZcVhUV2NlV2Fndks0dGNPZ05wWXozUWF0cDRRNTBFSURGOE81MXpEckZoVEJqTjBHVWFfVFpxTGlFR0c2R01qNHhuSm1TMVdUWEhoTWgwYVllTFpUUkVIRWtqWEdJNWgxQTJOMGM5endYTFk5R3Y2VFhJeGpUdWthcTdTTWowM3U4dzVLaGloLUxhTjJvdklSS3h1MExpUGRhcEV3blVqMk1PVHNCR21LeHk4Mnc2M9IB2gFBVV95cUxPZG92M0JySkNSeDZxNUxJQW1ocEJhQnJneFlhckFSNHZqOVhzakRqQ0laWVQyT2l1aVc5THExZHNyRGJvYmNEaVAzemo0NHVITlhJZlFTbGdjNEVLektwWEI3bUtFV0EzSWVQT05lNjJMY3p2aDJNLWI1X3ZBQ1VjbjkxeUplRTBZaGlfUzYtY1JPbTA5MDh3RjBrWGJWaE5BTzRPekxwekpvVFpERnNVaXoxLU1Ib2dFMzJCeHNVRzAtWFRkNS1CaDMyOXZfYWdQYzNfbm5aeE91UQ?oc=5",
@@ -41,216 +251,6 @@
       "publishedAt": "2026-07-29T19:39:29+05:30",
       "category": "Economy",
       "summary": "Rupee gains for fourth session, hits nearly 3-week high amid RBI support Business Standard"
-    },
-    {
-      "title": "Mislabelling World's Biggest Gen Z Population: Mumbai's Viral NEET Protester To Kangana Ranaut",
-      "excerpt": "Responding to Ranaut's comments, Rhiya Ahir said it was unacceptable to label the world's largest Gen Z population based on the actions of a few individuals.",
-      "url": "https://www.ndtvprofit.com/india/mislabeling-worlds-biggest-gen-z-population-mumbais-viral-neet-protester-to-kangana-ranaut-11838547#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/uapg553k_rhiya_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:38:38+05:30",
-      "category": "Markets",
-      "summary": "Responding to Ranaut's comments, Rhiya Ahir said it was unacceptable to label the world's largest Gen Z population based on the actions of a few individuals."
-    },
-    {
-      "title": "Eicher Motors Q1 Results: Royal Enfield-Maker Posts 21% Jump In Profit; Revenue Meets Estimates",
-      "excerpt": "Eicher Motors' revenue saw a 31.5% increase to Rs 6,632 crore, compared to Rs 5,042 crore in the preceding financial year.",
-      "url": "https://www.ndtvprofit.com/markets/eicher-motors-q1-results-royal-enfield-maker-posts-21-jump-in-profit-revenue-meets-estimates-11838830#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/umfb0g1k_royal-enfield_625x300_22_May_26.jpg",
-      "publishedAt": "2026-07-29T19:37:51+05:30",
-      "category": "Markets",
-      "summary": "Eicher Motors' revenue saw a 31.5% increase to Rs 6,632 crore, compared to Rs 5,042 crore in the preceding financial year."
-    },
-    {
-      "title": "Waaree Energies Q1 Results: Revenue Soars 79% To Nearly Rs 8,000 Crore; Profit Rises 14%",
-      "excerpt": "The company posted a consolidated bottom-line of Rs 850 crore",
-      "url": "https://www.ndtvprofit.com/markets/waaree-energies-q1-results-revenue-soars-79-percent-to-nearly-rs-8-000-crore-profit-rises-14-percent-11838499#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/fufcqa0o_waaree-energies_625x300_24_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:37:13+05:30",
-      "category": "Markets",
-      "summary": "The company posted a consolidated bottom-line of Rs 850 crore"
-    },
-    {
-      "title": "Nothing Awaits PLI 2.0 To Double India Bet; Says Memory Costs Forcing Product Cancellations",
-      "excerpt": "Nothing plans to deepen India manufacturing, expand R&D and retail footprint, while warning that rising memory costs will push up smartphone prices and force product delays across the industry.",
-      "url": "https://www.ndtvprofit.com/technology/nothing-awaits-pli-2-0-to-double-india-bet-says-memory-costs-forcing-product-cancellations-11838975#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-02/q90de0ss_akis-nothing-_625x300_18_February_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:32:26+05:30",
-      "category": "Markets",
-      "summary": "Nothing plans to deepen India manufacturing, expand R&D and retail footprint, while warning that rising memory costs will push up smartphone prices and force product delays across the industry."
-    },
-    {
-      "title": "US Stock Market Today: Dow Falls 400 Points, S&P 500, Nasdaq In Red As Oil Climbs Ahead Of Fed Decision",
-      "excerpt": "Wall Street opens lower as investors await the Federal Reserve's policy verdict, while rising oil prices and earnings from Meta and Microsoft remain in focus.",
-      "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-dow-falls-400-points-s-p-500-nasdaq-in-red-as-oil-climbs-ahead-of-fed-decision-11839004#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/pi02u704_us-market_625x300_29_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:31:55+05:30",
-      "category": "Markets",
-      "summary": "Wall Street opens lower as investors await the Federal Reserve's policy verdict, while rising oil prices and earnings from Meta and Microsoft remain in focus."
-    },
-    {
-      "title": "Odisha CHSE Supplementary Result 2026 OUT: Check Direct Link To Check Plus Two Instant Results",
-      "excerpt": "The Council of Higher Secondary Education will release te CHSE Odisha instant and supply result 2026 online on its website. Students can follow the below meniotned steps to download Odisha CHSE 12th supplementary result ",
-      "url": "https://www.ndtvprofit.com/india/odisha-chse-supplementary-result-2026-out-check-direct-link-to-check-plus-two-instant-results-11839083#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/d5dmo01_odisha_625x300_29_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:31:27+05:30",
-      "category": "Markets",
-      "summary": "The Council of Higher Secondary Education will release te CHSE Odisha instant and supply result 2026 online on its website. Students can follow the below meniotned steps to download Odisha CHSE 12th supplementary result "
-    },
-    {
-      "title": "Earthquake Reported In Japan's Amakusa Area; Early Warning Issued For Kumamoto Prefecture",
-      "excerpt": "Further details on the magnitude, depth and impact of the earthquake are awaited.",
-      "url": "https://www.ndtvprofit.com/world/earthquake-reported-in-japans-amakusa-area-early-warning-issued-for-kumamoto-prefecture-11838932#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/vj5aq9eo_d_625x300_29_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:30:26+05:30",
-      "category": "Markets",
-      "summary": "Further details on the magnitude, depth and impact of the earthquake are awaited."
-    },
-    {
-      "title": "ITR Filing 2026: Will The July 31 Deadline Be Extended? Here's What History Suggests",
-      "excerpt": "While the Income Tax Department has extended ITR filing deadlines in the past, there is currently no indication of any such move for Assessment Year 2026-27.",
-      "url": "https://www.ndtvprofit.com/personal-finance/itr-filing-2026-will-the-july-31-deadline-be-extended-heres-what-history-suggests-11838444#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/ini6ler8_itr_625x300_29_July_26.jpg",
-      "publishedAt": "2026-07-29T19:26:41+05:30",
-      "category": "Markets",
-      "summary": "While the Income Tax Department has extended ITR filing deadlines in the past, there is currently no indication of any such move for Assessment Year 2026-27."
-    },
-    {
-      "title": "US stocks fall ahead of Federal Reserve's rate decision",
-      "excerpt": "The Dow Jones Industrial Average fell 0.14%, the S&amp;P 500 fell 0.14%, the Nasdaq Composite dropped 0.05%",
-      "url": "https://www.livemint.com/market/stock-market-news/us-stocks-fall-ahead-of-federal-reserves-rate-decision-11785332832586.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/29/1600x900/US-ECONOMY-MARKETS-4_1785332912713_1785332943202_ed97709e-70aa-4971-82fc-6e34632717d3.jpg",
-      "publishedAt": "2026-07-29T19:26:04+05:30",
-      "category": "Markets",
-      "summary": "The Dow Jones Industrial Average fell 0.14%, the S&amp;P 500 fell 0.14%, the Nasdaq Composite dropped 0.05%"
-    },
-    {
-      "title": "Vedanta Power Q1: Company Swings Into Net Loss As One",
-      "excerpt": "Vedanta Power's revenue saw a 31.3% to Rs 2,607 crore, from Rs 1,986 crore in the previous fiscal.",
-      "url": "https://www.ndtvprofit.com/markets/vedanta-power-q1-company-swings-into-net-loss-as-one-time-costs-weigh-revenue-climbs-31-11838554#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/054a420f_Signage_of_Vedanta_Ltd__outside_its_office_building___Source_Vijay_Sartape_BQ_Prime___2_.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:20:21+05:30",
-      "category": "Markets",
-      "summary": "Vedanta Power's revenue saw a 31.3% to Rs 2,607 crore, from Rs 1,986 crore in the previous fiscal."
-    },
-    {
-      "title": "US Fed Meeting 2026 Live: Dow Falls 400 Points, S&P 500, Nasdaq In Red Ahead Of Rate Decision",
-      "excerpt": "Follow live updates from the US Federal Reserve meeting, including the Fed's interest rate decision, latest from Kevin Warsh, market reaction and more.",
-      "url": "https://www.ndtvprofit.com/world/us-fed-meeting-2026-live-interest-rate-decision-kevin-warsh-speech-when-and-where-to-watch-11838777#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/4oo4p6v8_fed_625x300_29_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:18:02+05:30",
-      "category": "Markets",
-      "summary": "Follow live updates from the US Federal Reserve meeting, including the Fed's interest rate decision, latest from Kevin Warsh, market reaction and more."
-    },
-    {
-      "title": "Star Health Q1 Results: Profit Surges 26% To Rs 550 Crore; Insurance Revenue Rises",
-      "excerpt": "Insurance revenue rose 12.6% year-on-year to Rs 4,917 crore in the quarter under review.",
-      "url": "https://www.ndtvprofit.com/markets/star-health-q1-results-profit-surges-26-to-rs-550-crore-11839016#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/t0775ja4_star_625x300_29_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T19:16:41+05:30",
-      "category": "Markets",
-      "summary": "Insurance revenue rose 12.6% year-on-year to Rs 4,917 crore in the quarter under review."
-    },
-    {
-      "title": "Commonwealth Games 2026 Day 8: India's Schedule, Athletes, Fixtures, Timings, Where To Watch",
-      "excerpt": "India enjoyed a productive Day 7 with Tajinderpal Singh Toor and Samardeep Singh Gill advancing to the men's shot put final, while Animesh Kujur booked his place in the 200m semifinals. Sanjana, however, endured disappoi",
-      "url": "https://www.ndtvprofit.com/sports/commonwealth-games-2026-day-8-indias-schedule-athletes-fixtures-timings-where-to-watch-11838891#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/89ioakao_neeraj-_625x300_29_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T18:52:20+05:30",
-      "category": "Markets",
-      "summary": "India enjoyed a productive Day 7 with Tajinderpal Singh Toor and Samardeep Singh Gill advancing to the men's shot put final, while Animesh Kujur booked his place in the 200m semifinals. Sanjana, however, endured disappoi"
-    },
-    {
-      "title": "Spider-Man: Brand New Day Set To Dethrone Avengers: Endgame With Record",
-      "excerpt": "Brand New Day has already generated more than Rs 85-crore gross in bookings for its opening weekend. Of that, over Rs 45-crore gross has come from advance sales for the opening day alone.",
-      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-hollywood-superhero-movie-spider-man-brand-new-day-marvel-cinematic-universe-mcu-film-avengers-endgame-record-advance-bookings-india-11838585#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/f3jfc5gs_spiderman_625x300_29_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T18:50:35+05:30",
-      "category": "Markets",
-      "summary": "Brand New Day has already generated more than Rs 85-crore gross in bookings for its opening weekend. Of that, over Rs 45-crore gross has come from advance sales for the opening day alone."
-    },
-    {
-      "title": "Eight sectors post double-digit growth in May trial services index",
-      "excerpt": "The second trial release of the Index of Services Production showed broad-based growth across formal services, offering policymakers and investors a new monthly gauge of activity in the economy's largest sector.",
-      "url": "https://www.livemint.com/economy/eight-sectors-post-double-digit-growth-in-may-trial-services-index-11785325090277.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/29/1600x900/logo/worker1_1701794355766_1785330972391_8719d0b2-99dc-4e3e-92c8-6dd25cd1606c.jpg",
-      "publishedAt": "2026-07-29T18:47:25+05:30",
-      "category": "Economy",
-      "summary": "The second trial release of the Index of Services Production showed broad-based growth across formal services, offering policymakers and investors a new monthly gauge of activity in the economy's largest sector."
-    },
-    {
-      "title": "FIFA Offers $40 Million To Members Backing World Cup Commercial Spin",
-      "excerpt": "Gianni Infantino has set a Sept. 19 deadline for FIFA member associations to approve the World Cup investment plan, with UEFA and others raising governance concerns.",
-      "url": "https://www.ndtvprofit.com/business/fifa-offers-40-million-to-members-backing-world-cup-commercial-spin-off-plan-11838714#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/bikntv1k_gianni-infantino_625x300_13_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T18:44:08+05:30",
-      "category": "Markets",
-      "summary": "Gianni Infantino has set a Sept. 19 deadline for FIFA member associations to approve the World Cup investment plan, with UEFA and others raising governance concerns."
-    },
-    {
-      "title": "Q1 Results Live: Eicher Motors Profit Jumps Over 21%; Waaree Energies Revenue Soars 79%; Dabur Profit Rises",
-      "excerpt": "Track Q1 FY27 earnings live as Adani Enterprises, Bajaj Housing Finance, Asian Paints, Eicher Motors, KPIT Tech and 100+ firms announce June quarter results, guidance and key updates.",
-      "url": "https://www.ndtvprofit.com/markets/q1-results-live-updates-adani-enterprises-bajaj-housing-finance-asian-paints-eicher-motors-among-firms-to-announce-earnings-today-july-29-11836298#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/jm5fgens_sd_625x300_29_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T18:41:54+05:30",
-      "category": "Markets",
-      "summary": "Track Q1 FY27 earnings live as Adani Enterprises, Bajaj Housing Finance, Asian Paints, Eicher Motors, KPIT Tech and 100+ firms announce June quarter results, guidance and key updates."
-    },
-    {
-      "title": "Balkrishna Industries Q1 Results: Profit Soars 56%, Dividend Announced; Check Record Date, Payout Details",
-      "excerpt": "The tyre maker's revenue rose 25% year-on-year, while operating margin expanded to 21.5%; board declared a rS 4 per share interim dividend.",
-      "url": "https://www.ndtvprofit.com/business/balkrishna-industries-q1-results-profit-soars-56-dividend-announced-check-record-date-payout-details-11838686#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/1m4vtqh_balkrishna-industries_625x300_29_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T18:40:27+05:30",
-      "category": "Markets",
-      "summary": "The tyre maker's revenue rose 25% year-on-year, while operating margin expanded to 21.5%; board declared a rS 4 per share interim dividend."
-    },
-    {
-      "title": "Manipal Health Enterprises IPO off to slow start, subscribed 15% on opening day; retail portion booked 27%",
-      "excerpt": "Manipal Health Enterprises' IPO saw a sluggish start, being subscribed 0.15 times on Day 1, with retail and non-institutional portions lagging. The company raised ₹4,167 crore from anchor investors. The total issue size ",
-      "url": "https://www.livemint.com/market/stock-market-news/manipal-health-enterprises-ipo-off-to-slow-start-subscribed-15-on-opening-day-retail-portion-booked-27-11785329772682.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/29/1600x900/logo/Hospitals_1785221406934_1785221682071_7c24e49b-1dcc-40fd-975f-640281efff5a_1785330013604_96e2f22d-1ed9-449c-b11c-d86a17c6a5f6.png",
-      "publishedAt": "2026-07-29T18:39:35+05:30",
-      "category": "Markets",
-      "summary": "Manipal Health Enterprises' IPO saw a sluggish start, being subscribed 0.15 times on Day 1, with retail and non-institutional portions lagging. The company raised ₹4,167 crore from anchor investors. The total issue size "
-    },
-    {
-      "title": "Vaibhav Sooryavanshi Climbs To Career",
-      "excerpt": "The 15-year-old batter jumped230 places in the latest ICC Men's T20I Batting Rankings after his series-winning exploits against Zimbabwe.",
-      "url": "https://www.ndtvprofit.com/sports/vaibhav-sooryavanshi-climbs-to-career-best-no-48-in-icc-t20i-rankings-11838469#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/bnih41bs_vaibhav-sooryavanshi-pti_625x300_21_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T18:36:15+05:30",
-      "category": "Markets",
-      "summary": "The 15-year-old batter jumped230 places in the latest ICC Men's T20I Batting Rankings after his series-winning exploits against Zimbabwe."
-    },
-    {
-      "title": "HDFC Value, Motilal Oswal Midcap Among Top Mutual Fund Performers As Categories Deliver Strong Returns",
-      "excerpt": "ACE MF data shows HDFC Value Fund leading value funds, Motilal Oswal Midcap Fund topping midcaps and Aditya Birla SL Medium Term Plan delivering 8.5% CAGR.",
-      "url": "https://www.ndtvprofit.com/business/hdfc-value-fund-motilal-oswal-midcap-fund-among-top-mutual-fund-performers-as-categories-deliver-strong-returns-11838187#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/khe3kq84_hdfc-value-fund-gains-44-motilal-oswal-midcap-59-aditya-birla-fund-delivers-85-cagr_625x300_29_July_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T18:35:17+05:30",
-      "category": "Markets",
-      "summary": "ACE MF data shows HDFC Value Fund leading value funds, Motilal Oswal Midcap Fund topping midcaps and Aditya Birla SL Medium Term Plan delivering 8.5% CAGR."
     }
   ]
 }
