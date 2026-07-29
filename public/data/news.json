@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-07-30T02:01:13+05:30",
+  "lastUpdated": "2026-07-30T03:34:07+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Dow Jones Plummets 1,100 Points As Bears Grip Wall Street After Fed's Rate Pause",
+      "excerpt": "The Dow Jones Industrial Average slumped 2.1%, or over 1,100 points, as the selloff worsened sharply after Fed Chair Kevin Warsh's press briefing concluded.",
+      "url": "https://www.ndtvprofit.com/markets/dow-jones-plummets-1-100-points-as-bears-grip-wall-street-after-feds-rate-pause-11840488#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-02/ohnqh70k_bear-market_650x400_27_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-30T01:51:02+05:30",
+      "category": "Markets",
+      "summary": "The Dow Jones Industrial Average slumped 2.1%, or over 1,100 points, as the selloff worsened sharply after Fed Chair Kevin Warsh's press briefing concluded."
+    },
     {
       "title": "Gold, silver prices today: Comex gold and silver recover as Fed keeps rates unchanged, dollar weakens",
       "excerpt": "Gold and silver prices rose over 1% after the U.S. Federal Reserve kept interest rates steady, lowering the dollar and Treasury yields. Gold futures surged to an intraday high of $4,115, while silver reached $59.40. Geop",
@@ -13,14 +23,54 @@
       "summary": "Gold and silver prices rose over 1% after the U.S. Federal Reserve kept interest rates steady, lowering the dollar and Treasury yields. Gold futures surged to an intraday high of $4,115, while silver reached $59.40. Geop"
     },
     {
-      "title": "US Fed Meeting 2026 Live: Warsh Says Rates 'Could Be Part Of Solution' In Case Of Sticky Inflation; Holds Interest Rates",
+      "title": "US stocks: US market closes down sharply after Fed holds rates unchanged",
+      "excerpt": "Wall Street experienced a sharp decline as the Federal Reserve maintained interest rates. AI-related chip stocks also saw further losses ahead of key earnings reports. Investors are concerned about the sustainability of ",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-closes-down-sharply-after-fed-holds-rates-unchanged/articleshow/132721597.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-30T01:32:32+05:30",
+      "category": "Markets",
+      "summary": "Wall Street experienced a sharp decline as the Federal Reserve maintained interest rates. AI-related chip stocks also saw further losses ahead of key earnings reports. Investors are concerned about the sustainability of "
+    },
+    {
+      "title": "US Fed chair Kevin Warsh says this after holding rates steady",
+      "excerpt": "Federal Reserve Chairman Kevin Warsh stressed commitment to the 2% inflation target. He clarified there is no implicit inflation target above this for the committee and noted that the committee is focused on understandin",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-fed-chair-kevin-warsh-says-this-after-holding-rates-steady/articleshow/132721355.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-30T01:32:11+05:30",
+      "category": "Markets",
+      "summary": "Federal Reserve Chairman Kevin Warsh stressed commitment to the 2% inflation target. He clarified there is no implicit inflation target above this for the committee and noted that the committee is focused on understandin"
+    },
+    {
+      "title": "FOMC Highlights: Fed Keeps Rates On Hold; Warsh Says 'Won't Hesitate' If Inflation Persists",
       "excerpt": "In a 9-3 vote, the Fed decided to leave rates unchanged in the 3.5%-3.75% range. Warsh signalled that future hikes weren't ruled out to combat inflation.",
       "url": "https://www.ndtvprofit.com/world/us-fed-meeting-2026-live-interest-rate-decision-kevin-warsh-speech-when-and-where-to-watch-11838777#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-07/4oo4p6v8_fed_625x300_29_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-30T01:04:35+05:30",
+      "publishedAt": "2026-07-30T01:23:10+05:30",
       "category": "Markets",
       "summary": "Follow live updates from the US Federal Reserve meeting, including the Fed's interest rate decision, latest from Kevin Warsh, market reaction and more."
+    },
+    {
+      "title": "'Won't Hesitate To Act': Fed Holds Rates, But Warsh Leaves Door Open For Future Hikes",
+      "excerpt": "The Federal Reserve held rates at 3.50%-3.75%, while Kevin Warsh warned policymakers won't hesitate to raise borrowing costs if inflation remains persistent.",
+      "url": "https://www.ndtvprofit.com/economy/wont-hesitate-to-act-fed-holds-rates-but-warsh-leaves-door-open-for-future-hikes-11840408#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/a0aopfc_kevin-warsh_625x300_18_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-07-30T01:13:34+05:30",
+      "category": "Markets",
+      "summary": "The Federal Reserve held rates at 3.50%-3.75%, while Kevin Warsh warned policymakers won't hesitate to raise borrowing costs if inflation remains persistent."
+    },
+    {
+      "title": "ACME Solar raises ₹3,404 crore from Power Finance Corp",
+      "excerpt": "ACME Solar raises ₹3,404 crore from Power Finance Corp The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbFBGZGVWbWtPTXRwaWhmYS1ncDRoMEdSVmx5R0NIWXJjVXdQaTVYWjlER0hsYW9GRGhyeHAza2NzU2x3ZHlzMngxVS1YNE1ERUNXakhRczRmdHA2Z1lwUkNEMlVqVVh1Q2UzWmlqRldwSm1xOGd1ZU4tUFVoLUR5WWhsUlhZSVJGdURJRVR1SG1LdWczbEdKRTF4bDNxWlVybGxkRXM0YkhnN1RkeC1FMVpUQXE1cHNOOTRGdURUNS1lTEpKSFpTbHBB0gHKAUFVX3lxTE9sUEZkZVZta09NdHBpaGZhLWdwNGgwR1JWbHlHQ0hZcmNVd1BpNVhaOURHSGxhb0ZEaHJ4cDNrY3NTbHdkeXMyeDFVLVg0TURFQ1dqSFFzNGZ0cDZnWXBSQ0QyVWpVWHVDZTNaaWpGV3BKbXE4Z3VlTi1QVWgtRHlZaGxSWFlJUkZ1RElFVHVIbUt1ZzNsR0pFMXhsM3FaVXJsbGRFczRiSGc3VGR4LUUxWlRBcTVwc045NEZ1RFQ1LWVMSkpIWlNscEE?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-30T00:55:00+05:30",
+      "category": "Economy",
+      "summary": "ACME Solar raises ₹3,404 crore from Power Finance Corp The Economic Times"
     },
     {
       "title": "Fed Pause Lifts Metals: Gold Crosses $4,100, Silver Jumps Over 3% As September Hike Bets Ease",
@@ -201,56 +251,6 @@
       "publishedAt": "2026-07-29T22:43:26+05:30",
       "category": "Markets",
       "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks Dabur, BEL, Angel One, L&T, Bajaj Housing and J&K Bank."
-    },
-    {
-      "title": "Dhaval Packaging IPO Draws Rs 5 Crore Anchor Investment From Vikas Khemani's Carnelian",
-      "excerpt": "Dhaval Packaging raised Rs 9.99 crore from anchor investors ahead of its IPO, with Vikas Khemani-led Carnelian Asset Management investing Rs 5 crore.",
-      "url": "https://www.ndtvprofit.com/markets/all-eyes-on-dhaval-packaging-ipo-after-vikas-khemanis-5-crore-anchor-investment-11839838#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/2l0pra5g_dhaval-packaging-raised-999-crore-from-investors-before-its-ipo-with-vikas-khemani-investing-5-crore_625x300_29_July_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T22:42:44+05:30",
-      "category": "Markets",
-      "summary": "Dhaval Packaging raised Rs 9.99 crore from anchor investors ahead of its IPO, with Vikas Khemani-led Carnelian Asset Management investing Rs 5 crore."
-    },
-    {
-      "title": "TV Manufacturers Get Six-Month Breather As Govt Defers Mandatory BIS Norms Till January 2027",
-      "excerpt": "Mandatory BIS certification for television sets deferred by six months, giving manufacturers and importers more time to meet compliance norms.",
-      "url": "https://www.ndtvprofit.com/business/tv-manufacturers-get-six-month-breather-as-govt-defers-mandatory-bis-norms-by-six-months-11839900#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/02225d2a_Television_sets_inside_an_electronic_store___Photo_Usha_Kunji_Source_BQ_Prime_.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T22:27:27+05:30",
-      "category": "Markets",
-      "summary": "Mandatory BIS certification for television sets deferred by six months, giving manufacturers and importers more time to meet compliance norms."
-    },
-    {
-      "title": "Meta Assures Govt On Safeguards After Summons Over PM Modi's Post Row",
-      "excerpt": "Meta officials, it is learnt, attributed the error to AI-powered automated content filters.",
-      "url": "https://www.ndtvprofit.com/technology/meta-assures-govt-of-stricter-checks-on-pm-modi-high-profile-accounts-following-it-ministry-scrutiny-11839871#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/94muq0us_meta_625x300_22_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T22:20:53+05:30",
-      "category": "Markets",
-      "summary": "Meta officials, it is learnt, attributed the error to AI-powered automated content filters."
-    },
-    {
-      "title": "Cupid makes additional $5 million investment in GII Healthcare platform",
-      "excerpt": "Cupid has invested an additional $5 million in GII Healthcare Investment Limited, reinforcing its belief in the healthcare sector's growth. The investment, made entirely from internal funds, enhances Cupid's commitment t",
-      "url": "https://www.livemint.com/market/stock-market-news/cupid-makes-additional-5-million-investment-in-gii-healthcare-platform-11785343254688.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/29/1600x900/logo/pexels-photo-7693201_1782349621166_1782349634859_9ebeed59-f8a6-4e6c-946b-e86540d03c3b_1785343363720_17fb9914-1f99-4703-94e5-8e8e6bc5a3ef.jpeg",
-      "publishedAt": "2026-07-29T22:16:35+05:30",
-      "category": "Markets",
-      "summary": "Cupid has invested an additional $5 million in GII Healthcare Investment Limited, reinforcing its belief in the healthcare sector's growth. The investment, made entirely from internal funds, enhances Cupid's commitment t"
-    },
-    {
-      "title": "US Stock Market Crash: Oil Spike To Fed Pivot Fears — Three Reasons Why Wall Street Is Under Pressure",
-      "excerpt": "Wall Street tumbled as oil surged on fresh US-Iran tensions, investors braced for the Fed's rate decision, and chip stocks extended a sharp AI-led selloff.",
-      "url": "https://www.ndtvprofit.com/markets/us-stock-market-crash-oil-spike-to-fed-pivot-fears-three-reasons-why-wall-street-is-under-pressure-11839787#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/proen/2025-04-07/ppina7k3/Wall-Street.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-07-29T22:12:56+05:30",
-      "category": "Markets",
-      "summary": "Wall Street tumbled as oil surged on fresh US-Iran tensions, investors braced for the Fed's rate decision, and chip stocks extended a sharp AI-led selloff."
     }
   ]
 }
