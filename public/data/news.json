@@ -1,7 +1,77 @@
 {
-  "lastUpdated": "2026-07-31T15:36:52+05:30",
+  "lastUpdated": "2026-07-31T17:58:31+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Maruti Suzuki Q1 Results: Net profit drops 9% as margin pressure offsets revenue growth",
+      "excerpt": "Maruti Suzuki reported a 9.1% YoY decline in profit to ₹3,446.9 crore despite a 35.9% increase in revenue to ₹52,469 crore. Higher input costs and expenses pressured profitability, leading to a price hike of up to ₹30,00",
+      "url": "https://www.livemint.com/market/stock-market-news/maruti-suzuki-q1-results-net-profit-drops-9-as-margin-pressure-offsets-revenue-growth-11785496535693.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/MARUTI-SUZUKI-IN-PRICE--0_1780322459992_1780322469_1785496528397_1785496528554_a253ded3-1cca-4ad5-9ac3-633a4de09c8d.JPG",
+      "publishedAt": "2026-07-31T16:51:55+05:30",
+      "category": "Markets",
+      "summary": "Maruti Suzuki reported a 9.1% YoY decline in profit to ₹3,446.9 crore despite a 35.9% increase in revenue to ₹52,469 crore. Higher input costs and expenses pressured profitability, leading to a price hike of up to ₹30,00"
+    },
+    {
+      "title": "ITC Q1 results: Consolidated profit drops 16% YoY to  ₹4,394 crore; cigarettes revenue surges 81% YoY",
+      "excerpt": "ITC Q1 results: ITC reported a 16.2% year-on-year drop in its consolidated profit to ₹4,394.13 crore for Q1FY27. Revenue from operations for the quarter rose 27.6% YoY and 23.9% QoQ to ₹29,523.30 crore.",
+      "url": "https://www.livemint.com/market/stock-market-news/itc-q1-results-profit-drops-16-yoy-to-4-394-crore-11785496419273.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/logo/ITC-STOCKS--0_1738812882104_1785496533091_1e115500-0bd2-4c4b-b7ac-2f914bac3664.JPG",
+      "publishedAt": "2026-07-31T16:45:03+05:30",
+      "category": "Markets",
+      "summary": "ITC Q1 results: ITC reported a 16.2% year-on-year drop in its consolidated profit to ₹4,394.13 crore for Q1FY27. Revenue from operations for the quarter rose 27.6% YoY and 23.9% QoQ to ₹29,523.30 crore."
+    },
+    {
+      "title": "India's Q1 FY27 fiscal deficit widens to Rs 3.1 lakh crore from Rs 2.8 lakh crore a year ago; at 18.2% of",
+      "excerpt": "India's Q1 FY27 fiscal deficit widens to Rs 3.1 lakh crore from Rs 2.8 lakh crore a year ago; at 18.2% of The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQ05uUXk5RW5qM1FhemZsYm9DVEJNUlpscUlhVWZWYnpLNmNZcGM2UV9ib3BGTjNuLVFGT25vSkVuRWdDdXNNa1UzdXJ6eG9pM3NTcFJ0QkRWUHFwVWJoZ3Y0NVVHZzNORjNabk5KNWxrZVJXdXJWZzIxV196cEI5Q2pxZjdDelR6eXlvTmZfNEtOMHBlM0xmNEF0TG5pXzE5bVYwN2ExYkdGX1pOY2lRblM3Y3Rmb0FzMzhyS3A4a1Q4Njg5NnVNVXpMV0s1MEtsOUNBd3NUdU9adm1BbHFjZ2t3WjJwdzhzSnhoaFBDLVN0ME3SAfgBQVVfeXFMUDFCNHZydTU2X3hNUHE0TnhsYmpfd0wtXzdXVlBISUNQN0djZnFpWHdGbDhVa0tFRldiX3gyRHhxcUItTllRN01kMlFUSlhaejNMdlBpcU1rNnl2QnVfRHhsY2s0YkNxcjFIUHN0U0JBbkJtT0E1RHc2SVdTZm5YMVp0YUpWVGF3eWFMV3Q5bWFkZGFRVGJYS3JzWmxOWTRwQktwcWFyN3NNdUp1MUlyX3R3amt1ZmUyczVINmNSZFItRmRkc2dZQXlFMHF4SzQzSnVadW52ZFFuMjhjMm1CTGt5c1VBbUZYV2JJWFJRal9hclRlYTc2aUg?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-31T16:23:14+05:30",
+      "category": "Economy",
+      "summary": "India's Q1 FY27 fiscal deficit widens to Rs 3.1 lakh crore from Rs 2.8 lakh crore a year ago; at 18.2% of The Economic Times"
+    },
+    {
+      "title": "Rupee posts strongest week since March on RBI support",
+      "excerpt": "Rupee posts strongest week since March on RBI support The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcThlY05OQldHUzVRODRpUXdxYXAyRzFDVF9WZ2M3RmVmbzR5UFpORGVDU3lfMzNmUUQwLV9JLUk4YS1vTkdxY2hlbDlZdnBjTlA0Uk1CVVpmTWdybEc4bW9lSHVzOWZVVUlZRHRwc2tMME5mdmE1dFNSNU1SVzJlc29aMndqRVZuaGp2bGN6Zm5LeTVfZmxGNVJaWUYxczA3WHVlQnhGUThuYUtkTFhYQk1yclpPWVFmX093TjdySW12elVaXzkxYVRnSUbSAdIBQVVfeXFMTlc5SWk5UHdqMEdvNXFCSlZZNTNraGdENFZaUzN0SkU0TGRRUlBOU1d2N0t1Sl9pOGtteUl2MXFRZ2JQVzJyRzR1RTEzNHpSWElDU1kxRlRud2phbm1KRUI5OU9KS1BJMS1YUEVrNEE3cjZBZ2xYQ2FMSVBBV2FPUU90dmdHMkxlVXlmZ0JPMXAycHkyLTZRdnYwV0hxUzF5R0JIR1FCSTVZN3BNSnZEa21odUZSLWhmZjBfVzV6UFJKeVZRVmJ1Y1NnbVVQVUowQV9B?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-31T15:48:29+05:30",
+      "category": "Economy",
+      "summary": "Rupee posts strongest week since March on RBI support The Economic Times"
+    },
+    {
+      "title": "Top Gainers & Losers on 31 July: Bajaj Finance, Hyundai Motor, GAIL, Tata Motors, Redington among top gainers today",
+      "excerpt": "Indian equities closed the last trading day of July with modest gains, driven by financial and auto stocks. The Nifty 50 rose 0.20% to 24,336, while Sensex advanced 0.21% to 78,091, reflecting positive market trends desp",
+      "url": "https://www.livemint.com/market/stock-market-news/top-gainers-losers-on-31-july-bajaj-finance-hyundai-motor-gail-tata-motors-redington-among-top-gainers-today-11785490241096.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/logo/2-0-116406298-BSE-4C-0_1681908501716_1785491323918_fb02ff69-d9ce-41be-a070-9f17eb4ae3b9.jpg",
+      "publishedAt": "2026-07-31T15:38:42+05:30",
+      "category": "Markets",
+      "summary": "Indian equities closed the last trading day of July with modest gains, driven by financial and auto stocks. The Nifty 50 rose 0.20% to 24,336, while Sensex advanced 0.21% to 78,091, reflecting positive market trends desp"
+    },
+    {
+      "title": "Sensex, Nifty 50 rise for third straight session; earnings optimism offset geopolitical headwinds",
+      "excerpt": "The Sensex ended 166 points, or 0.21%, to end at 78,094.64, while the Nifty 50 settled at 24,383.60, up 66 points, or 0.27%.",
+      "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-50-rise-for-third-straight-session-earnings-optimism-offset-geopolitical-headwinds-11785491237299.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/logo/INDIA-BSE-10_1718252822146_1785492429694_707db105-0443-4712-93ef-9c5fa70d2efe.jpg",
+      "publishedAt": "2026-07-31T15:35:22+05:30",
+      "category": "Markets",
+      "summary": "The Sensex ended 166 points, or 0.21%, to end at 78,094.64, while the Nifty 50 settled at 24,383.60, up 66 points, or 0.27%."
+    },
+    {
+      "title": "Over 5.5 crore ITRs filed for AY27 so far",
+      "excerpt": "Over 5.5 crore ITRs filed for AY27 so far The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSXl5SjNYbEJjVE92bXVaSFNlMllXSFdfV2xDLTRMWFNzdVZlaWVGUTgtMU93Mml5WjdRRHA0V0pLWUtKTFltWnZQMkNMYXZZVTRYUXhrZ3RtQXFKai1vVUpVdnVFWU13RVJfdVFYZmFkcWgzSkJKV2Faek1ILUZpNloxR0FWQjdic0UxZlQ0dVhBcnp0ODJ5aThMU2pIM3FqdDFiWnFaS2lYVFRNOGpYM2REVWViMjlNM2w2TDVzR0ZZZ9IBwgFBVV95cUxOSXl5SjNYbEJjVE92bXVaSFNlMllXSFdfV2xDLTRMWFNzdVZlaWVGUTgtMU93Mml5WjdRRHA0V0pLWUtKTFltWnZQMkNMYXZZVTRYUXhrZ3RtQXFKai1vVUpVdnVFWU13RVJfdVFYZmFkcWgzSkJKV2Faek1ILUZpNloxR0FWQjdic0UxZlQ0dVhBcnp0ODJ5aThMU2pIM3FqdDFiWnFaS2lYVFRNOGpYM2REVWViMjlNM2w2TDVzR0ZZZw?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-31T15:14:00+05:30",
+      "category": "Economy",
+      "summary": "Over 5.5 crore ITRs filed for AY27 so far The Economic Times"
+    },
     {
       "title": "3250% rally in five years! Multibagger stock Apollo Micro Systems jumps 3% after completion of Indian Navy project",
       "excerpt": "Multibager stock: Apollo Micro Systems share price has rallied from ₹11.58 apiece to ₹391.95 per share on the NSE in five years",
@@ -41,6 +111,16 @@
       "publishedAt": "2026-07-31T14:04:12+05:30",
       "category": "Markets",
       "summary": "Zee Media share price today opened upside and touched an intraday high of ₹8.20 apiece on the NSE, logging an intraday gain of nearly 10%"
+    },
+    {
+      "title": "LTIMindtree Share Price Today, LTIMindtree Stock Price Live NSE/BSE Updates",
+      "excerpt": "LTIMindtree Share Price Today, LTIMindtree Stock Price Live NSE/BSE Updates The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sem1MWkR5TGtaRmdGX2FlZW1DSVd5T3ctSEpfZ01aOGJSZEpJRHpncmxINlRqdDB3T0J4aG50eHh0eENpQ0dpVHhyMDlwcWVjU2dRZHJuUTRQTUQtajFJamZQSTgweWpHOGlrUnhZRUpsWThYcndGWFNB?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-07-31T13:40:46+05:30",
+      "category": "Markets",
+      "summary": "LTIMindtree Share Price Today, LTIMindtree Stock Price Live NSE/BSE Updates The Economic Times"
     },
     {
       "title": "Mukul Agrawal-portfolio multibagger stock LT Foods jumps 5% after Q1 results; details here",
@@ -171,86 +251,6 @@
       "publishedAt": "2026-07-31T11:42:00+05:30",
       "category": "Economy",
       "summary": "Capital Group buys 1.5% stake in IIFL Fin for Rs 374 cr; stock rises over 2% The Economic Times"
-    },
-    {
-      "title": "Fusion Klassroom Edutech IPO day 1: GMP, subscription status, price band, other details of BSE SME IPO in 10 key points",
-      "excerpt": "Fusion Klassroom Edutech IPO opened for public subscription on Friday, 31 July. The price band of the public issue has been fixed at ₹151 to ₹159 per equity share.",
-      "url": "https://www.livemint.com/market/ipo/fusion-klassroom-edutech-ipo-day-1-gmp-subscription-status-price-band-other-details-of-bse-sme-ipo-in-10-key-points-11785474983825.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/logo/SME_IPO_1785475778143_1785475785403_e3904ada-3996-4eb1-afc2-5bc2fe53609d.png",
-      "publishedAt": "2026-07-31T11:40:19+05:30",
-      "category": "Markets",
-      "summary": "Fusion Klassroom Edutech IPO opened for public subscription on Friday, 31 July. The price band of the public issue has been fixed at ₹151 to ₹159 per equity share."
-    },
-    {
-      "title": "SBI Funds Mgt. Target Share Price, SBI Funds Mgt. Share Price Forecast",
-      "excerpt": "SBI Funds Mgt. Target Share Price, SBI Funds Mgt. Share Price Forecast The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVmJ0d0xmVWZtRHBNMlllNG5zNkQtQm1nVjhyb25wLVRldjNBdnJVUlpZZFZNOWQ5YWszZFpBbzl4UkNtLTFHeWdOLUxmWGpHUlVTOWVWcWZZbGNDUFhUSlZ4VnBid0NlU2lyTHBiVGNjLW8tcFJhU0c0MHFESGIxdF92cWZfQQ?oc=5",
-      "source": "The Economic Times",
-      "image": null,
-      "publishedAt": "2026-07-31T11:38:21+05:30",
-      "category": "Markets",
-      "summary": "SBI Funds Mgt. Target Share Price, SBI Funds Mgt. Share Price Forecast The Economic Times"
-    },
-    {
-      "title": "GV Electricals IPO Day 1: Issue booked 21% so far. Check GMP, key dates, issue details",
-      "excerpt": "GV Electricals IPO commenced on July 31, aiming to raise ₹42.25 crore. The firm's price band is set at ₹123-130, with mixed subscription status reported. Analysts view a positive market sentiment, reflected in an upward ",
-      "url": "https://www.livemint.com/market/ipo/gv-electricals-ipo-day-1-issue-booked-21-so-far-check-gmp-key-dates-issue-details-11785475636697.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/logo/SME_IPO_1757393434059_1757393439445_1785477218139_24e2697f-beb9-4778-ad64-ef0a92cbce82.png",
-      "publishedAt": "2026-07-31T11:28:20+05:30",
-      "category": "Markets",
-      "summary": "GV Electricals IPO commenced on July 31, aiming to raise ₹42.25 crore. The firm's price band is set at ₹123-130, with mixed subscription status reported. Analysts view a positive market sentiment, reflected in an upward "
-    },
-    {
-      "title": "Data Patterns shares fall nearly 7% after Q1 profit declines 14% YoY to Rs 22 crore",
-      "excerpt": "Data Patterns India shares declined after the defence electronics company reported a 14% YoY drop in Q1 FY27 net profit to Rs 22 crore. Despite the profit decline, revenue from operations rose 17% YoY to Rs 116 crore. Op",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/data-patterns-shares-fall-nearly-7-after-q1-profit-declines-14-yoy-to-rs-22-crore/articleshow/132757660.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-07-31T11:25:47+05:30",
-      "category": "Markets",
-      "summary": "Data Patterns India shares declined after the defence electronics company reported a 14% YoY drop in Q1 FY27 net profit to Rs 22 crore. Despite the profit decline, revenue from operations rose 17% YoY to Rs 116 crore. Op"
-    },
-    {
-      "title": "Poojaa Precision IPO: GMP jumps following strong subscription status, how to check allotment status online",
-      "excerpt": "Poojaa Precision IPO GMP today: According to market observers, the company's shares are available at a premium of ₹230 in the grey market today. From 23 July 2026 to 31 July 2026, Poojaa Precision IPO GMP has risen from ",
-      "url": "https://www.livemint.com/market/ipo/poojaa-precision-ipo-gmp-jumps-following-strong-subscription-status-how-to-check-allotment-status-online-11785474476120.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/logo/Poojaa_Precision_IPO_GMP_Subscription_Status_1785474931528_1785474931676_df0735ef-16b6-459b-b003-3359c0ee0a75.jpg",
-      "publishedAt": "2026-07-31T11:19:33+05:30",
-      "category": "Markets",
-      "summary": "Poojaa Precision IPO GMP today: According to market observers, the company's shares are available at a premium of ₹230 in the grey market today. From 23 July 2026 to 31 July 2026, Poojaa Precision IPO GMP has risen from "
-    },
-    {
-      "title": "Thermax shares crash 16% after firm expects weak quarters ahead after muted Q1 results",
-      "excerpt": "Thermax shares dropped significantly after reporting an 86% profit decline. Revenue rose 7% year-on-year, but earnings before interest, taxes, depreciation, and amortization fell. Order inflow increased 2%, and the total",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/thermax-shares-crash-16-after-firm-expects-weak-quarters-ahead-after-muted-q1-results/articleshow/132757535.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-07-31T11:16:34+05:30",
-      "category": "Markets",
-      "summary": "Thermax shares dropped significantly after reporting an 86% profit decline. Revenue rose 7% year-on-year, but earnings before interest, taxes, depreciation, and amortization fell. Order inflow increased 2%, and the total"
-    },
-    {
-      "title": "Redington shares gain 4% after Q1 profit jumps 77% YoY, revenue growth remains robust",
-      "excerpt": "Redington shares gained nearly 4% after a 15% surge in the previous session, following a strong Q1FY27 performance. The technology solutions provider reported a 77% YoY rise in net profit to Rs 486 crore, aided by record",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/redington-shares-gain-4-after-q1-profit-jumps-77-yoy-revenue-growth-remains-robust/articleshow/132757444.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-07-31T11:11:35+05:30",
-      "category": "Markets",
-      "summary": "Redington shares gained nearly 4% after a 15% surge in the previous session, following a strong Q1FY27 performance. The technology solutions provider reported a 77% YoY rise in net profit to Rs 486 crore, aided by record"
-    },
-    {
-      "title": "ITC Q1 results preview: Analysts see a weak quarter; cigarette tax hikes likely to dent profit, margins",
-      "excerpt": "Analysts forecast a challenging Q1 FY27 for ITC Ltd, with the agri and cigarette segments expected to weigh on earnings, amidst revenue declines. However, the FMCG sector shows promise with anticipated double-digit growt",
-      "url": "https://www.livemint.com/market/stock-market-news/itc-q1-results-preview-analysts-see-a-weak-quarter-cigarette-tax-hikes-likely-to-dent-profit-margins-what-to-expect-11785473654553.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/07/31/1600x900/logo/ITC_Q1_results_preview_1785473705164_1785473705268_2fccd629-bdbd-4b8e-82e7-a099f5222d29.JPG",
-      "publishedAt": "2026-07-31T11:08:43+05:30",
-      "category": "Markets",
-      "summary": "Analysts forecast a challenging Q1 FY27 for ITC Ltd, with the agri and cigarette segments expected to weigh on earnings, amidst revenue declines. However, the FMCG sector shows promise with anticipated double-digit growt"
     }
   ]
 }
