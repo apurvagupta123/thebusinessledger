@@ -1,26 +1,186 @@
 {
-  "lastUpdated": "2026-08-01T13:00:03+05:30",
+  "lastUpdated": "2026-08-01T15:04:09+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "July Auto Sales Live Updates: Tata Motors PV Total Sales 59% While Hyundai Motors Up 26%",
+      "title": "What are the big plans of the Tata Group?",
+      "excerpt": "Tata's biggest plans for the next decade are hidden in its annual report. Read on…",
+      "url": "https://www.livemint.com/market/stock-market-news/tata-sons-annual-report-tata-group-stocks-tata-sons-outlook-11785569979795.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/INDIA-TECH--16_1760108078411_1760108093593_1785573805899_742faa04-aa32-49b3-b9ff-c7e600a8d2db.JPG",
+      "publishedAt": "2026-08-01T14:31:36+05:30",
+      "category": "Markets",
+      "summary": "Tata's biggest plans for the next decade are hidden in its annual report. Read on…"
+    },
+    {
+      "title": "Gold posts first monthly gain in five months despite sharp sell-off: Is the rally just getting started?",
+      "excerpt": "Despite a recent decline caused by a stronger dollar, gold remains resilient, showing a potential monthly gain of 1.1%. Analysts anticipate that geopolitical tensions and economic uncertainty will support gold prices in ",
+      "url": "https://www.livemint.com/market/commodities/gold-price-outlook-gold-posts-first-monthly-gain-in-five-months-despite-sharp-sell-off-is-rally-just-getting-started-11785573969828.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/Gold_price_outlook_1785574114231_1785574114451_b7325cc4-1c7f-4c72-a0d0-8747ae5a7471.jpg",
+      "publishedAt": "2026-08-01T14:28:14+05:30",
+      "category": "Markets",
+      "summary": "Despite a recent decline caused by a stronger dollar, gold remains resilient, showing a potential monthly gain of 1.1%. Analysts anticipate that geopolitical tensions and economic uncertainty will support gold prices in "
+    },
+    {
+      "title": "Dhaval Packaging's Rs. 36.36 crore IPO to open on July 30",
+      "excerpt": "Dhaval Packaging Limited will launch its initial public offering on July 30. The company plans to raise Rs. 36.36 crore through a fresh equity share issue. Proceeds will fund capacity expansion at its Sanand manufacturin",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/dhaval-packagings-rs-36-36-crore-ipo-to-open-on-july-30/articleshow/132785516.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-01T14:03:17+05:30",
+      "category": "Markets",
+      "summary": "Dhaval Packaging Limited will launch its initial public offering on July 30. The company plans to raise Rs. 36.36 crore through a fresh equity share issue. Proceeds will fund capacity expansion at its Sanand manufacturin"
+    },
+    {
+      "title": "Clean Max Enviro Energy Solutions posts Rs 55-cr profit in Q1",
+      "excerpt": "CleanMax Enviro Energy Solutions achieved a net profit of Rs 55 crore in the June quarter. This profit resulted from a substantial 107 percent year-on-year revenue increase. The company's operational asset base and RE Se",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/clean-max-enviro-energy-solutions-posts-rs-55-cr-profit-in-q1/articleshow/132785490.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-01T14:00:55+05:30",
+      "category": "Markets",
+      "summary": "CleanMax Enviro Energy Solutions achieved a net profit of Rs 55 crore in the June quarter. This profit resulted from a substantial 107 percent year-on-year revenue increase. The company's operational asset base and RE Se"
+    },
+    {
+      "title": "AI bubble gone bust? Once a billionaire, how AI investor Leopold Aschenbrenner lost most of his hedge fund’s fortune in days",
+      "excerpt": "Aschenbrenner's fund, Situational Awareness, massively grew to as big as $45 billion at the beginning of July before big losses took hold, CNBC reported citing sources. The fund began to see massive losses in recent week",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-bubble-gone-bust-once-a-billionaire-how-ai-investor-leopold-aschenbrenner-lost-most-of-his-hedge-funds-fortune-in-days/articleshow/132785441.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-01T13:59:18+05:30",
+      "category": "Markets",
+      "summary": "Aschenbrenner's fund, Situational Awareness, massively grew to as big as $45 billion at the beginning of July before big losses took hold, CNBC reported citing sources. The fund began to see massive losses in recent week"
+    },
+    {
+      "title": "AI Image Generation Feature Pulled From Google Earth After Fake Images Surface",
+      "excerpt": "Google removed its AI satellite image tool from Google Earth within 24 hours after experts warned of misuse. The company cited policy violations, promised stronger safeguards, and said AI-generated images include invisib",
+      "url": "https://www.ndtvprofit.com/business/google-pulls-ai-image-generation-from-earth-after-fake-images-surface-11851738#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/qj3vqq4o_google-earth_625x300_01_August_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T13:57:07+05:30",
+      "category": "Markets",
+      "summary": "Google removed its AI satellite image tool from Google Earth within 24 hours after experts warned of misuse. The company cited policy violations, promised stronger safeguards, and said AI-generated images include invisib"
+    },
+    {
+      "title": "July Auto Sales Live Updates: Maruti Suzuki Total Sales Up 33% While Tata Motors PV Sales Rise 59%",
       "excerpt": "July Auto Sales Live: Major automakers are set to release monthly sales data on Saturday, August 1.",
       "url": "https://www.ndtvprofit.com/business/july-auto-sales-live-updates-sml-mahindra-maruti-suzuki-bajaj-auto-tata-motors-mahindra-hyundai-ola-electric-11851206#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-05/gura8krc_april-auto-sales-live_625x300_01_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-01T12:44:24+05:30",
+      "publishedAt": "2026-08-01T13:50:35+05:30",
       "category": "Markets",
       "summary": "July Auto Sales Live: Major automakers are set to release monthly sales data on Saturday, August 1."
     },
     {
-      "title": "Gross GST Collection Kitty Swells 15.4% To Over Rs 2.11 Lakh Crore In July",
+      "title": "Jana Nayagan Box Office Collection Day 9: Vijay's Film Records Solid Hold Despite Weekday Slowdown",
+      "excerpt": "Jana Nayagan collects Rs 3.55 crore on Day 9, taking its worldwide box office total to Rs 268.45 crore.",
+      "url": "https://www.ndtvprofit.com/lifestyle/jana-nayagan-box-office-collection-day-9-vijays-film-records-solid-hold-despite-weekday-slowdown-11851702#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/nuqb3kng_jananayaganboxofficecollectionday9vijayworldwidejpg_625x300_01_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T13:49:02+05:30",
+      "category": "Markets",
+      "summary": "Jana Nayagan collects Rs 3.55 crore on Day 9, taking its worldwide box office total to Rs 268.45 crore."
+    },
+    {
+      "title": "Income Tax Returns 2026: Five Reasons Your Refund May Get Stuck, Delayed",
+      "excerpt": "Here are five common reasons why your income tax refund may be delayed and what you can do to avoid them.",
+      "url": "https://www.ndtvprofit.com/personal-finance/income-tax-refund-five-reasons-your-refund-may-get-stuck-delayed-11851851#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/0ukicih_income-tax-efiling-portal-faces-glitches-as-taxpayers-rush-to-file-itr-before-july-31_625x300_24_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T13:37:13+05:30",
+      "category": "Markets",
+      "summary": "Here are five common reasons why your income tax refund may be delayed and what you can do to avoid them."
+    },
+    {
+      "title": "IndiGo To End London Heathrow Flights Within A Year Of Launch. Here's Why",
+      "excerpt": "The Heathrow route will close within a year of its launch as IndiGo responds to what it described as a challenging operating environment.",
+      "url": "https://www.ndtvprofit.com/india/indigo-to-end-heathrow-flights-less-than-a-year-after-launch-heres-why-11851956#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/lr9je1e8_indigo-photo-pti_625x300_01_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T13:36:24+05:30",
+      "category": "Markets",
+      "summary": "The Heathrow route will close within a year of its launch as IndiGo responds to what it described as a challenging operating environment."
+    },
+    {
+      "title": "India Crosses 5.9 Crore ITR Filings Before July 31 Tax Deadline",
+      "excerpt": "July 31 was the deadline for individuals filing ITR-1 and ITR-2 who are not required to get their accounts audited to submit their returns without incurring interest or a late-filing fee.",
+      "url": "https://www.ndtvprofit.com/economy/india-crosses-5-9-crore-itr-filings-before-july-31-tax-deadline-11851875#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-04/m92jklds_new-it-forms_625x300_29_April_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T13:30:44+05:30",
+      "category": "Markets",
+      "summary": "July 31 was the deadline for individuals filing ITR-1 and ITR-2 who are not required to get their accounts audited to submit their returns without incurring interest or a late-filing fee."
+    },
+    {
+      "title": "Explained: Why China Is Pushing Investors From Paper Gold Toward Physical Bullion",
+      "excerpt": "Beijing has moved to end retail paper gold trading as banks build offshore vaults and cross-border settlement infrastructure, Jefferies' Christopher Wood notes.",
+      "url": "https://www.ndtvprofit.com/world/explained-why-china-is-pushing-investors-from-paper-gold-toward-physical-bullion-11851918#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/hbvj445k_china-gold-play_625x300_01_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T13:27:04+05:30",
+      "category": "Markets",
+      "summary": "Beijing has moved to end retail paper gold trading as banks build offshore vaults and cross-border settlement infrastructure, Jefferies' Christopher Wood notes."
+    },
+    {
+      "title": "Gross GST Collection Kitty Surges 15.4% To Over Rs 2.11 Lakh Crore In July",
       "excerpt": "Gross GST collections in July rose 15.4% to over Rs 2.11 lakh crore, driven by increased revenues from domestic transactions and imports.",
       "url": "https://www.ndtvprofit.com/economy/gross-gst-collection-kitty-swells-15-4-pc-to-over-rs-2-11-lakh-cr-in-july-11851554#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-06/o2uumbm8_gst_625x300_01_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-01T12:40:18+05:30",
+      "publishedAt": "2026-08-01T13:11:46+05:30",
       "category": "Markets",
       "summary": "Gross GST collections in July rose 15.4% to over Rs 2.11 lakh crore, driven by increased revenues from domestic transactions and imports."
+    },
+    {
+      "title": "The Odyssey Box Office Collection Day 15: Christopher Nolan's Epic Continues Strong Run in India",
+      "excerpt": "Christopher Nolan's The Odyssey records growth in its third week and nears the Rs 140 crore India net mark.",
+      "url": "https://www.ndtvprofit.com/lifestyle/the-odyssey-box-office-collection-day-15-christopher-nolans-epic-continues-strong-run-in-india-11851604#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/d65d4gpc_theodysseyboxofficecollectionthirdweekindiajpg_625x300_01_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T13:08:36+05:30",
+      "category": "Markets",
+      "summary": "Christopher Nolan's The Odyssey records growth in its third week and nears the Rs 140 crore India net mark."
+    },
+    {
+      "title": "Chris Wood warns AI capex binge may burn billions as markets turn against Big Tech spending",
+      "excerpt": "Wood’s long-standing view is that the “hyperscalers will end up blowing a lot of money on their capex binge” and that AI could resemble the airline industry more than the winner-takes-all economics of the internet era.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/chris-wood-warns-ai-capex-binge-may-burn-billions-as-markets-turn-against-big-tech-spending/articleshow/132784757.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-01T13:08:20+05:30",
+      "category": "Markets",
+      "summary": "Wood’s long-standing view is that the “hyperscalers will end up blowing a lot of money on their capex binge” and that AI could resemble the airline industry more than the winner-takes-all economics of the internet era."
+    },
+    {
+      "title": "Divi's Labs Q1 Results: Net profit rises 66% YoY to Rs 902 crore, revenue up 28%",
+      "excerpt": "The firm’s revenue from operations meanwhile rose around 28% YoY to Rs 3,080 crore in Q1 FY27, from Rs 2,410 crore reported in the year-ago period. Its total income increased over 24% YoY to Rs 3,144 crore, while total e",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/divis-labs-q1-results-net-profit-rises-66-yoy-to-rs-902-crore-revenue-up-28/articleshow/132784662.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-01T13:00:01+05:30",
+      "category": "Markets",
+      "summary": "The firm’s revenue from operations meanwhile rose around 28% YoY to Rs 3,080 crore in Q1 FY27, from Rs 2,410 crore reported in the year-ago period. Its total income increased over 24% YoY to Rs 3,144 crore, while total e"
+    },
+    {
+      "title": "'Price Of Liberty And Democracy?': Bombay High Court Slams Littering In Mumbai, Flags Double Standards",
+      "excerpt": "The Bombay High Court criticised public littering and urged citizens to adopt civic responsibility. It directed authorities to enforce cleanliness rules, improve waste management, and address failures affecting Mumbai’s ",
+      "url": "https://www.ndtvprofit.com/india/price-of-liberty-and-democracy-bombay-high-court-slams-littering-in-mumbai-11851601#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/t9j5od6s_bombay-high-court_625x300_01_August_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-01T12:57:28+05:30",
+      "category": "Markets",
+      "summary": "The Bombay High Court criticised public littering and urged citizens to adopt civic responsibility. It directed authorities to enforce cleanliness rules, improve waste management, and address failures affecting Mumbai’s "
+    },
+    {
+      "title": "Sunil Singhania's Abakkus portfolio: 5 stocks rally up to 105% in CY26; 2 new buys added in Q1",
+      "excerpt": "The analysis includes only those companies in which the investor holds more than a 1% stake and may not represent the entirety of the portfolio.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sunil-singhanias-abakkus-portfolio-5-stocks-rally-up-to-105-in-cy26-2-new-buys-added-in-q1/slideshow/132784682.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-01T12:48:50+05:30",
+      "category": "Markets",
+      "summary": "The analysis includes only those companies in which the investor holds more than a 1% stake and may not represent the entirety of the portfolio."
     },
     {
       "title": "ATF Price Hike: Domestic Jet Fuel Prices Raised By Rs 5/Litre After July Cut",
@@ -51,16 +211,6 @@
       "publishedAt": "2026-08-01T12:25:33+05:30",
       "category": "Markets",
       "summary": "Divi's Laboratories reported a strong first quarter, with consolidated net profit rising 65.5% year-on-year to Rs 902 crore"
-    },
-    {
-      "title": "Jio Financial Services sets record date for dividend. Check details",
-      "excerpt": "Jio Financial Services set August 10 as the record date for its final dividend. The company reported significant year-on-year profit and revenue growth in the first quarter. Interest income and fees and commission income",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-financial-services-sets-record-date-for-dividend-check-details/articleshow/132783869.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-01T12:20:17+05:30",
-      "category": "Markets",
-      "summary": "Jio Financial Services set August 10 as the record date for its final dividend. The company reported significant year-on-year profit and revenue growth in the first quarter. Interest income and fees and commission income"
     },
     {
       "title": "FCNR(B) Deposits Drive $40.8 Billion Forex Inflows Under RBI Swap Scheme",
@@ -101,156 +251,6 @@
       "publishedAt": "2026-08-01T12:04:11+05:30",
       "category": "Markets",
       "summary": "Prime Minister Narendra Modi inaugurated the Alluri Sitarama Raju International Airport in Visakhapatnam, Andhra Pradesh, developed by GMR Group at a cost of nearly Rs 5,000 crore."
-    },
-    {
-      "title": "Bitcoin slips below $63,000 to a two-week low as weak Coinbase earnings and fading optimism weigh on sentiment",
-      "excerpt": "Bitcoin fell below $63,000, its lowest in two weeks, as sentiment weakened. Coinbase earnings and fading optimism about U.S. crypto legislation impacted market sentiment. Major altcoins like XRP and Solana also saw corre",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-slips-below-63000-to-a-two-week-low-as-weak-coinbase-earnings-and-fading-optimism-weigh-on-sentiment/articleshow/132783427.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-01T12:03:52+05:30",
-      "category": "Markets",
-      "summary": "Bitcoin fell below $63,000, its lowest in two weeks, as sentiment weakened. Coinbase earnings and fading optimism about U.S. crypto legislation impacted market sentiment. Major altcoins like XRP and Solana also saw corre"
-    },
-    {
-      "title": "Zee share price to be in focus on Monday after Sebi bars Subhash Chandra, Punit Goenka for one year",
-      "excerpt": "ZEEL shares rose 2.85% to ₹115.45 on July 31. Despite a recent gain of 36% over six months, the stock is down 3% year-over-year and 43% over five years. SEBI's investigation revealed missing title deeds related to loans ",
-      "url": "https://www.livemint.com/market/stock-market-news/zee-share-price-to-be-in-focus-on-monday-after-sebi-bars-subhash-chandra-punit-goenka-for-one-year-11785564737513.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/Zee_share_price_to_be_in_focus_1785564861272_1785564861417_c6c3b783-bd52-4c46-ad3d-a1f1cb9b666e.JPG",
-      "publishedAt": "2026-08-01T12:02:11+05:30",
-      "category": "Markets",
-      "summary": "ZEEL shares rose 2.85% to ₹115.45 on July 31. Despite a recent gain of 36% over six months, the stock is down 3% year-over-year and 43% over five years. SEBI's investigation revealed missing title deeds related to loans "
-    },
-    {
-      "title": "Expert view: AI will be useful in trading, but it can't replace judgment, says Shai Coelho of Vtrender",
-      "excerpt": "Shai Coelho of Vtrender emphasises that while AI enhances trading efficiency, it cannot replace the human judgment essential for successful trading. As markets evolve, understanding context, structure, and participant be",
-      "url": "https://www.livemint.com/market/stock-market-news/expert-view-ai-will-be-useful-in-trading-but-it-cant-replace-judgment-says-shai-coelho-of-vtrender-11785565191853.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/Shai_Coelho_1785565211003_1785565219031_ed52d532-d5ea-4a8f-bda4-c17c2648d4b0.jpg",
-      "publishedAt": "2026-08-01T11:58:53+05:30",
-      "category": "Markets",
-      "summary": "Shai Coelho of Vtrender emphasises that while AI enhances trading efficiency, it cannot replace the human judgment essential for successful trading. As markets evolve, understanding context, structure, and participant be"
-    },
-    {
-      "title": "Q1 Results On August 1: Divi's Labs, Muthoot Finance, CDSL Among Over 30 Firms To Share Earnings",
-      "excerpt": "Important names that will announce results include Aditya Birla Lifestyle Brands, Utkarsh Small Finance Bank and Epack Prefab Technologies.",
-      "url": "https://www.ndtvprofit.com/markets/q1-results-aug-1-divis-labs-muthoot-finance-cdsl-among-over-30-firms-to-share-earnings-11851579#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/dde71r4o_q1-earnings_625x300_29_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-01T11:52:08+05:30",
-      "category": "Markets",
-      "summary": "Important names that will announce results include Aditya Birla Lifestyle Brands, Utkarsh Small Finance Bank and Epack Prefab Technologies."
-    },
-    {
-      "title": "Gross GST collections rise 15.4% to  ₹2.11 trillion in July",
-      "excerpt": "After adjusting for refunds, net GST collections rose 15.8% year-on-year to ₹1.81 trillion.",
-      "url": "https://www.livemint.com/economy/india-gst-collections-goods-and-services-tax-indirect-tax-11785563575975.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/INDIA-ECONOMY-1_1763996541446_1763996550962_1785564208073_a4963cae-4474-443d-965e-71823aa0b7ee.jpg",
-      "publishedAt": "2026-08-01T11:47:31+05:30",
-      "category": "Economy",
-      "summary": "After adjusting for refunds, net GST collections rose 15.8% year-on-year to ₹1.81 trillion."
-    },
-    {
-      "title": "Flipkart Introduces Free Netflix Mobile Plan For Plus Members From August 1",
-      "excerpt": "The e-commerce giant has partnered with Netflix to offer the streaming benefit as part of its loyalty programme, allowing users to enjoy Netflix without paying separately for a subscription or recharge.",
-      "url": "https://www.ndtvprofit.com/business/flipkart-introduces-free-netflix-mobile-plan-for-plus-members-from-august-1-11849040#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/l1d1ela8_netflix_625x300_31_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-01T11:40:51+05:30",
-      "category": "Markets",
-      "summary": "The e-commerce giant has partnered with Netflix to offer the streaming benefit as part of its loyalty programme, allowing users to enjoy Netflix without paying separately for a subscription or recharge."
-    },
-    {
-      "title": "Bandhan Small Cap among 4 small caps that delivered over 20% CAGR since their respective inception",
-      "excerpt": "The top four small-cap mutual funds have delivered over 20% CAGR since their inception. Here's a detailed look at their AUM, inception dates, and performance. (Source: MF Screener)",
-      "url": "https://economictimes.indiatimes.com/mf/analysis/bandhan-small-cap-among-4-small-caps-that-delivered-over-20-cagr-since-their-respective-inception/slideshow/132782811.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-01T11:35:24+05:30",
-      "category": "Markets",
-      "summary": "The top four small-cap mutual funds have delivered over 20% CAGR since their inception. Here's a detailed look at their AUM, inception dates, and performance. (Source: MF Screener)"
-    },
-    {
-      "title": "No Annapurna Yojana Money Yet? Here's What To Do If Your Application Is Rejected — Step-By",
-      "excerpt": "The Annapurna Yojana, launched in June 2026 under Chief Minister Suvendu Adhikari, replaced the previous Lakshmir Bhandar scheme, which offered Rs 1,500 monthly.",
-      "url": "https://www.ndtvprofit.com/india/no-annapurna-yojana-money-yet-heres-what-to-do-if-your-application-is-rejected-11851370#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/6vjtsiss_c_625x300_01_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-01T11:35:18+05:30",
-      "category": "Markets",
-      "summary": "The Annapurna Yojana, launched in June 2026 under Chief Minister Suvendu Adhikari, replaced the previous Lakshmir Bhandar scheme, which offered Rs 1,500 monthly."
-    },
-    {
-      "title": "FIFA President Gianni Infantino Scraps Controversial World Cup Investment Plan: Here's Why",
-      "excerpt": "FIFA has abandoned its proposal to sell a minority stake in the commercial rights of the FIFA World Cup and other flagship tournaments after the plan sparked fierce opposition from UEFA, football leaders, politicians and",
-      "url": "https://www.ndtvprofit.com/sports/fifa-president-gianni-infantino-scraps-controversial-world-cup-investment-plan-heres-why-11851521#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/8g7oh0bg_gianni_625x300_01_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-01T11:28:56+05:30",
-      "category": "Markets",
-      "summary": "FIFA has abandoned its proposal to sell a minority stake in the commercial rights of the FIFA World Cup and other flagship tournaments after the plan sparked fierce opposition from UEFA, football leaders, politicians and"
-    },
-    {
-      "title": "Stocks to buy under  ₹200: Mehul Kothari of Anand Rathi recommends three shares to buy or sell",
-      "excerpt": "Indian equity markets rallied with Sensex and Nifty 50 closing at three-week highs, supported by FII inflows and a decline in crude oil prices. Mehul Kothari recommends Vodafone Idea, YES Bank, and Suzlon Energy as stock",
-      "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-under-rs-200-mehul-kothari-of-anand-rathi-recommends-three-shares-to-buy-or-sell-idea-suzlon-yes-bank-11785560868740.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/Shares_Stocks_to_buy_today_Buy_or_sell_stock_1743839060535_1785561001879_71e7103b-9a42-4e3e-b97b-6bd1e157de27.JPG",
-      "publishedAt": "2026-08-01T11:28:25+05:30",
-      "category": "Markets",
-      "summary": "Indian equity markets rallied with Sensex and Nifty 50 closing at three-week highs, supported by FII inflows and a decline in crude oil prices. Mehul Kothari recommends Vodafone Idea, YES Bank, and Suzlon Energy as stock"
-    },
-    {
-      "title": "Indian stock market registers broader rally in the last three out of four months. Can the momentum continue?",
-      "excerpt": "Despite geopolitical tensions and oil price fluctuations, the Indian stock market outperformed expectations. What’s fueling this growth, and can it last? Dive into the insights from market experts on near-term trends.",
-      "url": "https://www.livemint.com/market/stock-market-news/nifty-50-rises-in-3-of-last-4-months-what-is-driving-the-rally-can-the-momentum-continue-11785562640107.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/Stock_market_1767410262228_1767410269728_1785562797627_f428da6c-b6b4-42b6-9223-60a944f1185a.png",
-      "publishedAt": "2026-08-01T11:17:52+05:30",
-      "category": "Markets",
-      "summary": "Despite geopolitical tensions and oil price fluctuations, the Indian stock market outperformed expectations. What’s fueling this growth, and can it last? Dive into the insights from market experts on near-term trends."
-    },
-    {
-      "title": "Concurrent Gainers: 15 stocks rally for five straight sessions, surge up to 20%",
-      "excerpt": "Concurrent Gainers: 15 stocks rally for five straight sessions, surge up to 20%",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-15-stocks-rally-for-five-straight-sessions-surge-up-to-20/slideshow/132782299.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-01T11:08:32+05:30",
-      "category": "Markets",
-      "summary": "Concurrent Gainers: 15 stocks rally for five straight sessions, surge up to 20%"
-    },
-    {
-      "title": "Maharashtra-based SME stock plunges 20% as MD gets shot, director taken in police custody",
-      "excerpt": "In an exchange filing, GSM Foils said the firing incident took place in the Naikpada area in Vasai-Virar, located near Mumbai. After getting injured in the incident, the company said that Parmar received prompt medical a",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/maharashtra-based-sme-stock-plunges-20-as-md-gets-shot-director-taken-in-police-custody/articleshow/132781857.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-01T11:06:31+05:30",
-      "category": "Markets",
-      "summary": "In an exchange filing, GSM Foils said the firing incident took place in the Naikpada area in Vasai-Virar, located near Mumbai. After getting injured in the incident, the company said that Parmar received prompt medical a"
-    },
-    {
-      "title": "Q1 results today: Divi's Labs, Muthoot Finance, APL Apollo among over 30 companies set to announce Q1 earnings",
-      "excerpt": "Over 30 companies are set to report their Q1 FY27 results today, August 1, including prominent names such as Divi's Laboratories, Muthoot Finance, APL Apollo Tubes and Clean Science and Technology.",
-      "url": "https://www.livemint.com/market/stock-market-news/q1-results-today-divis-labs-muthoot-finance-apl-apollo-among-over-30-companies-set-to-announce-q1-earnings-11785559967801.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/Q1_Results_today_1785560016389_1785560016518_a3022a27-6e0b-478c-a870-064862dcacb0.jpg",
-      "publishedAt": "2026-08-01T10:42:50+05:30",
-      "category": "Markets",
-      "summary": "Over 30 companies are set to report their Q1 FY27 results today, August 1, including prominent names such as Divi's Laboratories, Muthoot Finance, APL Apollo Tubes and Clean Science and Technology."
-    },
-    {
-      "title": "West Asia war escalation, impact of El Niño to determine future RBI rate action",
-      "excerpt": "West Asia war escalation, impact of El Niño to determine future RBI rate action Fortune India",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVS1Td2RqMmo0aHlZa1lEZTZ6ZkFzRUlQSV9tVlJ4ZE1PSEZVNE1DNGtBbDkzQzd0MjBwbWpRRVE5dHl3QWoyd3VsMTg3NWpRYzI0aklxQ1Y2LWtobGpzdUhNZUttajFYRG1aV1RBeFdXSmdYSnprRkU2RHpzMVpaT2N2M3ctN0FncXY0b3dPNlhqU0ZLdFZDeHRpSGdZbG1rZm9JWWlHWFR4cTA3NS1wNFVxUXFlSWcyMUtOV3B2bjdIdUE1M2twS1ZfQ0RBbzBfSzhF0gHTAUFVX3lxTE5VLVN3ZGoyajRoeVlrWURlNnpmQXNFSVBJX21WUnhkTU9IRlU0TUM0a0FsOTNDN3QyMHBtalFFUTl0eXdBajJ3dWwxODc1alFjMjRqSXFDVjYta2hsanN1SE1lS21qMVhEbVpXVEF4V1dKZ1hKemtGRTZEenMxWlpPY3Yzdy03QWdxdjRvd082WGpTRkt0VkN4dGlIZ1lsbWtmb0lZaUdYVHhxMDc1LXA0VXFRcWVJZzIxS05XcHZuN0h1QTUza3BLVl9DREFvMF9LOEU?oc=5",
-      "source": "Fortune India",
-      "image": null,
-      "publishedAt": "2026-08-01T10:31:07+05:30",
-      "category": "Economy",
-      "summary": "West Asia war escalation, impact of El Niño to determine future RBI rate action Fortune India"
     }
   ]
 }
