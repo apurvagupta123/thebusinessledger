@@ -1,26 +1,236 @@
 {
-  "lastUpdated": "2026-08-04T16:58:26+05:30",
+  "lastUpdated": "2026-08-04T18:47:18+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "'Illegal, Unacceptable': Mrunal Thakur Warns Of Legal Action Over AI Deepfakes",
-      "excerpt": "Mrunal Thakur has issued a stern warning against AI-generated deepfakes, saying any unauthorised use of her identity or likeness will lead to legal action.",
-      "url": "https://www.ndtvprofit.com/lifestyle/mrunal-thakur-warns-of-legal-action-over-ai-deepfakes-11864015#publisher=newsstand",
+      "title": "New Tax Bill Will Make Indian Data Centres Globally Attractive, Nasscom Says",
+      "excerpt": "Nasscom said the move improves tax certainty for foreign companies, eases compliance requirements for cloud service providers, and lowers the approval burden on Indian data centres.",
+      "url": "https://www.ndtvprofit.com/economy/new-tax-bill-will-make-indian-data-centres-globally-attractive-nasscom-says-11864774#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/pt0knecc_mrunalthakuraideepfakewarninghdjpg_625x300_04_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:53:06+05:30",
+      "image": "https://c.ndtvimg.com/2026-08/9v8ifluo_bb_625x300_04_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T18:16:51+05:30",
       "category": "Markets",
-      "summary": "Mrunal Thakur has issued a stern warning against AI-generated deepfakes, saying any unauthorised use of her identity or likeness will lead to legal action."
+      "summary": "Nasscom said the move improves tax certainty for foreign companies, eases compliance requirements for cloud service providers, and lowers the approval burden on Indian data centres."
     },
     {
-      "title": "War Windfall: BP Profits Double To $5.7 Billion As Iran Conflict Keeps Oil Elevated",
-      "excerpt": "Higher crude prices triggered by the Iran conflict lift BP's quarterly earnings to a four-year high, even as the company doubles down on fossil fuels.",
-      "url": "https://www.ndtvprofit.com/markets/war-windfall-bp-profits-double-to-5-7-billion-as-iran-conflict-keeps-oil-elevated-11864091#publisher=newsstand",
+      "title": "Oil Futures Dwindle As Bessent Says Hormuz Deal For 'Freedom Of Movement' Likely By Tue, Wed",
+      "excerpt": "U.S. Treasury Secretary Scott Bessent says Washington and Tehran are in talks, with a possible agreement to reopen the Strait of Hormuz as early as Tuesday or Wednesday.",
+      "url": "https://www.ndtvprofit.com/world/oil-futures-dwindle-as-bessent-says-hormuz-deal-for-freedom-of-movement-likely-by-tue-wed-11864658#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/rb97gamo_bp_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:49:07+05:30",
+      "image": "https://c.ndtvimg.com/2026-06/pltapd2o_oil_625x300_18_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T18:14:50+05:30",
       "category": "Markets",
-      "summary": "Higher crude prices triggered by the Iran conflict lift BP's quarterly earnings to a four-year high, even as the company doubles down on fossil fuels."
+      "summary": "U.S. Treasury Secretary Scott Bessent says Washington and Tehran are in talks, with a possible agreement to reopen the Strait of Hormuz as early as Tuesday or Wednesday."
+    },
+    {
+      "title": "PVR Inox Brings SMART Cinemas To Tier III Cities",
+      "excerpt": "The company announced that Muzaffarpur in Bihar will be the first city to welcome the new concept, marking the beginning of its expansion strategy focused on smaller but fast-growing urban markets.",
+      "url": "https://www.ndtvprofit.com/business/entertainment-pvr-inox-brings-smart-cinemas-to-tier-iii-cities-movie-film-theatre-hall-11864642#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/1m4etq5o_cinema-hall_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T18:13:25+05:30",
+      "category": "Markets",
+      "summary": "The company announced that Muzaffarpur in Bihar will be the first city to welcome the new concept, marking the beginning of its expansion strategy focused on smaller but fast-growing urban markets."
+    },
+    {
+      "title": "Pfizer Q2 Tops Wall Street Estimates, Driven By Surging Sales Of Blood Thinner Eliquis",
+      "excerpt": "Outstanding worldwide demand for its popular blood thinner, Eliquis, together with fundamental cost-management initiatives, were the main driver of this outstanding company performance.",
+      "url": "https://www.ndtvprofit.com/business/pfizer-q2-tops-wall-street-estimates-driven-by-surging-sales-of-blood-thinner-eliquis-11864516#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/4b16d620_Exterior_of_Pfizer_Ltd__head_office_building_in_BKC__Mumbai___Photographer_Vijay_Sartape_Source_BQ_P.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T18:03:42+05:30",
+      "category": "Markets",
+      "summary": "Outstanding worldwide demand for its popular blood thinner, Eliquis, together with fundamental cost-management initiatives, were the main driver of this outstanding company performance."
+    },
+    {
+      "title": "Kalyan Jewellers Q1 Results: Net profit jumps 32% YoY to  ₹349 crore; margins contract",
+      "excerpt": "Kalyan Jewellers reported a net profit of ₹348 crore for the June quarter, a 32% YoY increase. However, it declined sequentially from ₹409 crore. Revenue rose 46% YoY to ₹10,589 crore, but fell 3% QoQ, with lower contrib",
+      "url": "https://www.livemint.com/market/kalyan-jewellers-q1-results-net-profit-jumps-32-yoy-to-rs-349-crore-margins-contract-11785845252707.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/04/1600x900/logo/gb365710801d188b2dd5df7c299f8fb7a0aa0eb4cc86a61669_1736747336579_1785845250601_d09b2432-317e-4ce8-bbe7-22d9a2f6a4d7.jpg",
+      "publishedAt": "2026-08-04T17:57:02+05:30",
+      "category": "Markets",
+      "summary": "Kalyan Jewellers reported a net profit of ₹348 crore for the June quarter, a 32% YoY increase. However, it declined sequentially from ₹409 crore. Revenue rose 46% YoY to ₹10,589 crore, but fell 3% QoQ, with lower contrib"
+    },
+    {
+      "title": "Kejriwal Stopped By Delhi Police During March To PM's Residence Over E20 Fuel",
+      "excerpt": "The AAP had begun the march with around 100 supporters, carrying petitions collected from people across the country against the government's promotion of E20 petrol.",
+      "url": "https://www.ndtvprofit.com/india/arvind-kejriwal-stopped-by-delhi-police-during-march-to-pms-residence-over-e20-fuel-11864507#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/q5jqntl4_arvind-kejriwal_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:53:37+05:30",
+      "category": "Markets",
+      "summary": "The AAP had begun the march with around 100 supporters, carrying petitions collected from people across the country against the government's promotion of E20 petrol."
+    },
+    {
+      "title": "Decoding Tax Amendment Bill 2026: Exemptions For Tech, Data Centres, And Foreign Funds Explained",
+      "excerpt": "A quick guide to the proposed tax changes, sector-wise incentives and their likely impact.",
+      "url": "https://www.ndtvprofit.com/economy/decoding-tax-amendment-bill-2026-exemptions-for-tech-data-centres-and-foreign-funds-explained-11864543#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/5dcf95ee_tax-scutinyEnvato.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:46:34+05:30",
+      "category": "Markets",
+      "summary": "A quick guide to the proposed tax changes, sector-wise incentives and their likely impact."
+    },
+    {
+      "title": "'Try To Fix As Quickly As Possible': WhatsApp Admits Mistaken Bans In Latest Safety Sweep",
+      "excerpt": "Meta-owned platform says some legitimate accounts may have been wrongly flagged as it steps up efforts to curb abuse.",
+      "url": "https://www.ndtvprofit.com/technology/try-to-fix-as-quickly-as-possible-whatsapp-admits-mistaken-bans-in-latest-safety-sweep-11864484#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-02/sbk65cjc_whatsapp_625x300_12_February_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:42:37+05:30",
+      "category": "Markets",
+      "summary": "Meta-owned platform says some legitimate accounts may have been wrongly flagged as it steps up efforts to curb abuse."
+    },
+    {
+      "title": "Meet Owais Yaqoob, The MMA Fighter From Pulwama Eyeing The UFC",
+      "excerpt": "His long-term goal remains unchanged: securing a place in the UFC and representing India on MMA's biggest stage.",
+      "url": "https://www.ndtvprofit.com/sports/meet-owais-yaqoob-the-mma-fighter-from-pulwama-eyeing-the-ufc-11864440#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/95edq48_owais-yaqoob_625x300_04_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:36:23+05:30",
+      "category": "Markets",
+      "summary": "His long-term goal remains unchanged: securing a place in the UFC and representing India on MMA's biggest stage."
+    },
+    {
+      "title": "Dow Futures Rally 1.3%; Nasdaq Up As Palantir Soars 16% Pre",
+      "excerpt": "Chip stocks such as AMD advanced 4.92%, while Micron and Nvidia rose 4.48% and1.42% respectively during pre-market session. Intel shares jumped 4.92%, while Sandisk and SK hynix rose 5.24% and 3.77%.",
+      "url": "https://www.ndtvprofit.com/markets/dow-futures-rally-1-3-nasdaq-up-as-palantir-soars-16-pre-market-chip-stocks-rebound-11864466#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/0f0b0489_Wall-Street-Hero-image.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:35:12+05:30",
+      "category": "Markets",
+      "summary": "Chip stocks such as AMD advanced 4.92%, while Micron and Nvidia rose 4.48% and1.42% respectively during pre-market session. Intel shares jumped 4.92%, while Sandisk and SK hynix rose 5.24% and 3.77%."
+    },
+    {
+      "title": "McDonald's Growth Slows In Sign US Diners Are Retrenching",
+      "excerpt": "McDonald's shares rose 2.6% at 7:07 a.m. in premarket trading in New York, signaling the results weren't as downbeat as some analysts had feared.",
+      "url": "https://www.ndtvprofit.com/markets/mcdonalds-growth-slows-in-sign-us-diners-are-retrenching-11864521#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/garfvlng_mcdonald-westlife-foodworld-q1-result-photo-unsplash_625x300_30_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:32:32+05:30",
+      "category": "Markets",
+      "summary": "McDonald's shares rose 2.6% at 7:07 a.m. in premarket trading in New York, signaling the results weren't as downbeat as some analysts had feared."
+    },
+    {
+      "title": "Why Is WhatsApp Asking For Your Age In India? Decoding The New Compliance Call",
+      "excerpt": "The Digital Personal Data Protection Act is India's data privacy law that regulates how companies, government bodies and other organisations collect, process, store and use individuals' personal data.",
+      "url": "https://www.ndtvprofit.com/technology/why-is-whatsapp-asking-for-your-age-in-india-decoding-the-new-compliance-call-11864267#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/71ugri7s_whattsapp_625x300_04_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:31:17+05:30",
+      "category": "Markets",
+      "summary": "The Digital Personal Data Protection Act is India's data privacy law that regulates how companies, government bodies and other organisations collect, process, store and use individuals' personal data."
+    },
+    {
+      "title": "SS Rajamouli Reveals Varanasi Is the First Non",
+      "excerpt": "SS Rajamouli has shared fresh details about Varanasi, revealing that 80% of the film has been completed and confirming it is the first non-English film shot entirely in IMAX.",
+      "url": "https://www.ndtvprofit.com/lifestyle/ss-rajamouli-reveals-varanasi-is-the-first-non-english-film-shot-entirely-in-imax-11864182#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/3dvvtiq_ssrajamoulivaranasiimaxupdatejpg_625x300_04_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:23:46+05:30",
+      "category": "Markets",
+      "summary": "SS Rajamouli has shared fresh details about Varanasi, revealing that 80% of the film has been completed and confirming it is the first non-English film shot entirely in IMAX."
+    },
+    {
+      "title": "'Trisha' Remark Row: Udhayanidhi Stalin To Be Released On Station Bail, Tamil Nadu Govt Tells Madras HC",
+      "excerpt": "The Madras High Court directed police to release Udhayanidhi Stalin on station bail after completing questioning in the case over his remarks about actor Trisha.",
+      "url": "https://www.ndtvprofit.com/india/trisha-remark-row-udhayanidhi-stalin-to-be-released-on-station-bail-tamil-nadu-govt-tells-madras-hc-11863841#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/p45itue8_stalin_625x300_04_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:22:54+05:30",
+      "category": "Markets",
+      "summary": "The Madras High Court directed police to release Udhayanidhi Stalin on station bail after completing questioning in the case over his remarks about actor Trisha."
+    },
+    {
+      "title": "Kalyan Jewellers Q1 Results: Profit Jumps 32% Even As Margins Contract, Revenue Tops Rs 10,500 Crore",
+      "excerpt": "Kalyan Jewellers' revenue saw a 46% uptick to Rs 10,589 crore, compared to Rs 7,268 crore in the preceding financial year.",
+      "url": "https://www.ndtvprofit.com/markets/kalyan-jewellers-q1-results-profit-jumps-32-even-as-margins-contract-revenue-tops-rs-10-500-crore-11864360#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/pcc5ivjo_kalyan-jewellers-_625x300_07_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:20:38+05:30",
+      "category": "Markets",
+      "summary": "Kalyan Jewellers' revenue saw a 46% uptick to Rs 10,589 crore, compared to Rs 7,268 crore in the preceding financial year."
+    },
+    {
+      "title": "Sensex slips 210 points",
+      "excerpt": "Sensex slips 210 points News Arena India",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBER3hmNTE1SGZsNlJYck55VUxLZ2Vydm1oX0REb3N2X3REWlFXTHFZVExiVGZUQUNKN0NRSjVGWEtReVRLX3IwTTV2WDFtMDRRTlJKdlRZNm1lYUE0elZTaDNNbHU2QVFXLXZPT3pnQVhRUQ?oc=5",
+      "source": "News Arena India",
+      "image": null,
+      "publishedAt": "2026-08-04T17:20:32+05:30",
+      "category": "Markets",
+      "summary": "Sensex slips 210 points News Arena India"
+    },
+    {
+      "title": "Nifty ends 0.64% down, Sensex declines 0.27%, new closing auction mechanism keeps markets volatile says experts",
+      "excerpt": "Nifty ends 0.64% down, Sensex declines 0.27%, new closing auction mechanism keeps markets volatile says experts Kalinga TV",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNVlEWlZ4WEZNNlR4dHZjeS02R1lWN0RLQmZqWE01NWtoR3hjOFZ1MVF5LUM3ZVNvbVdxcmZYd1NKeUVKUUdxLWZhWmJUMTliNEFPLWIwc1IySjBrWlktakZ3LTFGR2daQ0prdzVEaDZLUWRMQTA3bnV3NzlLNzZTRVV0Zl9SRWk4R0NiVDdhc2c2d0NqdnRQWnlaT3VSbTZUTUp5UlEwcVYxLUN5TkVBblRYM2lZVERSWHdUSGllYlJJUUd2WDNMVzlMRzNaQm1ObnpTeXFn?oc=5",
+      "source": "Kalinga TV",
+      "image": null,
+      "publishedAt": "2026-08-04T17:19:31+05:30",
+      "category": "Markets",
+      "summary": "Nifty ends 0.64% down, Sensex declines 0.27%, new closing auction mechanism keeps markets volatile says experts Kalinga TV"
+    },
+    {
+      "title": "Who Is Devendra Nath Mahto? Student Leader Called 'Sonam Wangchuk' Of Jharkhand Protest",
+      "excerpt": "Mahto resorted to an indefinite fast after weeks of protests failed to elicit a response from the government.",
+      "url": "https://www.ndtvprofit.com/india/jharkhand-students-protest-who-is-devendra-nath-mahto-called-the-sonam-wangchuk-of-the-movement-11864028#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/512va9qs_devendra-nath-mahto_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:13:38+05:30",
+      "category": "Markets",
+      "summary": "Mahto resorted to an indefinite fast after weeks of protests failed to elicit a response from the government."
+    },
+    {
+      "title": "Infantino Sought Donald Trump's Backing Amid Row Over World Cup Stake",
+      "excerpt": "Infantino made several unsuccessful attempts to contact Trump and sought discussions with the US administration as pressure has been mounting over his leadership.",
+      "url": "https://www.ndtvprofit.com/world/infantino-sought-donald-trumps-backing-amid-row-over-world-cup-stake-sale-plan-report-11864408#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/kvo9mbd4_trump-infantino_625x300_06_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:11:13+05:30",
+      "category": "Markets",
+      "summary": "Infantino made several unsuccessful attempts to contact Trump and sought discussions with the US administration as pressure has been mounting over his leadership."
+    },
+    {
+      "title": "Bharti Airtel Q1 Results: Profit climbs on higher subscriber upgrades, robust data usage",
+      "excerpt": "Bharti Airtel reported a consolidated net profit of ₹8,167 crore for Q1FY27, a 37.3% YoY increase, announced on August 04. However, net profit declined 11.5% compared to ₹7,325 crore in Q4FY26.",
+      "url": "https://www.livemint.com/market/stock-market-news/bharti-airtel-q1-results-net-profit-rises-37-yoy-to-rs-8-167-crore-revenue-jumps-18-11785842962022.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/04/1600x900/INDIA-BHARTI-ARTEL-4_1730280143198_1785842960111_47ea6d1f-9a0a-463d-bdbd-7d5cf6b3d83a.jpg",
+      "publishedAt": "2026-08-04T17:07:16+05:30",
+      "category": "Markets",
+      "summary": "Bharti Airtel reported a consolidated net profit of ₹8,167 crore for Q1FY27, a 37.3% YoY increase, announced on August 04. However, net profit declined 11.5% compared to ₹7,325 crore in Q4FY26."
+    },
+    {
+      "title": "Marico Q1 Results: Profit Rises 25%, Revenue Nears Rs 4,000 Crore; Margins Improve",
+      "excerpt": "FMCG major beats Bloomberg consensus estimates on profit, revenue and margins in the June quarter.",
+      "url": "https://www.ndtvprofit.com/business/marico-q1-results-profit-rises-25-revenue-nears-rs-4-000-crore-margins-improve-11863970#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/4f7tfjck_marico_625x300_08_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:02:18+05:30",
+      "category": "Markets",
+      "summary": "FMCG major beats Bloomberg consensus estimates on profit, revenue and margins in the June quarter."
+    },
+    {
+      "title": "Nykaa Q1 Results: Profit Soars Nearly 3.5x As Margins Expand, Revenue Jumps 29%",
+      "excerpt": "Revenue from operations rose 29% year-on-year to Rs 2,782 crore, slightly ahead of analysts' estimate of Rs 2,762 crore, compared with Rs 2,155 crore in the year-ago quarter.",
+      "url": "https://www.ndtvprofit.com/markets/nykaa-q1-results-profit-soars-nearly-2-5x-as-margins-expand-revenue-jumps-29-11864194#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/d96b61b8_EcePIORUEAAYBhb.jfif?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:01:18+05:30",
+      "category": "Markets",
+      "summary": "Revenue from operations rose 29% year-on-year to Rs 2,782 crore, slightly ahead of analysts' estimate of Rs 2,762 crore, compared with Rs 2,155 crore in the year-ago quarter."
+    },
+    {
+      "title": "India Tour Of Sri Lanka 2026: Full Schedule, Squads, Match Timings, Live Telecast & Streaming Details",
+      "excerpt": "India begin their two-Test tour of Sri Lanka on Aug. 15. Check the full schedule, squads, match timings, live telecast and streaming details.",
+      "url": "https://www.ndtvprofit.com/sports/india-tour-of-sri-lanka-2026-full-schedule-squads-match-timings-live-telecast-11863656#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/09286a14_india_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-04T17:00:57+05:30",
+      "category": "Markets",
+      "summary": "India begin their two-Test tour of Sri Lanka on Aug. 15. Check the full schedule, squads, match timings, live telecast and streaming details."
     },
     {
       "title": "Bharti Airtel Q1 Results: Profit Rises 12%, Revenue Exceeds Rs 58,500 Crore; ARPU Sees Uptick",
@@ -28,29 +238,9 @@
       "url": "https://www.ndtvprofit.com/business/bharti-airtel-q1-results-profit-rises-12-revenue-exceeds-rs-58-500-crore-arpu-sees-uptick-11864184#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-05/fk0v6428_airtel_625x300_14_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:45:32+05:30",
+      "publishedAt": "2026-08-04T16:58:30+05:30",
       "category": "Markets",
       "summary": "Revenue and EBITDA beat estimates, while higher ARPU underscores continued strength in the telecom operator's India business."
-    },
-    {
-      "title": "EPS Pensioners To Protest On August 5 If Rs 7,500 Minimum Pension, DA Demands Not Met",
-      "excerpt": "Thousands of pensioners covered under EPS-95 will gather at Jantar Mantar, New Delhi, on August 5, demanding long-pending pension reforms.",
-      "url": "https://www.ndtvprofit.com/india/eps-pensioners-to-protest-on-august-5-if-rs-7-500-minimum-pension-da-demands-not-met-11863711#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/89252c32_employer-or-employee-contributing-to-a-savings-pen-2025-01-08-20-39-59-utc.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:43:35+05:30",
-      "category": "Markets",
-      "summary": "Thousands of pensioners covered under EPS-95 will gather at Jantar Mantar, New Delhi, on August 5, demanding long-pending pension reforms."
-    },
-    {
-      "title": "India's AI Momentum Index Climbs To 63 in Q3, Pulls Ahead Of Global Average",
-      "excerpt": "Zero Indian businesses plan to cut AI spending in the next year, even as workforce readiness lags behind technology and data infrastructure, a Dun & Bradstreet survey shows.",
-      "url": "https://www.ndtvprofit.com/technology/indias-ai-momentum-index-climbs-to-63-in-q3-pulls-ahead-of-global-average-11864238#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/42n3ruvk_india-ai_625x300_04_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:41:53+05:30",
-      "category": "Markets",
-      "summary": "Zero Indian businesses plan to cut AI spending in the next year, even as workforce readiness lags behind technology and data infrastructure, a Dun & Bradstreet survey shows."
     },
     {
       "title": "Bharti Airtel Q1 results: Net profit jumps 37% to  ₹8,167 crore; revenue up 18%",
@@ -61,196 +251,6 @@
       "publishedAt": "2026-08-04T16:41:16+05:30",
       "category": "Markets",
       "summary": "Bharti Airtel announced its Q1FY27 earnings, reporting a 37% rise in net profit to ₹8,167 crore and an 18.3% increase in revenue to ₹58,539 crore, compared to the previous year."
-    },
-    {
-      "title": "Nykaa Q1 Results: Profit Soars Nearly 2.5x As Margins Expand, Revenue Jumps 29%",
-      "excerpt": "Revenue from operations rose 29% year-on-year to Rs 2,782 crore, slightly ahead of analysts' estimate of Rs 2,762 crore, compared with Rs 2,155 crore in the year-ago quarter.",
-      "url": "https://www.ndtvprofit.com/markets/nykaa-q1-results-profit-soars-nearly-2-5x-as-margins-expand-revenue-jumps-29-11864194#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/d96b61b8_EcePIORUEAAYBhb.jfif?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:40:36+05:30",
-      "category": "Markets",
-      "summary": "Revenue from operations rose 29% year-on-year to Rs 2,782 crore, slightly ahead of analysts' estimate of Rs 2,762 crore, compared with Rs 2,155 crore in the year-ago quarter."
-    },
-    {
-      "title": "Dabur Explores Legal Options Following FSSAI Crackdown On '100% Pure' Labels",
-      "excerpt": "Dabur India is exploring options regarding the FSSAI prohibitory order and has already begun transitioning to new labels that do not carry the \"100%\" claim.",
-      "url": "https://www.ndtvprofit.com/business/dabur-explores-legal-options-following-fssai-crackdown-on-100-percent-pure-labels-11864208#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/915g575o_bb_625x300_04_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:36:48+05:30",
-      "category": "Markets",
-      "summary": "Dabur India is exploring options regarding the FSSAI prohibitory order and has already begun transitioning to new labels that do not carry the \"100%\" claim."
-    },
-    {
-      "title": "Bharti Hexacom Q1 Results: Profit Rises 8%, Revenue Sees Modest Uptick",
-      "excerpt": "Bharti Hexacom's revenue saw a 2% uptick to Rs 2,510 crore, compared to Rs 2,414 crore for its Q1FY27 results.",
-      "url": "https://www.ndtvprofit.com/markets/bharti-hexacom-q1-results-profit-rises-8-revenue-sees-modest-uptick-11864114#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/arsj62hs_bharti-hexacom-unsplash_625x300_18_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:35:08+05:30",
-      "category": "Markets",
-      "summary": "Bharti Hexacom's revenue saw a 2% uptick to Rs 2,510 crore, compared to Rs 2,414 crore for its Q1FY27 results."
-    },
-    {
-      "title": "Penny stock under  ₹10 jumps 3.50% from today's low; here's why",
-      "excerpt": "PC Jeweller's promoters increased their shareholding to 38.76% following a preferential allotment of shares. The company's outstanding debt has been cleared for seven out of fourteen consortium banks, as it progresses to",
-      "url": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-pc-jeweller-share-price-jumps-3-50-from-todays-low-heres-why-11785838593902.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/04/1600x900/logo/pc_jeweller_share_price_1785839369069_1785839369241_ba00733a-7783-4987-b5a6-b13133207701.JPG",
-      "publishedAt": "2026-08-04T16:32:23+05:30",
-      "category": "Markets",
-      "summary": "PC Jeweller's promoters increased their shareholding to 38.76% following a preferential allotment of shares. The company's outstanding debt has been cleared for seven out of fourteen consortium banks, as it progresses to"
-    },
-    {
-      "title": "TNPL 2026: Schedule, Teams, Squads, Live Streaming And Telecast Details",
-      "excerpt": "TNPL 2026 starts on Aug. 4 with defending champions IDream Tiruppur Tamizhans in action. Check the full schedule, squads and live streaming.",
-      "url": "https://www.ndtvprofit.com/sports/tnpl-2026-schedule-teams-squads-live-streaming-and-telecast-details-11862599#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/0qo6cja4_tnpl_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:30:41+05:30",
-      "category": "Markets",
-      "summary": "TNPL 2026 starts on Aug. 4 with defending champions IDream Tiruppur Tamizhans in action. Check the full schedule, squads and live streaming."
-    },
-    {
-      "title": "Lufthansa Shares Dive 10% After Q2 Profit Halves, 2026 Forecast Trimmed On Iran War Fears",
-      "excerpt": "The company projected that its adjusted earnings before interest and taxes in 2026 would range from €1.7 billion to €2.2 billion ($2.0 billion to $2.5 billion)",
-      "url": "https://www.ndtvprofit.com/markets/lufthansa-shares-dive-10-after-q2-profit-halves-2026-forecast-trimmed-on-iran-war-fears-11863878#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/hiu4q1cg_lufthansa_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:27:45+05:30",
-      "category": "Markets",
-      "summary": "The company projected that its adjusted earnings before interest and taxes in 2026 would range from €1.7 billion to €2.2 billion ($2.0 billion to $2.5 billion)"
-    },
-    {
-      "title": "Q1 Results Live Updates: Airtel Profit Surges 11%, Nykaa Profit More Than Triples, Castrol Announces Dividend",
-      "excerpt": "Q1 Results Today Live Updates: Track Q1 FY27 earnings live as Bharti Airtel, ONGC, Nykaa, Marico, Pidilite Industries and 100+ firms announce June quarter results, guidance and key updates.",
-      "url": "https://www.ndtvprofit.com/markets/q1-results-live-updates-bharti-airtel-ongc-nykaa-marico-pidilite-industries-earnings-in-focus-today-august-4-11862380#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/irrc9dck_q1_625x300_04_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:26:20+05:30",
-      "category": "Markets",
-      "summary": "Q1 Results Today Live Updates: Track Q1 FY27 earnings live as Bharti Airtel, ONGC, Nykaa, Marico, Pidilite Industries and 100+ firms announce June quarter results, guidance and key updates."
-    },
-    {
-      "title": "Imran Khan Is Back! Actor Announces Return With Netflix's Adhure Hum Adhure Tum",
-      "excerpt": "Imran Khan has announced his acting comeback with Netflix's Adhure Hum Adhure Tum, marking his first film in a decade. The romantic comedy is expected to release later this year.",
-      "url": "https://www.ndtvprofit.com/lifestyle/imran-khan-is-back-actor-announces-return-with-netflixs-adhure-hum-adhure-tum-11863848#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/3295ri1_imrankhannetflixcomebackadhurehumadhuretumjpg_625x300_04_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:21:07+05:30",
-      "category": "Markets",
-      "summary": "Imran Khan has announced his acting comeback with Netflix's Adhure Hum Adhure Tum, marking his first film in a decade. The romantic comedy is expected to release later this year."
-    },
-    {
-      "title": "Trisha Krishnan Net Worth: Inside Her Rs 85 Crore Fortune, Luxury Homes, Cars And Lifestyle",
-      "excerpt": "Trisha Krishnan's estimated Rs 85 crore fortune is backed by hit films, brand deals and luxury assets. Here's a closer look at her wealth and lifestyle.",
-      "url": "https://www.ndtvprofit.com/lifestyle/trisha-krishnan-net-worth-inside-her-rs-85-crore-fortune-luxury-homes-cars-and-lifestyle-11863515#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/ium0n4m_trisha_625x300_04_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:17:45+05:30",
-      "category": "Markets",
-      "summary": "Trisha Krishnan's estimated Rs 85 crore fortune is backed by hit films, brand deals and luxury assets. Here's a closer look at her wealth and lifestyle."
-    },
-    {
-      "title": "Castrol India Q2 Results: Profit Rises 44%, Dividend Of Rs 6.25 Declared; Check Record Date",
-      "excerpt": "Castrol India reported a 43.6% quarter-on-quarter rise in Q2 FY2026 net profit to Rs 348 crore. Revenue increased 21.1% to Rs 1,871 crore, while EBITDA jumped 50% to Rs 494 crore, lifting the margin to 26.4%.",
-      "url": "https://www.ndtvprofit.com/markets/castrol-india-q2-results-profit-rises-44-dividend-of-rs-6-25-declared-check-record-date-11864006#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/b72dfbcd_ben-duke-EgwDXAmHb6M-unsplash.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:15:17+05:30",
-      "category": "Markets",
-      "summary": "Castrol India reported a 43.6% quarter-on-quarter rise in Q2 FY2026 net profit to Rs 348 crore. Revenue increased 21.1% to Rs 1,871 crore, while EBITDA jumped 50% to Rs 494 crore, lifting the margin to 26.4%."
-    },
-    {
-      "title": "MTAR Tech Shares Locked In Upper Circuit For Fourth Straight Session As Q1 Profit Spikes",
-      "excerpt": "MTAR Technologies reported a net profit of Rs50.2 crore for the June quarter, compared with Rs10.8 crore in the same period last year.",
-      "url": "https://www.ndtvprofit.com/markets/mtar-tech-shares-lock-in-upper-circuit-for-fourth-straight-session-as-q1-profit-spikes-11863933#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/vauoiif4_mtar-technologies-shares-surged-nearly-fivefold-and-the-company-reported-record-quarterly-order-inflows-of-rs-2895-crore_625x300_04_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:10:17+05:30",
-      "category": "Markets",
-      "summary": "MTAR Technologies reported a net profit of Rs50.2 crore for the June quarter, compared with Rs10.8 crore in the same period last year."
-    },
-    {
-      "title": "Marico Q1 Results: Profit Rises 25%, Revenue Nears Rs 4,000 Crore; Margins Improve",
-      "excerpt": "FMCG major beats Bloomberg consensus estimates on profit, revenue and margins in the June quarter.",
-      "url": "https://www.ndtvprofit.com/business/marico-q1-results-profit-rises-25-revenue-nears-rs-4-000-crore-margins-improve-11863970#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/4f7tfjck_marico_625x300_08_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:08:45+05:30",
-      "category": "Markets",
-      "summary": "FMCG major beats Bloomberg consensus estimates on profit, revenue and margins in the June quarter."
-    },
-    {
-      "title": "IndiGo New CEO Willie Walsh Confident To Drive Airline's Next Phase Of Growth",
-      "excerpt": "Walsh is also looking forward for the airline's next phase of growth as the airline is yet to receive over 900 new aircraft.",
-      "url": "https://www.ndtvprofit.com/business/indigo-new-ceo-walsh-confident-to-drive-airlines-next-phase-of-growth-11863887#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/7p369jkc_walsh_625x300_31_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:05:42+05:30",
-      "category": "Markets",
-      "summary": "Walsh is also looking forward for the airline's next phase of growth as the airline is yet to receive over 900 new aircraft."
-    },
-    {
-      "title": "Bharat Bijlee Share Price Falls 7% As Q1 Net Profit Falls 30%, Revenue Surges 18%",
-      "excerpt": "Bharat Bijlee's revenue saw an 18% rise to Rs 547 crore, compared to Rs 465 crore in the preceding financial year.",
-      "url": "https://www.ndtvprofit.com/markets/bharat-bijlee-share-price-falls-7-as-q1-net-profit-falls-30-revenue-surges-18-11863781#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/tuguhmco_electricity_625x300_02_June_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:05:07+05:30",
-      "category": "Markets",
-      "summary": "Bharat Bijlee's revenue saw an 18% rise to Rs 547 crore, compared to Rs 465 crore in the preceding financial year."
-    },
-    {
-      "title": "Sun Pharma’s premium push cushions US generics pain in Q1, but valuations look full",
-      "excerpt": "India formulations and innovative medicines drive growth in Q1FY27, with management reiterating FY27 guidance. Margins face near-term pressure from investments and the Organon acquisition.",
-      "url": "https://www.livemint.com/market/mark-to-market/sun-pharma-q1-results-revenue-profit-margin-organon-acquisition-11785834084455.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/04/1600x900/logo/SUN-PHARM-RESULTS--0_1757255629292_1757255644553_1785836867963_2100400a-e551-4a85-af0b-cc4a2bc6884d.JPG",
-      "publishedAt": "2026-08-04T16:03:42+05:30",
-      "category": "Markets",
-      "summary": "India formulations and innovative medicines drive growth in Q1FY27, with management reiterating FY27 guidance. Margins face near-term pressure from investments and the Organon acquisition."
-    },
-    {
-      "title": "BTech Dropout Says Leaving College Was His Best Decision, Claims He Earns This Much",
-      "excerpt": "A 22-year-old BTech dropout claims he earns Rs 4.86 lakh a month after leaving college to freelance with AI startups. His viral post reignited the debate over whether practical skills outweigh prestigious degrees.",
-      "url": "https://www.ndtvprofit.com/trending/btech-dropout-claims-rs-4-86-lakh-monthly-income-says-leaving-college-was-his-best-decision-11863733#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/h1nh9pc4_btech_625x300_04_August_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T16:03:40+05:30",
-      "category": "Markets",
-      "summary": "A 22-year-old BTech dropout claims he earns Rs 4.86 lakh a month after leaving college to freelance with AI startups. His viral post reignited the debate over whether practical skills outweigh prestigious degrees."
-    },
-    {
-      "title": "Reading Between The Lines: The Rs 8.7 Lakh Crore Question — Are Mass",
-      "excerpt": "In FY24-25, the latest year for which numbers are available, 86 lakh individual life insurance policies lapsed. The lapses were likely concentrated in the traditional small-ticket endowment end of the market.",
-      "url": "https://www.ndtvprofit.com/personal-finance/reading-between-the-lines-the-rs-8-7-lakh-crore-question-why-small-ticket-savers-are-abandoning-their-life-insurance-11863917#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/vhu2nias_lg_625x300_04_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-04T15:54:47+05:30",
-      "category": "Markets",
-      "summary": "In FY24-25, the latest year for which numbers are available, 86 lakh individual life insurance policies lapsed. The lapses were likely concentrated in the traditional small-ticket endowment end of the market."
-    },
-    {
-      "title": "Top Gainers & Losers on 4 August: LIC, Dabur India, Urban Company, DLF, PB Fintech, Kalyan Jewellers among top losers",
-      "excerpt": "Indian stocks closed lower on Tuesday, led by declines in realty, FMCG, and technology sectors. The Nifty 50 fell 0.64% to 24,614, while the Sensex decreased by 0.27% to 78,428, influenced by the newly introduced Closing",
-      "url": "https://www.livemint.com/market/stock-market-news/top-gainers-losers-on-4-aug-lic-dabur-india-urban-company-dlf-pb-fintech-kalyan-jewellers-among-top-losers-11785837461705.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/04/1600x900/2-0-939359840-bse1web-0_1679733268760_1785837559656_fcd072b0-3779-4b99-b394-76d70865633f.jpg",
-      "publishedAt": "2026-08-04T15:35:32+05:30",
-      "category": "Markets",
-      "summary": "Indian stocks closed lower on Tuesday, led by declines in realty, FMCG, and technology sectors. The Nifty 50 fell 0.64% to 24,614, while the Sensex decreased by 0.27% to 78,428, influenced by the newly introduced Closing"
-    },
-    {
-      "title": "What is the Nifty-Gold ratio signalling now? Could a new bull run in Indian equities be next?",
-      "excerpt": "The Nifty 50-gold ratio has fallen to 1.70, indicating Indian equities may be undervalued compared to gold. Analysts suggest this could signal a shift towards increased equity exposure and a bullish market outlook if the",
-      "url": "https://www.livemint.com/market/stock-market-news/what-is-the-nifty-gold-ratio-signalling-now-could-a-new-bull-run-in-indian-equities-be-next-gold-price-outlook-11785836014645.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/04/1600x900/logo/Nifty-Gold_ratio_1785837060828_1785837060975_f3a4440e-2f47-4bb8-a560-5aabc59e973d.png",
-      "publishedAt": "2026-08-04T15:24:35+05:30",
-      "category": "Markets",
-      "summary": "The Nifty 50-gold ratio has fallen to 1.70, indicating Indian equities may be undervalued compared to gold. Analysts suggest this could signal a shift towards increased equity exposure and a bullish market outlook if the"
     }
   ]
 }
