@@ -1,7 +1,77 @@
 {
-  "lastUpdated": "2026-08-08T17:25:34+05:30",
+  "lastUpdated": "2026-08-08T18:30:10+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "ADNOC Vessel Targeted By Missile In Strait Of Hormuz, No Injuries Reported",
+      "excerpt": "A missile struck an ADNOC-operated vessel in the Strait of Hormuz, adding to concerns over the safety of commercial shipping through the key oil transit route.",
+      "url": "https://www.ndtvprofit.com/world/adnoc-vessel-targeted-by-missile-in-strait-of-hormuz-no-injuries-reported-11883383#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/7ltig45s_strait-of-hormuz_625x300_08_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-08T18:09:13+05:30",
+      "category": "Markets",
+      "summary": "A missile struck an ADNOC-operated vessel in the Strait of Hormuz, adding to concerns over the safety of commercial shipping through the key oil transit route."
+    },
+    {
+      "title": "Spider-Man: Brand New Day Box Office Day 10: Tom Holland's Film Continues Strong Second Weekend",
+      "excerpt": "The superhero film stars Tom Holland as Peter Parker alongside Zendaya, Jacob Batalon, Jon Bernthal, and Mark Ruffalo.",
+      "url": "https://www.ndtvprofit.com/business/spider-man-brand-new-day-box-office-day-10-tom-hollands-film-continues-strong-second-weekend-11883511#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/vcuhafcg_spiderman_625x300_05_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-08T17:51:13+05:30",
+      "category": "Markets",
+      "summary": "The superhero film stars Tom Holland as Peter Parker alongside Zendaya, Jacob Batalon, Jon Bernthal, and Mark Ruffalo."
+    },
+    {
+      "title": "Aditya Birla Fashion Q1 Results: Loss Widens, Revenue Up 11%",
+      "excerpt": "Revenue rose 10.6% to Rs 2,026 crore for the quarter ended on June 30, 2026 from Rs 1,831 crore.",
+      "url": "https://www.ndtvprofit.com/business/aditya-birla-fashion-q1-results-loss-widens-revenue-up-11-11883535#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/dan7h45_bb_625x300_08_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-08T17:41:51+05:30",
+      "category": "Markets",
+      "summary": "Revenue rose 10.6% to Rs 2,026 crore for the quarter ended on June 30, 2026 from Rs 1,831 crore."
+    },
+    {
+      "title": "Tukaram Mundhe Faces Flak, RBI Monetary Policy, Ardee IPO — The Week That Was",
+      "excerpt": "he RBI kept interest rates unchanged, the rupee ended marginally higher against the dollar, Ardee Industries' IPO drew heavy investor demand, and the Delhi High Court stayed an FSSAI directive against Dabur India.",
+      "url": "https://www.ndtvprofit.com/business/tukaram-mundhe-faces-flak-rbi-monetary-policy-ardee-ipo-the-week-that-was-11883579#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/lrb8qk2g_the-week-that-was_625x300_08_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-08T17:35:14+05:30",
+      "category": "Markets",
+      "summary": "he RBI kept interest rates unchanged, the rupee ended marginally higher against the dollar, Ardee Industries' IPO drew heavy investor demand, and the Delhi High Court stayed an FSSAI directive against Dabur India."
+    },
+    {
+      "title": "Varun Dhawan Set To Lead YRF's First Horror Film, Release Planned For 2027",
+      "excerpt": "Varun Dhawan will headline Yash Raj Films' first horror movie, directed by Rocket Boys creator Abhay Pannu and slated for a 2027 theatrical release.",
+      "url": "https://www.ndtvprofit.com/lifestyle/varun-dhawan-set-to-lead-yrfs-first-horror-film-release-planned-for-2027-11883367#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/1hvttafg_varundhawanyrffirsthorrorfilm2027jpg_625x300_08_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-08T17:31:43+05:30",
+      "category": "Markets",
+      "summary": "Varun Dhawan will headline Yash Raj Films' first horror movie, directed by Rocket Boys creator Abhay Pannu and slated for a 2027 theatrical release."
+    },
+    {
+      "title": "Delhivery Q1 Results: Profit Tumbles 65% As Margin Contracts; Revenue Up 28%",
+      "excerpt": "Delhivery's ebitda margin contracted 4.8% year-on-yearagainst 6.5%.",
+      "url": "https://www.ndtvprofit.com/business/delhivery-q1-results-profit-tumbles-65-as-margin-contracts-revenue-up-28-11883387#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/9d2e6cb1_Delhivery_mega_gateway_facility_at_Tauru__Haryana___Source_Rishabh_BhatnagarBloombergQuint___6_.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-08T17:28:23+05:30",
+      "category": "Markets",
+      "summary": "Delhivery's ebitda margin contracted 4.8% year-on-yearagainst 6.5%."
+    },
+    {
+      "title": "Ceigall India Q1 Results 2026: Profit Rises 15%, Revenue Nears Rs 1,000 Crore",
+      "excerpt": "Its order book stood at Rs 18,554 crore at the end of FY26, providing visibility for future execution.",
+      "url": "https://www.ndtvprofit.com/markets/ceigall-india-q1-results-2026-profit-rises-15-revenue-nears-rs-1-000-crore-11883443#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/jsfnr2j4_ceigall-india-q1fy27-profit-rose-152-to-rs-613-crore-while-revenue-climbed-157-to-rs-970-crore_625x300_08_August_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-08T17:15:33+05:30",
+      "category": "Markets",
+      "summary": "Its order book stood at Rs 18,554 crore at the end of FY26, providing visibility for future execution."
+    },
     {
       "title": "DPIIT's Big Startup Push: Five Strategic Industry Partnerships Inked",
       "excerpt": "DPIIT's five partnerships target digital payments, cloud technology, AI, mobility, funding and global expansion to help startups scale faster and compete globally.",
@@ -11,16 +81,6 @@
       "publishedAt": "2026-08-08T17:03:02+05:30",
       "category": "Markets",
       "summary": "DPIIT's five partnerships target digital payments, cloud technology, AI, mobility, funding and global expansion to help startups scale faster and compete globally."
-    },
-    {
-      "title": "Delhivery Q1 Results: Profit Tumbles 65% As Margin Contracts; Revenue Up 28%",
-      "excerpt": "Delhivery's ebitda margin contracted 4.8% year-on-yearagainst 6.5%.",
-      "url": "https://www.ndtvprofit.com/business/delhivery-q1-results-profit-tumbles-65-as-margin-contracts-revenue-up-28-11883387#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/9d2e6cb1_Delhivery_mega_gateway_facility_at_Tauru__Haryana___Source_Rishabh_BhatnagarBloombergQuint___6_.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-08T16:53:24+05:30",
-      "category": "Markets",
-      "summary": "Delhivery's ebitda margin contracted 4.8% year-on-yearagainst 6.5%."
     },
     {
       "title": "Karnataka SIR Deadline Extended To August 17; Draft List On August 24",
@@ -75,7 +135,7 @@
     {
       "title": "NBFC gold loans continue near 70% growth, reach Rs 3.41 lakh crore in June: RBI",
       "excerpt": "NBFC gold loans continue near 70% growth, reach Rs 3.41 lakh crore in June: RBI The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxObFo2MTlSQUxzZkFwUEhvQmlVcGx4cUVuWFh6d09wWVFDZG5sMjRSS3ZWa2J0c0JydDdCa1NMZlM4dV96VEV4VWM2VFpObDNLb0Z1eHE2aElVMnR2djA5bnUxcjdMN25UY042WjhqQnV3bFJUWmEtVjhQaG02ZW13cmMxYjhtZ3JuejF6VUJFZ19PMXphTmpoUmoxNUlmcEFTLV9kWEU5LXNFVmxKU3FIUGc2eGpQM20zdW9aQzE4WHZ5U3JBZUNIUHBhbHBwc0pDRndMS09LSkpDVFM4cllsdjBpMW1ZbldHdEp3dFZ0S0pQMjUyR1gtakhXNzJsTEVxYlHSAfsBQVVfeXFMUENqNjU5dTJodmlqWURucm9NQk9ubkJLdUQ3TE9Xejc5bm04RllGVGVnS0E4bnVFYXl1ZkFiUVgzd1J4UHBVeW9mTDNtNGV2Y2IteXZaV0w3UW15LTQ3aUxLNWo1RWY5bEh6Rk5UQWlxSHBuWVVPVzRfdmV1Z1RTSWFFZkdlbmlaUTBGWEFUd21CdFQ5MVNjRlMyZ3NrTFF5Y29FZ1ZsU0pSemdtUjFTYkpxdDZLcGtzWnVYOTF2Q0ExRXY1bUlWR0MyWWFKZHVBV1FHOWpIeGZkTEFodGdiMUU4T3p5RUpGeWF0ZXpxNlA1eGhiZWVCQlE3c2s?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNQmhPRFZjckJNMjNSdkVUZ2dCUE5zZkdxVjBWYTNabTJfOGw0QWJPNlpzaGU2c0JTRUtWN1RxdWRfemxad1hoUlQ2djA5OFhnRHIzZFAzQlgxaXVWSjVRc2VTUV9YMU5QZFgtMU91Q1hhb0hIUGxrRVdPTHpaeDdlVGpNakRCRjNrTkpjVE5QbmJJZnJhcEpxdzVzOTlDVC1oMDRRQVRKWldFaDdLUU53cm5uRHhjeVBzWHcycTJVcmdxOXdETUhKN3ZmYTVuVUJSemhFVlctclBhTnZwREpUalVuUG9aSXhIdGhiUkJLNktLMXdCRjVGMG5fcHc0T1RJRGVDalJfMTJPR2haT0VoVGQ0ajJRTENfc1hKQUp5MU1NZUREQXVabzExd1ZibzhxM2pQcTFGRG9yZVZzWHVPZkFrbVRvdm5INm41NlV6dHJaOUhtSWVVRl9rN1JvT2PSAfsBQVVfeXFMUENqNjU5dTJodmlqWURucm9NQk9ubkJLdUQ3TE9Xejc5bm04RllGVGVnS0E4bnVFYXl1ZkFiUVgzd1J4UHBVeW9mTDNtNGV2Y2IteXZaV0w3UW15LTQ3aUxLNWo1RWY5bEh6Rk5UQWlxSHBuWVVPVzRfdmV1Z1RTSWFFZkdlbmlaUTBGWEFUd21CdFQ5MVNjRlMyZ3NrTFF5Y29FZ1ZsU0pSemdtUjFTYkpxdDZLcGtzWnVYOTF2Q0ExRXY1bUlWR0MyWWFKZHVBV1FHOWpIeGZkTEFodGdiMUU4T3p5RUpGeWF0ZXpxNlA1eGhiZWVCQlE3c2s?oc=5",
       "source": "The Economic Times",
       "image": null,
       "publishedAt": "2026-08-08T16:21:17+05:30",
@@ -163,16 +223,6 @@
       "summary": "Christopher Nolan's The Odyssey has crossed the $1 billion mark worldwide, while its India gross collection is closing in on Rs 200 crore."
     },
     {
-      "title": "How Makhana Is Putting Bihar's Farmers on The Global Trade Map",
-      "excerpt": "Mithila Makhana, the fox nut widely cultivated in Bihar's Mithila region, was granted the Geographical Indication (GI) tag in 2022, certifying its unique regional origin and quality.",
-      "url": "https://www.ndtvprofit.com/india/how-one-export-deal-boosted-bihar-farmers-earnings-by-18-11882374#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/i9jebmv4_bihar_625x300_08_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-08T15:08:37+05:30",
-      "category": "Markets",
-      "summary": "Mithila Makhana, the fox nut widely cultivated in Bihar's Mithila region, was granted the Geographical Indication (GI) tag in 2022, certifying its unique regional origin and quality."
-    },
-    {
       "title": "Explained: How BSE traded fewer contracts after CAS but premiums rose 75% in first week",
       "excerpt": "BSE’s derivatives activity fell sharply in the first week of the Closing Auction Session, but higher premiums more than offset the decline in contracts. Premium per contract surged 74.8%, lifting average daily premium tu",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/explained-how-bse-traded-fewer-contracts-after-cas-but-premiums-rose-75-in-first-week/articleshow/133049697.cms",
@@ -183,26 +233,6 @@
       "summary": "BSE’s derivatives activity fell sharply in the first week of the Closing Auction Session, but higher premiums more than offset the decline in contracts. Premium per contract surged 74.8%, lifting average daily premium tu"
     },
     {
-      "title": "Assam Floods: Situation Remains Critical As Death Toll Climbs To 98",
-      "excerpt": "The latest official assessment showed a marginal improvement in the overall speed of the floods, with the number of affected districts falling from 15 to 13.",
-      "url": "https://www.ndtvprofit.com/india/assam-floods-98-killed-over-1-5-lakh-people-still-hit-by-deluge-11882878#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/n1akhbas_assam-floods_625x300_08_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-08T14:41:13+05:30",
-      "category": "Markets",
-      "summary": "The latest official assessment showed a marginal improvement in the overall speed of the floods, with the number of affected districts falling from 15 to 13."
-    },
-    {
-      "title": "AstraZeneca Pharma Gets CDSCO Nod To Sell Enhertu For Breast Cancer",
-      "excerpt": "AstraZeneca Pharma India received approval from the CDSCO to import and sell Enhertu for an additional HER2 positive breast cancer indication in India.",
-      "url": "https://www.ndtvprofit.com/business/astrazeneca-pharma-gets-cdsco-nod-to-sell-enhertu-for-breast-cancer-11882988#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/vf9dicl_doctor-photo-unsplash_625x300_08_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-08T14:30:27+05:30",
-      "category": "Markets",
-      "summary": "AstraZeneca Pharma India received approval from the CDSCO to import and sell Enhertu for an additional HER2 positive breast cancer indication in India."
-    },
-    {
       "title": "IPO GMPs: Dhoot Transmission, Molbio Diagnostics, Shiprocket, Behari Lal Engg to Milky Mist — What grey market signals",
       "excerpt": "These five mainboard upcoming IPOs are going to hit the Indian primary market next week",
       "url": "https://www.livemint.com/market/ipo/ipo-gmps-dhoot-transmission-molbio-diagnostics-shiprocket-behari-lal-engg-to-milky-mist-what-grey-market-signals-11786174589659.html",
@@ -211,36 +241,6 @@
       "publishedAt": "2026-08-08T14:29:13+05:30",
       "category": "Markets",
       "summary": "These five mainboard upcoming IPOs are going to hit the Indian primary market next week"
-    },
-    {
-      "title": "Jana Nayagan Box Office Collection Day 16: Vijay's Film Crosses Rs 310 Cr Worldwide",
-      "excerpt": "Vijay's Jana Nayagan collected Rs 1.18 Cr on Day 16, taking its worldwide gross to Rs 310.03 crore and India net to Rs 186.33 crore .",
-      "url": "https://www.ndtvprofit.com/lifestyle/jana-nayagan-box-office-collection-day-16-vijays-film-crosses-rs-310-cr-worldwide-11882621#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/50vu4tb8_jananayaganboxofficecollectionday16jpg_625x300_08_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-08T14:28:44+05:30",
-      "category": "Markets",
-      "summary": "Vijay's Jana Nayagan collected Rs 1.18 Cr on Day 16, taking its worldwide gross to Rs 310.03 crore and India net to Rs 186.33 crore ."
-    },
-    {
-      "title": "Government Weighs PLI Push For Polysilicon To Boost Solar Manufacturing",
-      "excerpt": "Polysilicon, a core raw material used in solar photovoltaic modules, is currently sourced entirely from abroad.",
-      "url": "https://www.ndtvprofit.com/economy/government-weighs-pli-push-for-polysilicon-to-boost-solar-manufacturing-11882652#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/jncadpjk_solar-_625x300_08_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-08T14:28:08+05:30",
-      "category": "Markets",
-      "summary": "Polysilicon, a core raw material used in solar photovoltaic modules, is currently sourced entirely from abroad."
-    },
-    {
-      "title": "Who Is Bhawana Kanth? Meet India's First Woman Fighter Combat Leader",
-      "excerpt": "The fighter pilots who are awarded this qualification are trained to lead complex air combat missions and develop operational tactics.",
-      "url": "https://www.ndtvprofit.com/india/who-is-bhawana-kanth-meet-indias-first-woman-fighter-combat-leader-11877697#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/vlsqpra4_bhawana-kanth_625x300_07_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-08T14:14:21+05:30",
-      "category": "Markets",
-      "summary": "The fighter pilots who are awarded this qualification are trained to lead complex air combat missions and develop operational tactics."
     },
     {
       "title": "F&O Talk: Smallcaps look strong on charts, says Sudeep Shah; outlines Trent, Swiggy, Kalyan Jewellers strategy",
