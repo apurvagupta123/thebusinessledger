@@ -1,16 +1,36 @@
 {
-  "lastUpdated": "2026-08-11T02:19:09+05:30",
+  "lastUpdated": "2026-08-11T03:17:17+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "How A Karnataka Tax Reform Turned Into A Beer Boom For United Breweries",
-      "excerpt": "ABV-based tax changes in Karataka have pushed beer growth for UBL past 50% in some months, and it says the model could spread to more states.",
-      "url": "https://www.ndtvprofit.com/business/united-breweries-q1-earnings-concall-karnataka-tax-reform-turns-helps-beer-sales-boom-11882533#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/c0cppttg_beer_625x300_08_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-10T23:31:26+05:30",
+      "title": "Europe Gas Prices Surge as Hormuz Deal Prospects Remain Murky",
+      "excerpt": "European natural gas prices jumped as discussions between Iran and Oman to reopen the Strait of Hormuz failed to convince traders that a deal would lead to a quick resumption of global LNG flows.",
+      "url": "https://www.livemint.com/market/europe-gas-prices-surge-as-hormuz-deal-prospects-remain-murky-11786396840725.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-08-11T02:50:40+05:30",
       "category": "Markets",
-      "summary": "ABV-based tax changes in Karataka have pushed beer growth for UBL past 50% in some months, and it says the model could spread to more states."
+      "summary": "European natural gas prices jumped as discussions between Iran and Oman to reopen the Strait of Hormuz failed to convince traders that a deal would lead to a quick resumption of global LNG flows."
+    },
+    {
+      "title": "Wheat Climbs With USDA Seen Tightening Global Grain Supply",
+      "excerpt": "Wheat was higher as traders braced for the US Department of Agriculture’s monthly supply demand report that’s expected to show declining domestic and world grain supplies.",
+      "url": "https://www.livemint.com/market/wheat-climbs-with-usda-seen-tightening-global-grain-supply-11786396412346.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-08-11T02:43:31+05:30",
+      "category": "Markets",
+      "summary": "Wheat was higher as traders braced for the US Department of Agriculture’s monthly supply demand report that’s expected to show declining domestic and world grain supplies."
+    },
+    {
+      "title": "Yen Weakens 1%, Erases Half of US",
+      "excerpt": "The yen extended its losses, erasing half of the gains triggered when authorities from the US and Japan intervened in the foreign-exchange market to support the currency.",
+      "url": "https://www.livemint.com/market/yen-weakens-1-erases-half-of-us-japan-intervention-gains-11786394040377.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-08-11T02:03:59+05:30",
+      "category": "Markets",
+      "summary": "The yen extended its losses, erasing half of the gains triggered when authorities from the US and Japan intervened in the foreign-exchange market to support the currency."
     },
     {
       "title": "US Stocks: Nasdaq ends down as expectations of Hormuz deal fade",
@@ -23,14 +43,54 @@
       "summary": "The Nasdaq closed lower as investors worried about the Strait of Hormuz. U.S. crude oil prices jumped significantly amid the ongoing Middle East crisis. Intel shares fell after the company announced plans for a large sha"
     },
     {
-      "title": "NBFCs outpace banks in June as cards lose some credit - economictimes.com",
-      "excerpt": "NBFCs outpace banks in June as cards lose some credit economictimes.com",
+      "title": "Arvind Panagariya Projects 7% GDP Growth, Sees RBI Forecast As Cautious",
+      "excerpt": "Arvind Panagariya Projects 7% GDP Growth, Sees RBI Forecast As Cautious Whalesbook",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQ0ZyRTBQcWs3RDBKbFF3V3BMXzg0RzlJTW9mTUJ0czlOSmJ5aXUxbHNldTN0TlZRNUlsd1YzRUVOWk1kalNHbVZnSTJUSFZ1aW9RRW1nUnFWYllLRjNkOHFHSmhKWjNOa284dU1rakpNWU1sT3A4Tk1ndXFVQmozUERYX3pOaTZrZS1UTjF6aE9zSkN0UU0yOEYtbkZpUUlKWEd1bDFac3VzQ0RON0JkXzVHb3o4em1kLUd2MUd0RXdSZ0hfODVxVXNSNFI4dzU4T3dGWF9BdEFteFhBM3pTODhpSQ?oc=5",
+      "source": "Whalesbook",
+      "image": null,
+      "publishedAt": "2026-08-11T01:09:47+05:30",
+      "category": "Economy",
+      "summary": "Arvind Panagariya Projects 7% GDP Growth, Sees RBI Forecast As Cautious Whalesbook"
+    },
+    {
+      "title": "NBFCs outpace banks in June as cards lose some credit",
+      "excerpt": "NBFCs outpace banks in June as cards lose some credit The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeWVKTHZ1b3JIdFV1aWxBNnAxTXdpVElsN096aGg5OFlGTkhCR3EyY2huSXNlaHZjQk05bEVNaVZqZERoZ1dOaExROGdheEZFd2FNTUVIdXlIQnk3Y3N3cHhQMzUzLUdXUW9UUTctZmVhMnN6Vk5pcHhCTDNjdi1VUWJwTkMyWEhfVFJZUVBFMVFuVXBzMlNwNFNHazZ3TlB2U2FrbzR3cUp6MnRfVTlqdl9adkRyRmFwVjltVzFCeWpCZTR5YUFZM2xFSGE4Mno5d0HSAdIBQVVfeXFMTnllSkx2dW9ySHRVdWlsQTZwMU13aVRJbDdPemhoOThZRk5IQkdxMmNobklzZWh2Y0JNOWxFTWlWamREaGdXTmhMUThnYXhGRXdhTU1FSHV5SEJ5N2Nzd3B4UDM1My1HV1FvVFE3LWZlYTJzelZOaXB4QkwzY3YtVVFicE5DMlhIX1RSWVFQRTFRblVwczJTcDRTR2s2d05QdlNha280d3FKejJ0X1U5anZfWnZEckZhcFY5bVcxQnlqQmU0eWFBWTNsRUhhODJ6OXdB?oc=5",
-      "source": "economictimes.com",
+      "source": "The Economic Times",
       "image": null,
       "publishedAt": "2026-08-11T00:45:00+05:30",
       "category": "Economy",
       "summary": "NBFCs outpace banks in June as cards lose some credit economictimes.com"
+    },
+    {
+      "title": "Gold climbs to nine-week high on buying momentum as inflation data looms",
+      "excerpt": "GLOBAL-PRECIOUS/ (UPDATE 8):PRECIOUS-Gold climbs to nine-week high on buying momentum as inflation data looms",
+      "url": "https://www.livemint.com/market/gold-climbs-to-nine-week-high-on-buying-momentum-as-inflation-data-looms-11786389265821.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-08-11T00:44:25+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-PRECIOUS/ (UPDATE 8):PRECIOUS-Gold climbs to nine-week high on buying momentum as inflation data looms"
+    },
+    {
+      "title": "Wall Street eases as hopes for imminent Hormuz deal fade; Intel drops",
+      "excerpt": "USA-STOCKS/ (UPDATE 5):US STOCKS-Wall Street eases as hopes for imminent Hormuz deal fade; Intel drops",
+      "url": "https://www.livemint.com/market/wall-street-eases-as-hopes-for-imminent-hormuz-deal-fade-intel-drops-11786389146085.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-08-11T00:42:25+05:30",
+      "category": "Markets",
+      "summary": "USA-STOCKS/ (UPDATE 5):US STOCKS-Wall Street eases as hopes for imminent Hormuz deal fade; Intel drops"
+    },
+    {
+      "title": "How A Karnataka Tax Reform Turned Into A Beer Boom For United Breweries",
+      "excerpt": "ABV-based tax changes in Karataka have pushed beer growth for UBL past 50% in some months, and it says the model could spread to more states.",
+      "url": "https://www.ndtvprofit.com/business/united-breweries-q1-earnings-concall-karnataka-tax-reform-turns-helps-beer-sales-boom-11882533#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/c0cppttg_beer_625x300_08_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-10T23:31:26+05:30",
+      "category": "Markets",
+      "summary": "ABV-based tax changes in Karataka have pushed beer growth for UBL past 50% in some months, and it says the model could spread to more states."
     },
     {
       "title": "US Emergency Oil Reserves Hit 1983 Lows As Inventories Feel Squeeze Of Iran War",
@@ -191,66 +251,6 @@
       "publishedAt": "2026-08-10T22:57:09+05:30",
       "category": "Markets",
       "summary": "SEBI has also proposed excluding ISINs pertaining to Government of India-serviced/Extra Budgetary Resources bonds from the prescribed ISIN limits."
-    },
-    {
-      "title": "Trade Setup For Aug 11: Nifty Support At 24,450; Analysts Expect Consolidation To Persist",
-      "excerpt": "On the upside, the 24,650-24,700 zone is expected to act as immediate resistance, followed by the crucial 24,800-25,000 region.",
-      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-aug-11-nifty-support-at-24-450-analysts-expect-consolidation-to-persist-11891845#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/ndairjf_market_625x300_27_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-10T22:54:33+05:30",
-      "category": "Markets",
-      "summary": "On the upside, the 24,650-24,700 zone is expected to act as immediate resistance, followed by the crucial 24,800-25,000 region."
-    },
-    {
-      "title": "US Revokes Over 1.75 Lakh Visas Under Trump; Assault, DUI Among Key Reasons",
-      "excerpt": "In a statement, the Department of State said the revocations resulted from continuous vetting operations that ensure visa recipients abide by their visa terms and do not endanger Americans.",
-      "url": "https://www.ndtvprofit.com/world/us-revokes-over-1-75-lakh-visas-under-trump-assault-dui-among-key-reasons-11891831#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://i.ndtvimg.com/i/2016-04/us-visa-generic_650x400_81460792605.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-10T22:51:33+05:30",
-      "category": "Markets",
-      "summary": "In a statement, the Department of State said the revocations resulted from continuous vetting operations that ensure visa recipients abide by their visa terms and do not endanger Americans."
-    },
-    {
-      "title": "FCNR(B) flows pour into 5-year G-secs under RBI's concessional swap window",
-      "excerpt": "FCNR(B) flows pour into 5-year G-secs under RBI's concessional swap window Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdEJGaWU2LTh4NkVkQ05CYVRxSUdiMU8wVFdFRXVLMFRGbzZVeHlNeDBUR2o1d2I5SmZTOVZ4WGdGOVJlUl9kaEljVm5IMWhBZmU5SlB2a200NVBUMzlieXVfYjlWMXgydGNVVW1ROGVYZi1IZjF3T1pLZklnd2dPVGVSU0dQZjZ4WjhGMkE2WU1ETGVkTUdJZ29JQmdQdFdRekZMenVIeWY3MHQyY0tHQnA5RmdBNWRZby10MHZtZnFMcHY1c1FMRXlZeUZCREtEaHYwNDVkU3hsanc20gHcAUFVX3lxTE90QkZpZTYtOHg2RWRDTkJhVHFJR2IxTzBUV0VFdUswVEZvNlV4eU14MFRHajV3YjlKZlM5VnhYZ0Y5UmVSX2RoSWNWbkgxaEFmZTlKUHZrbTQ1UFQzOWJ5dV9iOVYxeDJ0Y1VVbVE4ZVhmLUhmMXdPWktmSWd3Z09UZVJTR1BmNnhaOEYyQTZZTURMZWRNR0lnb0lCZ1B0V1F6Rkx6dUh5ZjcwdDJjS0dCcDlGZ0E1ZFlvLXQwdm1mcUxwdjVzUUxFeVl5RkJES0RodjA0NWRTeGxqdzY?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-08-10T22:49:44+05:30",
-      "category": "Economy",
-      "summary": "FCNR(B) flows pour into 5-year G-secs under RBI's concessional swap window business-standard.com"
-    },
-    {
-      "title": "Jupiter Wagons Shares To Be In Focus As Company Wins Rs 400",
-      "excerpt": "Jupiter Wagons is targeting a BESS order book of around Rs 1,000 crore by 2026-27.",
-      "url": "https://www.ndtvprofit.com/markets/jupiter-wagons-shares-to-be-in-focus-after-winning-bess-projects-amounting-to-rs-400-crore-11891812#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/865f3f71_Jupiter_Wagons_website.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-10T22:48:32+05:30",
-      "category": "Markets",
-      "summary": "Jupiter Wagons is targeting a BESS order book of around Rs 1,000 crore by 2026-27."
-    },
-    {
-      "title": "'From  ₹14.12 lakh crore to  ₹23.40 lakh crore in 5 years': How govt is tightening the tax net",
-      "excerpt": "The Union govt has tightened tax compliance through PAN-Aadhaar linking, AIS, NUDGE, GST invoice checks and anti-fraud drives. ITR filers rose 24% to 8.67 crore in five years, while direct tax collections rose 66%.",
-      "url": "https://www.livemint.com/economy/from-rs-14-12-lakh-crore-to-rs-23-40-lakh-crore-in-5-years-how-govt-is-tightening-the-tax-net-11786377673778.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/10/1600x900/logo/tabank_1708605617940_1786378088123_61feb6a9-ccc4-4b7e-a6f6-9d1840e95ff8.jpg",
-      "publishedAt": "2026-08-10T21:41:34+05:30",
-      "category": "Economy",
-      "summary": "The Union govt has tightened tax compliance through PAN-Aadhaar linking, AIS, NUDGE, GST invoice checks and anti-fraud drives. ITR filers rose 24% to 8.67 crore in five years, while direct tax collections rose 66%."
-    },
-    {
-      "title": "E-way bill generation rises nearly 6% in July, signals steady goods movement",
-      "excerpt": "E-way bill generation rose nearly 6% year-on-year to 13.98 crore in July, the second-highest monthly tally on record, even as the pace of growth slowed from the previous two months.",
-      "url": "https://www.livemint.com/economy/eway-bill-generation-rises-nearly-6-in-july-signals-steady-goods-movement-gst-imports-trade-11786373354844.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/10/1600x900/logo/pexels-photo-3760067_1757085842102_1757085860597_1786376255365_1cf5b283-b68e-4901-9e5e-13893892cfb1.jpeg",
-      "publishedAt": "2026-08-10T21:14:06+05:30",
-      "category": "Economy",
-      "summary": "E-way bill generation rose nearly 6% year-on-year to 13.98 crore in July, the second-highest monthly tally on record, even as the pace of growth slowed from the previous two months."
     }
   ]
 }
