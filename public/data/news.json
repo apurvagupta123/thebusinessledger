@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T01:09:28+05:30",
+  "lastUpdated": "2026-08-12T02:22:05+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,26 @@
       "publishedAt": "2026-08-12T00:29:43+05:30",
       "category": "Markets",
       "summary": "GLOBAL-GRAINS/ (UPDATE 4):GRAINS-Chicago grains weaken in positioning ahead of USDA report"
+    },
+    {
+      "title": "US stocks: US market ends down as Iran peace deal optimism fades",
+      "excerpt": "Wall Street closed lower as investors grew pessimistic about Middle East stability. Amazon and Alphabet stocks dipped, impacting major indices like the S&P 500. Brent crude futures held near one-week highs amid rising oi",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-down-as-iran-peace-deal-optimism-fades/articleshow/133165118.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-12T01:38:33+05:30",
+      "category": "Markets",
+      "summary": "Wall Street closed lower as investors grew pessimistic about Middle East stability. Amazon and Alphabet stocks dipped, impacting major indices like the S&P 500. Brent crude futures held near one-week highs amid rising oi"
+    },
+    {
+      "title": "Fed’s Austan Goolsbee says inflation is the biggest problem on Fed rate signal",
+      "excerpt": "Chicago Fed President Austan Goolsbee has voiced significant worry over soaring inflation, recognizing it as the foremost challenge facing the economy today. While he deems the labor market stable, he doesn't classify it",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-austan-goolsbee-says-inflation-is-the-biggest-problem-on-fed-rate-signal/articleshow/133164860.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-12T01:15:05+05:30",
+      "category": "Markets",
+      "summary": "Chicago Fed President Austan Goolsbee has voiced significant worry over soaring inflation, recognizing it as the foremost challenge facing the economy today. While he deems the labor market stable, he doesn't classify it"
     },
     {
       "title": "Colombia Coffee Exports Largely Halted After Deadly Earthquake",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-08-11T22:00:13+05:30",
       "category": "Economy",
       "summary": "SBI Q1 GDP Nowcast at 8% vs RBI’s 7%: The Growth Surprise That Could Reprice Indian Stocks NiftyTrader"
-    },
-    {
-      "title": "Tenneco Clean Air Block Deal: Promoter To Sell Over Rs 2,000",
-      "excerpt": "The base offer size for the block deal is 32.3 million shares, representing 8% of the company's equity, with an upsize option of 8.1 million shares, or an additional 2% stake.",
-      "url": "https://www.ndtvprofit.com/markets/tenneco-clean-air-block-deal-promoter-to-sell-over-rs-2-000-crore-stake-offer-price-fixed-11896356#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/13gcv2b8_n_625x300_02_April_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-11T21:30:31+05:30",
-      "category": "Markets",
-      "summary": "The base offer size for the block deal is 32.3 million shares, representing 8% of the company's equity, with an upsize option of 8.1 million shares, or an additional 2% stake."
-    },
-    {
-      "title": "Awarapan 2 Advance Booking Day 1: Emraan Hashmi's Comeback Film Nears Rs 2 Crore Before Release",
-      "excerpt": "Awarapan 2 stars Emraan Hashmi in the lead role and serves as the sequel to the 2007 cult classic Awarapan.",
-      "url": "https://www.ndtvprofit.com/business/cinema-bollywood-movie-awarapan-2-advance-booking-day-1-emraan-hashmi-comeback-film-opening-day-release-earnings-estimate-11896343#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/apb8pvls_awarapan2day1advancebookingemraanhashmijpg_625x300_11_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-11T21:29:10+05:30",
-      "category": "Markets",
-      "summary": "Awarapan 2 stars Emraan Hashmi in the lead role and serves as the sequel to the 2007 cult classic Awarapan."
     }
   ]
 }
