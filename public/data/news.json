@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-12T04:19:27+05:30",
+  "lastUpdated": "2026-08-12T05:17:28+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Global Investors Favor Taiwan Over Korea Stocks After AI Selloff",
+      "excerpt": "Taiwanese stocks are gaining favor over South Korea’s on steadier earnings prospects, as the two AI-bellwether markets look to recover from July’s rout.",
+      "url": "https://www.livemint.com/market/global-investors-favor-taiwan-over-korea-stocks-after-ai-selloff-11786490631027.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-08-12T04:53:50+05:30",
+      "category": "Markets",
+      "summary": "Taiwanese stocks are gaining favor over South Korea’s on steadier earnings prospects, as the two AI-bellwether markets look to recover from July’s rout."
+    },
     {
       "title": "Yen Inches Toward 160 Per Dollar, Raising Intervention Concerns",
       "excerpt": "The yen edged closer toward a key level against the dollar, raising concerns over Japanese authorities stepping in again to prop up the currency.",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-11T22:05:20+05:30",
       "category": "Markets",
       "summary": "Shiprocket has raised Rs 727.41 crore from 50 anchor investors ahead of its Rs 1,617.5-crore IPO, which opens on August 12. Here are the key IPO details, financials and GMP."
-    },
-    {
-      "title": "Boeing Trails Rival Airbus As July Jet Deliveries Drop Sharply From June Peak",
-      "excerpt": "Boeing booked 30 net new orders in July, including 18 737 MAX and 19 787 jets, with most commitments announced at the Farnborough Airshow.",
-      "url": "https://www.ndtvprofit.com/business/boeing-trails-rival-airbus-as-july-jet-deliveries-drop-sharply-from-june-peak-11896467#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/qgmuc0k4_boeing-vs-airbus_625x300_11_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-11T22:02:09+05:30",
-      "category": "Markets",
-      "summary": "Boeing booked 30 net new orders in July, including 18 737 MAX and 19 787 jets, with most commitments announced at the Farnborough Airshow."
     }
   ]
 }
