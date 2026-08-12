@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-13T00:36:41+05:30",
+  "lastUpdated": "2026-08-13T01:39:41+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Oil prices edge up as investors weigh US",
+      "excerpt": "GLOBAL-OIL:Oil prices edge up as investors weigh US-Iran talks deadlock against lower demand",
+      "url": "https://www.livemint.com/market/oil-prices-edge-up-as-investors-weigh-us-iran-talks-deadlock-against-lower-demand-11786561800055.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-08-13T00:39:59+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-OIL:Oil prices edge up as investors weigh US-Iran talks deadlock against lower demand"
+    },
     {
       "title": "Gold rises to over two-month peak as US inflation data dampens rate hike bets",
       "excerpt": "GLOBAL-PRECIOUS:Gold rises to over two-month peak as US inflation data dampens rate hike bets",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-12T22:00:38+05:30",
       "category": "Markets",
       "summary": "Nebius shares jumped nearly 22% after the AI cloud provider beat revenue estimates, driven by surging infrastructure demand, larger contracts and higher prices. Core AI cloud revenue increased sixfold, while major custom"
-    },
-    {
-      "title": "Google Unveils Pixel 11 Series With Deeper Gemini AI Integration",
-      "excerpt": "Google's Pixel 11 series brings fewer hardware changes but a major leap in Gemini-powered AI, alongside a price hike across the lineup.",
-      "url": "https://www.ndtvprofit.com/technology/google-unveils-pixel-11-series-with-deeper-gemini-ai-integration-11901615#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/186b216s_pixel_625x300_05_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-12T21:50:09+05:30",
-      "category": "Markets",
-      "summary": "Google's Pixel 11 series brings fewer hardware changes but a major leap in Gemini-powered AI, alongside a price hike across the lineup."
     }
   ]
 }
