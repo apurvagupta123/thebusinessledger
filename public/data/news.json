@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-08-13T01:39:41+05:30",
+  "lastUpdated": "2026-08-13T02:51:31+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "US Sells 10",
+      "excerpt": "A $42 billion auction of 10-year US Treasuries resulted in the highest yield for the benchmark securities since 2007, luring decent appetite from investors who’ve been demanding more compensation to finance the US govern",
+      "url": "https://www.livemint.com/market/us-sells-10-year-debt-at-highest-yields-since-financial-crisis-11786566124472.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-08-13T01:52:03+05:30",
+      "category": "Markets",
+      "summary": "A $42 billion auction of 10-year US Treasuries resulted in the highest yield for the benchmark securities since 2007, luring decent appetite from investors who’ve been demanding more compensation to finance the US govern"
+    },
+    {
+      "title": "Technocrats Plasma Systems Share Price Today, Technocrats Plasma Systems Stock Price Live NSE/BSE Updates",
+      "excerpt": "Technocrats Plasma Systems Share Price Today, Technocrats Plasma Systems Stock Price Live NSE/BSE Updates The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWVNSR0hqZGxsTmxaQV9aXzJXeGVPSTFGSHRkZVdRQUVfenJlUXlVX1M2X2JpQmNTdlZTWmxwOXpxZVVNcURyRTZ5QjlJUjNOSE1iMUZ1eWM5UUowaFlBNlpYVlMxT1ZfVDZHM1NZd3B5Z0JmMmlRZnVfajRUOFBEa3FCMFV1Qk5LY3NNdEFablI?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-13T02:14:23+05:30",
+      "category": "Markets",
+      "summary": "Technocrats Plasma Systems Share Price Today, Technocrats Plasma Systems Stock Price Live NSE/BSE Updates The Economic Times"
+    },
+    {
+      "title": "US stocks: S&P 500 ends higher as CoreWeave results fuel AI optimism",
+      "excerpt": "US stock markets closed higher on Wednesday, driven by strong AI infrastructure company earnings. Mild inflation data reinforced expectations that the Federal Reserve will hold interest rates steady. CoreWeave and other ",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-sp-500-ends-higher-as-coreweave-results-fuel-ai-optimism/articleshow/133192806.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-13T01:38:14+05:30",
+      "category": "Markets",
+      "summary": "US stock markets closed higher on Wednesday, driven by strong AI infrastructure company earnings. Mild inflation data reinforced expectations that the Federal Reserve will hold interest rates steady. CoreWeave and other "
+    },
     {
       "title": "Oil prices edge up as investors weigh US",
       "excerpt": "GLOBAL-OIL:Oil prices edge up as investors weigh US-Iran talks deadlock against lower demand",
@@ -221,36 +251,6 @@
       "publishedAt": "2026-08-12T22:23:54+05:30",
       "category": "Markets",
       "summary": "MoRTH says tipping must be voluntary, offered only after the ride, with the full amount going to drivers"
-    },
-    {
-      "title": "MTNL Q1 Results: Net Loss Narrows To Rs 842 Crore; Revenue Jumps 26%",
-      "excerpt": "MTNL's Q1 revenue rises to Rs 217 crore, while EBITDA loss narrows to Rs 643 crore.",
-      "url": "https://www.ndtvprofit.com/markets/mtnl-q1-results-net-loss-narrows-to-rs-842-crore-revenue-jumps-26-11901635#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/proen/2025-04-19/wxi6ma0t/mtnl-q3.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-12T22:18:50+05:30",
-      "category": "Markets",
-      "summary": "MTNL's Q1 revenue rises to Rs 217 crore, while EBITDA loss narrows to Rs 643 crore."
-    },
-    {
-      "title": "ICC CEO Wants End To 'Random' Bilateral Series, Calls For More Context",
-      "excerpt": "ICC CEO Sanjog Gupta said the ODI format's survival is \"inextricably\" linked to the World Cup, even as bilateral cricket faces an uncertain future.",
-      "url": "https://www.ndtvprofit.com/sports/icc-ceo-wants-end-to-random-bilateral-series-calls-for-more-context-11901673#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/lt1vn374_icc_625x300_12_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-12T22:18:21+05:30",
-      "category": "Markets",
-      "summary": "ICC CEO Sanjog Gupta said the ODI format's survival is \"inextricably\" linked to the World Cup, even as bilateral cricket faces an uncertain future."
-    },
-    {
-      "title": "Nebius shares soar 22% as AI demand powers revenue beat",
-      "excerpt": "Nebius shares jumped nearly 22% after the AI cloud provider beat revenue estimates, driven by surging infrastructure demand, larger contracts and higher prices. Core AI cloud revenue increased sixfold, while major custom",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nebius-shares-soar-22-as-ai-demand-powers-revenue-beat/articleshow/133188174.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-12T22:00:38+05:30",
-      "category": "Markets",
-      "summary": "Nebius shares jumped nearly 22% after the AI cloud provider beat revenue estimates, driven by surging infrastructure demand, larger contracts and higher prices. Core AI cloud revenue increased sixfold, while major custom"
     }
   ]
 }
