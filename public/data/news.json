@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T01:34:48+05:30",
+  "lastUpdated": "2026-08-14T02:52:48+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,26 @@
       "publishedAt": "2026-08-14T00:36:56+05:30",
       "category": "Markets",
       "summary": "GLOBAL-FOREX/ (UPDATE 5):FOREX-Dollar mixed after flat PPI, rate hike bets cool"
+    },
+    {
+      "title": "US stocks: S&P 500 notches record-high close as rate-hike worries ease",
+      "excerpt": "The S&P 500 has hit a historic peak, largely influenced by a surge in technology stocks. With producer price inflation showing stability, expectations of a Federal Reserve rate hike have diminished. Memory chip giants Sa",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-sp-500-notches-record-high-close-as-rate-hike-worries-ease/articleshow/133223873.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-14T01:39:01+05:30",
+      "category": "Markets",
+      "summary": "The S&P 500 has hit a historic peak, largely influenced by a surge in technology stocks. With producer price inflation showing stability, expectations of a Federal Reserve rate hike have diminished. Memory chip giants Sa"
+    },
+    {
+      "title": "Average pay of CEOs of S&P 500 companies rose to record $22.8 million following Elon Musk's nearly $1 trillion compensation, AFL",
+      "excerpt": "Elon Musk's compensation is setting new benchmarks for S&P 500 executive pay. Average CEO pay rose significantly, even as employee wages are facing pressure from artificial intelligence and labor board policies. Sharehol",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/average-pay-of-ceos-of-sp-500-companies-rose-to-record-22-8-million-following-elon-musks-nearly-1-trillion-compensation-afl-cio-finds/articleshow/133223688.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-14T01:27:09+05:30",
+      "category": "Markets",
+      "summary": "Elon Musk's compensation is setting new benchmarks for S&P 500 executive pay. Average CEO pay rose significantly, even as employee wages are facing pressure from artificial intelligence and labor board policies. Sharehol"
     },
     {
       "title": "Gold retreats on profit-taking after hitting two-month peak following inflation data",
@@ -223,34 +243,14 @@
       "summary": "The meter will have six colour-coded risk levels, ranging from Irish Green for the lowest credit risk to Red for high to very high risk of default."
     },
     {
-      "title": "Sebi proposes mandatory 'Credit Risk-o-Meter' for debt securities",
-      "excerpt": "Sebi proposes mandatory 'Credit Risk-o-Meter' for debt securities Business Standard",
+      "title": "Sebi proposes mandatory 'Credit Risk-o-Meter' for debt securities - business-standard.com",
+      "excerpt": "Sebi proposes mandatory 'Credit Risk-o-Meter' for debt securities business-standard.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeUE1UGRYNm95TU5McUY1ODZiVDNRdWpQUUFheVBQYnV0Ym9mYzdLcG1uemE1ZzUwVy01WWhqWXl5OGdEeUZ2ZEpuY2RnQ1c2Z0JQbjlQWUZtSjA1MFA3VUFTbTlTV3ROY3FPRnY4eGduZEtXcm5uQkJyWDJaNURZVzVLQUJrUlJTR0xkcFhmU182YTZZUE5CX044WC11YWZaRmUxaWpKVnpENVlQX1RKNzdEa2pjWVB4X3VtUVF1VFozbXNqbWxHc0pn0gHPAUFVX3lxTE1BNWVLM3FidlRITmdseGlfbDUtdGsya2hHdzBld0VwM3FqN1Q1Ti13X2tsN2hGWDlBSURIdXVzekNjVGhDMUZIZHBZbGwyMk01dkR3UjNLQkh1WUVxRmVxV2FxcFdfVFE5eVFfX01VUFhybjhLRFR3M091QTVQOGE3TUJnbEtVdEwtNHA5ZENMYUlyUlhfR21iX1hPUDlZRkt3YmRmUVdoU1hGYmxwUURYYnJVczlsZGRsbGZOdFlMOHNPajR3VTlXa2xzU3pNMA?oc=5",
-      "source": "Business Standard",
+      "source": "business-standard.com",
       "image": null,
       "publishedAt": "2026-08-13T22:11:37+05:30",
       "category": "Economy",
       "summary": "Sebi proposes mandatory 'Credit Risk-o-Meter' for debt securities Business Standard"
-    },
-    {
-      "title": "China's Fierce AI Race: DeepSeek Debuts V4 Pro Model With Eye On $74 Billion Valuation",
-      "excerpt": "DeepSeek will introduce peak and off-peak API pricing for V4 Pro and V4 Flash from Aug. 17, with hikes of up to 1,100%.",
-      "url": "https://www.ndtvprofit.com/technology/chinas-fierce-ai-race-deepseek-debuts-v4-pro-model-with-eye-on-74-billion-valuation-11906679#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/e53s17_deepseek-is-changing-its-api-pricing-as-demand-for-its-ai-models-grows-_625x300_13_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-13T22:08:27+05:30",
-      "category": "Markets",
-      "summary": "DeepSeek will introduce peak and off-peak API pricing for V4 Pro and V4 Flash from Aug. 17, with hikes of up to 1,100%."
-    },
-    {
-      "title": "Sebi proposes colour-coded risk meter for bonds",
-      "excerpt": "Sebi wants credit ratings mapped to six colour-coded risk levels to make debt securities easier for investors to assess.",
-      "url": "https://www.livemint.com/market/bonds/sebi-proposes-colour-coded-risk-meter-for-bonds-debt-securities-investment-capital-11786636518803.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/13/1600x900/logo/INDIA-SEBI-0_1760105208232_1760105217336_1786638308867_598e0ab2-3fed-4d31-aa58-1b95a3ff9129.jpg",
-      "publishedAt": "2026-08-13T22:07:06+05:30",
-      "category": "Markets",
-      "summary": "Sebi wants credit ratings mapped to six colour-coded risk levels to make debt securities easier for investors to assess."
     }
   ]
 }
