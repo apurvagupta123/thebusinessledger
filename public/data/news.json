@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T01:36:10+05:30",
+  "lastUpdated": "2026-08-15T02:27:13+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,16 @@
       "publishedAt": "2026-08-15T01:27:32+05:30",
       "category": "Markets",
       "summary": "Oil edged higher as traders weighed a US threat to impose unprecedented economic measures on Iran, with the war that snarled the Strait of Hormuz in its sixth month."
+    },
+    {
+      "title": "US stock: S&P 500 ends lower as investors weigh data, Middle East tensions",
+      "excerpt": "The S&P 500's streak came to an end, falling from its peak as weaker retail sales suggested caution among consumers. Despite a strong outlook, Applied Materials saw its shares slump, dragging down AI-related stocks. In c",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-sp-500-ends-lower-as-investors-weigh-data-middle-east-tensions/articleshow/133251425.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-15T01:40:33+05:30",
+      "category": "Markets",
+      "summary": "The S&P 500's streak came to an end, falling from its peak as weaker retail sales suggested caution among consumers. Despite a strong outlook, Applied Materials saw its shares slump, dragging down AI-related stocks. In c"
     },
     {
       "title": "Dollar falls on surprise drop in US retail sales",
@@ -193,10 +203,10 @@
       "summary": "The RBI said that, based on the encouraging response to the swap facility for FCNR(B) deposits and the resultant forex inflows, the facility will be available only for deposits mobilised until August 31, 2026."
     },
     {
-      "title": "From Rs 2.7 lakh crore to a $4 trillion economy: How India changed in 79 years - firstpost.com",
-      "excerpt": "From Rs 2.7 lakh crore to a $4 trillion economy: How India changed in 79 years firstpost.com",
+      "title": "From Rs 2.7 lakh crore to a $4 trillion economy: How India changed in 79 years",
+      "excerpt": "From Rs 2.7 lakh crore to a $4 trillion economy: How India changed in 79 years Firstpost",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM3R3M0llM3NjWnZOR3p5OWJIbXRjZU5lYUstdkI3UjRxUFk0dGZwQlEtM0V6M0x2aGNOelpBSkhIR0VObUlMVHM1X1NGaU12NG95R3JaRHF2bDZfTGVHRHJyR21TeUNrZEViOE1TRzI4NWFqOEZDTExUUV9LaGpuY281TG5UMUdOV093WEZQelp2cXZuc1HSAZYBQVVfeXFMUDN0dzNJZTNzY1p2Tkd6eTliSG10Y2VOZWFLLXZCN1I0cVBZNHRmcEJRLTNFejNMdmhjTnpaQUpISEdFTm1JTFRzNV9TRmlNdjRveUdyWkRxdmw2X0xlR0RyckdtU3lDa2RFYjhNU0cyODVhajhGQ0xMVFFfS2hqbmNvNUxuVDFHTldPd1hGUHpadnF2bnNR?oc=5",
-      "source": "firstpost.com",
+      "source": "Firstpost",
       "image": null,
       "publishedAt": "2026-08-14T22:29:59+05:30",
       "category": "Economy",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-14T22:08:31+05:30",
       "category": "Markets",
       "summary": "Alphabet's $900 million investment in SpaceX is now worth about $94 billion, making it the rocket firm's largest reported institutional holder after its IPO, filings show."
-    },
-    {
-      "title": "Liverpool FC Sells 30% Stake To Jeff Bezos",
-      "excerpt": "FSG retains majority ownership and operational control as Amit Bhatia-led consortium invests £1.65 billion, valuing Liverpool at £5.5 billion.",
-      "url": "https://www.ndtvprofit.com/business/liverpool-fc-sells-30-stake-to-jeff-bezos-backed-consortium-11911401#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/haip2jso_d_625x300_21_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-14T22:03:13+05:30",
-      "category": "Markets",
-      "summary": "FSG retains majority ownership and operational control as Amit Bhatia-led consortium invests £1.65 billion, valuing Liverpool at £5.5 billion."
     }
   ]
 }
