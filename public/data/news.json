@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-18T02:01:56+05:30",
+  "lastUpdated": "2026-08-18T02:59:39+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Traders Get Pickier in Emerging-Market Inflation",
+      "excerpt": "Persistent inflation worries and currency swings are pushing emerging-market investors to adjust bets in an $886 billion asset class that’s been delivering outsize returns for more than a year.",
+      "url": "https://www.livemint.com/market/traders-get-pickier-in-emerging-market-inflation-linked-debt-11787001634597.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-08-18T02:50:34+05:30",
+      "category": "Markets",
+      "summary": "Persistent inflation worries and currency swings are pushing emerging-market investors to adjust bets in an $886 billion asset class that’s been delivering outsize returns for more than a year."
+    },
     {
       "title": "Stocks, dollar fall after weak data; yields rise",
       "excerpt": "GLOBAL-MARKETS/ (UPDATE 5):GLOBAL MARKETS-Stocks, dollar fall after weak data; yields rise",
@@ -41,6 +51,16 @@
       "publishedAt": "2026-08-18T00:29:58+05:30",
       "category": "Markets",
       "summary": "USA-STOCKS/ (UPDATE 5):US STOCKS-Wall Street indexes slip with Iran, retail results in focus"
+    },
+    {
+      "title": "FM bats for youth-focused banking as India targets Viksit Bharat",
+      "excerpt": "FM bats for youth-focused banking as India targets Viksit Bharat The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRXV1aXBLRGVoLUsyN25DV1dCUnVNaTJmbUVpblhRWGNTdzRjdjBtYTRvQ0dRQXdueTM5UTFUNHFxRWNOcHVpVFRocndqeU9OdkpvSmlsQkhLZE9QOGhBazhaQVZCVE1fM1VBSlIwVXFWaHZzWmc2VEZ5eG9tR1gyVEFzbTNEMVF0enpPa3lCZ3EzZnpQWmk0ejc2VkMtZnVaWWNNR3ZIcmdhQlBEYUt4aDVhMXFIX3VlczRyeG9BSldNbjkwXzB1VtIByAFBVV95cUxQRXV1aXBLRGVoLUsyN25DV1dCUnVNaTJmbUVpblhRWGNTdzRjdjBtYTRvQ0dRQXdueTM5UTFUNHFxRWNOcHVpVFRocndqeU9OdkpvSmlsQkhLZE9QOGhBazhaQVZCVE1fM1VBSlIwVXFWaHZzWmc2VEZ5eG9tR1gyVEFzbTNEMVF0enpPa3lCZ3EzZnpQWmk0ejc2VkMtZnVaWWNNR3ZIcmdhQlBEYUt4aDVhMXFIX3VlczRyeG9BSldNbjkwXzB1Vg?oc=5",
+      "source": "The Hans India",
+      "image": null,
+      "publishedAt": "2026-08-18T00:25:19+05:30",
+      "category": "Economy",
+      "summary": "FM bats for youth-focused banking as India targets Viksit Bharat The Hans India"
     },
     {
       "title": "Diageo To Overhaul Whisky, Rum Formulas In India To Settle Regulatory Probe: Report",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-08-17T22:29:12+05:30",
       "category": "Markets",
       "summary": "Captain India is an aviation thriller built around a humanitarian rescue operation, with Kartik Aaryan playing the central pilot character."
-    },
-    {
-      "title": "SPR Auto Kicks Off Rs 1,000 Crore QIP With Up To 5% Discount",
-      "excerpt": "Auto parts maker sets QIP floor price at Rs 4,438.20; issue could dilute equity by up to 5.4%",
-      "url": "https://www.ndtvprofit.com/markets/spr-auto-kicks-off-rs-1-000-crore-qip-with-up-to-5-discount-11922796#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/1p6vqt98_auto_625x300_17_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-17T22:26:11+05:30",
-      "category": "Markets",
-      "summary": "Auto parts maker sets QIP floor price at Rs 4,438.20; issue could dilute equity by up to 5.4%"
-    },
-    {
-      "title": "New Royal Enfield Continental GT 650 Launched In India: Price, Features And More",
-      "excerpt": "Royal Enfield's updated Continental GT 650 gets a black-finished instrument cowl, LED indicators and USB Type-C charging, while the engine remains unchanged.",
-      "url": "https://www.ndtvprofit.com/lifestyle/new-royal-enfield-continental-gt-650-launched-in-india-price-features-and-more-11922470#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/4dgqpbe_continental-gt-650_625x300_17_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-17T22:24:07+05:30",
-      "category": "Markets",
-      "summary": "Royal Enfield's updated Continental GT 650 gets a black-finished instrument cowl, LED indicators and USB Type-C charging, while the engine remains unchanged."
     }
   ]
 }
