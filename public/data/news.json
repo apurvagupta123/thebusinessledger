@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-18T00:15:46+05:30",
+  "lastUpdated": "2026-08-18T01:01:36+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Wall Street indexes slip with Iran, retail results in focus",
+      "excerpt": "USA-STOCKS/ (UPDATE 5):US STOCKS-Wall Street indexes slip with Iran, retail results in focus",
+      "url": "https://www.livemint.com/market/wall-street-indexes-slip-with-iran-retail-results-in-focus-11786993198786.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-08-18T00:29:58+05:30",
+      "category": "Markets",
+      "summary": "USA-STOCKS/ (UPDATE 5):US STOCKS-Wall Street indexes slip with Iran, retail results in focus"
+    },
+    {
+      "title": "Diageo To Overhaul Whisky, Rum Formulas In India To Settle Regulatory Probe: Report",
+      "excerpt": "Among the affected Diageo products are McDowell's No. 1 Celebration Matured XXX Rum in Maharashtra and Antiquity Blue and Royal Challenge whisky in Madhya Pradesh.",
+      "url": "https://www.ndtvprofit.com/business/diageo-to-overhaul-whisky-rum-formulas-in-india-to-settle-regulatory-probe-report-11922895#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/9urt1jjs_alcohol_625x300_17_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-17T23:28:14+05:30",
+      "category": "Markets",
+      "summary": "Among the affected Diageo products are McDowell's No. 1 Celebration Matured XXX Rum in Maharashtra and Antiquity Blue and Royal Challenge whisky in Madhya Pradesh."
+    },
     {
       "title": "OnePlus, Oppo Hike Smartphone Prices In India By Up To Rs 5,000",
       "excerpt": "The price revisions come as smartphone brands revise retail prices across models and configurations, raising the cost of several devices for consumers.",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-08-17T22:10:06+05:30",
       "category": "Markets",
       "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks such as BEL, Samvardhana Motherson, Bajaj Housing, TCS and Yes Bank."
-    },
-    {
-      "title": "Do Not Trust Live Trading Streams On Social Media: SEBI Warns Investors",
-      "excerpt": "Market regulator flags real-time stock tips on social media and urges investors to deal only with registered intermediaries",
-      "url": "https://www.ndtvprofit.com/markets/do-not-trust-live-trading-streams-on-social-media-sebi-warns-investors-11922678#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/561ubveo_sebi_625x300_13_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-17T21:59:26+05:30",
-      "category": "Markets",
-      "summary": "Market regulator flags real-time stock tips on social media and urges investors to deal only with registered intermediaries"
-    },
-    {
-      "title": "GitHub Down: Online Cloud Platform Sees Major Outages In Workflows, Compute, API Requests And More",
-      "excerpt": "GitHub is facing major outages in its actions, as well with its API (application programming interface) requests, pull requests and Copilot.",
-      "url": "https://www.ndtvprofit.com/technology/github-down-online-cloud-platform-sees-major-outages-in-workflows-compute-api-requests-and-more-11922543#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/otnsfrfc_github_625x300_17_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-17T21:56:10+05:30",
-      "category": "Markets",
-      "summary": "GitHub is facing major outages in its actions, as well with its API (application programming interface) requests, pull requests and Copilot."
     }
   ]
 }
