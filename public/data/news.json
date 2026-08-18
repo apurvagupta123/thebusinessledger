@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T02:23:43+05:30",
+  "lastUpdated": "2026-08-19T02:58:21+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,16 @@
       "publishedAt": "2026-08-19T07:00:01+05:30",
       "category": "Markets",
       "summary": "Here are the stocks to watch going into trade today."
+    },
+    {
+      "title": "Mizuho Markets Head Expects BOJ to Raise Rates Soon, More Often",
+      "excerpt": "Mizuho Financial Group Inc. expects the Bank of Japan to pick up the pace of interest-rate hikes, with the next one coming as soon as next month, as the weak yen and inflation prompt the central bank to act more quickly.",
+      "url": "https://www.livemint.com/market/mizuho-markets-head-expects-boj-to-raise-rates-soon-more-often-11787087982849.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-08-19T02:49:42+05:30",
+      "category": "Markets",
+      "summary": "Mizuho Financial Group Inc. expects the Bank of Japan to pick up the pace of interest-rate hikes, with the next one coming as soon as next month, as the weak yen and inflation prompt the central bank to act more quickly."
     },
     {
       "title": "US stocks: Tech selloff weighs down Wall Street as bond yields climb",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-18T21:49:18+05:30",
       "category": "Markets",
       "summary": "Atlanta Electricals has received a Letter of Intent from APTRANSCO for 12 units of 160 MVA transformers valued at ₹193.92 crore. The order enhances its presence in the power transmission market and showcases its manufact"
-    },
-    {
-      "title": "Hindustan Copper shares rebound 20% in 15 sessions. What’s driving the rally?",
-      "excerpt": "Hindustan Copper's shares rose 20% over 15 sessions, aided by higher international copper prices. With significant ore reserves, the company is poised for growth, especially as domestic demand may double in the next deca",
-      "url": "https://www.livemint.com/market/stock-market-news/hindustan-copper-shares-rebound-20-in-15-sessions-what-s-driving-the-rally-11787063093871.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/18/1600x900/logo/im-355188_1769755615742_1787063091604_8cf2f73a-947d-4825-94c0-742ede37be61.jpg",
-      "publishedAt": "2026-08-18T20:05:20+05:30",
-      "category": "Markets",
-      "summary": "Hindustan Copper's shares rose 20% over 15 sessions, aided by higher international copper prices. With significant ore reserves, the company is poised for growth, especially as domestic demand may double in the next deca"
     }
   ]
 }
