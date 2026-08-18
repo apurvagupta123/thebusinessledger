@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-18T18:24:52+05:30",
+  "lastUpdated": "2026-08-18T19:16:54+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "US stock market today: S&P 500, Nasdaq futures down up to 1% amid surging oil and bond yields",
+      "excerpt": "US stock futures suggest a negative opening as technology stocks decline, amid rising bond yields and oil prices, raising inflation concerns. The S&amp;P 500 is expected to post its third consecutive day of losses, with ",
+      "url": "https://www.livemint.com/market/us-stock-market-today-s-p-500-nasdaq-futures-down-up-to-1-amid-surging-oil-and-bond-yields-11787054644462.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/18/1600x900/logo/US-ECONOMY-MARKETS-NYSE-4_1750940643064_1787056462059_cdbdb76f-8f03-4419-96a9-be4feda92985.jpg",
+      "publishedAt": "2026-08-18T18:36:19+05:30",
+      "category": "Markets",
+      "summary": "US stock futures suggest a negative opening as technology stocks decline, amid rising bond yields and oil prices, raising inflation concerns. The S&amp;P 500 is expected to post its third consecutive day of losses, with "
+    },
     {
       "title": "Technocrats Plasma Systems IPO Closes With Rs 43 GMP, Subscription Soars To 189x",
       "excerpt": "Technocrats Plasma Systems IPO was subscribed 189 times, with an estimated listing price of Rs 175 per share, implying a 33 percent premium over the upper price band of Rs 132.",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-18T17:33:21+05:30",
       "category": "Markets",
       "summary": "Vizhinjam International Seaport will also undertake a Rs 16,000-crore Phase 2 expansion which will create over 5,000 additional direct, indirect jobs."
-    },
-    {
-      "title": "Apple's Next AirPods To Have Cameras Too? Here's What Leaks Suggest",
-      "excerpt": "Apple may be working on camera-equipped AirPods, with a leak video found on the latest macOS update offering a glimpse of how a technology could work.",
-      "url": "https://www.ndtvprofit.com/technology/apples-next-airpods-to-have-cameras-too-heres-what-leaks-suggest-11925439#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/5p02vra_apple-airpods_625x300_18_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-18T17:33:21+05:30",
-      "category": "Markets",
-      "summary": "Apple may be working on camera-equipped AirPods, with a leak video found on the latest macOS update offering a glimpse of how a technology could work."
     }
   ]
 }
