@@ -1,9 +1,99 @@
 {
-  "lastUpdated": "2026-08-19T22:59:59+05:30",
+  "lastUpdated": "2026-08-19T23:24:14+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "Korean investors dump home stocks for US, buying same names at a premium | Is Wall Street headed for KOSPI-style crash?",
+      "title": "Coal India To Allcargo: Market Uncertainty Shifts Focus To High",
+      "excerpt": "Allcargo Logistics could benefit from the upcoming festive season, which is expected to aid business numbers.",
+      "url": "https://www.ndtvprofit.com/markets/coal-india-to-allcargo-market-uncertainty-shifts-focus-to-high-yield-dividend-stocks-11932886#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-04/vdc1v5kc_dividend_625x300_26_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T23:10:01+05:30",
+      "category": "Markets",
+      "summary": "Allcargo Logistics could benefit from the upcoming festive season, which is expected to aid business numbers."
+    },
+    {
+      "title": "India Targets $100",
+      "excerpt": "India aims to raise gems and jewellery exports to $100 billion by 2040, shifting focus towards value addition, innovation, design and global branding.",
+      "url": "https://www.ndtvprofit.com/economy/india-targets-100-billion-gems-jewellery-exports-by-2040-11932669#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/j28q2gsk_india-targets-100billion-gems-jewellery-exports-by-2040_625x300_19_August_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T23:08:24+05:30",
+      "category": "Markets",
+      "summary": "India aims to raise gems and jewellery exports to $100 billion by 2040, shifting focus towards value addition, innovation, design and global branding."
+    },
+    {
+      "title": "Indian Lenders Raise $4 Billion In Between June 16 And Aug. 13 Via Global Band Issuances",
+      "excerpt": "The money has been raised between June 16 and Aug. 13, starting with a $750 million issuance from the largest private sector lender HDFC Bank.",
+      "url": "https://www.ndtvprofit.com/economy/indian-lenders-raise-4-billion-in-between-june-16-and-aug-13-via-global-band-issuances-11932866#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/org3ou_savings-pexels_625x300_01_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T23:05:05+05:30",
+      "category": "Markets",
+      "summary": "The money has been raised between June 16 and Aug. 13, starting with a $750 million issuance from the largest private sector lender HDFC Bank."
+    },
+    {
+      "title": "Trump Seals Deal With Canada's Carney Hours After 50% Tariff Pause",
+      "excerpt": "The US and Canada have reached a trade agreement, according to Donald Trump, easing tariff tensions and opening the way for concessions on both sides.",
+      "url": "https://www.ndtvprofit.com/world/trump-seals-deal-with-canadas-carney-hours-after-50-tariff-pause-11932648#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/0f1mbupo_mark-carney-donald-trump_625x300_19_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T23:03:39+05:30",
+      "category": "Markets",
+      "summary": "The US and Canada have reached a trade agreement, according to Donald Trump, easing tariff tensions and opening the way for concessions on both sides."
+    },
+    {
+      "title": "Pakistan Fumes Over US Diplomat's 'Kashmir Part Of India' Remark, Issues Demarche",
+      "excerpt": "Islamabad protests US envoy's remarks on Kashmir, calls territory internationally disputed",
+      "url": "https://www.ndtvprofit.com/india/pakistan-fumes-over-us-diplomats-kashmir-part-of-india-remark-issues-demarche-11932690#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/to216hp4_oa_625x300_19_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T22:58:51+05:30",
+      "category": "Markets",
+      "summary": "Islamabad protests US envoy's remarks on Kashmir, calls territory internationally disputed"
+    },
+    {
+      "title": "Moderna Shares Rocket 160% On Cancer Drug Trial Success",
+      "excerpt": "The pharmaceutical company's share price has hit its highest level since 2024, as investors cheered the successful trial of its drug for Melanoma.",
+      "url": "https://www.ndtvprofit.com/markets/moderna-shares-rocket-90-pre-market-as-cancer-drug-trial-success-11931420#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/292a0458_covid_still_life_with_vaccine__3_.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T22:57:18+05:30",
+      "category": "Markets",
+      "summary": "Moderna's shares were up 91.01% to $120.26 on the NadaqGS's pre-market trade at 8:39 a.m. EDT."
+    },
+    {
+      "title": "Target shares jump 6% as retailer raises full-year outlook on strong sales",
+      "excerpt": "The retailer now expects net sales to rise about 5% in the current fiscal year, which ends in early 2027. The new forecast is one percentage point above its previous guidance",
+      "url": "https://www.livemint.com/market/stock-market-news/target-shares-jump-6-as-retailer-raises-full-year-outlook-on-strong-sales-11787157995874.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/TARGET-RESULTS--0_1787159811711_1787159840706_847b8570-c272-4d9e-92a9-86d9777ace9e.JPG",
+      "publishedAt": "2026-08-19T22:56:47+05:30",
+      "category": "Markets",
+      "summary": "The retailer now expects net sales to rise about 5% in the current fiscal year, which ends in early 2027. The new forecast is one percentage point above its previous guidance"
+    },
+    {
+      "title": "Bitcoin Surges Most Since March, Nears $70,000 Ahead Of Trump Crypto Meeting",
+      "excerpt": "Crypto and prediction markets are two growing sectors that the Trump Administration has sought to boost with an industry friendly regulatory framework.",
+      "url": "https://www.ndtvprofit.com/markets/bitcoin-surges-most-since-march-nears-70-000-ahead-of-trump-crypto-meeting-11932812#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/dur3pjs4_bitcoin_625x300_19_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T22:50:16+05:30",
+      "category": "Markets",
+      "summary": "Crypto and prediction markets are two growing sectors that the Trump Administration has sought to boost with an industry friendly regulatory framework."
+    },
+    {
+      "title": "Buy, Sell Or Hold: PNG Housing, Tata Capital, NTPC, PB Fintech And Exide Industries — Ask Profit",
+      "excerpt": "Market experts shared their insights on fundamentals and technical levels for key stocks such as",
+      "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-png-housing-tata-capital-ntpc-pb-fintech-and-exide-industries-ask-profit-11932809#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/s6naou4s_buy-sell-hold_625x300_19_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T22:50:14+05:30",
+      "category": "Markets",
+      "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks such as"
+    },
+    {
+      "title": "Korean investors dump home stocks for US ones, buy same names at a premium | Is KOSPI-style crash coming to Wall Street?",
       "excerpt": "South Korean investors are shifting from their home market to US stocks amid waning confidence. July saw a net purchase of $4.5 billion in US stocks, primarily in technology and semiconductors.&nbsp;",
       "url": "https://www.livemint.com/market/stock-market-news/korean-investors-dump-home-stocks-for-us-buying-same-names-at-a-premium-is-wall-street-headed-for-kospi-style-crash-11787150873908.html",
       "source": "Mint",
@@ -11,6 +101,36 @@
       "publishedAt": "2026-08-19T22:47:56+05:30",
       "category": "Markets",
       "summary": "South Korean investors are shifting from their home market to US stocks amid waning confidence. July saw a net purchase of $4.5 billion in US stocks, primarily in technology and semiconductors.&nbsp;"
+    },
+    {
+      "title": "Nifty Extends Record No-New",
+      "excerpt": "Nifty is down 7.91% year-to-date, 1.25% so far in August and 3.61% over the past year.",
+      "url": "https://www.ndtvprofit.com/markets/nifty-extends-record-no-new-high-run-but-bulls-smell-imminent-breakout-11932796#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/proen/2025-03-10/klwr8tzh/Stock-market-background-07.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T22:45:55+05:30",
+      "category": "Markets",
+      "summary": "Nifty is down 7.91% year-to-date, 1.25% so far in August and 3.61% over the past year."
+    },
+    {
+      "title": "Diageo To Rework McDowell's Rum, Royal Challenge Whisky Formulas In India",
+      "excerpt": "United Spirits, Diageo's Indian arm, has agreed to reformulate some of its whisky and rum brands after regulatory action by the Food Safety and Standards Authority of India, according to reports.",
+      "url": "https://www.ndtvprofit.com/business/diageo-to-overhaul-whisky-rum-formulas-in-india-to-settle-regulatory-probe-report-11922895#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/hvkndr2c_whiskey-rum_625x300_18_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T22:43:27+05:30",
+      "category": "Markets",
+      "summary": "United Spirits, Diageo's Indian arm, has agreed to reformulate some of its whisky and rum brands after regulatory action by the Food Safety and Standards Authority of India, according to reports."
+    },
+    {
+      "title": "FSSAI Revokes Order Against United Spirits' McDowell's No 1 Rum From Baramati",
+      "excerpt": "FSSAI has revoked its June order related to the sale of McDowell's No. 1 Celebration Matured XXX Rum manufactured at United Spirits' Baramati unit.",
+      "url": "https://www.ndtvprofit.com/business/fssai-revokes-order-against-united-spirits-mcdowells-no-1-rum-from-baramati-11932773#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/6o84r3r_fssai_625x300_19_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-19T22:41:22+05:30",
+      "category": "Markets",
+      "summary": "FSSAI has revoked its June order related to the sale of McDowell's No. 1 Celebration Matured XXX Rum manufactured at United Spirits' Baramati unit."
     },
     {
       "title": "HEG receives NCLT approval for demerger scheme; shareholders to get 1:1 shares in HEG Graphite",
@@ -103,16 +223,6 @@
       "summary": "The Malayalam version has recorded the highest bookings so far, while the Tamil and Telugu versions have seen limited bookings."
     },
     {
-      "title": "Moderna Shares Rocket Over 100% On Cancer Drug Trial Success",
-      "excerpt": "Moderna's shares were up 104.3% at $128.63 on Nasdaq, minutes after the opening bell.",
-      "url": "https://www.ndtvprofit.com/markets/moderna-shares-rocket-90-pre-market-as-cancer-drug-trial-success-11931420#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/292a0458_covid_still_life_with_vaccine__3_.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T21:39:51+05:30",
-      "category": "Markets",
-      "summary": "Moderna's shares were up 91.01% to $120.26 on the NadaqGS's pre-market trade at 8:39 a.m. EDT."
-    },
-    {
       "title": "'We Are Gen Z' Is The New 'Mera Baap Kaun Hai': Omar Abdullah On Viral Ladakh Video",
       "excerpt": "Omar Abdullah reacts to viral video of tourist confronting officials over Ladakh road restrictions",
       "url": "https://www.ndtvprofit.com/trending/we-are-gen-z-is-the-new-mera-baap-kaun-hai-omar-abdullah-on-viral-ladakh-video-11932391#publisher=newsstand",
@@ -133,66 +243,6 @@
       "summary": "Kia Sorento is set to debut in India as the brand's flagship three-row SUV, with all-wheel drive and Live Gen AI among its confirmed features."
     },
     {
-      "title": "Gujarat Eyes AI, Semiconductor Pacts; CM Woos Google, Micron, Perplexity During US Visit",
-      "excerpt": "Gujarat is seeking technology partnerships with global companies across semiconductors, AI, data centres and skill development.",
-      "url": "https://www.ndtvprofit.com/business/gujarat-eyes-ai-semiconductor-pacts-cm-woos-google-micron-perplexity-during-us-visit-11932205#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/kqvuc4go_cm_625x300_19_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T21:25:02+05:30",
-      "category": "Markets",
-      "summary": "Gujarat is seeking technology partnerships with global companies across semiconductors, AI, data centres and skill development."
-    },
-    {
-      "title": "Hacker 'Leaks' GTA 6 Footage — Six Star Wanted Level, Basketball Minigame, Map Spanning Entire State",
-      "excerpt": "The leak comes roughly a week away from when Rockstar will premiere the'Grand Theft Auto VI: An Extended Look' promo, set to release on Aug 27.",
-      "url": "https://www.ndtvprofit.com/technology/hacker-leaks-gta-6-footage-six-star-wanted-level-basketball-minigame-map-spanning-entire-state-11932322#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/4emk7n2k_gta-vi_625x300_19_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T21:17:07+05:30",
-      "category": "Markets",
-      "summary": "The leak comes roughly a week away from when Rockstar will premiere the'Grand Theft Auto VI: An Extended Look' promo, set to release on Aug 27."
-    },
-    {
-      "title": "SEBI's First CAS Manipulation Crackdown: Two Firms Banned For Gaming SENSEX Expiry Options",
-      "excerpt": "New closing auction mechanism faces first manipulation case as regulator flags sharp index moves and alleged trades linked to options positions",
-      "url": "https://www.ndtvprofit.com/markets/sebis-first-cas-manipulation-crackdown-two-firms-banned-for-rigging-sensex-expiry-options-11932127#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/nst6t3ko_sebi_625x300_19_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T21:16:34+05:30",
-      "category": "Markets",
-      "summary": "New closing auction mechanism faces first manipulation case as regulator flags sharp index moves and alleged trades linked to options positions"
-    },
-    {
-      "title": "Around 100 Feared Dead In Central African Republic Gold Mine Collapse",
-      "excerpt": "Rescue teams search for survivors after the Zamboye mine collapse near the Cameroon border, with local sources putting the death toll as high as 100.",
-      "url": "https://www.ndtvprofit.com/world/around-100-feared-dead-in-central-african-republic-gold-mine-collapse-11932228#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/0kakrc1g_mine-collapse_625x300_19_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T21:12:58+05:30",
-      "category": "Markets",
-      "summary": "Rescue teams search for survivors after the Zamboye mine collapse near the Cameroon border, with local sources putting the death toll as high as 100."
-    },
-    {
-      "title": "Planning To Buy A Maruti Suzuki In August? These Models Get Discounts Of Up To Rs 1.35 Lakh",
-      "excerpt": "Maruti Suzuki Arena buyers can access August benefits across several models, combining cash discounts, exchange bonuses, scrappage and corporate offers.",
-      "url": "https://www.ndtvprofit.com/lifestyle/planning-to-buy-a-maruti-suzuki-in-august-these-models-get-discounts-of-up-to-rs-1-35-lakh-11932208#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/t2rv364o_maruti-suzuki-arena-car-lineup_625x300_19_August_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T21:12:46+05:30",
-      "category": "Markets",
-      "summary": "Maruti Suzuki Arena buyers can access August benefits across several models, combining cash discounts, exchange bonuses, scrappage and corporate offers."
-    },
-    {
-      "title": "Egypt Football Coach Hossam Hassan Collapses After Alleged Altercation Between His Two Wives: Report",
-      "excerpt": "Following the incident, Hassan reportedly divorced his first wife, with whom he had three children.",
-      "url": "https://www.ndtvprofit.com/world/egypt-football-coach-hossam-hassan-collapses-after-alleged-altercation-between-his-two-wives-report-11932192#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/ge9n2j08_hossam-hassan_625x300_19_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T21:11:39+05:30",
-      "category": "Markets",
-      "summary": "Following the incident, Hassan reportedly divorced his first wife, with whom he had three children."
-    },
-    {
       "title": "US dollar falls to lowest level since late May after Treasury doubles bond buybacks",
       "excerpt": "The US dollar continues to decline, hitting multi-week lows as the Treasury doubles its debt buyback programme to stabilise the bond market. Yields have dropped amid heightened fiscal concerns and inflation, prompting a ",
       "url": "https://www.livemint.com/market/stock-market-news/us-dollar-falls-to-lowest-level-since-late-may-after-treasury-doubles-bond-buybacks-11787151740851.html",
@@ -201,56 +251,6 @@
       "publishedAt": "2026-08-19T21:09:37+05:30",
       "category": "Markets",
       "summary": "The US dollar continues to decline, hitting multi-week lows as the Treasury doubles its debt buyback programme to stabilise the bond market. Yields have dropped amid heightened fiscal concerns and inflation, prompting a "
-    },
-    {
-      "title": "Sebi bars two entities from markets over manipulation in CAS, orders  ₹3.68 crore disgorgement",
-      "excerpt": "Sebi said Copthall Mauritius Investment and Mansi Share and Stock Broking had manipulated the closing auction session on 13 August, which was a weekly Sensex expiry day for derivatives contracts&nbsp;",
-      "url": "https://www.livemint.com/market/stock-market-news/sebi-bars-two-entities-from-markets-over-manipulation-in-cas-orders-3-68-crore-disgorgement-11787151881235.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/Sebi_2-reuters_1765779552828_1765779562101_1787153339109_0a9f0dd0-0925-4264-912d-c569718e1614.jpg",
-      "publishedAt": "2026-08-19T21:06:13+05:30",
-      "category": "Markets",
-      "summary": "Sebi said Copthall Mauritius Investment and Mansi Share and Stock Broking had manipulated the closing auction session on 13 August, which was a weekly Sensex expiry day for derivatives contracts&nbsp;"
-    },
-    {
-      "title": "India Down Pakistan 5-3 To Seal Next-Round Spot, Knock Arch",
-      "excerpt": "Harmanpreet Singh and Abhishek scored twice each as India edged Pakistan in an eight-goal thriller in the FIH Hockey World Cup 2026 in Amstelveen.",
-      "url": "https://www.ndtvprofit.com/sports/india-down-pakistan-5-3-to-seal-next-round-spot-knock-arch-rivals-out-of-hockey-world-cup-2026-11932148#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/oeb562fo_india-hockey_625x300_19_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T20:58:47+05:30",
-      "category": "Markets",
-      "summary": "Harmanpreet Singh and Abhishek scored twice each as India edged Pakistan in an eight-goal thriller in the FIH Hockey World Cup 2026 in Amstelveen."
-    },
-    {
-      "title": "Chip Stocks Tumble Again: Intel, Sandisk, Western Digital Sink Up To 5% Even As SK Hynix Rallies",
-      "excerpt": "Intel shares dropped 4.68%, while Sandisk slipped 4.5%. Western Digital fell 5.16%, AMD traded 3.97% and Micron Technology dipped 1.98% to $922.11. On the other hand, SK Hynix ADR gained 2.9%.",
-      "url": "https://www.ndtvprofit.com/markets/chip-stocks-tumble-again-intel-sandisk-western-digital-sink-up-to-5-even-as-sk-hynix-rallies-11932138#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/gtpn9f2o_bb_625x300_19_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T20:56:24+05:30",
-      "category": "Markets",
-      "summary": "Intel shares dropped 4.68%, while Sandisk slipped 4.5%. Western Digital fell 5.16%, AMD traded 3.97% and Micron Technology dipped 1.98% to $922.11. On the other hand, SK Hynix ADR gained 2.9%."
-    },
-    {
-      "title": "Broadcom Stocks Slumps, Trades 27% Below Record Highs Despite Strong AI Numbers. Here's Why",
-      "excerpt": "Broadcom shares fell as Marvell expanded its custom-chip partnership with Google, raising concerns over competition for AI spending despite Broadcom's strong growth.",
-      "url": "https://www.ndtvprofit.com/markets/broadcom-stocks-slumps-trades-27-below-record-highs-despite-strong-ai-numbers-heres-why-11932154#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/80ll8vl8_broadcom_625x300_05_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T20:51:08+05:30",
-      "category": "Markets",
-      "summary": "Broadcom shares fell as Marvell expanded its custom-chip partnership with Google, raising concerns over competition for AI spending despite Broadcom's strong growth."
-    },
-    {
-      "title": "Australian Tennis Star Nick Kyrgios Provisionally Suspended After Testing Positive For Cocaine",
-      "excerpt": "The former world No. 13 tested positive for a cocaine metabolite in a sample collected during the Mallorca Open.",
-      "url": "https://www.ndtvprofit.com/sports/australian-tennis-star-nick-kyrgios-provisionally-suspended-after-testing-positive-for-cocaine-11932096#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/kchp0mng_nick-kyrgios_625x300_19_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T20:50:34+05:30",
-      "category": "Markets",
-      "summary": "The former world No. 13 tested positive for a cocaine metabolite in a sample collected during the Mallorca Open."
     }
   ]
 }
