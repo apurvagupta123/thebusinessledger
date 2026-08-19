@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-19T16:59:17+05:30",
+  "lastUpdated": "2026-08-19T17:24:29+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Indiabulls says the EOW status report does not mention any wrongdoing in a major loan case",
+      "excerpt": "According to Indiabulls, the Additional Commissioner of Police, Economic Offences Wing (EOW), Delhi, filed a status report dated 11 August 2026 recording that all 197 loan accounts stand fully repaid and closed.",
+      "url": "https://www.livemint.com/market/stock-market-news/indiabulls-says-the-eow-status-report-does-not-mention-any-wrongdoing-in-a-major-loan-case-11787139527360.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/PTI08-13-2026-000567B-0_1787036013540_178703603494_1787139882422_1787139882643_3a4875f5-3a45-4dd3-84eb-9c6de1196faa.jpg",
+      "publishedAt": "2026-08-19T17:22:06+05:30",
+      "category": "Markets",
+      "summary": "According to Indiabulls, the Additional Commissioner of Police, Economic Offences Wing (EOW), Delhi, filed a status report dated 11 August 2026 recording that all 197 loan accounts stand fully repaid and closed."
+    },
+    {
+      "title": "Mint Explainer | Why Sebi wants to revamp its settlement framework",
+      "excerpt": "Sebi has suggested changes to how settlement amounts are calculated and interest on disgorgement is charged. Why is Sebi proposing to change the framework?",
+      "url": "https://www.livemint.com/market/stock-market-news/sebi-proposal-settlement-framework-markets-regulator-india-11787126318033.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/INDIA-REGULATION-FUND-INVESTORS-0_1787130705157_1787130716165_bf91638d-bd62-47bd-b48c-132fed843c9f.JPG",
+      "publishedAt": "2026-08-19T17:05:48+05:30",
+      "category": "Markets",
+      "summary": "Sebi has suggested changes to how settlement amounts are calculated and interest on disgorgement is charged. Why is Sebi proposing to change the framework?"
+    },
     {
       "title": "Sebi asks brokers to accept orders in first five minutes of closing auction",
       "excerpt": "The acceptance of after-market orders will help discover prices more accurately as liquidity improves.",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-08-19T13:39:24+05:30",
       "category": "Markets",
       "summary": "Sebi is weighing a broader overhaul of the SME market as costly market-making, illiquid odd lots and rules linked to paid-up capital come under review."
-    },
-    {
-      "title": "SpiceJet Shares Tumble 4% Amid Heavy Volumes; Airline Welcomes NCLT Order In Aviator ML Case",
-      "excerpt": "Earlier in the day, SpiceJet said it welcomed the NCLT order in the Aviator ML case, with seven other claims now set to be heard afresh in accordance with due process.",
-      "url": "https://www.ndtvprofit.com/markets/spicejet-shares-tumble-4-percent-amid-heavy-volumes-airline-welcomes-nclt-order-in-aviator-ml-case-11929953#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/kcvfb6r_spicejet_625x300_01_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T13:35:17+05:30",
-      "category": "Markets",
-      "summary": "Earlier in the day, SpiceJet said it welcomed the NCLT order in the Aviator ML case, with seven other claims now set to be heard afresh in accordance with due process."
-    },
-    {
-      "title": "Pune Horror: 10-Year-Old Girl Raped And Murdered; Neighbour Arrested; Locals Block Highway",
-      "excerpt": "The protestors demanded that the accused be sentenced to death and submitted a memorandum to administrative official Sachin Mundhe.",
-      "url": "https://www.ndtvprofit.com/india/pune-horror-10-year-old-girl-raped-and-murdered-neighbour-arrested-locals-block-highway-11929815#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/nvbl7jok_pune-horror-_625x300_19_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T13:33:38+05:30",
-      "category": "Markets",
-      "summary": "The protestors demanded that the accused be sentenced to death and submitted a memorandum to administrative official Sachin Mundhe."
     }
   ]
 }
