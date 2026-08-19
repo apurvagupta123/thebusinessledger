@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-08-20T04:24:04+05:30",
+  "lastUpdated": "2026-08-20T04:56:35+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Oil Holds Four",
+      "excerpt": "Oil held a four-day run of gains as traders assessed the standoff in the Middle East between Iran and the US, with signs some crude is being shipped through the Strait of Hormuz to global markets.",
+      "url": "https://www.livemint.com/market/oil-holds-four-day-gain-with-iran-stalemate-and-hormuz-in-focus-11787181261190.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/maxresdefault_1787181269472_1787181274123_5e51ace0-4597-4262-afcf-d15bb6c37ab9.jpg",
+      "publishedAt": "2026-08-20T04:44:20+05:30",
+      "category": "Markets",
+      "summary": "Oil held a four-day run of gains as traders assessed the standoff in the Middle East between Iran and the US, with signs some crude is being shipped through the Strait of Hormuz to global markets."
+    },
+    {
+      "title": "Bessent Boosts Debt Buybacks After Yields Hit Multi",
+      "excerpt": "The US Treasury unexpectedly announced it’s ramping up buybacks of long-dated government debt, taking the action in the wake of yields on such securities hitting the highest levels in years.",
+      "url": "https://www.livemint.com/market/bessent-boosts-debt-buybacks-after-yields-hit-multi-decade-highs-11787180955196.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-08-20T04:39:14+05:30",
+      "category": "Markets",
+      "summary": "The US Treasury unexpectedly announced it’s ramping up buybacks of long-dated government debt, taking the action in the wake of yields on such securities hitting the highest levels in years."
+    },
     {
       "title": "Moderna’s 177% Surge Burns Shorts in ‘Painful’ $5.5 Billion Loss",
       "excerpt": "A record surge in Moderna Inc.’s shares delivered a $5.5 billion blow to short sellers who had bet that the vaccine maker’s years-long slump would continue.",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-08-19T22:58:51+05:30",
       "category": "Markets",
       "summary": "Islamabad protests US envoy's remarks on Kashmir, calls territory internationally disputed"
-    },
-    {
-      "title": "Moderna Shares Rocket 160% On Cancer Drug Trial Success",
-      "excerpt": "The pharmaceutical company's share price has hit its highest level since 2024, as investors cheered the successful trial of its drug for Melanoma.",
-      "url": "https://www.ndtvprofit.com/markets/moderna-shares-rocket-90-pre-market-as-cancer-drug-trial-success-11931420#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/292a0458_covid_still_life_with_vaccine__3_.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T22:57:18+05:30",
-      "category": "Markets",
-      "summary": "Moderna's shares were up 91.01% to $120.26 on the NadaqGS's pre-market trade at 8:39 a.m. EDT."
-    },
-    {
-      "title": "Target shares jump 6% as retailer raises full-year outlook on strong sales",
-      "excerpt": "The retailer now expects net sales to rise about 5% in the current fiscal year, which ends in early 2027. The new forecast is one percentage point above its previous guidance",
-      "url": "https://www.livemint.com/market/stock-market-news/target-shares-jump-6-as-retailer-raises-full-year-outlook-on-strong-sales-11787157995874.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/TARGET-RESULTS--0_1787159811711_1787159840706_847b8570-c272-4d9e-92a9-86d9777ace9e.JPG",
-      "publishedAt": "2026-08-19T22:56:47+05:30",
-      "category": "Markets",
-      "summary": "The retailer now expects net sales to rise about 5% in the current fiscal year, which ends in early 2027. The new forecast is one percentage point above its previous guidance"
     }
   ]
 }
