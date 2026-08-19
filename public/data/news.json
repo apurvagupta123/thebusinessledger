@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-19T10:33:17+05:30",
+  "lastUpdated": "2026-08-19T11:26:50+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Who pays, who profits? Unpacking the economics of India's toll landscape, in charts",
+      "excerpt": "Data from IHMCL unveils India’s toll economics: how high-volume corridors, shifting private participation, and the FASTag annual pass are driving highway revenue models.",
+      "url": "https://www.livemint.com/economy/india-toll-collections-revenue-fastag-toll-plazas-highways-11787110831930.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/2-0-1206145458-DSC-3037-0_1679663763627_1787117062467_98a09f72-6ba7-40e6-858a-e9374cfa64e8.JPG",
+      "publishedAt": "2026-08-19T11:00:48+05:30",
+      "category": "Economy",
+      "summary": "Data from IHMCL unveils India’s toll economics: how high-volume corridors, shifting private participation, and the FASTag annual pass are driving highway revenue models."
+    },
     {
       "title": "Sunshine Pictures IPO day 2 LIVE: GMP, subscription status to review. Should you apply for Vipul Shah's company shares?",
       "excerpt": "Sunshine Pictures IPO GMP today: According to market observers, shares of the film producer Vipul Shah-promoted company are available at a premium of ₹77 in the grey market today",
@@ -43,7 +53,7 @@
       "summary": "Domestic benchmark indices continued to decline on Wednesday, with Nifty 50 falling 0.35% to 24,070.65 and Sensex down 0.32% to 76,991.33. Concerns over elevated crude oil prices and rising bond yields pressured investor"
     },
     {
-      "title": "Bumper listing! Shiprocket share price lists at 35% premium over the IPO price",
+      "title": "Shiprocket IPO listing: Shares list at 35% premium over the IPO price. Details here",
       "excerpt": "Shiprocket share price listed at 35% premium over the IPO price of ₹97 per share. Shiprocket share price opened at ₹131 apiece on NSE and ₹129.50 per share on BSE (33.51% premium).",
       "url": "https://www.livemint.com/market/stock-market-news/bumper-listing-shiprocket-share-price-lists-at-35-premium-over-the-ipo-price-11787112874460.html",
       "source": "Mint",
@@ -63,7 +73,7 @@
       "summary": "The Top 5 market events that move D-Street the most! livemint.com"
     },
     {
-      "title": "Horizon Industrial IPO Day 3: Issue subscribed 24% so far. Check GMP, review - apply or not?",
+      "title": "Horizon Industrial Parks IPO Day 3: Issue subscribed 27% so far. Check GMP, review - apply or not?",
       "excerpt": "The Horizon Industrial Parks IPO was subscribed 24% by the end of Day 2, with investors bidding for shares out of the 25.13 crore shares available in the issue.",
       "url": "https://www.livemint.com/market/ipo/horizon-industrial-ipo-day-3-issue-subscribed-24-so-far-check-gmp-review-apply-or-not-11787112296810.html",
       "source": "Mint",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-19T08:34:09+05:30",
       "category": "Markets",
       "summary": "Mexican nationals accounted for the largest share of identified non-citizen voters at 3,800, followed by Canada, the Philippines and Jamaica."
-    },
-    {
-      "title": "TCS, Infosys, Wipro Face CLSA Downgrade; These Midcap IT Stocks Stay Top Picks — Check Target Price",
-      "excerpt": "CLSA downgraded TCS, Infosys and Tech Mahindra to Hold, while Wipro and Mphasis were cut to Underperform. Persistent and Coforge remain top picks.",
-      "url": "https://www.ndtvprofit.com/markets/clsa-downgrades-tcs-infosys-wipro-mphasis-coforge-persistent-systems-top-picks-check-target-price-11928867#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/lofjel0s_it-stocks_625x300_19_May_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T08:33:55+05:30",
-      "category": "Markets",
-      "summary": "CLSA downgraded TCS, Infosys and Tech Mahindra to Hold, while Wipro and Mphasis were cut to Underperform. Persistent and Coforge remain top picks."
     }
   ]
 }
