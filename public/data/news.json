@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-19T16:11:33+05:30",
+  "lastUpdated": "2026-08-19T16:59:17+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Sebi asks brokers to accept orders in first five minutes of closing auction",
+      "excerpt": "The acceptance of after-market orders will help discover prices more accurately as liquidity improves.",
+      "url": "https://www.livemint.com/market/stock-market-news/sebi-stockbrokers-trade-orders-closing-auction-session-11787134054384.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/INDIA-SEBI-0_1760105208232_1760105217336_1787135022855_a2790be9-f743-42cb-9402-4e0021a4df8a.jpg",
+      "publishedAt": "2026-08-19T16:25:38+05:30",
+      "category": "Markets",
+      "summary": "The acceptance of after-market orders will help discover prices more accurately as liquidity improves."
+    },
     {
       "title": "Top Gainers & Losers on 19 Aug: Netweb Tech, Bata, Reliance Power, Bharat Dynamics, Tata Chemicals among top losers",
       "excerpt": "Continuing its decline, the Indian stock market fell for the seventh consecutive session, driven by high crude prices and increased bond yields. The Nifty dropped to 24,078, while the Sensex closed at 76,909, with all ma",
@@ -13,7 +23,7 @@
       "summary": "Continuing its decline, the Indian stock market fell for the seventh consecutive session, driven by high crude prices and increased bond yields. The Nifty dropped to 24,078, while the Sensex closed at 76,909, with all ma"
     },
     {
-      "title": "Indian stock market replaces Indonesia as Asia’s least-preferred market in BofA survey",
+      "title": "India replaces Indonesia as Asia’s least preferred stock market in BofA survey",
       "excerpt": "Despite a strong start to 2026, the Indian stock market is faltering under pressure from global uncertainties and weak domestic growth. Fund managers indicate it is the least preferred market, with rising crude prices an",
       "url": "https://www.livemint.com/market/indian-stock-market-replaces-indonesia-as-asia-s-least-preferred-market-in-bofa-survey-11787132370080.html",
       "source": "Mint",
@@ -47,7 +57,7 @@
       "excerpt": "The Nifty closed at 24,078.30, down 77 points, or 0.32%, while the 30-share pack Sensex ended with a loss of 326 points, or 0.42%, at 76,909.68.",
       "url": "https://www.livemint.com/market/stock-market-news/nifty-50-falls-for-7th-straight-session-longest-since-september-2025-what-keeps-stock-market-sensex-under-pressure-11787133417369.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/NSE_1787134955866_1787134963389_6d021848-984b-4b35-af16-105f193d508d.JPG",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/NSE_1787134955866_1787134963389_6d021848-984b-4b35-af16-105f193d508d.JPG",
       "publishedAt": "2026-08-19T15:33:09+05:30",
       "category": "Markets",
       "summary": "The Nifty closed at 24,078.30, down 77 points, or 0.32%, while the 30-share pack Sensex ended with a loss of 326 points, or 0.42%, at 76,909.68."
@@ -61,6 +71,16 @@
       "publishedAt": "2026-08-19T15:03:56+05:30",
       "category": "Markets",
       "summary": "Stock to buy for long-term: Shares of Lincoln Pharmaceuticals Ltd have remained under profit-booking pressure after hitting a 52-week high at the end of May 2026"
+    },
+    {
+      "title": "Behari Lal Engineering shares rally 14% after stellar debut. What are brokerages saying?",
+      "excerpt": "Behari Lal Engineering shares surged 14% after making a strong market debut, listing at a 63% premium to the IPO price. Brokerages remain positive, citing strong investor appetite and reasonable valuations, though they a",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/behari-lal-engineering-shares-rally-14-after-stellar-debut-what-are-brokerages-saying/articleshow/133343201.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-19T14:41:24+05:30",
+      "category": "Markets",
+      "summary": "Behari Lal Engineering shares surged 14% after making a strong market debut, listing at a 63% premium to the IPO price. Brokerages remain positive, citing strong investor appetite and reasonable valuations, though they a"
     },
     {
       "title": "RailTel Corporation shares jump over 7% on  ₹167 crore EPFO order",
@@ -203,7 +223,7 @@
       "summary": "Penny stock under ₹10 informed Indian exchanges on Tuesday about repaying all the outstanding debt of 8 out of the 14 consortium banks, with all repayments completed ahead of scheduled due dates&nbsp;"
     },
     {
-      "title": "Sebi may ease SME trading, market-making rules as costs and liquidity under scrutiny",
+      "title": "Boost in the offing — Sebi may ease SME trading, market-making rules as costs, liquidity under scrutiny",
       "excerpt": "Sebi is weighing a broader overhaul of the SME market as costly market-making, illiquid odd lots and rules linked to paid-up capital come under review.",
       "url": "https://www.livemint.com/market/stock-market-news/sebi-may-ease-sme-trading-market-making-rules-as-costs-and-liquidity-under-scrutiny-11787123510521.html",
       "source": "Mint",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-08-19T13:33:38+05:30",
       "category": "Markets",
       "summary": "The protestors demanded that the accused be sentenced to death and submitted a memorandum to administrative official Sachin Mundhe."
-    },
-    {
-      "title": "Penny stock under  ₹5 hits upper circuit for 10 day in a row",
-      "excerpt": "NHC Foods share price opened at ₹1.61 apiece today, as compared to previous close of ₹1.56 on Wednesday. The penny stock touched an intraday high of ₹1.63 on 19 August.",
-      "url": "https://www.livemint.com/market/stock-market-news/penny-stock-under-5-nhc-foods-hits-upper-circuit-for-10-day-in-a-row-11787124431237.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/stock_1787126281979_1787126282265_b29d250c-cda8-4fde-bf0a-a43384e94a78.png",
-      "publishedAt": "2026-08-19T13:33:11+05:30",
-      "category": "Markets",
-      "summary": "NHC Foods share price opened at ₹1.61 apiece today, as compared to previous close of ₹1.56 on Wednesday. The penny stock touched an intraday high of ₹1.63 on 19 August."
-    },
-    {
-      "title": "SEBI To Allow After-Market Orders During 3:15-3:20 PM CAS Window: Sources",
-      "excerpt": "The move is aimed at improving participation and price discovery during the newly introduced closing auction mechanism. The rollout of the proposed change is being prepared and could begin around September 1, sources add",
-      "url": "https://www.ndtvprofit.com/markets/sebi-may-allow-after-market-orders-during-3-15-3-20-pm-cas-window-11929925#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/182qmdgg_sebi_625x300_19_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-19T13:30:58+05:30",
-      "category": "Markets",
-      "summary": "The move is aimed at improving participation and price discovery during the newly introduced closing auction mechanism. The rollout of the proposed change is being prepared and could begin around September 1, sources add"
     }
   ]
 }
