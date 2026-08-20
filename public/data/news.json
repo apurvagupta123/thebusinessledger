@@ -1,16 +1,186 @@
 {
-  "lastUpdated": "2026-08-20T12:28:55+05:30",
+  "lastUpdated": "2026-08-20T13:19:53+05:30",
   "count": 25,
   "articles": [
     {
+      "title": "Why Sebi's closing auction session order is a strong message to future violators",
+      "excerpt": "Sebi crackdown on an FPI and broker for manipulating the closing auction session on Sensex options expiry day acts as a deterrent to future foul play at upcoming derivatives contract settlements&nbsp;",
+      "url": "https://www.livemint.com/market/stock-market-news/sebi-cas-order-sensex-nifty-derivative-futures-and-options-f-o-contracts-11787206244392.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/20/1600x900/logo/INDIA-FUNDS-ABSL-AMC-0_1742379066038_1787211984267_63fd40d9-dacd-4624-8c56-220593870d3a.JPG",
+      "publishedAt": "2026-08-20T13:17:46+05:30",
+      "category": "Markets",
+      "summary": "Sebi crackdown on an FPI and broker for manipulating the closing auction session on Sensex options expiry day acts as a deterrent to future foul play at upcoming derivatives contract settlements&nbsp;"
+    },
+    {
+      "title": "Mutual funds turn to large-caps as FPIs retreat, retail shifts bets",
+      "excerpt": "Small-caps delivered the biggest gains in Q1FY27, but mutual funds favoured large- and mid-caps, FPIs cut holdings across segments, and retail investors trimmed exposure to much of the broader market.",
+      "url": "https://www.livemint.com/market/stock-market-news/small-cap-stocks-mutual-funds-fpi-retail-investors-q1fy27-11787195441939.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/20/1600x900/logo/im-98867202_1784534079331_1787210996391_fee96fbd-0758-4d2d-a021-ec2de6a9776e.jpg",
+      "publishedAt": "2026-08-20T13:05:34+05:30",
+      "category": "Markets",
+      "summary": "Small-caps delivered the biggest gains in Q1FY27, but mutual funds favoured large- and mid-caps, FPIs cut holdings across segments, and retail investors trimmed exposure to much of the broader market."
+    },
+    {
+      "title": "Turtlemint Fintech Share Price Surges Over 5% After Jefferies Initiates Coverage With 'Buy'",
+      "excerpt": "Jefferies expects Turtlemint's revenue to grow at a 38% CAGR over the next three years, with the brokerage pointing to the company's position in the point-of-sale-person insurance distribution segment as a key growth dri",
+      "url": "https://www.ndtvprofit.com/markets/turtlemint-fintech-share-price-surges-over-5-after-jefferies-initiates-coverage-with-buy-11934636#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/vvc58ok4_turtlemint-fintech-solutions_625x300_20_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:49:42+05:30",
+      "category": "Markets",
+      "summary": "Jefferies expects Turtlemint's revenue to grow at a 38% CAGR over the next three years, with the brokerage pointing to the company's position in the point-of-sale-person insurance distribution segment as a key growth dri"
+    },
+    {
+      "title": "Small-cap IT stock under  ₹50 jumps following Indian stock market rebound",
+      "excerpt": "Blue Cloud Softech Solutions share price opened at ₹22.45 apiece today, as compared to previous close of ₹22.39 on Wednesday. The small-cap stock touched an intraday high of ₹23.15 on 20 August.",
+      "url": "https://www.livemint.com/market/stock-market-news/smallcap-it-stock-under-50-blue-cloud-softech-solutions-jumps-following-indian-stock-market-rebound-11787208784541.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/20/1600x900/logo/stock_1787210350621_1787210350870_e0fafe7a-69b7-4ee0-a6af-57fa16fa0d39.jpg",
+      "publishedAt": "2026-08-20T12:49:33+05:30",
+      "category": "Markets",
+      "summary": "Blue Cloud Softech Solutions share price opened at ₹22.45 apiece today, as compared to previous close of ₹22.39 on Wednesday. The small-cap stock touched an intraday high of ₹23.15 on 20 August."
+    },
+    {
+      "title": "Aster DM Quality Care Share Price Tanks Nearly 4% In Trade. Here's Why",
+      "excerpt": "Aster DM Quality Care stock declined nearly 4% after a large Centella stake sale. Investors will track further selling pressure, trading volumes and any fresh disclosures around Centella’s pledged holding",
+      "url": "https://www.ndtvprofit.com/markets/aster-dm-quality-care-share-price-tanks-nearly-4-in-trade-heres-why-11934541#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/ch9105tc_aster-dm-share-price-slides_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:46:22+05:30",
+      "category": "Markets",
+      "summary": "Aster DM Quality Care stock declined nearly 4% after a large Centella stake sale. Investors will track further selling pressure, trading volumes and any fresh disclosures around Centella’s pledged holding"
+    },
+    {
+      "title": "Nifty Ends Seven-Day Losing Streak, Sensex Rallies 500 Points — Three Reasons Behind The Rebound",
+      "excerpt": "Global cues, support around 24,000 and strength in private-sector banks helped the Nifty recover after seven straight sessions of losses.",
+      "url": "https://www.ndtvprofit.com/markets/nifty-ends-seven-day-losing-streak-sensex-rallies-500-points-three-reasons-behind-the-rebound-11934622#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-04/l495vfa_bull-markets_625x300_01_April_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:45:59+05:30",
+      "category": "Markets",
+      "summary": "Global cues, support around 24,000 and strength in private-sector banks helped the Nifty recover after seven straight sessions of losses."
+    },
+    {
+      "title": "Raghuram Rajan Warns 'Jobocalypse' Is Coming But Says There's A Way Out",
+      "excerpt": "Enhancing AI capabilities require models that are not only trained on existing data but also adaptive to new data generated through everyday use. Rajan highlighted that currently, the corporate integration of artificial ",
+      "url": "https://www.ndtvprofit.com/economy/raghuram-rajan-warns-jobocalypse-is-coming-but-says-theres-a-way-out-11934489#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-02/c4auh4ok_raghuram-rajan_625x300_27_February_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:38:31+05:30",
+      "category": "Markets",
+      "summary": "Enhancing AI capabilities require models that are not only trained on existing data but also adaptive to new data generated through everyday use. Rajan highlighted that currently, the corporate integration of artificial "
+    },
+    {
+      "title": "Amit Shah Meets Vijay; Chairs 31st Meeting Of Southern Zonal Council",
+      "excerpt": "The Southern Zonal Council comprises Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana, along with the Union Territories of Puducherry, Andaman and Nicobar Islands and Lakshadweep.",
+      "url": "https://www.ndtvprofit.com/india/amit-shah-meets-vijay-chairs-31st-meeting-of-southern-zonal-council-11934389#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/6rb190m_amit-shah-and-vijay_625x300_20_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:32:50+05:30",
+      "category": "Markets",
+      "summary": "The Southern Zonal Council comprises Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana, along with the Union Territories of Puducherry, Andaman and Nicobar Islands and Lakshadweep."
+    },
+    {
+      "title": "Mumbai: Retired Income Tax Officer Loses Rs 51 Lakh In Cyber Fraud, Accused Arrested From Kerala",
+      "excerpt": "The police are currentlyinterrogating the accused and working to recover the entire sum of Rs 51 lakh extorted from the retired officer.",
+      "url": "https://www.ndtvprofit.com/india/mumbai-retired-income-tax-officer-loses-rs-51-lakh-in-cyber-fraud-accused-arrested-from-kerala-11934355#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/rlr3m2m_cyber-fraud_625x300_20_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:23:33+05:30",
+      "category": "Markets",
+      "summary": "The police are currentlyinterrogating the accused and working to recover the entire sum of Rs 51 lakh extorted from the retired officer."
+    },
+    {
+      "title": "Power Finance Corporation and REC shares fall up to 3% after Morgan Stanley downgrade",
+      "excerpt": "PFC and REC shares fell on Thursday after Morgan Stanley downgraded both stocks to Equal-Weight and cut their target prices. The brokerage flagged slower loan growth and lowered earnings estimates for FY28 and FY29. The ",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/power-finance-corporation-and-rec-shares-fall-up-to-3-after-morgan-stanley-downgrade/articleshow/133367186.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-20T12:17:24+05:30",
+      "category": "Markets",
+      "summary": "PFC and REC shares fell on Thursday after Morgan Stanley downgraded both stocks to Equal-Weight and cut their target prices. The brokerage flagged slower loan growth and lowered earnings estimates for FY28 and FY29. The "
+    },
+    {
+      "title": "L&T Wins 'Large Order' For Automated People Mover At Dubai's Al Maktoum Airport",
+      "excerpt": "L&T has secured a large order for an integrated Automated People Mover System as part of the long-term expansion of Dubai’s Al Maktoum International Airport",
+      "url": "https://www.ndtvprofit.com/markets/l-t-wins-large-order-for-automated-people-mover-at-dubai-s-al-maktoum-airport-11934380#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/qufcpjq_lt-wins-dubai-airport-order_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:16:25+05:30",
+      "category": "Markets",
+      "summary": "L&T has secured a large order for an integrated Automated People Mover System as part of the long-term expansion of Dubai’s Al Maktoum International Airport"
+    },
+    {
+      "title": "Awarapan 2 vs Batwara 1947 Box Office Collection Day 6: Check How The Two Films Performing",
+      "excerpt": "While Awarapan 2 has maintained a strong theatrical run and crossed the ₹100 crore milestone within its first week, Batwara 1947 has seen its daily collections fall sharply after the Independence Day.",
+      "url": "https://www.ndtvprofit.com/entertainment/awarapan-2-vs-batwara-1947-box-office-collection-day-6-check-how-sunny-deol-and-emraan-hashmi-films-performing-11933822#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/cmu7hk3c_awarapan-2-vs-batwara-1947_625x300_20_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:13:21+05:30",
+      "category": "Markets",
+      "summary": "While Awarapan 2 has maintained a strong theatrical run and crossed the ₹100 crore milestone within its first week, Batwara 1947 has seen its daily collections fall sharply after the Independence Day."
+    },
+    {
       "title": "Why is stock market up today? Top 3 reasons behind the rise in Sensex, Nifty, and the biggest gaining stocks",
-      "excerpt": "Sensex, Nifty today: Indian stock market benchmarks witnessed healthy gains in intraday tarde on Thursday, with Eternal, Kotak Mahindra Bank, and Axis Bank among top gainers.",
+      "excerpt": "Sensex, Nifty today: Indian stock market benchmarks witnessed healthy gains in intraday tarde on Thursday. Around 1 PM, the Sensex was 676 points, or 0.90%, up at 77,586, while the Nifty was 167 points, or 0.70%, up at 2",
       "url": "https://www.livemint.com/market/stock-market-news/why-is-stock-market-up-today-top-3-reasons-behind-the-rise-in-sensex-nifty-50-and-the-biggest-gaining-stocks-11787207387920.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/20/1600x900/Bull_market_1771390774311_1771390780039_1787207583843_681fd9a0-4926-468e-93f3-a4bf0af00023.png",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/20/1600x900/logo/Bull_market_1771390774311_1771390780039_1787207583843_681fd9a0-4926-468e-93f3-a4bf0af00023.png",
       "publishedAt": "2026-08-20T12:12:52+05:30",
       "category": "Markets",
       "summary": "Sensex, Nifty today: Indian stock market benchmarks witnessed healthy gains in intraday tarde on Thursday, with Eternal, Kotak Mahindra Bank, and Axis Bank among top gainers."
+    },
+    {
+      "title": "Tukaram Mundhe Transferred To Rajasthan? Social Media Posts Go Viral. Here's What FDA Chief Says",
+      "excerpt": "IAS officer Tukaram Mundhe, known for strict enforcement, denies social media claims of his 26th transfer, currently serving as Maharashtra FDA Commissioner.",
+      "url": "https://www.ndtvprofit.com/india/tukaram-mundhe-transferred-to-rajasthan-social-media-posts-go-viral-heres-what-fda-chief-says-11934444#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/cp9tu4mo_tukaram-mundhe_625x300_20_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:11:58+05:30",
+      "category": "Markets",
+      "summary": "IAS officer Tukaram Mundhe, known for strict enforcement, denies social media claims of his 26th transfer, currently serving as Maharashtra FDA Commissioner."
+    },
+    {
+      "title": "Milky Mist Seesaws: Stock Plunges 4% After Two",
+      "excerpt": "The shares have gained over 27% since listing, excluding the 17% premium from its issue price of Rs 140.",
+      "url": "https://www.ndtvprofit.com/markets/milky-mist-share-price-plunges-to-red-after-two-days-of-rally-since-listing-11934448#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/utgo3f6_s_625x300_18_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:11:43+05:30",
+      "category": "Markets",
+      "summary": "The shares have gained over 27% since listing, excluding the 17% premium from its issue price of Rs 140."
+    },
+    {
+      "title": "Shiprocket Share Price Surges Over 9% After Goldman Sachs Buys Over 40 Lakh Shares — Check Details",
+      "excerpt": "According to NSE bulk deal data, Goldman Sachs India Equity Portfolio bought 40,24,040 shares of Shiprocket during Wednesday's trading session.",
+      "url": "https://www.ndtvprofit.com/markets/shiprocket-share-price-surges-over-9-after-goldman-sachs-buys-over-40-lakh-shares-check-details-11934463#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/65023q2c_b_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:08:07+05:30",
+      "category": "Markets",
+      "summary": "According to NSE bulk deal data, Goldman Sachs India Equity Portfolio bought 40,24,040 shares of Shiprocket during Wednesday's trading session."
+    },
+    {
+      "title": "E-Challan Row: Mumbai Bus Owners Announce One",
+      "excerpt": "Mumbai bus operators will stage a one-day hunger strike over e-challan issues, demanding fair enforcement, parking facilities, cancellation of disputed fines, certified cameras and an end to vehicle blacklisting and forc",
+      "url": "https://www.ndtvprofit.com/india/e-challan-row-mumbai-bus-owners-announce-one-day-hunger-strike-11934304#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/s9059fs4_bus_625x300_20_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:07:32+05:30",
+      "category": "Markets",
+      "summary": "Mumbai bus operators will stage a one-day hunger strike over e-challan issues, demanding fair enforcement, parking facilities, cancellation of disputed fines, certified cameras and an end to vehicle blacklisting and forc"
+    },
+    {
+      "title": "Augmont Enterprises IPO GMP Points To 35% Listing Gain Ahead Of Aug. 21 Launch",
+      "excerpt": "Augmont Enterprises IPO draws investor attention with a 35.53% GMP-backed listing premium, while issue size, price band, lot size and key dates matter.",
+      "url": "https://www.ndtvprofit.com/markets/augmont-enterprises-ipo-gmp-hints-at-35-listing-gain-ahead-of-aug-21-launch-11934220#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/98oqn3vk_ipo_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:07:17+05:30",
+      "category": "Markets",
+      "summary": "Augmont Enterprises IPO draws investor attention with a 35.53% GMP-backed listing premium, while issue size, price band, lot size and key dates matter."
     },
     {
       "title": "Annu Projects IPO: Price band set at  ₹94-99 per share; check key dates, issue details",
@@ -23,6 +193,16 @@
       "summary": "The Annu Projects IPO price band ranges from ₹94 to ₹99 per share, open for subscription from 25 to 28 August. Allocation for anchor investors is on 24 August, with shares expected to list on 2 September."
     },
     {
+      "title": "Muthoot Finance Stock Zooms 5%, Manappuram Finance Gains As Gold Prices Hit Rs 1.58 Lakh",
+      "excerpt": "A sustained rise in gold prices can be positive for gold financiers as it increases the value of the collateral pledged against loans, providing greater security to lenders and potentially supporting loan growth.",
+      "url": "https://www.ndtvprofit.com/markets/muthoot-finance-stock-zooms-5-percent-manappuram-finance-gains-as-gold-prices-hit-rs-1-58-lakh-11934445#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/42bhu1qo_gold-financiers-stocks-surge_625x300_20_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T12:02:30+05:30",
+      "category": "Markets",
+      "summary": "A sustained rise in gold prices can be positive for gold financiers as it increases the value of the collateral pledged against loans, providing greater security to lenders and potentially supporting loan growth."
+    },
+    {
       "title": "Shankesh Jewellers IPO Day 3 LIVE: GMP, subscription status to review. Apply or not?",
       "excerpt": "Shankesh Jewellers IPO GMP today: According to market observers, shares of the company are available at a premium of ₹5 in the grey market today",
       "url": "https://www.livemint.com/market/ipo/shankesh-jewellers-ipo-day-3-live-gmp-today-subscription-status-to-review-apply-or-not-11787202874519.html",
@@ -31,6 +211,16 @@
       "publishedAt": "2026-08-20T12:00:49+05:30",
       "category": "Markets",
       "summary": "Shankesh Jewellers IPO GMP today: According to market observers, shares of the company are available at a premium of ₹5 in the grey market today"
+    },
+    {
+      "title": "IPO Buzz Returns: Indo-MIM to Milky Mist — Strong Listing Revive Primary Market Sentiment, But Experts Say Stay Selective",
+      "excerpt": "Market experts believe the recent pickup in IPO activity signals an improvement in investor sentiment towards the primary market, but does not necessarily indicate a broad-based IPO frenzy.",
+      "url": "https://www.ndtvprofit.com/markets/ipo-buzz-returns-indo-mim-to-milky-mist-strong-listing-revive-primary-market-sentiment-but-experts-say-stay-selective-11934411#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/ccp3rmmk_ipo_625x300_20_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-20T11:55:30+05:30",
+      "category": "Markets",
+      "summary": "Market experts believe the recent pickup in IPO activity signals an improvement in investor sentiment towards the primary market, but does not necessarily indicate a broad-based IPO frenzy."
     },
     {
       "title": "Why Is the Indian Stock Market Up Today? Sensex, Nifty Rebound After 7-Session Losing Streak, Supported by Easing US Bond Yields - What Investors Should Watch",
@@ -61,196 +251,6 @@
       "publishedAt": "2026-08-20T11:41:24+05:30",
       "category": "Markets",
       "summary": "It is preliminarily suspected that he took this extreme step due to immense stress regarding his studies and future."
-    },
-    {
-      "title": "India's PLI Scheme: CLSA Flags 'Mixed Bag' As Disbursals Lag At 18% On Weak Employment",
-      "excerpt": "CLSA concludes that trends point to a larger structural reality: the employment intensity of the investments made under the PLI schemes has proven to be much weaker than policymakers originally hoped.",
-      "url": "https://www.ndtvprofit.com/economy/indias-pli-scheme-clsa-flags-mixed-bag-as-rs-2-4-lakh-crore-capex-boost-gets-overshadowed-by-weak-job-creation-11934328#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/ldj8evl_ns_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:40:41+05:30",
-      "category": "Markets",
-      "summary": "CLSA concludes that trends point to a larger structural reality: the employment intensity of the investments made under the PLI schemes has proven to be much weaker than policymakers originally hoped."
-    },
-    {
-      "title": "Bessent Becomes Most Interventionist Treasury Chief In Decades",
-      "excerpt": "As stewards of the nation's economic policy and its financial markets, Treasury secretaries have often been forced to intervene in moments of crisis.",
-      "url": "https://www.ndtvprofit.com/world/scott-bessent-becomes-most-interventionist-treasury-chief-in-decades-11934318#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/td2fksb_scott-bessent-bbg_625x300_20_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:39:18+05:30",
-      "category": "Markets",
-      "summary": "As stewards of the nation's economic policy and its financial markets, Treasury secretaries have often been forced to intervene in moments of crisis."
-    },
-    {
-      "title": "Tempsens Instruments vs Gaja Capital IPO GMP — Which IPO Offers Better Listing Gains?",
-      "excerpt": "Tempsens Instruments vs Gaja Capital IPO GMP: Compare latest GMP, implied listing gains, issue details and subscription status as both IPOs draw investor attention.",
-      "url": "https://www.ndtvprofit.com/markets/tempsens-instruments-vs-gaja-capital-ipo-gmp-which-ipo-offers-better-listing-gains-11933876#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/n6h8kqt4_gmp_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:39:16+05:30",
-      "category": "Markets",
-      "summary": "Tempsens Instruments vs Gaja Capital IPO GMP: Compare latest GMP, implied listing gains, issue details and subscription status as both IPOs draw investor attention."
-    },
-    {
-      "title": "Gaja Alternative Asset Management IPO GMP In Focus On Day 2: What Investors Should Know",
-      "excerpt": "Gaja Alternative Asset Management IPO enters Day 2 with GMP signalling a potential listing gain. Check the latest GMP, subscription status and key details.",
-      "url": "https://www.ndtvprofit.com/markets/gaja-alternative-asset-management-ipo-gmp-in-focus-on-day-2-what-investors-should-know-11931640#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/rj88fr08_gaja_625x300_19_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:36:35+05:30",
-      "category": "Markets",
-      "summary": "Gaja Alternative Asset Management IPO enters Day 2 with GMP signalling a potential listing gain. Check the latest GMP, subscription status and key details."
-    },
-    {
-      "title": "Tempsens Instruments IPO GMP Signals 73% Listing Gain As Issue Fully Subscribed On Day 1",
-      "excerpt": "Tempsens Instruments India IPO opened today, with GMP indicating a potential 73% listing gain. Here's the latest GMP, issue details and key dates.",
-      "url": "https://www.ndtvprofit.com/markets/tempsens-instruments-ipo-gmp-signals-bumper-listing-gain-as-subscription-begins-today-11931729#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/4q5iqqro_temse_625x300_19_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:34:43+05:30",
-      "category": "Markets",
-      "summary": "Tempsens Instruments India IPO opens today, with GMP indicating a potential 73% listing gain. Here's the latest GMP, issue details and key dates."
-    },
-    {
-      "title": "SmallCap Stocks Rally Up To 7.5%; Netweb, Sai Life Lead Gains As Index Nears Record High",
-      "excerpt": "The broader market rally was fairly widespread. Of the 100 constituents in the Nifty SmallCap 100 index, 82 stocks were advancing while 18 were declining at the time of publication.",
-      "url": "https://www.ndtvprofit.com/markets/smallcap-stocks-rally-up-to-7-5-percent-netweb-sai-life-lead-gains-as-index-nears-record-high-11934310#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/intja5ng_smallcap-stocks-rally_625x300_20_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:32:19+05:30",
-      "category": "Markets",
-      "summary": "The broader market rally was fairly widespread. Of the 100 constituents in the Nifty SmallCap 100 index, 82 stocks were advancing while 18 were declining at the time of publication."
-    },
-    {
-      "title": "Sunshine Pictures vs Shankesh Jewellers IPO: Which Offers Better Listing Gains As Subscription Ends Today?",
-      "excerpt": "Sunshine Pictures and Shankesh Jewellers IPOs close today. Compare GMP, subscription status and potential listing gains before the bidding window ends.",
-      "url": "https://www.ndtvprofit.com/markets/sunshine-pictures-vs-shankesh-jewellers-ipo-which-offers-better-listing-gains-as-subscription-ends-today-11934033#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/ferudmo4_gmp_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:31:56+05:30",
-      "category": "Markets",
-      "summary": "Sunshine Pictures and Shankesh Jewellers IPOs close today. Compare GMP, subscription status and potential listing gains before the bidding window ends."
-    },
-    {
-      "title": "'Hafta’ Protest In Bengaluru: Men Take To Streets In Gunny Bags",
-      "excerpt": "Traders in Bengaluru staged a late-night gunny-bag protest against alleged 'hafta' collection in KR Puram, demanding police action. Led by Ele Srinivas, the protesters sought to meet the Police Commissioner but were deta",
-      "url": "https://www.ndtvprofit.com/india/hafta-protest-in-bengaluru-men-take-to-streets-in-gunny-bags-11934250#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/o28dvi9s_rupee_625x300_04_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:28:11+05:30",
-      "category": "Markets",
-      "summary": "Traders in Bengaluru staged a late-night gunny-bag protest against alleged 'hafta' collection in KR Puram, demanding police action. Led by Ele Srinivas, the protesters sought to meet the Police Commissioner but were deta"
-    },
-    {
-      "title": "Shankesh Jewellers IPO GMP In Focus On Final Day Of Subscription: Here's What Investors Should Know",
-      "excerpt": "Shankesh Jewellers IPO enters its final day with GMP signalling a potential 2% listing premium. Check the latest GMP, subscription and key details.",
-      "url": "https://www.ndtvprofit.com/markets/shankesh-jewellers-ipo-gmp-in-focus-on-final-day-of-subscription-heres-what-investors-should-know-11931609#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/2utvl3p8_ipo_625x300_17_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:27:22+05:30",
-      "category": "Markets",
-      "summary": "Shankesh Jewellers IPO enters its final day with GMP signalling a potential 3% listing premium. Check the latest GMP, subscription and key details."
-    },
-    {
-      "title": "Zerodha To Bring Mutual Fund Investing To Its Equity Trading Platform Kite",
-      "excerpt": "The current MF app, Coin, will continue to exist. Currently, on Kite, while investors can view their mutual fund holdings on Kite, they are redirected to Coin when they want to make a purchase. That extra step will go.",
-      "url": "https://www.ndtvprofit.com/personal-finance/zerodha-to-bring-mutual-fund-investing-to-its-equity-trading-platform-kite-11933810#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/595ekmfg_zerodha_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:26:36+05:30",
-      "category": "Markets",
-      "summary": "While investors can already view their mutual fund holdings on Kite, they are currently redirected to Coin when they want to make a purchase. That extra step is now set to go.However, the timeline has not been finalised."
-    },
-    {
-      "title": "Sunshine Pictures IPO GMP In Focus On Final Day Of Subscription: Here's What Investors Should Know",
-      "excerpt": "Sunshine Pictures IPO enters its final day with GMP signalling a potential 21% listing premium. Check the latest GMP, subscription and key details.",
-      "url": "https://www.ndtvprofit.com/markets/sunshine-pictures-ipo-gmp-in-focus-on-final-day-of-subscription-heres-what-investors-should-know-11931565#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/ked2epck_spi_625x300_17_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:24:59+05:30",
-      "category": "Markets",
-      "summary": "Sunshine Pictures IPO enters its final day with GMP signalling a potential 21% listing premium. Check the latest GMP, subscription and key details."
-    },
-    {
-      "title": "China Sentences Evergrande Founder Hui To Life In Prison",
-      "excerpt": "Once Asia's second-richest man, Hui joins a long list of billionaires to fall under the Chinese government's dragnet.",
-      "url": "https://www.ndtvprofit.com/world/china-sentences-evergrande-founder-hui-ka-yan-to-life-in-prison-11934278#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/e46gdl9s_hui-ka-yanphotographer-paul-yeungbloomberg_625x300_20_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:24:43+05:30",
-      "category": "Markets",
-      "summary": "Once Asia's second-richest man, Hui joins a long list of billionaires to fall under the Chinese government's dragnet."
-    },
-    {
-      "title": "UltraTech Cement Poised To Sustain Market Share Gains, Says HDFC Securities — Check Target Price, Upside",
-      "excerpt": "UltraTech Cement is all set to launch its own wires and cables in Q3 FY27, highlights the brokerage.",
-      "url": "https://www.ndtvprofit.com/markets/ultratech-cement-poised-to-sustain-market-share-gains-says-hdfc-securities-check-target-price-upside-11934243#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/gj69gvm8_ultratech-cement_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T11:10:58+05:30",
-      "category": "Markets",
-      "summary": "UltraTech Cement is all set to launch its own wires and cables in Q3 FY27, highlights the brokerage."
-    },
-    {
-      "title": "Horizon Industrial Parks IPO allotment likely to be out today. Latest GMP, step-by-step guide to check status",
-      "excerpt": "Horizon Industrial Parks IPO allotment will be finalized on August 20. Investors can check their allotment status via Kfin Technologies portal. The estimated listing price is ₹61.6, slightly above the IPO price, with ref",
-      "url": "https://www.livemint.com/market/ipo/horizon-industrial-parks-ipo-gmp-horizon-industrial-parks-ipo-allotment-industrial-parks-ipo-subscriptionkfin-technologi-11787202547212.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/20/1600x900/logo/Horizon_Industrial_Parks_IPO_1787204263884_1787204274287_ff5b72e4-f89c-4e3d-8a11-a088b46f8cf1.png",
-      "publishedAt": "2026-08-20T11:10:05+05:30",
-      "category": "Markets",
-      "summary": "Horizon Industrial Parks IPO allotment will be finalized on August 20. Investors can check their allotment status via Kfin Technologies portal. The estimated listing price is ₹61.6, slightly above the IPO price, with ref"
-    },
-    {
-      "title": "'US Pays Too Much': Why Trump Wants Fed To Lower Interest Rates As He Renews Attack",
-      "excerpt": "The US is carrying nearly $40 trillion in debt as Trump pushes the Fed for lower rates to ease borrowing costs and support economic growth.",
-      "url": "https://www.ndtvprofit.com/economy/us-pays-too-much-why-trump-wants-fed-to-lower-interest-rates-as-he-renews-attack-11933585#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/rn1gfv7c_why-trump-wants-fed-rate-cuts_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T10:56:55+05:30",
-      "category": "Markets",
-      "summary": "The US is carrying nearly $40 trillion in debt as Trump pushes the Fed for lower rates to ease borrowing costs and support economic growth."
-    },
-    {
-      "title": "Milky Mist Dairy Food shares slip 4% after sharp post-listing rally",
-      "excerpt": "Milky Mist Dairy Food shares came under profit-booking pressure after gaining 42% over two sessions following their market debut. Despite strong revenue growth, improving profitability and a leadership position in value-",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-dairy-food-shares-slip-4-after-sharp-post-listing-rally/articleshow/133365199.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-20T10:54:45+05:30",
-      "category": "Markets",
-      "summary": "Milky Mist Dairy Food shares came under profit-booking pressure after gaining 42% over two sessions following their market debut. Despite strong revenue growth, improving profitability and a leadership position in value-"
-    },
-    {
-      "title": "Rs 10,978 Crore Real-Estate Transactions Under Tax Lens Across Five Border States | Profit Exclusive",
-      "excerpt": "Uttar Pradesh accounts for Rs 4,081 crore of property transactions flagged for compliance gaps, the highest among the five states.",
-      "url": "https://www.ndtvprofit.com/india/exclusive-rs-10-978-crore-real-estate-transactions-under-tax-lens-across-five-border-states-11934181#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/vcmnee8s_real-estate_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T10:52:02+05:30",
-      "category": "Markets",
-      "summary": "Uttar Pradesh accounts for Rs 4,081 crore of property transactions flagged for compliance gaps, the highest among the five states."
-    },
-    {
-      "title": "Over 130% Return In Six Months: Aditya Infotech Share Price Jumps Nearly 5%. Here's Why",
-      "excerpt": "Aditya Infotech shares rose nearly 5% after the company's board approved a Rs 1,500-crore fundraise through public issue and/or QIP.",
-      "url": "https://www.ndtvprofit.com/markets/over-100-return-in-six-months-aditya-infotech-share-price-jumps-nearly-5-heres-why-11934058#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/84pfai84_aditya-infotech-stock-jumps_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T10:51:35+05:30",
-      "category": "Markets",
-      "summary": "Aditya Infotech shares rose nearly 5% after the company's board approved a Rs 1,500-crore fundraise through public issue and/or QIP."
-    },
-    {
-      "title": "Credent Connect N Care IPO Listing: Ashish Kacholia-Backed Stock Makes Bumper Debut, Jumps Nearly 100% Over Issue Price",
-      "excerpt": "Credent Connect N Care debuted on NSE SME at Rs 359.10, nearly double its Rs 189 IPO price, hitting an intraday high of Rs 377.05, reflecting strong market demand.",
-      "url": "https://www.ndtvprofit.com/markets/credent-connect-n-care-ipo-listing-ashish-kacholia-backed-stock-makes-bumper-debut-jumps-nearly-100-over-issue-price-11934169#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/5i2kn7gc_credent-connect-n-care-ipo-listing_625x300_20_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T10:48:25+05:30",
-      "category": "Markets",
-      "summary": "Credent Connect N Care debuted on NSE SME at Rs 359.10, nearly double its Rs 189 IPO price, hitting an intraday high of Rs 377.05, reflecting strong market demand."
     }
   ]
 }
