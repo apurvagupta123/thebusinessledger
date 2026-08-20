@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-20T23:04:05+05:30",
+  "lastUpdated": "2026-08-21T00:16:31+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "India allows duty-free sugar imports as prices surge",
+      "excerpt": "After banning sugar exports and tightening stock holding curbs, the government has cut import duty to zero to cool record local sugar prices.",
+      "url": "https://www.livemint.com/economy/india-allows-duty-free-sugar-imports-as-prices-surge-11787245667354.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/20/1600x900/logo/2-0-77130279-Sugar-5C--0_1681476003353_1787247768797_70119487-f359-49ca-93a6-9e2991810ca1.jpg",
+      "publishedAt": "2026-08-20T23:19:23+05:30",
+      "category": "Economy",
+      "summary": "After banning sugar exports and tightening stock holding curbs, the government has cut import duty to zero to cool record local sugar prices."
+    },
     {
       "title": "Crude oil prices surge to near one-month high as US prepares sweeping sanctions on Iran",
       "excerpt": "Crude oil prices reach near one -month highs as the US plans extensive sanctions against Iran, aiming to isolate the country economically. Brent crude rose almost $3 to $92 a barrel while WTI jumped 3.3% to $86.72, amid ",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-20T21:13:59+05:30",
       "category": "Economy",
       "summary": "Public sector banks underparticipate in forex derivatives mkt: RBI DG Jain Business Standard"
-    },
-    {
-      "title": "Colgate Banks On Grassroots Drive To Spur Growth In India's Untapped Oral Care Sector",
-      "excerpt": "Colgate sees its extensive retail network as an advantage in expanding oral-care consumption.",
-      "url": "https://www.ndtvprofit.com/business/colgate-banks-on-grassroots-drive-to-spur-growth-in-indias-untapped-oral-care-sector-11937161#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/t1qci4tg_colgate-price-hike-2026_625x300_29_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-20T21:08:02+05:30",
-      "category": "Markets",
-      "summary": "Colgate sees its extensive retail network as an advantage in expanding oral-care consumption."
     }
   ]
 }
