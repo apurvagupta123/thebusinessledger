@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T01:20:50+05:30",
+  "lastUpdated": "2026-08-22T02:00:16+05:30",
   "count": 25,
   "articles": [
     {
@@ -11,6 +11,16 @@
       "publishedAt": "2026-08-22T01:15:54+05:30",
       "category": "Markets",
       "summary": "GLOBAL-FOREX/ (UPDATE 5, GRAPHIC):FOREX-Dollar falls to three-month low on Treasury buyback worries"
+    },
+    {
+      "title": "US stocks: US market rises on the day but falls for the week; bond yields and Iran in focus",
+      "excerpt": "Major U.S. stock indexes finished Friday higher, but recorded weekly declines. Investors reacted to fluctuating government bond yields and Middle East developments. Stronger services sector growth offset manufacturing sl",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus/articleshow/133413493.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-08-22T01:39:51+05:30",
+      "category": "Markets",
+      "summary": "Major U.S. stock indexes finished Friday higher, but recorded weekly declines. Investors reacted to fluctuating government bond yields and Middle East developments. Stronger services sector growth offset manufacturing sl"
     },
     {
       "title": "Week of Whiplash in Treasuries Is Closing With Muddied Outlook",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-08-21T21:42:43+05:30",
       "category": "Economy",
       "summary": "RBI aims to absorb ₹2.5 trillion via seven-day VRRR auction on Monday Business Standard"
-    },
-    {
-      "title": "Crude oil prices head for second weekly gain as US steps up economic pressure on Iran",
-      "excerpt": "Crude oil prices are set for a second weekly gain, driven by US sanctions on Iran aimed at economic isolation. Brent crude prices surpassed $94.71 per barrel, marking their highest in a month, as traders await details on",
-      "url": "https://www.livemint.com/market/commodities/crude-oil-prices-head-for-second-weekly-gain-as-us-steps-up-economic-pressure-on-iran-11787327365673.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/21/1600x900/logo/Oil-Cuts-Explainer-0_1680529456417_1680529456417_1787327480112_76b4a6a8-0457-4d29-a50f-b17b2827be1e.jpg",
-      "publishedAt": "2026-08-21T21:39:40+05:30",
-      "category": "Markets",
-      "summary": "Crude oil prices are set for a second weekly gain, driven by US sanctions on Iran aimed at economic isolation. Brent crude prices surpassed $94.71 per barrel, marking their highest in a month, as traders await details on"
     }
   ]
 }
