@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-25T03:03:45+05:30",
+  "lastUpdated": "2026-08-25T04:01:04+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Shares dip with pressure from technology, yields and oil fall",
+      "excerpt": "GLOBAL-MARKETS/ (WRAPUP 7):GLOBAL MARKETS-Shares dip with pressure from technology, yields and oil fall",
+      "url": "https://www.livemint.com/market/shares-dip-with-pressure-from-technology-yields-and-oil-fall-11787608158881.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-08-25T03:19:18+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-MARKETS/ (WRAPUP 7):GLOBAL MARKETS-Shares dip with pressure from technology, yields and oil fall"
+    },
     {
       "title": "Dollar higher after Iran sanctions, loonie drops after US announces tariff increases",
       "excerpt": "GLOBAL-FOREX:Dollar higher after Iran sanctions, loonie drops after US announces tariff increases",
@@ -11,6 +21,16 @@
       "publishedAt": "2026-08-25T00:48:05+05:30",
       "category": "Markets",
       "summary": "GLOBAL-FOREX:Dollar higher after Iran sanctions, loonie drops after US announces tariff increases"
+    },
+    {
+      "title": "8th Pay Commission: Jaipur, Chennai Meeting Dates Announced — Check Schedule",
+      "excerpt": "The ongoing 8th Pay Commission consultations are significant for central government employees and pensioners, who are awaiting clarity on revised salaries, allowances and pensions.",
+      "url": "https://www.ndtvprofit.com/personal-finance/8th-pay-commission-jaipur-chennai-meetings-announced-check-meetings-in-september-11952460#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-06/6mf8auqs_8th-pay-commission_625x300_01_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:41:00+05:30",
+      "category": "Markets",
+      "summary": "The ongoing 8th Pay Commission consultations are significant for central government employees and pensioners, who are awaiting clarity on revised salaries, allowances and pensions."
     },
     {
       "title": "Resolved RBI embargo within 45 days in 2024: Navi Finserv MD & CEO",
@@ -23,6 +43,46 @@
       "summary": "Resolved RBI embargo within 45 days in 2024: Navi Finserv MD & CEO Business Standard"
     },
     {
+      "title": "Netanyahu's Explosive Claim: 'Iran Tried To Assassinate One Of My Sons'",
+      "excerpt": "Israeli PM says Iran targeted one of his sons, citing security concerns for his family",
+      "url": "https://www.ndtvprofit.com/world/netanyahus-exclusive-claim-iran-tried-to-assassinate-one-of-my-sons-11953403#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/u1klmcjc_netanyahu_625x300_19_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:37:15+05:30",
+      "category": "Markets",
+      "summary": "Israeli PM says Iran targeted one of his sons, citing security concerns for his family"
+    },
+    {
+      "title": "'Where To Kill Barron': Iran Airs Chilling Video Tracking Trump's Son, Offers Rs 95",
+      "excerpt": "The clip claimed that Barron Trump is \"fully monitored\" and alleged that a girl had previously bypassed the Secret Service and sat next to him during a private meeting.",
+      "url": "https://www.ndtvprofit.com/world/where-to-kill-barron-iran-airs-chilling-video-tracking-trumps-son-offers-rs-95-cr-bounty-11953664#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/ohtoaopo_baron-trump_625x300_24_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:35:04+05:30",
+      "category": "Markets",
+      "summary": "The clip claimed that Barron Trump is \"fully monitored\" and alleged that a girl had previously bypassed the Secret Service and sat next to him during a private meeting."
+    },
+    {
+      "title": "Bajaj Auto To Launch Three New Products, Two Brands In Upcoming Months; Optimistic On Festive Demand",
+      "excerpt": "Bajaj Auto reported a 30% rise in total sales to 4,74,677 units in July.",
+      "url": "https://www.ndtvprofit.com/business/bajaj-auto-to-launch-3-new-products-2-brands-in-upcoming-months-optimistic-on-festive-demand-11953701#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-02/h2rf9468_bajaj-auto_625x300_02_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:33:24+05:30",
+      "category": "Markets",
+      "summary": "Bajaj Auto reported a 30% rise in total sales to 4,74,677 units in July."
+    },
+    {
+      "title": "Black Mirror Season 8 Is Officially In Production, Netflix Confirms",
+      "excerpt": "Black Mirror Season 8 is officially in production, with Charlie Brooker returning to helm the dystopian anthology series.",
+      "url": "https://www.ndtvprofit.com/lifestyle/black-mirror-season-8-is-officially-in-production-netflix-confirms-11953369#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/gk1l8ug_blackmirrorseason8netflixcharliebrookerjpg_625x300_24_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:31:24+05:30",
+      "category": "Markets",
+      "summary": "Black Mirror Season 8 is officially in production, with Charlie Brooker returning to helm the dystopian anthology series."
+    },
+    {
       "title": "Sebi drops fraud, disclosure charges in Max",
       "excerpt": "Sebi said the disclosure-related charges could not be sustained because there was no material establishing violations of the specific provisions applicable at the time.",
       "url": "https://www.livemint.com/market/sebi-drops-fraud-disclosure-charges-in-max-axis-bank-case-11787591557710.html",
@@ -33,6 +93,156 @@
       "summary": "Sebi said the disclosure-related charges could not be sustained because there was no material establishing violations of the specific provisions applicable at the time."
     },
     {
+      "title": "When Is Akshay Kumar And Saif Ali Khan's Haiwaan Trailer Releasing? Check Here",
+      "excerpt": "Haiwaan, starring Akshay Kumar and Saif Ali Khan, is set to unveil its trailer soon, offering a closer look at Priyadarshan's upcoming thriller.",
+      "url": "https://www.ndtvprofit.com/lifestyle/when-is-akshay-kumar-and-saif-ali-khans-haiwaan-trailer-releasing-check-here-11953626#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/2k1s0j98_haiwaanakshaykumarsaifalikhantrailerjpg_625x300_24_August_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:29:03+05:30",
+      "category": "Markets",
+      "summary": "Haiwaan, starring Akshay Kumar and Saif Ali Khan, is set to unveil its trailer soon, offering a closer look at Priyadarshan's upcoming thriller."
+    },
+    {
+      "title": "Meesho Tax Dispute Swells To Over Threefold To Rs 2,072 Crore In FY26",
+      "excerpt": "The Income Tax authorities had raised a demand notice of over Rs 572 crore to the company in the fiscal year 2024-25, which the company has challenged in court and received a stay order.",
+      "url": "https://www.ndtvprofit.com/business/meesho-tax-dispute-swells-to-over-threefold-to-rs-2-072-crore-in-fy26-11953680#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/8mo70pkc_meesho_625x300_24_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:28:42+05:30",
+      "category": "Markets",
+      "summary": "The Income Tax authorities had raised a demand notice of over Rs 572 crore to the company in the fiscal year 2024-25, which the company has challenged in court and received a stay order."
+    },
+    {
+      "title": "40 Vs 70 Hours: Air India Express Pilots Flag Income Security Under Revised Salary Offer",
+      "excerpt": "While the proposal offers higher compensation, Air India pilots say variable earnings remain dependent on airline-controlled aircraft utilisation.",
+      "url": "https://www.ndtvprofit.com/business/up-to-rs-21-lakh-in-allowances-but-air-india-express-pilots-flag-pay-concerns-11953633#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/u8quftec_up-to-rs-21-lakh-in-allowances-but-air-india-express-pilots-flag-pay-concerns_625x300_24_August_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:27:55+05:30",
+      "category": "Markets",
+      "summary": "While the proposal offers higher compensation, Air India pilots say variable earnings remain dependent on airline-controlled aircraft utilisation."
+    },
+    {
+      "title": "Bessent Unveils 'Economic D-Day Sanctions' To Cripple Iran, Warns Global Trading Partners",
+      "excerpt": "US Treasury targets Iran's financial lifelines as Bessent warns of consequences for economic ties",
+      "url": "https://www.ndtvprofit.com/world/bessent-unveils-economic-d-day-sanctions-to-cripple-iran-says-trump-rallying-world-leaders-support-11953578#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/ge1cntbc_scott-bessent_625x300_29_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:27:03+05:30",
+      "category": "Markets",
+      "summary": "US Treasury targets Iran's financial lifelines as Bessent warns of consequences for economic ties"
+    },
+    {
+      "title": "Mahakali: Akshaye Khanna's Shukracharya Faces Off Against Sriya Reddy's Goddess Kali",
+      "excerpt": "Mahakali follows a woman leaving a baby near a Goddess Kali idol. The goddess later appears in human form and takes care of the child, setting up a larger conflict between Dharma and Adharma.",
+      "url": "https://www.ndtvprofit.com/lifestyle/mahakali-akshaye-khannas-shukracharya-faces-off-against-sriya-reddys-goddess-kali-11951369#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/kde0fme4_mahakaliakshayekhannasriyareddyjpg_625x300_24_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:23:34+05:30",
+      "category": "Markets",
+      "summary": "Mahakali follows a woman leaving a baby near a Goddess Kali idol. The goddess later appears in human form and takes care of the child, setting up a larger conflict between Dharma and Adharma."
+    },
+    {
+      "title": "Tempsens Instruments IPO Subscribed 184 Times On Strong Demand From NIIs",
+      "excerpt": "The Rs 650-crore public offering received bids for 2,79,44,59,050 shares against 1,51,81,667 shares on offer, as per details available with the NSE.",
+      "url": "https://www.ndtvprofit.com/markets/tempsens-instruments-ipo-subscribed-184-times-on-strong-demand-from-niis-11953655#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/8kj9ak98_bb_625x300_24_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:22:27+05:30",
+      "category": "Markets",
+      "summary": "The Rs 650-crore public offering received bids for 2,79,44,59,050 shares against 1,51,81,667 shares on offer, as per details available with the NSE."
+    },
+    {
+      "title": "'3 Million, Here We Come': Bessent Sees Iranian Currency Plunging By Another 50% Against US Dollar",
+      "excerpt": "Bessent says the rial's slide is deepening as Iran faces mounting economic pressure and falling revenues.",
+      "url": "https://www.ndtvprofit.com/world/3-million-here-we-come-bessent-sees-iranian-currency-plunging-by-another-50-against-us-dollar-11953583#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-04/f4u0nopg_rial_625x300_15_April_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:21:32+05:30",
+      "category": "Markets",
+      "summary": "Bessent says the rial's slide is deepening as Iran faces mounting economic pressure and falling revenues."
+    },
+    {
+      "title": "'Out Of Dollar System': US Warns Countries, Global Entities Permitting Iranian Money Laundering",
+      "excerpt": "Bessent said countries that continue to maintain economic ties with Iran could also face consequences and \"share in the isolation\" of Tehran.",
+      "url": "https://www.ndtvprofit.com/world/out-of-dollar-system-us-warns-countries-global-entities-permitting-iranian-money-laundering-11953641#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-05/uodnabi8_iran_625x300_27_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:20:16+05:30",
+      "category": "Markets",
+      "summary": "Bessent said countries that continue to maintain economic ties with Iran could also face consequences and \"share in the isolation\" of Tehran."
+    },
+    {
+      "title": "Paddy Sowing Down 3% To 405.10 Lakh Hectares So Far In Kharif Season: Govt Data",
+      "excerpt": "The decline in paddy area is mainly attributable to substantial reductions reported in Karnataka, Telangana, Jharkhand, Madhya Pradesh, Odisha and Maharashtra, the agriculture Ministry said in a statement on Monday.",
+      "url": "https://www.ndtvprofit.com/economy/paddy-sowing-down-3-percent-to-405-10-lakh-hectares-so-far-in-kharif-season-govt-data-11953619#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/emdhm99o_bb_625x300_24_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:09:21+05:30",
+      "category": "Markets",
+      "summary": "The decline in paddy area is mainly attributable to substantial reductions reported in Karnataka, Telangana, Jharkhand, Madhya Pradesh, Odisha and Maharashtra, the agriculture Ministry said in a statement on Monday."
+    },
+    {
+      "title": "Why Rishabh Pant Didn't Field On Day 2 Against Sri Lanka, Dhruv Jurel Explains",
+      "excerpt": "Rishabh Pant was absent from the field when India came out to bowl during the final stages of Day 2, with Jurel taking over the wicketkeeping duties.",
+      "url": "https://www.ndtvprofit.com/sports/why-rishabh-pant-didnt-field-on-day-2-against-sri-lanka-dhruv-jurel-explains-11953397#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/bdgbh8s4_rishabh-pant_625x300_24_August_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:07:05+05:30",
+      "category": "Markets",
+      "summary": "Rishabh Pant was absent from the field when India came out to bowl during the final stages of Day 2, with Jurel taking over the wicketkeeping duties."
+    },
+    {
+      "title": "SEBI Inks Pact With RRU, NISM To Boost Cybersecurity, Research & Training In Securities Market",
+      "excerpt": "The collaboration will also focus on domain-based training in current and emerging technologies for SEBI officials, regulated entities and the public.",
+      "url": "https://www.ndtvprofit.com/markets/sebi-inks-pact-with-rru-nism-to-boost-cybersecurity-research-training-in-securities-market-11953604#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/f9cfa019_Exterior_view_of_New_SEBI_signage__logo_at_office_building_in_BKC__Bandra_Kurla_Complex___Source_Vij.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:05:04+05:30",
+      "category": "Markets",
+      "summary": "The collaboration will also focus on domain-based training in current and emerging technologies for SEBI officials, regulated entities and the public."
+    },
+    {
+      "title": "iPhone 18 Pro Vs Pro Max: Why Camera Lovers May Be Forced To Buy The Bigger Variant",
+      "excerpt": "The iPhone 18 Pro Max could get a variable-aperture main camera, potentially creating a key camera difference from the iPhone 18 Pro, according to recent leaks.",
+      "url": "https://www.ndtvprofit.com/technology/iphone-18-pro-vs-pro-max-why-camera-lovers-may-be-forced-to-buy-the-bigger-variant-11953342#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/940hk6ao_iphone-18-pro_625x300_24_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T23:00:04+05:30",
+      "category": "Markets",
+      "summary": "The iPhone 18 Pro Max could get a variable-aperture main camera, potentially creating a key camera difference from the iPhone 18 Pro, according to recent leaks."
+    },
+    {
+      "title": "Buy, Sell Or Hold: BEL, Tata Power, Varun Beverages, Dabur India And RVNL — Ask Profit",
+      "excerpt": "Market experts shared their insights on fundamentals and technical levels for key stocks such as BEL, Tata Power, Varun Beverages, Dabur India and RVNL.",
+      "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-bel-tata-power-varun-beverages-dabur-india-and-rvnl-ask-profit-11953570#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/q0fhutuc_buy-sell-hold-aug-24_625x300_24_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T22:58:07+05:30",
+      "category": "Markets",
+      "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks such as BEL, Tata Power, Varun Beverages, Dabur India and RVNL."
+    },
+    {
+      "title": "Trade Setup For Aug 25: Nifty Support Dips Back To 24,000 As Bearish Candle Signals Selling Pressure",
+      "excerpt": "Market volatility also picked up, with India VIX rising around 3%, suggesting that demand for downside protection is increasing again.",
+      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-aug-25-nifty-support-dips-back-to-24-000-as-bearish-candle-signals-selling-pressure-11953494#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/011bd521_a_laptop_half_closed_in_the_dark_with_colourful_gl_2023_11_27_05_36_52_utc__1_.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T22:37:31+05:30",
+      "category": "Markets",
+      "summary": "Market volatility also picked up, with India VIX rising around 3%, suggesting that demand for downside protection is increasing again."
+    },
+    {
+      "title": "Wall Street Giants Step In As Y Combinator Sells Rs 970",
+      "excerpt": "Y Combinator-linked entities sold 4.85 crore Meesho shares worth nearly Rs 970 crore through block deals on Monday. The shares changed hands at Rs 200.01 each, representing around 1.05% of Meesho’s equity.",
+      "url": "https://www.ndtvprofit.com/markets/wall-street-giants-step-in-as-y-combinator-sells-rs-970-crore-meesho-stake-11953409#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/mjqrn09k_wall-street-giants-step-in-as-y-combinator-sells-rs-970crore-meesho-stake_625x300_24_August_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-24T22:33:18+05:30",
+      "category": "Markets",
+      "summary": "Y Combinator-linked entities sold 4.85 crore Meesho shares worth nearly Rs 970 crore through block deals on Monday. The shares changed hands at Rs 200.01 each, representing around 1.05% of Meesho’s equity."
+    },
+    {
       "title": "Ibull Real Estate Share Price Today, Ibull Real Estate Stock Price Live NSE/BSE Updates",
       "excerpt": "Ibull Real Estate Share Price Today, Ibull Real Estate Stock Price Live NSE/BSE Updates The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQelVxTEJTcVhzcDRyU3RyLVdZeEdOczg4T1c5ZGlHUHI0QkRrdUg0QzI4amtFQlFNbnE5djJSTXJyaFYtOEdHSDZXd2hGOEkyVGJsUU1VWlBfYWFKQmJzanAtdTVQRFMwU3B4X25Gb3lXOS1BV056MjUyUHBGMy1XeWpOdS1jZnNEQ3ZreUNnNE0zZw?oc=5",
@@ -41,216 +251,6 @@
       "publishedAt": "2026-08-24T22:19:31+05:30",
       "category": "Markets",
       "summary": "Ibull Real Estate Share Price Today, Ibull Real Estate Stock Price Live NSE/BSE Updates The Economic Times"
-    },
-    {
-      "title": "Sebi drops proceedings against Max Financial, Axis Bank in Max Life deal case",
-      "excerpt": "Sebi dropped proceedings against Max Financial and Axis entities. Allegations of disclosure lapses and fraud were not established by the regulator. The case involved transactions between Max Financial, Max Life, and Axis",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-drops-proceedings-against-max-financial-axis-bank-in-max-life-deal-case/articleshow/133473094.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-24T21:56:38+05:30",
-      "category": "Markets",
-      "summary": "Sebi dropped proceedings against Max Financial and Axis entities. Allegations of disclosure lapses and fraud were not established by the regulator. The case involved transactions between Max Financial, Max Life, and Axis"
-    },
-    {
-      "title": "Shein IPO: Fast fashion retailer eyes $27 billion price tag in long-awaited Hong Kong listing — What we know",
-      "excerpt": "Shein Global Holdings is looking to raise as much as $1.8 billion in its Hong Kong initial public offering, as it enters the final leg of its long-winded journey to go public, as per a Bloomberg report.&nbsp;",
-      "url": "https://www.livemint.com/market/ipo/shein-ipo-fast-fashion-retailer-27-billion-price-tag-valuation-long-wait-hong-kong-public-listing-stock-markets-investor-11787578639325.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/24/1600x900/logo/FILES-CHINA-ONLINE-RETAIL-IPO-SHEIN-2_1787588283006_1787588298196_947e0302-2a40-4f50-88a7-26cfe077be45.jpg",
-      "publishedAt": "2026-08-24T21:53:33+05:30",
-      "category": "Markets",
-      "summary": "Shein Global Holdings is looking to raise as much as $1.8 billion in its Hong Kong initial public offering, as it enters the final leg of its long-winded journey to go public, as per a Bloomberg report.&nbsp;"
-    },
-    {
-      "title": "IHCL-Oriental Hotels merger details: ‘Long-term value…’ | Explained",
-      "excerpt": "IHCL will merge with Oriental Hotels through an all-stock transaction, allowing a share swap ratio of 25 IHCL shares for every 117 OHL shares. The merger aims to enhance operational efficiency and support long-term value",
-      "url": "https://www.livemint.com/market/stock-market-news/ihcloriental-hotels-merger-details-long-term-value-explained-how-it-will-benefit-shareholders-11787584241994.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/24/1600x900/logo/Indian-Hotels-has-retained-its-forecast-of-securin_1690527876534_1787584470825_dd320b46-398d-4ef2-9b49-e249710db3aa.jpg",
-      "publishedAt": "2026-08-24T21:43:28+05:30",
-      "category": "Markets",
-      "summary": "IHCL will merge with Oriental Hotels through an all-stock transaction, allowing a share swap ratio of 25 IHCL shares for every 117 OHL shares. The merger aims to enhance operational efficiency and support long-term value"
-    },
-    {
-      "title": "SpaceX Shares Shoot To Green On Nvidia Pact To Bring Agentic AI Infra To Space",
-      "excerpt": "Nvidia announced that the Elon-Musk led companywill adopt Vera Rubin platform for AI supercomputing to power its Grok AI.",
-      "url": "https://www.ndtvprofit.com/markets/spacex-shares-shoot-to-green-on-nvidia-pact-to-bring-agentic-ai-infra-to-space-11953153#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/63sdvdbs_bb_625x300_24_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:29:51+05:30",
-      "category": "Markets",
-      "summary": "Nvidia announced that the Elon-Musk led companywill adopt Vera Rubin platform for AI supercomputing to power its Grok AI."
-    },
-    {
-      "title": "Symbiotec Pharmalab IPO GMP In Focus As Issue Opens For Subscription",
-      "excerpt": "Symbiotec Pharmalab IPO opened on Aug. 24 with a Rs 1,757 crore issue. GMP signals a 39% listing gain at the upper price band.",
-      "url": "https://www.ndtvprofit.com/markets/symbiotec-pharmalab-ipo-gmp-in-focus-as-issue-opens-for-subscription-11943985#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/6fcfmog4_ipo_625x300_22_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:25:06+05:30",
-      "category": "Markets",
-      "summary": "Symbiotec Pharmalab IPO opened on Aug. 24 with a Rs 1,757 crore issue. GMP signals a 39% listing gain at the upper price band."
-    },
-    {
-      "title": "Hy-Tech Engineers IPO GMP In Focus As Issue Opens For Subscription",
-      "excerpt": "Hy-Tech Engineers opened Rs 135-cr IPO with a 56.6% grey market premium. Learn about the GMP, Subscription status, Rs 50-53 price band, allotment & listing timelines.",
-      "url": "https://www.ndtvprofit.com/markets/hy-tech-engineers-ipo-gmp-in-focus-as-issue-opens-for-subscription-11943776#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/5d0tpkn4_hytech-ipo_625x300_21_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:23:49+05:30",
-      "category": "Markets",
-      "summary": "Hy-Tech Engineers opened Rs 135-cr IPO with a 56.6% grey market premium. Learn about the GMP, Subscription status, Rs 50-53 price band, allotment & listing timelines."
-    },
-    {
-      "title": "SoftBank pares 2.6% Lenskart stake for Rs 2,800 crore",
-      "excerpt": "SoftBank Group has sold a 2.6% stake in Lenskart for Rs 2,888 crore. This transaction reduced SoftBank's holding to 7.28% from 9.86%. Abu Dhabi Investment Authority's Platinum Jasmine Trust remains Lenskart's largest pub",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/softbank-pares-nearly-2-6-stake-in-lenskart-for-rs-2888-crore/articleshow/133472713.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-24T21:23:30+05:30",
-      "category": "Markets",
-      "summary": "SoftBank Group has sold a 2.6% stake in Lenskart for Rs 2,888 crore. This transaction reduced SoftBank's holding to 7.28% from 9.86%. Abu Dhabi Investment Authority's Platinum Jasmine Trust remains Lenskart's largest pub"
-    },
-    {
-      "title": "Skyways Air Services IPO GMP In Focus As Issue Opens For Subscription",
-      "excerpt": "Skyways Air IPO opened Aug 24 to raise Rs 583 cr. With strong 32% PAT growth and GMP at 23% premium, check the allotment details and GMP updates.",
-      "url": "https://www.ndtvprofit.com/markets/skyways-air-services-ipo-gmp-in-focus-as-issue-opens-for-subscription-11943576#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/r3mj835_ipo_625x300_22_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:22:15+05:30",
-      "category": "Markets",
-      "summary": "Skyways Air IPO opened Aug 24 to raise Rs 583 cr. With strong 32% PAT growth and GMP at 23% premium, check the allotment details and GMP updates."
-    },
-    {
-      "title": "iPhone Ultra Leaks: Apple's First Foldable To Lack Telephoto Lens, Face ID Despite Premium Price Tag?",
-      "excerpt": "Apple's first foldable iPhone may launch with a slim design and large internal display, but reports suggest it could miss a telephoto lens and Face ID.",
-      "url": "https://www.ndtvprofit.com/technology/iphone-ultra-leaks-apples-first-foldable-to-lack-telephoto-lens-face-id-despite-premium-price-tag-11952714#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/46dqg8vs_iphone-18-pro_625x300_24_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:21:57+05:30",
-      "category": "Markets",
-      "summary": "Apple's first foldable iPhone may launch with a slim design and large internal display, but reports suggest it could miss a telephoto lens and Face ID."
-    },
-    {
-      "title": "SanDisk Shares Tumble 11% As Chip Trade Reverses Again. What's Behind The Fresh Selloff?",
-      "excerpt": "SanDisk Corporation shares slipped as low as 11.2% to $1,416.2.",
-      "url": "https://www.ndtvprofit.com/markets/sandisk-shares-tumble-11-as-chip-trade-reverses-again-whats-behind-the-fresh-selloff-11952910#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/6m4lvad8_f_625x300_29_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:19:15+05:30",
-      "category": "Markets",
-      "summary": "SanDisk Corporation shares slipped as low as 11.2% to $1,416.2."
-    },
-    {
-      "title": "Vishwanath & Sons Box Office Collection Day 11: Suriya's Film Moves Ahead In Its Second Week, Check Earnings",
-      "excerpt": "Vishwanath & Sons continued its box office run on the second Monday, with the Suriya-led Tamil family drama adding to its overall India collection.",
-      "url": "https://www.ndtvprofit.com/business/vishwanath-and-sons-box-office-collection-day-11-suriyas-film-moves-ahead-in-its-second-week-check-earnings-11952685#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/r7qnq3hg_suriyavishwanathandsonsboxofficejpg_625x300_24_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:18:06+05:30",
-      "category": "Markets",
-      "summary": "Vishwanath & Sons continued its box office run on the second Monday, with the Suriya-led Tamil family drama adding to its overall India collection."
-    },
-    {
-      "title": "RBI Data: House Prices Rise 3.6% In Q1; Chandigarh, Lucknow Lead Gains",
-      "excerpt": "India's residential property prices continued to rise in Q1 FY27, with the RBI's All India House Price Index increasing 3.6% year-on-year. However, growth moderated from the 4.5% increase recorded in the previous quarter",
-      "url": "https://www.ndtvprofit.com/economy/rbi-data-house-prices-rise-3-6-in-q1-fy27-chandigarh-lucknow-lead-gains-11953016#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/mp58k4qo_rbi-data-house-prices-rise-36-in-q1-fy27-chandigarh-lucknow-lead-gains_625x300_24_August_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:15:14+05:30",
-      "category": "Markets",
-      "summary": "India's residential property prices continued to rise in Q1 FY27, with the RBI's All India House Price Index increasing 3.6% year-on-year. However, growth moderated from the 4.5% increase recorded in the previous quarter"
-    },
-    {
-      "title": "Y Combinator sells Meesho shares worth Rs 970 crore in block deals; Morgan Stanley, Goldman Sachs, Citigroup among buyers",
-      "excerpt": "Y Combinator-linked entities sold 4.85 crore Meesho shares worth Rs 970 crore through block deals at Rs 200.01 apiece. Institutional buyers including Nippon India Mutual Fund, HDFC Life, Morgan Stanley, Goldman Sachs and",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/y-combinator-sells-meesho-shares-worth-rs-970-crore-in-block-deals-morgan-stanley-goldman-sachs-citigroup-among-buyers/articleshow/133472470.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-08-24T21:14:48+05:30",
-      "category": "Markets",
-      "summary": "Y Combinator-linked entities sold 4.85 crore Meesho shares worth Rs 970 crore through block deals at Rs 200.01 apiece. Institutional buyers including Nippon India Mutual Fund, HDFC Life, Morgan Stanley, Goldman Sachs and"
-    },
-    {
-      "title": "Goyal Urges Japanese Firms To Buy Steel From India, Backs Safeguard Duty",
-      "excerpt": "Goyal said India has taken a balanced approach by imposing the safeguard duty only on lower grades of steel, and higher grades can be imported freely.",
-      "url": "https://www.ndtvprofit.com/business/goyal-urges-japanese-firms-to-buy-steel-from-india-backs-safeguard-duty-11953090#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/5a04fv38_bb_625x300_24_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:12:29+05:30",
-      "category": "Markets",
-      "summary": "Goyal said India has taken a balanced approach by imposing the safeguard duty only on lower grades of steel, and higher grades can be imported freely."
-    },
-    {
-      "title": "Karnataka Suspends Food Licences Of Amazon, Swiggy Instamart, BigBasket Over 'Poisonous' Datura Sales",
-      "excerpt": "The department has also ordered an inquiry into the sale and online listing of Datura products, which were found being offered on various e-commerce platforms despite the products being toxic.",
-      "url": "https://www.ndtvprofit.com/india/karnataka-suspends-food-licences-of-amazon-swiggy-instamart-bigbasket-over-poisonous-datura-sales-11953053#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/74vvopro_amazon_625x300_24_August_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:10:29+05:30",
-      "category": "Markets",
-      "summary": "The department has also ordered an inquiry into the sale and online listing of Datura products, which were found being offered on various e-commerce platforms despite the products being toxic."
-    },
-    {
-      "title": "Batwara 1947 Box Office Collection Day 11: Sunny Deol's Period Drama Holds Its Run, Mints This Amount",
-      "excerpt": "Sunny Deol's Batwara 1947 continued its theatrical run in the second week as the period drama added to its overall box office collection.",
-      "url": "https://www.ndtvprofit.com/business/batwara-1947-box-office-collection-day-11-sunny-deols-period-drama-holds-its-run-mints-this-amount-11952471#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/l01j9af4_sunnydeolbatwara1947boxofficejpg_625x300_24_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:10:05+05:30",
-      "category": "Markets",
-      "summary": "Sunny Deol's Batwara 1947 continued its theatrical run in the second week as the period drama added to its overall box office collection."
-    },
-    {
-      "title": "'Cockroaches Won't Back Down': CJP Plans Delhi March In Sept Over Unmet Demands",
-      "excerpt": "CJP says youth protest will press the government to honour July 25 commitments.",
-      "url": "https://www.ndtvprofit.com/india/cockroaches-wont-back-down-cjp-plans-delhi-march-in-sept-over-unmet-demands-11952909#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/gafejl7k_jantar-mantar_625x300_23_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:08:22+05:30",
-      "category": "Markets",
-      "summary": "CJP says youth protest will press the government to honour July 25 commitments."
-    },
-    {
-      "title": "SpaceXAI Taps NVIDIA Vera CPUs To Power Next",
-      "excerpt": "SpaceXAI will also be using the Vera Rubin platform for orbital computing in space satellites such as its Starmind AI satellite.",
-      "url": "https://www.ndtvprofit.com/technology/spacexai-taps-nvidia-vera-cpus-to-power-next-gen-agentic-ai-orbital-computing-11952967#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/nmi49ihc_nvidia_625x300_24_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:05:24+05:30",
-      "category": "Markets",
-      "summary": "SpaceXAI will also be using the Vera Rubin platform for orbital computing in space satellites such as its Starmind AI satellite."
-    },
-    {
-      "title": "Ibrahim Zadran To Lead Afghanistan In India T20I Series; Naveen-ul",
-      "excerpt": "Afghanistan's squad for the India T20I series includes Ibrahim Zadran as captain, with Rashid Khan, Mohammad Nabi and Naveen-ul-Haq also named.",
-      "url": "https://www.ndtvprofit.com/sports/ibrahim-zadran-to-lead-afghanistan-in-india-t20i-series-naveen-ul-haq-returns-11952470#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/iv0k4iug_afg-vs-india_625x300_24_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:02:54+05:30",
-      "category": "Markets",
-      "summary": "Afghanistan's squad for the India T20I series includes Ibrahim Zadran as captain, with Rashid Khan, Mohammad Nabi and Naveen-ul-Haq also named."
-    },
-    {
-      "title": "RBI absorbs ₹1.41 trn surplus liquidity via VRRR, announces fresh auction",
-      "excerpt": "RBI absorbs ₹1.41 trn surplus liquidity via VRRR, announces fresh auction Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNam1uNjJSRmtvUGE1MC01bnk1U3p1VkNkVDA0LU5SaERBd3g5SVZxN2xyak8ydFpRbXZRcWNfTV9RLXVKWGFHZW5EX2w2aHhoZTBpQ19xWVVUYWRZQlh4aW5KQ2l6NV85YUxIUDNoV3kwZGlpRHQ2TnFnd0JUemFROXQxSk9hdWdmbllrM19PQ2E2QlRwRmRQa0VDc05IaW5zZFlNdVFMckdyQkJ0TVRrREFLa2xRMWhsNUNuRS1jdTVBczlqVzJqdG5nM1VYMkxOX0p0N9IB2gFBVV95cUxPS1ZEVnEzMnYtRzM0OW4wejNjU0NGdmNoLTh5UEFLOTlySGFCWUVaRFJZNWQ3WWR0cFRzeXVfRXRNaHYweHN2SklxYlFvM2pFWTl0V1BhWFlsSkJzSjlUMVVLSjM3a0hDMnNIVjdVY1hIZnFjVmp5cEgxb0U1dnNXTi1QNHZfQVlRQklPNHBuTnNFcDJEX3VsTmtyUHk4REJRX2ViNVJhd2JfRmlMSkNyNzVZaXg5Q0xsSVFjVjJjd1MyZWV6WUdqVnR1T0k5dk9qeXRSQk5aWVBBZw?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-08-24T21:02:38+05:30",
-      "category": "Economy",
-      "summary": "RBI absorbs ₹1.41 trn surplus liquidity via VRRR, announces fresh auction Business Standard"
-    },
-    {
-      "title": "IndiGo Co-Founder Rakesh Gangwal Pledges Rs 300 Crore To IIT Kanpur Medical School",
-      "excerpt": "The IndiGo co-founder will provide matching grants of up to Rs 300 crore to encourage contributions from other supporters.",
-      "url": "https://www.ndtvprofit.com/india/indigo-co-founder-rakesh-gangwal-pledges-rs-300-crore-to-iit-kanpur-medical-school-11952966#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/s35g1ruo_indigo-co-founder_625x300_24_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-24T21:01:34+05:30",
-      "category": "Markets",
-      "summary": "The IndiGo co-founder will provide matching grants of up to Rs 300 crore to encourage contributions from other supporters."
     }
   ]
 }
