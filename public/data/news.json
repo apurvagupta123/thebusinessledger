@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-08-26T12:56:32+05:30",
+  "lastUpdated": "2026-08-26T13:40:01+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "India’s GDP growth likely slowed to a 4-quarter low of 7.4% in Q1: Mint poll",
+      "excerpt": "Sectoral trends point to uneven growth during the quarter, with industrial and services continuing to provide support, but agricultural activity likely slowed down due to the delayed onset of the monsoon.&nbsp;",
+      "url": "https://www.livemint.com/economy/india-gdp-growth-q1fy27-mint-poll-west-asia-war-domestic-demand-rbi-inflation-economic-growth-monsoon-11787724892124.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/26/1600x900/logo/INDIA-MARUTI-SUZUKI-26_1787728227972_1787728262053_1517abaa-5d52-456b-9125-9b93f1d273a6.jpg",
+      "publishedAt": "2026-08-26T13:35:41+05:30",
+      "category": "Economy",
+      "summary": "Sectoral trends point to uneven growth during the quarter, with industrial and services continuing to provide support, but agricultural activity likely slowed down due to the delayed onset of the monsoon.&nbsp;"
+    },
+    {
+      "title": "Nifty 50 stuck below 25,000: Is the IPO boom this year a reason behind the poor show of the Indian stock market?",
+      "excerpt": "As the Nifty 50 struggles to break the 25,000 mark, experts debate whether the surge in IPOs is draining liquidity from the stock market or if macroeconomic factors are to blame. This article explores the intricate relat",
+      "url": "https://www.livemint.com/market/stock-market-news/nifty-50-stuck-below-25-000-is-the-ipo-boom-this-year-a-reason-behind-the-poor-show-of-the-indian-stock-market-11787719494000.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/26/1600x900/logo/IPO_boom_in_India_1787720030339_1787720037807_4b84cf4b-211e-418b-b156-e606a12964a2.png",
+      "publishedAt": "2026-08-26T13:13:10+05:30",
+      "category": "Markets",
+      "summary": "As the Nifty 50 struggles to break the 25,000 mark, experts debate whether the surge in IPOs is draining liquidity from the stock market or if macroeconomic factors are to blame. This article explores the intricate relat"
+    },
+    {
+      "title": "TCS revs up M&As with Porsche deal, but fails to wow",
+      "excerpt": "TCS is stepping up M&amp;A to boost its AI muscle and global reach, with the €320 million Porsche-MHP deal, its third acquisition in a year. The buyout offers a near-term revenue boost, but weak auto demand, margin press",
+      "url": "https://www.livemint.com/market/mark-to-market/tcs-mhp-porsche-acquisition-ai-m-a-strategy-2026-11787719259211.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/26/1600x900/logo/INDIA-TCS-14_1684749915439_1787729996896_c2547bcc-63ff-4c5c-926d-637777d559c0.jpg",
+      "publishedAt": "2026-08-26T13:12:45+05:30",
+      "category": "Markets",
+      "summary": "TCS is stepping up M&amp;A to boost its AI muscle and global reach, with the €320 million Porsche-MHP deal, its third acquisition in a year. The buyout offers a near-term revenue boost, but weak auto demand, margin press"
+    },
     {
       "title": "Mint Explainer: Why does Niti Aayog want to change India’s skilling system?",
       "excerpt": "Niti Aayog has proposed unifying India's education and training into an integrated, outcome-driven system to prepare students and workers for emerging jobs by 2047. The framework shifts the focus from simple certificatio",
@@ -221,36 +251,6 @@
       "publishedAt": "2026-08-26T11:56:59+05:30",
       "category": "Markets",
       "summary": "PhysicsWallah shares surged around 5% after nearly 4.67 crore shares worth about Rs 550 crore changed hands in a block deal at Rs 117.72 apiece. The stock has recovered sharply from its March low, while improving Q1 FY27"
-    },
-    {
-      "title": "HEG Demerger: Record Date Fixed. Here's What 1:1 Restructuring Means For Shareholders?",
-      "excerpt": "Under the HEG demerger scheme, the company's graphite electrodes business will move into the resulting company, HEG Graphite Limited, which is proposed to be renamed HEG Limited and taken forward as a separately listed, ",
-      "url": "https://www.ndtvprofit.com/markets/heg-demerger-record-date-fixed-heres-what-1-1-restructuring-means-for-shareholders-11960205#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/i866vvq4_heg_625x300_26_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-26T11:55:59+05:30",
-      "category": "Markets",
-      "summary": "Under the HEG demerger scheme, the company's graphite electrodes business will move into the resulting company, HEG Graphite Limited, which is proposed to be renamed HEG Limited and taken forward as a separately listed, "
-    },
-    {
-      "title": "Hy-Tech Engineers IPO Subscription Surges To 30.45x Amid Strong Retail Participation",
-      "excerpt": "The IPO, which opened for subscription on Monday, is being offered at a price band of Rs 50-53 per equity share.",
-      "url": "https://www.ndtvprofit.com/markets/hy-tech-engineers-ipo-day-3-subscription-status-gmp-company-financials-11960024#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/5d0tpkn4_hytech-ipo_625x300_21_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-26T11:54:48+05:30",
-      "category": "Markets",
-      "summary": "The IPO, which opened for subscription on Monday, is being offered at a price band of Rs 50-53 per equity share."
-    },
-    {
-      "title": "Healthcare stock Park Medi World jumps 3%, rises for 5th consecutive session after this capex update | Details here",
-      "excerpt": "Park Medi World share price debuted on the Indian stock market on 17 December last year. At the current market price of ₹291.40, the sock is up 80% from the issue price of ₹162. Year-to-date, the stock is up 92%, as per ",
-      "url": "https://www.livemint.com/market/stock-market-news/healthcare-stock-park-medi-world-jumps-3-rises-for-5th-consecutive-session-after-this-capex-update-details-here-11787724749621.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/08/26/1600x900/logo/im-98867202_1784534079331_1787724920819_30b3a2da-6ae7-446b-be71-ee1fc533de03.jpg",
-      "publishedAt": "2026-08-26T11:49:48+05:30",
-      "category": "Markets",
-      "summary": "Park Medi World share price debuted on the Indian stock market on 17 December last year. At the current market price of ₹291.40, the sock is up 80% from the issue price of ₹162. Year-to-date, the stock is up 92%, as per "
     }
   ]
 }
