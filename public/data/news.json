@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-08-30T23:30:43+05:30",
+  "lastUpdated": "2026-08-31T02:54:49+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "SBI, arm to dilute up to 1% stake in NSE via public offer",
+      "excerpt": "The bank is participating in the NSE IPO and will dilute a 0.65% stake in the exchange, SBI Chairman CS Setty said",
+      "url": "https://www.livemint.com/market/stock-market-news/sbi-arm-to-dilute-up-to-1-stake-in-nse-via-public-offer-11788112931213.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/08/30/1600x900/logo/INDIA-SBI-CHAIRMAN-17_1764587896892_1764587908950_1788113253931_f8228693-e2e2-4a96-b950-ab5ed2ad16df.jpg",
+      "publishedAt": "2026-08-30T23:38:19+05:30",
+      "category": "Markets",
+      "summary": "The bank is participating in the NSE IPO and will dilute a 0.65% stake in the exchange, SBI Chairman CS Setty said"
+    },
     {
       "title": "Wall Street Week Ahead: Jobs report, AI earnings and Tesla Cybercab in focus",
       "excerpt": "The employment data could offer fresh clues on the health of the US labour market and influence expectations around the central bank's interest-rate decisions",
@@ -13,14 +23,54 @@
       "summary": "The employment data could offer fresh clues on the health of the US labour market and influence expectations around the central bank's interest-rate decisions"
     },
     {
-      "title": "India to sustain 7% growth in FY27 despite global headwinds: FM Sitharaman",
-      "excerpt": "India to sustain 7% growth in FY27 despite global headwinds: FM Sitharaman Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNHBxazRFVEJjVGUwa25PQlVFeTNaZkNOOXkxOTZudDY1bko3RzRpUEo4Q1VYcDZTRWVtNFRBdlI0UGc3ZnVRSjlRSjU1X1ZDSUE1bVliZ0tmbk5fTGZwTFRFQzVRTENlRnYzNE9mRzNWejZzRjNuUEpJcGVMSVM3d0JSYjl1VFBwakJnQUYtbTVXSW52TGpmdHNta0RfRkV4WXA0TlllelhXUXNLZlpwMXl5SkpqNTNqU2NFSlFwNUEwNWtwQnBGRjJxYzNDd9IB0wFBVV95cUxNLUZlbzNhVDJGb3M3YnhXcldncy14VnJBbWFaRUZ1c3k3RTJLOGpWbUhrSGQzbnc0VDZFNXFXbWxPN0RUUXRWNDZSbWFTS0lpamdNYWlSLV94N3ZVNFBHYmo3OURXcWsyM3o5Uk5KM0FTY1hPa3JOMEhPekdwTmVBTG1PUmtJYXI0OXkwZS1iOUEweXVNMGxwUXd6ejQ4elhNVGJuTVVNajZFcDFlUkFuYU9VQTVwRGlVVTRTTVRYMV9iLXVNeUZIMDNGRXNyRVpBSHNv?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-08-30T22:37:18+05:30",
-      "category": "Economy",
-      "summary": "India may sustain 7% growth in FY27 despite global uncertainties: FM Business Standard"
+      "title": "8-Year-Old Boy Run Over In Bandra; Woman Driver Arrested For Rash Driving",
+      "excerpt": "Police have arrested Megha Rawal, the driver of the SUV, and further investigation into the circumstances surrounding the fatal crash is underway.",
+      "url": "https://www.ndtvprofit.com/india/8-year-old-boy-run-over-in-bandra-woman-driver-arrested-for-rash-driving-11979147#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/k2c1pg8c_crime_625x300_30_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-30T22:52:11+05:30",
+      "category": "Markets",
+      "summary": "Police have arrested Megha Rawal, the driver of the SUV, and further investigation into the circumstances surrounding the fatal crash is underway."
+    },
+    {
+      "title": "Germany Beat Spain 1-0 To Retain Hockey World Cup Title",
+      "excerpt": "The victory also saw the defending champions join Pakistan as the joint-most successful team in the history of the men's Hockey World Cup, with four titles each.",
+      "url": "https://www.ndtvprofit.com/sports/germany-beat-spain-1-0-to-retain-hockey-world-cup-title-join-pakistan-with-4-trophies-11979138#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/unh7aqs_hockey-world-cup_625x300_30_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-30T22:42:49+05:30",
+      "category": "Markets",
+      "summary": "The victory also saw the defending champions join Pakistan as the joint-most successful team in the history of the men's Hockey World Cup, with four titles each."
+    },
+    {
+      "title": "HDFC Bank, Tata Sons To Infosys, Godrej Consumer: Firms With Big Leadership Exits In 2026",
+      "excerpt": "Here's a look at all the recent exits from prominent firms within India's corporate sector such as Tata Sons, Infosys, Godrej Consumer and Colgate.",
+      "url": "https://www.ndtvprofit.com/business/hdfc-bank-tata-sons-infosys-godrej-consumer-firms-with-big-leadership-exits-in-2026-11978884#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/nveokemg_corporate-exit_625x300_30_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-30T22:30:15+05:30",
+      "category": "Markets",
+      "summary": "Here's a look at all the recent exits from prominent firms within India's corporate sector such as Tata Sons, Infosys, Godrej Consumer and Colgate."
+    },
+    {
+      "title": "7 Dead As Passenger Boat Carrying Around 270 People Capsizes Off Northern Cyprus",
+      "excerpt": "Passenger boat carrying about 270 people capsized off Northern Cyprus on Sunday.",
+      "url": "https://www.ndtvprofit.com/world/passenger-boat-carrying-270-people-capsizes-off-northern-cyprus-11978108#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/o9n5imqg_ap_625x300_30_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-30T22:27:41+05:30",
+      "category": "Markets",
+      "summary": "Passenger boat carrying about 270 people capsized off Northern Cyprus on Sunday."
+    },
+    {
+      "title": "Switzerland Shooting: Woman Killed; Five Wounded At Rave Party In Aarau",
+      "excerpt": "The shooting occurredshortly after 2:30 am local timeduring the \"Aarau Rave\" event being held at the horse racing track.",
+      "url": "https://www.ndtvprofit.com/world/switzerland-shooting-several-injured-at-rave-party-in-aarau-11977198#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/qdne23i_switzerland-shooting_625x300_30_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-08-30T22:21:48+05:30",
+      "category": "Markets",
+      "summary": "The shooting occurredshortly after 2:30 am local timeduring the \"Aarau Rave\" event being held at the horse racing track."
     },
     {
       "title": "India-US trade in focus? Commerce Ministry calls exporters for September 1 meeting: Report",
@@ -51,16 +101,6 @@
       "publishedAt": "2026-08-30T21:43:59+05:30",
       "category": "Markets",
       "summary": "Iceland's powerful fishing industry was one of the biggest reasons behind opposition to restarting EU membership talks."
-    },
-    {
-      "title": "HDFC Bank, Tata Sons To Infosys, Godrej Consumer: Firms With Big Leadership Exits In 2026",
-      "excerpt": "Here's a look at all the recent exits from prominent firms within India's corporate sector such as Tata Sons, Infosys, Godrej Consumer and Colgate.",
-      "url": "https://www.ndtvprofit.com/business/hdfc-bank-tata-sons-infosys-godrej-consumer-firms-with-big-leadership-exits-in-2026-11978884#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/vfq4e5a_chart_625x300_30_August_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-30T21:35:42+05:30",
-      "category": "Markets",
-      "summary": "Here's a look at all the recent exits from prominent firms within India's corporate sector such as Tata Sons, Infosys, Godrej Consumer and Colgate."
     },
     {
       "title": "BRICS Summit Pushes Up Delhi Hotel Rates; Luxury Rooms In Short Supply",
@@ -211,46 +251,6 @@
       "publishedAt": "2026-08-30T19:51:27+05:30",
       "category": "Markets",
       "summary": "Alongside GDP and US jobs data, investors will monitor PMI readings, GST collections, the rupee and foreign investor activity."
-    },
-    {
-      "title": "Gold, Silver Brace For Fresh Swings Amid US Jobs Data, Iran Tensions: Analysts",
-      "excerpt": "Gold futures fell 3.8% last week, while silver declined 4%, as investors now turn their attention to US labour-market data, Fed rate expectations and geopolitical tensions.",
-      "url": "https://www.ndtvprofit.com/markets/gold-silver-braces-for-fresh-swings-amid-us-jobs-data-iran-tensions-analysts-11978040#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/rkvjkovg_gold-and-silver-prices-in-india-photo-ai-generated_625x300_23_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-30T19:42:00+05:30",
-      "category": "Markets",
-      "summary": "Gold futures fell 3.8% last week, while silver declined 4%, as investors now turn their attention to US labour-market data, Fed rate expectations and geopolitical tensions."
-    },
-    {
-      "title": "HDFC Bank ADR Up 3%: Full-Time CEO, Multi",
-      "excerpt": "HDFC Bank's stock has immensely corrected this year, with valuations at multi year lows, suggesting that investors might be factoring in the worst.",
-      "url": "https://www.ndtvprofit.com/markets/hdfc-bank-adr-up-3-full-time-ceo-multi-year-low-valuations-fuel-recovery-hope-11978484#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/uanbsur8_hdfc-bank-minimum-balance-ndtv-profit-pic_625x300_22_April_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-30T19:07:43+05:30",
-      "category": "Markets",
-      "summary": "HDFC Bank's stock has immensely corrected this year, with valuations at multi year lows, suggesting that investors might be factoring in the worst."
-    },
-    {
-      "title": "Bethlehem Kudumba Unit Box Office Collection Day 10: Nivin Pauly Film Powers Through Second Weekend",
-      "excerpt": "Nivin Pauly and Mamitha Baiju starrer 'Bethlehem Kudumba Unit' has collected Rs 78.39 crore net and Rs 91.48 crore gross in India after 10 days.",
-      "url": "https://www.ndtvprofit.com/business/bethlehem-kudumba-unit-box-office-collection-day-10-nivin-pauly-starrer-powers-through-second-weekend-check-sunday-earnings-11978466#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/2mv0rqs4_bethlehem-kudumba-unit_625x300_30_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-30T19:04:30+05:30",
-      "category": "Markets",
-      "summary": "Nivin Pauly and Mamitha Baiju starrer 'Bethlehem Kudumba Unit' has collected Rs 78.39 crore net and Rs 91.48 crore gross in India after 10 days."
-    },
-    {
-      "title": "First The Chairman, Now The CEO: Why IiAS Sees A 'Carelessness' Risk At HDFC Bank",
-      "excerpt": "The proxy advisory firm said the bank must manage CEO succession alongside impending changes in its executive team and board after a series of governance-related developments in 2026.",
-      "url": "https://www.ndtvprofit.com/business/hdfc-bank-faces-leadership-test-as-sashidhar-jagdishan-opts-out-of-another-term-iias-11978469#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/gq56oig_hdfc-bank_625x300_07_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-08-30T18:57:37+05:30",
-      "category": "Markets",
-      "summary": "The proxy advisory firm said the bank must manage CEO succession alongside impending changes in its executive team and board after a series of governance-related developments in 2026."
     }
   ]
 }
