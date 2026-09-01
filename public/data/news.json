@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T01:34:59+05:30",
+  "lastUpdated": "2026-09-02T04:14:44+05:30",
   "count": 25,
   "articles": [
     {
@@ -21,6 +21,16 @@
       "publishedAt": "2026-09-02T00:29:27+05:30",
       "category": "Markets",
       "summary": "USA-LIVESTOCK/:LIVESTOCK-Cattle futures lower as screwworm restrictions lift"
+    },
+    {
+      "title": "S&P Global weighs multibillion-dollar spinout of Capital IQ Pro: Report",
+      "excerpt": "S&P Global is considering spinning off Capital IQ Pro into a standalone company that could be valued in the high single-digit billions of dollars, Bloomberg reported. The move could unlock value from its financial data p",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-global-weighs-multibillion-dollar-spinout-of-capital-iq-pro/articleshow/133690470.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-09-02T00:25:10+05:30",
+      "category": "Markets",
+      "summary": "S&P Global is considering spinning off Capital IQ Pro into a standalone company that could be valued in the high single-digit billions of dollars, Bloomberg reported. The move could unlock value from its financial data p"
     },
     {
       "title": "Gold falls to two-week low as rising Treasury yields, dollar weigh",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-09-01T22:24:44+05:30",
       "category": "Markets",
       "summary": "Strong demand for Saudi Arabia's new dollar sukuk comes as the kingdom faces economic strain from the Iran war and disruption to oil trade through Hormuz."
-    },
-    {
-      "title": "Apple Event Countdown: iPhone 18 Pro, Pro Max Set For Release? What We Know So Far",
-      "excerpt": "Apple has confirmed its September 9 event, expected to headline the iPhone 18 Pro and Pro Max with a smaller Dynamic Island, a new A20 Pro chip, a possible variable-aperture camera and a likely price hike.",
-      "url": "https://www.ndtvprofit.com/technology/apple-event-countdown-iphone-18-pro-pro-max-set-for-release-what-we-know-so-far-11988575#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/hhas8euo_iphone-18-pro_625x300_01_September_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:20:22+05:30",
-      "category": "Markets",
-      "summary": "Apple has confirmed its September 9 event, expected to headline the iPhone 18 Pro and Pro Max with a smaller Dynamic Island, a new A20 Pro chip, a possible variable-aperture camera and a likely price hike."
     }
   ]
 }
