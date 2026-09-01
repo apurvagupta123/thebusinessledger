@@ -10,9 +10,13 @@ Schedule: GitHub Actions runs this after Indian market close (10:00 UTC = 3:30 P
           and again after US market close (21:30 UTC = 4:30 PM EST)
 """
 
-import json, os, sys
+import json, os, sys, socket
 from datetime import datetime, timezone
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError as FuturesTimeoutError
+
+# Guard against indefinite hangs on stalled network connections (seen with
+# yfinance .info calls under load) — force a hard socket timeout process-wide.
+socket.setdefaulttimeout(20)
 
 try:
     import yfinance as yf
@@ -410,21 +414,29 @@ def fetch_conglomerate_stats():
         data = json.load(f)
 
     updated = 0
-    for group_sym, yf_sym in CONGLOMERATE_SYMBOLS.items():
-        if group_sym not in data:
-            continue
-        try:
-            info = yf.Ticker(yf_sym).info
-            mcap = info.get('marketCap')
-            rev  = info.get('totalRevenue')
-            data[group_sym]['autoStats'] = {
-                'marketCap': fmt_inr_mcap(mcap),
-                'revenue':   fmt_inr_cr(rev),
-            }
-            print(f"  {group_sym}: mcap={fmt_inr_mcap(mcap)}, rev={fmt_inr_cr(rev)}")
-            updated += 1
-        except Exception as e:
-            print(f"  {group_sym} autoStats failed: {e}")
+
+    def _fetch_one(yf_sym):
+        info = yf.Ticker(yf_sym).info
+        return info.get('marketCap'), info.get('totalRevenue')
+
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        futures = {
+            ex.submit(_fetch_one, yf_sym): group_sym
+            for group_sym, yf_sym in CONGLOMERATE_SYMBOLS.items()
+            if group_sym in data
+        }
+        for future in futures:
+            group_sym = futures[future]
+            try:
+                mcap, rev = future.result(timeout=20)
+                data[group_sym]['autoStats'] = {
+                    'marketCap': fmt_inr_mcap(mcap),
+                    'revenue':   fmt_inr_cr(rev),
+                }
+                print(f"  {group_sym}: mcap={fmt_inr_mcap(mcap)}, rev={fmt_inr_cr(rev)}")
+                updated += 1
+            except Exception as e:
+                print(f"  {group_sym} autoStats failed: {e}")
 
     data['lastUpdated'] = NOW
 
@@ -534,7 +546,7 @@ def main():
     history_map = fetch_company_history_batch(COMPANY_SYMBOLS)
 
     # Fundamentals in parallel (uses Ticker.info — one call per symbol, parallelised)
-    info_map = fetch_all_info_parallel(COMPANY_SYMBOLS, workers=12)
+    info_map = fetch_all_info_parallel(COMPANY_SYMBOLS, workers=30)
 
     # Merge price/change from already-fetched sector data where available
     # (sector_q already has today's price+change from the earlier batch)
@@ -742,12 +754,18 @@ def main():
             pass
         return None
 
-    with ThreadPoolExecutor(max_workers=10) as ex:
+    with ThreadPoolExecutor(max_workers=20) as ex:
         futures = {ex.submit(fetch_earnings_date, sym): sym for sym in EARNINGS_STOCKS}
-        for future in as_completed(futures):
-            result = future.result()
-            if result:
-                earnings_entries.append(result)
+        try:
+            for future in as_completed(futures, timeout=60):
+                try:
+                    result = future.result(timeout=1)
+                except Exception:
+                    continue
+                if result:
+                    earnings_entries.append(result)
+        except FuturesTimeoutError:
+            print("  Earnings fetch exceeded 60s budget — using partial results")
 
     earnings_entries.sort(key=lambda x: x['earningsDate'])
     save('earnings.json', {'lastUpdated': NOW, 'earnings': earnings_entries})
