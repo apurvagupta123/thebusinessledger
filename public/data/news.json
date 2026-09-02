@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-09-02T04:14:44+05:30",
+  "lastUpdated": "2026-09-02T06:24:37+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Nifty near make-or-break level; 23,950 holds the key",
+      "excerpt": "On Tuesday, Nifty index later slipped below 24,000 and also breached the previous session’s low, falling to 23,952.55.",
+      "url": "https://www.livemint.com/market/stock-market-news/nifty-near-make-or-break-level-23-950-holds-the-key-11788309659410.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/02/1600x900/logo/Dalal_Street_Investment_1788309813691_1788309816778_529f93b4-a9a3-4f4b-a198-c650baca6be4.png",
+      "publishedAt": "2026-09-02T06:16:48+05:30",
+      "category": "Markets",
+      "summary": "On Tuesday, Nifty index later slipped below 24,000 and also breached the previous session’s low, falling to 23,952.55."
+    },
+    {
+      "title": "Stock recommendations for 2 September from MarketSmith India",
+      "excerpt": "MarketSmith India reveals its top stock recommendations for today, 2 September. Get expert insights into the best-performing stocks to guide your investment decisions.",
+      "url": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-2-september-from-marketsmith-india-11788267955582.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/03/04/1600x900/logo/MS_1755693310577_1755693317448_1756904694597_1772627086309.png",
+      "publishedAt": "2026-09-02T06:10:36+05:30",
+      "category": "Markets",
+      "summary": "MarketSmith India reveals its top stock recommendations for today, 2 September. Get expert insights into the best-performing stocks to guide your investment decisions."
+    },
+    {
+      "title": "Brokers brace for impact as Sebi’s closing auction session weighs on F&O volumes",
+      "excerpt": "Since its 3 August debut, Sebi's closing auction session has wiped out about half of the trading volume and value in Bank Nifty futures.",
+      "url": "https://www.livemint.com/market/stock-market-news/sebi-closing-auction-f-o-volumes-brokerage-revenue-impact-markets-nifty-nse-liquidity-11788240905267.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/01/1600x900/logo/2-0-120175309-Stock-Trading-4C-0_1681884062894_1788258937320_899f9ff8-3491-4046-9d0f-d6f0f56fc963.jpg",
+      "publishedAt": "2026-09-02T06:00:56+05:30",
+      "category": "Markets",
+      "summary": "Since its 3 August debut, Sebi's closing auction session has wiped out about half of the trading volume and value in Bank Nifty futures."
+    },
+    {
+      "title": "Midcap Street party turns selective as 15 stocks power 50% of rally",
+      "excerpt": "Indian midcap and smallcap indices are near record highs currently. A few select stocks are driving most of these significant gains. This concentration indicates a selective rally rather than broad market health. Analyst",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/15-midcaps-dominate-half-of-the-partys-bang-in-the-market-scene/articleshow/133694567.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-09-02T05:59:30+05:30",
+      "category": "Markets",
+      "summary": "Indian midcap and smallcap indices are near record highs currently. A few select stocks are driving most of these significant gains. This concentration indicates a selective rally rather than broad market health. Analyst"
+    },
+    {
+      "title": "NSE, BSE equity derivatives turnover hits multi-month low in August amid CAS volatility",
+      "excerpt": "August saw a significant dip in equity derivatives turnover on the NSE and BSE, reaching multi-month lows. Analysts connect this downturn to the recent implementation of the Closing Auction Session, which has changed the",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/cas-weighs-on-derivatives-volumes-raising-financial-markets-concerns/articleshow/133694177.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-09-02T05:43:26+05:30",
+      "category": "Markets",
+      "summary": "August saw a significant dip in equity derivatives turnover on the NSE and BSE, reaching multi-month lows. Analysts connect this downturn to the recent implementation of the Closing Auction Session, which has changed the"
+    },
+    {
+      "title": "FPIs are back, but the market breakout may have to wait",
+      "excerpt": "A surge in IPOs, block trades and shareholder exits could keep the market rangebound in September by soaking up returning foreign demand.",
+      "url": "https://www.livemint.com/market/stock-market-news/fpi-investment-inflows-in-indian-equities-nse-ipo-11788243609575.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/01/1600x900/logo/3-0-86449917-iStock-1167137273-0_1679793048835_1788268746019_b2f6a08e-c279-4124-83b2-911841f724f5.jpg",
+      "publishedAt": "2026-09-02T05:30:15+05:30",
+      "category": "Markets",
+      "summary": "A surge in IPOs, block trades and shareholder exits could keep the market rangebound in September by soaking up returning foreign demand."
+    },
+    {
+      "title": "Farm Peace Share Price Today, Farm Peace Stock Price Live NSE/BSE Updates",
+      "excerpt": "Farm Peace Share Price Today, Farm Peace Stock Price Live NSE/BSE Updates The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5RTld0Q0RJYTZWU0N2czVzNmFoN0ppUVluTUFfQ2JFYzJpWHdBcWVwaW53MkxTbGJXYk1hTHlCVzBXdkRRbFBUNF91MDdKNzNhTHllSWFzRmNGTlBnY0VoTGQweTFjdl9KME5YVUFwbm1ublBIalB3NmMxZw?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-09-02T02:19:21+05:30",
+      "category": "Markets",
+      "summary": "Farm Peace Share Price Today, Farm Peace Stock Price Live NSE/BSE Updates The Economic Times"
+    },
+    {
+      "title": "India’s August fuel story: Petrol, diesel up, LPG down sharply",
+      "excerpt": "Petrol and diesel sales saw significant year-on-year increases in August. This growth was fueled by greater mobility and a strengthening economy. Aviation turbine fuel sales also returned to growth, indicating air traffi",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/indias-august-fuel-story-petrol-diesel-up-lpg-down-sharply/articleshow/133694455.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-09-02T01:07:13+05:30",
+      "category": "Markets",
+      "summary": "Petrol and diesel sales saw significant year-on-year increases in August. This growth was fueled by greater mobility and a strengthening economy. Aviation turbine fuel sales also returned to growth, indicating air traffi"
+    },
+    {
+      "title": "Fortis Healthcare reviews Delhi HC ruling in Daiichi Sankyo case, may approach Supreme Court",
+      "excerpt": "In a significant development, Fortis Healthcare is assessing a recent decision from the Delhi High Court regarding the Daiichi Sankyo arbitration. The court's order for a forensic audit of earlier transactions poses a no",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fortis-healthcare-reviews-delhi-hc-ruling-in-daiichi-sankyo-case-may-approach-supreme-court/articleshow/133694424.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-09-02T01:05:53+05:30",
+      "category": "Markets",
+      "summary": "In a significant development, Fortis Healthcare is assessing a recent decision from the Delhi High Court regarding the Daiichi Sankyo arbitration. The court's order for a forensic audit of earlier transactions poses a no"
+    },
     {
       "title": "US Oil Tops $90 for First Time Since July Amid Fresh Strikes",
       "excerpt": "US oil prices topped $90 a barrel for the first time since late July as fresh American strikes on Iran raised concerns about prolonged disruptions to energy flows through the Strait of Hormuz.",
@@ -13,6 +103,16 @@
       "summary": "US oil prices topped $90 a barrel for the first time since late July as fresh American strikes on Iran raised concerns about prolonged disruptions to energy flows through the Strait of Hormuz."
     },
     {
+      "title": "Indian banks slash FCNR deposit rates by up to 310 basis points",
+      "excerpt": "Indian banks have lowered interest rates on foreign-currency deposits significantly. This action follows the closure of the Reserve Bank of India's special swap window. Banks offered unusually high rates to attract overs",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-banks-slash-fcnr-deposit-rates-by-up-to-310-basis-points/articleshow/133694499.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-09-02T00:43:26+05:30",
+      "category": "Markets",
+      "summary": "Indian banks have lowered interest rates on foreign-currency deposits significantly. This action follows the closure of the Reserve Bank of India's special swap window. Banks offered unusually high rates to attract overs"
+    },
+    {
       "title": "Cattle futures lower as screwworm restrictions lift",
       "excerpt": "USA-LIVESTOCK/:LIVESTOCK-Cattle futures lower as screwworm restrictions lift",
       "url": "https://www.livemint.com/market/cattle-futures-lower-as-screwworm-restrictions-lift-11788289167412.html",
@@ -21,16 +121,6 @@
       "publishedAt": "2026-09-02T00:29:27+05:30",
       "category": "Markets",
       "summary": "USA-LIVESTOCK/:LIVESTOCK-Cattle futures lower as screwworm restrictions lift"
-    },
-    {
-      "title": "S&P Global weighs multibillion-dollar spinout of Capital IQ Pro: Report",
-      "excerpt": "S&P Global is considering spinning off Capital IQ Pro into a standalone company that could be valued in the high single-digit billions of dollars, Bloomberg reported. The move could unlock value from its financial data p",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-global-weighs-multibillion-dollar-spinout-of-capital-iq-pro/articleshow/133690470.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-09-02T00:25:10+05:30",
-      "category": "Markets",
-      "summary": "S&P Global is considering spinning off Capital IQ Pro into a standalone company that could be valued in the high single-digit billions of dollars, Bloomberg reported. The move could unlock value from its financial data p"
     },
     {
       "title": "Gold falls to two-week low as rising Treasury yields, dollar weigh",
@@ -161,96 +251,6 @@
       "publishedAt": "2026-09-01T22:59:36+05:30",
       "category": "Markets",
       "summary": "Erin Piacenti died at the hospital from the stabbing injuries. He was a vice president of business selection and conflicts at the bank, according to a LinkedIn profile."
-    },
-    {
-      "title": "Decoding DGFT's INR settlement rules and Customs re-export deadlines",
-      "excerpt": "Decoding DGFT's INR settlement rules and Customs re-export deadlines Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZHR0elp4aDFRc01LNjFMZVEySkVoTElkU1JUc2daN1N1QVZnNFo5SmNRVlJXQXJaT19TcmhlSzVNa2YwVDdFemlTbUlqUTlmN3JNQ2VnV1ZnUS1TaDkzS2wwSzJQZ2JHYUo4MnJOWVJ2Q2JiYTkwX0lSRW1heHlxRFJueVMxRFJSbW9oOTlNNkp5bUxnNERveGFfY2NsRDlGYzJGWnd1b2dHS2MyRkQ5VWl3SVZNX3dIaVNUZlhkTFd2aTRXWE52UU4xS2dmS1lfN0VSemJn0gHWAUFVX3lxTE5kdHR6WnhoMVFzTUs2MUxlUTJKRWhMSWRTUlRzZ1o3U3VBVmc0WjlKY1FWUldBclpPX1NyaGVLNU1rZjBUN0V6aVNtSWpROWY3ck1DZWdXVmdRLVNoOTNLbDBLMlBnYkdhSjgyck5ZUnZDYmJhOTBfSVJFbWF4eXFEUm55UzFEUlJtb2g5OU02SnltTGc0RG94YV9jY2xEOUZjMkZad3VvZ0dLYzJGRDlVaXdJVk1fd0hpU1RmWGRMV3ZpNFdYTnZRTjFLZ2ZLWV83RVJ6Ymc?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-09-01T22:55:53+05:30",
-      "category": "Economy",
-      "summary": "Decoding DGFT's INR settlement rules and Customs re-export deadlines Business Standard"
-    },
-    {
-      "title": "Banks' CD Issuances Drop To 4-month Low In August Amid FCNR (B) Mobilisation, Surplus Liquidity",
-      "excerpt": "According to the Prime Database, banks have raised Rs 68,130 crore through CDs in August, the lowest since April 2026.",
-      "url": "https://www.ndtvprofit.com/business/banks-cd-issuances-drop-to-4-month-low-in-august-amid-fcnr-b-mobilisation-surplus-liquidity-11988932#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/981bea55_Rupeejpeg.?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:48:49+05:30",
-      "category": "Markets",
-      "summary": "According to the Prime Database, banks have raised Rs 68,130 crore through CDs in August, the lowest since April 2026."
-    },
-    {
-      "title": "Manchester City Bag Chelsea's Enzo Fernandez In Record",
-      "excerpt": "The 25-year-old Argentina midfielder's move to the Etihad brings an end to the long-running transfer saga surrounding his Chelsea future.",
-      "url": "https://www.ndtvprofit.com/sports/manchester-city-bag-chelseas-enzo-fernandez-in-record-equalling-british-transfer-deal-11988724#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/r9kb1dj4_enzo-farnandaz_625x300_01_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:47:30+05:30",
-      "category": "Markets",
-      "summary": "The 25-year-old Argentina midfielder's move to the Etihad brings an end to the long-running transfer saga surrounding his Chelsea future."
-    },
-    {
-      "title": "VinFast Slows India EV Production Plans Just A Year After Market Entry: Report",
-      "excerpt": "VinFast refuted the Reuters report, claiming that it has \"not changed or suspended its production plans\" in India.",
-      "url": "https://www.ndtvprofit.com/business/vinfast-suspends-india-ev-production-plans-just-a-year-after-market-entry-11987518#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/vshtsc7_vinfast_625x300_17_January_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:45:08+05:30",
-      "category": "Markets",
-      "summary": "VinFast refuted the Reuters report, claiming that it has \"not changed or suspended its production plans\" in India."
-    },
-    {
-      "title": "Iranian Media Reports Fresh Blasts In Bandar Abbas, Chabahar; Crude Oil Spikes 3% To $93",
-      "excerpt": "Fresh explosions were reported in southern Iran as tensions around the Strait of Hormuz remain elevated, sending oil prices higher.",
-      "url": "https://www.ndtvprofit.com/world/iranian-media-reports-fresh-blasts-in-bandar-abbas-chabahar-crude-oil-spikes-3-to-93-11988740#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/vhbr5l7o_bandar-abbas_625x300_08_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:37:02+05:30",
-      "category": "Markets",
-      "summary": "Fresh explosions were reported in southern Iran as tensions around the Strait of Hormuz remain elevated, sending oil prices higher."
-    },
-    {
-      "title": "'Congrats': Musk Reacts As New Apple CEO John Ternus Joins 'X' On Day Of Taking Charge",
-      "excerpt": "Ternus took over from the CEO role from Tim Cook on Sept. 1, 2026,ending his 15-year tenure heading the company.",
-      "url": "https://www.ndtvprofit.com/technology/congrats-musk-reacts-as-new-apple-ceo-john-ternus-joins-x-on-day-of-taking-charge-11988841#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/vde4t91c_ternus-musk_625x300_01_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:36:43+05:30",
-      "category": "Markets",
-      "summary": "Ternus took over from the CEO role from Tim Cook on Sept. 1, 2026,ending his 15-year tenure heading the company."
-    },
-    {
-      "title": "Shahid Afridi Slams Pakistan Cricket's 'Most Shocking Decision' After England Defeats",
-      "excerpt": "Shahid Afridi and other former Pakistan cricketers have criticised the PCB's sweeping mid-series squad and coaching overhaul ahead of the final England Test.",
-      "url": "https://www.ndtvprofit.com/sports/shahid-afridi-slams-pakistan-crickets-most-shocking-decision-after-england-defeats-11988571#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/o2hqkigc_shahid-afridi_625x300_01_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:33:04+05:30",
-      "category": "Markets",
-      "summary": "Shahid Afridi and other former Pakistan cricketers have criticised the PCB's sweeping mid-series squad and coaching overhaul ahead of the final England Test."
-    },
-    {
-      "title": "Fed Bets Strong? US Manufacturing Growth Cools, But Supply Pressures Put Team Warsh In Tight Spot",
-      "excerpt": "US manufacturing growth slowed in August, but persistent cost and supply pressures are keeping inflation concerns alive. The ISM manufacturing PMI fell to 54.6, while prices paid remained elevated at 71.1.",
-      "url": "https://www.ndtvprofit.com/economy/fed-bets-strong-us-manufacturing-growth-cools-but-supply-pressures-put-team-warsh-in-tight-spot-11988642#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/tddcsa3s_fed-bets-strong-us-manufacturing-growth-cools-but-supply-pressures-put-team-warsh-in-tight-spot_625x300_01_September_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:25:01+05:30",
-      "category": "Markets",
-      "summary": "US manufacturing growth slowed in August, but persistent cost and supply pressures are keeping inflation concerns alive. The ISM manufacturing PMI fell to 54.6, while prices paid remained elevated at 71.1."
-    },
-    {
-      "title": "Saudi Arabia Draws $12 Billion In Orders For Dollar Sukuk Amid Iran War",
-      "excerpt": "Strong demand for Saudi Arabia's new dollar sukuk comes as the kingdom faces economic strain from the Iran war and disruption to oil trade through Hormuz.",
-      "url": "https://www.ndtvprofit.com/markets/saudi-arabia-draws-12-billion-in-orders-for-dollar-sukuk-amid-iran-war-11988796#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/hnlf21d4_saudi_625x300_01_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-01T22:24:44+05:30",
-      "category": "Markets",
-      "summary": "Strong demand for Saudi Arabia's new dollar sukuk comes as the kingdom faces economic strain from the Iran war and disruption to oil trade through Hormuz."
     }
   ]
 }
