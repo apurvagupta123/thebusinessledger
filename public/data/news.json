@@ -1,7 +1,27 @@
 {
-  "lastUpdated": "2026-09-05T02:27:05+05:30",
+  "lastUpdated": "2026-09-05T04:27:57+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Dollar Posts Weekly Loss as Yen Jumps Amid Shifting Rate Bets",
+      "excerpt": "The dollar slid to start September as mixed signals on the Federal Reserve’s next move kept traders on edge ahead of a pivotal inflation report, while a surging yen reverberated across global currency markets.",
+      "url": "https://www.livemint.com/market/dollar-posts-weekly-loss-as-yen-jumps-amid-shifting-rate-bets-11788559180077.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-09-05T03:29:39+05:30",
+      "category": "Markets",
+      "summary": "The dollar slid to start September as mixed signals on the Federal Reserve’s next move kept traders on edge ahead of a pivotal inflation report, while a surging yen reverberated across global currency markets."
+    },
+    {
+      "title": "TSX declines after US jobs data fuels rate-hike bets",
+      "excerpt": "CANADA-STOCKS/ (UPDATE 1):CANADA STOCKS-TSX declines after US jobs data fuels rate-hike bets",
+      "url": "https://www.livemint.com/market/tsx-declines-after-us-jobs-data-fuels-rate-hike-bets-11788555277664.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-09-05T02:24:37+05:30",
+      "category": "Markets",
+      "summary": "CANADA-STOCKS/ (UPDATE 1):CANADA STOCKS-TSX declines after US jobs data fuels rate-hike bets"
+    },
     {
       "title": "Cattle futures fall ahead of long holiday weekend",
       "excerpt": "USA-LIVESTOCK/:LIVESTOCK-Cattle futures fall ahead of long holiday weekend",
@@ -231,26 +251,6 @@
       "publishedAt": "2026-09-04T22:26:51+05:30",
       "category": "Markets",
       "summary": "The latest report didn't suggest the labor market is adding to price pressures, however, and analysts continue to expect the next Fed rate decision will hinge on inflation data due next week."
-    },
-    {
-      "title": "Job Growth In US Manufacturing, Construction Outshines Services",
-      "excerpt": "The increase in manufacturing employment over the last three months alone, at 43,000, was the strongest since the end of 2022.",
-      "url": "https://www.ndtvprofit.com/economy/job-growth-in-us-manufacturing-construction-outshines-services-12003580#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/i8vq609k_bb_625x300_04_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-04T22:15:28+05:30",
-      "category": "Markets",
-      "summary": "The increase in manufacturing employment over the last three months alone, at 43,000, was the strongest since the end of 2022."
-    },
-    {
-      "title": "Sean 'Diddy' Combs' Prison Release Date Moved Up Again? Here's What What Reports Say",
-      "excerpt": "Sean “Diddy” Combs’ projected release date has moved to February 5, 2028. He is serving a 50-month sentence after being convicted on two prostitution-related counts and acquitted of racketeering and sex trafficking charg",
-      "url": "https://www.ndtvprofit.com/world/sean-diddy-combs-prison-release-date-moved-up-again-heres-what-what-reports-say-12000501#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/ubms8l_sean_625x300_04_September_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-04T22:06:12+05:30",
-      "category": "Markets",
-      "summary": "Sean “Diddy” Combs’ projected release date has moved to February 5, 2028. He is serving a 50-month sentence after being convicted on two prostitution-related counts and acquitted of racketeering and sex trafficking charg"
     }
   ]
 }
