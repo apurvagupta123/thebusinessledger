@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-09-09T00:25:15+05:30",
+  "lastUpdated": "2026-09-09T03:12:45+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Yen holds near seven-month high as US dollar steadies",
+      "excerpt": "GLOBAL-FOREX/ (UPDATE 2):FOREX-Yen holds near seven-month high as US dollar steadies",
+      "url": "https://www.livemint.com/market/yen-holds-near-seven-month-high-as-us-dollar-steadies-11788897469720.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-09-09T01:27:49+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-FOREX/ (UPDATE 2):FOREX-Yen holds near seven-month high as US dollar steadies"
+    },
+    {
+      "title": "Bessent’s ‘Fever’",
+      "excerpt": "Treasury Secretary Scott Bessent is set to reveal how far he’s initially willing to go restrain US bond yields via an expanded buyback program that has Wall Street dealers on edge.",
+      "url": "https://www.livemint.com/market/bessents-fever-quelling-debt-buybacks-put-wall-street-on-edge-11788896431944.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-09-09T01:10:31+05:30",
+      "category": "Markets",
+      "summary": "Treasury Secretary Scott Bessent is set to reveal how far he’s initially willing to go restrain US bond yields via an expanded buyback program that has Wall Street dealers on edge."
+    },
+    {
+      "title": "The Credit Hazard Lurking in Your Retirement Funds",
+      "excerpt": "The growing list of US credit busts, from subprime auto lender Tricolor Holdings to Broadband Telecom Inc., raises a troubling question: If such “cockroaches” proliferate — if many more enterprises collapse under the wei",
+      "url": "https://www.livemint.com/market/the-credit-hazard-lurking-in-your-retirement-funds-11788896246258.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-09-09T01:07:25+05:30",
+      "category": "Markets",
+      "summary": "The growing list of US credit busts, from subprime auto lender Tricolor Holdings to Broadband Telecom Inc., raises a troubling question: If such “cockroaches” proliferate — if many more enterprises collapse under the wei"
+    },
+    {
+      "title": "Yields edge up as traders await inflation data",
+      "excerpt": "USA-BONDS/ (UPDATE 1):TREASURIES-Yields edge up as traders await inflation data",
+      "url": "https://www.livemint.com/market/yields-edge-up-as-traders-await-inflation-data-11788893930055.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-09-09T00:28:49+05:30",
+      "category": "Markets",
+      "summary": "USA-BONDS/ (UPDATE 1):TREASURIES-Yields edge up as traders await inflation data"
+    },
     {
       "title": "Top stocks in focus today: Investors must watch Innovision, TCS, Bank of Baroda shares on Wed, 9 Sept | Triggers",
       "excerpt": "On September 9, Indian investors will focus on companies like NLC India, HMA Agro, and Tata Communications following key corporate developments.",
@@ -11,6 +51,96 @@
       "publishedAt": "2026-09-09T00:00:19+05:30",
       "category": "Markets",
       "summary": "On September 9, Indian investors will focus on companies like NLC India, HMA Agro, and Tata Communications following key corporate developments."
+    },
+    {
+      "title": "Trade Setup For Sept 9: Selloff To Worsen If Nifty Support Of 23,600 Breached, Analysts Warn",
+      "excerpt": "GIFT Nifty trades 0.06% lower at 23,699, indicating a possible negative start to the Indian equities as all US indices were trading lower on Tuesday as oil prices rallied.",
+      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-sept-9-selloff-to-worsen-if-nifty-support-of-23-600-breached-analysts-warn-12020088#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/2k979pqc_bb_625x300_01_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:38:11+05:30",
+      "category": "Markets",
+      "summary": "GIFT Nifty trades 0.06% lower at 23,699, indicating a possible negative start to the Indian equities as all US indices were trading lower on Tuesday as oil prices rallied."
+    },
+    {
+      "title": "Starlink, Jio Satcom, Eutelsat OneWeb Near India Launch; Govt Approves 5",
+      "excerpt": "Government clears TRAI's satellite spectrum framework, paving the way for Starlink, Eutelsat OneWeb and Jio Satcom to offer broadband services in India.",
+      "url": "https://www.ndtvprofit.com/business/starlink-jio-eutelsat-oneweb-near-india-launch-govt-approves-5-year-spectrum-allocation-12017826#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/735c4839_photo-satellite-orbiting-earth-with-city-lights-visible_763111-317506.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:32:29+05:30",
+      "category": "Markets",
+      "summary": "Government clears TRAI's satellite spectrum framework, paving the way for Starlink, Eutelsat OneWeb and Jio Satcom to offer broadband services in India."
+    },
+    {
+      "title": "BCCI Bags Rs 130 Crore Deal, With ChatGPT Among New Indian Cricket Partners",
+      "excerpt": "The BCCI's new partnerships with Campa, SBI Life and ChatGPT are valued at over Rs 130 crore, marking a 44% rise from the previous cycle.",
+      "url": "https://www.ndtvprofit.com/sports/bcci-bags-rs-130-crore-deal-with-chatgpt-among-new-indian-cricket-partners-12020056#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/r5coe464_cricket_625x300_27_January_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:26:38+05:30",
+      "category": "Markets",
+      "summary": "The BCCI's new partnerships with Campa, SBI Life and ChatGPT are valued at over Rs 130 crore, marking a 44% rise from the previous cycle."
+    },
+    {
+      "title": "$2.8 Million Salary: Singapore PM's Pay Dwarfs Global Counterparts Even Before Million",
+      "excerpt": "Wong currently receives an annual salary of S$2.2m and will now see his pay go up by more than 60% to S$3.6m ($2.8m).",
+      "url": "https://www.ndtvprofit.com/world/2-8-million-salary-singapore-pm-s-pay-dwarfs-global-counterparts-even-before-million-dollar-hike-12019941#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/pqiituq4_singapore-pm_625x300_08_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:25:48+05:30",
+      "category": "Markets",
+      "summary": "Wong currently receives an annual salary of S$2.2m and will now see his pay go up by more than 60% to S$3.6m ($2.8m)."
+    },
+    {
+      "title": "Ranveer Singh Celebrates Daughter Dua's Birthday With Unseen Photos Of Deepika's Pregnancy",
+      "excerpt": "Deepika Padukone and Ranveer Singh's journey into parenthood was captured in rare pictures shared by the actor on daughter Dua's birthday.",
+      "url": "https://www.ndtvprofit.com/lifestyle/ranveer-singh-celebrates-daughter-duas-birthday-with-unseen-photos-of-deepikas-pregnancy-12020000#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/d0et4qbk_ranveersinghdeepikapadukoneduabirthday_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:12:20+05:30",
+      "category": "Markets",
+      "summary": "Deepika Padukone and Ranveer Singh's journey into parenthood was captured in rare pictures shared by the actor on daughter Dua's birthday."
+    },
+    {
+      "title": "'News To Me As Well': Babar Azam Breaks Silence On PCB's Shock Mid",
+      "excerpt": "Mohammad Rizwan, Imam-ul-Haq and Salman Ali Agha are among seven players sent home after Pakistan’s heavy defeats in the first two Tests.",
+      "url": "https://www.ndtvprofit.com/sports/news-to-me-as-well-babar-azam-breaks-silence-on-pcb-s-shock-mid-series-sackings-12019931#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/54h80p2o_babar-azam_625x300_08_September_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:12:15+05:30",
+      "category": "Markets",
+      "summary": "Mohammad Rizwan, Imam-ul-Haq and Salman Ali Agha are among seven players sent home after Pakistan’s heavy defeats in the first two Tests."
+    },
+    {
+      "title": "NALCO Taps Emirates Global Aluminium To Provide Tech For Major Smelter Expansion",
+      "excerpt": "The Emirati firm will train NALCO staff to use the technology created in the UAE and offer technical assistance throughout the project.",
+      "url": "https://www.ndtvprofit.com/business/nalco-taps-emirates-global-aluminium-to-provide-tech-for-major-smelter-expansion-12019850#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/912d3887_Aluminium_cold_rolled_sheets_at_NALCO_Ltd___Image_Company_website_.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:06:27+05:30",
+      "category": "Markets",
+      "summary": "The Emirati firm will train NALCO staff to use the technology created in the UAE and offer technical assistance throughout the project."
+    },
+    {
+      "title": "Apple Watch Could Soon Track Every Set, Rep And Weight In Your Workout",
+      "excerpt": "A watchOS 27 leak suggests Apple's Workout app could add detailed strength training data, including individual sets, reps, weights and equipment.",
+      "url": "https://www.ndtvprofit.com/technology/watchos-27-apple-watch-could-soon-track-every-set-rep-and-weight-in-your-workout-12019791#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/vcjlsss8_apple-watch_625x300_08_September_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:06:14+05:30",
+      "category": "Markets",
+      "summary": "A watchOS 27 leak suggests Apple's Workout app could add detailed strength training data, including individual sets, reps, weights and equipment."
+    },
+    {
+      "title": "Buy, Sell Or Hold: HUL, Bharat Forge, Hindustan Copper, BEML And Polycab India — Ask Profit",
+      "excerpt": "Market experts shared their insights on fundamentals and technical levels for key stocks such as Bharat Forge, Polycab India, Hindustan Unilever and Hindustan Copper.",
+      "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-hul-bharat-forge-hindustan-copper-beml-and-polycab-india-ask-profit-12020029#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/uccfillo_buy-sell-hold-sept-8_625x300_08_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T23:04:34+05:30",
+      "category": "Markets",
+      "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks such as Bharat Forge, Polycab India, Hindustan Unilever and Hindustan Copper."
     },
     {
       "title": "How Apple shares will fare amid iPhone 18 launch event — all eyes on stock and foldable Ultra",
@@ -23,14 +153,54 @@
       "summary": "Apple shares dropped 1.3% to $315 ahead of an event where the company will unveil its first foldable phone and new iPhone models. Analysts anticipate significant interest in the foldable device, which marks a major desig"
     },
     {
-      "title": "The search for durable capital",
-      "excerpt": "The search for durable capital Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNmpsMDZCZjZMZnNPc2YwQ1NRMElyVjBRdXNwbERBbXpZZndNT1ZOQ2NvdllqbVJmb29VdUZFSGJkX0JKM1lQWmk3UEYzZXo5Umd3U29INS11T1dPaEJyUnpWRm5LOTFWYm5XYnFocGEtSTJVU0hzTkdxeXBLY0hvWWppY1RyU3VNOEU0dlVaZWV6WGF4LU9GaHJXcXR1Tm5ORDVNUlVfMNIBpwFBVV95cUxQNmpsMDZCZjZMZnNPc2YwQ1NRMElyVjBRdXNwbERBbXpZZndNT1ZOQ2NvdllqbVJmb29VdUZFSGJkX0JKM1lQWmk3UEYzZXo5Umd3U29INS11T1dPaEJyUnpWRm5LOTFWYm5XYnFocGEtSTJVU0hzTkdxeXBLY0hvWWppY1RyU3VNOEU0dlVaZWV6WGF4LU9GaHJXcXR1Tm5ORDVNUlVfMA?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-09-08T22:17:12+05:30",
-      "category": "Economy",
-      "summary": "The search for durable capital Business Standard"
+      "title": "Artificial Trailer Out: Andrew Garfield Plays OpenAI CEO Sam Altman In AI Biopic — Cast, Plot And Release Date",
+      "excerpt": "Artificial explores OpenAI's dramatic five-day leadership crisis, with Andrew Garfield portraying Sam Altman and Luca Guadagnino directing the film.",
+      "url": "https://www.ndtvprofit.com/lifestyle/artificial-trailer-out-andrew-garfield-plays-openai-ceo-sam-altman-in-luca-guadagninos-ai-biopic-cast-plot-and-release-date-12019784#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/2tee79j4_artificialandrewgarfieldsamaltman_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T22:57:43+05:30",
+      "category": "Markets",
+      "summary": "Artificial explores OpenAI's dramatic five-day leadership crisis, with Andrew Garfield portraying Sam Altman and Luca Guadagnino directing the film."
+    },
+    {
+      "title": "'There Can Be No Compromise': Wasim Akram Flags Concern Over Jailed Ex",
+      "excerpt": "Former Pakistan captain Wasim Akram joins Javed Miandad, Moin Khan and Ramiz Raja in publicly raising concerns over Imran Khan's condition.",
+      "url": "https://www.ndtvprofit.com/sports/pakistan-cricket-wasim-akram-raises-concern-over-imran-khans-situation-says-no-compromise-on-his-health-12019721#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/0lkf57hs_imran-khan_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T22:50:20+05:30",
+      "category": "Markets",
+      "summary": "Former Pakistan captain Wasim Akram joins Javed Miandad, Moin Khan and Ramiz Raja in publicly raising concerns over Imran Khan's condition."
+    },
+    {
+      "title": "UK-Israel Tensions Escalate; Netanyahu Orders Shutting British Consulate In Jerusalem",
+      "excerpt": "Israel will also bar 11 British lawmakers from entering the country, including MPs Zarah Sultana, Jeremy Corbyn and Diane Abbott.",
+      "url": "https://www.ndtvprofit.com/world/uk-israel-tensions-escalate-netanyahu-orders-shutting-british-consulate-in-jerusalem-12019890#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/c6c6a902_Screenshot-2024-11-23-1.10.49-PM.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T22:46:48+05:30",
+      "category": "Markets",
+      "summary": "Israel will also bar 11 British lawmakers from entering the country, including MPs Zarah Sultana, Jeremy Corbyn and Diane Abbott."
+    },
+    {
+      "title": "UP, Bihar Next On Bullet Train Map: Check Travel Times For Lucknow, Varanasi, And Patna",
+      "excerpt": "Bullet train corridor could slash travel times between Delhi and major cities in Uttar Pradesh and Bihar, with Delhi-Agra taking just 58 minutes and Delhi-Patna around 4.5 hours.",
+      "url": "https://www.ndtvprofit.com/india/up-bihar-next-on-bullet-train-map-check-travel-times-for-lucknow-varanasi-and-patna-12019785#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/lg0fc7ec_bullet-train-india-delhiagra-in-58-minutes-lucknow-in-2-hours-and-patna-in-45-hours_625x300_08_September_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T22:35:16+05:30",
+      "category": "Markets",
+      "summary": "Bullet train corridor could slash travel times between Delhi and major cities in Uttar Pradesh and Bihar, with Delhi-Agra taking just 58 minutes and Delhi-Patna around 4.5 hours."
+    },
+    {
+      "title": "Thinnest iPhone Ever? Five Key Things Speculated About Apple's 'Passport",
+      "excerpt": "Apple's rumoured foldable could bring a book-style design, 7.8-inch display, A20 Pro chip and iOS 27 features designed for multitasking.",
+      "url": "https://www.ndtvprofit.com/technology/thinnest-iphone-ever-five-key-things-speculated-about-apples-passport-sized-foldable-12019634#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/taok4i38_foldable-iphone-ultra_625x300_08_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T22:30:34+05:30",
+      "category": "Markets",
+      "summary": "Apple's rumoured foldable could bring a book-style design, 7.8-inch display, A20 Pro chip and iOS 27 features designed for multitasking."
     },
     {
       "title": "UK Air Traffic Chaos: 425 Flights Cancelled Due To ATC Failure; London, Manchester Airports Worst Hit",
@@ -38,9 +208,39 @@
       "url": "https://www.ndtvprofit.com/world/uk-air-traffic-chaos-425-flights-cancelled-due-to-atc-failure-london-manchester-airports-worst-hit-12019769#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-05/5jrruasc_airplane_625x300_25_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T22:07:42+05:30",
+      "publishedAt": "2026-09-08T22:26:25+05:30",
       "category": "Markets",
       "summary": "A technical failure in NATS' flight processing system disrupted UK air travel, with airlines cancelling 425 flights as operations slowly recover."
+    },
+    {
+      "title": "'Was Easy Business': Canada To Look Beyond US As Trump's Trade War Sours Ties",
+      "excerpt": "The Canadian Prime Minister warned the \"harsh reality\" of the US tariffs will hurt some Canadians more than others \"by design.\"",
+      "url": "https://www.ndtvprofit.com/economy/was-easy-business-canada-to-look-beyond-us-as-trumps-trade-war-sours-ties-12019851#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/ua296n9c_donald-trump-mark-carney-afp_625x300_25_August_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T22:23:36+05:30",
+      "category": "Markets",
+      "summary": "The Canadian Prime Minister warned the \"harsh reality\" of the US tariffs will hurt some Canadians more than others \"by design.\""
+    },
+    {
+      "title": "Sony Announces Official Title For The Legend Of Zelda Movie: Check Details, Release Date And More",
+      "excerpt": "The high fantasy action adventure franchise follows Link, a young boy who forms an alliance with the Princess Zelda to save the land of Hyrule.",
+      "url": "https://www.ndtvprofit.com/lifestyle/sony-announces-official-title-for-the-legend-of-zelda-movie-check-details-release-date-and-more-12019806#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/8morq84k_zelda-_625x300_08_September_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-08T22:19:35+05:30",
+      "category": "Markets",
+      "summary": "The high fantasy action adventure franchise follows Link, a young boy who forms an alliance with the Princess Zelda to save the land of Hyrule."
+    },
+    {
+      "title": "The search for durable capital - business-standard.com",
+      "excerpt": "The search for durable capital business-standard.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNmpsMDZCZjZMZnNPc2YwQ1NRMElyVjBRdXNwbERBbXpZZndNT1ZOQ2NvdllqbVJmb29VdUZFSGJkX0JKM1lQWmk3UEYzZXo5Umd3U29INS11T1dPaEJyUnpWRm5LOTFWYm5XYnFocGEtSTJVU0hzTkdxeXBLY0hvWWppY1RyU3VNOEU0dlVaZWV6WGF4LU9GaHJXcXR1Tm5ORDVNUlVfMNIBpwFBVV95cUxQNmpsMDZCZjZMZnNPc2YwQ1NRMElyVjBRdXNwbERBbXpZZndNT1ZOQ2NvdllqbVJmb29VdUZFSGJkX0JKM1lQWmk3UEYzZXo5Umd3U29INS11T1dPaEJyUnpWRm5LOTFWYm5XYnFocGEtSTJVU0hzTkdxeXBLY0hvWWppY1RyU3VNOEU0dlVaZWV6WGF4LU9GaHJXcXR1Tm5ORDVNUlVfMA?oc=5",
+      "source": "business-standard.com",
+      "image": null,
+      "publishedAt": "2026-09-08T22:17:12+05:30",
+      "category": "Economy",
+      "summary": "The search for durable capital Business Standard"
     },
     {
       "title": "Real Madrid vs Inter Milan Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
@@ -51,206 +251,6 @@
       "publishedAt": "2026-09-08T22:00:01+05:30",
       "category": "Markets",
       "summary": "The Real Madrid vs Inter Milan match is scheduled to begin at 12:30 a.m. Indian Standard Time on Wednesday."
-    },
-    {
-      "title": "'Iron Dome Wouldn't Matter If China Wins AI': Bessent Sounds Alarm On Tech Race",
-      "excerpt": "Bessent warns US defence could lose its edge if China pulls ahead in AI, saying Washington cannot afford to slow down the technology race.",
-      "url": "https://www.ndtvprofit.com/world/iron-dome-wouldnt-matter-if-china-wins-ai-bessent-sounds-alarm-on-tech-race-12019526#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/ote5qmlo_scott-bessent-on-x_625x300_25_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:54:50+05:30",
-      "category": "Markets",
-      "summary": "Bessent warns US defence could lose its edge if China pulls ahead in AI, saying Washington cannot afford to slow down the technology race."
-    },
-    {
-      "title": "UAE President Warned Netanyahu Of Hamas Attack Days Before Oct 7, Report Claims",
-      "excerpt": "Netanyahu responded relatively calmly during the conversation and told the UAE president that Israel was prepared for any scenario, according to the report.",
-      "url": "https://www.ndtvprofit.com/world/uae-president-warned-israeli-prime-minister-benjamin-netanyahu-of-hamas-attack-days-before-oct-7-report-claims-12019650#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/1slo8bu_netanyahu_625x300_16_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:50:00+05:30",
-      "category": "Markets",
-      "summary": "Netanyahu responded relatively calmly during the conversation and told the UAE president that Israel was prepared for any scenario, according to the report."
-    },
-    {
-      "title": "GFF 2026: Fintech helping bridge MSME credit gap, drive financial inclusion, says RBI Governor",
-      "excerpt": "GFF 2026: Fintech helping bridge MSME credit gap, drive financial inclusion, says RBI Governor Fortune India",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbVZKQi1QUmk3REZTMi1VYkNKSDVOT2RkejFjdjlmcjNIX1JOak4zMEFJUFJkMGZqaHRfSEZ5OEtYS0haZERpQndDZUlXMS1jUHJON0I5d3hMakNaSmNEMU96b3FzTGVMZW1zampUWWVrN25Gelc0YndZX3NIa1huYkRWbjFYUVJFanFQVWVPcUlUN3FfQzEwU3R5eEtuX1JnQ3o3TFI0Rm9VZmw3TnhNZjE2Rld6cGlqMTFMeXZKa29Ea3NfaFBGVHY5WUlKSmln0gHeAUFVX3lxTE9XRGhVbERaQ0JvVWJ3dHpuOG5QZXJ2ODhmd0lMT24zRGR2OXNrSGpxdXp6eWtKbFBCX2h5MmJiMmU2enRuZE1OZnJ6TUFmbUhPSnJtSlRoMElUYVh4dFhCUmNhNjZZWGVnN1c4SUlmYkVzMlAySE16UGZjOUFVR2IwcUxIbXNQQ2w0QzJHVU81WHZHemk3dU1aNnBoaXR2bC1IZEloMVFtOGFaLVVfdl9FdzI1dmxpMV9ucEs2OGUycjNUSDlHTGNwX1piOG93LWgzRUtQS0F6YnhvWUdxZw?oc=5",
-      "source": "Fortune India",
-      "image": null,
-      "publishedAt": "2026-09-08T21:47:56+05:30",
-      "category": "Economy",
-      "summary": "GFF 2026: Fintech helping bridge MSME credit gap, drive financial inclusion, says RBI Governor Fortune India"
-    },
-    {
-      "title": "Ballon d’Or 2026: Who Made The Cut? Check Full List Of Nominees",
-      "excerpt": "The men's shortlist features several of the biggest names in world football, including Lionel Messi, Harry Kane, Kylian Mbappe, Lamine Yamal, Erling Haaland, Ousmane Dembele, Vinicius Junior, Mohamed Salah and Rodri.",
-      "url": "https://www.ndtvprofit.com/sports/football-ballon-d-or-2026-awards-who-made-the-cut-check-full-list-of-nominees-12019493#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/j7encn9c_dembele_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:42:00+05:30",
-      "category": "Markets",
-      "summary": "The men's shortlist features several of the biggest names in world football, including Lionel Messi, Harry Kane, Kylian Mbappe, Lamine Yamal, Erling Haaland, Ousmane Dembele, Vinicius Junior, Mohamed Salah and Rodri."
-    },
-    {
-      "title": "Qualcomm stock jumps 9% on AI chip deal with Amazon, hits 2-month high",
-      "excerpt": "Qualcomm's shares rose nearly 9% after announcing a deal with Amazon for customised data centre chips. The agreement allows Amazon to acquire up to $4 billion in Qualcomm shares, supporting the development of AI infrastr",
-      "url": "https://www.livemint.com/market/stock-market-news/qualcomm-stock-jumps-9-on-ai-chip-deal-with-amazon-hits-2-month-high-11788882415437.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/08/1600x900/logo/QUALCOMM-RESULTS--0_1771325741135_1771325749555_1788882473258_cb0b6f6d-71e8-45be-a66a-4b46da25f045_c541116b-8443-4ab9-8305-c403a5ccf243_7057e23b-d361-4b38-a352-5dbc5ceda545.JPG",
-      "publishedAt": "2026-09-08T21:39:37+05:30",
-      "category": "Markets",
-      "summary": "Qualcomm's shares rose nearly 9% after announcing a deal with Amazon for customised data centre chips. The agreement allows Amazon to acquire up to $4 billion in Qualcomm shares, supporting the development of AI infrastr"
-    },
-    {
-      "title": "Apple Event 2026: 10 Biggest iPhone 18 Pro Upgrades Expected To Be Announced",
-      "excerpt": "Reports point to major iPhone 18 Pro upgrades, including the A20 chip, camera improvements, better battery life, a new modem and display changes.",
-      "url": "https://www.ndtvprofit.com/technology/apple-event-2026-10-biggest-iphone-18-pro-upgrades-expected-to-be-announced-12018980#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/kns57juo_iphone-18-pro-_625x300_18_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:38:06+05:30",
-      "category": "Markets",
-      "summary": "Reports point to major iPhone 18 Pro upgrades, including the A20 chip, camera improvements, better battery life, a new modem and display changes."
-    },
-    {
-      "title": "Godzilla Minus Zero Trailer Out: Check Cast, Plot, Release Date And More",
-      "excerpt": "Godzilla Minus Zero trailer is out, teasing Godzilla’s return, a new plan to stop the monster, and a fresh crisis for the Shikishima family.",
-      "url": "https://www.ndtvprofit.com/lifestyle/entertainment-cinema-godzilla-minus-zero-trailer-out-check-cast-plot-release-date-and-more-12019433#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/dk7df4k_godzillaminuszerocastcrewjpg_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:32:04+05:30",
-      "category": "Markets",
-      "summary": "Godzilla Minus Zero trailer is out, teasing Godzilla’s return, a new plan to stop the monster, and a fresh crisis for the Shikishima family."
-    },
-    {
-      "title": "RBI Governor At GFF 2026: Fintech Took Banking From Branches To Citizens' Hands",
-      "excerpt": "While encouraging fintech growth, Malhotra stressed that innovation must remain linked to trust, safety and consumer protection.",
-      "url": "https://www.ndtvprofit.com/economy/rbi-governor-at-gff-2026-fintech-took-banking-from-branches-to-citizens-hands-12019389#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/0v4h48h_sanjay-malhotra_625x300_08_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:21:26+05:30",
-      "category": "Markets",
-      "summary": "While encouraging fintech growth, Malhotra stressed that innovation must remain linked to trust, safety and consumer protection."
-    },
-    {
-      "title": "Apple's $2,000",
-      "excerpt": "The project will reach its defining moment on Wednesday, when Apple is poised to unveil its first foldable phone. The device represents the biggest single design change in the nearly 20-year life of the iPhone, which acc",
-      "url": "https://www.ndtvprofit.com/technology/apples-2-000-plus-foldable-iphone-was-a-decade-in-the-making-12019542#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/unqp7ruc_bb_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:19:30+05:30",
-      "category": "Markets",
-      "summary": "The project will reach its defining moment on Wednesday, when Apple is poised to unveil its first foldable phone. The device represents the biggest single design change in the nearly 20-year life of the iPhone, which acc"
-    },
-    {
-      "title": "BRICS Summit: Delhi Luxury Hotels Face Room Crunch, Tariffs Surge Around Event Dates",
-      "excerpt": "Rooms available for September 10-13 at properties such as the ITC Maurya, New Delhi, were commanding exceptionally high tariffs, with the starting price for night accommodation running into over Rs 2.3 lakh.",
-      "url": "https://www.ndtvprofit.com/business/brics-summit-delhi-luxury-hotels-face-room-crunch-tariffs-surge-around-event-dates-12019489#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/kltkk288_bb_625x300_08_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:10:56+05:30",
-      "category": "Markets",
-      "summary": "Rooms available for September 10-13 at properties such as the ITC Maurya, New Delhi, were commanding exceptionally high tariffs, with the starting price for night accommodation running into over Rs 2.3 lakh."
-    },
-    {
-      "title": "Kospi Effect: SK Hynix ADRs Soar 6% Even As Micron Stays Muted",
-      "excerpt": "SK Hynix's strong Kospi rally is spilling into US trading, sending its ADRs up 6%, while Micron and other chip stocks remain relatively muted.",
-      "url": "https://www.ndtvprofit.com/markets/kospi-effect-sk-hynix-adrs-soar-6-even-as-micron-stays-muted-12019309#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/eoj2f3t8_sk-hynix-will-invest-381-billion-to-expand-hbm-dram-and-nand-capacity-in-south-korea_625x300_07_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:08:30+05:30",
-      "category": "Markets",
-      "summary": "SK Hynix's strong Kospi rally is spilling into US trading, sending its ADRs up 6%, while Micron and other chip stocks remain relatively muted."
-    },
-    {
-      "title": "India's reform express will move forward at an even faster pace: PM Modi",
-      "excerpt": "India's reform express will move forward at an even faster pace: PM Modi Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZHBjTVVXZjhpa29OaGVCNi0tY3JqUzUycEU4NWJuTkdOeXYxN1RBSFVjN0xoR0ZMQnBOUG9XdzBsOUs1Y0s1OHVMWHFQVllWc3hiR1k5TFpldVpLeGptMmN5bEZRcUlxNzJjUTlhY09tUGlxNkZPbThkZkttUUdqSUNnRkkyOVBTQXRIdGd5bjNkZ1VtZHVOeUVySlZkQXh4VHZVbUVWczFPUWVKSHZJV0JDZVZjckxrSFdfR1lEOFYwV2hyTG5XZW9pYXRuZlAteDBCNtIB2gFBVV95cUxNcDhjbTdHWTlNRkU3SlFrblh2b1pvd2Frc3lIQVdtYVdLS09xdk5XaEdLWGZSam5FZkJyM2g4OTZib29KSTlSa2FITHNFdTIwWi1CSVhHaXZjd0pqNE1WUGg5VEJzOHhoOVZSdXpfeGo1WlZUa2lZNUI4ZkRKa3hFOWhqQXM5Tl9YOS15OWt0T3Z2MjB1R0Y1RFRtSlhCdU5oMUNVRFJPcUVEMWZzSDJKdUdZeEpMR3pTdFJIQTM0V0xRZXljS2lIN0FuVzdON1B6eTJzaEtTRVF2Zw?oc=5",
-      "source": "Business Standard",
-      "image": null,
-      "publishedAt": "2026-09-08T21:08:05+05:30",
-      "category": "Economy",
-      "summary": "India's reform express will move forward at an even faster pace: PM Modi Business Standard"
-    },
-    {
-      "title": "Intel Shares Zoom Over 8% On Reports Of PC CPU Price Hike Next Month",
-      "excerpt": "Intel's planned CPU price increase, analyst upgrade and foundry milestones fuel investor optimism, lifting the chipmaker's shares despite a weak broader market.",
-      "url": "https://www.ndtvprofit.com/markets/intel-shares-zoom-8-on-reports-of-pc-cpu-price-hike-next-month-12019418#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-06/dtg8e83g_intel_625x300_08_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:03:31+05:30",
-      "category": "Markets",
-      "summary": "Intel's planned CPU price increase, analyst upgrade and foundry milestones fuel investor optimism, lifting the chipmaker's shares despite a weak broader market."
-    },
-    {
-      "title": "Rupee suffers biggest fall in nearly 2 months as Brent nears $100",
-      "excerpt": "Rupee suffers biggest fall in nearly 2 months as Brent nears $100 Fortune India",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd3NPUTh1NmdzOG40SjdVWVR1QmV0NkphaWRRWEZiUDNEZjV3VTdjX3Vra28tRmZibDFaSWtDN0VyTF84NkxhT2tWZ0hYNnVLUnI2Zlo1Tjc2OG4xTkJfelhnQzYzTjJTS04wYjYzVlBEYnJLMWxmS3E4bWxyb1ZoQ3RIYlBqUVZOTmI2TXJPVHVDSmJ2TnVfbTQ3RUwzYVBUZWZDSENvOWxTaEczemtxUTVzc3lTMkNYcHfSAboBQVVfeXFMTXdzT1E4dTZnczhuNEo3VVlUdUJldDZKYWlkUVhGYlAzRGY1d1U3Y191a2tvLUZmYmwxWklrQzdFckxfODZMYU9rVmdIWDZ1S1JyNmZaNU43NjhuMU5CX3pYZ0M2M04yU0tOMGI2M1ZQRGJySzFsZktxOG1scm9WaEN0SGJQalFWTk5iNk1yT1R1Q0pidk51X200N0VMM2FQVGVmQ0hDbzlsU2hHM3prcVE1c3N5UzJDWHB3?oc=5",
-      "source": "Fortune India",
-      "image": null,
-      "publishedAt": "2026-09-08T21:00:59+05:30",
-      "category": "Economy",
-      "summary": "Rupee suffers biggest fall in nearly 2 months as Brent nears $100 Fortune India"
-    },
-    {
-      "title": "Flipkart Widens Lead Over Amazon In India As Quick Commerce Surges",
-      "excerpt": "The combined lead over Amazon, its closest horizontal e-commerce rival, has nearly doubled over the past four years, rising from about 9 percentage points in 2022 to 17 percentage points currently.",
-      "url": "https://www.ndtvprofit.com/business/flipkart-widens-lead-over-amazon-in-india-as-quick-commerce-surges-12019424#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/kd80u93k_flipkart_625x300_10_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T21:00:28+05:30",
-      "category": "Markets",
-      "summary": "The combined lead over Amazon, its closest horizontal e-commerce rival, has nearly doubled over the past four years, rising from about 9 percentage points in 2022 to 17 percentage points currently."
-    },
-    {
-      "title": "Bombardier Shares Tank 7% After Trump Threatens To Cut Canadian Jet Maker's US Market Access",
-      "excerpt": "Given that the US Federal Aviation Administration has cleared Bombardier private jets, it is unclear how Trump will prevent their delivery to American clients.",
-      "url": "https://www.ndtvprofit.com/markets/bombardier-shares-tank-7-after-trump-threatens-to-cut-canadian-jet-makers-us-market-access-12019352#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/60eo2ufo_bombardier_625x300_08_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T20:51:50+05:30",
-      "category": "Markets",
-      "summary": "Given that the US Federal Aviation Administration has cleared Bombardier private jets, it is unclear how Trump will prevent their delivery to American clients."
-    },
-    {
-      "title": "Pranav Constructions IPO Day 2: Check Subscription Status, GMP And Other Details",
-      "excerpt": "Price band for the IPO has been fixed between Rs 118 and Rs 124 per share. The lot size for an application is 120 shares.",
-      "url": "https://www.ndtvprofit.com/markets/pranav-constructions-ipo-day-2-check-subscription-status-gmp-and-other-details-12016117#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/14eafu2s_z_625x300_07_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T20:42:48+05:30",
-      "category": "Markets",
-      "summary": "Price band for the IPO has been fixed between Rs 118 and Rs 124 per share. The lot size for an application is 120 shares."
-    },
-    {
-      "title": "NCPCR Summons Meta India Head Over Ads Allegedly Promoting Child Sexual Abuse Material",
-      "excerpt": "The NCPCR inquiry comes alongside separate action by the National Human Rights Commission (NHRC).",
-      "url": "https://www.ndtvprofit.com/business/ncpcr-summons-meta-india-head-over-ads-allegedly-promoting-child-sexual-abuse-material-12019154#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/112m8qgk_meta_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T20:42:37+05:30",
-      "category": "Markets",
-      "summary": "The NCPCR inquiry comes alongside separate action by the National Human Rights Commission (NHRC)."
-    },
-    {
-      "title": "Prasol Chemicals IPO Day 1: Check Subscription Status, GMP, Other Key Details",
-      "excerpt": "Prasol Chemicals IPO was subscribed 24% as 12:30 pm on Tuesday. The price band for Prasol Chemicals IPO is set between Rs 643 and Rs 676 per share.",
-      "url": "https://www.ndtvprofit.com/markets/prasol-chemicals-ipo-day-1-mainboard-issue-opens-for-bidding-check-day-1-subscription-status-gmp-other-details-12016033#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/5nsjvveg_prasol-ipo_625x300_08_September_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T20:38:51+05:30",
-      "category": "Markets",
-      "summary": "Prasol Chemicals IPO was subscribed 24% as 12:30 pm on Tuesday. The price band for Prasol Chemicals IPO is set between Rs 643 and Rs 676 per share."
-    },
-    {
-      "title": "Hanuman Ansh Box Office Collection Day 33: Spiritual Drama Continues Strong Theatrical Run",
-      "excerpt": "On Day 33, Hanuman Ansh has earned Rs 7.51 crore from 6,322 shows so far, with 43% occupancy.",
-      "url": "https://www.ndtvprofit.com/business/hanuman-ansh-box-office-collection-day-33-spiritual-drama-continues-its-theatrical-run-in-fifth-week-12019156#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/94lijmqk_hanumananshday33boxofficecollection_625x300_08_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-08T20:33:50+05:30",
-      "category": "Markets",
-      "summary": "On Day 33, Hanuman Ansh has earned Rs 7.51 crore from 6,322 shows so far, with 43% occupancy."
     }
   ]
 }
