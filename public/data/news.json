@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-09-10T02:15:03+05:30",
+  "lastUpdated": "2026-09-10T04:35:32+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "AI",
+      "excerpt": "With the Labor Day holiday — and summer in the US — now officially over, the traditional push to the end of the year in the market for initial public offerings is on.",
+      "url": "https://www.livemint.com/market/aidriven-ipo-wave-set-to-accompany-anthropic-listing-11788992244915.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-09-10T03:47:24+05:30",
+      "category": "Markets",
+      "summary": "With the Labor Day holiday — and summer in the US — now officially over, the traditional push to the end of the year in the market for initial public offerings is on."
+    },
+    {
+      "title": "Australian Property Stocks Vulnerable Following Bathla Collapse",
+      "excerpt": "Australia’s property stocks are trailing global peers by the most in 16 years, and analysts worry it may get worse as the prospect of more rate hikes and the unraveling of a suburban developer intensify scrutiny in the s",
+      "url": "https://www.livemint.com/market/australian-property-stocks-vulnerable-following-bathla-collapse-11788990835062.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-09-10T03:23:54+05:30",
+      "category": "Markets",
+      "summary": "Australia’s property stocks are trailing global peers by the most in 16 years, and analysts worry it may get worse as the prospect of more rate hikes and the unraveling of a suburban developer intensify scrutiny in the s"
+    },
+    {
+      "title": "Copper Hits Fresh All",
+      "excerpt": "Copper climbed to a fresh record in London and New York as traders weighed persistent tariff fears and supply shortages against escalating hostilities in the Middle East that clouded demand outlook.",
+      "url": "https://www.livemint.com/market/copper-hits-fresh-all-time-highs-in-new-york-and-london-11788988488948.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-09-10T02:44:48+05:30",
+      "category": "Markets",
+      "summary": "Copper climbed to a fresh record in London and New York as traders weighed persistent tariff fears and supply shortages against escalating hostilities in the Middle East that clouded demand outlook."
+    },
     {
       "title": "Wall Street dips as $100 oil, inflation worries weigh on investors",
       "excerpt": "GLOBAL-MARKETS:Wall Street dips as $100 oil, inflation worries weigh on investors",
@@ -221,36 +251,6 @@
       "publishedAt": "2026-09-09T23:02:19+05:30",
       "category": "Markets",
       "summary": "Amazon is reviewing food safety findings after Karnataka officials found expired and mislabelled products at two Bengaluru facilities, as scrutiny also widens to Domino's and McDonald's."
-    },
-    {
-      "title": "Napoli vs Arsenal Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
-      "excerpt": "The Napoli vs Arsenal UEFA Champions League match will be played from 12:30 a.m. IST on Thursday.",
-      "url": "https://www.ndtvprofit.com/sports/club-football-uefa-champions-league-2026-27-napoli-vs-arsenal-live-streaming-telecast-date-time-lineups-where-to-watch-match-tv-online-india-12017617#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/ulldd6ec_napoli-vs-arsenal_625x300_08_September_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-09T23:00:01+05:30",
-      "category": "Markets",
-      "summary": "The Napoli vs Arsenal UEFA Champions League match will be played from 12:30 a.m. IST on Thursday."
-    },
-    {
-      "title": "NSE IPO: Exchange to freeze ISIN from September 11; no offline share transfers allowed until listing",
-      "excerpt": "The NSE will freeze its ISIN starting September 11, 2026, ahead of its IPO. Shareholders are advised against pledging shares during the freeze, which prevents transfers without corporate action. Additionally, Indian Bank",
-      "url": "https://www.livemint.com/market/stock-market-news/nse-ipo-exchange-to-freeze-isin-from-september-11-no-offline-share-transfers-allowed-until-listing-11788971269619.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/09/1600x900/logo/NSE_IPO_news_1788972515643_7aae7b64-bfcd-4e20-b184-3ebfa60c99ba_1788972523625_cc0bbe85-1abf-4abd-8c1f-c9dfa41c5eb3_fc025413-f6ef-4b45-9767-e51f31f69d52_4cbe4736-f44d-427e-bcd7-b331fb81d603.png",
-      "publishedAt": "2026-09-09T22:59:16+05:30",
-      "category": "Markets",
-      "summary": "The NSE will freeze its ISIN starting September 11, 2026, ahead of its IPO. Shareholders are advised against pledging shares during the freeze, which prevents transfers without corporate action. Additionally, Indian Bank"
-    },
-    {
-      "title": "Planning A Thailand Trip? Visa",
-      "excerpt": "Tourists entering Thailand under the visa exemption should also be prepared to show proof of sufficient funds.",
-      "url": "https://www.ndtvprofit.com/lifestyle/planning-a-thailand-trip-visa-free-stay-tenure-for-indians-slashed-from-sept-15-12024880#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/41lbvp3c_thailand_625x300_09_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-09T22:48:31+05:30",
-      "category": "Markets",
-      "summary": "Tourists entering Thailand under the visa exemption should also be prepared to show proof of sufficient funds."
     }
   ]
 }
