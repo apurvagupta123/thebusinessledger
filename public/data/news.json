@@ -1,224 +1,14 @@
 {
-  "lastUpdated": "2026-09-20T00:15:32+05:30",
+  "lastUpdated": "2026-09-20T02:51:48+05:30",
   "count": 25,
   "articles": [
-    {
-      "title": "Uday Kotak’s 7-point warning for India: Fiscal discipline, gold, manufacturing and more",
-      "excerpt": "Veteran banker Uday Kotak has called for stronger fiscal discipline, reforms to attract greater capital and improvements in manufacturing capabilities as India seeks to navigate an uncertain global environment and achiev",
-      "url": "https://www.livemint.com/economy/uday-kotak-s-7-point-warning-for-india-fiscal-discipline-gold-manufacturing-and-more-11789837336713.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/IMG_0906_1736155266776_1789837688400_erfg_90eca0d9-3e80-4312-bbf4-c9b05a9b1aa0_9u1L.JPG",
-      "publishedAt": "2026-09-19T23:34:28+05:30",
-      "category": "Economy",
-      "summary": "Veteran banker Uday Kotak has called for stronger fiscal discipline, reforms to attract greater capital and improvements in manufacturing capabilities as India seeks to navigate an uncertain global environment and achiev"
-    },
-    {
-      "title": "Vaishnaw Warns Of Cyberattacks, Disruptions As India Builds Semiconductor Ecosystem",
-      "excerpt": "India's semiconductor push is attracting billions in investment, but Ashwini Vaishnaw has urged chipmakers and deeptech startups to prepare for cyberattacks and disruptions.",
-      "url": "https://www.ndtvprofit.com/technology/ashwini-vaishnaw-warns-of-cyberattacks-disruptions-as-india-builds-semiconductor-ecosystem-12070076#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/r61m0kps_ashwini-vaishnaw_625x300_19_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T23:16:37+05:30",
-      "category": "Markets",
-      "summary": "India's semiconductor push is attracting billions in investment, but Ashwini Vaishnaw has urged chipmakers and deeptech startups to prepare for cyberattacks and disruptions."
-    },
-    {
-      "title": "Iran May Exit Nuclear Treaty If US, Israel Keep Up Pressure: Rezaei",
-      "excerpt": "Iran has not decided to quit the NPT, but Rezaei said future US actions could force Tehran to reconsider its position.",
-      "url": "https://www.ndtvprofit.com/world/iran-may-exit-nuclear-treaty-if-us-israel-keep-up-pressure-rezaei-12069946#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/ju5a6hoc_iran_625x300_10_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T23:05:28+05:30",
-      "category": "Markets",
-      "summary": "Iran has not decided to quit the NPT, but Rezaei said future US actions could force Tehran to reconsider its position."
-    },
-    {
-      "title": "FinMin To Meet PSB, RRB Chiefs On Monday To Ensure Banking Services During Three-day Strike",
-      "excerpt": "The Finance Ministry has called a meeting of chief executives of public sector banks and regional rural banks on Monday to discuss measures to ensure continuity of banking operations and essential customer services durin",
-      "url": "https://www.ndtvprofit.com/business/finmin-to-meet-psb-rrb-chiefs-on-monday-to-ensure-banking-services-during-three-day-strike-12070032#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-02/5484ofv8_nirmala-sitharaman_625x300_04_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:59:24+05:30",
-      "category": "Markets",
-      "summary": "The Finance Ministry has called a meeting of chief executives of public sector banks and regional rural banks on Monday to discuss measures to ensure continuity of banking operations and essential customer services durin"
-    },
-    {
-      "title": "AI171 Crash: Pilots' Body FIP Seeks Comprehensive Evaluation Of B787 Planes' Electrical System Evidence",
-      "excerpt": "The pilots' body, in its letter dated September 18, also said that a \"detailed and comprehensive\" examination of all electrical and electronically controlled systems should form an important component of the ongoing inve",
-      "url": "https://www.ndtvprofit.com/business/ai171-crash-pilots-body-fip-seeks-comprehensive-evaluation-of-b787-planes-electrical-system-evidence-12070017#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/s4r9s7dg_air-india_625x300_29_January_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:52:12+05:30",
-      "category": "Markets",
-      "summary": "The pilots' body, in its letter dated September 18, also said that a \"detailed and comprehensive\" examination of all electrical and electronically controlled systems should form an important component of the ongoing inve"
-    },
-    {
-      "title": "Salman Khan Slams Trolling Culture On Bigg Boss 20; Removes Hat And Jacket, Says 'What Is The Mentality'",
-      "excerpt": "Salman Khan called out troll culture during Bigg Boss 20 Weekend Ka Vaar and removed his hat and jacket while challenging trolls over comments about his appearance.",
-      "url": "https://www.ndtvprofit.com/lifestyle/salman-khan-slams-trolling-culture-on-bigg-boss-20-removes-hat-and-jacket-says-what-is-the-mentality-12069974#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/fr3mc0k_salmankhanbiggboss20weekendkavaar_625x300_19_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:49:08+05:30",
-      "category": "Markets",
-      "summary": "Salman Khan called out troll culture during Bigg Boss 20 Weekend Ka Vaar and removed his hat and jacket while challenging trolls over comments about his appearance."
-    },
-    {
-      "title": "Festive Season Likely To Create 2-2.5 Lakh Jobs Between July And December: Report",
-      "excerpt": "As the country enters the festive season, businesses across e-commerce, quick commerce, retail, logistics, hospitality, travel and consumer services are preparing for one of the year's most concentrated periods of demand",
-      "url": "https://www.ndtvprofit.com/business/festive-season-likely-to-create-2-2-5-lakh-jobs-between-july-and-december-report-12069973#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/3kuksals_bb_625x300_19_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:37:58+05:30",
-      "category": "Markets",
-      "summary": "As the country enters the festive season, businesses across e-commerce, quick commerce, retail, logistics, hospitality, travel and consumer services are preparing for one of the year's most concentrated periods of demand"
-    },
-    {
-      "title": "India At Asian Games 2026 Day 2: Full Schedule, Timings And Medal Events For September 20",
-      "excerpt": "India will be in action across multiple sports on Day 2 of the Aichi-Nagoya Asian Games, with cricket, hockey, shooting, badminton and other events lined up on September 20.",
-      "url": "https://www.ndtvprofit.com/sports/india-at-asian-games-2026-day-2-full-schedule-timings-and-medal-events-for-september-20-12069173#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/hb58nfgk_asian-games-2026_625x300_19_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:37:10+05:30",
-      "category": "Markets",
-      "summary": "India will be in action across multiple sports on Day 2 of the Aichi-Nagoya Asian Games, with cricket, hockey, shooting, badminton and other events lined up on September 20."
-    },
-    {
-      "title": "India's FTAs Opening New Career Opportunities For Youth: PM Modi",
-      "excerpt": "The prime minister said that the talent and skills of India's youth have won the trust of the entire world, which has great expectations from Indian innovators, entrepreneurs and the country's youthful strength.",
-      "url": "https://www.ndtvprofit.com/economy/indias-ftas-opening-new-career-opportunities-for-youth-pm-modi-12069936#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/ci9od0oo_bb_625x300_19_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:25:38+05:30",
-      "category": "Markets",
-      "summary": "The prime minister said that the talent and skills of India's youth have won the trust of the entire world, which has great expectations from Indian innovators, entrepreneurs and the country's youthful strength."
-    },
-    {
-      "title": "Sardar 2 Box Office Collection Day 10: Karthi-Starrer Continues To Draw Audiences Across Tamil, Telugu Versions",
-      "excerpt": "Sardar 2, directed by P S Mithran, is the sequel to the 2022 film Sardar. It is produced by S Lakshman Kumar and Ishan Saksena under Prince Pictures and IVY Entertainment.",
-      "url": "https://www.ndtvprofit.com/business/sardar-2-box-office-collection-day-10-karthi-starrer-continues-to-draw-audiences-across-tamil-telugu-versions-12069816#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/3lvme5hc_sardar2day10boxofficecollection_625x300_19_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:13:39+05:30",
-      "category": "Markets",
-      "summary": "Sardar 2, directed by P S Mithran, is the sequel to the 2022 film Sardar. It is produced by S Lakshman Kumar and Ishan Saksena under Prince Pictures and IVY Entertainment."
-    },
-    {
-      "title": "Centre, States Discuss Financing Strategies For Viksit Bharat At First Finance Conference",
-      "excerpt": "The conference brought together state finance ministers and officials to discuss the macroeconomic outlook, agricultural transformation and financing the energy transition.",
-      "url": "https://www.ndtvprofit.com/economy/centre-states-discuss-financing-strategies-for-viksit-bharat-at-first-finance-conference-12069799#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/9v9a1thk_nirmala-sitharaman_625x300_19_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T22:02:16+05:30",
-      "category": "Markets",
-      "summary": "The conference brought together state finance ministers and officials to discuss the macroeconomic outlook, agricultural transformation and financing the energy transition."
-    },
-    {
-      "title": "OMCs' LPG Under-Recovery Rises To Rs 62,000 Crore In August From Rs 59,000 Crore In July",
-      "excerpt": "Under recovery surged even as government paid OMCs compensation of Rs 30,000 crore during FY 2025-26 and FY 2026-27.",
-      "url": "https://www.ndtvprofit.com/economy/omcs-lpg-under-recovery-rises-to-rs-62-000-crore-in-august-from-rs-59-000-crore-in-july-12069834#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/innqo6tg_lpg_625x300_30_April_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T21:55:24+05:30",
-      "category": "Markets",
-      "summary": "Under recovery surged even as government paid OMCs compensation of Rs 30,000 crore during FY 2025-26 and FY 2026-27."
-    },
-    {
-      "title": "Canadian Trade Minister Maninder Sidhu Confident Of Wrapping Up India Trade Talks By Year-End",
-      "excerpt": "Canada is optimistic about concluding the India trade deal by year-end, with talks also covering LNG, nuclear energy and critical mineral investments.",
-      "url": "https://www.ndtvprofit.com/economy/canadian-trade-minister-maninder-sidhu-confident-of-wrapping-up-india-trade-talks-by-year-end-12069821#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/ulhvbaq4_maninder_625x300_19_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T21:54:41+05:30",
-      "category": "Markets",
-      "summary": "Canada is optimistic about concluding the India trade deal by year-end, with talks also covering LNG, nuclear energy and critical mineral investments."
-    },
-    {
-      "title": "Irumudi Box Office Collection Day 30: Ravi Teja Starrer Continues Its Earnings As It Completes Month",
-      "excerpt": "Irumudi follows Trinath, an alcohol-addicted father with a violent past who lives with his daughter near a waterfall.",
-      "url": "https://www.ndtvprofit.com/business/irumudi-box-office-collection-day-30-ravi-teja-starrer-continues-its-earnings-as-it-completes-month-long-theatrical-run-12069690#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/3s4tu4go_irumudiboxofficeday30ravitejajpg_625x300_19_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T21:26:23+05:30",
-      "category": "Markets",
-      "summary": "Irumudi follows Trinath, an alcohol-addicted father with a violent past who lives with his daughter near a waterfall."
-    },
-    {
-      "title": "Trump's New H-1B Order: How Will Indians Be Impacted By Tighter Scrutiny?",
-      "excerpt": "Trump extends H-1B entry restriction while ordering closer scrutiny of employers that have laid off US workers.",
-      "url": "https://www.ndtvprofit.com/india/trumps-new-h-1b-order-how-will-indians-be-impacted-by-tighter-scrutiny-12069706#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/mbkgr9mc_trump_625x300_18_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T21:23:05+05:30",
-      "category": "Markets",
-      "summary": "Trump extends H-1B entry restriction while ordering closer scrutiny of employers that have laid off US workers."
-    },
-    {
-      "title": "LPG Aadhaar Biometric Authentication Mandatory From Oct 1 For Subsidised Refills",
-      "excerpt": "Consumers must note that failure to complete Aadhaar Biometric Authentication will not result in disconnection of LPG, but subsidised refills will not be provided.",
-      "url": "https://www.ndtvprofit.com/india/lpg-aadhaar-biometric-authentication-mandatory-from-oct-1-for-subsidised-refills-12069601#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-03/op9s1bdk_lpg-gas-price-photo-vijay-sartapendtv-profit_625x300_17_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T21:13:40+05:30",
-      "category": "Markets",
-      "summary": "Consumers must note that failure to complete Aadhaar Biometric Authentication will not result in disconnection of LPG, but subsidised refills will not be provided."
-    },
-    {
-      "title": "Trump Media Ban Takes Effect As CNN, MS NOW Journalists Denied White House Access",
-      "excerpt": "Reporters from CNN and MS NOW had their White House credentials deactivated after Trump announced a ban on the outlets over their coverage of his administration.",
-      "url": "https://www.ndtvprofit.com/world/trump-media-ban-takes-effect-as-cnn-ms-now-journalists-denied-white-house-access-12069611#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-02/hngtbpcs_trump_625x300_22_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T21:11:33+05:30",
-      "category": "Markets",
-      "summary": "Reporters from CNN and MS NOW had their White House credentials deactivated after Trump announced a ban on the outlets over their coverage of his administration."
-    },
-    {
-      "title": "China's Vice Premier He Lifeng To Visit US For Economic, Trade Talks From Sept 19-23",
-      "excerpt": "Beijing says the September 19-23 consultations will focus on economic and trade issues of mutual concern, as tariffs, AI and rare earths remain key sticking points.",
-      "url": "https://www.ndtvprofit.com/world/chinas-vice-premier-he-lifeng-to-visit-us-for-economic-trade-talks-from-sept-19-23-12069526#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/5488fvmo_he-lifeng_625x300_19_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T21:05:20+05:30",
-      "category": "Markets",
-      "summary": "Beijing says the September 19-23 consultations will focus on economic and trade issues of mutual concern, as tariffs, AI and rare earths remain key sticking points."
-    },
-    {
-      "title": "Bethlehem Kudumba Unit Box Office Collection Day 30: Nivin Pauly's Family Drama Shows No Signs Of Slowing Down",
-      "excerpt": "Directed by Girish AD, Bethlehem Kudumba Unit revolves around Ashley, who returns home after living abroad. A wedding in her neighbourhood brings back memories of her first love, Justin.",
-      "url": "https://www.ndtvprofit.com/business/bethlehem-kudumba-unit-box-office-collection-day-30-nivin-paulys-family-drama-shows-no-signs-of-slowing-down-12069429#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/ooee6gt_bethlehemkudumbaunitboxofficecollectionday30nivinpaulyjpg_625x300_19_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T20:48:20+05:30",
-      "category": "Markets",
-      "summary": "Directed by Girish AD, Bethlehem Kudumba Unit revolves around Ashley, who returns home after living abroad. A wedding in her neighbourhood brings back memories of her first love, Justin."
-    },
-    {
-      "title": "Genpact Case: Karnataka HC Upholds ED Seizure Order Over Alleged Rs 7,635.9 Crore Transfer",
-      "excerpt": "ED alleged that Rs 7,635.9 crore, comprising Rs 4,600 crore in principal and Rs 3,035.90 crore in interest was transferred to Genpact Luxembourg, with FDI round-tripping and the NCD route were used to move funds abroad.",
-      "url": "https://www.ndtvprofit.com/business/genpact-case-karnataka-hc-upholds-ed-seizure-order-over-alleged-rs-7-635-9-crore-transfer-12069567#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/03hta9ac_f_625x300_27_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T20:39:50+05:30",
-      "category": "Markets",
-      "summary": "ED alleged that Rs 7,635.9 crore, comprising Rs 4,600 crore in principal and Rs 3,035.90 crore in interest was transferred to Genpact Luxembourg, with FDI round-tripping and the NCD route were used to move funds abroad."
-    },
-    {
-      "title": "China Investigates Meituan, Alibaba Units Over Suspected Unfair Competition",
-      "excerpt": "China's market regulator is probing four Meituan, Alibaba and other travel platforms over suspected unfair competition practices.",
-      "url": "https://www.ndtvprofit.com/world/china-investigates-meituan-alibaba-units-over-suspected-unfair-competition-12069510#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/n9skfj3g_alibaba_625x300_19_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-09-19T20:27:54+05:30",
-      "category": "Markets",
-      "summary": "China's market regulator is probing four Meituan, Alibaba and other travel platforms over suspected unfair competition practices."
-    },
     {
       "title": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish",
       "excerpt": "ITC navigates weakened cigarette volumes due to tax changes but is offsetting losses with price hikes and improving margins. 360 ONE maintains a BUY rating, predicting an upside of 68% with a target price of ₹440 per sha",
       "url": "https://www.livemint.com/market/stock-market-news/itc-stock-360-one-maintains-buy-sees-65-upside-here-s-why-brokerage-is-bullish-11789814022662.html",
       "source": "Mint",
       "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/logo/itc_1789817946683_vL9F_1789817955647_BM6f_44267cce-348a-4869-bb16-226933fee24f_eKxw.png",
-      "publishedAt": "2026-09-19T17:27:07+05:30",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
       "category": "Markets",
       "summary": "ITC navigates weakened cigarette volumes due to tax changes but is offsetting losses with price hikes and improving margins. 360 ONE maintains a BUY rating, predicting an upside of 68% with a target price of ₹440 per sha"
     },
@@ -228,19 +18,9 @@
       "url": "https://www.livemint.com/market/ipo/ipo-gmp-compared-ss-retail-hero-motors-jindal-supreme-allotment-soon-how-to-check-status-online-subscription-11789811154721.html",
       "source": "Mint",
       "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/logo/ipo_gmp_allotment_1789815208632_dpeu_1789815216339_s9pP_0a3a141d-d56b-45ca-8f1b-e78d5f7125ed_fGgn.png",
-      "publishedAt": "2026-09-19T16:24:05+05:30",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
       "category": "Markets",
       "summary": "The Jindal Supreme IPO achieved 177x subscription, raising ₹124.88 crore. The allotment status can be checked via BSE, NSE, or Bigshare. Hero Motors and SS Retail IPOs also saw strong interest, with substantial subscript"
-    },
-    {
-      "title": "Bank of India MF CIO Alok Singh sees banks poised for a re-rating. Here’s what could trigger it",
-      "excerpt": "Bank of India Mutual Fund CIO Alok Singh sees scope for banks to re-rate as low NPAs, healthy returns and loan growth support fundamentals. He expects policy announcements and stronger business numbers to ease concerns a",
-      "url": "https://economictimes.indiatimes.com/markets/expert-view/bank-of-india-mf-cio-alok-singh-sees-banks-poised-for-a-re-rating-heres-what-could-trigger-it/articleshow/134351586.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-09-19T15:22:27+05:30",
-      "category": "Markets",
-      "summary": "Bank of India Mutual Fund CIO Alok Singh sees scope for banks to re-rate as low NPAs, healthy returns and loan growth support fundamentals. He expects policy announcements and stronger business numbers to ease concerns a"
     },
     {
       "title": "Top stocks to buy under  ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss",
@@ -248,9 +28,229 @@
       "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-rs-200-castrol-nhpc-vikram-solar-3-shares-by-anand-rathi-s-mehul-kothari-target-stoploss-11789809341916.html",
       "source": "Mint",
       "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/logo/mehul_1789810995045_BYUS_1789811002251_6EZI_f61a51fd-6608-4a22-921f-1026acebd349_LJ4h.png",
-      "publishedAt": "2026-09-19T15:14:11+05:30",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
       "category": "Markets",
       "summary": "Kothari warns that a close below 55,500 may lead to increased selling pressure. He sees 57,000 as a key resistance for Bank Nifty. Recommended stocks under ₹200 include Castrol India, NHPC, and Vikram Solar, with specifi"
+    },
+    {
+      "title": "Salesforce stock falls over 8% in 4 sessions despite $63 bn revenue target, but UBS raised outlook price",
+      "excerpt": "Salesforce aims for $63 billion in revenue by fiscal 2030, surpassing analyst estimates. UBS has increased its price target for Salesforce but cut its fiscal 2028 growth forecast, citing potential challenges in revenue m",
+      "url": "https://www.livemint.com/market/stock-market-news/salesforce-stock-falls-over-8-in-4-sessions-despite-63-bn-revenue-target-but-ubs-raised-outlook-price-here-s-why-11789799817285.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/logo/salesforce_1789805233638_0IDO_1789805248462_UmXo_d0f2e47a-cbc7-4bcb-bc20-92ec7faca0bc_VXWa.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Salesforce aims for $63 billion in revenue by fiscal 2030, surpassing analyst estimates. UBS has increased its price target for Salesforce but cut its fiscal 2028 growth forecast, citing potential challenges in revenue m"
+    },
+    {
+      "title": "Nestle India issues clarification: Why FMCG stock plunged? What's FSSAI baby formula row; why it matters to consumers?",
+      "excerpt": "FSSAI has launched three adjudication cases against Nestle India for compliance issues with its infant nutrition products. Despite recent stock pressure, Nestle maintained that its products comply with regulations and th",
+      "url": "https://www.livemint.com/market/stock-market-news/nestle-india-issues-clarification-why-fmcg-stock-plunged-whats-fssai-baby-formula-row-why-it-matters-to-consumers-11789794974681.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/maxresdefault_1789815557057_ayUj_1789815561975_MgcQ_f87945dd-516e-427b-b39c-12241ed3c6ac_dcS2.jpg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "FSSAI has launched three adjudication cases against Nestle India for compliance issues with its infant nutrition products. Despite recent stock pressure, Nestle maintained that its products comply with regulations and th"
+    },
+    {
+      "title": "Small-cap stock under  ₹50: Kellton Tech in focus next week due to fundraise meeting",
+      "excerpt": "Kellton Tech Solutions, after achieving ₹27.27 in September 2025, plans to explore fundraising methods in a board meeting on September 23, 2026. The stock has seen a continuous downtrend, losing 50% of its value in the l",
+      "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-kellton-tech-in-focus-next-week-due-to-fundraise-meeting-check-date-11789792491796.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/logo/kellton1_1789794596244_Kefh_1789794603906_4kPq_3aa878cb-4617-408f-9ff8-fb26aa42ae59_Wjhz.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Kellton Tech Solutions, after achieving ₹27.27 in September 2025, plans to explore fundraising methods in a board meeting on September 23, 2026. The stock has seen a continuous downtrend, losing 50% of its value in the l"
+    },
+    {
+      "title": "Top stocks to buy on Monday: Sumeet Bagadia recommends 3 stocks | HDFC Bank, Adani Ports, JSW Steel - targets, stop-loss",
+      "excerpt": "Benchmark stock indices showed mixed results; Sensex dipped 0.03% while Nifty gained 0.33%. Crude oil prices fell, impacting markets. Analysts expect recovery hinges on easing global risks. Recommended stocks include HDF",
+      "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-on-monday-sumeet-bagadia-recommends-3-stocks-hdfc-bank-adani-ports-jsw-steel-targets-stoploss-11789790586065.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/logo/sumeet_bagadia_1789791466593_VAQm_1789791488440_XIRi_ba867aba-0364-4908-a34d-e7d87531cbd7_5eLn.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Benchmark stock indices showed mixed results; Sensex dipped 0.03% while Nifty gained 0.33%. Crude oil prices fell, impacting markets. Analysts expect recovery hinges on easing global risks. Recommended stocks include HDF"
+    },
+    {
+      "title": "Four aerospace stocks to watch as India builds its MRO industry",
+      "excerpt": "Tax cuts and other policy changes are making India’s aircraft maintenance market more attractive, but listed exposure remains limited and mostly indirect.",
+      "url": "https://www.livemint.com/market/stock-market-news/four-aerospace-stocks-to-watch-as-india-builds-its-mro-industry-11789731532873.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/pexels-photo-5262808_1789738161990_ZQAd_1789738176613_u2h0_38bd7db9-dce1-42f5-bf10-e3e62e13adfd_FP8p.jpeg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Tax cuts and other policy changes are making India’s aircraft maintenance market more attractive, but listed exposure remains limited and mostly indirect."
+    },
+    {
+      "title": "Hero Motors, NSE show two realities of India’s unlisted market",
+      "excerpt": "Hero Motors' IPO price band has raised concerns for investors who bought shares at ₹300, facing losses as the IPO is now priced at ₹79-84&nbsp;",
+      "url": "https://www.livemint.com/market/ipo/hero-motors-nse-ipo-show-two-realities-of-india-s-unlisted-market-investors-trading-11789705715047.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/oden-cubes-cold-grey-light-background-w_1782374793_1789728296088_rqTv_1789728296237_cINh_73cd4f02-aa16-4a1a-960a-6c208841282e_my3m.jpg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Hero Motors' IPO price band has raised concerns for investors who bought shares at ₹300, facing losses as the IPO is now priced at ₹79-84&nbsp;"
+    },
+    {
+      "title": "Kuku Technologies gets SEBI nod for IPO launch: Top things to know about the issue",
+      "excerpt": "SEBI has approved Kuku Technologies' IPO plans, following the company’s confidential draft IPO filing in June. The IPO aims to raise ₹2,500 crore to ₹3,500 crore and will use proceeds for technology and geographic expans",
+      "url": "https://www.livemint.com/market/stock-market-news/kuku-technologies-gets-sebi-nod-for-ipo-launch-top-things-to-know-about-the-issue-11789760078236.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/KUKU_1789760343837_0cNz_1789760351271_HHOZ_db3b4e50-ac56-4bd2-9dfb-5cd31cdcdd8f_ZvUi.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "SEBI has approved Kuku Technologies' IPO plans, following the company’s confidential draft IPO filing in June. The IPO aims to raise ₹2,500 crore to ₹3,500 crore and will use proceeds for technology and geographic expans"
+    },
+    {
+      "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+      "excerpt": "GLOBAL-FOREX/ (UPDATE 6):FOREX-Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+      "url": "https://www.livemint.com/market/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook-11789758851837.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-FOREX/ (UPDATE 6):FOREX-Dollar advances vs yen as BOJ dissent clouds rate-hike outlook"
+    },
+    {
+      "title": "North Sea Oil Premiums Soar to Records After Saudis Cut Sales",
+      "excerpt": "Europe’s oil refiners are paying eyewatering premiums for cargoes, as the shutdown of Saudi Arabia’s East-West pipeline forces the region’s buyers to scramble for alternatives with fuel prices soaring.",
+      "url": "https://www.livemint.com/market/north-sea-oil-premiums-soar-to-records-after-saudis-cut-sales-11789758731398.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Europe’s oil refiners are paying eyewatering premiums for cargoes, as the shutdown of Saudi Arabia’s East-West pipeline forces the region’s buyers to scramble for alternatives with fuel prices soaring."
+    },
+    {
+      "title": "Investors Pull $1.8 Billion From Muni Market as Return Slump Extends",
+      "excerpt": "Investors pulled about $1.8 billion out of the municipal bond market this week with returns for state and local government debt on track to tumble for the third consecutive month.",
+      "url": "https://www.livemint.com/market/investors-pull-1-8-billion-from-muni-market-as-return-slump-extends-11789756712011.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Investors pulled about $1.8 billion out of the municipal bond market this week with returns for state and local government debt on track to tumble for the third consecutive month."
+    },
+    {
+      "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+      "excerpt": "GLOBAL-PRECIOUS:Gold rises to one-week high, heads for weekly gain on easing oil prices",
+      "url": "https://www.livemint.com/market/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices-11789756221619.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-PRECIOUS:Gold rises to one-week high, heads for weekly gain on easing oil prices"
+    },
+    {
+      "title": "IPO Tracker: 19 stocks debut this week, raise  ₹7,550 crore despite market volatility",
+      "excerpt": "The Indian stock market faced pressure, yet 19 companies launched IPOs, raising ₹7,550 crore. Mainboard firms, including Rentomojo and Kanohar Electricals, contributed significantly, though listing premiums varied, highl",
+      "url": "https://www.livemint.com/market/stock-market-news/ipo-tracker-19-stocks-debut-this-week-raise-rs-7-550-crore-despite-market-volatility-11789751470266.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/IPOS_this_week_1789751978177_qlsY_1789751987712_iAPy_f990380c-1523-44bf-b2e9-74fa27fdedef_c48G.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "The Indian stock market faced pressure, yet 19 companies launched IPOs, raising ₹7,550 crore. Mainboard firms, including Rentomojo and Kanohar Electricals, contributed significantly, though listing premiums varied, highl"
+    },
+    {
+      "title": "Nifty posts sixth straight weekly loss: Why is Indian stock market under pressure? Explained",
+      "excerpt": "The Nifty 50 ended the week down 0.22%, continuing its six-week losing streak amid volatility. Despite a modest recovery, the index remains below 23,500 as global tensions and rising crude oil prices weigh heavily on inv",
+      "url": "https://www.livemint.com/market/stock-market-news/nifty-posts-sixth-straight-weekly-loss-why-is-indian-stock-market-under-pressure-explained-11789746305019.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/Dalal_S_1789748442238_KK6d_1789748448997_MtvJ_c5779a7c-f6b0-4c1c-b336-79530b496bd5_Ab5b.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "The Nifty 50 ended the week down 0.22%, continuing its six-week losing streak amid volatility. Despite a modest recovery, the index remains below 23,500 as global tensions and rising crude oil prices weigh heavily on inv"
+    },
+    {
+      "title": "Netflix sell-off deepens as stock drops another 7% to hit two-month low. What is spooking investors?",
+      "excerpt": "Netflix shares fell 7% to $70.11 after Wells Fargo downgraded the stock to Underweight due to user engagement concerns. Despite being the largest paid streaming platform, Netflix faced revenue growth challenges and weake",
+      "url": "https://www.livemint.com/market/stock-market-news/netflix-sell-off-deepens-as-stock-drops-another-7-to-hit-two-month-low-what-is-spooking-investors-11789741143715.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/Netflix_1789743757892_tLHa_1789743767774_vsqD_8e905442-2918-4fe1-a318-69a53b1c76c8_PV1m.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Netflix shares fell 7% to $70.11 after Wells Fargo downgraded the stock to Underweight due to user engagement concerns. Despite being the largest paid streaming platform, Netflix faced revenue growth challenges and weake"
+    },
+    {
+      "title": "Tata feud wipes  ₹52,154 crore off listed companies’ market value",
+      "excerpt": "Investors reassess Tata stocks as the Tata Sons-Tata Trusts standoff raises concerns over leadership and capital allocation.",
+      "url": "https://www.livemint.com/market/stock-market-news/tata-feud-wipes-52-154-crore-off-listed-companies-market-value-11789737927529.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/tata_sons_1789621534902_5XN4_1789621551174_zyTq_95_1789743434121_j2ep_1789743434268_mapG_f8609759-c13c-4063-95eb-d2a114e7f17c_27MW.jpg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Investors reassess Tata stocks as the Tata Sons-Tata Trusts standoff raises concerns over leadership and capital allocation."
+    },
+    {
+      "title": "Pulse of the Street: Crude retreats, but markets extend losing streak",
+      "excerpt": "Indian equities extend their losing streak to six weeks as crude volatility, Tata Group concerns and IPO fund flows weighed on sentiments.",
+      "url": "https://www.livemint.com/market/stock-market-news/pulse-of-the-street-crude-retreats-but-markets-fail-to-break-losing-streak-11789739627282.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/3-0-64268220-bse--3--0_1679804518242_1789743243820_PKPv_096b510d-d000-4a6a-8487-fcf55e1867fe_QyPb.jpg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Indian equities extend their losing streak to six weeks as crude volatility, Tata Group concerns and IPO fund flows weighed on sentiments."
+    },
+    {
+      "title": "Wall Street falls amid volatile oil prices and higher Treasury yields, Nucor slips 4.1%, Xenon tanks 27%",
+      "excerpt": "At 10:17 a.m. ET, the Dow Jones Industrial Average fell 0.38%, the S&amp;P 500 lost 0.22%, the Nasdaq Composite was down 0.16%",
+      "url": "https://www.livemint.com/market/stock-market-news/wall-street-mixed-amid-lower-oil-prices-and-higher-treasury-yields-11789740109962.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/nyse2_1789740338762_OPen_1789740358839_cB33_b845c00b-20e9-44c9-a342-97c656802e19_5qTy.jpg",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "At 10:17 a.m. ET, the Dow Jones Industrial Average fell 0.38%, the S&amp;P 500 lost 0.22%, the Nasdaq Composite was down 0.16%"
+    },
+    {
+      "title": "Lenskart Solutions block deal: ADIA-backed investor likely to offload 1.7% stake: Report",
+      "excerpt": "Platinum Jasmine A 2018 Trust is set to divest its 1.7% stake in Lenskart Solutions, valued at ₹2,047.4 crore. The block deal pricing is a 3.5% discount from the recent closing price.&nbsp;",
+      "url": "https://www.livemint.com/market/stock-market-news/lenskart-solutions-block-deal-adia-backed-investor-likely-to-offload-1-7-stake-report-11789738853707.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/LENSKART-IPO--5_1761632068943_1761632084325_1789738966586_lBHb_e5b54c7b-2f46-4fc9-917a-2a916bde269a_T3hu.JPG",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Platinum Jasmine A 2018 Trust is set to divest its 1.7% stake in Lenskart Solutions, valued at ₹2,047.4 crore. The block deal pricing is a 3.5% discount from the recent closing price.&nbsp;"
+    },
+    {
+      "title": "Rediff.com IPO: New UPI MDR rules open an additional revenue stream for the company: Report",
+      "excerpt": "Rediff.com stands to benefit from the government's new Merchant Discount Rate (MDR) on select UPI transactions, potentially enhancing its revenue as it prepares for market listing. The MDR changes, effective from October",
+      "url": "https://www.livemint.com/market/stock-market-news/rediffcom-ipo-new-upi-mdr-rules-open-an-additional-revenue-stream-for-the-company-report-11789732840605.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/UPI_1789734668103_DVqD_1789734674922_bD2U_56cdbdec-77e4-4ef8-97ba-224c3946622f_4evU.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Rediff.com stands to benefit from the government's new Merchant Discount Rate (MDR) on select UPI transactions, potentially enhancing its revenue as it prepares for market listing. The MDR changes, effective from October"
+    },
+    {
+      "title": "1:10 stock split: This multibagger nears record date, turns  ₹10,000 into  ₹5.3 lakh in 2 yrs | Do you own?",
+      "excerpt": "Multibagger stock, Midwest Energy Limited, is set to split at a 1:10 ratio, with a record date of September 25. Check details",
+      "url": "https://www.livemint.com/market/stock-market-news/110-stock-split-this-multibagger-nears-record-date-turns-rs-10-000-into-rs-5-26-lakh-in-2-yrs-do-you-own-11789731139609.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/stock_as_1789732954056_Z7bx_1789732975912_LeTW_14589a8b-b3db-48f3-be25-14fb2d9c1aa4_K6Ti.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Multibagger stock, Midwest Energy Limited, is set to split at a 1:10 ratio, with a record date of September 25. Check details"
+    },
+    {
+      "title": "TCS, Tata Chemicals, Tata Steel to Tata Motors PV — Tata Group stock lost 46,600 crores in a single day",
+      "excerpt": "Tata Group companies experienced a significant market cap drop of ₹46,600 crore amid a mounting governance crisis and investor uncertainty. The turmoil followed a board decision to extend Chairman Natarajan Chandrasekara",
+      "url": "https://www.livemint.com/market/stock-market-news/tcs-tata-chemicals-tata-steel-to-tata-motors-pv-tata-group-stock-lost-46-600-crores-in-a-single-day-11789728923950.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/Tata_group_1789731882309_4WDU_1789731900485_BVUZ_9d57d0db-a67a-4d1b-85c0-22b7915160dd_Khyw.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Tata Group companies experienced a significant market cap drop of ₹46,600 crore amid a mounting governance crisis and investor uncertainty. The turmoil followed a board decision to extend Chairman Natarajan Chandrasekara"
+    },
+    {
+      "title": "Maharatna PSU stock Power Grid to raise  ₹5,000 crore through bonds: Check issue size, tenure and details",
+      "excerpt": "Power Grid Corporation of India plans to raise ₹5,000 crore through a private bond placement, approved by its Committee of Directors. The bonds are unsecured and will be listed on BSE and NSE, with a 10-year tenure and a",
+      "url": "https://www.livemint.com/market/stock-market-news/maharatna-psu-stock-power-grid-to-raise-rs-5-000-crore-through-bonds-check-issue-size-tenure-and-details-11789728216600.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/18/1600x900/logo/powergrid_1789729759617_MQmI_1789729763756_VSmO_2b92427c-ca29-4957-822b-d7e1e28ded06_daVb.png",
+      "publishedAt": "2026-09-20T02:51:48+05:30",
+      "category": "Markets",
+      "summary": "Power Grid Corporation of India plans to raise ₹5,000 crore through a private bond placement, approved by its Committee of Directors. The bonds are unsecured and will be listed on BSE and NSE, with a 10-year tenure and a"
     }
   ]
 }
