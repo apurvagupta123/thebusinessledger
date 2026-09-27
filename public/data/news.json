@@ -1,14 +1,234 @@
 {
-  "lastUpdated": "2026-09-27T20:44:48+05:30",
+  "lastUpdated": "2026-09-28T00:41:33+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "IndiGo Guwahati-Bengaluru Flight Suffers Tail Strike During Landing; DGCA Launches Probe",
+      "excerpt": "The latest incident comes roughly a month after another IndiGo A321 experienced a tail strike during an approach to Gorakhpur.",
+      "url": "https://www.ndtvprofit.com/india/indigo-guwahati-bengaluru-flight-suffers-tail-strike-during-landing-dgca-launches-probe-12106326#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/r72lglr_indigo_625x300_27_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T23:00:03+05:30",
+      "category": "Markets",
+      "summary": "The latest incident comes roughly a month after another IndiGo A321 experienced a tail strike during an approach to Gorakhpur."
+    },
+    {
+      "title": "NSE Partners With Augmont To Expand Electronic Gold Receipts Market",
+      "excerpt": "The arrangement gives investors a regulated route to participate in the gold market without dealing with physical bullion at every stage.",
+      "url": "https://www.ndtvprofit.com/markets/nse-partners-with-augmont-to-expand-electronic-gold-receipts-market-12106233#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/82it5tn_nse_625x300_24_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T22:43:23+05:30",
+      "category": "Markets",
+      "summary": "The arrangement gives investors a regulated route to participate in the gold market without dealing with physical bullion at every stage."
+    },
+    {
+      "title": "Treasury Secretary Scott Urges Fed To Keep 'Open Mind' On US Inflation Outlook",
+      "excerpt": "US consumer prices excluding food and energy climbed 0.3% in August and advanced 2.4% on an annual basis.",
+      "url": "https://www.ndtvprofit.com/world/treasury-secretary-scott-urges-fed-to-keep-open-mind-on-us-inflation-outlook-12106278#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/4ktbl3q8_us_625x300_27_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T22:37:07+05:30",
+      "category": "Markets",
+      "summary": "US consumer prices excluding food and energy climbed 0.3% in August and advanced 2.4% on an annual basis."
+    },
+    {
+      "title": "Russia Hits Ukraine Data Centers In Barrage That Killed Six",
+      "excerpt": "Kremlin forces also struck three logistics centers in the Kyiv and Odesa regions, as well as two dry cargo ships on its way to the Odesa port.",
+      "url": "https://www.ndtvprofit.com/world/russia-hits-ukraine-data-centers-in-barrage-that-killed-six-12106259#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/om9alnnk_ukraine_625x300_27_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T22:30:17+05:30",
+      "category": "Markets",
+      "summary": "Kremlin forces also struck three logistics centers in the Kyiv and Odesa regions, as well as two dry cargo ships on its way to the Odesa port."
+    },
+    {
+      "title": "Roadies Rebirth: When, Where To Watch Rannvijay Singha",
+      "excerpt": "Roadies Rebirth will bring contestants together for a mix of physical challenges, competition, adventure and reality-show drama.",
+      "url": "https://www.ndtvprofit.com/lifestyle/roadies-rebirth-when-where-to-watch-rannvijay-singha-hosted-season-21-reality-show-12106131#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/228k3imc_roadies-rebirth_625x300_27_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T22:19:45+05:30",
+      "category": "Markets",
+      "summary": "Roadies Rebirth will bring contestants together for a mix of physical challenges, competition, adventure and reality-show drama."
+    },
+    {
+      "title": "'Undisputed GOAT Of This Format': Fans React As Virat Kohli Completes 15,000 Runs In ODI Cricket",
+      "excerpt": "Kohli has been the second highest run-scorer in the ODI format ever since he went past former Sri Lanka captain Kumar Sangakkara in October 2025",
+      "url": "https://www.ndtvprofit.com/sports/undisputed-goat-of-this-format-fans-react-as-virat-kohli-completes-15-000-runs-in-odi-cricket-12106160#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/emg4q4no_virat-kohli_625x300_27_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T21:50:46+05:30",
+      "category": "Markets",
+      "summary": "Kohli has been the second highest run-scorer in the ODI format ever since he went past former Sri Lanka captain Kumar Sangakkara in October 2025"
+    },
+    {
+      "title": "5 Men Arrested Near UK's RAF Fairford Base Used For Iran Strikes",
+      "excerpt": "Police initially arrested the five men on suspicion of offenses under the UK's Explosives Act. They separately arrested them on suspicion of preparing a terrorist act.",
+      "url": "https://www.ndtvprofit.com/world/5-men-arrested-near-uks-raf-fairford-base-used-for-iran-strikes-12106122#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/fp72121o_uk_625x300_27_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T21:39:34+05:30",
+      "category": "Markets",
+      "summary": "Police initially arrested the five men on suspicion of offenses under the UK's Explosives Act. They separately arrested them on suspicion of preparing a terrorist act."
+    },
+    {
+      "title": "'Causing Unnecessary Confusion And Negativity': Dulquer Salmaan Cautions Fans Against Parody Account",
+      "excerpt": "The actor said he had already reported the account and filed an official complaint, but was still awaiting a response from X.",
+      "url": "https://www.ndtvprofit.com/lifestyle/causing-unnecessary-confusion-and-negativity-dulquer-salmaan-cautions-fans-against-parody-account-12106057#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/dl8lutsc_dulquer-salmaan_625x300_27_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T21:29:00+05:30",
+      "category": "Markets",
+      "summary": "The actor said he had already reported the account and filed an official complaint, but was still awaiting a response from X."
+    },
+    {
+      "title": "Donald Trump Expects More US",
+      "excerpt": "Trump rejects Tehran’s seven-day plan to reopen the Strait of Hormuz, but Iran says diplomacy remains the only path forward as indirect talks may resume this wee",
+      "url": "https://www.ndtvprofit.com/world/trump-rejects-iran-s-hormuz-plan-as-tehran-keeps-door-open-to-talks-12106041#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/hune3a78_trump_625x300_27_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T21:26:12+05:30",
+      "category": "Markets",
+      "summary": "Trump rejects Tehran’s seven-day plan to reopen the Strait of Hormuz, but Iran says diplomacy remains the only path forward as indirect talks may resume this wee"
+    },
+    {
+      "title": "Trade Setup For Sept 28: Nifty's Key Support Returns To 23,000 Level; Analysts Expect Market To Consolidate",
+      "excerpt": "Nifty would need to sustain above 23,600 to change the near-term bias from \"sell on rallies\" to neutral.",
+      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-sept-28-niftys-key-support-returns-to-23-000-level-analysts-expect-market-to-consolidate-12099371#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/ucsiuem4_trade-setup_625x300_27_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T21:17:44+05:30",
+      "category": "Markets",
+      "summary": "Nifty would need to sustain above 23,600 to change the near-term bias from \"sell on rallies\" to neutral."
+    },
+    {
+      "title": "Bethlehem Kudumba Unit OTT Release: When, Where To Watch Nivin Pauly",
+      "excerpt": "Bethlehem Kudumba Unit was released on August 21, 2026, as an Onam release.",
+      "url": "https://www.ndtvprofit.com/lifestyle/bethlehem-kudumba-unit-ott-release-when-where-to-watch-nivin-pauly-mamitha-baiju-blockbuster-malayalam-film-12106002#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/e2ggasj4_bethlehem-kudumba-unit_625x300_20_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T21:12:14+05:30",
+      "category": "Markets",
+      "summary": "Bethlehem Kudumba Unit was released on August 21, 2026, as an Onam release."
+    },
+    {
+      "title": "CJP Says Mumbai Police Denied October 2 Protest March, Warns Of 'Jail Bharo' Andolan",
+      "excerpt": "CJP says Mumbai Police blocked its October 2 protest and warns of mass civil disobedience over its demand for CEC Gyanesh Kumar’s resignation",
+      "url": "https://www.ndtvprofit.com/india/cjp-says-mumbai-police-denied-october-2-protest-march-warns-of-jail-bharo-andolan-12105902#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/ttm8tvpo_abhijeet-dipke_625x300_27_September_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T21:07:52+05:30",
+      "category": "Markets",
+      "summary": "CJP says Mumbai Police blocked its October 2 protest and warns of mass civil disobedience over its demand for CEC Gyanesh Kumar’s resignation"
+    },
+    {
+      "title": "IPO rush: 9 companies, including Trans ACNR Solutions, submit draft IPO papers to SEBI | Check list",
+      "excerpt": "Nine companies, including Trans ACNR Solutions and Maharashtra Oil Extractions, have filed IPO papers with SEBI to raise capital for various needs. The filings were made between September 21 and September 26, with propos",
+      "url": "https://www.livemint.com/market/ipo/ipo-rush-trans-acnr-solutions-among-9-companies-to-file-preliminary-papers-with-sebi-check-list-11790521805527.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/Untitled_design_1790522135889_AGhr_1790522139817_14C2_23667cea-943f-4723-9751-f1d13ccc3a1e_8niA.png",
+      "publishedAt": "2026-09-27T20:55:57+05:30",
+      "category": "Markets",
+      "summary": "Nine companies, including Trans ACNR Solutions and Maharashtra Oil Extractions, have filed IPO papers with SEBI to raise capital for various needs. The filings were made between September 21 and September 26, with propos"
+    },
+    {
+      "title": "High credit-deposit ratio does not signal funding vulnerability: RBI report",
+      "excerpt": "High credit-deposit ratio does not signal funding vulnerability: RBI report Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRjk1VWZFMk9ibnQtc1NjUDM1em1xTi1iRTVlc1ZkdC0zWktDNlFvR3ozbmhOaUUwdGlOTEdDOTJBdUhhV1B5bW9teHVrZlV1MTFMZXhWWWR6cWZFQnJRYXZ2MkxocG9qVEdTZkk2NXlPSE5aV1ZUeXFWd1B2Ukx4NTgyc2F0WkpkRjE0UkUyRUhnc29jTE9hb1o5WWFmbVNLcS1QdW90OGc2c1IzTlk5LWVBOGFwNzNEbkRuVGdCN2wxSEc2ekpremU4anhRMXI5WFdLU1VFcTbSAd4BQVVfeXFMUGY5U2hFaldNa01SbmRtQU9LcGJSNVFGS3FGNGZBSWlMaDhfM0tzTlFudUtremhFaHBIdHlBZGMtLTB5bHBCQmgtM0JhQ0h2R3hIamZ2SE1MNkpBLVBTd2ZXUG9nSlhqajdydGFmYzlnd2pfMUxyZzdZRGxPZzJHMVFOUVo3YVVnbzEzbWR4bFZWcnNaQ3R3M0x4d3lmLWtLdGtqaEh6cEpVdnJxSWMtdnVGNzdUMmFIT0ZWYjM3UllmMkM5QzVwODktNUtBVmJzQ2tEd1VMYk1KcUZQa1J3?oc=5",
+      "source": "Business Standard",
+      "image": null,
+      "publishedAt": "2026-09-27T20:54:25+05:30",
+      "category": "Economy",
+      "summary": "High credit-deposit ratio does not signal funding vulnerability: RBI report Business Standard"
+    },
+    {
+      "title": "Large-Scale Electronics PLI Beneficiaries Get Rs 19,091-Crore Incentives, Draw Rs 20,580",
+      "excerpt": "India has since strengthened its position as a major mobile manufacturing hub. Smartphone exports surged to around $30 billion in 2025-26, compared with $5.5 billion in 2021-22.",
+      "url": "https://www.ndtvprofit.com/business/large-scale-electronics-pli-beneficiaries-get-rs-19-091-crore-incentives-draw-rs-20-580-crore-investment-12105887#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/ps6n6ons_largescale-electronics-pli-beneficiaries-get-rs-19091crore-incentives-draw-rs-20580crore-investment_625x300_27_September_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T20:33:07+05:30",
+      "category": "Markets",
+      "summary": "India has since strengthened its position as a major mobile manufacturing hub. Smartphone exports surged to around $30 billion in 2025-26, compared with $5.5 billion in 2021-22."
+    },
+    {
+      "title": "Independent Forensic Audit Will Attest To Fortis' Non-involvement In Singh Brothers' Share Transfers: Company",
+      "excerpt": "Supreme Court clears the way for forensic scrutiny, while stressing that the Delhi High Court’s earlier observations were only provisional.",
+      "url": "https://www.ndtvprofit.com/india/independent-forensic-audit-will-attest-to-fortis-non-involvement-in-singh-brothers-share-transfers-company-12105609#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/1sl1aq2k_fortis-healthcare_625x300_27_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T20:03:40+05:30",
+      "category": "Markets",
+      "summary": "Supreme Court clears the way for forensic scrutiny, while stressing that the Delhi High Court’s earlier observations were only provisional."
+    },
+    {
+      "title": "Unions To Go On 3-Day Nationwide Bank Strike From Monday, Services To Be Impacted",
+      "excerpt": "Three-day strike may disrupt branch services as unions press for a five-day banking week and resolution of long-pending employee demands.",
+      "url": "https://www.ndtvprofit.com/india/unions-to-go-on-3-day-nationwide-bank-strike-from-monday-services-to-be-impacted-12105672#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/pucdjs5_bank-strike-pti_625x300_27_September_26.png?im=FitAndFill,algorithm=cascade,width=1280,height=720",
+      "publishedAt": "2026-09-27T19:40:55+05:30",
+      "category": "Markets",
+      "summary": "Three-day strike may disrupt branch services as unions press for a five-day banking week and resolution of long-pending employee demands."
+    },
+    {
+      "title": "Rafale Deal Won't Slow Tejas Mark 1A Development, Says Defence Secretary",
+      "excerpt": "Defence Secretary Rajesh Kumar Singh outlined India's strategy to strengthen fighter capabilities while advancing indigenous defence technology and manufacturing.",
+      "url": "https://www.ndtvprofit.com/india/rafale-deal-wont-slow-tejas-mark-1a-development-says-defence-secretary-12105629#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-06/5qi4vk38_rafale-jet-_625x300_05_June_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T19:40:15+05:30",
+      "category": "Markets",
+      "summary": "Defence Secretary Rajesh Kumar Singh outlined India's strategy to strengthen fighter capabilities while advancing indigenous defence technology and manufacturing."
+    },
+    {
+      "title": "FMCG Sector Under Pressure As Rural Volumes Fall 5% In June Quarter: NielsenIQ",
+      "excerpt": "The report classified FMCG categories into four bands based on the severity of the slowdown, with the impact varying across product segments.",
+      "url": "https://www.ndtvprofit.com/economy/fmcg-sector-under-pressure-as-rural-volumes-fall-5-in-june-quarter-nielseniq-12105749#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/d354c112_Various_brands_tea_products__FMCG_products_kept_on_shelves_inside_DMart__2_.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T19:39:29+05:30",
+      "category": "Markets",
+      "summary": "The report classified FMCG categories into four bands based on the severity of the slowdown, with the impact varying across product segments."
+    },
+    {
+      "title": "Gold, Silver Face Another Choppy Spell This Week As US Data, West Asia Tensions Take Centre Stage: Analysts",
+      "excerpt": "A sustained rise in the dollar index above 101 could add to the pressure, as a stronger US currency generally makes dollar-denominated bullion more expensive for overseas buyers.",
+      "url": "https://www.ndtvprofit.com/markets/commodities-bullion-gold-silver-prices-face-another-choppy-spell-this-week-as-us-data-west-asia-tensions-take-centre-stage-analysts-12105533#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/4v54680c_gold-silver_625x300_27_September_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T19:01:53+05:30",
+      "category": "Markets",
+      "summary": "A sustained rise in the dollar index above 101 could add to the pressure, as a stronger US currency generally makes dollar-denominated bullion more expensive for overseas buyers."
+    },
+    {
+      "title": "Boeing Detects Software Issue With MAX Planes; May Impact Automated Flight Guidance System",
+      "excerpt": "Software flaw could reduce cockpit automation during a go-around, as Boeing works on a permanent fix for affected 737 MAX aircraft",
+      "url": "https://www.ndtvprofit.com/india/boeing-detects-software-issue-with-max-planes-may-impact-automated-flight-guidance-system-12105429#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/hvh06hfk_boeing_625x300_27_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T18:55:42+05:30",
+      "category": "Markets",
+      "summary": "Software flaw could reduce cockpit automation during a go-around, as Boeing works on a permanent fix for affected 737 MAX aircraft"
+    },
+    {
+      "title": "India-Russia Defence Ties: Russian Envoy Denis Alipov Says It's Not A 'Zero",
+      "excerpt": "Russian Ambassador to India Denis Alipov said India-Russia ties remain rooted in trust and mutual partnership.",
+      "url": "https://www.ndtvprofit.com/india/india-russia-defence-ties-russian-envoy-denis-alipov-says-its-not-a-zero-sum-game-12105389#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/aesg9mmg_ndtv-defence-summit_625x300_27_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-09-27T18:38:09+05:30",
+      "category": "Markets",
+      "summary": "Russian Ambassador to India Denis Alipov said India-Russia ties remain rooted in trust and mutual partnership."
+    },
     {
       "title": "India investment future: FIIs remain net sellers in Sept 2026 but these 5 factors can bring them back",
       "excerpt": "FIIs have offloaded a net ₹18,531 crore from Indian equities so far in September, while domestic institutional investors (DIIs) have invested ₹52,617 crore during the month.",
       "url": "https://www.livemint.com/market/stock-market-news/india-investment-future-fiis-remain-net-sellers-in-sept-2026-but-these-5-factors-can-bring-them-back-experts-decode-11790500863005.html",
       "source": "Mint",
       "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/FIIs_1790510195607_m6tw_1790510195793_RTkd_20e0edc2-8770-4e79-afbf-f21ef01d0f64_QUvm.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
+      "publishedAt": "2026-09-27T17:26:58+05:30",
       "category": "Markets",
       "summary": "FIIs have offloaded a net ₹18,531 crore from Indian equities so far in September, while domestic institutional investors (DIIs) have invested ₹52,617 crore during the month."
     },
@@ -18,7 +238,7 @@
       "url": "https://www.livemint.com/market/stock-market-news/fortis-says-it-is-complete-stranger-to-daiichi-singh-brothers-dispute-after-sc-allows-forensic-audit-shares-in-focus-11790503647988.html",
       "source": "Mint",
       "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/fortis_1790505449659_RLG6_1790505449839_yWuV_6cba68bf-757d-4713-aa44-37ddeb5dff6c_Scbx.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
+      "publishedAt": "2026-09-27T17:24:12+05:30",
       "category": "Markets",
       "summary": "In June 2018, the newly constituted independent Board, with the support of established investment bankers and legal advisors, initiated a competitive bidding process to identify and induct a new investor into the company"
     },
@@ -28,229 +248,9 @@
       "url": "https://www.livemint.com/market/wall-st-week-ahead-jobs-report-inflation-data-to-test-us-rate-path-economic-strength-11790503314965.html",
       "source": "Mint",
       "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
+      "publishedAt": "2026-09-27T15:31:54+05:30",
       "category": "Markets",
       "summary": "USA-STOCKS/WEEKAHEAD (REPEAT, UPDATE 1, SCHEDULED COLUMN):RPT-Wall St Week Ahead-Jobs report, inflation data to test US rate path, economic strength"
-    },
-    {
-      "title": "Stock market prediction: Experts see more pain ahead but see bottom in Oct 2026 amid Nifty, Sensex poor show — 3 reasons",
-      "excerpt": "Stock market prediction: Experts believe US 10-year Treasury yield would also top out in October ahead of the US Midterm elections 2026",
-      "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-experts-see-more-pain-ahead-but-see-bottom-in-oct-2026-amid-nifty-sensex-poor-show-3-reasons-11790495351548.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/Stock_market_today_Nifty_50_today_Sensex_today_1790495786340_HAnm_1790495786523_KeSc_633e4f43-be02-4409-b608-4eb20a4c129f_f920.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Stock market prediction: Experts believe US 10-year Treasury yield would also top out in October ahead of the US Midterm elections 2026"
-    },
-    {
-      "title": "Top stocks in focus tomorrow. Why Adani Power, SAIL, BCCL, Power Grid, Cupid, KPI must be on radar",
-      "excerpt": "Shares of Adani Power, SAIL, BCCL, Power Grid are among those expected to remain in focus during Monday’s trading session.",
-      "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-on-monday-28-sept-and-why-adani-power-sail-bccl-power-grid-cupid-in-focus-full-list-here-11790495173123.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/stw_1790499887249_wCfb_1790499887383_uBed_2e3dad80-d7f7-4185-ac97-d529f74e95e7_lsD5.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Shares of Adani Power, SAIL, BCCL, Power Grid are among those expected to remain in focus during Monday’s trading session."
-    },
-    {
-      "title": "Cochin Shipyard, Voltas, BEL, Tata Steel, Axis Bank, Vedanta Aluminium: Top stocks to buy | Target, SL by Ganesh Dongre",
-      "excerpt": "Indian stock market: Ganesh Dongre of Anand Rathi believes the Nifty 50 index may witness a period of sideways consolidation during the upcoming monthly expiry week",
-      "url": "https://www.livemint.com/market/stock-market-news/cochin-shipyard-voltas-bel-tata-steel-axis-bank-vedanta-aluminium-top-stocks-to-buy-target-sl-by-ganesh-dongre-11790489265585.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/Ganesh_Dongre_stock_recommendations_today_1790494226585_aafu_1790494226713_YceF_14ea6ede-c23d-4606-854c-f7417d21ee79_UzYA.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Indian stock market: Ganesh Dongre of Anand Rathi believes the Nifty 50 index may witness a period of sideways consolidation during the upcoming monthly expiry week"
-    },
-    {
-      "title": "Gas PSU stock to buy: After 26% returns in 6 months, Emkay Global sees further 16% upside | Target, stop-loss, rationale",
-      "excerpt": "Gas PSU stock's medium-term outlook is stable, as gas transmission volumes will continue growing structurally, with increasing share of volumes in higher-tariff bid pipelines, the firm said.",
-      "url": "https://www.livemint.com/market/stock-market-news/gas-psu-stock-to-buy-emkay-global-sees-further-16-upside-in-gail-india-share-price-target-stop-loss-rationale-11790492517022.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/gail_1790494474552_Qtbp_1790494474694_nAlM_e7c13cd5-36c1-4ee9-a0e4-2fe6f2113593_QdNj.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Gas PSU stock's medium-term outlook is stable, as gas transmission volumes will continue growing structurally, with increasing share of volumes in higher-tariff bid pipelines, the firm said."
-    },
-    {
-      "title": "26% returns in 6 months, SAIL stock final dividend 2026 record date next week; check amount per share, payment date",
-      "excerpt": "SAIL is set to mark the sixth consecutive year of dividend payouts to its shareholders.",
-      "url": "https://www.livemint.com/market/stock-market-news/26-returns-in-6-months-sail-stock-final-dividend-2026-record-date-next-week-check-amount-per-share-payment-date-11790488784084.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/sail_1790491435790_U1IU_1790491435939_LXJm_ff737a91-f1fd-4238-b21c-62a1b807cb66_CYjW.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "SAIL is set to mark the sixth consecutive year of dividend payouts to its shareholders."
-    },
-    {
-      "title": "Despite 8% down in 2026 but BOB Capital Markets gives ‘Hold’ to this realty stock | Check target, stop loss, rationale",
-      "excerpt": "According to the brokerage firm, the realty stock is to trade at a slightly lower-than-peer DPU multiple of 16.4x, compared with the peer average of 16.6x, reflecting its slower pace of DPU growth.",
-      "url": "https://www.livemint.com/market/stock-market-news/despite-8-down-in-2026-but-bob-capital-gives-hold-to-realty-stock-knowledge-realty-trust-check-target-stop-loss-11790485132099.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/Realty_1790488312840_fn2s_1790488312980_2N0D_6478e226-a2ad-4d20-afc9-28639c0ec087_k6Mz.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "According to the brokerage firm, the realty stock is to trade at a slightly lower-than-peer DPU multiple of 16.4x, compared with the peer average of 16.6x, reflecting its slower pace of DPU growth."
-    },
-    {
-      "title": "Top 5 stocks to buy under  ₹100: Lloyds, Bajaj HFL, Maharashtra Bank, GMR Airports, RBA by Sumeet Bagadia | Target, SL",
-      "excerpt": "Stocks to buy under ₹100: Sumeet Bagadia has recommended five shares to buy for the short-term —Lloyds Enterprises, Bajaj Housing Finance, Bank of Maharashtra, GMR Airports, and RBA",
-      "url": "https://www.livemint.com/market/stock-market-news/top-5-stocks-to-buy-under-rs-100-lloyds-bajaj-hfl-maharashtra-bank-gmr-airports-rba-by-sumeet-bagadia-target-sl-11790485541632.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/Stocks_to_buy_Under_Rs_100_Sumeet_Bagadia_share_1790487303284_kQq1_1790487303409_4eq7_c465dc4c-c06f-4748-969e-9d4eb204b926_fbbR.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Stocks to buy under ₹100: Sumeet Bagadia has recommended five shares to buy for the short-term —Lloyds Enterprises, Bajaj Housing Finance, Bank of Maharashtra, GMR Airports, and RBA"
-    },
-    {
-      "title": "Stock market prediction for tomorrow: Sensex, Nifty Monday, 28 Sept triggers | GIFT Nifty, Nikkei, Taiwan, Kospi cues",
-      "excerpt": "Stock market prediction for 28 September, 2026: On Friday, Benchmark indices Sensex and Nifty recovered, supported by value buying in blue-chip stocks across the banking, oil and gas, and automobile sectors after the rec",
-      "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-sensex-nifty-monday-28-sept-triggers-gift-nifty-nikkei-taiwan-kospi-cues-11790480062165.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/27/1600x900/logo/prediction_1790501275583_7UEv_1790501275775_cgKq_9d28f200-2b44-490d-a2ff-65c87460d083_0WiB.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Stock market prediction for 28 September, 2026: On Friday, Benchmark indices Sensex and Nifty recovered, supported by value buying in blue-chip stocks across the banking, oil and gas, and automobile sectors after the rec"
-    },
-    {
-      "title": "Rate Market Fear Gauge Is Warning for Corporates: Credit Weekly",
-      "excerpt": "Corporate bonds have been relatively resilient amid a global government bond selloff, but the strength may not last.",
-      "url": "https://www.livemint.com/market/rate-market-fear-gauge-is-warning-for-corporates-credit-weekly-11790451266734.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Corporate bonds have been relatively resilient amid a global government bond selloff, but the strength may not last."
-    },
-    {
-      "title": "‘India’s drone leader’: Buy Ideaforge stock for 27% upside, says Ashika Securities - check share price target",
-      "excerpt": "Ideaforge is set to capitalize on India's ₹200 billion drone procurement pipeline, with Ashika estimating substantial revenue growth and improved EBITDA margins. They have set target price of ₹942, highlighting strong po",
-      "url": "https://www.livemint.com/market/stock-market-news/drone-stock-ideaforge-gets-buy-rating-ashika-sees-27-upside-check-target-price-11790422161462.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/ideaforge_1790423676563_8ImJ_1790423690805_ZtfU_e88b0384-c9bd-4b79-b9e6-9184ec1e2555_CImh.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Ideaforge is set to capitalize on India's ₹200 billion drone procurement pipeline, with Ashika estimating substantial revenue growth and improved EBITDA margins. They have set target price of ₹942, highlighting strong po"
-    },
-    {
-      "title": "After NSE IPO exchange debut, Macquarie calls stock ‘The Dominator’ - here’s why | Check share price target",
-      "excerpt": "Macquarie projects 12% revenue CAGR for NSE from FY26 to FY30, supported by high margins and strong cash generation. The brokerage anticipates significant growth in non-transaction revenues, driven by data and analytics,",
-      "url": "https://www.livemint.com/market/stock-market-news/after-nse-ipo-exchange-debut-macquarie-calls-stock-the-dominator-here-s-why-check-share-price-target-11790419480001.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/nse_target_1790421911294_87zY_1790421918733_IriP_fbe338fc-a2ef-40c2-9d6c-f5c84cd7e95f_pMXQ.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Macquarie projects 12% revenue CAGR for NSE from FY26 to FY30, supported by high margins and strong cash generation. The brokerage anticipates significant growth in non-transaction revenues, driven by data and analytics,"
-    },
-    {
-      "title": "Nifty 50 target: Will it hit 25,000 this year? Market experts weigh in on what could drive the recovery",
-      "excerpt": "Achieving the 25,000 mark on the Nifty requires positive global cues, stronger corporate earnings, and manageable crude oil prices. The index, down 11% year-to-date, needs to overcome current hurdles related to external ",
-      "url": "https://www.livemint.com/market/stock-market-news/nifty-50-target-will-it-hit-25-000-this-year-market-experts-weigh-in-on-what-could-drive-the-recovery-11790417165969.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/nifty_outlook_1790417660022_I2H2_1790417664289_VtNR_236fbb61-abf2-4b25-b5e6-55527ae80497_7pQb.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Achieving the 25,000 mark on the Nifty requires positive global cues, stronger corporate earnings, and manageable crude oil prices. The index, down 11% year-to-date, needs to overcome current hurdles related to external "
-    },
-    {
-      "title": "₹8 interim dividend declared; check company, record date, payment date",
-      "excerpt": "The company declared a second interim dividend of ₹8 per equity share for 2026. The payout represents 800% of the equity share’s face value of Re 1. The dividend is scheduled to be paid on or before October 24, 2026, acc",
-      "url": "https://www.livemint.com/market/stock-market-news/rs-8-interim-dividend-declared-check-company-record-date-payment-date-11790411316866.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/rsys_1790412753144_Z4g2_1790412762228_3Qh1_71ebd710-c2c4-4556-a4d7-0722c1dfe83f_cKpu.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "The company declared a second interim dividend of ₹8 per equity share for 2026. The payout represents 800% of the equity share’s face value of Re 1. The dividend is scheduled to be paid on or before October 24, 2026, acc"
-    },
-    {
-      "title": "Expert View: 'Stock selection crucial', says Hitesh Tailor of Choice Broking; reveals 3 sectors with strong technicals",
-      "excerpt": "Market uncertainty could trigger a rotation towards gold and silver, especially with current challenges in equities. Key opportunities in the Indian market lie in Pharma, Metals, and Consumer Durables, which are exhibiti",
-      "url": "https://www.livemint.com/market/stock-market-news/expert-view-stock-selection-crucial-says-hitesh-tailor-of-choice-broking-reveals-3-sectors-with-strong-technicals-11790409800130.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/Hitesh_Tailor_1790411202737_sQxh_1790411211488_4ByO_203a3fb3-f212-4837-b63f-f89f62063819_dtg2.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Market uncertainty could trigger a rotation towards gold and silver, especially with current challenges in equities. Key opportunities in the Indian market lie in Pharma, Metals, and Consumer Durables, which are exhibiti"
-    },
-    {
-      "title": "Adroit Industries, ArMee Infotech, Swastika Infra, Elevate Campuses: Check GMP, full subscription ahead of allotment",
-      "excerpt": "Four IPOs, including Adroit Industries and ArMee Infotech, have concluded their subscription period and are moving to allotment. The allotment status will be finalized on September 28, with shares expected in demat accou",
-      "url": "https://www.livemint.com/market/ipo/adroit-industries-armee-infotech-swastika-infra-elevate-campuses-check-ipo-gmp-full-subscription-ahead-of-allotment-11790406651184.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/ipos_1790408971354_xUEH_1790408977639_u8v5_2f63fbe9-62de-4b50-a6df-a9efe40ce48a_6fqV.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Four IPOs, including Adroit Industries and ArMee Infotech, have concluded their subscription period and are moving to allotment. The allotment status will be finalized on September 28, with shares expected in demat accou"
-    },
-    {
-      "title": "Stocks to buy for long term: Vedanta Iron and Steel, Vedanta Oil and Gas or Vedanta Power: Which is better? Target, SL",
-      "excerpt": "Stocks to buy for long term: Experts believe all these three Vedanta Group stocks are better suited to your portfolio from the fundamental perspective, as they are portfolio stocks",
-      "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-for-long-term-vedanta-iron-and-steel-vedanta-oil-and-gas-or-vedanta-power-which-is-better-target-sl-11790398619797.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/Vedanta_Iron_and_Steel_share_price_target_1790399566558_1srL_1790399566759_sn7Y_e59a9a07-590f-42bd-9098-6d8b60f8d426_6mWV.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Stocks to buy for long term: Experts believe all these three Vedanta Group stocks are better suited to your portfolio from the fundamental perspective, as they are portfolio stocks"
-    },
-    {
-      "title": "Greed and Fear index: BEL, Adani Energy to Eternal | Chris Wood's Jefferies India portfolio has 22 stocks for long term",
-      "excerpt": "Jefferies' Christopher Wood emphasizes India's structural growth, focusing on rising private investment, particularly in energy and manufacturing. The recent portfolio update reflects this shift, adding Hitachi Energy In",
-      "url": "https://www.livemint.com/market/stock-market-news/greed-and-fear-index-bel-adani-energy-to-eternal-chris-woods-jefferies-india-portfolio-has-22-stocks-for-long-term-11790402739237.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/chris_wood_1790404291411_3Dwg_1790404297491_BfpA_aba3f4a6-22b9-4b80-ac0e-e4b4e4009928_pGqy.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Jefferies' Christopher Wood emphasizes India's structural growth, focusing on rising private investment, particularly in energy and manufacturing. The recent portfolio update reflects this shift, adding Hitachi Energy In"
-    },
-    {
-      "title": "Stock market holidays next week: India, China, Taiwan to Hong Kong — these global indices to remain closed on these days",
-      "excerpt": "Asian markets will have a holiday-shortened trading week from September 28 to October 2, with major exchanges closing on different days. This could lead to thinner trading activity, particularly affecting Indian investor",
-      "url": "https://www.livemint.com/market/stock-market-news/stock-market-holidays-next-week-india-china-taiwan-to-hong-kong-these-global-indices-to-remain-closed-on-these-days-11790396894180.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/smh_1790399753997_Wrhp_1790399764992_aKZj_17cf375a-9b47-4149-9eaf-fe6d602dc185_7cf5.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Asian markets will have a holiday-shortened trading week from September 28 to October 2, with major exchanges closing on different days. This could lead to thinner trading activity, particularly affecting Indian investor"
-    },
-    {
-      "title": "Three midcap stocks with strong growth potential",
-      "excerpt": "Kalpataru Projects, ITC Hotels and Waaree Energies are expanding capacity, entering new markets and building order books as they target the next phase of growth.",
-      "url": "https://www.livemint.com/market/stock-market-news/three-midcap-stocks-with-strong-growth-potential-11790335464682.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/25/1600x900/logo/pexels-photo-36755602_1790338080221_lvLB_1790338089634_Iy35_abaaa44b-94be-448a-92df-aa272bbf673c_FjVG.jpeg",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Kalpataru Projects, ITC Hotels and Waaree Energies are expanding capacity, entering new markets and building order books as they target the next phase of growth."
-    },
-    {
-      "title": "Sumeet Bagadia's stock picks for Monday — Mahindra And Mahindra, Asian Paints, HCL Tech | Target, SL, market outlook",
-      "excerpt": "Stock market outlook: Nifty 50 is likely to retain a Sideways to Bearish bias, with immediate support placed at 22,900–23,000 and resistance at 23,300–23,370, believes Sumeet Bagadia",
-      "url": "https://www.livemint.com/market/stock-market-news/sumeet-bagadias-stock-picks-for-monday-mahindra-and-mahindra-asian-paints-hcl-tech-target-sl-market-outlook-11790393228812.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/Sumeet_Bagadia_Share_Stock_Recommendations_Monday_1790395410093_6Mua_1790395410258_XXJ7_18497a8a-6378-4087-8299-29aa23118a29_BL8A.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Stock market outlook: Nifty 50 is likely to retain a Sideways to Bearish bias, with immediate support placed at 22,900–23,000 and resistance at 23,300–23,370, believes Sumeet Bagadia"
-    },
-    {
-      "title": "NSE share price: How long-term investors can use staggered approach to buy NSE shares",
-      "excerpt": "Investors are advised to adopt a staggered buying strategy for NSE shares post-listing, focusing on gradual accumulation. PL rates NSE as 'Accumulate' with a target price of ₹1,950, citing its substantial market share an",
-      "url": "https://www.livemint.com/market/stock-market-news/nse-share-price-how-to-use-staggered-approach-to-buy-nse-shares-after-listing-for-long-term-investors-11790394683165.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/nse_share_1790394945954_ZOdU_1790394967146_pI5t_a1a2d952-8d95-41f7-bbf6-1a9407829845_rxHc.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Investors are advised to adopt a staggered buying strategy for NSE shares post-listing, focusing on gradual accumulation. PL rates NSE as 'Accumulate' with a target price of ₹1,950, citing its substantial market share an"
-    },
-    {
-      "title": "Stocks to buy under  ₹200: Tata Steel, South Bank, Castrol by Mehul Kothari of Anand Rathi | Target, SL, market outlook",
-      "excerpt": "Stock market outlook: The Nifty 50 index is now trading around the important 23,000–23,100 zone, which is a crucial support coinciding with the rising channel support, says Mehul Kothari",
-      "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-under-rs-200-tata-steel-south-bank-castrol-by-mehul-kothari-of-anand-rathi-target-sl-market-outlook-11790390076388.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/09/26/1600x900/logo/Stocks_to_buy_today_Mehul_Kothari_Anand_Rathi_1790390791044_yVjY_1790390791175_tgu2_f869865f-bd52-4419-9389-bbc2d7d20dda_cTEe.png",
-      "publishedAt": "2026-09-27T20:44:48+05:30",
-      "category": "Markets",
-      "summary": "Stock market outlook: The Nifty 50 index is now trading around the important 23,000–23,100 zone, which is a crucial support coinciding with the rising channel support, says Mehul Kothari"
     }
   ]
 }
