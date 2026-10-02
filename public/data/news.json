@@ -1,7 +1,47 @@
 {
-  "lastUpdated": "2026-10-03T00:07:42+05:30",
+  "lastUpdated": "2026-10-03T04:21:44+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "US yields rise, reversing initial reaction to weak jobs report",
+      "excerpt": "USA-BONDS/ (UPDATE 2):TREASURIES-US yields rise, reversing initial reaction to weak jobs report",
+      "url": "https://www.livemint.com/market/us-yields-rise-reversing-initial-reaction-to-weak-jobs-report-11790969678755.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-10-03T01:04:38+05:30",
+      "category": "Markets",
+      "summary": "USA-BONDS/ (UPDATE 2):TREASURIES-US yields rise, reversing initial reaction to weak jobs report"
+    },
+    {
+      "title": "Nasdaq rises 1%, Dow, S&P close higher as weak jobs data tempers rate hike bets",
+      "excerpt": "U.S. stocks finished higher following a weaker-than-expected jobs report which eased rate hike expectations. Nonfarm payrolls rose by only 29,000, significantly below economists' forecasts of 90,000. The S&P 500 real est",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nasdaq-rises-1-dow-sp-close-higher-as-weak-jobs-data-tempers-rate-hike-bets/articleshow/134646508.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-10-03T01:45:20+05:30",
+      "category": "Markets",
+      "summary": "U.S. stocks finished higher following a weaker-than-expected jobs report which eased rate hike expectations. Nonfarm payrolls rose by only 29,000, significantly below economists' forecasts of 90,000. The S&P 500 real est"
+    },
+    {
+      "title": "Nasdaq climbs to record after softer jobs data cools rate-hike expectations",
+      "excerpt": "USA-STOCKS/ (UPDATE 5, GRAPHIC):US STOCKS-Nasdaq climbs to record after softer jobs data cools rate-hike expectations",
+      "url": "https://www.livemint.com/market/nasdaq-climbs-to-record-after-softer-jobs-data-cools-rate-hike-expectations-11790966315922.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-10-03T00:08:35+05:30",
+      "category": "Markets",
+      "summary": "USA-STOCKS/ (UPDATE 5, GRAPHIC):US STOCKS-Nasdaq climbs to record after softer jobs data cools rate-hike expectations"
+    },
+    {
+      "title": "Fed officials give hints on rate decision as markets cut October rate hike odds",
+      "excerpt": "Fed officials tempered expectations for an October rate hike after Philip Jefferson and John Williams stressed patience and data dependence. Markets sharply reduced hike odds, though persistent inflation and upcoming con",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-officials-give-hints-on-rate-decision-as-markets-cut-october-rate-hike-odds/articleshow/134645153.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-10-03T00:00:04+05:30",
+      "category": "Markets",
+      "summary": "Fed officials tempered expectations for an October rate hike after Philip Jefferson and John Williams stressed patience and data dependence. Markets sharply reduced hike odds, though persistent inflation and upcoming con"
+    },
     {
       "title": "G7 unlocks 100 million barrels: Who holds world’s emergency oil and who decides when to release it? A deep dive",
       "excerpt": "G7 unlocks 100 million barrels as oil supplies tighten. Who controls the world's emergency oil reserves, and who decides when they are released?",
@@ -11,6 +51,26 @@
       "publishedAt": "2026-10-02T23:49:19+05:30",
       "category": "Economy",
       "summary": "G7 unlocks 100 million barrels as oil supplies tighten. Who controls the world's emergency oil reserves, and who decides when they are released?"
+    },
+    {
+      "title": "Meta Ray-Ban Smart Glasses Face Sales Halt In Netherlands Over Privacy Concerns",
+      "excerpt": "Dutch privacy regulator AP warned that videos showing identifiable people recorded by smart glasses generally cannot be shared without their consent, raising concerns over Meta's glasses.",
+      "url": "https://www.ndtvprofit.com/technology/meta-ray-ban-smart-glasses-face-sales-halt-in-netherlands-over-privacy-concerns-12131601#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/tvhp74sk_mark-zuckerberg_625x300_02_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-02T23:17:56+05:30",
+      "category": "Markets",
+      "summary": "Dutch privacy regulator AP warned that videos showing identifiable people recorded by smart glasses generally cannot be shared without their consent, raising concerns over Meta's glasses."
+    },
+    {
+      "title": "G7 To Release 100 Million Barrels Of Oil, Diesel As Fuel Prices Surge",
+      "excerpt": "G7 countries have agreed to release 100 million barrels of diesel and crude oil from emergency reserves.",
+      "url": "https://www.ndtvprofit.com/world/g7-to-release-100-million-barrels-of-oil-diesel-as-fuel-prices-surge-12131538#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/bptmerr8_bb_625x300_02_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-02T23:07:20+05:30",
+      "category": "Markets",
+      "summary": "G7 countries have agreed to release 100 million barrels of diesel and crude oil from emergency reserves."
     },
     {
       "title": "ET Now Live TV: Business News Live TV Online, Finance & Market News Live Streaming - etnownews.com",
@@ -23,14 +83,34 @@
       "summary": "ET Now Live TV: Business News Live TV Online, Finance & Market News Live Streaming etnownews.com"
     },
     {
-      "title": "G7 To Release 100 Million Barrels Of Oil, Diesel As Fuel Prices Surge",
-      "excerpt": "G7 countries have agreed to release 100 million barrels of diesel and crude oil from emergency reserves.",
-      "url": "https://www.ndtvprofit.com/world/g7-to-release-100-million-barrels-of-oil-diesel-as-fuel-prices-surge-12131538#publisher=newsstand",
+      "title": "Vijay Shekhar Sharma Calls Ather's Lethal' Scooter Testing Idea Brilliant: Wonder If Buyers Know It Yet'",
+      "excerpt": "Paytm founder Vijay Shekhar Sharma praises Ather Energy's extreme scooter testing, highlighting how the EV maker simulates years of Indian road abuse in its labs.",
+      "url": "https://www.ndtvprofit.com/india/vijay-shekhar-sharma-calls-athers-lethal-scooter-testing-idea-brilliant-wonder-if-buyers-know-it-yet-12131616#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/bptmerr8_bb_625x300_02_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-02T22:31:00+05:30",
+      "image": "https://c.ndtvimg.com/2026-10/rub3kit_ather_625x300_02_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-02T22:53:51+05:30",
       "category": "Markets",
-      "summary": "G7 countries have agreed to release 100 million barrels of diesel and crude oil from emergency reserves."
+      "summary": "Paytm founder Vijay Shekhar Sharma praises Ather Energy's extreme scooter testing, highlighting how the EV maker simulates years of Indian road abuse in its labs."
+    },
+    {
+      "title": "OpenAI Fires Three Researchers Over Alleged Mishandling Of Sensitive Information. What We Know",
+      "excerpt": "Three OpenAI researchers were fired after the company found sensitive information had been handled outside established procedures, according to reports.",
+      "url": "https://www.ndtvprofit.com/technology/openai-fires-three-researchers-over-alleged-mishandling-of-sensitive-information-what-we-know-12131579#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/8d8r2j7_openai_625x300_01_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-02T22:53:35+05:30",
+      "category": "Markets",
+      "summary": "Three OpenAI researchers were fired after the company found sensitive information had been handled outside established procedures, according to reports."
+    },
+    {
+      "title": "Tesla Q3 Deliveries Beat Estimates At 486,532 Vehicles, Europe Demand Recovers",
+      "excerpt": "Tesla's Q3 deliveries topped expectations, with 486,532 vehicles delivered as European demand recovered and analysts raised full-year forecasts.",
+      "url": "https://www.ndtvprofit.com/business/tesla-q3-deliveries-beat-estimates-at-486-532-vehicles-europe-demand-recovers-12131510#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/hq98ogfg_tesla_625x300_02_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-02T22:44:46+05:30",
+      "category": "Markets",
+      "summary": "Tesla's Q3 deliveries topped expectations, with 486,532 vehicles delivered as European demand recovered and analysts raised full-year forecasts."
     },
     {
       "title": "HDFC Bank ADRs Extend Rally, Jump 3% Pre",
@@ -123,16 +203,6 @@
       "summary": "Donald Trump is expected to name DNI chief Jay Clayton as the White House's AI czar, even as the administration weighs AI regulation and competition with China."
     },
     {
-      "title": "Why US stocks are rising: Nasdaq hits record after weaker jobs data cools rate-hike bets; Nike shares drop on forecast",
-      "excerpt": "US stocks rose, with the Nasdaq Composite hitting a record high after disappointing jobs data emerged. Lower Treasury yields and declining oil prices contributed to the positive market sentiment. Notable gains were obser",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-us-stocks-are-rising-nasdaq-hits-record-after-weaker-jobs-data-cools-rate-hike-bets-nike-shares-drop-on-forecast/articleshow/134642197.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-10-02T21:18:45+05:30",
-      "category": "Markets",
-      "summary": "US stocks rose, with the Nasdaq Composite hitting a record high after disappointing jobs data emerged. Lower Treasury yields and declining oil prices contributed to the positive market sentiment. Notable gains were obser"
-    },
-    {
       "title": "Diesel Diplomacy! Trump says Europe will release ‘massive amount’ of diesel as China cuts fuel exports",
       "excerpt": "Trump says Europe will release diesel reserves as China restricts fuel exports, adding pressure to a global market already facing supply disruptions.",
       "url": "https://www.livemint.com/economy/us-president-trump-says-europe-will-release-massive-amount-of-diesel-as-china-cuts-fuel-exports-amid-iran-war-11790952200117.html",
@@ -181,76 +251,6 @@
       "publishedAt": "2026-10-02T20:36:27+05:30",
       "category": "Markets",
       "summary": "India's six gold medals came across archery, boxing, wrestling and women's hockey, while sailing and sepaktakraw added bronze medals to the tally."
-    },
-    {
-      "title": "PNB Q2 Update: Global Business Crosses Rs 31 Lakh Crore, Advances Surge 14.8%",
-      "excerpt": "PNB's global business rose 12% year-on-year to Rs 31.2 lakh crore, while domestic business grew 10.8% from a year earlier to Rs 29.7 lakh crore.",
-      "url": "https://www.ndtvprofit.com/markets/pnb-q2-update-global-business-crosses-rs-31-lakh-crore-advances-surge-14-8-12131018#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://i.ndtvimg.com/i/2018-02/punjab-national-bank-pti_650x400_41518833290.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-02T20:34:47+05:30",
-      "category": "Markets",
-      "summary": "PNB's global business rose 12% year-on-year to Rs 31.2 lakh crore, while domestic business grew 10.8% from a year earlier to Rs 29.7 lakh crore."
-    },
-    {
-      "title": "Sleepless on Wall Street: All-night stock exchanges coming soon",
-      "excerpt": "US equity exchanges will begin extended trading hours with an overnight session from 9 p.m. to 4 a.m. starting December 6. The changes aim to cater to growing foreign investor interest and compete with crypto markets. Ho",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sleepless-on-wall-street-all-night-stock-exchanges-coming-soon/articleshow/134642205.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-10-02T20:29:09+05:30",
-      "category": "Markets",
-      "summary": "US equity exchanges will begin extended trading hours with an overnight session from 9 p.m. to 4 a.m. starting December 6. The changes aim to cater to growing foreign investor interest and compete with crypto markets. Ho"
-    },
-    {
-      "title": "700 Detained As Delhi, Mumbai See Protests Demanding Gyanesh Kumar's Resignation",
-      "excerpt": "AAP, Congress and Left outfit members joined the Delhi protest, while thousands gathered in Mumbai as the Election Commission faced criticism over the SIR exercise.",
-      "url": "https://www.ndtvprofit.com/india/700-detained-as-delhi-mumbai-see-protests-demanding-gyanesh-kumars-resignation-12130963#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/77f5uhfg_cjp-protests_625x300_02_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-02T20:19:16+05:30",
-      "category": "Markets",
-      "summary": "AAP, Congress and Left outfit members joined the Delhi protest, while thousands gathered in Mumbai as the Election Commission faced criticism over the SIR exercise."
-    },
-    {
-      "title": "Sumeet Bagadia's top 3 stocks to buy: HDFC Life, Cummins India, CG Power | Target, stoploss, Nifty, Bank Nifty outlook",
-      "excerpt": "Stock market outlook: Historically, in 2008, Nifty declined for seven consecutive weeks before witnessing a five-week positive move, Sumeet Bagadia says",
-      "url": "https://www.livemint.com/market/stock-market-news/sumeet-bagadias-top-3-stocks-to-buy-hdfc-life-cummins-india-cg-power-target-stoploss-nifty-bank-nifty-outlook-11790949673699.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/10/02/1600x900/logo/Sumeet_Bagadia_Stock_Share_Recommendations_today_1790950318701_v7UY_1790950318823_j3Cm_4596cbd4-eb64-40a0-9ddc-52f2f63c2bd1_0Mro.png",
-      "publishedAt": "2026-10-02T20:15:41+05:30",
-      "category": "Markets",
-      "summary": "Stock market outlook: Historically, in 2008, Nifty declined for seven consecutive weeks before witnessing a five-week positive move, Sumeet Bagadia says"
-    },
-    {
-      "title": "US Energy Push: Trump Says South Korea Deal Includes $8.4 Billion Oil Project",
-      "excerpt": "Trump says South Korea's deal with the US now includes $8.4 billion for enhanced oil recovery, adding to a broader investment package covering energy and infrastructure projects.",
-      "url": "https://www.ndtvprofit.com/world/us-energy-push-trump-says-south-korea-deal-includes-8-4-billion-oil-project-12131002#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/28e652e8_trump-_625x300_02_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-02T20:15:30+05:30",
-      "category": "Markets",
-      "summary": "Trump says South Korea's deal with the US now includes $8.4 billion for enhanced oil recovery, adding to a broader investment package covering energy and infrastructure projects."
-    },
-    {
-      "title": "Yuzvendra Chahal Announces Retirement From This Format: 'I Still Have Cricket Left In Me'",
-      "excerpt": "Chahal, who never played a Test for India, said his Test dream did not materialise but he remains determined to earn another chance in ODI and T20 cricket.",
-      "url": "https://www.ndtvprofit.com/sports/yuzvendra-chahal-announces-retirement-from-red-ball-cricket-i-still-have-cricket-left-in-me-12130286#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/il50dcgs_chahal_625x300_02_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-02T20:09:57+05:30",
-      "category": "Markets",
-      "summary": "Chahal, who never played a Test for India, said his Test dream did not materialise but he remains determined to earn another chance in ODI and T20 cricket."
-    },
-    {
-      "title": "Bets on US Federal Reserve rate hike in October fall as job market cools",
-      "excerpt": "Last month, the US economy added only 29,000 jobs, significantly below the economists’ forecast of 90,000 jobs. The unemployment rate rose to 4.2%, indicating a slight deterioration in the labor market. Traders decreased",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/bets-on-us-federal-reserve-rate-hike-in-october-fall-as-job-market-cools/articleshow/134640792.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-10-02T20:07:12+05:30",
-      "category": "Markets",
-      "summary": "Last month, the US economy added only 29,000 jobs, significantly below the economists’ forecast of 90,000 jobs. The unemployment rate rose to 4.2%, indicating a slight deterioration in the labor market. Traders decreased"
     }
   ]
 }
