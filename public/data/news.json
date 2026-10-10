@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-10-10T01:45:47+05:30",
+  "lastUpdated": "2026-10-10T05:44:48+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "CME feeder cattle hit 3-month peak after corn price plunge",
+      "excerpt": "USA-LIVESTOCK/:LIVESTOCK-CME feeder cattle hit 3-month peak after corn price plunge",
+      "url": "https://www.livemint.com/market/cme-feeder-cattle-hit-3-month-peak-after-corn-price-plunge-11791582473869.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-10-10T03:17:53+05:30",
+      "category": "Markets",
+      "summary": "USA-LIVESTOCK/:LIVESTOCK-CME feeder cattle hit 3-month peak after corn price plunge"
+    },
+    {
+      "title": "TSX posts biggest gain in five weeks as rate hike bets recede",
+      "excerpt": "TSX posts biggest gain in five weeks as rate hike bets recede",
+      "url": "https://www.livemint.com/market/tsx-posts-biggest-gain-in-five-weeks-as-rate-hike-bets-recede-11791578853104.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-10-10T02:17:32+05:30",
+      "category": "Markets",
+      "summary": "TSX posts biggest gain in five weeks as rate hike bets recede"
+    },
+    {
+      "title": "US stocks: US market posts weekly gains with earnings, inflation data on tap",
+      "excerpt": "Wall Street finished strong on Friday, fueled by optimism ahead of the third-quarter earnings reports from major players like Wells Fargo and Goldman Sachs. Analysts predict a notable growth in S&P 500 earnings year-over",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-posts-weekly-gains-with-earnings-inflation-data-on-tap/articleshow/134842368.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-10-10T01:39:34+05:30",
+      "category": "Markets",
+      "summary": "Wall Street finished strong on Friday, fueled by optimism ahead of the third-quarter earnings reports from major players like Wells Fargo and Goldman Sachs. Analysts predict a notable growth in S&P 500 earnings year-over"
+    },
     {
       "title": "Treasuries Slip on Inflation Worry as Energy Costs Stay High",
       "excerpt": "Treasuries slipped at the end of the week as still-elevated energy costs stoked concern about inflation and backed expectations for further Federal Reserve interest-rate increases.",
@@ -221,36 +251,6 @@
       "publishedAt": "2026-10-09T22:25:44+05:30",
       "category": "Economy",
       "summary": "Chief economic adviser V. Anantha Nageswaran called for tailoring loan overdue regulations to the actual cash-flow cycles of MSMEs rather than relying on rigid, uniform global standards.&nbsp;"
-    },
-    {
-      "title": "Ashoka Buildcon Receives Rs 290.23 Crore Order For North Eastern Railway Capacity Upgrade",
-      "excerpt": "Ashoka Buildcon will execute the project on an engineering, procurement and construction basis, covering the design, supply, installation, testing and commissioning of traction substations and associated switching posts",
-      "url": "https://www.ndtvprofit.com/markets/ashoka-buildcon-receives-rs-290-23-crore-order-for-north-eastern-railway-capacity-upgrade-12162944#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/f0iljgac_ashoka-buildcon-receives-rs-29023-crore-order-for-north-eastern-railway-capacity-upgrade_625x300_09_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-09T22:21:56+05:30",
-      "category": "Markets",
-      "summary": "Ashoka Buildcon will execute the project on an engineering, procurement and construction basis, covering the design, supply, installation, testing and commissioning of traction substations and associated switching posts"
-    },
-    {
-      "title": "Trump Teases 'Big Announcement' On Diesel As US Fuel Prices Surge 70%",
-      "excerpt": "Donald Trump has promised a major announcement on diesel as US prices climb 70% since the Iran war began, with fuel costs emerging as a key concern ahead of November's midterm elections.",
-      "url": "https://www.ndtvprofit.com/world/trump-teases-big-announcement-on-diesel-as-us-fuel-prices-surge-70-12163537#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-02/1io9gg0g_donald-trump_625x300_20_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-09T22:21:50+05:30",
-      "category": "Markets",
-      "summary": "Donald Trump has promised a major announcement on diesel as US prices climb 70% since the Iran war began, with fuel costs emerging as a key concern ahead of November's midterm elections."
-    },
-    {
-      "title": "Bank Holiday In Delhi: Are Banks Open Or Closed On Saturday, Oct 10? Check Here",
-      "excerpt": "Banks remain open on the first, third, and fifth Saturdays of the month, except when those days coincide with national, religious, or regional holidays.",
-      "url": "https://www.ndtvprofit.com/business/bank-holiday-in-delhi-are-banks-open-or-closed-on-saturday-oct-10-check-here-12163530#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/4130qvc8_bb_625x300_09_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-09T22:19:03+05:30",
-      "category": "Markets",
-      "summary": "Banks remain open on the first, third, and fifth Saturdays of the month, except when those days coincide with national, religious, or regional holidays."
     }
   ]
 }
