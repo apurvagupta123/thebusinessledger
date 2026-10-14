@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-15T02:01:19+05:30",
+  "lastUpdated": "2026-10-15T05:17:24+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Copper Edges Lower After World’s Biggest Mine Averts Strike",
+      "excerpt": "Copper slipped after BHP Group’s Escondida mine in Chile, the world’s largest, averted a strike that would have tightened supply as the industry struggles to keep pace with demand from data centers and power grids.",
+      "url": "https://www.livemint.com/market/copper-edges-lower-after-world-s-biggest-mine-averts-strike-11792019456152.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-10-15T04:40:55+05:30",
+      "category": "Markets",
+      "summary": "Copper slipped after BHP Group’s Escondida mine in Chile, the world’s largest, averted a strike that would have tightened supply as the industry struggles to keep pace with demand from data centers and power grids."
+    },
     {
       "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
       "excerpt": "USA-STOCKS/ (UPDATE 6, GRAPHIC):US STOCKS-Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
@@ -214,7 +224,7 @@
     },
     {
       "title": "IDBI Bank Sale: FM Sitharaman Hits Back At Akhilesh Yadav's 'Season End Sale' Jibe",
-      "excerpt": "Finance Minister Nirmala Sitharaman hit back strongly, accusing the opposition of shedding \"crocodile tears\" and reminding Yadav of the legacy of non-performing assets (NPAs) left behind by the Congress-led United Progre",
+      "excerpt": "FM Sitharaman hit back strongly, accusing the opposition of shedding \"crocodile tears\" and reminding Yadav of the legacy of non-performing assets or bad loans left behind by the Congress-led UPA government, which his par",
       "url": "https://www.ndtvprofit.com/business/idbi-bank-sale-fm-sitharaman-hits-back-at-akhilesh-yadavs-season-end-sale-jibe-12186566#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-09/k13jt668_nirmala-sitharaman_625x300_25_September_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
@@ -241,16 +251,6 @@
       "publishedAt": "2026-10-14T22:55:41+05:30",
       "category": "Markets",
       "summary": "Tata Technologies' EBIT fell 1.2% to Rs 219 crore, while margin contracted."
-    },
-    {
-      "title": "Q2 Results Highlights: MRPL Profit Doubles, ICICI Lombard Profit Rises 15%, Declares Dividend",
-      "excerpt": "Q2 Results Highlights: BHEL, CEAT, Aditya Birla Money, and Canara Bank among 27 companies announced their Q2 FY27 earnings today, October 14. Track every earnings update live on NDTV Profit.",
-      "url": "https://www.ndtvprofit.com/markets/q2-results-live-updates-bhel-canara-bank-icici-lombard-groww-ceat-among-27-companies-to-announce-earnings-today-12182538#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/ufg8ie5_q2-results-live-market-blog_625x300_12_October_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-14T22:54:40+05:30",
-      "category": "Markets",
-      "summary": "Q2 Results Live: BHEL, CEAT, Aditya Birla Money, and Canara Bank among 27 companies set to announce their Q2 FY27 earnings today, October 14. Track every earnings update live on NDTV Profit."
     }
   ]
 }
