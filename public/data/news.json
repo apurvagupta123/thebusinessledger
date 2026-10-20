@@ -1,16 +1,166 @@
 {
-  "lastUpdated": "2026-10-20T22:18:42+05:30",
+  "lastUpdated": "2026-10-21T01:50:37+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "US Eyes India's Reliance To Refine Venezuelan Oil",
-      "excerpt": "Describing India as \"a refining superpower\", Rubio said the country has the capacity to handle Venezuelan crude, which is heavy and waxy and difficult to process.",
-      "url": "https://www.ndtvprofit.com/markets/us-eyes-indias-reliance-to-refine-venezuelan-oil-12212083#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-08/04vgdjoo_crude-oil-extraction-_625x300_08_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T22:01:24+05:30",
+      "title": "Dollar dips as traders weigh Iran, AI risks",
+      "excerpt": "GLOBAL-FOREX/ (UPDATE 5):FOREX-Dollar dips as traders weigh Iran, AI risks",
+      "url": "https://www.livemint.com/market/dollar-dips-as-traders-weigh-iran-ai-risks-11792522097761.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-10-21T00:18:17+05:30",
       "category": "Markets",
-      "summary": "Describing India as \"a refining superpower\", Rubio said the country has the capacity to handle Venezuelan crude, which is heavy and waxy and difficult to process."
+      "summary": "GLOBAL-FOREX/ (UPDATE 5):FOREX-Dollar dips as traders weigh Iran, AI risks"
+    },
+    {
+      "title": "US yields ease off lows as stocks rally",
+      "excerpt": "USA-BONDS/ (UPDATE 1, GRAPHICS):TREASURIES-US yields ease off lows as stocks rally",
+      "url": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-10-21T00:15:18+05:30",
+      "category": "Markets",
+      "summary": "USA-BONDS/ (UPDATE 1, GRAPHICS):TREASURIES-US yields ease off lows as stocks rally"
+    },
+    {
+      "title": "Dividend, stock split, buyback: Last chance to buy today",
+      "excerpt": "Investors will track several corporate actions on October 21. VRL Logistics moved its buyback record date to October 22, 2026; JSW Dulux set the same date for its proposed 1:10 stock split. Tips Music announced a ₹6.50 i",
+      "url": "https://www.livemint.com/market/stock-market-news/dividend-stock-split-buyback-last-chance-to-buy-today-vrl-logistics-jsw-dulux-angel-one-shares-11792511128048.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/10/20/1600x900/logo/Corporate_actions_1792518527391_XpSM_1792518535458_3xen_66f2497d-71e4-4e05-8a4e-a9bc48d1ffe2_O3FJ.png",
+      "publishedAt": "2026-10-20T23:55:50+05:30",
+      "category": "Markets",
+      "summary": "Investors will track several corporate actions on October 21. VRL Logistics moved its buyback record date to October 22, 2026; JSW Dulux set the same date for its proposed 1:10 stock split. Tips Music announced a ₹6.50 i"
+    },
+    {
+      "title": "Harmanpreet Kaur Breaks Smriti Mandhana's Record With Explosive 91 Against Zimbabwe",
+      "excerpt": "Shafali Verma smashed 69 off 37 balls before Harmanpreet's unbeaten knock powered India to a 92-run victory and a 3-0 series sweep.",
+      "url": "https://www.ndtvprofit.com/sports/harmanpreet-kaur-breaks-smriti-mandhanas-record-with-explosive-91-against-zimbabwe-12212436#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/7f1ok5dg_bcci_625x300_20_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T23:49:09+05:30",
+      "category": "Markets",
+      "summary": "Shafali Verma smashed 69 off 37 balls before Harmanpreet's unbeaten knock powered India to a 92-run victory and a 3-0 series sweep."
+    },
+    {
+      "title": "Gold Wavers As Traders Weigh US",
+      "excerpt": "Bullion swung between a gain of 0.4% and a loss of 0.7%.",
+      "url": "https://www.ndtvprofit.com/markets/gold-wavers-as-traders-weigh-us-iran-talks-fed-rate-path-12212083#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/sit7k92g_gold-bullion-bbg_625x300_07_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T23:26:14+05:30",
+      "category": "Markets",
+      "summary": "Bullion swung between a gain of 0.4% and a loss of 0.7%."
+    },
+    {
+      "title": "Copper stays range bound as US tariff uncertainty, oil inflation risks weigh",
+      "excerpt": "Copper prices remained range bound as uncertainty over potential US tariffs and inflation risks from higher oil prices kept traders cautious. China’s copper scrap shortage supported refined copper demand, while record hi",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/copper-stays-range-bound-as-us-tariff-uncertainty-oil-inflation-risks-weigh/articleshow/135074839.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-10-20T23:24:33+05:30",
+      "category": "Markets",
+      "summary": "Copper prices remained range bound as uncertainty over potential US tariffs and inflation risks from higher oil prices kept traders cautious. China’s copper scrap shortage supported refined copper demand, while record hi"
+    },
+    {
+      "title": "Festive E-Commerce Season Off To Strong Start, Flipkart DAUs Hit New High: BofA Report",
+      "excerpt": "Non-metro shoppers and first-time users were the key drivers of demand across horizontal platforms.",
+      "url": "https://www.ndtvprofit.com/business/festive-e-commerce-season-off-to-strong-start-flipkart-daus-hit-new-high-bofa-report-12212306#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-09/h4djr7ns_ecommerce_625x300_06_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T23:03:46+05:30",
+      "category": "Markets",
+      "summary": "Non-metro shoppers and first-time users were the key drivers of demand across horizontal platforms."
+    },
+    {
+      "title": "Two Men Rearrested In UK On Suspicion Of Assisting Iran Over Suspected Plot At US",
+      "excerpt": "The men were earlier arrested but bailed pending more investigation.",
+      "url": "https://www.ndtvprofit.com/world/two-men-rearrested-in-uk-on-suspicion-of-assisting-iran-over-suspected-plot-at-us-run-air-base-12212286#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-08/3fun5hrg_arrest_625x300_28_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:59:48+05:30",
+      "category": "Markets",
+      "summary": "The men were earlier arrested but bailed pending more investigation."
+    },
+    {
+      "title": "Marco Jansen Creates History Against Australia With 85, Breaks 60-Year",
+      "excerpt": "South Africa recovered from 110/6 to post 425/9 before declaring, with Jansen and Bavuma leading the fightback against Australia's bowling attack.",
+      "url": "https://www.ndtvprofit.com/sports/marco-jansen-creates-history-against-australia-with-85-breaks-60-year-old-record-12212261#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/os60g3ic_marco_625x300_20_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:51:41+05:30",
+      "category": "Markets",
+      "summary": "South Africa recovered from 110/6 to post 425/9 before declaring, with Jansen and Bavuma leading the fightback against Australia's bowling attack."
+    },
+    {
+      "title": "Braze stock surges over 50% after Salesforce announces $5.66 billion acquisition",
+      "excerpt": "Salesforce agreed to acquire Braze for about $5.66 billion, offering $47.50 per share—a 58.1% premium. Braze shares surged 52% to $45.59. The all-cash deal, expected to close in fiscal 2028 pending approvals, would expan",
+      "url": "https://www.livemint.com/market/stock-market-news/braze-stock-surges-over-50-after-salesforce-announces-5-66-billion-acquisition-11792516251172.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/10/20/1600x900/logo/US-STOCKS-13_1763911363455_1763911398783_1792516549640_NknK_f913f7ba-2149-4e90-b953-13ea262a189a_RNVy.jpg",
+      "publishedAt": "2026-10-20T22:51:01+05:30",
+      "category": "Markets",
+      "summary": "Salesforce agreed to acquire Braze for about $5.66 billion, offering $47.50 per share—a 58.1% premium. Braze shares surged 52% to $45.59. The all-cash deal, expected to close in fiscal 2028 pending approvals, would expan"
+    },
+    {
+      "title": "Three Reasons Why US Market Is Rallying: Dow Soars 400 Points; S&P, Nasdaq In Green",
+      "excerpt": "Wall Street gains as upbeat earnings from 3M and Northrop Grumman, easing crude oil prices and a recovery in AI chip stocks lift investor sentiment despite lingering concerns over AI spending.",
+      "url": "https://www.ndtvprofit.com/markets/three-reasons-why-us-market-is-rallying-dow-soars-400-points-s-p-nasdaq-in-green-12212132#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/4a6q47a4_wall-street_625x300_13_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:46:57+05:30",
+      "category": "Markets",
+      "summary": "Wall Street gains as upbeat earnings from 3M and Northrop Grumman, easing crude oil prices and a recovery in AI chip stocks lift investor sentiment despite lingering concerns over AI spending."
+    },
+    {
+      "title": "US Housing Starts Fall To One Of The Worst Paces Since Pandemic",
+      "excerpt": "The report showed new construction on multifamily projects, which include apartments and can be volatile on a monthly basis, fell nearly 7%.",
+      "url": "https://www.ndtvprofit.com/world/us-housing-starts-fall-to-one-of-the-worst-paces-since-pandemic-12212232#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/g5ntrttk_housing_625x300_20_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:41:17+05:30",
+      "category": "Markets",
+      "summary": "The report showed new construction on multifamily projects, which include apartments and can be volatile on a monthly basis, fell nearly 7%."
+    },
+    {
+      "title": "Netflix Needs Blockbusters To Reverse Its $135 Billion Wipeout",
+      "excerpt": "Netflix won the fewest Emmy Awards in a decade this year, and the company isn't growing fast enough.",
+      "url": "https://www.ndtvprofit.com/business/netflix-needs-blockbusters-to-reverse-its-135-billion-wipeout-12212171#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/1b7tffcs_netflix_625x300_20_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:26:47+05:30",
+      "category": "Markets",
+      "summary": "Netflix won the fewest Emmy Awards in a decade this year, and the company isn't growing fast enough."
+    },
+    {
+      "title": "MS Dhoni Was Made India Captain At 26: Harbhajan Singh Reveals Why Seniors Had No Problem",
+      "excerpt": "Dhoni was handed the captaincy at 26 ahead of senior players such as Yuvraj Singh and Virender Sehwag, but Harbhajan has dismissed suggestions of dressing room friction.",
+      "url": "https://www.ndtvprofit.com/sports/ms-dhoni-was-made-india-captain-at-26-harbhajan-singh-reveals-why-seniors-had-no-problem-12212115#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/hankhh2k_dhoni_625x300_20_October_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:18:55+05:30",
+      "category": "Markets",
+      "summary": "Dhoni was handed the captaincy at 26 ahead of senior players such as Yuvraj Singh and Virender Sehwag, but Harbhajan has dismissed suggestions of dressing room friction."
+    },
+    {
+      "title": "Salesforce To Buy Marketing Platform Braze For $5.7 Billion",
+      "excerpt": "Salesforce shares fell less than 1% at 10:08 a.m. in New York, paring earlier losses.",
+      "url": "https://www.ndtvprofit.com/business/salesforce-to-buy-marketing-platform-braze-for-5-7-billion-12212125#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/r6mq1gfc_salesforce_625x300_20_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:13:34+05:30",
+      "category": "Markets",
+      "summary": "Salesforce shares fell less than 1% at 10:08 a.m. in New York, paring earlier losses."
+    },
+    {
+      "title": "Amazon To Hire Over 300,000 In Holiday Season, Up 20% From 2025",
+      "excerpt": "Seasonal hiring for logistics and warehouse companies will be about flat from a year ago, Challenger, Gray and Christmas estimated.",
+      "url": "https://www.ndtvprofit.com/business/amazon-to-hire-over-300-000-in-holiday-season-up-20-from-2025-12212105#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/45dfk0o_amazon_625x300_20_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-20T22:07:13+05:30",
+      "category": "Markets",
+      "summary": "Seasonal hiring for logistics and warehouse companies will be about flat from a year ago, Challenger, Gray and Christmas estimated."
     },
     {
       "title": "Brent Swings As Traders Parse Reports On Status Of US",
@@ -101,156 +251,6 @@
       "publishedAt": "2026-10-20T21:30:01+05:30",
       "category": "Markets",
       "summary": "With Erling Haaland leading Manchester City's attack, the Premier League side will look to make home advantage count against AEK Athens. Find out when the match kicks off and how to watch the Champions League fixture liv"
-    },
-    {
-      "title": "Liverpool Vs  Villarreal Live Streaming: Likely Lineups; How To Watch Champions League Match?",
-      "excerpt": "Liverpool will host Villarreal at Anfield in a Matchday 3 clash of the Champions League league phase. Check the match date, kick-off time, likely lineups and where to watch the game live in India.",
-      "url": "https://www.ndtvprofit.com/sports/liverpool-vs-villarreal-live-streaming-likely-lineups-how-to-watch-champions-league-match-12209694#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/mqo6v6go_liverpool_625x300_20_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T21:30:01+05:30",
-      "category": "Markets",
-      "summary": "Liverpool will host Villarreal at Anfield in a Matchday 3 clash of the Champions League league phase. Check the match date, kick-off time, likely lineups and where to watch the game live in India."
-    },
-    {
-      "title": "PSG Vs Barcelona Live Streaming: Likely Lineups; How To Watch Champions League Match?",
-      "excerpt": "European giants PSG and Barcelona lock horns in a blockbuster Champions League clash as both sides look to continue their winning run.",
-      "url": "https://www.ndtvprofit.com/sports/psg-vs-barcelona-live-streaming-likely-lineups-how-to-watch-champions-league-match-12206028#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/16gjnuqc_barca_625x300_20_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T21:30:01+05:30",
-      "category": "Markets",
-      "summary": "European giants PSG and Barcelona lock horns in a blockbuster Champions League clash as both sides look to continue their winning run."
-    },
-    {
-      "title": "OpenAI Upgrades ChatGPT Slides With Live Teamwork, Comments And PowerPoint Export",
-      "excerpt": "OpenAI has upgraded ChatGPT Slides with real-time collaboration, comments and direct on-slide editing. Teams can now tag ChatGPT, or their Dots agent, to turn feedback into changes, then export decks to PowerPoint or Goo",
-      "url": "https://www.ndtvprofit.com/technology/openai-upgrades-chatgpt-slides-with-live-teamwork-comments-and-powerpoint-export-12211708#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/spi2h03c_cahtgpt_625x300_20_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T21:10:06+05:30",
-      "category": "Markets",
-      "summary": "OpenAI has upgraded ChatGPT Slides with real-time collaboration, comments and direct on-slide editing. Teams can now tag ChatGPT, or their Dots agent, to turn feedback into changes, then export decks to PowerPoint or Goo"
-    },
-    {
-      "title": "Tiger Shroff Was Not The Original Target Of Bishnoi Gang Shooters: Report",
-      "excerpt": "The three men accused of firing at Tiger Shroff's car came to Mumbai to target another high-profile person, sources said. They allegedly switched to Shroff after learning from fan videos that he had no police protection.",
-      "url": "https://www.ndtvprofit.com/india/tiger-shroff-was-not-the-original-target-of-bishnoi-gang-shooters-report-12211830#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/nh8p7mq8_tiger-shroff_625x300_20_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T21:07:27+05:30",
-      "category": "Markets",
-      "summary": "The three men accused of firing at Tiger Shroff's car came to Mumbai to target another high-profile person, sources said. They allegedly switched to Shroff after learning from fan videos that he had no police protection."
-    },
-    {
-      "title": "Can A Single Selfie Predict Cancer Survival? New AI Tool Says Yes",
-      "excerpt": "Researchers noted that each tool evaluates different regions of the face. FAHR-FaceAge focuses on the forehead, temples, and cheek-to-mouth creases, whereas FAHR-FaceSurvival analyses the areas beneath the eyes and aroun",
-      "url": "https://www.ndtvprofit.com/science/can-a-single-selfie-predict-cancer-survival-new-ai-tool-says-yes-12211389#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/p9oh72rs_cancer_625x300_20_October_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T21:00:19+05:30",
-      "category": "Markets",
-      "summary": "Researchers noted that each tool evaluates different regions of the face. FAHR-FaceAge focuses on the forehead, temples, and cheek-to-mouth creases, whereas FAHR-FaceSurvival analyses the areas beneath the eyes and aroun"
-    },
-    {
-      "title": "Wall Street rebounds from lows as upbeat earnings, falling oil prices lift sentiment; Micron, Intel up 2%",
-      "excerpt": "US stocks recovered from early losses as strong corporate earnings and falling oil prices offset concerns about AI-related shares. Major indexes rose, while chip stocks posted modest gains. Investors are watching upcomin",
-      "url": "https://www.livemint.com/market/stock-market-news/wall-street-rebounds-from-lows-as-upbeat-earnings-falling-oil-prices-lift-sentiment-micron-intel-up-2-11792507459852.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/10/20/1600x900/logo/US-MARKETS-OPEN-AFTER-DOW-LOSES-NEARLY-900-POINTS-_1742189741876_1792509381335_PgsB_7d0546d8-6628-44db-ba70-834e68a20263_Z2pA.jpg",
-      "publishedAt": "2026-10-20T20:51:19+05:30",
-      "category": "Markets",
-      "summary": "US stocks recovered from early losses as strong corporate earnings and falling oil prices offset concerns about AI-related shares. Major indexes rose, while chip stocks posted modest gains. Investors are watching upcomin"
-    },
-    {
-      "title": "Sam Altman Avoids Trial As US Judge Dismisses Sister's Sexual Abuse Lawsuit",
-      "excerpt": "The Altman family has said Annie Altman has mental health challenges and received financial support, and Sam Altman has said she began accusing him after the family rejected her demands for more money",
-      "url": "https://www.ndtvprofit.com/world/sam-altman-avoids-trial-as-us-judge-dismisses-sisters-sexual-abuse-lawsuit-12211817#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/gins506o_sam-altman_625x300_20_October_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T20:47:14+05:30",
-      "category": "Markets",
-      "summary": "The Altman family has said Annie Altman has mental health challenges and received financial support, and Sam Altman has said she began accusing him after the family rejected her demands for more money"
-    },
-    {
-      "title": "End Of Chokepoint? HSBC CEO Sees Gulf Pipeline Boom Rendering Hormuz Obsolete By 2031",
-      "excerpt": "The Middle East, North Africa and Turkey region currently has $872 billion worth of individual projects on offer, forming part of a broader $1.4 trillion infrastructure pipeline.",
-      "url": "https://www.ndtvprofit.com/world/end-of-chokepoint-hsbc-ceo-sees-gulf-pipeline-boom-rendering-hormuz-obsolete-by-2031-12211800#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/sfv0ta5o_hormuz_625x300_14_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T20:43:16+05:30",
-      "category": "Markets",
-      "summary": "The Middle East, North Africa and Turkey region currently has $872 billion worth of individual projects on offer, forming part of a broader $1.4 trillion infrastructure pipeline."
-    },
-    {
-      "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
-      "excerpt": "Ahead of Market: 10 things that will decide stock market action on Wednesday The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdm5jTmpBZ19HVWpKclpZYlBkbmtvbVRJbmpHNXFuTm1ranl4VGs2d2pSN1pDSDQySEtKNVBUSkdPaWN4WGRMSXFFYTYyNUt6VzhzM1cyRDE1Z3MwS2VNQXh1d212RXBaMlZDbW9wVWd0RHE2aGJ5ai1nWERRNmwzTjJNbUZtN3FmTl9aTnRKdmtnRkRleDl5SWlWeC1lR0FBZEtwMm9DUndPZjY3WmxQVjdMWDN2bHFWdERvTTdmQ0NJNmt5Z0l3QmlfZG5fOVlETjRNODdBei1ST1dyU1NNazJlMNIB6AFBVV95cUxOdlNKZ0dZSm4wUUw3SzlWVTVHN2tTeUsxbkFickxxX09SazY5UWwwNEh2MnV3R2lISGlnNDRFUW1iV0piWGJBU0ItNGNhSWk3WkZKZVIwZDRkUERfRzAzT2hYUTkxb0ktTVVBME1BV2twZlB3SktzS3J5RHBCMkRwWmNBeXJFcS03anpCWUllc2xNUEcyRGVVdXZKSzZBekJqcTkzQkx6cVB2R0EzQmRxVmZhUnhST3pMbGpHd2FqTDRMTnpaNXV4cUhmRk92cmhvMlpBSGEzaHdBYjZZVkFEQVJiWWZTYXNf?oc=5",
-      "source": "The Economic Times",
-      "image": null,
-      "publishedAt": "2026-10-20T20:42:11+05:30",
-      "category": "Markets",
-      "summary": "Ahead of Market: 10 things that will decide stock market action on Wednesday The Economic Times"
-    },
-    {
-      "title": "Al-Nassr vs NEOM SC Live Streaming: Likely Lineups; Where To Watch Saudi Pro League Match Online?",
-      "excerpt": "Al Nassr sit third in the Saudi Pro League standings, while NEOM SC occupy fifth place ahead of their Matchweek 10 encounter. Check the teams' recent league form, head-to-head record, likely lineups and where to watch th",
-      "url": "https://www.ndtvprofit.com/sports/al-nassr-vs-neom-sc-live-streaming-how-to-watch-cristiano-ronaldo-in-action-in-india-12209820#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/a6c8qgvo_ronaldo_625x300_20_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T20:30:01+05:30",
-      "category": "Markets",
-      "summary": "Al Nassr sit third in the Saudi Pro League standings, while NEOM SC occupy fifth place ahead of their Matchweek 10 encounter. Check the teams' recent league form, head-to-head record, likely lineups and where to watch th"
-    },
-    {
-      "title": "AI Chip Stocks Lead Wall Street Recovery After Oil Retreat; Intel, AMD, CoreWeave Among Top Gainers",
-      "excerpt": "Micron Technology rose 1.17% to $915.50, while Intel gained 0.44% to $92.40.",
-      "url": "https://www.ndtvprofit.com/markets/ai-chip-stocks-lead-wall-street-recovery-after-oil-retreat-intel-amd-coreweave-among-top-gainers-12211731#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-01/44e916b6_Stock-Market-Freepik.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T20:27:30+05:30",
-      "category": "Markets",
-      "summary": "Micron Technology rose 1.17% to $915.50, while Intel gained 0.44% to $92.40."
-    },
-    {
-      "title": "iPhone Duo Shortage In India: Only 6,000 Units Expected In First Week; Grey",
-      "excerpt": "Limited stock of Apple’s iPhone Duo in India is reportedly driving buyers to grey-market sellers, who are charging up to Rs 50,000 over the official Rs 2,99,900 price ahead of the October 23 sale.",
-      "url": "https://www.ndtvprofit.com/technology/iphone-duo-shortage-hits-india-only-6-000-units-expected-in-first-week-grey-market-prices-soar-12211447#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/uj41gh6c_iphone-duo_625x300_15_October_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-20T20:17:57+05:30",
-      "category": "Markets",
-      "summary": "Limited stock of Apple’s iPhone Duo in India is reportedly driving buyers to grey-market sellers, who are charging up to Rs 50,000 over the official Rs 2,99,900 price ahead of the October 23 sale."
-    },
-    {
-      "title": "Big-ticket IPOs have struggled to deliver bumper listing gains. Can Mukesh Ambani backed Reliance Jio buck the trend?",
-      "excerpt": "Several of India’s biggest IPOs, including those of Hyundai Motor India, LIC and Paytm, delivered weak or modest listing gains. Jio Platforms may break that pattern: anchor investors showed strong demand and its grey mar",
-      "url": "https://www.livemint.com/market/stock-market-news/bigticket-ipos-have-struggled-to-deliver-bumper-listing-gains-can-mukesh-ambani-backed-reliance-jio-buck-the-trend-11792505293980.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/10/20/1600x900/maxresdefault_1792510431743_4EPe_1792510438400_iAYT_dd6e9714-cf9e-4554-80e0-4e42c2cccbd0_6pab.jpg",
-      "publishedAt": "2026-10-20T19:57:56+05:30",
-      "category": "Markets",
-      "summary": "Several of India’s biggest IPOs, including those of Hyundai Motor India, LIC and Paytm, delivered weak or modest listing gains. Jio Platforms may break that pattern: anchor investors showed strong demand and its grey mar"
-    },
-    {
-      "title": "Jio IPO has lenders, brokerages pushing retail participation with loans, marketing reach out",
-      "excerpt": "After attracting global institutions as anchor investors, Jio Platforms is next targeting retail buyers in India’s largest IPO. Non-banks and brokerages are into a marketing overdrive and offering short-term financing am",
-      "url": "https://www.livemint.com/market/india-jio-ipo-lenders-brokerages-push-retail-participation-with-loans-marketing-11792473742375.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/10/20/1600x900/logo/Jio_1792434199780_djM7_1792434200023_zK8X_d602ff13_1792503281309_sb2v_1792503281536_TvAG_1548ea9e-c8d7-4c06-908d-4611ae7ba8e6_lQ5E.JPG",
-      "publishedAt": "2026-10-20T19:18:53+05:30",
-      "category": "Markets",
-      "summary": "After attracting global institutions as anchor investors, Jio Platforms is next targeting retail buyers in India’s largest IPO. Non-banks and brokerages are into a marketing overdrive and offering short-term financing am"
-    },
-    {
-      "title": "US stocks today: US stocks gain as healthcare stocks hit record high, oil prices fall",
-      "excerpt": "Wall Street's main indexes saw increases driven by a rally in healthcare stocks that reached record highs. Easing oil prices contributed to a recovery from the previous week's technology led selloff. Major companies like",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-lower-as-ai-stocks-decline-oil-prices-rise/articleshow/135071224.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-10-20T19:09:30+05:30",
-      "category": "Markets",
-      "summary": "Wall Street's main indexes saw increases driven by a rally in healthcare stocks that reached record highs. Easing oil prices contributed to a recovery from the previous week's technology led selloff. Major companies like"
     }
   ]
 }
