@@ -1,7 +1,87 @@
 {
-  "lastUpdated": "2026-10-29T00:30:53+05:30",
+  "lastUpdated": "2026-10-29T04:56:01+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Canadian Oil Discount Exceeds $30 Amid Gulf Coast Pressures",
+      "excerpt": "Heavy crude oil in Alberta has weakened to the lowest price relative to US futures in more than four years.",
+      "url": "https://www.livemint.com/market/canadian-oil-discount-exceeds-30-amid-gulf-coast-pressures-11793217749090.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-10-29T01:32:28+05:30",
+      "category": "Markets",
+      "summary": "Heavy crude oil in Alberta has weakened to the lowest price relative to US futures in more than four years."
+    },
+    {
+      "title": "Anthropic Is Said To Plan UK Share Offering Via RetailBook",
+      "excerpt": "Anthropic will follow Elon Musk's SpaceX in bypassing the need for a UK prospectus by using the country's \"public offer platform.\"",
+      "url": "https://www.ndtvprofit.com/markets/anthropic-is-said-to-plan-uk-share-offering-via-retailbook-12250975#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/3p07l354_anthropic_625x300_29_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-29T01:25:23+05:30",
+      "category": "Markets",
+      "summary": "Anthropic will follow Elon Musk's SpaceX in bypassing the need for a UK prospectus by using the country's \"public offer platform.\""
+    },
+    {
+      "title": "US Fed Meeting Highlights: FOMC Holds Rates Steady Despite Concerns Over Inflation; Warsh Makes Changes In Annual Meetings",
+      "excerpt": "US Fed Meeting Live Updates: Track the Fed's rate decision, Kevin Warsh's comments and the impact on the US dollar, Wall Street and global markets.",
+      "url": "https://www.ndtvprofit.com/economy/us-fed-meeting-live-updates-interest-rate-decision-kevin-warsh-speech-market-reaction-12249030#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/taqt4l6k_feds-kevin-warsh_625x300_28_October_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-29T01:20:33+05:30",
+      "category": "Markets",
+      "summary": "US Fed Meeting Live Updates: Track the Fed's rate decision, Kevin Warsh's comments and the impact on the US dollar, Wall Street and global markets."
+    },
+    {
+      "title": "Warsh-Led FOMC To Reduce Rate-Setting Meetings From 2027 Despite Inflation Fight: Five Key Highlights",
+      "excerpt": "Warsh avoided committing to a particular course of action for the December meeting, saying the Fed's decisions would remain dependent on incoming data.",
+      "url": "https://www.ndtvprofit.com/markets/us-fed-chair-kevin-warsh-changes-future-fomc-meetings-as-number-of-rate-setting-meetings-to-reduce-from-2027-12250913#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/71gurglk_feds-kevin-warsh_625x300_29_October_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-10-29T01:16:58+05:30",
+      "category": "Markets",
+      "summary": "Warsh avoided committing to a particular course of action for the December meeting, saying the Fed's decisions would remain dependent on incoming data."
+    },
+    {
+      "title": "Explained: Why US Fed Reserve decided to not hike rate after FOMC meeting? What Chair Kevin Warsh said in press speech",
+      "excerpt": "The Federal Reserve held interest rates at 3.75%–4% in a 10–2 vote, citing resilient economic activity and persistent inflation. Chair Kevin Warsh said policymakers remain focused on returning inflation to the 2% target ",
+      "url": "https://www.livemint.com/market/stock-market-news/explained-why-us-fed-reserve-decided-to-not-hike-rate-after-fomc-meeting-what-chair-kevin-warsh-said-in-press-speech-11793215854245.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/10/28/1600x900/logo/Fed_Rate_Decision_Explained_1793216159243_RBBm_1793216166026_zSST_58dba4f2-2b63-485f-a888-726432ed04e4_cnZA.png",
+      "publishedAt": "2026-10-29T01:06:42+05:30",
+      "category": "Markets",
+      "summary": "The Federal Reserve held interest rates at 3.75%–4% in a 10–2 vote, citing resilient economic activity and persistent inflation. Chair Kevin Warsh said policymakers remain focused on returning inflation to the 2% target "
+    },
+    {
+      "title": "US Short-End Yields Fall After Warsh Signals Fewer Fed Meetings",
+      "excerpt": "Short-dated US Treasury yields and the dollar fell after Federal Reserve Chairman Kevin Warsh said officials will have fewer interest-rate setting meetings starting next year.",
+      "url": "https://www.livemint.com/market/us-short-end-yields-fall-after-warsh-signals-fewer-fed-meetings-11793215570359.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-10-29T00:56:09+05:30",
+      "category": "Markets",
+      "summary": "Short-dated US Treasury yields and the dollar fell after Federal Reserve Chairman Kevin Warsh said officials will have fewer interest-rate setting meetings starting next year."
+    },
+    {
+      "title": "Wendy’s draws buyout bid as beef costs and burger rivalry weigh on business",
+      "excerpt": "Wendy’s shares jump after Nelson Peltz’s Trian Fund Management offers $7.35 per share to take the burger chain private, as the company faces high beef costs, weaker consumer demand, store closures and intensifying compet",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wendys-draws-buyout-bid-as-beef-costs-and-burger-rivalry-weigh-on-business/articleshow/135278283.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-10-29T00:31:05+05:30",
+      "category": "Markets",
+      "summary": "Wendy’s shares jump after Nelson Peltz’s Trian Fund Management offers $7.35 per share to take the burger chain private, as the company faces high beef costs, weaker consumer demand, store closures and intensifying compet"
+    },
+    {
+      "title": "Wall Street mostly rises as Fed holds key rate steady, deferring next likely hike to December",
+      "excerpt": "USA-STOCKS/ (UPDATE 6, GRAPHIC):US STOCKS-Wall Street mostly rises as Fed holds key rate steady, deferring next likely hike to December",
+      "url": "https://www.livemint.com/market/wall-street-mostly-rises-as-fed-holds-key-rate-steady-deferring-next-likely-hike-to-december-11793213973901.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-10-29T00:29:33+05:30",
+      "category": "Markets",
+      "summary": "USA-STOCKS/ (UPDATE 6, GRAPHIC):US STOCKS-Wall Street mostly rises as Fed holds key rate steady, deferring next likely hike to December"
+    },
     {
       "title": "How can US Fed FOMC meeting outcome impact Indian stock market? Sensex, Nifty to rise? Experts decode",
       "excerpt": "The US Federal Reserve held rates steady, but that may not be enough to lift Indian equities. Experts say the decision was already priced in, while crude oil near $115 a barrel, rising US bond yields, rupee weakness and ",
@@ -11,16 +91,6 @@
       "publishedAt": "2026-10-29T00:16:28+05:30",
       "category": "Markets",
       "summary": "The US Federal Reserve held rates steady, but that may not be enough to lift Indian equities. Experts say the decision was already priced in, while crude oil near $115 a barrel, rising US bond yields, rupee weakness and "
-    },
-    {
-      "title": "US Fed Meeting Live Updates: Warsh Highlights Changes In FOMC Schedule From Next Fall; FOMC Holds Interest Rates Steady",
-      "excerpt": "US Fed Meeting Live Updates: Track the Fed's rate decision, Kevin Warsh's comments and the impact on the US dollar, Wall Street and global markets.",
-      "url": "https://www.ndtvprofit.com/economy/us-fed-meeting-live-updates-interest-rate-decision-kevin-warsh-speech-market-reaction-12249030#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/taqt4l6k_feds-kevin-warsh_625x300_28_October_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-29T00:10:07+05:30",
-      "category": "Markets",
-      "summary": "US Fed Meeting Live Updates: Track the Fed's rate decision, Kevin Warsh's comments and the impact on the US dollar, Wall Street and global markets."
     },
     {
       "title": "Inter Miami vs New York Red Bulls Live Streaming: When And Where To Watch Messi's MLS Match In India",
@@ -37,17 +107,17 @@
       "excerpt": "The Federal Reserve kept interest rates unchanged on October 28, giving policymakers time to assess the effects of its previous hike as inflation remained above target. The decision came less than a week before midterm e",
       "url": "https://www.livemint.com/market/stock-market-news/us-fed-fomc-meeting-outcome-news-today-top-highlights-and-what-led-to-no-rate-hike-decision-11793209386525.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/10/28/1600x900/Federal_Reserve_1793209752355_2tMK_1793209757052_XfKw_f098888a-78be-42f9-973d-6a0fc71b406e_tNo0.png",
+      "image": "https://www.livemint.com/lm-img/img/2026/10/28/1600x900/logo/Federal_Reserve_1793209752355_2tMK_1793209757052_XfKw_f098888a-78be-42f9-973d-6a0fc71b406e_tNo0.png",
       "publishedAt": "2026-10-28T23:39:12+05:30",
       "category": "Markets",
       "summary": "The Federal Reserve kept interest rates unchanged on October 28, giving policymakers time to assess the effects of its previous hike as inflation remained above target. The decision came less than a week before midterm e"
     },
     {
-      "title": "US Fed Holds Key Rates Steady At 3.75-4% To Support 'Dual Mandate'; Seeks More Info For Policy Stance",
-      "excerpt": "US Fed Verdict: FOMC said that inflation remains elevated, while job gains have kept pace with workforce. It also added that the US economic activity is expanding at a \"strong\" pace. The monetary policy vote in favor of ",
+      "title": "US Fed Holds Key Rates Steady At 3.75-4% For 'Dual Mandate'; Seeks More Info For Policy Stance",
+      "excerpt": "US Fed Verdict: The monetary policy's vote in its fourth meeting under the chairmanship of Kevin Warsh was not unanimous as Fed Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented in favor of a 25-basis",
       "url": "https://www.ndtvprofit.com/markets/us-fed-verdict-kevin-warsh-led-fomc-holds-key-benchmark-interest-rate-steady-at-3-75-4-after-september-hike-12250772#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2024-09/i7sre7jc_us-federal-reserve_640x480_19_September_24.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "image": "https://c.ndtvimg.com/2026-10/u6gbhavc_us-fed_625x300_29_October_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
       "publishedAt": "2026-10-28T23:37:37+05:30",
       "category": "Markets",
       "summary": "US Fed Verdict: FOMC said that inflation remains elevated, while job gains have kept pace with workforce. It also added that the US economic activity is expanding at a \"strong\" pace. The monetary policy vote in favor of "
@@ -181,76 +251,6 @@
       "publishedAt": "2026-10-28T22:51:58+05:30",
       "category": "Markets",
       "summary": "RR Kabel's revenue saw a 52% uptick to Rs 3,284 crore."
-    },
-    {
-      "title": "NDTV Profit Ignite 2026: Experts See Opportunity In Equities, Remain Bullish On Long",
-      "excerpt": "The Nifty has fallen about 11.8% in the current Samvat amid global uncertainty, foreign outflows and a weak rupee. At NDTV Profit Ignite, market veterans said the correction could offer opportunities, though valuations a",
-      "url": "https://www.ndtvprofit.com/business/ndtv-profit-ignite-2026-experts-see-opportunity-in-equities-remain-bullish-on-long-term-outlook-12250582#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/e0mt2hak_v_625x300_28_October_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-28T22:49:42+05:30",
-      "category": "Markets",
-      "summary": "The Nifty has fallen about 11.8% in the current Samvat amid global uncertainty, foreign outflows and a weak rupee. At NDTV Profit Ignite, market veterans said the correction could offer opportunities, though valuations a"
-    },
-    {
-      "title": "How Vodafone Idea Shares Sparked Sulaiman Merchant's Investment Journey",
-      "excerpt": "Speaking at the NDTV Profit IGNITE 2026, Merchant said that his foray into stock market began while discussing investment opportunities with his brother-in-law, when they came across Vodafone Idea ahead of a Supreme Cour",
-      "url": "https://www.ndtvprofit.com/markets/how-vodafone-idea-shares-sparked-sulaiman-merchants-investment-journey-12250568#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/jrhi1alo_bb_625x300_28_October_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-28T22:45:14+05:30",
-      "category": "Markets",
-      "summary": "Speaking at the NDTV Profit IGNITE 2026, Merchant said that his foray into stock market began while discussing investment opportunities with his brother-in-law, when they came across Vodafone Idea ahead of a Supreme Cour"
-    },
-    {
-      "title": "Adani Ports Q2 Results: Co Raises FY27 Guidance After Profit Rises 17%; Logistics, International Ports Drive Growth",
-      "excerpt": "Net profit for the quarter rose to Rs 3,622 crore from Rs 3,109 crore a year earlier.",
-      "url": "https://www.ndtvprofit.com/markets/adani-ports-q2-results-co-raises-fy27-guidance-after-profit-rises-17-logistics-international-ports-drive-growth-12247321#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/k78p4qa8_adani-ports-_625x300_09_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-28T22:38:08+05:30",
-      "category": "Markets",
-      "summary": "Net profit for the quarter rose to Rs 3,622 crore from Rs 3,109 crore a year earlier."
-    },
-    {
-      "title": "India’s public debt ratio to fall to 75.1% of GDP by FY32, only major emerging economy set for a decline: RBI DG",
-      "excerpt": "India is the only emerging market economy among nine with GDP above $1 trillion projected to reduce its public debt ratio between 2025 and 2031, with the ratio expected to fall from 84.3% of GDP in FY26 to 75.1% in FY32,",
-      "url": "https://www.livemint.com/economy/indias-public-debt-ratio-to-fall-to-75-1-of-gdp-by-fy32-only-major-emerging-economy-set-for-a-decline-rbi-dg-11793206461504.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/10/28/1600x900/logo/Poonam_Gupta_1_1743707174065_1793206800126_gO6M_f2c7bbc0-0f45-4c13-839d-c8985de8bb04_WXj5.png",
-      "publishedAt": "2026-10-28T22:32:42+05:30",
-      "category": "Economy",
-      "summary": "India is the only emerging market economy among nine with GDP above $1 trillion projected to reduce its public debt ratio between 2025 and 2031, with the ratio expected to fall from 84.3% of GDP in FY26 to 75.1% in FY32,"
-    },
-    {
-      "title": "Netanyahu Builds Strong Position If Israel Has To Vote Again",
-      "excerpt": "Polls had said Eisenkot's bloc would probably win, even if it was unlikely to get a majority of seats in the Knesset, Israel's parliament.",
-      "url": "https://www.ndtvprofit.com/world/netanyahu-builds-strong-position-if-israel-has-to-vote-again-12250504#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/iaijmuj4_netanyahu_625x300_28_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-28T22:30:34+05:30",
-      "category": "Markets",
-      "summary": "Polls had said Eisenkot's bloc would probably win, even if it was unlikely to get a majority of seats in the Knesset, Israel's parliament."
-    },
-    {
-      "title": "WPL 2027 Auction: Rs 6.25 Crore Spent On 25 Players, Molineux Emerges Costliest Buy",
-      "excerpt": "The WPL 2027 season will run from January 14 to February 7, with defending champions RCB aiming to retain their title.",
-      "url": "https://www.ndtvprofit.com/sports/wpl-2027-auction-rs-6-25-crore-spent-on-25-players-sophie-molineux-emerges-costliest-buy-check-full-list-12250321#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/dgqo7e2_sophie_625x300_28_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-28T22:28:04+05:30",
-      "category": "Markets",
-      "summary": "The WPL 2027 season will run from January 14 to February 7, with defending champions RCB aiming to retain their title."
-    },
-    {
-      "title": "Genoa vs Juventus Live Streaming: When And Where To Watch Serie A Match Live In India",
-      "excerpt": "The Bianconeri are seventh in the Serie A standings, while Genoa sit 16th ahead of their Matchday 9 encounter.",
-      "url": "https://www.ndtvprofit.com/sports/genoa-vs-juventus-live-streaming-when-and-where-to-watch-serie-a-match-live-in-india-12250448#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/idaqd99g_juventus_625x300_28_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-10-28T22:27:56+05:30",
-      "category": "Markets",
-      "summary": "The Bianconeri are seventh in the Serie A standings, while Genoa sit 16th ahead of their Matchday 9 encounter."
     }
   ]
 }
