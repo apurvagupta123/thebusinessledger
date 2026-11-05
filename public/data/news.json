@@ -1,7 +1,57 @@
 {
-  "lastUpdated": "2026-11-05T00:00:43+05:30",
+  "lastUpdated": "2026-11-05T05:43:22+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Who Keeps Crashing China’s Stock Market?",
+      "excerpt": "China is scrambling to contain a stock-market rout only two years after the previous rescue.",
+      "url": "https://www.livemint.com/market/who-keeps-crashing-china-s-stock-market-11793820174602.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-11-05T00:52:54+05:30",
+      "category": "Markets",
+      "summary": "China is scrambling to contain a stock-market rout only two years after the previous rescue."
+    },
+    {
+      "title": "AI stocks retreat as Democratic sweep puts data centre boom in focus",
+      "excerpt": "AI-related stocks came under pressure on Wednesday despite a broader Wall Street rally following the Democratic sweep of Congress. Data centre companies CoreWeave, Iren and Nebius fell, alongside Nvidia and Marvell, as i",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ai-stocks-retreat-as-democratic-sweep-puts-data-centre-boom-in-focus/articleshow/135551445.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-05T02:12:41+05:30",
+      "category": "Markets",
+      "summary": "AI-related stocks came under pressure on Wednesday despite a broader Wall Street rally following the Democratic sweep of Congress. Data centre companies CoreWeave, Iren and Nebius fell, alongside Nvidia and Marvell, as i"
+    },
+    {
+      "title": "Brent crude oil price falls below $100 a barrel on hopes of Iran peace deal following Democrats' midterm victory",
+      "excerpt": "Crude oil prices experienced a significant decline, with Brent prices falling below $100 per barrel. The decline was influenced by hopes for a peace deal in the Iran war after Democratic victories. Discussions about a po",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/brent-crude-oil-price-falls-below-100-a-barrel-on-hopes-of-iran-peace-deal-following-democrats-midterm-victory/articleshow/135550857.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-05T01:23:41+05:30",
+      "category": "Markets",
+      "summary": "Crude oil prices experienced a significant decline, with Brent prices falling below $100 per barrel. The decline was influenced by hopes for a peace deal in the Iran war after Democratic victories. Discussions about a po"
+    },
+    {
+      "title": "Democrats’ Senate win could shield Federal Reserve from Trump’s influence, but risks persist",
+      "excerpt": "Democrats’ midterm victory could strengthen the Federal Reserve’s independence by limiting President Donald Trump’s ability to appoint allies to its board. A Democrat controlled Senate could also intensify scrutiny of Fe",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/democrats-senate-win-could-shield-fed-from-trumps-influence-but-risks-persist/articleshow/135549777.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-05T00:15:24+05:30",
+      "category": "Markets",
+      "summary": "Democrats’ midterm victory could strengthen the Federal Reserve’s independence by limiting President Donald Trump’s ability to appoint allies to its board. A Democrat controlled Senate could also intensify scrutiny of Fe"
+    },
+    {
+      "title": "Stocks To Watch Today: Premier Energies, Axis Bank, M&M, Titan, Adani Power, ONGC & More",
+      "excerpt": "Here's a look at stocks that are likely to be in focus during the trading session on Thursday.",
+      "url": "https://www.ndtvprofit.com/markets/stocks-to-watch-today-premier-energies-axis-bank-m-m-titan-adani-power-ongc-more-12284530#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.QIOJaobq7J6F28MfR4639AHaE7?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-05T00:01:01+05:30",
+      "category": "Markets",
+      "summary": "Here's a look at stocks that are likely to be in focus during the trading session on Thursday."
+    },
     {
       "title": "Trump's midterm setback may give India an edge in trade deal",
       "excerpt": "US has sought to allay concerns that the Republicans’ midterm election defeat could derail trade talks with India, with an American embassy spokesperson saying that President Donald Trump remains firmly in charge of Wash",
@@ -23,6 +73,16 @@
       "summary": "Wall Street reacted unevenly to Democratic gains in Congress: Amazon, Meta, Alphabet, Microsoft and Apple rallied, while several AI-chip, memory and data-centre stocks fell. Investors weighed hopes of moderated spending "
     },
     {
+      "title": "Kissht Crosses Rs 10,000 Crore AUM Weeks After Rs 832 Crore Fundraise",
+      "excerpt": "Personal loans still make up most of the book. But the company's loan against property portfolio is growing steadily, which is adding to its secured lending business and diversifying the product mix.",
+      "url": "https://www.ndtvprofit.com/business/kissht-crosses-rs-10-000-crore-aum-weeks-after-rs-832-crore-fundraise-12284513#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-02/8h2glfik_rupee_625x300_02_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T23:37:22+05:30",
+      "category": "Markets",
+      "summary": "Personal loans still make up most of the book. But the company's loan against property portfolio is growing steadily, which is adding to its secured lending business and diversifying the product mix."
+    },
+    {
       "title": "Explained: Why could a weak monsoon derail India's ambitious ethanol blending programme?",
       "excerpt": "India’s weak monsoon and rising food prices are putting food security ahead of ethanol production, potentially pushing the country’s fuel-blending rate below its 20% target and increasing reliance on imported crude.",
       "url": "https://www.livemint.com/economy/explained-why-could-a-weak-monsoon-derail-indias-ambitious-ethanol-blending-programme-11793813052772.html",
@@ -31,6 +91,106 @@
       "publishedAt": "2026-11-04T23:31:45+05:30",
       "category": "Economy",
       "summary": "India’s weak monsoon and rising food prices are putting food security ahead of ethanol production, potentially pushing the country’s fuel-blending rate below its 20% target and increasing reliance on imported crude."
+    },
+    {
+      "title": "Allcargo Terminals Q2 Results: Profit Nearly Doubles, Revenue Jumps 22%",
+      "excerpt": "Revenue for the period under review stood at Rs 252 crore, up 21.5% from Rs 207 crore clocked during the July-September period of FY 26, it said in a statement.",
+      "url": "https://www.ndtvprofit.com/markets/allcargo-terminals-q2-results-profit-nearly-doubles-revenue-jumps-22-12284484#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2025-12/797d8941_frank_mckenna_tjX_sniNzgQ_unsplash.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T23:28:33+05:30",
+      "category": "Markets",
+      "summary": "Revenue for the period under review stood at Rs 252 crore, up 21.5% from Rs 207 crore clocked during the July-September period of FY 26, it said in a statement."
+    },
+    {
+      "title": "Despite gains since October, rupee still trails its Asian peers in 2026",
+      "excerpt": "Despite gains since October, rupee still trails its Asian peers in 2026 Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaDh4Y0lpQWNfeE9SWlcxNGFjSUFEcFQ2ZnlEYVlrT3NQak5wOFpKV1NYeTVXdXpOSUlHa3dWSlFfaVNxRzlHRHVodk53NjFkYW1mQXpWTHk2YnZvNVVINUxZQlZIcVNveWhJbWJGQ0c3V09LWmROR2JPWGdycVppZ3BLRlNmS2hYcFpscG01OG5iMXNnTGRXbzU5TWtTUkJUWVktRVF6TWZFOXpKbXp6V1dfbnNHcDVtX3dEdzVLcGJrSjZjWFlpV05nMHAwOUFiclZKalFicTDSAdgBQVVfeXFMTmg4eGNJaUFjX3hPUlpXMTRhY0lBRHBUNmZ5RGFZa09zUGpOcDhaSldTWHk1V3V6TklJR2t3VkpRX2lTcUc5R0R1aHZOdzYxZGFtZkF6Vkx5NmJ2bzVVSDVMWUJWSHFTb3loSW1iRkNHN1dPS1pkTkdiT1hncnFaaWdwS0ZTZktoWHBabHBtNThuYjFzZ0xkV281OU1rU1JCVFlZLUVRek1mRTl6Sm16eldXX25zR3A1bV93RHc1S3Bia0o2Y1hZaVdOZzBwMDlBYnJWSmpRYnEw?oc=5",
+      "source": "Business Standard",
+      "image": null,
+      "publishedAt": "2026-11-04T23:24:02+05:30",
+      "category": "Economy",
+      "summary": "Despite gains since October, rupee still trails its Asian peers in 2026 Business Standard"
+    },
+    {
+      "title": "Allcargo Logistics Posts Rs 19 Crore Profit In Q2FY27; Revenue Rises 3.4%",
+      "excerpt": "Revenue from operations for the period under review was at Rs 555 crore, up 3.4 per cent from Rs 537 crore in the July-September period of FY26, the company said.",
+      "url": "https://www.ndtvprofit.com/markets/allcargo-logistics-posts-rs-19-crore-profit-in-q2fy27-revenue-rises-3-4-12284499#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/vq5vv944_logistics_625x300_07_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T23:19:09+05:30",
+      "category": "Markets",
+      "summary": "Revenue from operations for the period under review was at Rs 555 crore, up 3.4 per cent from Rs 537 crore in the July-September period of FY26, the company said."
+    },
+    {
+      "title": "Cabinet Opens Path For All Agniveers to Join Armed Forces After 2",
+      "excerpt": "Earlier, 75% Agniveers were to be released and 25% were to be absorbed. Now, 75% Agniveers will also be given an extra 2-year engagement period.",
+      "url": "https://www.ndtvprofit.com/india/cabinet-opens-path-for-all-agniveers-to-join-armed-forces-after-2-year-extension-12281745#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/e570cd46_pramod-tiwari-95wV499Ijqg-unsplash.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T23:15:31+05:30",
+      "category": "Markets",
+      "summary": "Earlier, 75% Agniveers were to be released and 25% were to be absorbed. Now, 75% Agniveers will also be given an extra 2-year engagement period."
+    },
+    {
+      "title": "Bayern Munich's Diwali Surprise For Indian Fans: Harry Kane Thanks Artist Abhay Sehgal For Special Jersey",
+      "excerpt": "Bayern Munich celebrates Diwali with a special jersey designed by Indian artist Abhay Sehgal. Harry Kane appreciates the unique creation inspired by Indian heritage and football.",
+      "url": "https://www.ndtvprofit.com/sports/bayern-munichs-diwali-surprise-for-indian-fans-harry-kane-thanks-artist-abhay-sehgal-for-special-jersey-12284456#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/cbe28mq4_bayern_625x300_04_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T23:05:43+05:30",
+      "category": "Markets",
+      "summary": "Bayern Munich celebrates Diwali with a special jersey designed by Indian artist Abhay Sehgal. Harry Kane appreciates the unique creation inspired by Indian heritage and football."
+    },
+    {
+      "title": "Trade Setup For Nov 5: Can Nifty Cross 24,100? Sub-$100 Oil Likely To Fuel Bulls' Charge",
+      "excerpt": "Experts note that market direction will depend on quarterly earnings, crude oil trends, developments in the Middle East, US bond yields and FII flows.",
+      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-nov-5-can-nifty-cross-24-100-sub-100-oil-likely-to-fuel-bulls-fightback-12284434#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/1ihu4e4g_bb_625x300_04_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T23:04:06+05:30",
+      "category": "Markets",
+      "summary": "Experts note that market direction will depend on quarterly earnings, crude oil trends, developments in the Middle East, US bond yields and FII flows."
+    },
+    {
+      "title": "Trump's Veto Power Explained: Can US President Block Every Bill Passed By Democrats?",
+      "excerpt": "Donald Trump has warned he could veto legislation passed by a Democratic-controlled Congress. Here's how presidential veto powers work, and why lawmakers can still challenge his decisions.",
+      "url": "https://www.ndtvprofit.com/world/trumps-veto-power-explained-can-us-president-block-every-bill-passed-by-democrats-12284454#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/ppj4pmto_trump_625x300_02_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T23:03:59+05:30",
+      "category": "Markets",
+      "summary": "Donald Trump has warned he could veto legislation passed by a Democratic-controlled Congress. Here's how presidential veto powers work, and why lawmakers can still challenge his decisions."
+    },
+    {
+      "title": "Mookuthi Amman 2 Advance Bookings: Nayanthara Starrer Posts Steady Ticket Sales",
+      "excerpt": "Directed by Sundar C, Mookuthi Amman 2 stars Nayanthara, Regena Cassandra, Yogi Babu and Sneha in key roles.",
+      "url": "https://www.ndtvprofit.com/business/entertainment-cinema-kollywood-movie-mookuthi-amman-2-advance-bookings-nayanthara-tamil-film-pre-release-ticket-sales-12284378#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/t8q6bfko_mookuthiamman2advancebooking_625x300_04_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T22:58:54+05:30",
+      "category": "Markets",
+      "summary": "Directed by Sundar C, Mookuthi Amman 2 stars Nayanthara, Regena Cassandra, Yogi Babu and Sneha in key roles."
+    },
+    {
+      "title": "Buy, Sell Or Hold: Hitachi Energy, MCX, NHPC, Eternal And Varun Beverages — Ask Profit",
+      "excerpt": "Market experts shared buy, sell and hold recommendations for an array of stocks including Hitachi Energy, MCX, NHPC, Eternal and Varun Beverages.",
+      "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-hitachi-energy-mcx-nhpc-eternal-and-varun-beverages-ask-profit-12284408#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/vrfeo0jo_buy-sell-hold_625x300_04_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T22:55:19+05:30",
+      "category": "Markets",
+      "summary": "Market experts shared buy, sell and hold recommendations for an array of stocks including Hitachi Energy, MCX, NHPC, Eternal and Varun Beverages."
+    },
+    {
+      "title": "Slavia Praha vs Arsenal Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
+      "excerpt": "Slavia Prague face a challenging test against Arsenal as the Gunners look to maintain their momentum and strengthen their position in the UEFA Champions League.",
+      "url": "https://www.ndtvprofit.com/sports/slavia-prahavsarsenal-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12284311#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/rdisjjvo_arsenal_625x300_04_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T22:39:23+05:30",
+      "category": "Markets",
+      "summary": "Slavia Prague face a challenging test against Arsenal as the Gunners look to maintain their momentum and strengthen their position in the UEFA Champions League."
     },
     {
       "title": "SBI vs SBI Life vs SBI Cards: Which SBI Group stock emerged as the Q2 results 2026 winner? Check technical targets",
@@ -43,214 +203,54 @@
       "summary": "SBI reported 14.28% annual profit growth in Q2 FY27, while SBI Cards’ profit jumped 75% and SBI Life’s rose 11%. Analysts said SBI Cards beat estimates, SBI was broadly in line and SBI Life missed expectations, with some"
     },
     {
-      "title": "Wall Street cheers US midterm results as Dow Jones jumps 1300 points; Amazon, Apple, Microsoft among top gainers",
-      "excerpt": "US stocks surged after Democratic midterm gains raised hopes of political gridlock, while falling oil prices and Treasury yields supported sentiment. The S&amp;P 500 rose 1.8%, with major technology stocks leading gains.",
-      "url": "https://www.livemint.com/market/stock-market-news/wall-street-cheers-us-midterm-results-as-dow-jones-jumps-1300-points-amazon-apple-microsoft-among-top-gainers-11793807617877.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/04/1600x900/logo/US_Markets_1793809794923_acRU_1793809800244_Gg8u_333bc02e-5b09-4f51-98ab-4ffcb0b65714_wdkG.png",
-      "publishedAt": "2026-11-04T22:06:24+05:30",
-      "category": "Markets",
-      "summary": "US stocks surged after Democratic midterm gains raised hopes of political gridlock, while falling oil prices and Treasury yields supported sentiment. The S&amp;P 500 rose 1.8%, with major technology stocks leading gains."
-    },
-    {
-      "title": "Rupee Crash Alert: Indian Rupee Could Fall to 106 Against U… - theopenpress.in",
-      "excerpt": "Rupee Crash Alert: Indian Rupee Could Fall to 106 Against U… theopenpress.in",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcmJfMmpwQzlHZnVvM0tLZ0dpQWJCZkVYczVQYnp3WENQdHFWUGZlVmU4Uk5BNnNBN1cxb3B3NlVmbmxUV1NvbEo5VHduNEU3cFE1QzdQdW9DSWIxNW92T3ExeEwzVFl3MkE5VFYwVFJHM2hNN3ZEQkVuY3R3dXM4RGR6RlI?oc=5",
-      "source": "theopenpress.in",
-      "image": null,
-      "publishedAt": "2026-11-04T22:03:58+05:30",
-      "category": "Economy",
-      "summary": "Rupee Crash Alert: Indian Rupee Could Fall to 106 Against U… theopenpress.in"
-    },
-    {
-      "title": "'I'll Attend Wedding & Earn The Money': When SRK Refused Payment After His Film Flopped",
-      "excerpt": "KC Bokadia also discussed the equation between Shah Rukh and Salman during the making of Hum Tumhare Hain Sanam.",
-      "url": "https://www.ndtvprofit.com/entertainment/i-will-attend-wedding-and-earn-the-money-when-shah-rukh-khan-srk-refused-payment-after-his-film-flopped-12284153#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/0ha6lgsg_shahrukhkhankcbokadiahumtumharehainsanam_625x300_04_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:56:54+05:30",
-      "category": "Markets",
-      "summary": "KC Bokadia also discussed the equation between Shah Rukh and Salman during the making of Hum Tumhare Hain Sanam."
-    },
-    {
-      "title": "RBI To Set Up Financial Markets Committee, To Focus On Critical Policy And Operational Matters",
-      "excerpt": "The meetings of the Committee will be convened at least once a quarter, the RBI said.",
-      "url": "https://www.ndtvprofit.com/business/rbi-to-set-up-financial-markets-committee-to-focus-on-critical-policy-and-operational-matters-12284170#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/0gc3rjh8_rbi_625x300_29_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:52:46+05:30",
-      "category": "Markets",
-      "summary": "The meetings of the Committee will be convened at least once a quarter, the RBI said."
-    },
-    {
-      "title": "Beyond HAL, BEL: Apollo Micro Systems, MTAR, Data Patterns, Zen Tech, among 5 defence stocks on experts' radar | List",
-      "excerpt": "India’s defence localisation push is drawing attention to private-sector companies alongside established public-sector firms. Analysts highlight MTAR Technologies, Zen Technologies, Astra Microwave, Data Patterns and Apo",
-      "url": "https://www.livemint.com/market/stock-market-news/beyond-hal-bel-apollo-micro-systems-mtar-data-patterns-zen-tech-among-5-defence-stocks-on-experts-radar-list-11793804507584.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/04/1600x900/logo/Defence_Stocks_1793809025396_0wSr_1793809085644_CkEJ_ed5193f9-696c-488f-8e5b-254c4cc5b513_PpoW.png",
-      "publishedAt": "2026-11-04T21:52:30+05:30",
-      "category": "Markets",
-      "summary": "India’s defence localisation push is drawing attention to private-sector companies alongside established public-sector firms. Analysts highlight MTAR Technologies, Zen Technologies, Astra Microwave, Data Patterns and Apo"
-    },
-    {
       "title": "Brent Falls Below $100 First Time In 2 Months As Democratic Win Fuels De",
       "excerpt": "US President Donald Trump said the US had no immediate plans for further strikes, although he continued to maintain that the country was prepared to act if necessary.",
       "url": "https://www.ndtvprofit.com/markets/brent-crude-falls-below-100-for-first-time-in-two-months-as-de-escalation-hopes-build-12284111#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-05/sd2djjio_oil_625x300_06_May_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:48:28+05:30",
+      "publishedAt": "2026-11-04T22:33:05+05:30",
       "category": "Markets",
       "summary": "US President Donald Trump said the US had no immediate plans for further strikes, although he continued to maintain that the country was prepared to act if necessary."
     },
     {
-      "title": "India Thrash South Korea 8-1 To Enter Asian Champions Trophy Final For Record 7th Time",
-      "excerpt": "India will face Japan in the final after the latter beat Malaysia in a shootout following a goalless draw.",
-      "url": "https://www.ndtvprofit.com/sports/india-thrash-south-korea-8-1-to-enter-asian-champions-trophy-final-for-record-7th-time-12284112#publisher=newsstand",
+      "title": "'Reason We Lost Is The War': JD Vance Lists Four Factors Behind Republican Rout In Midterm Polls",
+      "excerpt": "The Vice President said economic messaging fell short as some 2024 Trump voters switched sides over the Iran war and cost-of-living concerns.",
+      "url": "https://www.ndtvprofit.com/world/reason-we-lost-is-the-war-jd-vance-lists-four-factors-behind-republican-rout-in-midterm-polls-12284301#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/sbng5v0k_hockey_625x300_04_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:40:41+05:30",
+      "image": "https://c.ndtvimg.com/2026-11/qrvrbf0s_jd-vance_625x300_04_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T22:32:28+05:30",
       "category": "Markets",
-      "summary": "India will face Japan in the final after the latter beat Malaysia in a shootout following a goalless draw."
+      "summary": "The Vice President said economic messaging fell short as some 2024 Trump voters switched sides over the Iran war and cost-of-living concerns."
     },
     {
-      "title": "Taking On Microsoft’s GitHub? Why OpenAI Is Buying A Startup Whose Tech Already Powers Codex",
-      "excerpt": "Microsoft owns close to a quarter of OpenAI. The two partner closely, and compete in plenty of areas too, which in the AI business is hardly unusual anymore.",
-      "url": "https://www.ndtvprofit.com/technology/taking-on-microsoft-s-github-why-openai-is-buying-a-startup-whose-tech-already-powers-codex-12283759#publisher=newsstand",
+      "title": "Indian Americans Warmed To Trump In 2024. The Midterms Tell A Different Story",
+      "excerpt": "Indian-American Democrats have scored key victories in the 2026 US midterms, while a pre-election Carnegie survey points to a sharp reversal in the community's support for Republicans.",
+      "url": "https://www.ndtvprofit.com/world/indian-americans-warmed-to-trump-in-2024-the-midterms-tell-a-different-story-12284319#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/8ntqkmqo_open-ai_625x300_04_November_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:26:21+05:30",
+      "image": "https://c.ndtvimg.com/2026-11/hg2n91d4_indo_625x300_04_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T22:30:15+05:30",
       "category": "Markets",
-      "summary": "Microsoft owns close to a quarter of OpenAI. The two partner closely, and compete in plenty of areas too, which in the AI business is hardly unusual anymore."
+      "summary": "Indian-American Democrats have scored key victories in the 2026 US midterms, while a pre-election Carnegie survey points to a sharp reversal in the community's support for Republicans."
     },
     {
-      "title": "India's 10 Most Polluted Cities Today: Rewari Tops List With AQI Of 622, Karnal Follows At 607",
-      "excerpt": "Nine of the 10 cities recorded AQI readings above 500, according to the data provided by AQI.in",
-      "url": "https://www.ndtvprofit.com/india/indias-10-most-polluted-cities-today-rewari-tops-list-with-aqi-of-622-karnal-follows-at-607-12284010#publisher=newsstand",
+      "title": "RB Leipzig vs Manchester City Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
+      "excerpt": "Erling Haaland returns to Germany as Manchester City take on RB Leipzig in the Champions League. Check when and where to watch the match live in India.",
+      "url": "https://www.ndtvprofit.com/sports/rb-leipzig-vs-manchester-city-live-streaming-when-and-where-to-watch-erling-haaland-in-action-12284221#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/9lmhfbck_pti_625x300_04_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:21:39+05:30",
+      "image": "https://c.ndtvimg.com/2026-11/dtfu5kp4_man-city_625x300_04_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T22:30:01+05:30",
       "category": "Markets",
-      "summary": "Nine of the 10 cities recorded AQI readings above 500, according to the data provided by AQI.in"
+      "summary": "Erling Haaland returns to Germany as Manchester City take on RB Leipzig in the Champions League. Check when and where to watch the match live in India."
     },
     {
-      "title": "Scene Advance Bookings: Suriya Starrer Sees Strong Pre",
-      "excerpt": "Scene, which also stars Nazriya Nazim and Naslen, is a Tamil action comedy directed by Jithu Madhavan.",
-      "url": "https://www.ndtvprofit.com/business/entertainment-cinema-kollywood-movie-scene-day-1-advance-bookings-suriya-tamil-film-release-ticket-sales-box-office-12283882#publisher=newsstand",
+      "title": "Sharad Pawar Admitted To Mumbai's Breach Candy Hospital Hours After Pune Discharge",
+      "excerpt": "NCP (SP) chief was discharged from Pune's Ruby Hall Clinic on Wednesday after treatment for persistent cough and chest pain before being admitted in Mumbai's Breach Candy Hospital for further evaluation and observation.",
+      "url": "https://www.ndtvprofit.com/india/sharad-pawar-admitted-to-mumbai-s-breach-candy-hospital-hours-after-discharged-from-pune-s-ruby-hall-clinic-12284191#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/31raskp8_scene_625x300_04_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:12:14+05:30",
+      "image": "https://c.ndtvimg.com/2025-12/99d7cef2_Sharad_Pawar_1.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-04T22:20:33+05:30",
       "category": "Markets",
-      "summary": "Scene, which also stars Nazriya Nazim and Naslen, is a Tamil action comedy directed by Jithu Madhavan."
-    },
-    {
-      "title": "'I Might Be More Indian Than Arab': America's First Muslim Senator Has A Karnataka Connection",
-      "excerpt": "Sarah Jukaku's father is a nephrologist, while her grandfather was a lawyer, educationist and former deputy finance minister.",
-      "url": "https://www.ndtvprofit.com/world/sarah-jukaku-i-might-be-more-indian-than-arab-americas-first-muslim-senator-has-a-karnataka-connection-12283913#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/4khq83og_sarah-jukaku_625x300_04_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:11:54+05:30",
-      "category": "Markets",
-      "summary": "Sarah Jukaku's father is a nephrologist, while her grandfather was a lawyer, educationist and former deputy finance minister."
-    },
-    {
-      "title": "SEBI Sets Up Working Group To Review Innovators Growth Platform Framework",
-      "excerpt": "The working group will review the existing Innovators Growth Platform (IGP) framework, including eligibility and listing requirements, and examine its suitability for research-stage, pre-revenue, intellectual property-le",
-      "url": "https://www.ndtvprofit.com/markets/sebi-sets-up-working-group-to-review-innovators-growth-platform-framework-12283958#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://tse2.mm.bing.net/th/id/OIP.5OXHpkY4dHG4INeiYrgm6gHaD4?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T21:08:32+05:30",
-      "category": "Markets",
-      "summary": "The working group will review the existing Innovators Growth Platform (IGP) framework, including eligibility and listing requirements, and examine its suitability for research-stage, pre-revenue, intellectual property-le"
-    },
-    {
-      "title": "SEBI relaxes KYC rules for NRIs, OCIs: Can overseas investors now onboard digitally from abroad? Decoded",
-      "excerpt": "SEBI has eased KYC rules for NRIs, OCIs and foreign nationals, allowing eligible investors living in FATF-compliant countries to complete onboarding remotely.&nbsp;",
-      "url": "https://www.livemint.com/market/stock-market-news/sebi-relaxes-kyc-rules-for-nris-ocis-can-overseas-investors-now-onboard-digitally-from-abroad-decoded-11793803371003.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/04/1600x900/logo/SEBI_1793771047881_QO36_1793771060382_RMqq_3c05f67_1793803801112_32NK_1793803801349_OeEP_a93da743-7368-44c5-b5f9-5b8b081cd53d_oLNV.jpg",
-      "publishedAt": "2026-11-04T21:07:17+05:30",
-      "category": "Markets",
-      "summary": "SEBI has eased KYC rules for NRIs, OCIs and foreign nationals, allowing eligible investors living in FATF-compliant countries to complete onboarding remotely.&nbsp;"
-    },
-    {
-      "title": "Agnipath Scheme Overhaul: Govt Grants 2",
-      "excerpt": "The changes in the Agniveer scheme were brought in just weeks before around 18,300 Agniveers were to exit the armed forces.",
-      "url": "https://www.ndtvprofit.com/education/agnipath-scheme-overhaul-govt-grants-2-year-extension-to-agniveers-12283919#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/bf4e49vk_chief-of-defence-staff-general-ns-raja-subramani-during-a-press-briefing-in-new-delhi_625x300_04_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T20:59:19+05:30",
-      "category": "Markets",
-      "summary": "The changes in the Agniveer scheme were brought in just weeks before around 18,300 Agniveers were to exit the armed forces."
-    },
-    {
-      "title": "US Stock Market Today: Dow Skyrockets 1,000 Points, Nasdaq Jumps 1.5% On Blue Wave; AI Stocks Plunge",
-      "excerpt": "Wall Street rallied sharply after Democrats secured control of both chambers of Congress in the US midterm elections, easing political uncertainty even as AI-linked stocks came under pressure.",
-      "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-dow-skyrockets-1-000-points-nasdaq-jumps-1-5-on-blue-wave-ai-stocks-plunge-12283643#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/efn28r4g_us-stock-futures_625x300_23_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T20:58:13+05:30",
-      "category": "Markets",
-      "summary": "Wall Street rallied sharply after Democrats secured control of both chambers of Congress in the US midterm elections, easing political uncertainty even as AI-linked stocks came under pressure."
-    },
-    {
-      "title": "'Why Was CPR Not Given?': Family Questions Delhi School After 9-Year",
-      "excerpt": "CCTV footage reportedly shows the student collapsing after a games period. Police are awaiting post-mortem findings to establish the cause.",
-      "url": "https://www.ndtvprofit.com/india/why-was-cpr-not-given-family-questions-delhi-school-after-9-year-old-girl-dies-after-collapsing-12283631#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/u6nbssag_school_625x300_04_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T20:56:47+05:30",
-      "category": "Markets",
-      "summary": "CCTV footage reportedly shows the student collapsing after a games period. Police are awaiting post-mortem findings to establish the cause."
-    },
-    {
-      "title": "LTCG tax relief on cards? FM acknowledges FPI concerns as SEBI, FICCI push for reforms in Budget 2027",
-      "excerpt": "FM Nirmala Sitharaman said the government recognizes investor concerns about India’s investment climate and will consider feedback as it seeks to sustain growth near 7%. She acknowledged rising foreign investment outflow",
-      "url": "https://www.livemint.com/economy/ltcg-tax-relief-on-cards-fm-acknowledges-fpi-concerns-as-sebi-ficci-push-for-reforms-in-budget-2027-11793801569363.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/04/1600x900/nirms_1793804422896_gbI5_1793804427345_HLLP_bdc006c3-e359-4f27-bc80-4bca0b2534e7_VRlO.png",
-      "publishedAt": "2026-11-04T20:51:51+05:30",
-      "category": "Economy",
-      "summary": "FM Nirmala Sitharaman said the government recognizes investor concerns about India’s investment climate and will consider feedback as it seeks to sustain growth near 7%. She acknowledged rising foreign investment outflow"
-    },
-    {
-      "title": "Micron, AMD, SanDisk, Nvidia Crack Up To 10% At Open. Why Wall Street Cheer Eluded Chip Stocks",
-      "excerpt": "The AI stocks are under pressure as Democrats won the majority in both House and Senate, including the Texas governor's race.Democrat Gina Hinojosa defeated incumbent Republican Greg Abbott. Hinojosa has pledged an immed",
-      "url": "https://www.ndtvprofit.com/markets/micron-amd-sandisk-nvidia-crack-up-to-10-at-open-why-wall-street-cheer-eluded-chip-stocks-12283711#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/g1j5m3_artificial-intelligence-ai-photo-unsplash_625x300_10_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T20:45:47+05:30",
-      "category": "Markets",
-      "summary": "The AI stocks are under pressure as Democrats won the majority in both House and Senate, including the Texas governor's race.Democrat Gina Hinojosa defeated incumbent Republican Greg Abbott. Hinojosa has pledged an immed"
-    },
-    {
-      "title": "Badshah, Shreya Ghoshal Romantic Single 'Mahiya' Featuring Avneet Kaur Out",
-      "excerpt": "Badshah and Shreya Ghoshal have collaborated for the first time on the romantic dance-pop track Mahiya. Composed and penned by Badshah, the song blends his signature urban sound with Shreya's melodious vocals.",
-      "url": "https://www.ndtvprofit.com/entertainment/badshah-shreya-ghoshal-romantic-single-mahiya-featuring-avneet-kaur-out-12283848#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/u3drgr04_music_625x300_04_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T20:43:29+05:30",
-      "category": "Markets",
-      "summary": "Badshah and Shreya Ghoshal have collaborated for the first time on the romantic dance-pop track Mahiya. Composed and penned by Badshah, the song blends his signature urban sound with Shreya's melodious vocals."
-    },
-    {
-      "title": "ICSE Class 10 Board Exams May Start An Hour Earlier From 2027, Says Report",
-      "excerpt": "Although unconfirmed, reports suggest that ICSE examinations would begin at 10 am instead of the existing 11 am schedule.",
-      "url": "https://www.ndtvprofit.com/education/icse-class-10-board-exams-may-start-an-hour-earlier-from-2027-says-report-12283842#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/dkj35j2c_cbse-board-exam-class-10_625x300_31_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-04T20:42:03+05:30",
-      "category": "Markets",
-      "summary": "Although unconfirmed, reports suggest that ICSE examinations would begin at 10 am instead of the existing 11 am schedule."
-    },
-    {
-      "title": "US Markets: Why Qualcomm shares are in top focus today with quarterly earnings, growth outlook amid AI costs concerns",
-      "excerpt": "Qualcomm’s dependence on the smartphone market is emerging as a key concern. While handset chips remain its biggest revenue contributor, Apple's efforts to develop its own cellular modem tech and softer demand for Androi",
-      "url": "https://www.livemint.com/market/stock-market-news/us-markets-why-qualcomm-shares-are-in-top-focus-today-with-quarterly-earnings-growth-outlook-amid-ai-costs-concerns-11793799657674.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/04/1600x900/logo/Amon_1793801065820_I8CB_1793801080271_6mxC_1122a89f-5f1f-4a0b-a22c-bf97539faee1_vfU6.jpg",
-      "publishedAt": "2026-11-04T20:41:53+05:30",
-      "category": "Markets",
-      "summary": "Qualcomm’s dependence on the smartphone market is emerging as a key concern. While handset chips remain its biggest revenue contributor, Apple's efforts to develop its own cellular modem tech and softer demand for Androi"
+      "summary": "NCP (SP) chief was discharged from Pune's Ruby Hall Clinic on Wednesday after treatment for persistent cough and chest pain before being admitted in Mumbai's Breach Candy Hospital for further evaluation and observation."
     }
   ]
 }
