@@ -1,7 +1,197 @@
 {
-  "lastUpdated": "2026-11-11T00:01:19+05:30",
+  "lastUpdated": "2026-11-11T05:27:08+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Stock Market Today: All You Need To Know Going Into Trade On Nov 11",
+      "excerpt": "Stocks in the news, big brokerage calls of the day, complete trade setup and much more!",
+      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-11-12309650#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/sg2nulok_bb_625x300_10_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-11T05:00:01+05:30",
+      "category": "Markets",
+      "summary": "Stocks in the news, big brokerage calls of the day, complete trade setup and much more!"
+    },
+    {
+      "title": "US stocks: US market falls as hot inflation, hawkish Fed fuel rate-hike fears",
+      "excerpt": "US stocks closed lower after hotter-than-expected inflation data strengthened expectations of a December Federal Reserve rate hike and raised the possibility of more aggressive tightening. Rising Treasury yields and weak",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-ends-lower-as-hot-inflation-data-fed-comments-heighten-rate-worries/articleshow/135719918.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-11T02:45:32+05:30",
+      "category": "Markets",
+      "summary": "US stocks closed lower after hotter-than-expected inflation data strengthened expectations of a December Federal Reserve rate hike and raised the possibility of more aggressive tightening. Rising Treasury yields and weak"
+    },
+    {
+      "title": "Wells Fargo upgrades US AI infrastructure stocks to neutral after chip rout",
+      "excerpt": "Wells Fargo upgraded its outlook on US AI infrastructure stocks to neutral from negative, citing improved valuations after a steep semiconductor sell-off. However, it warned that slowing AI investment and rising deprecia",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wells-fargo-lifts-us-ai-infrastructure-stocks-to-neutral-after-chip-rout/articleshow/135719900.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-11T02:36:02+05:30",
+      "category": "Markets",
+      "summary": "Wells Fargo upgraded its outlook on US AI infrastructure stocks to neutral from negative, citing improved valuations after a steep semiconductor sell-off. However, it warned that slowing AI investment and rising deprecia"
+    },
+    {
+      "title": "Defaults Rattle Brazil’s Shadow Banks, Spark Regulatory Scrutiny",
+      "excerpt": "Investors keep pouring money into Brazil’s so-called shadow-banking market even as defaults continue to climb.",
+      "url": "https://www.livemint.com/market/defaults-rattle-brazil-s-shadow-banks-spark-regulatory-scrutiny-11794343869632.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-11-11T02:21:09+05:30",
+      "category": "Markets",
+      "summary": "Investors keep pouring money into Brazil’s so-called shadow-banking market even as defaults continue to climb."
+    },
+    {
+      "title": "Chile Pension Funds’ Swap Losses Narrow as Treasuries Rally",
+      "excerpt": "Chilean pension funds narrowed their market-value losses on foreign interest-rate swaps in October as a rally in US Treasuries provided some relief to a system under heavy pressure from politicians to reduce risks and bo",
+      "url": "https://www.livemint.com/market/chile-pension-funds-swap-losses-narrow-as-treasuries-rally-11794343809144.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-11T02:20:08+05:30",
+      "category": "Markets",
+      "summary": "Chilean pension funds narrowed their market-value losses on foreign interest-rate swaps in October as a rally in US Treasuries provided some relief to a system under heavy pressure from politicians to reduce risks and bo"
+    },
+    {
+      "title": "Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out",
+      "excerpt": "Federal Reserve Governor Michelle Bowman said she sees a number of risks to economic activity from financial markets, including a sharp downturn in stock prices if returns on investments in artificial intelligence fall s",
+      "url": "https://www.livemint.com/market/feds-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out-11794343808997.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-11T02:20:08+05:30",
+      "category": "Markets",
+      "summary": "Federal Reserve Governor Michelle Bowman said she sees a number of risks to economic activity from financial markets, including a sharp downturn in stock prices if returns on investments in artificial intelligence fall s"
+    },
+    {
+      "title": "Dangote Refinery Gets $4.1 Billion Orders in Top Africa IPO",
+      "excerpt": "Africa’s biggest refinery attracted about 5.85 trillion naira ($4.1 billion) of applications for shares in the continent’s largest public offering to date, almost three times the amount it sought to raise, according to p",
+      "url": "https://www.livemint.com/market/dangote-refinery-gets-4-1-billion-orders-in-top-africa-ipo-11794341424038.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-11-11T01:40:23+05:30",
+      "category": "Markets",
+      "summary": "Africa’s biggest refinery attracted about 5.85 trillion naira ($4.1 billion) of applications for shares in the continent’s largest public offering to date, almost three times the amount it sought to raise, according to p"
+    },
+    {
+      "title": "Wall St retreats as hot inflation data, Fed comments fuel rate worries",
+      "excerpt": "USA-STOCKS/ (UPDATE 6, GRAPHIC):US STOCKS-Wall St retreats as hot inflation data, Fed comments fuel rate worries",
+      "url": "https://www.livemint.com/market/wall-st-retreats-as-hot-inflation-data-fed-comments-fuel-rate-worries-11794339875709.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-11T01:14:35+05:30",
+      "category": "Markets",
+      "summary": "USA-STOCKS/ (UPDATE 6, GRAPHIC):US STOCKS-Wall St retreats as hot inflation data, Fed comments fuel rate worries"
+    },
+    {
+      "title": "Corn Soars After USDA Cuts American Yield in Another Surprise",
+      "excerpt": "Corn surged the most in three months after the US Department of Agriculture surprised traders with a bigger-than-expected cut to yield and production of America’s most widely grown crop.",
+      "url": "https://www.livemint.com/market/corn-soars-after-usda-cuts-american-yield-in-another-surprise-11794339085566.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-11-11T01:01:25+05:30",
+      "category": "Markets",
+      "summary": "Corn surged the most in three months after the US Department of Agriculture surprised traders with a bigger-than-expected cut to yield and production of America’s most widely grown crop."
+    },
+    {
+      "title": "Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
+      "excerpt": "GLOBAL-PRECIOUS:Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
+      "url": "https://www.livemint.com/market/gold-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields-11794337899940.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-11-11T00:41:39+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-PRECIOUS:Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields"
+    },
+    {
+      "title": "Soybeans, corn rally after USDA pegs US harvest, stocks below expectations",
+      "excerpt": "GLOBAL-GRAINS/ (UPDATE 2):GRAINS-Soybeans, corn rally after USDA pegs US harvest, stocks below expectations",
+      "url": "https://www.livemint.com/market/soybeans-corn-rally-after-usda-pegs-us-harvest-stocks-below-expectations-11794336087036.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-11T00:11:26+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-GRAINS/ (UPDATE 2):GRAINS-Soybeans, corn rally after USDA pegs US harvest, stocks below expectations"
+    },
+    {
+      "title": "Stocks To Watch Today: Bajaj Finance, Tata Motors, Kalyan Jewellers, Cochin Shipyard, MRF & More",
+      "excerpt": "Here's a look at stocks that are likely to be in focus during the trading session on Wednesday.",
+      "url": "https://www.ndtvprofit.com/markets/stocks-to-watch-today-bajaj-finance-tata-motors-kalyan-jewellers-cochin-shipyard-mrf-more-12309754#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/pla5fams_bb_625x300_10_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-11T00:00:01+05:30",
+      "category": "Markets",
+      "summary": "Here's a look at stocks that are likely to be in focus during the trading session on Wednesday."
+    },
+    {
+      "title": "Nvidia Dethroned On CEO Probe: Microsoft Tops Chipmaker As World's Second",
+      "excerpt": "Nvidia's shares slump more than 6% amid AI-related concerns and reports of a possible foreign intelligence effort targeting CEO Jensen Huang, pushing its market valuation below Microsoft's $4.03 trillion.",
+      "url": "https://www.ndtvprofit.com/markets/nvidia-dethroned-on-ceo-probe-microsoft-tops-chipmaker-as-world-s-second-most-valuable-firm-12309890#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/84sqn4t4_microsoft-nvidia_625x300_10_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-10T23:50:33+05:30",
+      "category": "Markets",
+      "summary": "Nvidia's shares slump more than 6% amid AI-related concerns and reports of a possible foreign intelligence effort targeting CEO Jensen Huang, pushing its market valuation below Microsoft's $4.03 trillion."
+    },
+    {
+      "title": "Fed’s Christopher Waller opens door to 50-basis-point December rate hike after hot CPI",
+      "excerpt": "Federal Reserve Governor Christopher Waller has raised the possibility of a 50-basis-point December rate hike after US core inflation rose 0.3% in October. Persistent price pressures have intensified debate over tighter ",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-christopher-waller-opens-door-to-50-basis-point-december-rate-hike-after-hot-cpi/articleshow/135718143.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-10T23:42:40+05:30",
+      "category": "Markets",
+      "summary": "Federal Reserve Governor Christopher Waller has raised the possibility of a 50-basis-point December rate hike after US core inflation rose 0.3% in October. Persistent price pressures have intensified debate over tighter "
+    },
+    {
+      "title": "Rohit Sharma Back As MI Captain? Mitchell Santner's 'Skipper' Remark Sparks Buzz",
+      "excerpt": "Mitchell Santner's viral interaction with Rohit Sharma has added to the captaincy speculation, while Aakash Chopra has weighed in on MI's potential trades and releases.",
+      "url": "https://www.ndtvprofit.com/sports/rohit-sharma-back-as-mi-captain-mitchell-santners-skipper-remark-sparks-buzz-12309883#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/tt4o0ub8_rohit-sharma_625x300_10_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-10T23:40:34+05:30",
+      "category": "Markets",
+      "summary": "Mitchell Santner's viral interaction with Rohit Sharma has added to the captaincy speculation, while Aakash Chopra has weighed in on MI's potential trades and releases."
+    },
+    {
+      "title": "Trade Setup For Nov 11: Nifty Bulls Find Support At 24,800; Analysts Suggest Buy-On",
+      "excerpt": "After last week's sharp rally, analysts see the Nifty maintaining its bullish momentum, with 24,750-24,800 emerging as a crucial support zone and 25,200 as the immediate resistance.",
+      "url": "https://www.ndtvprofit.com/markets/trade-setup-for-nov-11-nifty-bulls-find-support-at-24-800-analysts-suggest-buy-on-dips-12309882#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-10/v2qhutk8_stock-market-today-_625x300_19_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-10T23:40:16+05:30",
+      "category": "Markets",
+      "summary": "After last week's sharp rally, analysts see the Nifty maintaining its bullish momentum, with 24,750-24,800 emerging as a crucial support zone and 25,200 as the immediate resistance."
+    },
+    {
+      "title": "Nvidia Sinks Over 6%, Heads For $470 Billion Two",
+      "excerpt": "Nvidia shares extended losses as allegations surrounding CEO Jensen Huang's relationship with an alleged Chinese spy intensified scrutiny of the chipmaker's China business and US export controls.",
+      "url": "https://www.ndtvprofit.com/markets/nvidia-sinks-6-extends-losses-for-second-session-as-jensen-huangs-affair-deepens-china-worries-12309735#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/9oc8jb9s_nvidia-faces-shareholder-lawsuit_625x300_10_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-10T23:38:20+05:30",
+      "category": "Markets",
+      "summary": "Nvidia shares extended losses as allegations surrounding CEO Jensen Huang's relationship with an alleged Chinese spy intensified scrutiny of the chipmaker's China business and US export controls."
+    },
+    {
+      "title": "PMC Debuts On NSE With Rs 200-Crore Bond Listing; Bihar's First Civic Body To Tap Bond Market",
+      "excerpt": "Patna Municipal Corporation raised Rs 199.99 crore through its maiden bond issue, with proceeds earmarked for infrastructure projects across 15 locations in the Bihar capital.",
+      "url": "https://www.ndtvprofit.com/markets/pmc-debuts-on-nse-with-rs-200-crore-bond-listing-bihars-first-civic-body-to-tap-bond-market-12309849#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/i739pslo_nse_625x300_10_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-10T23:28:40+05:30",
+      "category": "Markets",
+      "summary": "Patna Municipal Corporation raised Rs 199.99 crore through its maiden bond issue, with proceeds earmarked for infrastructure projects across 15 locations in the Bihar capital."
+    },
+    {
+      "title": "'US Didn’t Start The War, Iran Did’: Pete Hegseth Hits Back Amid Impeachment Threat",
+      "excerpt": "Defence Secretary Pete Hegseth is facing an imminent House vote on eight articles of impeachment introduced by outgoing Republican Rep. Thomas Massie of Kentucky.",
+      "url": "https://www.ndtvprofit.com/world/us-didn-t-start-the-war-iran-did-pete-hegseth-hits-back-amid-impeachment-threat-12309729#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/3m326njo_pete_625x300_10_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-10T23:11:18+05:30",
+      "category": "Markets",
+      "summary": "Defence Secretary Pete Hegseth is facing an imminent House vote on eight articles of impeachment introduced by outgoing Republican Rep. Thomas Massie of Kentucky."
+    },
     {
       "title": "Nvidia sell-off deepens, fall 6.3%; wipes $10 billion off Jensen Huang's wealth, slips to 12th on Forbes rich list",
       "excerpt": "The latest crash in Nvidia shares has dealt a major blow to Jensen Huang's net worth, which is on track to decline by another $10 billion to $145.6 billion from $154 billion at the previous close, according to Forbes.",
@@ -11,16 +201,6 @@
       "publishedAt": "2026-11-10T23:10:01+05:30",
       "category": "Markets",
       "summary": "The latest crash in Nvidia shares has dealt a major blow to Jensen Huang's net worth, which is on track to decline by another $10 billion to $145.6 billion from $154 billion at the previous close, according to Forbes."
-    },
-    {
-      "title": "Nvidia Sinks 6%, Extends Losses For Second Session As Jensen Huang's Affair Deepens China Worries",
-      "excerpt": "Nvidia shares extended losses as allegations surrounding CEO Jensen Huang's relationship with an alleged Chinese spy intensified scrutiny of the chipmaker's China business and US export controls.",
-      "url": "https://www.ndtvprofit.com/markets/nvidia-sinks-6-extends-losses-for-second-session-as-jensen-huangs-affair-deepens-china-worries-12309735#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/9oc8jb9s_nvidia-faces-shareholder-lawsuit_625x300_10_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:59:49+05:30",
-      "category": "Markets",
-      "summary": "Nvidia shares extended losses as allegations surrounding CEO Jensen Huang's relationship with an alleged Chinese spy intensified scrutiny of the chipmaker's China business and US export controls."
     },
     {
       "title": "Salman Khan Drops Maatrubhumi Trailer, Shares Release Date Of Galwan",
@@ -43,6 +223,16 @@
       "summary": "China is expanding automated ports, including Shenzhen’s Mawan Terminal, as it seeks to lead the digital transformation of global shipping. Beijing says it has 60 automated terminals and aims for 90 by 2030."
     },
     {
+      "title": "Microsoft market cap beats Nvidia's for first time since June 2025",
+      "excerpt": "Microsoft overtook Nvidia as the world's most valuable company on Tuesday, as the chip giant's shares fell on uncertainty over the outlook for AI and an investigation into whether",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/microsoft-market-cap-beats-nvidias-for-first-time-since-june-2025/articleshow/135717250.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-10T22:44:49+05:30",
+      "category": "Markets",
+      "summary": "Microsoft overtook Nvidia as the world's most valuable company on Tuesday, as the chip giant's shares fell on uncertainty over the outlook for AI and an investigation into whether"
+    },
+    {
       "title": "From Gold Coins To Diet Coke: What Diwali Shopping Carts Reveal About India's Consumption",
       "excerpt": "Data shared by Swiggy, Instamart and Zepto for the November 6-8 festive period points to a broad-based surge in consumption, spanning food delivery, gifting, home décor, beauty and high-value purchases.",
       "url": "https://www.ndtvprofit.com/business/from-gold-coins-to-diet-coke-what-diwali-shopping-carts-reveal-about-indias-consumption-12309693#publisher=newsstand",
@@ -61,196 +251,6 @@
       "publishedAt": "2026-11-10T22:37:29+05:30",
       "category": "Markets",
       "summary": "The consumer price index, excluding food and energy, rose 0.3% from a month earlier, according to Bureau of Labor Statistics data. Overall prices climbed 0.4%."
-    },
-    {
-      "title": "Fabricated, Malicious Attacks': India Rejects Khalistani Terrorist Pannun's US Civil Lawsuit",
-      "excerpt": "India has rejected the lawsuit as frivolous after the US State Department sent court summonses to the Indian side through diplomatic channels.",
-      "url": "https://www.ndtvprofit.com/india/fabricated-malicious-attacks-india-rejects-khalistani-terrorist-pannuns-us-civil-lawsuit-12309658#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/krn9e6gk_ndtv_625x300_10_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:30:25+05:30",
-      "category": "Markets",
-      "summary": "India has rejected the lawsuit as frivolous after the US State Department sent court summonses to the Indian side through diplomatic channels."
-    },
-    {
-      "title": "Fed's Logan Favors At Least Two Hikes, Says Pace Could Quicken",
-      "excerpt": "Fed officials left interest rates unchanged at their Oct. 27-28 meeting after raising them by a quarter percentage point in September. That was the first rate hike since 2023 as policymakers seek to cool inflation that h",
-      "url": "https://www.ndtvprofit.com/economy/feds-logan-favors-at-least-two-hikes-says-pace-could-quicken-12309653#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/csavur9g_x_625x300_10_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:29:15+05:30",
-      "category": "Markets",
-      "summary": "Fed officials left interest rates unchanged at their Oct. 27-28 meeting after raising them by a quarter percentage point in September. That was the first rate hike since 2023 as policymakers seek to cool inflation that h"
-    },
-    {
-      "title": "IBM To End Immigration Sponsorship For Roles In Biggest Unit",
-      "excerpt": "The technology industry's reliance on foreign workers has long been a flashpoint in the debate over immigration. Since President Donald Trump's return to office last year, the administration has seized on those concerns ",
-      "url": "https://www.ndtvprofit.com/business/ibm-to-end-immigration-sponsorship-for-roles-in-biggest-unit-12309636#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/d3uh56b4_x_625x300_10_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:23:42+05:30",
-      "category": "Markets",
-      "summary": "The technology industry's reliance on foreign workers has long been a flashpoint in the debate over immigration. Since President Donald Trump's return to office last year, the administration has seized on those concerns "
-    },
-    {
-      "title": "Bullion Takes A Hit: Gold Drops Over 2% As Hotter US CPI Lifts Dollar, Yields On Hawkish Fed Repricing",
-      "excerpt": "According to the CME FedWatch Tool, the probability of a 50-basis-point rate hike in December rose to around 13.6% after the inflation report, from zero before the data.",
-      "url": "https://www.ndtvprofit.com/markets/bullion-takes-a-hit-gold-drops-over-2-as-hotter-us-cpi-lifts-dollar-yields-on-hawkish-fed-repricing-12309619#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/m17kus5g_gold-and-silver-rates-nov-9_625x300_09_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:20:25+05:30",
-      "category": "Markets",
-      "summary": "According to the CME FedWatch Tool, the probability of a 50-basis-point rate hike in December rose to around 13.6% after the inflation report, from zero before the data."
-    },
-    {
-      "title": "Budget 2027 Expectations: LTCG Tax Removal To LNG Duty Waiver — Five Key Demands By PHDCCI",
-      "excerpt": "PHDCCI pitches sweeping tax reforms, easier MSME financing and customs duty relief on key industrial imports ahead of Budget 2027-28.",
-      "url": "https://www.ndtvprofit.com/business/budget-2027-expectations-ltcg-tax-removal-to-lng-duty-waiver-five-demands-by-phdcci-12309537#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-05/8jbimaqs_nirmala-sitharaman-photo-pti_625x300_09_May_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:07:44+05:30",
-      "category": "Markets",
-      "summary": "PHDCCI pitches sweeping tax reforms, easier MSME financing and customs duty relief on key industrial imports ahead of Budget 2027-28."
-    },
-    {
-      "title": "'Better Weather, Fan Experience': Harsh Goenka Backs Lalit Modi, Juhi Chawla's Pitch For Winter IPL Window",
-      "excerpt": "RPG Group Chairman Harsh Goenka has backed calls by Lalit Modi and Juhi Chawla to shift the IPL from April-May to January, citing better playing conditions and a more comfortable experience for fans.",
-      "url": "https://www.ndtvprofit.com/india/better-weather-fan-experience-harsh-goenka-backs-lalit-modi-juhi-chawlas-pitch-for-winter-ipl-window-12309577#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/n17q6skg_ipl_625x300_10_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:07:32+05:30",
-      "category": "Markets",
-      "summary": "RPG Group Chairman Harsh Goenka has backed calls by Lalit Modi and Juhi Chawla to shift the IPL from April-May to January, citing better playing conditions and a more comfortable experience for fans."
-    },
-    {
-      "title": "Hardik Pandya's IPL 2027 Move: Why Ravi Shastri Has Warned Other Teams",
-      "excerpt": "Shastri has backed Hardik's T20 abilities amid reports of a blockbuster trade ahead of the IPL 2027 season.",
-      "url": "https://www.ndtvprofit.com/sports/hardik-pandyas-ipl-2027-move-why-ravi-shastri-has-warned-other-teams-12309566#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/2crbsh5c_ravi-shastri_625x300_10_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T22:04:34+05:30",
-      "category": "Markets",
-      "summary": "Shastri has backed Hardik's T20 abilities amid reports of a blockbuster trade ahead of the IPL 2027 season."
-    },
-    {
-      "title": "Rs 500 Fare, 40-Minute Ride: How To Book Delhi’s First Yamuna River Cruise Service",
-      "excerpt": "The boat covers a 6 km round trip, though there is more to explore beyond the water.",
-      "url": "https://www.ndtvprofit.com/india/rs-500-fare-40-minute-ride-how-to-book-delhi-s-first-yamuna-river-cruise-service-12309480#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/7an0idg4_yamuna_625x300_10_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T21:53:26+05:30",
-      "category": "Markets",
-      "summary": "The boat covers a 6 km round trip, though there is more to explore beyond the water."
-    },
-    {
-      "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
-      "excerpt": "Ahead of Market: 10 things that will decide stock market action on Wednesday The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeEQ4OVQ1MTM5Vy16eGhvUF9YZlh5NHMzSWN1MXVkWnZwbGJUQVBmQklGR3VpdnVTeTBWa3Jhay1jbGJldF9Xd1lxNHU0RF9fSGV2RUpETnQ5TDdkcXp4SGlkZW52YlBnUEJPUEpKdmw1UThRWG5PeENWTDB4UVY0Ty1tRUNIaWVRRVJfaGIta2FGc0liZnBFU0ZHam1RT0dVMk5MNlN3a2dfRU9KNlIxWjlDcVdLaEFCUTQ3Nm01YkNIVmlHMEphYW5VTE04T0QzZEtSUkwxM3o2c2U5R2l4WTh2Y9IB6AFBVV95cUxNNklaVHZicXk5ekJ5TU1lTHpBNTRaY2hEUzFyU3N4MVN0OF9SN25WM0xEckNjZ0pSYlZQcXNRWTdUajU5Q3dKMlZVQmhqSkp1M3ltVENhN28wVEF5bE1IbTRxajllaXBlUlJXQUtfcU1ZVWtia0NrSTQtMmU5Q0FvRElnYmFQamc1bWQ1YXdwejVpZGNUbUZ4TEpnRk0yV29qNmNxcF9aYWxRRTBUa1NyTWJ4WkJyaGJESjBHakc2Z0FHaWNET1RXblYycFZKUHh2SkFMNWt2TUVQYW0yZkRQZFQ0R3h2dDVn?oc=5",
-      "source": "The Economic Times",
-      "image": null,
-      "publishedAt": "2026-11-10T21:31:59+05:30",
-      "category": "Markets",
-      "summary": "Ahead of Market: 10 things that will decide stock market action on Wednesday The Economic Times"
-    },
-    {
-      "title": "Alyssa Healy Breaks Silence On Sandpapergate Row Involving Husband Mitchell Starc",
-      "excerpt": "The former Australia captain said she was reluctant to comment on the controversy but welcomed Cricket Australia's decision not to reopen the investigation.",
-      "url": "https://www.ndtvprofit.com/sports/alyssa-healy-breaks-silence-on-sandpapergate-row-involving-husband-mitchell-starc-12309392#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/vq159rhs_mitchel-starc_625x300_10_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T21:23:54+05:30",
-      "category": "Markets",
-      "summary": "The former Australia captain said she was reluctant to comment on the controversy but welcomed Cricket Australia's decision not to reopen the investigation."
-    },
-    {
-      "title": "Nifty PSU Bank Index Performance: Bank of India, UCO Bank among 7 stocks rebound 15–56% from 1-yr lows - here’s why",
-      "excerpt": "State-owned bank stocks have rallied sharply, with the Nifty PSU Bank index posting its biggest one-day gain in nearly two years. Strong quarterly profits, improving asset quality and returning foreign investment have su",
-      "url": "https://www.livemint.com/market/stock-market-news/nifty-psu-bank-index-performance-bank-of-india-uco-bank-among-7-stocks-rebound-15-56-from-1-yr-lows-here-s-why-11794321816668.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/10/1600x900/logo/Gainers_1794324592211_yzwT_1794324601111_AxCn_acbf96e5-d91b-4408-8124-5ced4a308b7a_3Ima.png",
-      "publishedAt": "2026-11-10T21:16:36+05:30",
-      "category": "Markets",
-      "summary": "State-owned bank stocks have rallied sharply, with the Nifty PSU Bank index posting its biggest one-day gain in nearly two years. Strong quarterly profits, improving asset quality and returning foreign investment have su"
-    },
-    {
-      "title": "CCI Clears Advent International's Rs 3,150 Crore Investment In Yatharth Hospital",
-      "excerpt": "The investment will provide growth capital to Yatharth Hospitals to fund its expansion plans and strengthen its healthcare network across the country, while allowing Advent to expand its footprint in India's fast-growing",
-      "url": "https://www.ndtvprofit.com/business/cci-clears-advent-internationals-rs-3-150-crore-investment-in-yatharth-hospital-12309350#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/hr3347j_bb_625x300_10_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T21:15:45+05:30",
-      "category": "Markets",
-      "summary": "The investment will provide growth capital to Yatharth Hospitals to fund its expansion plans and strengthen its healthcare network across the country, while allowing Advent to expand its footprint in India's fast-growing"
-    },
-    {
-      "title": "Jeff Bezos To Jensen Huang: Five Scandals When CEOs' Private Lives Become A Corporate Risk",
-      "excerpt": "Nvidia's Jensen Huang joins a growing list of tech leaders whose personal relationships have triggered corporate scrutiny, raising questions about leadership, accountability and reputation.",
-      "url": "https://www.ndtvprofit.com/world/from-jeff-bezos-to-jensen-huang-when-ceos-private-lives-become-a-corporate-risk-12309261#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/rvmddao_ceo_625x300_10_November_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T21:15:27+05:30",
-      "category": "Markets",
-      "summary": "Nvidia's Jensen Huang joins a growing list of tech leaders whose personal relationships have triggered corporate scrutiny, raising questions about leadership, accountability and reputation."
-    },
-    {
-      "title": "Ramayana’ Enters Oscars Race: Makers Submit Ranbir Kapoor",
-      "excerpt": "Ranbir Kapoor-starrer seeks a place in the 99th Academy Awards race, joining a growing list of Indian films eyeing international recognition.",
-      "url": "https://www.ndtvprofit.com/entertainment/ramayana-enters-oscars-race-makers-submit-ranbir-kapoor-starrer-for-academy-awards-consideration-12309294#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/njn8tlmc_ramayana_625x300_10_November_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T21:12:29+05:30",
-      "category": "Markets",
-      "summary": "Ranbir Kapoor-starrer seeks a place in the 99th Academy Awards race, joining a growing list of Indian films eyeing international recognition."
-    },
-    {
-      "title": "Why Couple Earning Rs 7.2 Lakh A Month Is Saying No To A Rs 4 Crore Bengaluru Home",
-      "excerpt": "Earning Rs 7.2 lakh a month after taxes, the two software professionals had the financial profile to contemplate an expensive property purchase.",
-      "url": "https://www.ndtvprofit.com/trending/why-couple-earning-rs-7-2-lakh-a-month-is-saying-no-to-a-rs-4-crore-bengaluru-home-12307669#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/1udmo2ts_finance-journey-pexels_625x300_06_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T21:07:21+05:30",
-      "category": "Markets",
-      "summary": "Earning Rs 7.2 lakh a month after taxes, the two software professionals had the financial profile to contemplate an expensive property purchase."
-    },
-    {
-      "title": "Kiara Advani Reveals Karan Johar Threw Shahid Kapoor Off Stage During Her Wedding With Sidharth Malhotra",
-      "excerpt": "Kiara Advani and Sidharth Malhotra will appear together on Koffee With Karan Season 9’s upcoming episode. During their conversation, Kiara recalls how Karan Johar pushed Shahid Kapoor off the stage during their wedding c",
-      "url": "https://www.ndtvprofit.com/trending/karan-johar-pushed-shahid-kapoor-off-the-stage-during-wedding-recalls-kiara-advani-12308101#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/70v3qgv4_kiara_625x300_10_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T20:58:33+05:30",
-      "category": "Markets",
-      "summary": "Kiara Advani and Sidharth Malhotra will appear together on Koffee With Karan Season 9’s upcoming episode. During their conversation, Kiara recalls how Karan Johar pushed Shahid Kapoor off the stage during their wedding c"
-    },
-    {
-      "title": "Post-Diwali Smog Trap: Satellite Pictures Capture North India Vanishing Under Grey Haze",
-      "excerpt": "The haze is particularly dense over Delhi, Uttar Pradesh and the Himalayan states, including Uttarakhand, Himachal Pradesh and Jammu and Kashmir.",
-      "url": "https://www.ndtvprofit.com/india/post-diwali-smog-trap-satellite-pictures-capture-north-india-vanishing-under-grey-haze-12309246#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/lqvj3vhs_nasa_625x300_10_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T20:51:20+05:30",
-      "category": "Markets",
-      "summary": "The haze is particularly dense over Delhi, Uttar Pradesh and the Himalayan states, including Uttarakhand, Himachal Pradesh and Jammu and Kashmir."
-    },
-    {
-      "title": "Bulgaria Highway Tragedy: 11 Dead, 50 Injured — What Triggered The Multi-Vehicle Pile",
-      "excerpt": "Thick fog is suspected to have triggered a massive pile-up involving around 50 cars and trucks on Bulgaria's A1 motorway, leaving 11 people dead and dozens injured.",
-      "url": "https://www.ndtvprofit.com/world/bulgaria-highway-tragedy-11-dead-50-injured-what-triggered-the-multi-vehicle-pile-up-12309066#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/3sugk25c_car-accident_625x300_10_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-10T20:45:46+05:30",
-      "category": "Markets",
-      "summary": "Thick fog is suspected to have triggered a massive pile-up involving around 50 cars and trucks on Bulgaria's A1 motorway, leaving 11 people dead and dozens injured."
-    },
-    {
-      "title": "Traders raise odds of 50 bps Fed rate hike as CPI rise exceeds expectations",
-      "excerpt": "New data has revealed that US consumer prices rose faster than anticipated, prompting speculation about interest rate changes. Fed Governor Christopher Waller suggested a half percentage point hike may be necessary if co",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/traders-raise-odds-of-50-bps-fed-rate-hike-as-cpi-rise-exceeds-expectations/articleshow/135714586.cms",
-      "source": "Economic Times",
-      "image": null,
-      "publishedAt": "2026-11-10T20:45:45+05:30",
-      "category": "Markets",
-      "summary": "New data has revealed that US consumer prices rose faster than anticipated, prompting speculation about interest rate changes. Fed Governor Christopher Waller suggested a half percentage point hike may be necessary if co"
     }
   ]
 }
