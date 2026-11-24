@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-11-24T02:08:30+05:30",
+  "lastUpdated": "2026-11-24T05:44:57+05:30",
   "count": 25,
   "articles": [
+    {
+      "title": "Nvidia’s 31% Surge Exposes Wall Street’s Growing Stock Trap",
+      "excerpt": "Monday’s spectacular stock rebound exposes the latest trap facing investors in a market dominated by a handful of technology giants: Selling them offers protection when markets plunge, but risks missing the recovery.",
+      "url": "https://www.livemint.com/market/nvidias-31-surge-exposes-wall-street-s-growing-stock-trap-11795470573054.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-11-24T03:19:32+05:30",
+      "category": "Markets",
+      "summary": "Monday’s spectacular stock rebound exposes the latest trap facing investors in a market dominated by a handful of technology giants: Selling them offers protection when markets plunge, but risks missing the recovery."
+    },
+    {
+      "title": "Stock Market Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore - theopenpress.in",
+      "excerpt": "Stock Market Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore theopenpress.in",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mRklNa25NTmpaYWhjRkhOQURPTUpJY2NleXZmOXN0djF4a1hjb3hQblctZ1dJU0ZMZXFULVhWNmZrc2dHaS1zTm16aGVSSFpzYThPUVZJcUZsTHdQYldsd3FtdXFJOHZ6bktjRHBGSnI?oc=5",
+      "source": "theopenpress.in",
+      "image": null,
+      "publishedAt": "2026-11-24T05:31:20+05:30",
+      "category": "Markets",
+      "summary": "Stock Market Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore theopenpress.in"
+    },
+    {
+      "title": "Gold Rebounds as Huang’s Return to Nvidia Revives Risk Appetite",
+      "excerpt": "Gold extended its rebound in a broad risk-on rally triggered by the reinstatement of Jensen Huang as chief executive officer of Nvidia Corp.",
+      "url": "https://www.livemint.com/market/gold-rebounds-as-huang-s-return-to-nvidia-revives-risk-appetite-11795469022718.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market3_1733466045716_1733466057117.png",
+      "publishedAt": "2026-11-24T02:53:42+05:30",
+      "category": "Markets",
+      "summary": "Gold extended its rebound in a broad risk-on rally triggered by the reinstatement of Jensen Huang as chief executive officer of Nvidia Corp."
+    },
+    {
+      "title": "Why Stock Market Is Down Today? Sensex Falls 1,300 Points From High; Nifty Near 25,600",
+      "excerpt": "Why Stock Market Is Down Today? Sensex Falls 1,300 Points From High; Nifty Near 25,600 Kotak Neo",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFByWE04WVJrYm56SnV5ZjhHRjU5ZnE1SmNmVXpnenQ4V0FPODFLR3ZyNEJOVXdFdVVPVUs0V3pVT3ROdVhkRFNlRUVNeFVvYjEzZVhkbVBnTm1XNGRpRDhUNFhJejRoQWllQmVDWTFtQjA2WlMzLS1xTDA5ZHg5UQ?oc=5",
+      "source": "Kotak Neo",
+      "image": null,
+      "publishedAt": "2026-11-24T02:52:22+05:30",
+      "category": "Markets",
+      "summary": "Why Stock Market Is Down Today? Sensex Falls 1,300 Points From High; Nifty Near 25,600 Kotak Neo"
+    },
+    {
+      "title": "Credit Fear Gauge Drops as Huang’s Return Boosts AI Hopes",
+      "excerpt": "Corporate-debt markets rallied globally on Monday, with US fear gauges improving the most in months and technology firms’ bonds rebounding after Nvidia Corp.’s board reinstated Jensen Huang as chief executive officer.",
+      "url": "https://www.livemint.com/market/credit-fear-gauge-drops-as-huang-s-return-boosts-ai-hopes-11795467289630.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-24T02:24:49+05:30",
+      "category": "Markets",
+      "summary": "Corporate-debt markets rallied globally on Monday, with US fear gauges improving the most in months and technology firms’ bonds rebounding after Nvidia Corp.’s board reinstated Jensen Huang as chief executive officer."
+    },
+    {
+      "title": "Taiwan Meets With TSMC, Financial Firms in Bid to Calm Markets",
+      "excerpt": "Taiwan Premier Cho Jung-tai met with executives from tech companies including Taiwan Semiconductor Manufacturing Co. and the island’s biggest financial firms — a rare move aimed at calming jittery investors.",
+      "url": "https://www.livemint.com/market/taiwan-meets-with-tsmc-financial-firms-in-bid-to-calm-markets-11795466488909.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-11-24T02:11:28+05:30",
+      "category": "Markets",
+      "summary": "Taiwan Premier Cho Jung-tai met with executives from tech companies including Taiwan Semiconductor Manufacturing Co. and the island’s biggest financial firms — a rare move aimed at calming jittery investors."
+    },
     {
       "title": "Nvidia’s Big Rebound Hammers Leveraged Funds Betting on a Fall",
       "excerpt": "For investors betting against Nvidia Corp., Monday’s big rebound turned a lucrative wager into a financial wrecking ball.",
@@ -11,16 +71,6 @@
       "publishedAt": "2026-11-24T02:04:20+05:30",
       "category": "Markets",
       "summary": "For investors betting against Nvidia Corp., Monday’s big rebound turned a lucrative wager into a financial wrecking ball."
-    },
-    {
-      "title": "Stock Market Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore - theopenpress.in",
-      "excerpt": "Stock Market Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore theopenpress.in",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mRklNa25NTmpaYWhjRkhOQURPTUpJY2NleXZmOXN0djF4a1hjb3hQblctZ1dJU0ZMZXFULVhWNmZrc2dHaS1zTm16aGVSSFpzYThPUVZJcUZsTHdQYldsd3FtdXFJOHZ6bktjRHBGSnI?oc=5",
-      "source": "theopenpress.in",
-      "image": null,
-      "publishedAt": "2026-11-24T01:07:27+05:30",
-      "category": "Markets",
-      "summary": "Stock Market Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore theopenpress.in"
     },
     {
       "title": "In search of emerging signals, RBI casts a wider data net",
@@ -61,16 +111,6 @@
       "publishedAt": "2026-11-24T00:46:29+05:30",
       "category": "Markets",
       "summary": "GLOBAL-OIL:Oil falls around 3% on increased Middle East flows, Libyan pipeline restart"
-    },
-    {
-      "title": "Stock Market Crash Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore - theopenpress.in",
-      "excerpt": "Stock Market Crash Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore theopenpress.in",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGJVTmJxTGdicnJfVkRMc19TMEM4NUpRUE56bWFwb3NPUW15UHhpOGxxR3Nzak9WYm9qcGlweGpLd29lMXRRNXZYZEp6Y3hCWEM5cUs5dzUxTjVuUGlnX2g0MllZT18zaE9jWmhiS1RiQWNSUmM0TTdKTFNBQkFlS1ZNTHBzWDB2Y2lWN1JySQ?oc=5",
-      "source": "theopenpress.in",
-      "image": null,
-      "publishedAt": "2026-11-24T00:44:47+05:30",
-      "category": "Markets",
-      "summary": "Stock Market Crash Today: Sensex Plunges 1,484 Points, Nifty Falls Below 25,350; Investors Lose Over ₹5 Lakh Crore theopenpress.in"
     },
     {
       "title": "Chicago soybeans higher on meal demand; wheat gains on supply concerns",
@@ -203,54 +243,14 @@
       "summary": "Jensen Huang back as NVIDIA CEO: Experts believe the big development may have a direct impact on Indian tech and IT stocks"
     },
     {
-      "title": "RBI D-SIB List 2026: Why SBI, HDFC Bank and ICICI Bank remain systemically important banks; explained",
-      "excerpt": "RBI D-SIB List 2026: Why SBI, HDFC Bank and ICICI Bank remain systemically important banks; explained ET Now",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPOWwyWU04V2wwc25EOUlQMFVwT1JSSFQ5cGdlQWJrYjNjbWpDdlZzN1puY0ZiTHBLRFB3MTRYNDZocl9MVHhlQW1CaWI4NFhUd1RLTU9jdnJldUQySHJxZDg2Nk9DWFBsOXJkdFd0T2o4R0NmV3lYcTZpWURuTXRmZmtjT0FWVkhlSk9VdG5sbGFNYkVxeGxqSlplbGFycENUVEVnMWsxZHBlcEFvMjk2bDkwRDBkeDhUendPUVU4bVdaSTBwR2ZxelVhVU41elZSZmlNdFVpMmdrUW9HZ1FWWUd2Uk1Bdk5jLW15TzlRWlfSAfYBQVVfeXFMUEloZmFfbTRTRG53djNKN0ljMzVaai1VQW5mNVYyb0JYaFdSWFdlVHBWdkNUaUJOX1U0b2lscjUzcExQSGZYQVpYQ1FVS3dNLVZhSHhsRnZmY3NLUzVOR3RLQ2lyVExRa29jOUNhSk9XeVVvekh4STFKbndNNXBBczFXWHBlWnNkQnlDRTJXMTgzQWZSbUdTb1pDaHgxVnY5OE5OREVDZXZmTUNEd0NFRmFQSWNuSFZUYXNWTEVlYW5rSUtUenhHc3dVY0hpcU9Gc1p3d3N6Z0pUbmNScm9rSnJfaHQ1MjNtRGlDYzMyYl94Mjk5TWtB?oc=5",
-      "source": "ET Now",
+      "title": "Indian Stocks Plunge Nearly 2% as Sensex Sheds 1,484 Points, Investors Lose $5.7 Billion",
+      "excerpt": "Indian Stocks Plunge Nearly 2% as Sensex Sheds 1,484 Points, Investors Lose $5.7 Billion INDIA New England News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0FqQ18tcEZKTkZ1QUxvVm9CckMyd245Rmp5SWNTWmxzMENwTVB1b0tVQmRXdXA5R3BfeGprOEdRY3ViSFRjb2x5NHBOdkVZdE9sTms0eE9wSFBJdzRyM0JySFhEQlhWWWdTaGE2RFZPRTlVX0VrQmFOamphdkZ5VEhtd1NpS1I0TGUyWGx0cDgwZ2ZkWElMWVU3SlM5MUhtaGhTYjBEMVBZR3o0Ym1BVFQ4SQ?oc=5",
+      "source": "INDIA New England News",
       "image": null,
-      "publishedAt": "2026-11-23T22:07:54+05:30",
-      "category": "Economy",
-      "summary": "RBI D-SIB List 2026: Why SBI, HDFC Bank and ICICI Bank remain systemically important banks; explained ET Now"
-    },
-    {
-      "title": "Aakasamlo Oka Tara Box Office Collection Day 4: Dulquer Salmaan Starrer Maintains Good Hold",
-      "excerpt": "Aakasamlo Oka Tara, also known as AOT, is a Telugu-language science-fiction drama directed by Pavan Sadineni.",
-      "url": "https://www.ndtvprofit.com/entertainment/cinema-tollywood-movie-aakasamlo-oka-tara-box-office-collection-day-4-dulquer-salmaan-telugu-film-first-week-monday-earnings-12367404#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/00jg6dt_aakasamlo-oka-tara_625x300_23_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-23T22:06:16+05:30",
+      "publishedAt": "2026-11-23T22:15:39+05:30",
       "category": "Markets",
-      "summary": "Aakasamlo Oka Tara, also known as AOT, is a Telugu-language science-fiction drama directed by Pavan Sadineni."
-    },
-    {
-      "title": "Elon Musk To Sam Altman: 10 Big Names Who Backed Jensen Huang's Nvidia Comeback",
-      "excerpt": "Elon Musk, Sam Altman and other Silicon Valley leaders have voiced support for Jensen Huang's possible return as Nvidia CEO, as a petition backing his reinstatement gathers over 158,000 signatures.",
-      "url": "https://www.ndtvprofit.com/business/who-is-backing-jensen-huang-full-list-of-tech-titans-supporting-his-nvidia-comeback-12331622#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/lk6lgq7g_ai_625x300_23_November_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-23T22:05:55+05:30",
-      "category": "Markets",
-      "summary": "Elon Musk, Sam Altman and other Silicon Valley leaders have voiced support for Jensen Huang's possible return as Nvidia CEO, as a petition backing his reinstatement gathers over 158,000 signatures."
-    },
-    {
-      "title": "NSEL OTS payment update: 63 Moons Technologies-backed firm releases  ₹1,950 cr payout after 14 yrs - all about case",
-      "excerpt": "NSEL has released a ₹1,950 crore one-time settlement for eligible claimants, following approval by the Mumbai bench of the NCLT. The payout offers relief in a payment-default crisis that began in 2013, when trading membe",
-      "url": "https://www.livemint.com/market/stock-market-news/nsel-ots-payment-update-63-moons-technologies-backed-firm-releases-rs-1-950-cr-payout-after-14-yrs-all-about-case-11795450343693.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/23/1600x900/logo/63_Moon_1795451314965_dfdp_1795451330744_GDi0_7ece5692-4d86-4508-873e-72a5b87c94f6_frAE.png",
-      "publishedAt": "2026-11-23T22:03:40+05:30",
-      "category": "Markets",
-      "summary": "NSEL has released a ₹1,950 crore one-time settlement for eligible claimants, following approval by the Mumbai bench of the NCLT. The payout offers relief in a payment-default crisis that began in 2013, when trading membe"
-    },
-    {
-      "title": "Baird Flags Nvidia As A 'Fresh Pick' With $200 Target. But There's A Catch",
-      "excerpt": "The brokerage added a 'bullish Fresh Pick' on the stock while keeping a 'Neutral' rating, as Nvidia wins back about $1 trillion in market value in a single session.",
-      "url": "https://www.ndtvprofit.com/markets/baird-flags-nvidia-as-a-fresh-pick-with-200-target-but-theres-a-catch-12367559#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-07/c6h9k0s8_ai_625x300_10_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-23T22:02:41+05:30",
-      "category": "Markets",
-      "summary": "The brokerage added a 'bullish Fresh Pick' on the stock while keeping a 'Neutral' rating, as Nvidia wins back about $1 trillion in market value in a single session."
+      "summary": "Indian Stocks Plunge Nearly 2% as Sensex Sheds 1,484 Points, Investors Lose $5.7 Billion INDIA New England News"
     }
   ]
 }
