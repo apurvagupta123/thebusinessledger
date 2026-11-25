@@ -1,16 +1,36 @@
 {
-  "lastUpdated": "2026-11-25T20:19:49+05:30",
+  "lastUpdated": "2026-11-26T05:00:40+05:30",
   "count": 25,
   "articles": [
     {
-      "title": "This Toyota Can Run On 85% Ethanol: India's First Flex",
-      "excerpt": "Toyota Kirloskar Motor has unveiled India's first flex-fuel strong hybrid vehicle, the Innova Hycross Flex Fuel, which can run on petrol as well as E85, a blend containing up to 85% ethanol.",
-      "url": "https://www.ndtvprofit.com/india/this-toyota-can-run-on-85-ethanol-indias-first-flex-fuel-hybrid-priced-at-rs-19-99-lakh-12376060#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/jhogc1es_innova-hycross-flex-fuel_625x300_25_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:43:15+05:30",
+      "title": "Anthropic’s Stock Sparks Rare Divide Inside One Wall Street Firm",
+      "excerpt": "Two equity analysts at a single Wall Street research firm have taken the unusual step of posting conflicting views on the outlook for the hottest stock in the market: Anthropic PBC’s newly listed shares.",
+      "url": "https://www.livemint.com/market/anthropics-stock-sparks-rare-divide-inside-one-wall-street-firm-11795644112199.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-26T03:31:51+05:30",
       "category": "Markets",
-      "summary": "Toyota Kirloskar Motor has unveiled India's first flex-fuel strong hybrid vehicle, the Innova Hycross Flex Fuel, which can run on petrol as well as E85, a blend containing up to 85% ethanol."
+      "summary": "Two equity analysts at a single Wall Street research firm have taken the unusual step of posting conflicting views on the outlook for the hottest stock in the market: Anthropic PBC’s newly listed shares."
+    },
+    {
+      "title": "JPMorgan Sees $450 Billion AI Debt Blitz in 2027 Before Plateau",
+      "excerpt": "Companies will tap public high-grade debt markets for $450 billion next year to finance their artificial intelligence-related capital expenditures, even as a growth plateau looms for the burgeoning industry further down ",
+      "url": "https://www.livemint.com/market/jpmorgan-sees-450-billion-ai-debt-blitz-in-2027-before-plateau-11795643437075.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-11-26T03:20:36+05:30",
+      "category": "Markets",
+      "summary": "Companies will tap public high-grade debt markets for $450 billion next year to finance their artificial intelligence-related capital expenditures, even as a growth plateau looms for the burgeoning industry further down "
+    },
+    {
+      "title": "Why is the Stock Market Up Today? BSE Sensex Soars Over 1400 Points; Nifty 50 Nears 25,800",
+      "excerpt": "Why is the Stock Market Up Today? BSE Sensex Soars Over 1400 Points; Nifty 50 Nears 25,800 Kotak Neo",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSFhuSkJiQ1p6aHRjNlNGeERnd1dVTlB1S1V3YTE1aDFLdjl0VHBSVkRneGdaVzUtVjZzSzRIVVB0OXhsVlFhbDY5dW54cTdjRTk2SlhJbUhYcDZtcDFobzNXZGl1S3FUMlFzZ2RmRmZKZjNhajRrUkdIV0ViNnI0Nw?oc=5",
+      "source": "Kotak Neo",
+      "image": null,
+      "publishedAt": "2026-11-26T02:56:15+05:30",
+      "category": "Markets",
+      "summary": "Why is the Stock Market Up Today? BSE Sensex Soars Over 1400 Points; Nifty 50 Nears 25,800 Kotak Neo"
     },
     {
       "title": "Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Foreign Investors Return to Indian Markets - theopenpress.in",
@@ -18,99 +38,139 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ3VXRTFFREV0YXZNT2tNTERvM2ZVVkVrcU1FQVRnSzRueEtsZmgwZlFLTzFrdk1rTW50Q1ZuSDRnZmFBWnNSMUVyTVdwREdpTV9jZjMzUWUyNm1fMHctLTVVVFRmbFZiM1ZjOUpuRzlHMjA4MDhiOVpwSVo1cnlEQlpjNTNucjlSNnQyX0tkbzlLUGNCdi1xZnRpbWRlQ2hZd09SWHB2NA?oc=5",
       "source": "theopenpress.in",
       "image": null,
-      "publishedAt": "2026-11-25T20:15:11+05:30",
+      "publishedAt": "2026-11-26T02:15:33+05:30",
       "category": "Markets",
       "summary": "Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Foreign Investors Return to Indian Markets theopenpress.in"
     },
     {
-      "title": "Sensex Today: Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Investors Gain Over ₹3 Lakh Crore - theopenpress.in",
-      "excerpt": "Sensex Today: Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Investors Gain Over ₹3 Lakh Crore theopenpress.in",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVmFnZUcyRWc3SGRnMnBYMUFKWlFsa0FXRDFVQS1FMzQ3VzFJM0h0aG00N1ItTll0aWVnd1ZnLUNJX0g5bGhPMTcwTU82NWJlSC1fVDFCUWtvaHB6Vm1FMXJvaHlTSnZFQnFUbWxiWDZSWDRndmNYMGZ1QkY3LS0wRzQtQmVoYjlCQXc?oc=5",
-      "source": "theopenpress.in",
-      "image": null,
-      "publishedAt": "2026-11-25T19:48:00+05:30",
+      "title": "Yen, Swiss franc gain as dollar slips in volatile AI-driven session",
+      "excerpt": "GLOBAL-FOREX:Yen, Swiss franc gain as dollar slips in volatile AI-driven session",
+      "url": "https://www.livemint.com/market/yen-swiss-franc-gain-as-dollar-slips-in-volatile-ai-driven-session-11795638628253.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-26T02:00:27+05:30",
       "category": "Markets",
-      "summary": "Sensex Today: Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Investors Gain Over ₹3 Lakh Crore theopenpress.in"
+      "summary": "GLOBAL-FOREX:Yen, Swiss franc gain as dollar slips in volatile AI-driven session"
     },
     {
-      "title": "Ramayana Box Office Collection Day 21: Ranbir",
-      "excerpt": "The ensemble cast also includes Ravi Dubey as Lakshman, Arun Govil as King Dasharath and Lara Dutta as Kaikeyi.",
-      "url": "https://www.ndtvprofit.com/entertainment/cinema-bollywood-movie-ramayana-box-office-collection-day-21-ranbir-kapoor-yash-sai-pallavi-nitesh-tiwari-film-third-week-wednesday-earnings-12376372#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/27fq4qfo_ramayanapart1day21boxoffice_625x300_25_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:42:58+05:30",
-      "category": "Markets",
-      "summary": "The ensemble cast also includes Ravi Dubey as Lakshman, Arun Govil as King Dasharath and Lara Dutta as Kaikeyi."
-    },
-    {
-      "title": "New Airport Coming Up In Assam's Doloo: Check Project Cost, Capacity And Key Details",
-      "excerpt": "The 12,351-square-metre terminal will handle 800 passengers during peak hours, with a 2,705-metre runway for A-320 aircraft.",
-      "url": "https://www.ndtvprofit.com/india/new-airport-coming-up-in-assams-doloo-check-project-cost-capacity-and-key-details-12376304#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2025-12/8b1e726d_Airport.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:41:56+05:30",
-      "category": "Markets",
-      "summary": "The 12,351-square-metre terminal will handle 800 passengers during peak hours, with a 2,705-metre runway for A-320 aircraft."
-    },
-    {
-      "title": "FM Nirmala Sitharaman chairs 12th pre-Budget consultation with education, skilling and sports stakeholders",
-      "excerpt": "FM Nirmala Sitharaman chairs 12th pre-Budget consultation with education, skilling and sports stakeholders The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOb2M4b3h1bldNTmhaNndwWGc0WTlMZXF1eEtYdkdKZm5yaVFLajNCNlBReGtOWmZrN2xod2JDWDdMVnZ2cGd2RG43d1VPWUdsd2s5c1JKYnRWaHFzdEpPcnpKUlVUOEJTNGlXM2ltRzVOVy1XZkY5NEJsb1otMmpELVV0cHUzRlZtRW1yN2daR0tRSERLUkNEZ3I2S3ZybDdpa1F1Y3huQzZodEQtVTV4bVN3Q0hvcDJJQkoySmZLUkJOaWh5bVdxNXJUODhTa1lTY3VLX0p6dFZxVVpmSmE2cG1jUEhiZV9VUTBFMjdaV1RkMFduNngtRGZmdnRQdVBfYm8zTVQ3U1EzLWfSAZACQVVfeXFMTUNhWFAzcFN2Ql9vcS1xNklnMTV0el93ZGxkYXhfN0tCYzRhSmRhVnlzRVpJdjl5d1V1Vmh2UFNuXzlJVmhldXNITnRPRlE5T2hQUGhaUXF4b3NnZFZfdnkyWGpiT2V1TFlxOTFLMjU4US1VWVNMam9ZYUVqbi16RTltRFVwYlVDcVNKMXVVblMxQ1RPUGU2M2U5SWFMbFZVamJ5U1ZLYU5BUGlCeWlsbS12aDB4LWFyLTJPRzIyeWxxWjd4YW9qampLZE1iY3pIT1RQM2wyalJXZUh2QS04OTloLVREQ3Rsc2xQU2l6MkpudnpxY2lTVTJ4ckhGb3FoNTQzN3hIU1VySDFTS0xJMl8?oc=5",
+      "title": "RBI's net dollar purchases plunge to $6.9 billion in September from $43.2 billion in August",
+      "excerpt": "RBI's net dollar purchases plunge to $6.9 billion in September from $43.2 billion in August The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQ2RZVldQWlgtREFEc09uNjV4bUQ0U2ZrNllpNHF3bFVqTHR4aWxFZk9MYXlrX1NQMXVtYjRUcHRVa1ZiUXU5MENubGNWaGFOdWtBTGhFUE43LUdEZ0pSTXhwR1p4QzFObFBzbm5TcjhvRGJieHFTVFpsSWpJSE4tUEVmRWlZQjZnSDFQeG5qQWZqTW55QVR5YWFCX1RwUlROU1dkZHJKTnhnLWZ5ZFlRYmc4T05aeEJnaUp4NWdvdWJFZEhUOXprcEtrdlFhTjNNT2VLZ1c1UWMteU5JZEpOVXB1N2lJUmJZbG1lM0JzZFQ1TnBVMlHSAfsBQVVfeXFMTzdaSWxDOXphMU1UaGh4ZmdleFpqZjJFazF6UG4yWXB3X1pobHlBcmI1S01XWExwUXZPV0M0UVVub0h4b1M1N3hXeklBSm93cm5wYlB1TUxTMms1WC1nd3Z3LVh3NUtOZFRNeWMwaWtlWU05ZWpQLVlCNEgwbjR2TzlaRjd4V3Ffa0pVbGNzTGxKWnJYbm5Sd0IwNTBkQm1teFFBa1lSckZmcHlNc1V6QzNSejJnd1g3U1lLc0FVMy1tZ1JxSEFqYnlsRUo3U3VVZXpMLW00aTdpbUVQdHpJWl9fS2x6ei1haU1VYUpIb0wya2lCdjlrd3pYUVU?oc=5",
       "source": "The Economic Times",
       "image": null,
-      "publishedAt": "2026-11-25T19:41:26+05:30",
+      "publishedAt": "2026-11-26T01:48:22+05:30",
       "category": "Economy",
-      "summary": "FM Nirmala Sitharaman chairs 12th pre-Budget consultation with education, skilling and sports stakeholders The Economic Times"
+      "summary": "RBI's net dollar purchases plunge to $6.9 billion in September from $43.2 billion in August The Economic Times"
     },
     {
-      "title": "Top Headlines For Your School Assembly for November 26: India To Observe Constitution Day",
-      "excerpt": "Catch the top news updates from India and around the world for you morning assembly bulletin for November 26",
-      "url": "https://www.ndtvprofit.com/education/top-headlines-for-your-school-assembly-for-november-26-india-to-observe-constitution-day-12376314#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/nfrj1eoc_shubman-gill_625x300_25_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:39:39+05:30",
-      "category": "Markets",
-      "summary": "Catch the top news updates from India and around the world for you morning assembly bulletin for November 26"
-    },
-    {
-      "title": "LG Electronics shares to be in focus as promoter to sell 2% stake to meet public float norms; check details",
-      "excerpt": "LG Electronics Inc. plans to sell up to 2% of LG Electronics India through a block deal at a floor price of ₹1,709.30 per share, raising about ₹2,320.5 crore to meet minimum public shareholding rules. The sale would redu",
-      "url": "https://www.livemint.com/market/lg-electronics-shares-to-be-in-focus-as-promoter-to-sell-2-stake-to-meet-public-float-norms-check-details-11795612944008.html",
+      "title": "Bitcoin Miners Hammered Again as Price Rout Squeezes Margins",
+      "excerpt": "The plunge in the value of Bitcoin is putting pressure on billion-dollar mining companies to liquidate their remaining token reserves, both to cover steep operating costs and to fund an increasingly strained pivot into A",
+      "url": "https://www.livemint.com/market/bitcoin-miners-hammered-again-as-price-rout-squeezes-margins-11795637714378.html",
       "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/25/1600x900/logo/LG-ELECTRONICS-INDIA-IPO--0_1760328393677_1760328408096_1795614534498_BkYd_d91678e7-931f-43e8-85eb-748b57f85b1a_uROC.JPG",
-      "publishedAt": "2026-11-25T19:31:25+05:30",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market1_1733465997762_1733466008348.jpg",
+      "publishedAt": "2026-11-26T01:45:13+05:30",
       "category": "Markets",
-      "summary": "LG Electronics Inc. plans to sell up to 2% of LG Electronics India through a block deal at a floor price of ₹1,709.30 per share, raising about ₹2,320.5 crore to meet minimum public shareholding rules. The sale would redu"
+      "summary": "The plunge in the value of Bitcoin is putting pressure on billion-dollar mining companies to liquidate their remaining token reserves, both to cover steep operating costs and to fund an increasingly strained pivot into A"
     },
     {
-      "title": "India 17%, China 20%, Japan 15%: Who's Winning And Losing Under Trump's Proposed Tariffs?",
-      "excerpt": "Vietnam has been proposed at 20%, and Thailand and Indonesia at a minimum of 18%. India follows at 17%, which the US describes as a \"deal rate\".",
-      "url": "https://www.ndtvprofit.com/business/india-17-china-20-japan-15-whos-winning-and-losing-under-trumps-proposed-tariffs-12376281#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-04/8bsq8l88_modi-trump_625x300_14_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:31:00+05:30",
+      "title": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times",
+      "excerpt": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-26T01:38:01+05:30",
       "category": "Markets",
-      "summary": "Vietnam has been proposed at 20%, and Thailand and Indonesia at a minimum of 18%. India follows at 17%, which the US describes as a \"deal rate\"."
+      "summary": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times The Economic Times"
     },
     {
-      "title": "16-Year-Old Latvian High School Dropout Wants To Bring Down 'Cost Per Kill' With AI Missile Venture",
-      "excerpt": "Henrijs Dandzbergs, the founder of Polemos Industries, hopes to optimise targeted killing with a new class of precision-guided missile that can be manufactured at low costs.",
-      "url": "https://www.ndtvprofit.com/business/16-year-old-latvian-high-school-dropout-wants-to-bring-down-cost-per-kill-with-his-ai-missile-venture-12375530#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/8ii0scak_henrijs-dandzbergs_625x300_25_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:29:40+05:30",
-      "category": "Markets",
-      "summary": "Henrijs Dandzbergs, the founder of Polemos Industries, hopes to optimise targeted killing with a new class of precision-guided missile that can be manufactured at low costs."
+      "title": "Inflation pressures broaden across India, raising rate-hike risks ahead of RBI's December review",
+      "excerpt": "Inflation pressures broaden across India, raising rate-hike risks ahead of RBI's December review The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPelR4dGdmUlBWMWZZUDVsRjVTSWtJd1BQWVJ2SVNZSGRYRTg4RE50allTZ1JVeHJsdUpmb3hGbzBUTWs1QlVDSUVkOV9sR2I1c0pVaHZLbk5Sc1NjR0tuYXExeTFvUEVTeGotTmQwcmRBdjNjTnlqeUlhQmhKaHZZaUhaNGtlMkp5YlBEVlRSZmthNkhYY1VtNE1aMDR5bWhHWlBjbHdSOWdPLTV5c0hzR2lZb0xGb3Fpbk5fV2otZndOV1REWWhQV0hTWTh2WGh5M3VfbHFQakV2Z0ZaZmVGajdpRXEyYUdBdmx4Si1Salc2QUVFMW5UeHo4VGrSAYICQVVfeXFMTVhFR0JUcVhBTUp6aHVZY1N0ZmM2TUs4LTF1enFvQW1pa1FOVWlfbDZhOGVCcS1QUGxLODRpOTFLV3BvY3NvbWpLSHoxMGhkdTctSnpKaHBDQ0IwYVlTNVo4MXo2TWVVXzhnVXNUVUZmU05vSzhUS2owY3pWZUlYUHVTVVdBX2VkVE1iRFBSUi03MU4wUkJaNXRWMzJORHctdjNNYW1JblgxYVVTUWNLaUh1Z2pVbEtoWTRySFlfT2hTYjh2X0FVRXE5aDV1dHFyZGJ1WFJETWhTZWx3UndjYVVHWmp6YXJwYnVRRThST3VHWnpQYjEtZnNLVXluMXg5MEZ3?oc=5",
+      "source": "The Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-26T01:36:24+05:30",
+      "category": "Economy",
+      "summary": "Inflation pressures broaden across India, raising rate-hike risks ahead of RBI's December review The Economic Times"
     },
     {
-      "title": "CAT 2026 On November 29: Check Exam",
-      "excerpt": "Mobile phones, calculators, watches, electronic gadgets, wallets, bags and unauthorised stationery will not be permitted inside the examination hall.",
-      "url": "https://www.ndtvprofit.com/education/cat-2026-on-november-29-check-exam-day-guidelines-dress-code-and-prohibited-items-12376371#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/oqqeel0o_cat-2026-on-november-29-check-examday-guidelines-dress-code-and-prohibited-items_625x300_25_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:29:17+05:30",
+      "title": "US yields fall but move off lows as stocks pare sharp losses",
+      "excerpt": "USA-BONDS/ (UPDATE 1, GRAPHICS):TREASURIES-US yields fall but move off lows as stocks pare sharp losses",
+      "url": "https://www.livemint.com/market/us-yields-fall-but-move-off-lows-as-stocks-pare-sharp-losses-11795635802694.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_4_1733466069237_1733466076549.png",
+      "publishedAt": "2026-11-26T01:13:22+05:30",
       "category": "Markets",
-      "summary": "Mobile phones, calculators, watches, electronic gadgets, wallets, bags and unauthorised stationery will not be permitted inside the examination hall."
+      "summary": "USA-BONDS/ (UPDATE 1, GRAPHICS):TREASURIES-US yields fall but move off lows as stocks pare sharp losses"
+    },
+    {
+      "title": "Anthropic’s IPO slide fuels fresh concerns over AI valuations; 37 stocks decline despite positive earnings multiples",
+      "excerpt": "Anthropic’s fall below its IPO price has intensified concerns over lofty AI valuations, even as earnings forecasts improve across the technology sector. Investors are increasingly focused on whether heavy spending can tr",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/anthropics-ipo-slide-fuels-fresh-concerns-over-ai-valuations/articleshow/136171888.cms",
+      "source": "Economic Times",
+      "image": null,
+      "publishedAt": "2026-11-26T01:05:02+05:30",
+      "category": "Markets",
+      "summary": "Anthropic’s fall below its IPO price has intensified concerns over lofty AI valuations, even as earnings forecasts improve across the technology sector. Investors are increasingly focused on whether heavy spending can tr"
+    },
+    {
+      "title": "Soybeans rebound ahead of holiday as soymeal futures climb",
+      "excerpt": "GLOBAL-GRAINS/ (UPDATE 2):GRAINS-Soybeans rebound ahead of holiday as soymeal futures climb",
+      "url": "https://www.livemint.com/market/soybeans-rebound-ahead-of-holiday-as-soymeal-futures-climb-11795631929299.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/logo/market_2_1733466021722_1733466033367.jpg",
+      "publishedAt": "2026-11-26T00:08:48+05:30",
+      "category": "Markets",
+      "summary": "GLOBAL-GRAINS/ (UPDATE 2):GRAINS-Soybeans rebound ahead of holiday as soymeal futures climb"
+    },
+    {
+      "title": "Lille vs Bayern Munich Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
+      "excerpt": "Bayern Munich will aim to extend their unbeaten Champions League run when they face Lille in France. Here's how to watch the match live in India.",
+      "url": "https://www.ndtvprofit.com/sports/lille-vs-bayern-munich-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12377581#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/6rbrq4p4_bayern-munich_625x300_26_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-26T00:05:17+05:30",
+      "category": "Markets",
+      "summary": "Bayern Munich will aim to extend their unbeaten Champions League run when they face Lille in France. Here's how to watch the match live in India."
+    },
+    {
+      "title": "Stocks To Watch Today: Siemens Energy, Wipro, Lupin, Punjab National Bank And Acme Solar",
+      "excerpt": "Here's a look at stocks that are likely to be in focus during the trading session on Thursday.",
+      "url": "https://www.ndtvprofit.com/markets/stocks-to-watch-today-siemens-energy-wipro-lupin-punjab-national-bank-and-acme-solar-12377476#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-07/i9olc5u4_ayntk_625x300_12_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-26T00:00:01+05:30",
+      "category": "Markets",
+      "summary": "Here's a look at stocks that are likely to be in focus during the trading session on Thursday."
+    },
+    {
+      "title": "Club Brugge vs Liverpool Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
+      "excerpt": "Check when and where to watch Club Brugge vs Liverpool live in India, including match timing, TV telecast, online streaming, predicted lineups and head-to-head record.",
+      "url": "https://www.ndtvprofit.com/sports/club-brugge-vs-liverpool-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12377562#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-11/rsdb57rc_liverpool_625x300_25_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:54:41+05:30",
+      "category": "Markets",
+      "summary": "Check when and where to watch Club Brugge vs Liverpool live in India, including match timing, TV telecast, online streaming, predicted lineups and head-to-head record."
+    },
+    {
+      "title": "India rejects US' structural excess capacity allegations as Washington links 17% tariff to trade deal, 25% otherwise",
+      "excerpt": "India rejected US claims of structural excess capacity, saying it has none in any sector. New Delhi said it remains committed to concluding a bilateral trade deal, as Washington proposed tariffs of 17% if an agreement is",
+      "url": "https://www.livemint.com/economy/india-rejects-us-structural-excess-capacity-allegations-as-washington-links-17-tariff-to-trade-deal-25-otherwise-11795630104530.html",
+      "source": "Mint",
+      "image": "https://www.livemint.com/lm-img/img/2026/11/25/1600x900/india_1795630404517_EC9G_1795630404672_Nmio_5ca6c6f1-9272-464e-89c4-936ca124e774_cPsQ.png",
+      "publishedAt": "2026-11-25T23:45:51+05:30",
+      "category": "Economy",
+      "summary": "India rejected US claims of structural excess capacity, saying it has none in any sector. New Delhi said it remains committed to concluding a bilateral trade deal, as Washington proposed tariffs of 17% if an agreement is"
+    },
+    {
+      "title": "'No Structural Excess Capacity In Any Sector': India Pushes Back As US Proposes Up To 25% Tariffs",
+      "excerpt": "India says trade concerns should be settled through bilateral trade talks, after Washington named it among 14 economies it accuses of hurting American manufacturing.",
+      "url": "https://www.ndtvprofit.com/economy/no-structural-excess-capacity-in-any-sector-india-pushes-back-as-us-proposes-up-to-25-tariffs-12377514#publisher=newsstand",
+      "source": "NDTV Profit",
+      "image": "https://c.ndtvimg.com/2026-01/bc0435af_aerial-view-cargo-ship-cargo-container-harbor.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:41:18+05:30",
+      "category": "Markets",
+      "summary": "India says trade concerns should be settled through bilateral trade talks, after Washington named it among 14 economies it accuses of hurting American manufacturing."
     },
     {
       "title": "US Proposes 17% Tariff On India. Here's How That Compares With China, Japan And Vietnam",
@@ -118,139 +178,79 @@
       "url": "https://www.ndtvprofit.com/business/us-slaps-17-tariffs-on-india-in-fresh-set-of-levies-12376147#publisher=newsstand",
       "source": "NDTV Profit",
       "image": "https://c.ndtvimg.com/2026-01/3f7350ae_WhatsApp-Image-2025-07-09-at-9.30.51-PM.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:28:59+05:30",
+      "publishedAt": "2026-11-25T23:40:54+05:30",
       "category": "Markets",
       "summary": "The US has proposed a 17% tariff rate for India following a trade probe, while fresh levies targeting major trading partners, including China, the EU and Japan, are also on the table."
     },
     {
-      "title": "Gold Has Lost A Third Of Its Value Since January. It Just Broke Below $3,500",
-      "excerpt": "Gold dropped below $3,500 an ounce to lowest since Sept. 2025.",
-      "url": "https://www.ndtvprofit.com/markets/gold-has-lost-a-third-of-its-value-since-january-it-just-broke-below-3-500-12375964#publisher=newsstand",
+      "title": "Sporting CP vs Manchester United Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
+      "excerpt": "Manchester United travel to Lisbon to take on Sporting CP in a Champions League league-phase clash, with Bruno Fernandes set for a return to his former club.",
+      "url": "https://www.ndtvprofit.com/sports/sporting-cp-vs-manchester-united-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12377526#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-10/450kamgo_gold-loses-shine-yellow-metal-prices-drop-by-over-rs-1600-to-below-rs-150000_625x300_12_October_26.jpg",
-      "publishedAt": "2026-11-25T19:27:56+05:30",
+      "image": "https://c.ndtvimg.com/2026-11/kpotm0b8_man-united_625x300_25_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:40:06+05:30",
       "category": "Markets",
-      "summary": "Gold dropped below $3,500 an ounce to lowest since Sept. 2025."
+      "summary": "Manchester United travel to Lisbon to take on Sporting CP in a Champions League league-phase clash, with Bruno Fernandes set for a return to his former club."
     },
     {
-      "title": "India stands out amid uneven global growth, says RBI bulletin",
-      "excerpt": "Strong consumption, credit growth and exports underpin domestic economic activity, even as geopolitical tensions, elevated energy prices and global financial market volatility cloud the outlook.",
-      "url": "https://www.livemint.com/economy/india-stands-out-amid-uneven-global-growth-says-rbi-bulletin-11795612833237.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/25/1600x900/logo/RBI_1794725082237_Px4v_1795614903344_w7wb_f26edd26-9537-4015-88ae-f297613cd530_E0M2.jpg",
-      "publishedAt": "2026-11-25T19:27:48+05:30",
-      "category": "Economy",
-      "summary": "Strong consumption, credit growth and exports underpin domestic economic activity, even as geopolitical tensions, elevated energy prices and global financial market volatility cloud the outlook."
-    },
-    {
-      "title": "Gunmaaster G9 Advance Bookings: Emraan Hashmi Starrer Gains Pace Ahead Of Release",
-      "excerpt": "Gunmaaster G9 follows a gripping story of crime, action and revenge, with Emraan Hashmi leading the film alongside Avneet Kaur and Genelia Deshmukh.",
-      "url": "https://www.ndtvprofit.com/entertainment/gunmaaster-g9-advance-booking-gains-pace-ahead-of-emraan-hashmi-s-theatrical-return-12375948#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/80jpja0s_gunmaaster-g9_625x300_25_November_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:21:50+05:30",
-      "category": "Markets",
-      "summary": "Gunmaaster G9 follows a gripping story of crime, action and revenge, with Emraan Hashmi leading the film alongside Avneet Kaur and Genelia Deshmukh."
-    },
-    {
-      "title": "Two in five Indian family offices, UHNIs have engaged with crypto amid regulatory caution",
-      "excerpt": "Around 41 percent of high-net-worth investors in India are delving into the world of cryptocurrencies and virtual digital assets, despite many only possessing a fundamental comprehension of this evolving landscape. Regul",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/two-in-five-indian-family-offices-uhnis-have-engaged-with-crypto-amid-regulatory-caution/articleshow/136163899.cms",
-      "source": "Economic Times",
+      "title": "RBI study urges caution as NBFCs' reliance on bank borrowings rises",
+      "excerpt": "RBI study urges caution as NBFCs' reliance on bank borrowings rises Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTnJudWNwYnFhaWdSRnZ6Z2hjZGNudnAtN2k3MmVpM1NWdFMtOGJ4SWE3cHVxd0FCQUVYeVpUbGxuZmdFSHN1QV96TF9FUWlzYkhTdkg1V0QyVHZOOHlia3BFYTVZU3lXSmtmZTdTY2pFY04wc0RrUVpydmhhaW14U0dJWEpsT3VQeE5wcnc5ckZ4TWpoUklTNTlIdFhUNWNoOG5NVFRYVWtGUWsxdFZLQjM4NWxGUXQ0VnNqUWRjLXlDZUZXazM3VzV2Z0FCMy1idDA00gHYAUFVX3lxTE1sNEdIVGUwbDBjR28waFhUSnNQNUlWOUdNNlJJUjVmbFBDeDRkY2xKdDY4QVNQZ1VrUms5MXFfSUZBYURQZURKdV9KMDVxWk9IZjVNX0NmUFo2SWxIc1JVai1nN1oyUmJqdFV6VTNqeHJzbUUtX3VlTWVpejNQZC1LNDU1LXJ0SVdBOWNkcjdWRmpGcGpQaW4tNmt0LWtmWTBBQU1kQWstSFJDRmh3dUZrUDdHYVBIcEpXWV9MRzRwMThnSHJjMDZQZnQwaXVNekdUa2ZoM0FkNw?oc=5",
+      "source": "Business Standard",
       "image": null,
-      "publishedAt": "2026-11-25T19:19:47+05:30",
-      "category": "Markets",
-      "summary": "Around 41 percent of high-net-worth investors in India are delving into the world of cryptocurrencies and virtual digital assets, despite many only possessing a fundamental comprehension of this evolving landscape. Regul"
-    },
-    {
-      "title": "Gold, Silver Rates Live Updates: Gold Drops Below $3,500 An Ounce To Lowest Since Sept. 2025.",
-      "excerpt": "Gold price dipped slightly to Rs 1,22,250 per 10 grams in early trade on Wednesday as per MCX data.",
-      "url": "https://www.ndtvprofit.com/markets/gold-silver-rates-live-updates-yellow-metal-falls-25-november-gold-prices-in-mumbai-delhi-chennai-hyderabad-bengaluru-and-kolkata-12373109#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/ba3mk204_gold-and-silver-prices-in-india-photo-pexels_625x300_25_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:18:57+05:30",
-      "category": "Markets",
-      "summary": "Gold price dipped slightly to Rs 1,22,250 per 10 grams in early trade on Wednesday as per MCX data."
-    },
-    {
-      "title": "US Treasury gains lift India bonds ahead of RBI meet - bfsi.economictimes.indiatimes.com",
-      "excerpt": "US Treasury gains lift India bonds ahead of RBI meet bfsi.economictimes.indiatimes.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTHNPazBheWI5S0praHdzdlRYWnplV2JmODh6a1Nsb0RCWm05aV9zeExJRFZRU3M3MnlEdWNZZ2VfMkJqZEJDVnpOX21kLS1iTUlGb3pEemg4LUVnT1Vza2xxLVFOMTc2dUc5LTBicXAtS2w5Q0VMMllMaG9UUmRabnZwVzRmQW9Ib2ZyLWZIaE16eWI1emdQU1RaSUJJWXAteGJLYmhYSl8zNFJiajdQXzFob9IBuAFBVV95cUxQM2FucUVXZEMxWkh0MGlodEJWMHA5ODV6LURBU1FZNGgwWFN6TnFDWDJiVTBBWUxrNGZ0LUd5dHBPWGNJLXgxXzJiZUZiRXA4X1pLUFdOZm1aX2VtZUxRT0d1NEdvTUh5ZEF4dzcxOHVCMnRKZDRqMUZNTVh3cjNEUzM3SnByRUs4UkE1Ymh2UjU3ZEFhZjhJa181ajVjS2hwWk5yOV9PbnB4N2dqRUtQS2hnWS10NEdG?oc=5",
-      "source": "bfsi.economictimes.indiatimes.com",
-      "image": null,
-      "publishedAt": "2026-11-25T19:18:07+05:30",
+      "publishedAt": "2026-11-25T23:33:13+05:30",
       "category": "Economy",
-      "summary": "US Treasury gains lift India bonds ahead of RBI meet bfsi.economictimes.indiatimes.com"
+      "summary": "RBI study urges caution as NBFCs' reliance on bank borrowings rises Business Standard"
     },
     {
-      "title": "'Catch Of The Century'? Man On Moving Motorcycle Takes One",
-      "excerpt": "The unusual incident reportedly took place during a Swat Premier League match between Swat Strikers and GKR Dir.",
-      "url": "https://www.ndtvprofit.com/trending/catch-of-the-century-man-on-moving-motorcycle-takes-one-handed-stunner-outside-pakistan-stadium-12376313#publisher=newsstand",
+      "title": "Who Is Sanjay Mehrotra? The Indian-Origin Micron CEO Whose Security Costs Just Jumped 2,000%",
+      "excerpt": "Micron CEO Sanjay Mehrotra's security expenses surged 2,000% to $764,748 in FY26 as the AI-driven chipmaker's valuation soared. Here's a look at his journey and wealth.",
+      "url": "https://www.ndtvprofit.com/technology/who-is-sanjay-mehrotra-the-indian-origin-micron-ceo-whose-security-costs-just-jumped-2-000-12377494#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/an4g8qd8_pakistan_625x300_25_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:18:02+05:30",
+      "image": "https://c.ndtvimg.com/2026-05/5ohuaak8_sanjay-mehrotra-chairman-president-and-ceo_625x300_29_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:29:49+05:30",
       "category": "Markets",
-      "summary": "The unusual incident reportedly took place during a Swat Premier League match between Swat Strikers and GKR Dir."
+      "summary": "Micron CEO Sanjay Mehrotra's security expenses surged 2,000% to $764,748 in FY26 as the AI-driven chipmaker's valuation soared. Here's a look at his journey and wealth."
     },
     {
-      "title": "O Saathi Re Trailer: Aditi Rao Hydari, Avinash Tiwary's Marriage In Trouble After Arjun Rampal's Entry",
-      "excerpt": "Created by Imtiaz Ali and directed by Arif Ali, O Saathi Re explores the complexities of love, class differences, insecurity, and a marriage falling apart.",
-      "url": "https://www.ndtvprofit.com/entertainment/aditi-rao-hydari-avinash-tiwary-s-marriage-in-trouble-after-arjun-rampal-s-entry-in-imtiaz-ali-s-o-saathi-re-12375853#publisher=newsstand",
+      "title": "Pune Traffic Cop Dragged On Thar's Bonnet As Driver Tries To Escape E",
+      "excerpt": "The driver allegedly sped away after dragging Constable Dattatray Bhosale on the bonnet of the SUV, leaving him injured.",
+      "url": "https://www.ndtvprofit.com/india/pune-traffic-cop-dragged-on-thars-bonnet-as-driver-tries-to-escape-e-challan-12377488#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/b5o61j18_re_625x300_25_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:14:36+05:30",
+      "image": "https://c.ndtvimg.com/2026-11/t7q2rb78_ndtv_625x300_25_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:28:10+05:30",
       "category": "Markets",
-      "summary": "Created by Imtiaz Ali and directed by Arif Ali, O Saathi Re explores the complexities of love, class differences, insecurity, and a marriage falling apart."
+      "summary": "The driver allegedly sped away after dragging Constable Dattatray Bhosale on the bonnet of the SUV, leaving him injured."
     },
     {
-      "title": "Yeh Prem Mol Liya Advance Bookings: Sooraj Barjatya Film Gains Momentum Before Release",
-      "excerpt": "Ayushmann Khurrana and Sharvari stars in a romantic family drama about love, relationships and family values.",
-      "url": "https://www.ndtvprofit.com/entertainment/cinema-bollywood-movie-yeh-prem-mol-liya-advance-bookings-sooraj-barjatya-ayushmann-khurrana-film-pre-release-ticket-sales-12376135#publisher=newsstand",
+      "title": "Buy, Sell Or Hold: Samvardhana Motherson, ITC, IRCTC, Hitachi Energy India, Shriram Finance And HDFC Bank — Ask Profit",
+      "excerpt": "Market experts shared their insights on fundamentals and technical levels for key stocks such as, ITC, IRCTC, Shriram Finance and HDFC Bank.",
+      "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-samvardhana-motherson-itc-irctc-hitachi-energy-india-shriram-finance-and-hdfc-bank-ask-profit-12377325#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/mb0ttfbg_yehpremmolliyaadvancebooking_625x300_25_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T19:01:38+05:30",
+      "image": "https://c.ndtvimg.com/2026-08/pljiq8vo_buy-sell-hold_625x300_25_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:27:03+05:30",
       "category": "Markets",
-      "summary": "Ayushmann Khurrana and Sharvari stars in a romantic family drama about love, relationships and family values."
+      "summary": "Market experts shared their insights on fundamentals and technical levels for key stocks such as, ITC, IRCTC, Shriram Finance and HDFC Bank."
     },
     {
-      "title": "He Bought Trent At A Rs 200-Crore Valuation And Rode It 600x Higher: Where Is He Betting Now?",
-      "excerpt": "Karmarkar's decision to sell Titan was driven mainly by concerns about lab-grown diamonds and the potential effect on the jewellery business.",
-      "url": "https://www.ndtvprofit.com/business/milind-karmarkar-stock-picks-he-bought-trent-at-a-rs-200-crore-valuation-and-rode-it-600x-higher-where-is-he-betting-now-bse-nse-nifty-today-titan-dma-12373652#publisher=newsstand",
+      "title": "Data Centres In Space? US Approves SpaceX Plan For 1 Million AI Satellites",
+      "excerpt": "The US Federal Communications Commission has authorised Elon Musk's SpaceX to deploy up to one million satellites for orbital data centres. The Starmind network aims to process AI workloads in space and transmit results ",
+      "url": "https://www.ndtvprofit.com/business/data-centres-in-space-us-approves-spacex-plan-for-1-million-ai-satellites-12377461#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/m74fghl4_milind-karmarkars-top-stock-picks_625x300_25_November_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T18:54:33+05:30",
+      "image": "https://c.ndtvimg.com/2026-11/1aotn4n8_elon-musks-spacex-gets-approval-for-1-million-satellites-to-build-space-data-centres_625x300_25_November_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:17:57+05:30",
       "category": "Markets",
-      "summary": "Karmarkar's decision to sell Titan was driven mainly by concerns about lab-grown diamonds and the potential effect on the jewellery business."
+      "summary": "The US Federal Communications Commission has authorised Elon Musk's SpaceX to deploy up to one million satellites for orbital data centres. The Starmind network aims to process AI workloads in space and transmit results "
     },
     {
-      "title": "Corporate bond fundraising set for record in FY27 despite rising borrowing costs",
-      "excerpt": "As of 23 November, corporate bond issuances through private placements had already touched ₹7.16 trillion in FY27, according to Prime Database. With over four months remaining in the financial year, borrowing may reach o",
-      "url": "https://www.livemint.com/market/corporate-bond-fundraising-set-to-hit-record-high-in-fy27-despite-higher-costs-11795603193070.html",
-      "source": "Mint",
-      "image": "https://www.livemint.com/lm-img/img/2026/11/25/1600x900/logo/investor_1684403954684_1795608694014_AEnM_ae97ee66-d78e-4ca3-852a-7d30aedf0fab_cDvC.jpg",
-      "publishedAt": "2026-11-25T18:54:15+05:30",
-      "category": "Markets",
-      "summary": "As of 23 November, corporate bond issuances through private placements had already touched ₹7.16 trillion in FY27, according to Prime Database. With over four months remaining in the financial year, borrowing may reach o"
-    },
-    {
-      "title": "Just 8.5% Of What You Buy Is Imported, But It Drives 18% Of Inflation: RBI Bulletin",
-      "excerpt": "India's retail inflation rose to 6.09% in October, up from 5.54% in September, primarily driven by elevated food prices and an unfavourable base effect. The CPI-based inflation breached the RBI's upper tolerance limit of",
-      "url": "https://www.ndtvprofit.com/economy/just-8-5-of-what-you-buy-is-imported-but-it-drives-18-of-inflation-rbi-bulletin-12376075#publisher=newsstand",
+      "title": "Inter Milan vs Stuttgart Live Streaming: Likely Lineups; How To Watch Champions League Match On TV, Online?",
+      "excerpt": "Inter Milan will host Stuttgart in a Matchday 5 clash of the UEFA Champions League 2026-27. Check the match timing, predicted lineups and live telecast details.",
+      "url": "https://www.ndtvprofit.com/sports/inter-milan-vs-stuttgart-live-streaming-likely-lineups-how-to-watch-champions-league-match-on-tv-online-12377466#publisher=newsstand",
       "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-09/tbrs28s4_bb_625x300_13_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T18:52:26+05:30",
+      "image": "https://c.ndtvimg.com/2026-11/2i21f6rg_inter-milan_625x300_25_November_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "publishedAt": "2026-11-25T23:17:26+05:30",
       "category": "Markets",
-      "summary": "India's retail inflation rose to 6.09% in October, up from 5.54% in September, primarily driven by elevated food prices and an unfavourable base effect. The CPI-based inflation breached the RBI's upper tolerance limit of"
-    },
-    {
-      "title": "Rs 10 Lakh FD At 6.5% Vs 7.5%: How Much Does One Percentage Point Matter?",
-      "excerpt": "A simple 1% point difference can cost you nearly Rs 70,000 loss over 5 years. As a result, if you want to put a portion of your investment in this fund, you must compare rates across tenures.",
-      "url": "https://www.ndtvprofit.com/personal-finance/rs-10-lakh-fd-at-6-5-vs-7-5-how-much-does-one-percentage-point-matter-12375506#publisher=newsstand",
-      "source": "NDTV Profit",
-      "image": "https://c.ndtvimg.com/2026-11/6hgtpr3_money-growth_625x300_25_November_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "publishedAt": "2026-11-25T18:51:40+05:30",
-      "category": "Markets",
-      "summary": "A simple 1% point difference can cost you nearly Rs 70,000 loss over 5 years. As a result, if you want to put a portion of your investment in this fund, you must compare rates across tenures."
+      "summary": "Inter Milan will host Stuttgart in a Matchday 5 clash of the UEFA Champions League 2026-27. Check the match timing, predicted lineups and live telecast details."
     }
   ]
 }
